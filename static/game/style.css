@@ -1,0 +1,124 @@
+#map {
+    text-align: center;
+    margin: auto;
+    height: 400px;
+    width: 80%;
+    margin-bottom: 30px;
+    z-index: 10;
+}
+
+.toast {
+    width: 400px;
+}
+/* .toast-body {
+    font-size: large;
+} */
+
+.clickable-text {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: small;
+}
+
+#research-button {
+    position: fixed;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#research-button:hover {
+    outline: 5px solid rgba(0, 0, 0, 0.2);
+}
+
+#log-button {
+    /* position: fixed; */
+    /* left: 15px; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    width: 34px;
+    height: 36px;
+    border: solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#log-button:hover {
+    outline: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+#home-button {
+    /* position: fixed; */
+    /* left: 15px; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    width: 34px;
+    height: 36px;
+    border: solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 3px;
+}
+
+#home-button:hover {
+    outline: 3px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#logo:hover {
+    outline: 3px solid rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+}
+
+#logo {
+    /* border: solid rgba(0, 0, 0, 0.5); */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.challenge-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#dino-iframe {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.trivia-answer {
+    width: 100%;
+}
+
+.navbar {
+    z-index: 50;
+}
+
+.challange-card {
+    height: auto;
+}
+
+.quit-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: contain;
+}

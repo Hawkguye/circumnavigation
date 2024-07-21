@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Flappy Bird</title>
+	<script type='application/javascript' src="fastclick.js"></script>
+</head>
+<style>
+@font-face {
+	font-family: "Press Start 2P";
+	src: url("PressStart2P.ttf") format('truetype');
+}
+*{
+	cursor: pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+::selection{
+	background: transparent;
+}
+::-moz-selection{
+	background: transparent;
+}
+.option, .mode{
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	background: rgba(255, 255, 255, 0.6);
+	position: absolute;
+	top: 2px;
+	text-align: center;
+	font-size: 11px;
+	font-family: "Press Start 2P";
+	padding-top: 5px;
+	z-index: 2;
+}
+.option:hover, .mode:hover{
+	background: #fff;
+}
+#modes{
+	position: absolute;
+	top: 28px;
+}
+#easy, #flashlight{
+	left: 2px;
+}
+#normal, #hidden{
+	left: 74px;
+}
+#hard{
+	left: 146px;
+}
+canvas {
+  -webkit-tap-highlight-color: transparent;
+}
+</style>
+<body style="padding:0;margin:0;outline:0;overflow:hidden">
+	<canvas id="canvas"></canvas>
+	<div id="easy" class="option" style="box-shadow:0 0 0 2px #165CF3">easy</div>
+	<div id="normal" class="option">normal</div>
+	<div id="hard" class="option">hard</div>
+	<br/>
+	<div id="modes">
+		<div id="flashlight" class="mode">FL</div>
+		<!-- <div id="hidden" class="mode">HD</div> -->
+	</div>
+  <script type="application/javascript" src="fb.js"></script>
+</body>
+</html>

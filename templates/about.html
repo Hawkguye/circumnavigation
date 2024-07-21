@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <title>Circumnavigation!</title>
+
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='scripts/bootstrap.min.css') }}">
+
+    <style>
+        .scrollspy {
+            height: 500px;
+            overflow-y: scroll;
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET3TFYCPD2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ET3TFYCPD2');
+    </script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top p-0">
+        <div class="container my-1">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="nav-item">
+                    <!-- logo -->
+                    <img src="{{ url_for('static', filename='img/logo-sm.png') }}" alt="logo" width="80px" height="80px">
+
+                </div>
+                <div class="nav-item ms-4">
+                    <h5 class="my-0">A Circumnavigation Game</h5>
+                    <div class="text-start">
+                        <small class="my-0 text-end">-- Inspired by <a href="https://youtu.be/Gta43oOV4Ag" target="_blank" rel="noopener noreferrer">JL:TG</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <a href="http://127.0.0.1:5000" class="ms-3">Go Home</a>
+    <div class="container mt-2">
+    <div class="row">
+        <div class="col-3">
+            <nav id="tutorial-navbar" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-underline flex-column">
+                    <a class="nav-link" href="#about">About Circumnavigation</a>
+                        <a class="nav-link ms-3 pt-0" href="#criteria">Winning Criteria</a>
+                    <a class="nav-link" href="#how">How To Play</a>
+                    <!-- <nav class="nav nav-underline flex-column">
+                        <a class="nav-link ms-3 pt-0" href="#item-1-1">Item 1-1</a>
+                        <a class="nav-link ms-3 pt-0" href="#item-1-2">Item 1-2</a>
+                    </nav>
+                    <a class="nav-link" href="#item-2">Item 2</a>
+                    <a class="nav-link" href="#item-3">Item 3</a>
+                    <nav class="nav nav-underline flex-column">
+                        <a class="nav-link ms-3 pt-0" href="#item-3-1">Item 3-1</a>
+                        <a class="nav-link ms-3 pt-0" href="#item-3-2">Item 3-2</a>
+                    </nav> -->
+                </nav>
+            </nav>
+        </div>
+        
+        <div class="col-9">
+            <div data-bs-spy="scroll" data-bs-target="#tutorial-navbar" data-bs-smooth-scroll="true" class="scrollspy" tabindex="0" >
+                <div id="about">
+                    <h4>About Circumnavigation</h4>
+                    <p class="ms-2">
+                        Circumnavigation is a daily challenge game where you try to <b>go around the world</b> in the shortest time possible!
+                        <br>
+                        You gain budget by completing challenges, then you use the budget to buy plane tickets and afford taxis.
+                        <h5 class="mb-0" id="criteria">Winning Criteria:</h5>
+                        <a href="https://angusadventures.com/adventurer-handbook/about-global-circumnavigations/#:~:text=For%20a%20powered%20aircraft%20to,at%20the%20point%20of%20departure." target="_blank" rel="noopener noreferrer">
+                            <small>(Under FAI guidelines)</small>
+                        </a>
+                        <ul class="mt-1">
+                            <li>
+                                You must complete the journey at the point of departure. 
+                            </li>
+                            <li>
+                                Your route must covered the distance of <b>36788 km (22859 miles)</b> (the length of the Tropic of Cancer).
+                            </li>
+                            <li>
+                                Your route must crossed all meridians.
+                            </li>
+                        </ul>
+                    </p>
+                    
+                </div>
+                <div id="how">
+                    <h4>How To Play</h4>
+                    <p>
+                        
+                    </p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="mb-0 me-4">
+                    <h5>Original idea from Jet Lag: The Game</h5>
+                    <p>Great content! Go watch them if you're not already a fan.</p>
+                    </div>
+                    <iframe class="me-2" width="350" height="200" src="https://www.youtube.com/embed/Gta43oOV4Ag" title="We Raced To Circumnavigate The Globe In 100 Hours" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/bootstrap.bundle.min.js') }}"></script>
+    
+    <script type="text/javascript">
+        
+    </script>
+</body>
+</html>

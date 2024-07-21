@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <title>Circumnavigation!</title>
+
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='scripts/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='scripts/leaflet.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='game/style.css') }}">
+
+    <script type="text/javascript">
+        const API_URL = "{{ api_url }}";
+        const FLIGHT_URL = "{{ flight_url }}";
+
+        const gameId = {{ game_id }};
+        const startingIata = "{{ starting_iata }}";
+        const starting_time_str = "{{ starting_time }}";
+        const startingTime = new Date(starting_time_str);
+
+        const airportsJsonUrl = "{{ url_for('static', filename='game/airports.json') }}";
+        const timezoneJsonUrl = "{{ url_for('static', filename='game/raw-time-zones.json') }}";
+        const destsJsonUrl = "{{ url_for('static', filename='dests/') }}";
+        const imgDir = "{{ url_for('static', filename='img/') }}";
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET3TFYCPD2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ET3TFYCPD2');
+    </script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <div class="row w-100 mx-0">
+                <div class="col-md-4 d-flex align-items-center my-2">
+                    <div class="nav-item mx-auto" style="width: 250px;">
+                        <!-- <h5 id="game-time-label"></h5> -->
+                        <h6 class="my-0" id="utc-time">Time</h6>
+                        <h6 class="my-0" id="local-time"></h6>
+                        <h6 class="mt-1 mb-0">Elapsed time: <b id="elapsed-time">0d 0hr 0min</b></h6>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center align-items-center my-2">
+                    <div class="nav-item">
+                        <!-- home button -->
+                        
+                        <span id="home-button" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Back To Home" onclick="goHomeConfirm()">
+                            <img src="{{ url_for('static', filename='img/home.png') }}" alt="home" width="25px" height="25px">
+                        </span>
+
+
+                        <!-- logo -->
+                        <img class="mx-2" id="logo" src="{{ url_for('static', filename='img/logo-sm.png') }}" alt="logo" width="80px" height="80px" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Challenge Board" onclick="openChallengeModal()">
+                        
+                        <!-- log button -->
+                        <span
+                        id="log-button"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#log-offcanvas"
+                        aria-controls="log-offcanvas"
+                        >
+                            <img src="{{ url_for('static', filename='img/log_icon.png') }}" alt="flight log" width="25px" height="25px">
+                        </span>
+                        
+                    </div>
+                </div>
+
+                <!-- money & km -->
+                <div class="col-md-4 d-flex align-items-center my-2">
+                    <div class="nav-item mx-auto">
+                        <!-- distance progress bar -->
+                        <div class="progress-stacked" style="width: 200px;"
+                         data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Distance Covered"
+                        >
+                            <div id="distance-covered-bar" class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                <div id="distance-covered-bar-label" class="progress-bar">30%</div>
+                            </div>
+                            <div id="distance-preview-bar" class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+                                <div id="distance-preview-bar-label" class="progress-bar bg-info"></div>
+                            </div>
+                        </div>
+
+                        <h6 class="font-weight-bold text-center my-0">Distance: <b id="distance-covered">0 / 36788 km</b></h6>
+                        <h6 class="font-weight-bold text-center my-1">Budget: <b id="money-left">$0</b></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- challange modal -->
+    <div class="modal modal-xl fade modal-centered" id="challange-modal">
+        <div class="modal-dialog modal-fullscreen-lg-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="challange-title">Challenge Board</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-info" id="new-challenge-alert" style="display: none;" role="alert">
+                        New City! Drawing new challenge cards!
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4" id="challenge-card-1">
+                            
+                        </div>
+                        <div class="col-md-4" id="challenge-card-2">
+                            
+                        </div>
+                        <div class="col-md-4" id="challenge-card-3">
+                            
+                        </div>
+                    </div>
+                </div>
+                            
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- trivia canvas -->
+    <div class="challenge-canvas" id="trivia-canvas" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="card text-center">
+                        <div class="card-header d-flex justify-content-between">
+                            <h6 class="card-title my-1">Trivia Question</h6>
+                            <p class="ms-auto" id="trivia-counter">0/10</p>
+                        </div>
+                        <div class="card-body border-bottom py-0">
+                            <h5 class="card-title my-1 py-2" id="trivia-question">Loading...</h5>
+
+                            <p class="text-end" id="trivia-category"></p>
+                            
+                            <div id="progressTimer" class="progress mt-2 mb-3" role="progressbar">
+                                <!-- <div id="progressTimer-bar" class="progress-bar bg-success" style="width: 100%">10s</div> -->
+                            </div>
+                        </div>
+                        <div class="card-body" id="trivia-answers">
+                            <!-- <button class="btn btn-outline-primary trivia-answer my-1" type="button">answer 1</button>
+                            <button class="btn btn-outline-primary trivia-answer my-1" type="button">answer 2</button>
+                            <button class="btn btn-outline-primary trivia-answer my-1" type="button">answer 3</button>
+                            <button class="btn btn-outline-primary trivia-answer my-1" type="button">answer 4</button> -->
+                        </div>
+                        <div class="card-footer text-muted d-flex justify-content-between">
+                            <div id="next-trivia-div" style="display: none;">
+                                <button class="btn btn-primary" id="next-trivia-btn">Next Question</button>
+                            </div>
+                            <button id="quitChallenge" class="btn btn-sm btn-outline-warning ms-auto" onclick="quitChallenge()">Quit Challenge</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- minigame canvas -->
+    <div class="challenge-canvas" id="minigame-canvas" style="display: none;">
+        <!-- <iframe src="/minigames/2048/index.html" frameborder="0" width="80%" height="80%"></iframe> -->
+    </div>
+
+    <!-- log offcanvas -->
+    <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="log-offcanvas"
+        aria-labelledby="Flights Booked"
+    >
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="Flights Booked">
+                Flights Booked
+            </h5>
+            <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+            ></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion accordion-flush" id="previous-flights-container">
+            </div>
+        </div>
+    </div>
+    
+    <!-- endscreen -->
+    <div class="container text-center py-3 border-top border-bottom" id="endscreen" style="display: none;">
+        <div>
+            <h4>Congratulations!</h4>
+        </div>
+        <div>
+            <h6>You successfully circumnavigated the globe!</h6>
+            <h6>Used time: <b id="endscreen-usedtime">1d1hr1min</b></h6>
+            <h6>Money Spent: <b id="endscreen-usedmoney">$3000</b></h6>
+            <button class="btn btn-sm btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#log-offcanvas" aria-controls="log-offcanvas">
+                View Your Route
+            </button>
+        </div>
+        <br>
+        <div class="container">
+            <h5>Leaderboard</h5>
+            <table class="table table-sm table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Username</th>
+                        <th scope="col">Used Time</th>
+                        <th scope="col">Money Spent</th>
+                        <th scope="col">Route</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-tbody">
+                    <!-- <tr>
+                        <th scope="row">1</th>
+                        <td>anonymous</td>
+                        <td>1d1hr1min</td>
+                        <td>$3000</td>
+                        <td>LHR-DXB-SIN-AKL-LAX-LHR</td>
+                    </tr>
+                    <tr class="table-info">
+                        <th scope="row">1</th>
+                        <td>anonymous</td>
+                        <td>1d1hr1min</td>
+                        <td>$3000</td>
+                        <td>LHR-DXB-SIN-AKL-LAX-LHR</td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- route & airport display -->
+    <div class="container-lg text-center my-2">
+        <div class="row">
+            <div class="col-sm-5">
+                <h1 id="origin-airport"></h1>
+                <h5 id="origin-city"></h5>
+                <h6 id="origin-airport-name"></h6>
+            </div>
+            <div class="col-sm-2">
+                <!-- <h4>———></h4> -->
+                <img src="{{ url_for('static', filename='img/flight_icon.png') }}" alt="———>" width="80px" height="70px">
+                <br>
+                <h6 id="route-distance"></h6>
+                <button class="btn btn-sm btn-outline-secondary" id="reset-route" onclick="resetRoute()">Reset</button>
+            </div>
+            <div class="col-sm-5">
+                <h1 id="dest-airport"></h1>
+                <h5 id="dest-city"></h5>
+                <h6 id="dest-airport-name"></h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- input column -->
+    <div class="container my-3">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="search-input" placeholder="Choose an airport to go to">
+            <select class="form-select" id="dropdown"></select>
+            <button class="btn btn-primary" id="selectAirport" onclick="selectAirport()">Select</button>
+        </div>
+    </div>
+
+    <!-- flights display -->
+    <div class="container">
+        <div class="text-center" id="start-spinner">
+            <div class="spinner-border spinner-border-sm" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <small>Loading...</small>
+        </div>
+        <div class="text-center" id="search-spinner" style="display: none;">
+            <div class="spinner-grow spinner-grow-sm" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <small>Scraping data from Google Flights. Please wait.</small>
+        </div>
+
+        <div class="container">
+            <small class="ms-0 mt-1 mb-0" id="flight-meta"></small>
+        </div>
+
+        <table class="table table-striped table-hover">
+            <thead id="flight-info"></thead>
+            <tbody id="flight-results"></tbody>
+        </table>
+
+    </div>
+
+    <!-- ok modal -->
+    <div class="modal fade modal-centered" id="ok-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Challenge Finished.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 id="ok-title">Modal body text goes here.</h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- confirm modal -->
+    <div class="modal fade modal-centered" data-bs-backdrop="static" data-bs-keyboard="false" id="confirm-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirm-title">Confirm?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="confirm-body">Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="confirm-cancel-button">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="confirm-button">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- welcome toast -->
+    <div class="toast-container position-fixed top-0 start-50 translate-middle-x p-3">
+        <div id="welcome-toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="10000">
+            <div class="toast-header">
+                <strong id="welcome-toast-header" class="me-auto">Welcome to New York!</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div id="welcome-toast-body" class="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- game start modal -->
+    <div class="modal fade modal-centered" data-bs-backdrop="static" data-bs-keyboard="false" id="start-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Game Finished!</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <label for="username-input" class="form-label">Enter your username to submit to the leaderboard</label>
+                        <input type="text" class="form-control" id="username-input" value="anonymous" required>
+                        <div class="invalid-feedback" id="username-feedback">
+                            Username has been taken.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" onclick="usernameValidate()">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <script defer src="{{ url_for('static', filename='scripts/jquery-3.7.1.min.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='scripts/bootstrap.bundle.min.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='scripts/leaflet.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='scripts/turf.min.js') }}"></script>
+
+    <script defer src="{{ url_for('static', filename='game/init.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='game/script.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='game/flight.js') }}"></script>
+
+    <script defer src="{{ url_for('static', filename='game/challenge.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='game/trivia.js') }}"></script>
+
+    <script defer src="{{ url_for('static', filename='scripts/AnimatedMarker.js') }}"></script>
+
+    <script defer src="{{ url_for('static', filename='scripts/jquery.countdownTimer.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='scripts/shuffle-array.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='scripts/he.js') }}"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</body>
+</html>
