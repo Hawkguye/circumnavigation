@@ -12,6 +12,8 @@ var wechat = false;
 var playend = false, playdata = [];
 var wxData;
 
+var attempt = 0;
+
 var clearCanvas = function(){
 	ctx.fillStyle = '#4EC0CA';
 	ctx.fillRect(0, 0, width, height);
@@ -100,9 +102,15 @@ var initCanvas = function(){
             e.preventDefault();
         }, false);
 	}
-	else
-		canvas.onmousedown = jump;
-	window.onkeydown = jump;
+	else {
+		document.addEventListener('keydown', function(event) {
+			if (event.code === 'Space') {
+				jump();
+			}
+		});
+	}
+	canvas.onmousedown = jump;
+	// window.onkeydown = jump;
 	FastClick.attach(canvas);
 	loadImages();
 }
@@ -256,6 +264,15 @@ var anim = function(){
 
 var jump = function(){
 	if(death){
+		if (attempt === 3) {
+			try{
+				window.parent.finishBird(maxScore);
+			}
+			catch{
+				console.log('no parent');
+			}
+		}
+		attempt++;
 		dist = 0;
 		birdY = (height - 112) / 2;
 		birdF = 0;
@@ -296,9 +313,9 @@ function easyMode(){
 }
 
 function normalMode(){
-	easy.style["box-shadow"] = "";
-	normal.style["box-shadow"] = "0 0 0 2px #165CF3";
-	hard.style["box-shadow"] = "";
+	// easy.style["box-shadow"] = "";
+	// normal.style["box-shadow"] = "0 0 0 2px #165CF3";
+	// hard.style["box-shadow"] = "";
 	clearInterval(animation);
 	dropSpeed = 0.3;
 	mode = 1;
@@ -307,9 +324,9 @@ function normalMode(){
 }
 
 function hardMode(){
-	easy.style["box-shadow"] = "";
-	normal.style["box-shadow"] = "";
-	hard.style["box-shadow"] = "0 0 0 2px #165CF3";
+	// easy.style["box-shadow"] = "";
+	// normal.style["box-shadow"] = "";
+	// hard.style["box-shadow"] = "0 0 0 2px #165CF3";
 	clearInterval(animation);
 	dropSpeed = 0.3;
 	mode = 2;
@@ -337,13 +354,14 @@ window.onload = function(){
 	mode = 0;
 	delta = 100;
 	initCanvas();
-	easy = document.getElementById("easy");
-    easy.onclick = easyMode;
-	normal = document.getElementById("normal");
-    normal.onclick = normalMode;
-	hard = document.getElementById("hard");
-    hard.onclick = hardMode;
-	document.getElementById("flashlight").onclick = flashlight;
+	hardMode();
+	// easy = document.getElementById("easy");
+    // easy.onclick = easyMode;
+	// normal = document.getElementById("normal");
+    // normal.onclick = normalMode;
+	// hard = document.getElementById("hard");
+    // hard.onclick = hardMode;
+	// document.getElementById("flashlight").onclick = flashlight;
 	//document.getElementById("hidden").onclick = hidden;
 	window.onresize = function() {
 		canvas.width = width = window.innerWidth;

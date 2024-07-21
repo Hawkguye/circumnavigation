@@ -241,7 +241,7 @@ const challengeCards = [
     // minigame --snake
     `
     <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
-        <img src="{imgDir}dino.png" class="card-img-top" alt="dino">
+        <img src="{imgDir}snake.png" class="card-img-top" alt="snake">
         <div class="card-body text-center">
             <div>
                 <h5 class="card-title">Minigame!</h5>
@@ -262,9 +262,35 @@ const challengeCards = [
             <h6>Reward: $(Your Score * 50)</h6>
         </div>
     </div>
+    `,
+    // index: 9
+    // minigame --flappy bird
+    `
+    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+        <img src="{imgDir}flappy-bird.png" class="card-img-top" alt="flappy-bird">
+        <div class="card-body text-center">
+            <div>
+                <h5 class="card-title">Minigame!</h5>
+                <h6 class="text-end"><b>-- Flappy Bird</b></h6>
+                <small class="fw-light">source: <a href="https://github.com/shuding/flappybird" target="_blank" rel="noopener noreferrer">@shuding/flappybird</a></small>
+            </div>
+            <p class="card-text">The classic flappy bird game.
+                Press <b>SPACE</b> or <b>click</b> to jump the bird.
+                <br><b>Don't bump into the walls!</b>
+                <br><b>You have 3 chances.</b>
+               <br><b>(Takes 30 minutes in game time.)</b>
+            </p>
+        </div>
+        <div class="card-body border-top d-flex text-center">
+            <button class="btn btn-primary mx-auto" id="bird-start-btn">Start Challenge</button>
+        </div>
+        <div class="card-footer text-center">
+            <h6>Reward: $(Your Score * 100)</h6>
+        </div>
+    </div>
     `
 ];
-var challengeCardPick = [1,2,3,4,5,6,7,8];
+var challengeCardPick = [1,2,3,4,5,6,7,8,9];
 var finishedCategories = [];
 
 function removeChallenge(challengeIndex) {
@@ -413,6 +439,16 @@ function bindChallengeButton(id, cardIndex){
             removeChallenge(cardIndex);
         });
     }
+    
+    // bird
+    if (cardIndex === 9){
+        $(`#bird-start-btn`).off('click').on('click', function() {
+            $("#challange-modal").modal("hide");
+            startBird();
+            $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
+            removeChallenge(cardIndex);
+        });
+    }
 }
 
 function challangeFinished(text, cheers){
@@ -535,3 +571,24 @@ function quitSnake(){
     finishSnake(0);
 }
 
+
+// bird (9)
+async function startBird(){
+    $("#minigame-canvas").show().html(`
+        <iframe src="/minigames/flappy-bird/index.html" id="bird-iframe" frameborder="0" width="90%" height="80%"></iframe>
+        <button class="btn btn-sm btn-outline-warning quit-button" onclick="quitbird()">Quit</button>
+    `);
+    await delay(100);
+    document.getElementById("bird-iframe").contentWindow.focus();
+}
+function finishBird(score){
+    let reward = score * 100;
+    $("#minigame-canvas").html("").hide();
+    challangeFinished(`Highest score: ${score}.<br>You earned $${reward}!<br>30 minutes in game time has passed.`, true);
+    budget += reward;
+    $("#money-left").text(`$${budget}`);
+    gameTimeUpdate(gameTime.getTime() + 30 * 60 * 1000);
+}
+function quitBird(){
+    finishBird(0);
+}
