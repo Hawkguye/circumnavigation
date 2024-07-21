@@ -43,5 +43,44 @@ async function fetchMeta(gameId){
 
 }
 
+function startFreegame(){
+    let startIata = $("#freegame-iata").val();
+    let startTime = $("#freegame-time").val();
+    startTime += ':00Z';
+    console.log(startTime);
+
+    let iataRe = /^[a-zA-Z]{3}$/;
+    let dateRe = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/;
+    // Validate IATA code format
+    if (!iataRe.test(startIata)) {
+        alert("Starting Airport doesn't match the IATA format!");
+        return;
+    }
+    // Validate date format
+    if (!dateRe.test(startTime)) {
+        alert("Starting Time doesn't match the format! (YYYY-MM-DDThh:mm:ssZ)");
+        return;
+    }
+
+    // Check if the date is prior to today's time
+    let inputDate = new Date(startTime);
+    let currentDate = new Date();
+    if (isNaN(inputDate.getTime())) {
+        alert("Invalid date format!");
+        return;
+    }
+    if (inputDate < currentDate) {
+        alert("Starting Time is prior to the current time!");
+        return;
+    }
+
+    window.location.href = `/freegame?org=${startIata}&date=${startTime}`;
+}
+
+function initTime(){
+    let currentDate = new Date().toISOString().split('T')[0] + 'T00:00';
+    $("#freegame-time").val(currentDate);
+}
 
 fetchDC();
+initTime();

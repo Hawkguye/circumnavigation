@@ -398,8 +398,9 @@ function goHomeConfirm(){
         `);
     $("#confirm-button").off("click");
     $("#confirm-button").on("click", function() {
-        let currentUrl = window.location.href;
-        window.location.href = currentUrl.split('/game/')[0];
+        // let currentUrl = window.location.href;
+        // window.location.href = currentUrl.split('/game/')[0];
+        window.location.href = "../";
     });
 }
 
@@ -478,6 +479,7 @@ async function getLeaderboard(){
     fetch(`${API_URL}get_game_data?gameId=${gameId}`)
         .then(response => response.json())
         .then(data => {
+            $("#leaderboard").show();
             // console.log(data);
             var playerStatArr = data.playerStats;
             playerStatArr.sort((a, b) => {
@@ -557,6 +559,9 @@ function elapsedTimeFormat(timeUsed){
 function gameOver(){
     clickAllowed = false;
 
+    $("#airport-display").hide();
+    $("#airport-input").hide();
+
     var timeUsed = new Date(gameTime.getTime() - startingTime.getTime());
     confetti({
         particleCount: 250,
@@ -566,7 +571,9 @@ function gameOver(){
     $("#endscreen-usedtime").text(elapsedTimeFormat(timeUsed));
     $("#endscreen-usedmoney").text(`$${moneySpent}`);
 
-    $("#start-modal").modal('show');
+    if (gameId !== 0){
+        $("#start-modal").modal('show');
+    }
 
     // postPlayerStat(timeUsed.getTime());
     // getLeaderboard();

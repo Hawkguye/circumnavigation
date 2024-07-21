@@ -404,8 +404,9 @@ function goHomeConfirm(){
         `);
     $("#confirm-button").off("click");
     $("#confirm-button").on("click", function() {
-        let currentUrl = window.location.href;
-        window.location.href = currentUrl.split('/tutorial')[0];
+        // let currentUrl = window.location.href;
+        // window.location.href = currentUrl.split('/tutorial')[0];
+        window.location.href = "../";
     });
 }
 

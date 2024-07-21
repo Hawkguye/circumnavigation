@@ -186,27 +186,19 @@ def get_flight():
         org = request.args.get('org')
         dest = request.args.get('dest')
         date = request.args.get('date')
-
         # logging.info(f"got request {org} -> {dest} @ {date}")
 
         if not org or not dest or not date:
             return jsonify({"message": "params missing!"}), 400
-        
-
         iataRe = re.compile(r'^[a-zA-Z]{3}$')
         dateRe = re.compile(r'^\d{4}-\d{2}-\d{2}$')
-
         if not iataRe.match(org) or not iataRe.match(dest):
             return jsonify({"message": "org or dest param doesn't match the format!"}), 400
-        
         if not dateRe.match(date):
             return jsonify({"message": "date param doesn't match the format!"}), 400
 
-        
         datajson = scraper.main(org, dest, date)
-
-        # print("json file fetched")
-
+        
         if "error" in datajson:
             return jsonify({"message": f"failed to fetch flight data! {datajson}"}), 400
         
@@ -241,8 +233,34 @@ def game(game_id):
     orgIata = gamesList[game_id - 1].orgIata
     startingTime = gamesList[game_id - 1].startingTime
 
-    print(api_url, flight_url)
     return render_template('game.html', api_url=api_url, flight_url=flight_url, game_id=game_id, starting_iata=orgIata, starting_time=startingTime)
+
+
+@app.route("/freegame")
+def freegame():
+    api_url = os.getenv('API_URL', 'http://127.0.0.1:5000/api/')
+    flight_url = os.getenv('FLIGHT_URL', 'http://127.0.0.1:5000/api/')
+
+    org = request.args.get('org')
+    date = request.args.get('date')
+    # logging.info(f"got request {org} -> {dest} @ {date}")
+    
+    if not org or not date:
+        return jsonify({"message": "params missing! org: IATA code, date: YYYY-MM-DDThh:mm:ssZ"}), 400
+    iataRe = re.compile(r'^[a-zA-Z]{3}$')
+    dateRe = re.compile(r'^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$')
+    if not iataRe.match(org):
+        return jsonify({"message": "org param doesn't match the IATA format!"}), 400
+    if not dateRe.match(date):
+        return jsonify({"message": "date param doesn't match the format! (YYYY-MM-DDThh:mm:ssZ)"}), 400
+    try:
+        if datetime.strptime(date, '%Y-%m-%dT%H:%M:%SZ') < datetime.utcnow():
+            return jsonify({"message": "date param is prior to the current time!"}), 400
+    except ValueError:
+        return jsonify({"message": "Invalid date format!"}), 400
+    
+    return render_template('game.html', api_url=api_url, flight_url=flight_url, game_id=0, starting_iata=org, starting_time=date)
+
 
 @app.route("/minigames/<path:path>")
 def minigames(path):
