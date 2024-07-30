@@ -235,7 +235,7 @@ def game(game_id):
 
     return render_template('game.html', api_url=api_url, flight_url=flight_url, game_id=game_id, starting_iata=orgIata, starting_time=startingTime)
 
-
+ICAO_codes = ['ACC', 'ACE', 'ADB', 'ADD', 'ADL', 'AER', 'AGP', 'AKL', 'ALA', 'ALC', 'ALG', 'AMM', 'AMS', 'ANC', 'ARN', 'ATH', 'ATL', 'AUA', 'AUH', 'AUS', 'AYT', 'BAH', 'BCN', 'BDS', 'BEG', 'BER', 'BEY', 'BFS', 'BGO', 'BGW', 'BGY', 'BHX', 'BJV', 'BJX', 'BKK', 'BLL', 'BLQ', 'BLR', 'BNA', 'BNE', 'BOD', 'BOG', 'BOJ', 'BOM', 'BOS', 'BRI', 'BRU', 'BSB', 'BSL', 'BUD', 'BUF', 'BWI', 'BWN', 'BZE', 'CAG', 'CAI', 'CAN', 'CCS', 'CCU', 'CDG', 'CEB', 'CGK', 'CGN', 'CGO', 'CGQ', 'CKG', 'CLE', 'CLT', 'CMB', 'CMH', 'CMN', 'CNF', 'COK', 'CPH', 'CPT', 'CSX', 'CTA', 'CTS', 'CTU', 'CUN', 'CUR', 'CVG', 'DAC', 'DAR', 'DCA', 'DEL', 'DEN', 'DFW', 'DLC', 'DLM', 'DME', 'DMK', 'DMM', 'DOH', 'DPS', 'DSS', 'DTW', 'DUB', 'DUS', 'DXB', 'EBB', 'EDI', 'EIN', 'ESB', 'EVN', 'EWR', 'EZE', 'FAO', 'FCO', 'FLL', 'FNC', 'FOC', 'FRA', 'FRU', 'FUE', 'FUK', 'GCM', 'GDL', 'GDN', 'GIG', 'GLA', 'GOI', 'GOT', 'GRU', 'GUA', 'GVA', 'GYD', 'GYE', 'HAJ', 'HAK', 'HAM', 'HAN', 'HAV', 'HEL', 'HER', 'HET', 'HGH', 'HKG', 'HKT', 'HMO', 'HND', 'HNL', 'HRB', 'HRG', 'HYD', 'IAD', 'IAH', 'IBZ', 'ICN', 'IKA', 'IND', 'ISB', 'IST', 'JAX', 'JED', 'JFK', 'JNB', 'KEF', 'KGL', 'KHH', 'KHI', 'KHN', 'KIN', 'KIX', 'KMG', 'KRK', 'KRT', 'KTM', 'KUF', 'KUL', 'KWE', 'KWI', 'KWL', 'KZN', 'LAD', 'LAS', 'LAX', 'LCA', 'LED', 'LEJ', 'LGA', 'LGW', 'LHE', 'LHR', 'LHW', 'LIM', 'LIR', 'LIS', 'LJU', 'LOS', 'LPA', 'LTN', 'LUX', 'LYS', 'MAA', 'MAD', 'MAN', 'MBA', 'MCI', 'MCO', 'MCT', 'MDW', 'MED', 'MEL', 'MEM', 'MEX', 'MFM', 'MIA', 'MKE', 'MLA', 'MLE', 'MNL', 'MRS', 'MRU', 'MSP', 'MSQ', 'MSY', 'MTY', 'MUC', 'MXP', 'MZT', 'NAP', 'NAS', 'NBO', 'NCE', 'NGB', 'NGO', 'NKG', 'NNG', 'NQZ', 'NRT', 'NUE', 'OAK', 'OMA', 'ONT', 'OPO', 'ORD', 'ORY', 'OSL', 'OTP', 'OVB', 'PAP', 'PBI', 'PDX', 'PEK', 'PER', 'PHL', 'PHX', 'PIT', 'PKX', 'PLS', 'PMI', 'PMO', 'PNH', 'PRG', 'PSA', 'PTY', 'PUJ', 'PUS', 'PVD', 'PVG', 'PVR', 'PWM', 'RDU', 'RGN', 'RIC', 'RIX', 'RNO', 'ROV', 'RSW', 'RUH', 'SAL', 'SAN', 'SAT', 'SAV', 'SAW', 'SCL', 'SCQ', 'SDF', 'SDQ', 'SEA', 'SEZ', 'SFB', 'SFO', 'SGN', 'SHA', 'SHE', 'SHJ', 'SID', 'SIN', 'SJC', 'SJD', 'SJU', 'SKG', 'SKP', 'SLC', 'SMF', 'SNA', 'SOF', 'SSH', 'STL', 'STN', 'STR', 'SVG', 'SVO', 'SVX', 'SXM', 'SYD', 'SYR', 'SYX', 'SZX', 'TAO', 'TAS', 'TBS', 'TFS', 'TFU', 'TGD', 'TIA', 'TIJ', 'TLL', 'TLS', 'TLV', 'TNA', 'TOS', 'TPA', 'TPE', 'TRD', 'TRN', 'TRV', 'TSN', 'TUL', 'TUN', 'TYN', 'UFA', 'UIO', 'URC', 'VAR', 'VCE', 'VIE', 'VKO', 'VNO', 'VRN', 'WAW', 'WNZ', 'WUH', 'XIY', 'XMN', 'YEG', 'YHZ', 'YNT', 'YOW', 'YUL', 'YVR', 'YWG', 'YYC', 'YYZ', 'ZAG', 'ZIA', 'ZNZ', 'ZRH']
 @app.route("/freegame")
 def freegame():
     api_url = os.getenv('API_URL', 'http://127.0.0.1:5000/api/')
@@ -247,10 +247,11 @@ def freegame():
     
     if not org or not date:
         return jsonify({"message": "params missing! org: IATA code, date: YYYY-MM-DDThh:mm:ssZ"}), 400
-    iataRe = re.compile(r'^[a-zA-Z]{3}$')
+
+    if org not in ICAO_codes:
+        return jsonify({"message": "ICAO code not valid! (no such airport)"}), 400
+    
     dateRe = re.compile(r'^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$')
-    if not iataRe.match(org):
-        return jsonify({"message": "org param doesn't match the IATA format!"}), 400
     if not dateRe.match(date):
         return jsonify({"message": "date param doesn't match the format! (YYYY-MM-DDThh:mm:ssZ)"}), 400
     try:

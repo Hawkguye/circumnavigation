@@ -118,11 +118,14 @@ function selectAirport(){
     }
 }
 
+let current_dest_iatas = [];
 function drawDestRoute(){
+    current_dest_iatas = [];
     fetch(`${destsJsonUrl}${origin_iata}.json`)
         .then(response => response.json())
         .then(data => {
             data.forEach(dest => {
+                current_dest_iatas.push(dest);
                 // if (apEastWest(origin_iata, dest) == flyDir || flyDir == ""){
                 //     var destAp = findApData(dest);
                 //     if (destAp){
