@@ -239,6 +239,9 @@ function nextTutorial(){
     }
     if (tutorialStep === 18){
         $("#tutorial-hud").modal('hide');
+
+        window.location.replace("../game/1");
+
         return;
     }
 
