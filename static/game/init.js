@@ -38,10 +38,10 @@ const destsPathOptionv2 = {
 };
 
 function getSpot(pinData){
-    if (pinData.dest_count >= 60){
+    if (pinData.dest_count >= 100){
         return redSpot;
     }
-    else if(pinData.dest_count >= 30){
+    else if(pinData.dest_count >= 50){
         return yellowSpot;
     }
     else {
@@ -50,9 +50,10 @@ function getSpot(pinData){
 }
 
 function initMap(){
-    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
         maxZoom: 10,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        subdomains: 'abcd',
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
     }).addTo(map);
     map.setMaxBounds(  [[-90,-180],   [90,180]]  );
     map.setZoom(2);

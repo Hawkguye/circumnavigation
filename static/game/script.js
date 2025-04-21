@@ -471,6 +471,7 @@ async function postPlayerStat(timeUsed){
     .then(data => {
         console.log(data);
         uniqueId = data.uniqueId;
+        getLeaderboard();
     })
     .catch(error => console.error('Error:', error));
 }
@@ -658,7 +659,6 @@ function usernameValidate(){
         
         let timeUsed = new Date(gameTime.getTime() - startingTime.getTime());
         postPlayerStat(timeUsed.getTime());
-        getLeaderboard();
 
         confetti({
             particleCount: 200,

@@ -101,13 +101,13 @@ const tutorialObj = [
             <h6>Each dot on the map is an airport.</h6>
             <ul class="mt-1">
                 <li>
-                    <b style="color: red;">Red</b> dot means that the airport has more than 60 destinations.
+                    <b style="color: red;">Red</b> dot means that the airport has more than 100 destinations.
                 </li>
                 <li>
-                    <b style="color: orange;">Yellow</b> dot means that the airport has more than 30 destinations, but less than 60.
+                    <b style="color: orange;">Yellow</b> dot means that the airport has more than 50 destinations, but less than 100.
                 </li>
                 <li>
-                    <b style="color: blue;">Blue</b> dot means that the airport has less than 30 destinations.
+                    <b style="color: blue;">Blue</b> dot means that the airport has less than 50 destinations.
                 </li>
             </ul>
             <small>PS: The destination data may not be accurate. Sometimes cheaper flights can be found in smaller airports.</small>
@@ -119,7 +119,7 @@ const tutorialObj = [
     { // 11
         "text": `
             <h6>Now, let's book a flight to New York La Guardia Airport (LGA).</h6>
-            <p>Click on the yellow dot on the map, that's LGA airport in New York.</p>
+            <p>Click on the blue dot on the map, that's LGA airport in New York.</p>
         `,
         "highlight": "#map",
         "interact": true,
