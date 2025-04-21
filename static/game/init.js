@@ -107,7 +107,7 @@ async function fetchAirports() {
     }
 }
 
-
+const timezoneJsonUrl = "https://raw.githubusercontent.com/vvo/tzdb/main/raw-time-zones.json";
 async function fetchTimezoneInfo() {
     try {
         const response = await fetch(timezoneJsonUrl);
