@@ -50,7 +50,7 @@ for (let i = -180; i <= 180; i++){
 function checkLngMissing(){
     var missedArray = [];
     for (let i = -180; i <= 180; i++){
-        if (!routeLngs[i]){
+        if (!routeLngs[i] && !routeLngs[i+1]){
             missedArray.push(i);
         }
     }

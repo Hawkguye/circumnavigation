@@ -283,6 +283,8 @@ function recordRoute(){
             // console.log(lng);
             routeLngs[Math.floor(lng)] = true;
             routeLngs[Math.floor(lng)+1] = true;
+            routeLngs[Math.floor(lng)-1] = true;
+
         })
     });
 }
