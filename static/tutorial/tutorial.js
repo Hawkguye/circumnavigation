@@ -1,3 +1,5 @@
+
+// TODO: Improve this
 const tutorialObj = [
     { // 0
         "text": `

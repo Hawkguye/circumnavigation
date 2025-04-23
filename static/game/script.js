@@ -40,6 +40,7 @@ var markersArray = {};
 var flightsInfoArr = [];
 
 var greatCirclePolyline = [];
+var greatCircleOriginalPolylines = [];
 var destPolyline = [];
 
 var routeLngs = {};
@@ -133,71 +134,61 @@ function drawDestRoute(){
         .catch(error => console.error(`Unable to fetch ${origin_iata} dests data:`, error));
 }
 
-function drawRouteLine(dest_latlng, opt){
+function drawRouteLine(dest_latlng, opt) {
     greatCirclePolyline = [];
+    greatCircleOriginalPolylines = []; // <-- only for animation use
 
     // @ts-ignore
     var lineFrom = turf.point(origin_latlng);
     // @ts-ignore
     var lineTo = turf.point(dest_latlng);
-    // console.log(lineFrom ,lineTo);
 
     // @ts-ignore
     routeDistance = Math.round(turf.distance(lineFrom, lineTo));
+    var options = { npoints: Math.floor(routeDistance / 100) + 3, units: 'kilometers' };
 
-    var options = {npoints: Math.floor(routeDistance / 100) + 3, units: 'kilometers'};
     // @ts-ignore
     var arc = turf.greatCircle(lineFrom, lineTo, options);
-    // console.log(arc);   
-
     var coordinates = arc.geometry.coordinates;
-    if (coordinates.length == 2){
-        // crosses date line
-        coordinates.forEach(line => {
-                
-            var latlngs = line.map(function(coord) {
-                return [coord[1], coord[0]];
-            });
-        
-            if (opt == 'select'){
-                var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
-                greatCirclePolyline.push(polyline);
-                
-                map.fitBounds(polyline.getBounds());
 
+    function drawPolyline(latlngs, shiftLng = 0, isOriginal = false) {
+        let shiftedLatLngs = latlngs.map(([lng, lat]) => [lat, lng + shiftLng]);
+
+        let polyline;
+        if (opt === 'select') {
+            polyline = L.polyline(shiftedLatLngs.map(c => [c[0], c[1]]), { color: 'red' }).addTo(map);
+            greatCirclePolyline.push(polyline);
+            if (isOriginal) {
+                greatCircleOriginalPolylines.push(polyline);
+                map.fitBounds(polyline.getBounds());
                 $("#route-distance").text(`${routeDistance} km`);
                 distanceBarUpdate(false);
             }
-            if (opt == 'dest'){
-                var polyline = L.polyline(latlngs, destsPathOption).addTo(map);
-                destPolyline.push(polyline);
-            }
-            if (opt == 'destv2'){
-                var polyline = L.polyline(latlngs, destsPathOptionv2).addTo(map);
-                destPolyline.push(polyline);
-            }
-        });
+        } else if (opt === 'dest') {
+            polyline = L.polyline(shiftedLatLngs.map(c => [c[0], c[1]]), destsPathOption).addTo(map);
+            destPolyline.push(polyline);
+        } else if (opt === 'destv2') {
+            polyline = L.polyline(shiftedLatLngs.map(c => [c[0], c[1]]), destsPathOptionv2).addTo(map);
+            destPolyline.push(polyline);
+        } else {
+            return;
+        }
+
+        // Do NOT store mirrored copies in greatCirclePolyline
     }
 
-    else {
-
-        var latlngs = coordinates.map(function(coord) {
-            return [coord[1], coord[0]];
+    if (coordinates.length === 2) {
+        // Crosses dateline: Turf.js splits into 2 segments
+        coordinates.forEach((lineCoords, idx) => {
+            drawPolyline(lineCoords, 0, true);      // original
+            drawPolyline(lineCoords, -360, false);  // shifted left
+            drawPolyline(lineCoords, 360, false);   // shifted right
         });
-
-        if (opt == 'select'){
-            var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
-            greatCirclePolyline.push(polyline);
-            
-            map.fitBounds(polyline.getBounds());
-
-            $("#route-distance").text(`${routeDistance} km`);
-            distanceBarUpdate(false);
-        }
-        if (opt == 'dest'){
-            var polyline = L.polyline(latlngs, destsPathOption).addTo(map);
-            destPolyline.push(polyline);
-        }
+    } else {
+        // Normal arc (single segment)
+        drawPolyline(coordinates, 0, true);      // original
+        drawPolyline(coordinates, -360, false);  // shifted left
+        drawPolyline(coordinates, 360, false);   // shifted right
     }
 }
 
@@ -622,6 +613,7 @@ $("#current-status-container").hide();
 $("#time-flow-container").hide();
 $("#reset-route").hide();
 $("#flight-meta").hide();
+$("#skip-animation").hide();
 
 async function main() {
     try {

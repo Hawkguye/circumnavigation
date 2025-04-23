@@ -275,7 +275,7 @@ const planeMarker = L.icon({
 });
 
 function recordRoute(){
-    greatCirclePolyline.forEach(line => {
+    greatCircleOriginalPolylines.forEach(line => {
         var latlngs = line.getLatLngs();
         // console.log(latlngs);
         latlngs.forEach(point => {
@@ -289,6 +289,9 @@ function recordRoute(){
     });
 }
 
+// TODO: PLANE ICON W/ DIRECTION
+
+let skipFlightAnimation = false;
 function bookFlight(flightInfo){
     $("#confirm-modal").modal('hide');
     if (flightInfo.Price > budget) {
@@ -299,8 +302,11 @@ function bookFlight(flightInfo){
         alert("Too late! Unable to book flight!");
         return;
     }
+
     clickAllowed = false;
-    
+    $("#reset-route").hide();
+    skipFlightAnimation = false;
+
     removeDestLines();
 
     $("#flight-info").html('');
@@ -308,58 +314,97 @@ function bookFlight(flightInfo){
     $("#flight-meta").hide();
 
     recordRoute();
-    
     document.getElementById("map").scrollIntoView(false);
-    if (greatCirclePolyline.length === 1){
-        var line = greatCirclePolyline[0];
-        // console.log(line.getLatLngs());
-        var animatedMarker = L.animatedMarker(line.getLatLngs(), {
+
+    $("#skip-animation").show();
+    // Attach skip button handler
+    $("#skip-animation").off("click").on("click", function() {
+        skipFlightAnimation = true;
+    });
+
+    if (greatCircleOriginalPolylines.length === 1) {
+        const line = greatCircleOriginalPolylines[0];
+        const animatedMarker = L.animatedMarker(line.getLatLngs(), {
             icon: planeMarker,
-            distance: 300000,  // meters
-            interval: 500, // milliseconds
+            distance: 300000,
+            interval: 500,
             onEnd: function() {
-                map.removeLayer(animatedMarker);
-                afterFlight(flightInfo);
+                if (!skipFlightAnimation) {
+                    map.removeLayer(animatedMarker);
+                    afterFlight(flightInfo);
+                }
             }
         });
 
         map.addLayer(animatedMarker);
         map.fitBounds(line.getBounds());
 
-    }
-    else {
-        
-        var animatedMarker1 = L.animatedMarker(greatCirclePolyline[0].getLatLngs(), {
-            distance: 300000,  // meters
-            interval: 500, // milliseconds
-            icon: planeMarker,
-            
-            onEnd: function() {
+        // Watch for skip
+        const skipWatcher = setInterval(() => {
+            if (skipFlightAnimation) {
+                clearInterval(skipWatcher);
+                map.removeLayer(animatedMarker);
+                afterFlight(flightInfo);
+            }
+        }, 200);
 
-                var animatedMarker2 = L.animatedMarker(greatCirclePolyline[1].getLatLngs(), {
+    } else {
+        const part1 = greatCircleOriginalPolylines[0];
+        const part2 = greatCircleOriginalPolylines[1];
+
+        const animatedMarker1 = L.animatedMarker(part1.getLatLngs(), {
+            distance: 300000,
+            interval: 500,
+            icon: planeMarker,
+            onEnd: function () {
+                if (skipFlightAnimation) {
+                    map.removeLayer(animatedMarker1);
+                    return;
+                }
+
+                const animatedMarker2 = L.animatedMarker(part2.getLatLngs(), {
                     icon: planeMarker,
-                    distance: 300000,  // meters
-                    interval: 500, // milliseconds
-                    onEnd: function() {
-                        map.removeLayer(animatedMarker2);
-                        afterFlight(flightInfo);
+                    distance: 300000,
+                    interval: 500,
+                    onEnd: function () {
+                        if (!skipFlightAnimation) {
+                            map.removeLayer(animatedMarker2);
+                            afterFlight(flightInfo);
+                        }
                     }
                 });
 
                 map.removeLayer(animatedMarker1);
                 map.addLayer(animatedMarker2);
-                map.fitBounds(greatCirclePolyline[1].getBounds());
+                map.fitBounds(part2.getBounds());
 
+                const skipWatcher2 = setInterval(() => {
+                    if (skipFlightAnimation) {
+                        clearInterval(skipWatcher2);
+                        map.removeLayer(animatedMarker2);
+                        afterFlight(flightInfo);
+                    }
+                }, 200);
             }
         });
 
-        // map.setView([0, 0], 2)
         map.addLayer(animatedMarker1);
-        map.fitBounds(greatCirclePolyline[0].getBounds());
+        map.fitBounds(part1.getBounds());
+
+        const skipWatcher1 = setInterval(() => {
+            if (skipFlightAnimation) {
+                clearInterval(skipWatcher1);
+                map.removeLayer(animatedMarker1);
+                afterFlight(flightInfo);
+            }
+        }, 200);
     }
 }
 
+
 function afterFlight(flightInfo){
+    $("#skip-animation").hide();
+
     // if (flyDir == "") {
     //     flyDir = apEastWest(origin_iata, dest_iata);
     // }

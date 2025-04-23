@@ -1,5 +1,5 @@
 
-var map = L.map('map').setView([0, 0], 2);
+var map = L.map('map', {worldCopyJump: true}).setView([0, 0], 2);
 const departurePin = L.icon({
     iconUrl: `${imgDir}departure_pin.png`,
 
@@ -51,46 +51,60 @@ function getSpot(pinData){
 
 function initMap(){
     L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        minZoom: 1,
         maxZoom: 10,
         subdomains: 'abcd',
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
     }).addTo(map);
-    map.setMaxBounds(  [[-90,-180],   [90,180]]  );
+    // map.setMaxBounds(  [[-90,-180],   [90,180]]  );
     map.setZoom(2);
 }
-
 async function fetchAirports() {
     try {
         const response = await fetch(airportsJsonUrl);
         const data = await response.json();
         
         airportArray = data;
-        data.sort((a, b) => {
-            a.dest_count - b.dest_count
-        });
-        
+        data.sort((a, b) => a.dest_count - b.dest_count);
+
         data.forEach(function(pinData) {
-            var marker = L.marker([pinData.latitude, pinData.longitude], {icon: getSpot(pinData), title: pinData.iata_code});
-            // markers.addLayer(marker);
-            map.addLayer(marker);
-            markersArray[pinData.iata_code] = marker;
+            const positions = [
+                [pinData.latitude, pinData.longitude],        // original
+                [pinData.latitude, pinData.longitude - 360],  // copy to the left
+                [pinData.latitude, pinData.longitude + 360]   // copy to the right
+            ];
 
-            marker.bindTooltip(`<b>${pinData.iata_code}</b><br>${pinData.name}<br>${pinData.municipality}, ${pinData.iso_country}<br>Potential destinations: ${pinData.dest_count}`,
-                {
-                    direction: 'top',
-                    opacity: 0.6,
-                    offset: L.point(0, -8)
-                }
-            );
+            positions.forEach((pos, index) => {
+                const marker = L.marker(pos, {
+                    icon: getSpot(pinData),
+                    title: pinData.iata_code + (index === 0 ? "" : ` (copy ${index})`)
+                });
 
-            marker.on('click', function(e) {
-                selectedAp = pinData.iata_code;
-                clickedPin(pinData.iata_code, e.target);
-                // console.log('Pin clicked:', pinData.iata_code);
+                map.addLayer(marker);
+
+                // Store only the original marker in the array for interactions
+                // if (index === 0) {
+                    markersArray[pinData.iata_code] = marker;
+
+                    marker.on('click', function(e) {
+                        selectedAp = pinData.iata_code;
+                        clickedPin(pinData.iata_code, e.target);
+                    });
+                // }
+
+                // Bind tooltip for all copies
+                marker.bindTooltip(
+                    `<b>${pinData.iata_code}</b><br>${pinData.name}<br>${pinData.municipality}, ${pinData.iso_country}<br>Potential destinations: ${pinData.dest_count}`,
+                    {
+                        direction: 'top',
+                        opacity: 0.6,
+                        offset: L.point(0, -8)
+                    }
+                );
             });
         });
 
-        // close all tooltip when mouse out of map
+        // Close all tooltips on mouseout
         map.on('mouseout', function() {
             for (var key in markersArray) {
                 if (markersArray.hasOwnProperty(key)) {
@@ -106,6 +120,7 @@ async function fetchAirports() {
         return false;
     }
 }
+
 
 const timezoneJsonUrl = "https://raw.githubusercontent.com/vvo/tzdb/main/raw-time-zones.json";
 async function fetchTimezoneInfo() {
