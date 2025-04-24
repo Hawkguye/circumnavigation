@@ -212,6 +212,16 @@ def get_flight():
 
 # TODO: add delete game, dc, get dc
 # admin
+
+@app.route("/game")
+def game_html():
+    return send_file("make_game.html")
+
+@app.route("/dc")
+def dc_html():
+    return send_file("make_dc.html")
+
+
 @app.route("/admin/make_game", methods=["POST"])
 def make_game():
     admin_pw = os.getenv('ADMIN_PASSWORD')
