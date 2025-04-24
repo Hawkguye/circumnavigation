@@ -210,7 +210,7 @@ def get_flight():
         return jsonify({"message": f"Backend error! {e}"}), 400
     
 
-
+# TODO: add delete game, dc, get dc
 # admin
 @app.route("/admin/make_game", methods=["POST"])
 def make_game():

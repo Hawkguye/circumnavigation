@@ -5,26 +5,26 @@ const tutorialObj = [
         "text": `
             <h4>Welcome to Circumnavigation!</h4>
             <p>
-            Circumnavigation is a daily challenge game where you try to <b>go around the world</b> in the shortest time possible!
+            This is a daily game where you try to <b>travel around the world</b> as fast as you can!
             </p>
             <p>
-            You gain budget by <b>completing challenges</b>, then you use the budget to buy plane tickets and afford taxis.
+            Earn money by <b>completing challenges</b>. Use that money to buy plane tickets and pay for taxis.
             </p>
         `,
         "next": true
     },
     { // 1
         "text": `
-            <h5>To win the game, you need to accomplish these goals:</h5>
+            <h5>To win the game, you need to:</h5>
             <ul class="mt-1">
                 <li>
-                    You must <b>complete the journey</b> at the point of departure. 
+                    <b>Return to your starting point</b> after traveling around the world.
                 </li>
                 <li>
-                    Your route must covered the distance of <b>36788 km (22859 miles)</b> (the length of the Tropic of Cancer).
+                    Travel at least <b>36,788 km (22,859 miles)</b> — the distance around the Earth at the Tropic of Cancer.
                 </li>
                 <li>
-                    Your route must crossed <b>all meridians</b>.
+                    <b>Cross every line of longitude</b> on the map.
                 </li>
             </ul>
         `,
@@ -32,22 +32,22 @@ const tutorialObj = [
     },
     { // 2
         "text": `
-            <h6>Your <b>location</b> right now is <b>Denver</b> International Airport <b>(DEN)</b>, as you can see right here.</h6>
+            <h6>Your journey starts at <b>Denver International Airport (DEN)</b>. You can see it marked here.</h6>
         `,
         "highlight": "#origin-airport-div",
         "next": true
     },
     { // 3
         "text": `
-            <h6>All the information of your current stutus can be found <b>at the top.</b></h6>
+            <h6>You can see your current status <b>at the top of the screen</b>.</h6>
         `,
         "navbar": true,
         "next": true
     },
     { // 4
         "text": `
-            <h6>The current <b>in-game time</b> can be found here, now the <b>local time</b> is 5 AM, and the <b>UTC time</b> is 12 PM.</h6>
-            <small>PS: When you're traveling around the world, it's good to use UTC time to keep track of time, while flight operations are based on local time.</small>
+            <h6>This is the <b>current in-game time</b>. Right now it's 5 AM local time (UTC-7) and 12 PM UTC (Coordinated Universal Time).</h6>
+            <small>Tip: Timezones are a mess, use UTC to stay on schedule. Flights follow local time, so plan carefully!</small>
         `,
         "highlight": "#time-display-div",
         "navbar": true,
@@ -55,9 +55,9 @@ const tutorialObj = [
     },
     { // 5
         "text": `
-            <h6>The distance you've covered is displayed here.</h6>
-            <p>Remember: you have to travel <b>36788 km</b> to complete the circumnavigation.</p>
-            <small>PS: The bar will turn green if you've accomplished the goal.</small>
+            <h6>This shows how far you've traveled so far.</h6>
+            <p>You need to travel <b>36,788 km</b> to complete the circumnavigation.</p>
+            <small>The bar turns green when you reach your goal!</small>
         `,
         "highlight": "#distance-display-div",
         "navbar": true,
@@ -65,8 +65,8 @@ const tutorialObj = [
     },
     { // 6
         "text": `
-            <h6>Your current budget is displayed here.</h6>
-            <p>You have to use the budget to buy plane tickets and afford taxis.</p>
+            <h6>This is your current budget.</h6>
+            <p>You’ll spend it on flights and taxis, so use it wisely!</p>
         `,
         "highlight": "#budget-display-div",
         "navbar": true,
@@ -74,7 +74,8 @@ const tutorialObj = [
     },
     { // 7
         "text": `
-            <h6>To gain more budget, click the <b>logo</b> to pull up the challenge board.</h6>
+            <h6>Need more budget?</h6>
+            <p><b>Click the logo</b> at the top to open the challenge board.</p>
         `,
         "highlight": "#nav-central-div",
         "navbar": true,
@@ -83,16 +84,16 @@ const tutorialObj = [
     },
     { // 8
         "text": `
-            <h6>Every time you arrive at a new airport, the challenge deck will generate <b>3 new challenges</b>.</h6>
-            <p>You can complete these challenges to gain budget.</p>
-            <p>Remember: Challenges also <b>take in-game time</b>. Don't miss your flight! Check in closes <b>45 minutes</b> prior to departure time.</p>
+            <h6>Every time you land at a new airport, you’ll get <b>3 new challenges</b>.</h6>
+            <p>Complete them to earn more budget.</p>
+            <p><b>Watch the clock!</b> Challenges take time. Check-in closes <b>45 minutes</b> before your flight leaves. Don't miss your desired flight!</p>
         `,
         "interact": false,
         "next": true
     },
     { // 9
         "text": `
-            <h6>Now, let's take a look at the map</h6>
+            <h6>Let’s check out the map.</h6>
         `,
         "highlight": "#map",
         "interact": false,
@@ -100,19 +101,18 @@ const tutorialObj = [
     },
     { // 10
         "text": `
-            <h6>Each dot on the map is an airport.</h6>
+            <h6>Each dot is an airport.</h6>
             <ul class="mt-1">
                 <li>
-                    <b style="color: red;">Red</b> dot means that the airport has more than 100 destinations.
+                    <b style="color: red;">Red</b> = over 100 destinations.
                 </li>
                 <li>
-                    <b style="color: orange;">Yellow</b> dot means that the airport has more than 50 destinations, but less than 100.
+                    <b style="color: orange;">Yellow</b> = 51 to 100 destinations.
                 </li>
                 <li>
-                    <b style="color: blue;">Blue</b> dot means that the airport has less than 50 destinations.
+                    <b style="color: blue;">Blue</b> = 50 or fewer destinations.
                 </li>
             </ul>
-            <small>PS: The destination data may not be accurate. Sometimes cheaper flights can be found in smaller airports.</small>
         `,
         "highlight": "#map",
         "interact": false,
@@ -120,8 +120,8 @@ const tutorialObj = [
     },
     { // 11
         "text": `
-            <h6>Now, let's book a flight to New York La Guardia Airport (LGA).</h6>
-            <p>Click on the blue dot on the map, that's LGA airport in New York.</p>
+            <h6>Let’s book a flight to New York’s LaGuardia Airport (LGA).</h6>
+            <p>Click the <b>blue dot</b> on the map for LGA.</p>
         `,
         "highlight": "#map",
         "interact": true,
@@ -129,8 +129,8 @@ const tutorialObj = [
     },
     { // 12
         "text": `
-            <h6>Good. Now you're searching the flights from DEN to LGA.</h6>
-            <p>Note: All the flight data are scraped from Google Flights by the backend server in real time. So it may take a while.</p>
+            <h6>Great! You're now searching flights from Denver (DEN) to New York (LGA).</h6>
+            <p>Note: The game uses real-time data from Google Flights, so it might take a moment to load.</p>
         `,
         "highlight": "#flights-div",
         "interact": false,
@@ -138,8 +138,8 @@ const tutorialObj = [
     },
     { // 13
         "text": `
-            <h6>All the flight information are now displayed.</h6>
-            <h6><b>Book the first flight</b> from DEN to LGA.</h6>
+            <h6>Your flight options are now shown.</h6>
+            <h6><b>Click to book the first available flight</b> from DEN to LGA.</h6>
         `,
         "highlight": "#first-flight-div",
         "interact": true,
@@ -147,8 +147,8 @@ const tutorialObj = [
     },
     { // 14
         "text": `
-            <h6>Hooray! Now you're on your flight to New York!</h6>
-            <p>Now, wait for your flight to arrive.</p>
+            <h6>Nice! You’re on your way to New York!</h6>
+            <p>Sit back and wait for your arrival.</p>
         `,
         "highlight": "#map",
         "interact": false,
@@ -157,7 +157,7 @@ const tutorialObj = [
     { // 15
         "text": `
             <h6>Welcome to New York!</h6>
-            <p>Now, you may have noticed something. La Guardia Airport isn't a international airport, it doesn't have any international flights. So how are we able to go onward to Europe?</p>
+            <p>But LaGuardia Airport doesn’t have international flights. So, how do we go onwards to Europe?</p>
         `,
         "highlight": "#map",
         "interact": false,
@@ -165,8 +165,8 @@ const tutorialObj = [
     },
     { // 16
         "text": `
-            <h6>Well, since most of the international flights from New York are departed from JFK airport, we're going to JFK airport (John F. Kennedy International Airport).</h6>
-            <h6><b>Click on the red dot on the right</b>, that's JFK airport.</h6>
+            <h6>We’ll head to <b>JFK Airport</b> for international flights.</h6>
+            <p><b>Click the red dot</b> to the right to go to JFK.</p>
         `,
         "highlight": "#map",
         "interact": true,
@@ -174,8 +174,8 @@ const tutorialObj = [
     },
     { // 17
         "text": `
-            <h6>We'll go there by taxi.</h6>
-            <p><b>Click on "Ground transportation".</b></p>
+            <h6>We’re taking a taxi to get there.</h6>
+            <p><b>Click “Ground transportation”.</b></p>
         `,
         "highlight": "#flights-div",
         "interact": true,
@@ -183,8 +183,8 @@ const tutorialObj = [
     },
     { // 18
         "text": `
-            <h6>Awesome! Now you have many options to fly to Europe.</h6>
-            <p>Now, finish the circumnavigation! Complete challenges to gain budget, and hit the 36788 km distance goal!</p>
+            <h6>Awesome! Now you have lots of flight options to Europe.</h6>
+            <p>Keep completing challenges and traveling until you finish the journey around the world!</p>
         `,
         "highlight": "#map",
         "interact": false,
