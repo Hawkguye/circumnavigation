@@ -59,6 +59,24 @@ function initMap(){
     // map.setMaxBounds(  [[-90,-180],   [90,180]]  );
     map.setZoom(2);
 }
+
+let airportMarkersGroup = L.layerGroup(); // Create an empty group at the top
+let blueMarkersGroup = L.layerGroup(); // Create an empty group at the top
+
+let airportMarkerVis = true;
+
+function zoomHandler() {
+    const zoom = map.getZoom();
+    // console.log(zoom);
+    if (zoom <= 2 && airportMarkerVis == true) {
+        map.removeLayer(blueMarkersGroup);
+        airportMarkerVis = false;
+    } else if (zoom > 2 && airportMarkerVis == false) {
+        map.addLayer(blueMarkersGroup);
+        airportMarkerVis = true;
+    }
+}
+
 async function fetchAirports() {
     try {
         const response = await fetch(airportsJsonUrl);
@@ -69,9 +87,9 @@ async function fetchAirports() {
 
         data.forEach(function(pinData) {
             const positions = [
-                [pinData.latitude, pinData.longitude],        // original
-                [pinData.latitude, pinData.longitude - 360],  // copy to the left
-                [pinData.latitude, pinData.longitude + 360]   // copy to the right
+                [pinData.latitude, pinData.longitude],
+                [pinData.latitude, pinData.longitude - 360],
+                [pinData.latitude, pinData.longitude + 360]
             ];
 
             positions.forEach((pos, index) => {
@@ -80,19 +98,20 @@ async function fetchAirports() {
                     title: pinData.iata_code + (index === 0 ? "" : ` (copy ${index})`)
                 });
 
-                map.addLayer(marker);
+                // Add each marker to the LayerGroup instead of directly to the map
+                if (pinData.dest_count < 50) blueMarkersGroup.addLayer(marker);
+                else airportMarkersGroup.addLayer(marker);
 
-                // Store only the original marker in the array for interactions
-                // if (index === 0) {
+                // Only store original marker for interactions (optional)
+                if (index === 0) {
                     markersArray[pinData.iata_code] = marker;
 
                     marker.on('click', function(e) {
                         selectedAp = pinData.iata_code;
                         clickedPin(pinData.iata_code, e.target);
                     });
-                // }
+                }
 
-                // Bind tooltip for all copies
                 marker.bindTooltip(
                     `<b>${pinData.iata_code}</b><br>${pinData.name}<br>${pinData.municipality}, ${pinData.iso_country}<br>Potential destinations: ${pinData.dest_count}`,
                     {
@@ -104,14 +123,13 @@ async function fetchAirports() {
             });
         });
 
-        // Close all tooltips on mouseout
-        map.on('mouseout', function() {
-            for (var key in markersArray) {
-                if (markersArray.hasOwnProperty(key)) {
-                    markersArray[key].closeTooltip();
-                }
-            }
-        });
+        // Add the whole group to the map initially
+        airportMarkersGroup.addTo(map);
+        blueMarkersGroup.addTo(map);
+
+
+        // Hide/show the group based on zoom
+        map.on('zoomend', zoomHandler);
 
         return true;
 
@@ -120,7 +138,6 @@ async function fetchAirports() {
         return false;
     }
 }
-
 
 const timezoneJsonUrl = "https://raw.githubusercontent.com/vvo/tzdb/main/raw-time-zones.json";
 async function fetchTimezoneInfo() {

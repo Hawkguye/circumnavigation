@@ -42,6 +42,7 @@ var flightsInfoArr = [];
 var greatCirclePolyline = [];
 var greatCircleOriginalPolylines = [];
 var destPolyline = [];
+var leaderboardPolyline = [];
 
 var routeLngs = {};
 for (let i = -180; i <= 180; i++){
@@ -134,7 +135,7 @@ function drawDestRoute(){
         .catch(error => console.error(`Unable to fetch ${origin_iata} dests data:`, error));
 }
 
-function drawRouteLine(dest_latlng, opt) {
+function drawRouteLine(dest_latlng, opt, route) {
     greatCirclePolyline = [];
     greatCircleOriginalPolylines = []; // <-- only for animation use
 
@@ -170,6 +171,10 @@ function drawRouteLine(dest_latlng, opt) {
         } else if (opt === 'destv2') {
             polyline = L.polyline(shiftedLatLngs.map(c => [c[0], c[1]]), destsPathOptionv2).addTo(map);
             destPolyline.push(polyline);
+        } else if (opt === 'leaderboard') {
+            polyline = L.polyline(shiftedLatLngs.map(c => [c[0], c[1]]), {color: 'red'}).addTo(map);
+            polyline.routeData = route; // Store the route data with the polyline
+            leaderboardPolyline.push(polyline);
         } else {
             return;
         }
@@ -339,6 +344,13 @@ function removeDestLines(){
     destPolyline = [];
 }
 
+function removeLeaderboardLines(){
+    leaderboardPolyline.forEach(polyline => {
+        map.removeLayer(polyline);
+    });
+    leaderboardPolyline = [];
+}
+
 function updateRouteDisplay(){
     $("#origin-airport").text(origin_iata);
     if (origin_iata != null){
@@ -467,6 +479,7 @@ async function postPlayerStat(timeUsed){
     .catch(error => console.error('Error:', error));
 }
 
+// TODO: LEADERBOARD WITH MAP VISUALS (GEOGUESSR STYLE), GET MAP LAYERS
 async function getLeaderboard(){
     fetch(`${API_URL}get_game_data?gameId=${gameId}`)
         .then(response => response.json())
@@ -486,7 +499,7 @@ async function getLeaderboard(){
                     inTop10 = true;
                     $("#leaderboard-tbody").append(
                     `
-                        <tr class="table-info">
+                        <tr class="table-info clickable-row" data-route='${JSON.stringify(playerStat.route)}'>
                             <th scope="row">${i+1}</th>
                             <td>${playerStat.username}</td>
                             <td>${elapsedTimeFormat(new Date(playerStat.timeUsed))}</td>
@@ -498,7 +511,7 @@ async function getLeaderboard(){
                 }else {
                     $("#leaderboard-tbody").append(
                     `
-                        <tr>
+                        <tr class="clickable-row" data-route='${JSON.stringify(playerStat.route)}'>
                             <th scope="row">${i+1}</th>
                             <td>${playerStat.username}</td>
                             <td>${elapsedTimeFormat(new Date(playerStat.timeUsed))}</td>
@@ -520,7 +533,7 @@ async function getLeaderboard(){
                 var playerStat = playerStatArr[index];
                 $("#leaderboard-tbody").append(
                 `
-                    <tr class="table-info">
+                    <tr class="table-info clickable-row" data-route='${JSON.stringify(playerStat.route)}'>
                         <th scope="row">${index+1}</th>
                         <td>${playerStat.username}</td>
                         <td>${elapsedTimeFormat(new Date(playerStat.timeUsed))}</td>
@@ -530,8 +543,70 @@ async function getLeaderboard(){
                 `
                 );
             }
+
+            // Add click handlers for the rows
+            $(".clickable-row").click(function() {
+                const route = $(this).data('route');
+                                
+                // If this row was already selected, remove only its route and selected class
+                if ($(this).hasClass("selected-row")) {
+                    $(this).removeClass("selected-row");
+                    $(this).removeClass("table-active");
+                    // Remove only the polylines associated with this route
+                    const routePolylines = leaderboardPolyline.filter(polyline => {
+                        return JSON.stringify(polyline.routeData) === JSON.stringify(route);
+                    });
+                    routePolylines.forEach(polyline => {
+                        map.removeLayer(polyline);
+                    });
+                    leaderboardPolyline = leaderboardPolyline.filter(polyline => !routePolylines.includes(polyline));
+                    return;
+                }
+                
+                // Add highlight to clicked row
+                $(this).addClass("selected-row");
+                $(this).addClass("table-active");
+                
+                // Draw the route
+                drawLeaderboardRoute(route);
+            });
         })
         .catch(error => console.error(`Unable to fetch leaderboard:`, error));
+}
+
+function drawLeaderboardRoute(route) {
+    // Draw each leg of the route
+    for (let i = 0; i < route.length - 1; i++) {
+        const originAp = findApData(route[i]);
+        const destAp = findApData(route[i + 1]);
+        
+        // console.log(originAp, destAp);
+
+        if (originAp && destAp) {
+            // Store original origin and dest for drawRouteLine
+            const tempOriginIata = origin_iata;
+            const tempDestIata = dest_iata;
+            const tempOriginLatlng = origin_latlng;
+            const tempDestLatlng = dest_latlng;
+            
+            // Set temporary values for drawRouteLine
+            origin_iata = route[i];
+            dest_iata = route[i + 1];
+            origin_latlng = [originAp.longitude, originAp.latitude];
+            dest_latlng = [destAp.longitude, destAp.latitude];
+            
+            // Draw the route line with route data
+            drawRouteLine([destAp.longitude, destAp.latitude], 'leaderboard', route);
+            
+            // Restore original values
+            origin_iata = tempOriginIata;
+            dest_iata = tempDestIata;
+            origin_latlng = tempOriginLatlng;
+            dest_latlng = tempDestLatlng;
+        }
+    }
+    
+    map.setView([20, 0], 2); // Center on lat 20, lng 0 at zoom level 2 to show most of world
 }
 
 function showRoute(routeArr){
@@ -549,7 +624,12 @@ function elapsedTimeFormat(timeUsed){
 }
 
 function gameOver(){
+    removeDestLines();
     clickAllowed = false;
+
+    map.off('zoomend', zoomHandler);
+    map.removeLayer(airportMarkersGroup);
+    map.removeLayer(blueMarkersGroup);
 
     $("#airport-display").hide();
     $("#airport-input").hide();
