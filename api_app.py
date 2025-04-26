@@ -57,7 +57,7 @@ def get_dc():
         return send_file(JSONDIR)
     else:
         logging.warning("Missing today's daily challenge!!!")
-        return jsonify({"message": "Can't find today's daily challenge!"}), 400
+        return jsonify({"message": "Can't find today's daily challenge! Notify the dev!"}), 400
 
 @app.route("/api/get_game_meta/<int:game_id>", methods=["GET"])
 def get_game_meta(game_id):

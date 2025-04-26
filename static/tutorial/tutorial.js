@@ -66,7 +66,7 @@ const tutorialObj = [
     { // 6
         "text": `
             <h6>This is your current budget.</h6>
-            <p>You’ll spend it on flights and taxis, so use it wisely!</p>
+            <p>You'll spend it on flights and taxis, so use it wisely!</p>
         `,
         "highlight": "#budget-display-div",
         "navbar": true,
@@ -84,7 +84,7 @@ const tutorialObj = [
     },
     { // 8
         "text": `
-            <h6>Every time you land at a new airport, you’ll get <b>3 new challenges</b>.</h6>
+            <h6>Every time you land at a new airport, you'll get <b>3 new challenges</b>.</h6>
             <p>Complete them to earn more budget.</p>
             <p><b>Watch the clock!</b> Challenges take time. Check-in closes <b>45 minutes</b> before your flight leaves. Don't miss your desired flight!</p>
         `,
@@ -93,7 +93,8 @@ const tutorialObj = [
     },
     { // 9
         "text": `
-            <h6>Let’s check out the map.</h6>
+            <h6>Let's check out the map.</h6>
+            <p>The grey lines are potential destinations from your airport. But they are not entirely accurate.</p>
         `,
         "highlight": "#map",
         "interact": false,
@@ -120,7 +121,7 @@ const tutorialObj = [
     },
     { // 11
         "text": `
-            <h6>Let’s book a flight to New York’s LaGuardia Airport (LGA).</h6>
+            <h6>Let's start our epic journey by booking a flight to New York's LaGuardia Airport (LGA)!</h6>
             <p>Click the <b>blue dot</b> on the map for LGA.</p>
         `,
         "highlight": "#map",
@@ -147,7 +148,8 @@ const tutorialObj = [
     },
     { // 14
         "text": `
-            <h6>Nice! You’re on your way to New York!</h6>
+            <h6>Nice! You're on your way to New York!</h6>
+            <p>After this, we'll continue our journey east, onwards to Europe!</p>
             <p>Sit back and wait for your arrival.</p>
         `,
         "highlight": "#map",
@@ -157,7 +159,7 @@ const tutorialObj = [
     { // 15
         "text": `
             <h6>Welcome to New York!</h6>
-            <p>But LaGuardia Airport doesn’t have international flights. So, how do we go onwards to Europe?</p>
+            <p>But LaGuardia Airport doesn't have international flights. So, how do we go onwards to Europe?</p>
         `,
         "highlight": "#map",
         "interact": false,
@@ -165,7 +167,7 @@ const tutorialObj = [
     },
     { // 16
         "text": `
-            <h6>We’ll head to <b>JFK Airport</b> for international flights.</h6>
+            <h6>We'll head to <b>John F. Kennedy International Airport (JFK)</b> for international flights.</h6>
             <p><b>Click the red dot</b> to the right to go to JFK.</p>
         `,
         "highlight": "#map",
@@ -174,7 +176,8 @@ const tutorialObj = [
     },
     { // 17
         "text": `
-            <h6>We’re taking a taxi to get there.</h6>
+            <h6>Obviously, we can't take a flight there, so we're taking a taxi to get there.</h6>
+            <p>Many cities have multiple airports that serves different flights, you can get to nearby airports by taxis.</p>
             <p><b>Click “Ground transportation”.</b></p>
         `,
         "highlight": "#flights-div",
@@ -183,7 +186,7 @@ const tutorialObj = [
     },
     { // 18
         "text": `
-            <h6>Awesome! Now you have lots of flight options to Europe.</h6>
+            <h6>Awesome! Now that you're in JFK airport, you have lots of flight options to Europe.</h6>
             <p>Keep completing challenges and traveling until you finish the journey around the world!</p>
         `,
         "highlight": "#map",

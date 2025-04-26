@@ -333,6 +333,7 @@ function bookFlight(flightInfo){
                     map.removeLayer(animatedMarker);
                     afterFlight(flightInfo);
                 }
+                clearInterval(skipWatcher);
             }
         });
 
@@ -361,6 +362,7 @@ function bookFlight(flightInfo){
                     map.removeLayer(animatedMarker1);
                     return;
                 }
+                clearInterval(skipWatcher1);
 
                 const animatedMarker2 = L.animatedMarker(part2.getLatLngs(), {
                     icon: planeMarker,
@@ -371,6 +373,7 @@ function bookFlight(flightInfo){
                             map.removeLayer(animatedMarker2);
                             afterFlight(flightInfo);
                         }
+                        clearInterval(skipWatcher2);
                     }
                 });
 
@@ -403,6 +406,8 @@ function bookFlight(flightInfo){
 
 
 function afterFlight(flightInfo){
+    console.log("afterflight triggered");
+
     $("#skip-animation").hide();
 
     // if (flyDir == "") {
