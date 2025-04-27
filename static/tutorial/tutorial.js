@@ -180,9 +180,10 @@ const tutorialObj = [
         "text": `
             <h6>Obviously, we can't take a flight there, so we're taking a taxi to get there.</h6>
             <p>Many cities have multiple airports that serves different flights, you can get to nearby airports by taxis.</p>
-            <p><b>Click "Ground transportation".</b></p>
+            <p><b>Click <a href="#" onclick="groundConfirm(); return false;">Ground transportation</a>.</b></p>
         `,
         "highlight": "#flights-div",
+        "navbar": false,
         "interact": true,
         "next": false
     },

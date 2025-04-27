@@ -49,14 +49,25 @@ canvas {
     font-size: 15px;
     margin-top: 10px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     gap: 10px;
 }
 
-.scoreboard span {
-    display: block;
-    margin: 5px;
+.score-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.score-item .label {
+    display: inline;
+    margin: 0;
+}
+
+.score-item .value {
+    display: inline;
+    margin: 0;
 }
 
 footer {

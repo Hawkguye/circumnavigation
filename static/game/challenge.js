@@ -46,13 +46,14 @@ const challengeCards = [
             <div>
                 <h5 class="card-title">Trivia Questions!</h5>
                 <h6 class="text-end my-0"><b>-- General Knowledge</b></h6>
-                <small class="fw-light">Data from <a href="https://opentdb.com/" target="_blank" rel="noopener noreferrer">Opentdb</a></small>
+                <small class="fw-light">Questions sourced from <a href="https://opentdb.com/" target="_blank" rel="noopener noreferrer">Opentdb</a></small>
             </div>
-            <p class="card-text">Maximum 10 questions, each question takes 5 minutes in game time.</p>
+            <p class="card-text">Answer up to <b>10</b> trivia questions!<br>
+            Each question takes <b>5 minutes</b> of game time.</p>
         </div>
         <div class="card-body border-top d-flex justify-content-between">
             <div class="container" id="trivia-difficulty-container">
-                <label for="trivia-difficulty-selector">Choose the difficulty:</label>
+                <label for="trivia-difficulty-selector"><b>Choose the difficulty:</b></label>
                 <select class="form-select form-select-sm mb-2" id="trivia-difficulty-selector">
                     <option value="">All difficulties</option>
                     <option value="easy">Easy</option>
@@ -76,9 +77,10 @@ const challengeCards = [
             <div>
                 <h5 class="card-title">Trivia Questions!</h5>
                 <h6 class="text-end"><b>-- All Categories</b></h6>
-                <small class="fw-light">Data from <a href="https://github.com/uberspot/OpenTriviaQA" target="_blank" rel="noopener noreferrer">@uberspot/OpenTriviaQA</a></small>
+                <small class="fw-light">Questions sourced from <a href="https://github.com/uberspot/OpenTriviaQA" target="_blank" rel="noopener noreferrer">@uberspot/OpenTriviaQA</a></small>
             </div>
-            <p class="card-text">Maximum 10 questions, each question takes 5 minutes in game time.</p>
+            <p class="card-text">Answer up to <b>10</b> trivia questions!<br>
+            Each question takes <b>5 minutes</b> of game time.</p>
         </div>
         <div class="card-body border-top text-center">
             <button class="btn btn-primary mx-auto" id="trivia-start-button-{id}">Start Challenge</button>
@@ -96,11 +98,11 @@ const challengeCards = [
         <div class="card-body text-center">
             <div>
                 <h5 class="card-title">Trivia Questions!</h5>
-                <h6 class="text-end"><b>-- Category Specified</b></h6>
-                <small class="fw-light">Data from <a href="https://github.com/uberspot/OpenTriviaQA" target="_blank" rel="noopener noreferrer">@uberspot/OpenTriviaQA</a></small>
+                <h6 class="text-end"><b>-- Choose a Category</b></h6>
+                <small class="fw-light">Questions sourced from <a href="https://github.com/uberspot/OpenTriviaQA" target="_blank" rel="noopener noreferrer">@uberspot/OpenTriviaQA</a></small>
             </div>
             <div class="container border-bottom border-info mb-2" id="trivia-catagory-container">
-                <label for="trivia-catagory-selector">Choose a catagory:</label>
+                <label for="trivia-catagory-selector"><b>Pick a category:</b></label>
                 <select class="form-select form-select-sm mb-2" id="trivia-catagory-selector">
 
                     <option value="animals">Animals</option>
@@ -127,7 +129,8 @@ const challengeCards = [
 
                 </select>
             </div>
-            <p class="card-text">Maximum 10 questions, each question takes 5 minutes in game time.</p>
+            <p class="card-text">Answer up to <b>10</b> trivia questions!<br>
+            Each question takes <b>5 minutes</b> of game time.</p>
         </div>
         <div class="card-body border-top text-center">
             <button class="btn btn-primary mx-auto" id="trivia-start-button-{id}">Start Challenge</button>
@@ -146,12 +149,14 @@ const challengeCards = [
             <div>
                 <h5 class="card-title">Minigame!</h5>
                 <h6 class="text-end"><b>-- 2048</b></h6>
-                <small class="fw-light">source: <a href="https://github.com/gd4Ark/2048" target="_blank" rel="noopener noreferrer">@gd4Ark/2048</a></small>
+                <small class="fw-light">Source: <a href="https://github.com/gd4Ark/2048" target="_blank" rel="noopener noreferrer">@gd4Ark/2048</a></small>
             </div>
-            <p class="card-text">Use your arrow keys (or swipe) to move the tiles.<br>
-            Tiles with the same number merge into one when they touch.<br>
-            Try to get the highest number possible!<br>
-            <b>(Takes 30 minutes in game time.)</b></p>
+            <p class="card-text">
+                Use <b>arrow keys</b> or <b>swipe</b> to slide tiles around the board.<br>
+                When matching numbers touch, they combine into one bigger number.<br>
+                Match tiles to reach the <b>highest score</b> you can!<br>
+                Challenge Time: <b>30 minutes</b> of game time.
+            </p>
         </div>
         <div class="card-body border-top d-flex text-center">
             <button class="btn btn-primary mx-auto" id="2048-start-btn">Start Challenge</button>
@@ -170,22 +175,22 @@ const challengeCards = [
             <div>
                 <h5 class="card-title">Minigame!</h5>
                 <h6 class="text-end"><b>-- Wordle</b></h6>
-                <small class="fw-light">source: <a href="https://github.com/WebDevSimplified/wordle-clone" target="_blank" rel="noopener noreferrer">@WebDevSimplified/wordle-clone</a></small>
+                <small class="fw-light">Source: <a href="https://github.com/WebDevSimplified/wordle-clone" target="_blank" rel="noopener noreferrer">@WebDevSimplified/wordle-clone</a></small>
                 
             </div>
-            <p class="card-text">You'll have six attempts to guess a five-letter word.
-             Each guess provides feedback, with letters turning <b style="color: green;">green</b> if they are in the correct position,
-             <b style="color: orange;">yellow</b> if they are in the word but in the wrong position,
-              and <b style="color: gray;">gray</b> if they are not in the word at all.
-               The goal is to guess the word in as few attempts as possible.
-               <br><b>(Takes 30 minutes in game time.)</b>
+            <p class="card-text">
+                Guess the 5-letter word in 6 tries!<br>
+                <b style="color: green;">Green</b> = right letter, right place.<br>
+                <b style="color: orange;">Yellow</b> = right letter, wrong place.<br>
+                <b style="color: gray;">Gray</b> = letter not in the word.<br>
+                Challenge Time: <b>30 minutes</b> of game time.
             </p>
         </div>
         <div class="card-body border-top d-flex text-center">
             <button class="btn btn-primary mx-auto" id="wordle-start-btn">Start Challenge</button>
         </div>
         <div class="card-footer text-center">
-            <h6>Reward: 1 to 6 guesses used respectively: $10000, $5000, $2000, $1000, $600, $400</h6>
+            <h6>Reward: $<b>10,000</b> for solving in 1 guess, $<b>5,000</b> for 2 guesses, $<b>2,000</b> for 3, $<b>1,000</b> for 4, $<b>600</b> for 5, $<b>400</b> for 6.</h6>
         </div>
     </div>
     `,
@@ -200,10 +205,11 @@ const challengeCards = [
                 <h6 class="text-end"><b>-- Chrome Dino</b></h6>
                 <small class="fw-light">source: <a href="https://github.com/wayou/t-rex-runner" target="_blank" rel="noopener noreferrer">@wayou/t-rex-runner</a> from chromium</small>
             </div>
-            <p class="card-text">The classic game from Chrome offline mode.
-             Press <b>Space</b> or <b>tap</b> to start the game and jump your Dino, use down arrow (↓) to duck.
-                <br><b>You have 2 chances.</b>
-               <br><b>(Takes 30 minutes in game time.)</b>
+            <p class="card-text">
+                The classic game from Google Chrome offline mode.<br>
+                Jump over obstacles! Press <b>Space</b> or <b>tap</b> to jump, and <b>↓</b> to duck.<br>
+                <b>You have 2 attempts.</b><br>
+                Challenge Time: <b>30 minutes</b> of game time.
             </p>
         </div>
         <div class="card-body border-top d-flex text-center">
@@ -221,11 +227,11 @@ const challengeCards = [
         <img src="{imgDir}logo.png" class="card-img-top" alt="flight">
         <div class="card-body text-center">
             <div>
-                <h5 class="card-title">Fly to a random city!</h5>
+                <h5 class="card-title">Cursed!</h5>
+                <h6 class="text-end"><b>-- Fly to a random city!</b></h6>
             </div>
             <p class="card-text">
-                Take a flight to a random city (direct from your current location).
-                <bt>
+                You have to take the <b>first direct flight</b> to a <b>random destination</b>!<br>
                 <b>The flight itself will be free</b>.
             </p>
         </div>
@@ -233,7 +239,7 @@ const challengeCards = [
             <button class="btn btn-primary mx-auto" id="random-flight-start-btn">Start Challenge</button>
         </div>
         <div class="card-footer text-center">
-            <h6>Reward: $<b>1000</b></h6>
+            <h6>Reward: $<b>1000</b> after the flight</h6>
         </div>
     </div>
     `,
@@ -249,10 +255,10 @@ const challengeCards = [
                 <small class="fw-light">source: <a href="https://github.com/ramazancetinkaya/snake-game" target="_blank" rel="noopener noreferrer">@ramazancetinkaya/snake-game</a></small>
             </div>
             <p class="card-text">The classic snake game.
-                Use <b>arrow keys</b> or <b>swipe</b> to move the snake.
-                <br><b>Don't bump into the walls or yourself!</b>
-                <br><b>You have 3 chances.</b>
-               <br><b>(Takes 30 minutes in game time.)</b>
+                Use <b>arrow keys</b> or <b>swipe</b> to move the snake.<br>
+                Don't bump into the walls or yourself!<br>
+                <b>You have 3 attempts.</b><br>
+                Challenge Time: <b>30 minutes</b> of game time.
             </p>
         </div>
         <div class="card-body border-top d-flex text-center">
@@ -274,11 +280,12 @@ const challengeCards = [
                 <h6 class="text-end"><b>-- Flappy Bird</b></h6>
                 <small class="fw-light">source: <a href="https://github.com/shuding/flappybird" target="_blank" rel="noopener noreferrer">@shuding/flappybird</a></small>
             </div>
-            <p class="card-text">The classic flappy bird game.
-                Press <b>SPACE</b> or <b>click</b> to jump the bird.
-                <br><b>Don't bump into the walls!</b>
-                <br><b>You have 3 chances.</b>
-               <br><b>(Takes 30 minutes in game time.)</b>
+            <p class="card-text">
+                The classic flappy bird game.<br>
+                Press <b>SPACE</b> or <b>click</b> to jump the bird.<br>
+                Don't crash into the obstacles!<br>
+                <b>You have 3 attempts.</b><br>
+                Challenge Time: <b>30 minutes</b> of game time.
             </p>
         </div>
         <div class="card-body border-top d-flex text-center">

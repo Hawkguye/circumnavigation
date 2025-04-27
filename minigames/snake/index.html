@@ -12,12 +12,18 @@
             <canvas id="gameCanvas" width="400" height="400"></canvas>
             <!-- <button id="restartButton">RESTART</button> -->
             <div class="scoreboard">
-                <span>SCORE</span>
-                <span id="score">00</span>
-                <span style="margin-top: 20px;">HIGH SCORE</span>
-                <span id="highscore">00</span>
-                <span style="margin-top: 20px;">ATTEMPT</span>
-                <span id="attempt">1</span>
+                <div class="score-item">
+                    <span class="label">SCORE</span>
+                    <span id="score" class="value">00</span>
+                </div>
+                <div class="score-item">
+                    <span class="label">HIGH SCORE</span>
+                    <span id="highscore" class="value">00</span>
+                </div>
+                <div class="score-item">
+                    <span class="label">ATTEMPT</span>
+                    <span class="value"><span id="attempt">1</span>/3</span>
+                </div>
             </div>
         </div>
         <footer>
