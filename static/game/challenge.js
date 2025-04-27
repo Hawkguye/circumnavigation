@@ -478,20 +478,22 @@ function preventTouchScroll(e) {
 // Add CSS styling for minigame canvas
 function setupMinigameCanvas() {
     const canvas = document.getElementById("minigame-canvas");
-    canvas.style.width = "100%";
-    canvas.style.maxWidth = "100vw";
-    canvas.style.height = "100%";
-    canvas.style.maxHeight = "100vh";
-    canvas.style.overflow = "hidden";
-    canvas.style.position = "fixed";
-    canvas.style.top = "0";
-    canvas.style.left = "0";
-    canvas.style.zIndex = "1000";
-    canvas.style.backgroundColor = "white";
-    canvas.style.display = "flex";
-    canvas.style.flexDirection = "column";
-    canvas.style.alignItems = "center";
-    canvas.style.justifyContent = "center";
+    if (canvas) {
+        canvas.style.width = "100%";
+        canvas.style.maxWidth = "100vw";
+        canvas.style.height = "100%";
+        canvas.style.maxHeight = "100vh";
+        canvas.style.overflow = "hidden";
+        canvas.style.position = "fixed";
+        canvas.style.top = "0";
+        canvas.style.left = "0";
+        canvas.style.zIndex = "1000";
+        canvas.style.backgroundColor = "white";
+        canvas.style.display = "flex";
+        canvas.style.flexDirection = "column";
+        canvas.style.alignItems = "center";
+        canvas.style.justifyContent = "center";
+    }
 }
 
 // 2048 (4)

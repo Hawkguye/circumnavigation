@@ -1,4 +1,3 @@
-
 var correctCnt = 0;
 var answeredCnt = 0;
 var reward = 0;
@@ -207,7 +206,8 @@ function validateTriviaAnswer(selectedAnswer, correctAnswer){
         // console.log("Correct!");
         confetti({
             particleCount: 150,
-            spread: 180
+            spread: 180,
+            zIndex: 2000
         });
     } else {
         // console.log("Wrong answer. The correct answer was: " + correctAnswer);

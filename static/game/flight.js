@@ -1,4 +1,3 @@
-
 async function searchFlight(nextDay) {
     if (routeDistance <= 200) {
         // skip searching
@@ -229,6 +228,7 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
     if (randomFlightChallenge) {
         flightsInfoArr[0].Price = 0;
         $("#confirm-cancel-button").prop('disabled', true);
+        $("#confirm-modal .btn-close").prop('disabled', true);
         bookFlightConfirm(flightsInfoArr[0]);
         // $("#confirm-cancel-button").show();
     }
@@ -262,6 +262,7 @@ function bookFlightConfirm(flightInfo){
         bookFlight(flightInfo);
         if (randomFlightChallenge){
             $("#confirm-cancel-button").removeAttr('disabled');
+            $("#confirm-modal .btn-close").removeAttr('disabled');
             finishRandomFlight();
         }
     });

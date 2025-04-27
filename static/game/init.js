@@ -105,12 +105,12 @@ async function fetchAirports() {
                 // Only store original marker for interactions (optional)
                 if (index === 0) {
                     markersArray[pinData.iata_code] = marker;
-
-                    marker.on('click', function(e) {
-                        selectedAp = pinData.iata_code;
-                        clickedPin(pinData.iata_code, e.target);
-                    });
                 }
+
+                marker.on('click', function(e) {
+                    selectedAp = pinData.iata_code;
+                    clickedPin(pinData.iata_code, e.target);
+                });
 
                 marker.bindTooltip(
                     `<b>${pinData.iata_code}</b><br>${pinData.name}<br>${pinData.municipality}, ${pinData.iso_country}<br>Potential destinations: ${pinData.dest_count}`,
