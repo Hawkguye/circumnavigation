@@ -1,0 +1,231 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+}
+
+body {
+    background: linear-gradient(135deg, #1a2a3a 0%, #2c3e50 100%);
+    color: #ecf0f1;
+    min-height: 100vh;
+}
+
+.hero-section {
+    background: url('../img/globe-bg.jpg') center/cover;
+    height: 120px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    border-radius: 0 0 20px 20px;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.game-card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.card-header {
+    background: var(--primary-color) !important;
+    border-radius: 15px 15px 0 0 !important;
+}
+
+.btn-primary {
+    background: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+.form-control {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #ecf0f1;
+}
+
+.form-control:focus {
+    background: rgba(255,255,255,0.15);
+    border-color: var(--secondary-color);
+    color: #ecf0f1;
+    box-shadow: 0 0 0 0.25rem rgba(52, 152, 219, 0.25);
+}
+
+.table {
+    color: #ecf0f1;
+    background: transparent;
+}
+
+.table thead th {
+    background: rgba(255,255,255,0.1);
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.table tbody td {
+    border-color: rgba(255,255,255,0.1);
+}
+
+.table-hover tbody tr:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+.table a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.table a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.alert {
+    background: rgba(231, 76, 60, 0.2);
+    border: 1px solid var(--accent-color);
+    color: #ecf0f1;
+}
+
+.alert a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.alert a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: rgba(0,0,0,0.2);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.countdown-badge {
+    background: var(--accent-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.card-title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    color: rgba(255,255,255,0.8);
+    font-size: 0.9rem;
+}
+
+.form-label {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.card-footer {
+    background: rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.card-footer p {
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.modal-content {
+    background: var(--primary-color);
+    color: #ecf0f1;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.navbar {
+    background: var(--primary-color) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.navbar-dark {
+    background: var(--primary-color) !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .nav-link:hover {
+    color: var(--secondary-color);
+} 
