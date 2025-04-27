@@ -36,15 +36,15 @@
 }
 
 #log-button {
-    /* position: fixed; */
-    /* left: 15px; */
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    width: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
     height: 36px;
     border: solid rgba(0, 0, 0, 0.5);
     border-radius: 4px;
-    padding: 2px;
+    padding: 0;
+    cursor: pointer;
 }
 
 #log-button:hover {
@@ -52,20 +52,25 @@
 }
 
 #home-button {
-    /* position: fixed; */
-    /* left: 15px; */
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    width: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
     height: 36px;
     border: solid rgba(0, 0, 0, 0.5);
     border-radius: 4px;
-    padding: 3px;
+    padding: 0;
+    cursor: pointer;
 }
 
 #home-button:hover {
     outline: 3px solid rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+}
+
+#home-button img, #log-button img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
 }
 
 #logo:hover {

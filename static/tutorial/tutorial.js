@@ -1,4 +1,3 @@
-
 // TODO: Improve this
 const tutorialObj = [
     { // 0
@@ -141,6 +140,9 @@ const tutorialObj = [
         "text": `
             <h6>Your flight options are now shown.</h6>
             <h6><b>Click to book the first available flight</b> from DEN to LGA.</h6>
+            <small class="text-end text-muted mt-3">
+                Need help? Click <a href="#" onclick="bookFlightConfirm(flightsInfoArr[0]); return false;">here</a> to book the first flight
+            </small>
         `,
         "highlight": "#first-flight-div",
         "interact": true,
@@ -178,7 +180,7 @@ const tutorialObj = [
         "text": `
             <h6>Obviously, we can't take a flight there, so we're taking a taxi to get there.</h6>
             <p>Many cities have multiple airports that serves different flights, you can get to nearby airports by taxis.</p>
-            <p><b>Click “Ground transportation”.</b></p>
+            <p><b>Click "Ground transportation".</b></p>
         `,
         "highlight": "#flights-div",
         "interact": true,
