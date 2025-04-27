@@ -53,6 +53,15 @@ def tutorial():
     return render_template('tutorial.html', api_url=api_url, flight_url=flight_url)
 
 
+@app.route("/leaderboard/<int:game_id>")
+def leaderboard_html(game_id):
+    if game_id > len(gamesList):
+        return "Game not found", 404
+    return render_template('leaderboard.html', 
+                         game_id=game_id,
+                         api_url=os.getenv('API_URL', 'http://127.0.0.1:5000/api/'))
+
+
 @app.route("/game/<int:game_id>")
 def game(game_id):
     api_url = os.getenv('API_URL', 'http://127.0.0.1:5000/api/')

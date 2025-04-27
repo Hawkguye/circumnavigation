@@ -83,5 +83,33 @@ function initTime(){
     $("#freegame-time").val(targetDate);
 }
 
+async function fetchGamesList() {
+    try {
+        const response = await fetch(`${API_URL}get_games_list`);
+        const data = await response.json();
+        
+        $("#games-list").html('');
+        data.forEach(game => {
+            $("#games-list").append(`
+                <tr>
+                    <th scope="row">${game.gameId}</th>
+                    <td>${game.orgIata}</td>
+                    <td>${game.startingTime}</td>
+                    <td>${game.date}</td>
+                    <td><a href="/leaderboard/${game.gameId}">View Leaderboard</a></td>
+                </tr>
+            `);
+        });
+    } catch (error) {
+        console.error('Error fetching games list:', error);
+        $("#games-list").html('<tr><td colspan="5" class="text-center text-danger">Error loading games</td></tr>');
+    }
+}
+
+// Show games list when modal opens
+$('#leaderboard-modal').on('show.bs.modal', function () {
+    fetchGamesList();
+});
+
 fetchDC();
 initTime();

@@ -5,7 +5,7 @@ import json
 import os
 import random
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 from modals import PlayerStat, Game, TriviaQuestion
 import scraper
@@ -328,6 +328,46 @@ def get_files(path, password):
 def health():
     return jsonify(status="healthy"), 200
 
+@app.route("/api/get_games_list")
+def get_games_list():
+    try:
+        # Get list of daily challenge files
+        dc_files = os.listdir(DC_DATA_DIR)
+        dc_files.sort(reverse=True)  # Sort by date, newest first
+        
+        # Get current time
+        current_time = datetime.now(timezone.utc)
+        week_ago = current_time - timedelta(days=7)
+        
+        games_data = []
+        for dc_file in dc_files:
+            # Skip future challenges
+            if dc_file > current_time.strftime('%Y-%m-%d') + '.json':
+                continue
+                
+            # Stop if we've gone past a week
+            file_date = datetime.strptime(dc_file[:-5], '%Y-%m-%d').replace(tzinfo=timezone.utc)
+            if file_date < week_ago:
+                break
+                
+            # Read the daily challenge file
+            with open(f"{DC_DATA_DIR}{dc_file}", "r") as f:
+                dc_data = json.load(f)
+                game_id = dc_data.get("gameId")
+                
+                # Get game data from gamesList
+                if game_id and game_id <= len(gamesList):
+                    game = gamesList[game_id - 1]
+                    games_data.append({
+                        "gameId": game.gameId,
+                        "orgIata": game.orgIata,
+                        "startingTime": game.startingTime,
+                        "date": dc_file[:-5]  # Remove .json extension
+                    })
+        
+        return jsonify(games_data), 200
+    except Exception as e:
+        return jsonify({"message": str(e)}), 400
 
 load_datas()
 load_trivia_json()
