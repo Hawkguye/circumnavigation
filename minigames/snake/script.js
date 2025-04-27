@@ -142,17 +142,23 @@ let touchStartX = 0;
 let touchStartY = 0;
 const minSwipeDistance = 30; // Minimum distance for a swipe to be considered
 
-window.addEventListener('touchstart', e => {
+// Add touch event listeners to the canvas instead of window
+canvas.addEventListener('touchstart', e => {
+    e.preventDefault(); // Prevent default touch behavior
     touchStartX = e.touches[0].clientX;
     touchStartY = e.touches[0].clientY;
-});
+}, { passive: false });
 
-window.addEventListener('touchend', e => {
-    e.preventDefault();
+canvas.addEventListener('touchmove', e => {
+    e.preventDefault(); // Prevent default touch behavior
+}, { passive: false });
+
+canvas.addEventListener('touchend', e => {
+    e.preventDefault(); // Prevent default touch behavior
     const touchEndX = e.changedTouches[0].clientX;
     const touchEndY = e.changedTouches[0].clientY;
     handleSwipe(touchStartX, touchStartY, touchEndX, touchEndY);
-});
+}, { passive: false });
 
 function handleSwipe(startX, startY, endX, endY) {
     if (changedDirection) {

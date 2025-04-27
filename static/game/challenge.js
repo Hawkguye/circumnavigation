@@ -463,17 +463,44 @@ function challangeFinished(text, cheers){
     }
 }
 
+// Add this function at the top level
+function preventTouchScroll(e) {
+    e.preventDefault();
+}
+
+// Add CSS styling for minigame canvas
+function setupMinigameCanvas() {
+    const canvas = document.getElementById("minigame-canvas");
+    canvas.style.width = "100%";
+    canvas.style.maxWidth = "100vw";
+    canvas.style.height = "100%";
+    canvas.style.maxHeight = "100vh";
+    canvas.style.overflow = "hidden";
+    canvas.style.position = "fixed";
+    canvas.style.top = "0";
+    canvas.style.left = "0";
+    canvas.style.zIndex = "1000";
+    canvas.style.backgroundColor = "white";
+    canvas.style.display = "flex";
+    canvas.style.flexDirection = "column";
+    canvas.style.alignItems = "center";
+    canvas.style.justifyContent = "center";
+}
 
 // 2048 (4)
 async function start2048(){
+    setupMinigameCanvas();
     $("#minigame-canvas").show().html(`
-        <iframe src="/minigames/2048/index.html" id="2048-iframe" frameborder="0" width="90%" height="80%"></iframe>
+        <iframe src="/minigames/2048/index.html" id="2048-iframe" frameborder="0" width="90%" height="80%" style="max-width: 100%;"></iframe>
         <button class="btn btn-sm btn-outline-warning quit-button" onclick="quit2048()">Quit</button>
     `);
     await delay(100);
     document.getElementById("2048-iframe").contentWindow.focus();
+    document.getElementById("minigame-canvas").addEventListener('touchmove', preventTouchScroll, { passive: false });
 }
+
 function finish2048(score){
+    document.getElementById("minigame-canvas").removeEventListener('touchmove', preventTouchScroll);
     $("#minigame-canvas").html("").hide();
     challangeFinished(`Your score: ${score}.<br>You earned $${score}!<br>30 minutes in game time has passed.`, true);
 
@@ -481,19 +508,22 @@ function finish2048(score){
     $("#money-left").text(`$${budget}`);
     gameTimeUpdate(gameTime.getTime() + 30 * 60 * 1000);
 }
+
 function quit2048(){
     finish2048(0);
 }
 
 // wordle (5)
 async function startWordle(){
+    setupMinigameCanvas();
     $("#minigame-canvas").show().html(`
-        <iframe src="/minigames/wordle/index.html" id="wordle-iframe" frameborder="0" width="90%" height="85%"></iframe>
+        <iframe src="/minigames/wordle/index.html" id="wordle-iframe" frameborder="0" width="90%" height="85%" style="max-width: 100%;"></iframe>
         <button class="btn btn-sm btn-outline-warning quit-button" onclick="quitWordle()">Quit</button>
     `);
 
     await delay(100);
     document.getElementById("wordle-iframe").contentWindow.focus();
+    document.getElementById("minigame-canvas").addEventListener('touchmove', preventTouchScroll, { passive: false });
 }
 const wordleReward = [0, 10000, 5000, 2000, 1000, 600, 400];
 function quitWordle(){
@@ -501,6 +531,7 @@ function quitWordle(){
     finishWordle(false, 0, targetWord);
 }
 function finishWordle(ifWin, guesses, targetWord){
+    document.getElementById("minigame-canvas").removeEventListener('touchmove', preventTouchScroll);
     $("#minigame-canvas").html("").hide();
     if (ifWin){
         // console.log(guesses)
@@ -516,22 +547,27 @@ function finishWordle(ifWin, guesses, targetWord){
 
 // dino (6)
 async function startDino(){
+    setupMinigameCanvas();
     $("#minigame-canvas").show().html(`
-        <iframe src="/minigames/dino/index.html" id="dino-iframe" frameborder="0" width="90%" height="80%"></iframe>
+        <iframe src="/minigames/dino/index.html" id="dino-iframe" frameborder="0" width="90%" height="80%" style="max-width: 100%;"></iframe>
         <button class="btn btn-sm btn-outline-warning quit-button" onclick="quitDino()">Quit</button>
     `);
     await delay(100);
     document.getElementById("dino-iframe").contentWindow.focus();
+    document.getElementById("minigame-canvas").addEventListener('touchmove', preventTouchScroll, { passive: false });
 }
+
+function quitDino(){
+    finishDino(0);
+}
+
 function finishDino(score){
+    document.getElementById("minigame-canvas").removeEventListener('touchmove', preventTouchScroll);
     $("#minigame-canvas").html("").hide();
     challangeFinished(`Highest score: ${score}.<br>You earned $${score}!<br>30 minutes in game time has passed.`, true);
     budget += score;
     $("#money-left").text(`$${budget}`);
     gameTimeUpdate(gameTime.getTime() + 30 * 60 * 1000);
-}
-function quitDino(){
-    finishDino(0);
 }
 
 // random flight (7)
@@ -552,14 +588,17 @@ function finishRandomFlight(){
 
 // snake (8)
 async function startSnake(){
+    setupMinigameCanvas();
     $("#minigame-canvas").show().html(`
-        <iframe src="/minigames/snake/index.html" id="snake-iframe" frameborder="0" width="90%" height="80%"></iframe>
+        <iframe src="/minigames/snake/index.html" id="snake-iframe" frameborder="0" width="90%" height="80%" style="max-width: 100%;"></iframe>
         <button class="btn btn-sm btn-outline-warning quit-button" onclick="quitSnake()">Quit</button>
     `);
     await delay(100);
     document.getElementById("snake-iframe").contentWindow.focus();
+    document.getElementById("minigame-canvas").addEventListener('touchmove', preventTouchScroll, { passive: false });
 }
 function finishSnake(score){
+    document.getElementById("minigame-canvas").removeEventListener('touchmove', preventTouchScroll);
     let reward = score * 50;
     $("#minigame-canvas").html("").hide();
     challangeFinished(`Highest score: ${score}.<br>You earned $${reward}!<br>30 minutes in game time has passed.`, true);
@@ -571,17 +610,19 @@ function quitSnake(){
     finishSnake(0);
 }
 
-
 // bird (9)
 async function startBird(){
+    setupMinigameCanvas();
     $("#minigame-canvas").show().html(`
-        <iframe src="/minigames/flappy-bird/index.html" id="bird-iframe" frameborder="0" width="90%" height="80%"></iframe>
-        <button class="btn btn-sm btn-outline-warning quit-button" onclick="quitbird()">Quit</button>
+        <iframe src="/minigames/flappy-bird/index.html" id="bird-iframe" frameborder="0" width="90%" height="80%" style="max-width: 100%;"></iframe>
+        <button class="btn btn-sm btn-outline-warning quit-button" onclick="quitBird()">Quit</button>
     `);
     await delay(100);
     document.getElementById("bird-iframe").contentWindow.focus();
+    document.getElementById("minigame-canvas").addEventListener('touchmove', preventTouchScroll, { passive: false });
 }
 function finishBird(score){
+    document.getElementById("minigame-canvas").removeEventListener('touchmove', preventTouchScroll);
     let reward = score * 100;
     $("#minigame-canvas").html("").hide();
     challangeFinished(`Highest score: ${score}.<br>You earned $${reward}!<br>30 minutes in game time has passed.`, true);

@@ -328,21 +328,33 @@ def get_files(path, password):
 def health():
     return jsonify(status="healthy"), 200
 
+# Cache for games list
+games_list_cache = {
+    "data": None,
+    "last_update": None
+}
+
 @app.route("/api/get_games_list")
 def get_games_list():
     try:
+        current_time = datetime.now(timezone.utc)
+        current_date = current_time.strftime('%Y-%m-%d')
+        
+        # Check if cache is valid (same day)
+        if (games_list_cache["last_update"] and 
+            games_list_cache["last_update"].strftime('%Y-%m-%d') == current_date):
+            return jsonify(games_list_cache["data"]), 200
+        
         # Get list of daily challenge files
         dc_files = os.listdir(DC_DATA_DIR)
         dc_files.sort(reverse=True)  # Sort by date, newest first
         
-        # Get current time
-        current_time = datetime.now(timezone.utc)
         week_ago = current_time - timedelta(days=7)
         
         games_data = []
         for dc_file in dc_files:
-            # Skip future challenges
-            if dc_file > current_time.strftime('%Y-%m-%d') + '.json':
+            # Skip current and future day's challenge
+            if dc_file >= current_date + '.json':
                 continue
                 
             # Stop if we've gone past a week
@@ -364,6 +376,10 @@ def get_games_list():
                         "startingTime": game.startingTime,
                         "date": dc_file[:-5]  # Remove .json extension
                     })
+        
+        # Update cache
+        games_list_cache["data"] = games_data
+        games_list_cache["last_update"] = current_time
         
         return jsonify(games_data), 200
     except Exception as e:
