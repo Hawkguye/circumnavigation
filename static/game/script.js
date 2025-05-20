@@ -307,6 +307,13 @@ function newCityPopup(){
 function resetRoute(){
     // origin_pin = null;
 
+    // Abort any ongoing flight search
+    if (currentFlightController) {
+        clearTimeout(timeoutId);
+        currentFlightController.abort("user_interrupted");
+        currentFlightController = null;
+    }
+
     if (dest_pin != null){
         dest_pin.setIcon(getSpot(findApData(dest_iata)));
         dest_pin = null;
@@ -479,7 +486,6 @@ async function postPlayerStat(timeUsed){
     .catch(error => console.error('Error:', error));
 }
 
-// TODO: LEADERBOARD WITH MAP VISUALS (GEOGUESSR STYLE), GET MAP LAYERS
 async function getLeaderboard(){
     fetch(`${API_URL}get_game_data?gameId=${gameId}`)
         .then(response => response.json())
@@ -726,17 +732,7 @@ function usernameValidate(){
     // console.log(usernameInput);
     if (usernameInput == "anonymous") {
         username = usernameInput;
-        $("#start-modal").modal('hide');
-        // startGame();
-        
-        let timeUsed = new Date(gameTime.getTime() - startingTime.getTime());
-        postPlayerStat(timeUsed.getTime());
-
-        confetti({
-            particleCount: 200,
-            spread: 180
-        });
-
+        usernameOK();
         return;
     }
 
@@ -750,14 +746,24 @@ function usernameValidate(){
     .then(data => {
         if (data.result){
             username = usernameInput;
-            $("#start-modal").modal('hide');
-
-            startGame();
+            usernameOK();
         }
         else {
             $("#username-input").addClass('is-invalid');
         }
     })
+}
+
+function usernameOK() {
+    $("#start-modal").modal('hide');
+    
+    let timeUsed = new Date(gameTime.getTime() - startingTime.getTime());
+    postPlayerStat(timeUsed.getTime());
+
+    confetti({
+        particleCount: 200,
+        spread: 180
+    });
 }
 
 

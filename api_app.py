@@ -61,6 +61,9 @@ def get_dc():
 
 @app.route("/api/get_game_meta/<int:game_id>", methods=["GET"])
 def get_game_meta(game_id):
+    if game_id <= 0 or game_id > len(gamesList):
+        return jsonify({"message": "Game not found"}), 404
+        
     orgIata = gamesList[game_id - 1].orgIata
     startingTime = gamesList[game_id - 1].startingTime
 
@@ -88,9 +91,20 @@ def validate_username(game_id, username):
 # post game stuff
 @app.route("/api/get_game_data", methods=["GET"])
 def get_game_data():
-    gameId = int(request.args.get('gameId'))
-
-    return send_file(f"{DATA_DIR}{gameId:07d}.json")
+    try:
+        gameId = int(request.args.get('gameId'))
+        if gameId <= 0 or gameId > len(gamesList):
+            return jsonify({"message": "Game not found"}), 404
+            
+        file_path = f"{DATA_DIR}{gameId:07d}.json"
+        if not os.path.exists(file_path):
+            return jsonify({"message": "Game data file not found"}), 404
+            
+        return send_file(file_path)
+    except ValueError:
+        return jsonify({"message": "Invalid game ID format"}), 400
+    except Exception as e:
+        return jsonify({"message": str(e)}), 400
 
 
 
@@ -352,6 +366,16 @@ def get_games_list():
         week_ago = current_time - timedelta(days=7)
         
         games_data = []
+        # Add game ID 1 as the first entry
+        if len(gamesList) > 0:
+            game = gamesList[0]  # First game in gamesList
+            games_data.append({
+                "gameId": 1,
+                "orgIata": game.orgIata,
+                "startingTime": game.startingTime,
+                "date": "Tutorial"
+            })
+        
         for dc_file in dc_files:
             # Skip current and future day's challenge
             if dc_file >= current_date + '.json':

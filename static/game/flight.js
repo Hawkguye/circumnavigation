@@ -1,3 +1,6 @@
+let currentFlightController = null;
+let timeoutId;
+let isTimeoutAbort = false;
 async function searchFlight(nextDay) {
     if (routeDistance <= 200) {
         // skip searching
@@ -18,7 +21,22 @@ async function searchFlight(nextDay) {
         let avgFlightPrice = 0, flightNum = 0;
         let flights = [];
 
-        const response = await fetch(`${FLIGHT_URL}get_flight?org=${origin_iata}&dest=${dest_iata}&date=${dateNow}`);
+        // Abort any existing request
+        if (currentFlightController) {
+            currentFlightController.abort();
+        }
+        currentFlightController = new AbortController();
+        isTimeoutAbort = false;
+        timeoutId = setTimeout(() => {
+            isTimeoutAbort = true;
+            currentFlightController.abort("timeout");
+        }, 12000); // 12 second timeout
+
+        const response = await fetch(`${FLIGHT_URL}get_flight?org=${origin_iata}&dest=${dest_iata}&date=${dateNow}`, {
+            signal: currentFlightController.signal
+        });
+        
+        clearTimeout(timeoutId);
         
         if (!response.ok) {
             $("#flight-meta").hide();
@@ -75,10 +93,21 @@ async function searchFlight(nextDay) {
 
         displayFlights(flights, Math.round(avgFlightPrice), nextDay);
     } catch (error) {
+        clearTimeout(timeoutId);
         console.error('Error fetching flight data:', error);
         $("#flight-meta").hide();
         $("#flight-info").html('');
-        $("#flight-results").html('<h6 style="text-align: center;">Error fetching flight data. Try again.</h6>');
+        if (error.name === "AbortError"){
+            if (isTimeoutAbort) {
+                $("#flight-results").html('<h6 style="text-align: center;">Flight Search Timed Out. Try again.</h6>');
+            }
+            // else {
+                // $("#flight-results").html('<h6 style="text-align: center;">Flight Search Interrupted. Try again.</h6>');
+            // }
+        }
+        else {
+            $("#flight-results").html('<h6 style="text-align: center;">Error fetching flight data. Try again.</h6>');
+        }
         $("#search-spinner").hide();
         if (randomFlightChallenge) {
             startRandomFlight();
@@ -359,11 +388,12 @@ function bookFlight(flightInfo){
             interval: 500,
             icon: planeMarker,
             onEnd: function () {
+                clearInterval(skipWatcher1);
+                
                 if (skipFlightAnimation) {
                     map.removeLayer(animatedMarker1);
                     return;
                 }
-                clearInterval(skipWatcher1);
 
                 const animatedMarker2 = L.animatedMarker(part2.getLatLngs(), {
                     icon: planeMarker,
@@ -384,6 +414,7 @@ function bookFlight(flightInfo){
 
                 const skipWatcher2 = setInterval(() => {
                     if (skipFlightAnimation) {
+                        clearInterval(skipWatcher1);
                         clearInterval(skipWatcher2);
                         map.removeLayer(animatedMarker2);
                         afterFlight(flightInfo);

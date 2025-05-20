@@ -55,7 +55,7 @@ def tutorial():
 
 @app.route("/leaderboard/<int:game_id>")
 def leaderboard_html(game_id):
-    if game_id > len(gamesList):
+    if game_id <= 0 or game_id > len(gamesList):
         return "Game not found", 404
     return render_template('leaderboard.html', 
                          game_id=game_id,
@@ -64,6 +64,9 @@ def leaderboard_html(game_id):
 
 @app.route("/game/<int:game_id>")
 def game(game_id):
+    if game_id <= 0 or game_id > len(gamesList):
+        return "Game not found", 404
+        
     api_url = os.getenv('API_URL', 'http://127.0.0.1:5000/api/')
     flight_url = os.getenv('FLIGHT_URL', 'http://127.0.0.1:5000/api/')
 
@@ -102,7 +105,10 @@ def freegame():
 
 @app.route("/minigames/<path:path>")
 def minigames(path):
-    return send_from_directory('minigames', path)
+    try:
+        return send_from_directory('minigames', path)
+    except FileNotFoundError:
+        return "Path not found", 404
 
 
 @app.route("/about")
@@ -111,7 +117,10 @@ def about():
 
 @app.route("/favicon.ico")
 def favicon():
-    return send_file("favicon.ico")
+    try:
+        return send_file("favicon.ico")
+    except FileNotFoundError:
+        return "Favicon not found", 404
 
 
 @app.route('/health')
