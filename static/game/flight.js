@@ -97,10 +97,10 @@ async function searchFlight(nextDay) {
         console.error('Error fetching flight data:', error);
         $("#flight-meta").hide();
         $("#flight-info").html('');
-        if (error.name === "AbortError"){
-            if (isTimeoutAbort) {
-                $("#flight-results").html('<h6 style="text-align: center;">Flight Search Timed Out. Try again.</h6>');
-            }
+        if (isTimeoutAbort) {
+            $("#flight-results").html('<h6 style="text-align: center;">Flight Search Timed Out. Try again.</h6>');
+        }
+        else if (error.name === "AbortError"){
             // else {
                 // $("#flight-results").html('<h6 style="text-align: center;">Flight Search Interrupted. Try again.</h6>');
             // }
@@ -299,9 +299,9 @@ function bookFlightConfirm(flightInfo){
 }
 
 const planeMarker = L.icon({
-    iconUrl: `${imgDir}plane-marker.png`,
-    iconSize: [45, 68],
-    iconAnchor: [23, 65],
+    iconUrl: `${imgDir}plane_icon.png`,
+    iconSize: [50, 50],
+    // iconAnchor: [23, 65],
 });
 
 function recordRoute(){
@@ -319,16 +319,17 @@ function recordRoute(){
     });
 }
 
-// TODO: PLANE ICON W/ DIRECTION
-
 let skipFlightAnimation = false;
-function bookFlight(flightInfo){
+let flightCompleted = false;
+
+function bookFlight(flightInfo) {
     $("#confirm-modal").modal('hide');
+
     if (flightInfo.Price > budget) {
         alert("Not enough budget!!!");
         return;
     }
-    if (flightInfo.Departure < localTime.getTime() + 45*60000) {
+    if (flightInfo.Departure < localTime.getTime() + 45 * 60000) {
         alert("Too late! Unable to book flight!");
         return;
     }
@@ -336,6 +337,7 @@ function bookFlight(flightInfo){
     clickAllowed = false;
     $("#reset-route").hide();
     skipFlightAnimation = false;
+    flightCompleted = false;
 
     removeDestLines();
 
@@ -346,93 +348,94 @@ function bookFlight(flightInfo){
     recordRoute();
     document.getElementById("map").scrollIntoView(false);
 
-    $("#skip-animation").show();
-    // Attach skip button handler
-    $("#skip-animation").off("click").on("click", function() {
+    let activeMarkers = [];
+
+    const completeFlight = (info) => {
+        if (flightCompleted) return;
+        flightCompleted = true;
+
+        activeMarkers.forEach(marker => map.removeLayer(marker));
+        activeMarkers = [];
+
+        $("#skip-animation").hide();
+        afterFlight(info);
+    };
+
+    $("#skip-animation").show().off("click").on("click", () => {
         skipFlightAnimation = true;
+        completeFlight(flightInfo);
     });
+
+    const calculateBearing = (latlng1, latlng2) => {
+        const toRad = deg => deg * Math.PI / 180;
+        const toDeg = rad => rad * 180 / Math.PI;
+
+        const dLon = toRad(latlng2.lng - latlng1.lng);
+        const lat1 = toRad(latlng1.lat);
+        const lat2 = toRad(latlng2.lat);
+
+        const y = Math.sin(dLon) * Math.cos(lat2);
+        const x = Math.cos(lat1) * Math.sin(lat2) -
+                  Math.sin(lat1) * Math.cos(lat2) * Math.cos(dLon);
+        const bearing = Math.atan2(y, x);
+
+        return (toDeg(bearing) + 360) % 360;
+    };
+
+    const createRotatingAnimatedMarker = (line, onEnd) => {
+        const latlngs = line.getLatLngs();
+        const marker = L.animatedMarker(latlngs, {
+            icon: planeMarker,
+            distance: 300000,
+            interval: 500,
+            onEnd: onEnd
+        });
+
+        // Store original method
+        const originalSetLatLng = marker.setLatLng;
+
+        // Override to add rotation
+        marker.setLatLng = function (latlng) {
+            if (this._latlng) {
+                const bearing = calculateBearing(this._latlng, latlng);
+                this.setRotationAngle(bearing);
+                this.setRotationOrigin('center center');
+            }
+            return originalSetLatLng.call(this, latlng);
+        };
+
+        activeMarkers.push(marker);
+        return marker;
+    };
 
     if (greatCircleOriginalPolylines.length === 1) {
         const line = greatCircleOriginalPolylines[0];
-        const animatedMarker = L.animatedMarker(line.getLatLngs(), {
-            icon: planeMarker,
-            distance: 300000,
-            interval: 500,
-            onEnd: function() {
-                if (!skipFlightAnimation) {
-                    map.removeLayer(animatedMarker);
-                    afterFlight(flightInfo);
-                }
-                clearInterval(skipWatcher);
-            }
+        const marker = createRotatingAnimatedMarker(line, () => {
+            if (!skipFlightAnimation) completeFlight(flightInfo);
         });
 
-        map.addLayer(animatedMarker);
+        map.addLayer(marker);
         map.fitBounds(line.getBounds());
 
-        // Watch for skip
-        const skipWatcher = setInterval(() => {
-            if (skipFlightAnimation) {
-                clearInterval(skipWatcher);
-                map.removeLayer(animatedMarker);
-                afterFlight(flightInfo);
-            }
-        }, 200);
-
     } else {
-        const part1 = greatCircleOriginalPolylines[0];
-        const part2 = greatCircleOriginalPolylines[1];
+        const [part1, part2] = greatCircleOriginalPolylines;
 
-        const animatedMarker1 = L.animatedMarker(part1.getLatLngs(), {
-            distance: 300000,
-            interval: 500,
-            icon: planeMarker,
-            onEnd: function () {
-                clearInterval(skipWatcher1);
-                
-                if (skipFlightAnimation) {
-                    map.removeLayer(animatedMarker1);
-                    return;
-                }
+        const marker1 = createRotatingAnimatedMarker(part1, () => {
+            if (skipFlightAnimation) return;
 
-                const animatedMarker2 = L.animatedMarker(part2.getLatLngs(), {
-                    icon: planeMarker,
-                    distance: 300000,
-                    interval: 500,
-                    onEnd: function () {
-                        if (!skipFlightAnimation) {
-                            map.removeLayer(animatedMarker2);
-                            afterFlight(flightInfo);
-                        }
-                        clearInterval(skipWatcher2);
-                    }
-                });
+            map.removeLayer(marker1);
 
-                map.removeLayer(animatedMarker1);
-                map.addLayer(animatedMarker2);
-                map.fitBounds(part2.getBounds());
+            const marker2 = createRotatingAnimatedMarker(part2, () => {
+                if (!skipFlightAnimation) completeFlight(flightInfo);
+            });
 
-                const skipWatcher2 = setInterval(() => {
-                    if (skipFlightAnimation) {
-                        clearInterval(skipWatcher1);
-                        clearInterval(skipWatcher2);
-                        map.removeLayer(animatedMarker2);
-                        afterFlight(flightInfo);
-                    }
-                }, 200);
-            }
+            activeMarkers.push(marker2);
+            map.addLayer(marker2);
+            map.fitBounds(part2.getBounds());
         });
 
-        map.addLayer(animatedMarker1);
+        map.addLayer(marker1);
         map.fitBounds(part1.getBounds());
-
-        const skipWatcher1 = setInterval(() => {
-            if (skipFlightAnimation) {
-                clearInterval(skipWatcher1);
-                map.removeLayer(animatedMarker1);
-                afterFlight(flightInfo);
-            }
-        }, 200);
     }
 }
 
