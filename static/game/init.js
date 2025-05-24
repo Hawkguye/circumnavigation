@@ -113,7 +113,7 @@ async function fetchAirports() {
                 });
 
                 marker.bindTooltip(
-                    `<b>${pinData.iata_code}</b><br>${pinData.name}<br>${pinData.municipality}, ${pinData.iso_country}<br>Potential destinations: ${pinData.dest_count}`,
+                    `<b>${pinData.iata_code}</b><br>${pinData.name}<br>${pinData.municipality}, ${pinData.country_name}<br>Potential destinations: ${pinData.dest_count}`,
                     {
                         direction: 'top',
                         opacity: 0.6,

@@ -362,23 +362,27 @@ function updateRouteDisplay(){
     $("#origin-airport").text(origin_iata);
     if (origin_iata != null){
         var originApData = findApData(origin_iata);
-        origin_city = `${originApData.municipality}, ${originApData.iso_country}`;
+        origin_city = `${originApData.municipality}, ${originApData.country_name}`;
         $("#origin-city").text(origin_city);
         $("#origin-airport-name").text(originApData.name);
+        $("#view-origin-schedule-btn").show();
     }else {
         $("#origin-city").text('');
         $("#origin-airport-name").text('');
+        $("#view-origin-schedule-btn").hide();
     }
 
     $("#dest-airport").text(dest_iata);
     if (dest_iata != null){
         var destApdata = findApData(dest_iata);
-        dest_city = `${destApdata.municipality}, ${destApdata.iso_country}`;
+        dest_city = `${destApdata.municipality}, ${destApdata.country_name}`;
         $("#dest-city").text(dest_city);
         $("#dest-airport-name").text(destApdata.name);
+        $("#view-schedule-btn").show();
     }else {
         $("#dest-city").text('');
         $("#dest-airport-name").text('');
+        $("#view-schedule-btn").hide();
     }
 }
 
@@ -766,6 +770,118 @@ function usernameOK() {
     });
 }
 
+function viewSchedule(isOrigin = false) {
+    const iata = isOrigin ? origin_iata : dest_iata;
+    if (!iata) {
+        return;
+    }
+
+    // Show loading state
+    $("#schedule-table-body").html('<tr><td colspan="7" class="text-center">Loading...</td></tr>');
+    $("#schedule-modal").modal('show');
+    
+    // Set current time in modal header
+    $("#schedule-modal-time").text(`Local Time Now: ${toTimeFormat(localTime)}`);
+
+    // Fetch schedule data
+    fetch(`${scheduleJsonUrl}${iata}.json`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Schedule not available');
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Clear loading state
+            $("#schedule-table-body").empty();
+
+            // Update modal title
+            $("#schedule-modal-label").text(`Flight Schedule - ${iata}`);
+
+            // Populate table
+            data.forEach(flight => {
+                $("#schedule-table-body").append(`
+                    <tr data-departure="${flight.local_departure_time}">
+                        <td>${flight.local_departure_time}</td>
+                        <td>${flight.local_arrival_time}</td>
+                        <td><b>${flight.destination_iata}</b> - ${flight.destination_name}</td>
+                        <td>${flight.duration}</td>
+                        <td>${flight.airline_name}</td>
+                        <td>${flight.flight_number}</td>
+                        <td>${flight.aircraft_model}</td>
+                    </tr>
+                `);
+            });
+
+            // If no flights found
+            if (data.length === 0) {
+                $("#schedule-table-body").html('<tr><td colspan="7" class="text-center">No flights available</td></tr>');
+            } else {
+                // Add scroll event listener for tooltip
+                const tableContainer = document.querySelector('.table-responsive');
+                const tooltip = document.createElement('div');
+                tooltip.className = 'scroll-tooltip';
+                tooltip.style.cssText = `
+                    position: fixed;
+                    background: rgba(0, 0, 0, 0.8);
+                    color: white;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    font-size: 12px;
+                    pointer-events: none;
+                    z-index: 9999;
+                    display: none;
+                `;
+                document.body.appendChild(tooltip);
+
+                tableContainer.addEventListener('scroll', () => {
+                    const rows = tableContainer.querySelectorAll('tbody tr');
+                    const containerRect = tableContainer.getBoundingClientRect();
+                    const scrollTop = tableContainer.scrollTop;
+                    const containerHeight = tableContainer.clientHeight;
+                    
+                    // Find the row that's currently at the top of the visible area
+                    let currentRow = null;
+                    let minDistance = Infinity;
+                    
+                    rows.forEach(row => {
+                        const rowRect = row.getBoundingClientRect();
+                        const distance = Math.abs(rowRect.top - containerRect.top);
+                        if (distance < minDistance) {
+                            minDistance = distance;
+                            currentRow = row;
+                        }
+                    });
+
+                    if (currentRow) {
+                        const departureTime = currentRow.dataset.departure;
+                        tooltip.textContent = `Departure: ${departureTime}`;
+                        tooltip.style.display = 'block';
+                        
+                        // Position tooltip near the scrollbar
+                        const scrollbarX = containerRect.right - 20;
+                        const scrollbarY = containerRect.top + (scrollTop / tableContainer.scrollHeight) * containerHeight;
+                        tooltip.style.left = `${scrollbarX}px`;
+                        tooltip.style.top = `${scrollbarY}px`;
+                    }
+                });
+
+                // Hide tooltip when not scrolling
+                let scrollTimeout;
+                tableContainer.addEventListener('scroll', () => {
+                    clearTimeout(scrollTimeout);
+                    tooltip.style.display = 'block';
+                    scrollTimeout = setTimeout(() => {
+                        tooltip.style.display = 'none';
+                    }, 1000);
+                });
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching schedule:', error);
+            $("#schedule-table-body").html('<tr><td colspan="7" class="text-center text-danger">Failed to load schedule</td></tr>');
+        });
+}
 
 document.addEventListener('DOMContentLoaded', (event) => {
     // $("#start-modal").modal('show');

@@ -23,6 +23,7 @@
         const startingTime = new Date(starting_time_str);
 
         const airportsJsonUrl = "{{ url_for('static', filename='game/airports.json') }}";
+        const scheduleJsonUrl = "{{ url_for('static', filename='schedule/') }}";
         // const timezoneJsonUrl = "{{ url_for('static', filename='game/raw-time-zones.json') }}";
         const destsJsonUrl = "{{ url_for('static', filename='dests/') }}";
         const imgDir = "{{ url_for('static', filename='img/') }}";
@@ -243,6 +244,7 @@
                 <h1 id="origin-airport"></h1>
                 <h5 id="origin-city"></h5>
                 <h6 id="origin-airport-name"></h6>
+                <button class="btn btn-sm btn-outline-primary mt-2" id="view-origin-schedule-btn" onclick="viewSchedule(true)">View Schedule</button>
             </div>
             <div class="col-sm-2">
                 <!-- <h4>———></h4> -->
@@ -256,6 +258,46 @@
                 <h1 id="dest-airport"></h1>
                 <h5 id="dest-city"></h5>
                 <h6 id="dest-airport-name"></h6>
+                <button class="btn btn-sm btn-outline-primary mt-2" id="view-schedule-btn" onclick="viewSchedule(false)">View Schedule</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- schedule modal -->
+    <div class="modal fade" id="schedule-modal" tabindex="-1" aria-labelledby="schedule-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="schedule-modal-label">Flight Schedule</h5>
+                    <p class="ms-auto mb-0" id="schedule-modal-time"></p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-info py-2 px-3 mb-2">
+                        <p class="mb-1"><i class="bi bi-info-circle"></i> Flight times are in local time.</p>
+                        <small class="text-muted">Schedule is only for reference, it may not be 100% accurate. Also, there may have some cargo flights mixed in here. Use the scrollbar to find flights quickly.</small>
+                    </div>
+                    <div class="table-responsive" style="max-height: 60vh; overflow-y: auto;">
+                        <table class="table table-striped table-hover">
+                            <thead class="sticky-top bg-white">
+                                <tr>
+                                    <th>Departure Time</th>
+                                    <th>Arrival Time</th>
+                                    <th>Destination</th>
+                                    <th>Flight Duration (HH:MM)</th>
+                                    <th>Airline</th>
+                                    <th>Flight #</th>
+                                    <th>Aircraft</th>
+                                </tr>
+                            </thead>
+                            <tbody id="schedule-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>

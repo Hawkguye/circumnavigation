@@ -41,7 +41,7 @@ async function searchFlight(nextDay) {
         if (!response.ok) {
             $("#flight-meta").hide();
             $("#flight-info").html('');
-            $("#flight-results").html('<h6 style="text-align: center;">Error fetching flight data. Try again.</h6>');
+            $("#flight-results").html('<h6 style="text-align: center;">Error fetching flight data. <span class="clickable-text text-info" onclick="selectAirport()">Try again</span></h6>');
             $("#search-spinner").hide();
             if (randomFlightChallenge) {
                 startRandomFlight();
@@ -98,7 +98,7 @@ async function searchFlight(nextDay) {
         $("#flight-meta").hide();
         $("#flight-info").html('');
         if (isTimeoutAbort) {
-            $("#flight-results").html('<h6 style="text-align: center;">Flight Search Timed Out. Try again.</h6>');
+            $("#flight-results").html('<h6 style="text-align: center;">Flight Search Timed Out. <span class="clickable-text text-info" onclick="selectAirport()">Try again</span></h6>');
         }
         else if (error.name === "AbortError"){
             // else {
@@ -106,14 +106,14 @@ async function searchFlight(nextDay) {
             // }
         }
         else {
-            $("#flight-results").html('<h6 style="text-align: center;">Error fetching flight data. Try again.</h6>');
+            $("#flight-results").html('<h6 style="text-align: center;">Error fetching flight data. <span class="clickable-text text-info" onclick="selectAirport()">Try again</span></h6>');
         }
         $("#search-spinner").hide();
+        clickAllowed = true;
         if (randomFlightChallenge) {
             startRandomFlight();
             return;
         }
-        clickAllowed = true;
     }
 }
 
@@ -234,12 +234,19 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
             // search next day
             var trElement = document.createElement('tr');
             trElement.innerHTML = `
-                
                 <td>
-                    <span class="clickable-text book-flight" onclick="searchNextDayFlight()">Search next day's flight</span>
+                    <span class="clickable-text book-flight" onclick="searchNextDayFlight()">Click to search flights for tomorrow</span>
+                </td>
+                <td>
+                    <small>${flightsData.length} earlier flights found.</small>
                 </td>
             `;
             $("#flight-results").append(trElement);
+
+            if (randomFlightChallenge) {
+                searchNextDayFlight();
+                return;
+            }
         }
 
     }
@@ -441,7 +448,7 @@ function bookFlight(flightInfo) {
 
 
 function afterFlight(flightInfo){
-    console.log("afterflight triggered");
+    // console.log("afterflight triggered");
 
     $("#skip-animation").hide();
 
