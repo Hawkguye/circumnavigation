@@ -4,149 +4,215 @@
         "aircraft_model": "Airbus A319-112",
         "airline_name": "American Airlines",
         "destination_iata": "DCA",
-        "destination_name": "Washington Ronald Reagan National Airport, Washington, United States",
         "local_departure_time": "05:25",
         "local_arrival_time": "06:45",
-        "duration": "01:20"
+        "duration": "01:20",
+        "destination_airport_name": "Washington Ronald Reagan National Airport",
+        "destination_city": "Washington",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL5363",
         "aircraft_model": "Mitsubishi CRJ-900LR",
         "airline_name": "Delta Connection",
         "destination_iata": "JFK",
-        "destination_name": "New York John F. Kennedy International Airport, New York, United States",
         "local_departure_time": "05:30",
         "local_arrival_time": "06:57",
-        "duration": "01:27"
+        "duration": "01:27",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL1108",
         "aircraft_model": "Airbus A320-211",
         "airline_name": "Delta Air Lines",
         "destination_iata": "ATL",
-        "destination_name": "Atlanta Hartsfield-Jackson International Airport, Atlanta, United States",
         "local_departure_time": "05:50",
         "local_arrival_time": "08:08",
-        "duration": "02:18"
+        "duration": "02:18",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA4264",
         "aircraft_model": "Embraer E170SU",
         "airline_name": "American Eagle",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "06:00",
         "local_arrival_time": "07:11",
-        "duration": "02:11"
+        "duration": "02:11",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA3644",
         "aircraft_model": "Embraer E175LR",
         "airline_name": "United Express",
         "destination_iata": "EWR",
-        "destination_name": "New York Newark Liberty International Airport, New York, United States",
         "local_departure_time": "06:00",
         "local_arrival_time": "07:18",
-        "duration": "01:18"
+        "duration": "01:18",
+        "destination_airport_name": "New York Newark Liberty International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA4251",
         "aircraft_model": "Embraer ERJ-145XR",
         "airline_name": "United Express",
         "destination_iata": "IAD",
-        "destination_name": "Washington Dulles International Airport, Washington, United States",
         "local_departure_time": "06:00",
         "local_arrival_time": "07:26",
-        "duration": "01:26"
+        "duration": "01:26",
+        "destination_airport_name": "Washington Dulles International Airport",
+        "destination_city": "Washington",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA1508",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
-        "destination_name": "Dallas Fort Worth International Airport, Dallas, United States",
         "local_departure_time": "06:00",
         "local_arrival_time": "08:46",
-        "duration": "03:46"
+        "duration": "03:46",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States"
     },
     {
         "flight_number": "B6374",
         "aircraft_model": "Embraer E190AR",
         "airline_name": "JetBlue",
         "destination_iata": "BOS",
-        "destination_name": "Boston Logan International Airport, Boston, United States",
         "local_departure_time": "06:00",
         "local_arrival_time": "07:08",
-        "duration": "01:08"
+        "duration": "01:08",
+        "destination_airport_name": "Boston Logan International Airport",
+        "destination_city": "Boston",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "AA1508",
+        "aircraft_model": "Airbus A319-112",
+        "airline_name": "American Airlines",
+        "destination_iata": "DFW",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States",
+        "local_departure_time": "06:00",
+        "local_arrival_time": "08:32",
+        "duration": "03:32"
     },
     {
         "flight_number": "DL2355",
         "aircraft_model": "Airbus A319-114",
         "airline_name": "Delta Air Lines",
         "destination_iata": "DTW",
-        "destination_name": "Detroit Metropolitan Wayne County Airport, Detroit, United States",
         "local_departure_time": "06:10",
         "local_arrival_time": "07:41",
-        "duration": "01:31"
+        "duration": "01:31",
+        "destination_airport_name": "Detroit Metropolitan Wayne County Airport",
+        "destination_city": "Detroit",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL5242",
         "aircraft_model": "Mitsubishi CRJ-900LR",
         "airline_name": "Delta Connection",
         "destination_iata": "DTW",
-        "destination_name": "Detroit Metropolitan Wayne County Airport, Detroit, United States",
         "local_departure_time": "06:10",
         "local_arrival_time": "07:41",
-        "duration": "01:31"
+        "duration": "01:31",
+        "destination_airport_name": "Detroit Metropolitan Wayne County Airport",
+        "destination_city": "Detroit",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "DL2355",
+        "aircraft_model": "Airbus A320-211",
+        "airline_name": "Delta Air Lines",
+        "destination_iata": "DTW",
+        "destination_airport_name": "Detroit Metropolitan Wayne County Airport",
+        "destination_city": "Detroit",
+        "destination_country": "United States",
+        "local_departure_time": "06:10",
+        "local_arrival_time": "07:42",
+        "duration": "01:32"
     },
     {
         "flight_number": "AA530",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "American Airlines",
         "destination_iata": "CLT",
-        "destination_name": "Charlotte Douglas International Airport, Charlotte, United States",
         "local_departure_time": "06:15",
         "local_arrival_time": "08:20",
-        "duration": "02:05"
+        "duration": "02:05",
+        "destination_airport_name": "Charlotte Douglas International Airport",
+        "destination_city": "Charlotte",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA5711",
         "aircraft_model": "",
         "airline_name": "American Airlines",
         "destination_iata": "PHL",
-        "destination_name": "Philadelphia International Airport, Philadelphia, United States",
         "local_departure_time": "06:25",
         "local_arrival_time": "07:35",
-        "duration": "01:10"
+        "duration": "01:10",
+        "destination_airport_name": "Philadelphia International Airport",
+        "destination_city": "Philadelphia",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL5355",
         "aircraft_model": "Mitsubishi CRJ-900LR",
         "airline_name": "Delta Connection",
         "destination_iata": "LGA",
-        "destination_name": "New York LaGuardia Airport, New York, United States",
         "local_departure_time": "06:25",
         "local_arrival_time": "07:36",
-        "duration": "01:11"
+        "duration": "01:11",
+        "destination_airport_name": "New York LaGuardia Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1778",
         "aircraft_model": "Boeing 737-724",
         "airline_name": "United Airlines",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "06:32",
         "local_arrival_time": "07:53",
-        "duration": "02:21"
+        "duration": "02:21",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "B61515",
         "aircraft_model": "Airbus A220-300",
         "airline_name": "JetBlue",
         "destination_iata": "JFK",
-        "destination_name": "New York John F. Kennedy International Airport, New York, United States",
         "local_departure_time": "07:00",
         "local_arrival_time": "08:13",
+        "duration": "01:13",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "DL5355",
+        "aircraft_model": "Mitsubishi CRJ-900LR",
+        "airline_name": "Delta Connection",
+        "destination_iata": "LGA",
+        "destination_airport_name": "New York LaGuardia Airport",
+        "destination_city": "New York",
+        "destination_country": "United States",
+        "local_departure_time": "07:05",
+        "local_arrival_time": "08:18",
         "duration": "01:13"
     },
     {
@@ -154,549 +220,719 @@
         "aircraft_model": "Embraer ERJ-145LR",
         "airline_name": "American Eagle",
         "destination_iata": "PHL",
-        "destination_name": "Philadelphia International Airport, Philadelphia, United States",
         "local_departure_time": "08:08",
         "local_arrival_time": "09:18",
-        "duration": "01:10"
+        "duration": "01:10",
+        "destination_airport_name": "Philadelphia International Airport",
+        "destination_city": "Philadelphia",
+        "destination_country": "United States"
     },
     {
         "flight_number": "B6655",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "JetBlue",
         "destination_iata": "MCO",
-        "destination_name": "Orlando International Airport, Orlando, United States",
         "local_departure_time": "08:10",
         "local_arrival_time": "11:00",
-        "duration": "02:50"
+        "duration": "02:50",
+        "destination_airport_name": "Orlando International Airport",
+        "destination_city": "Orlando",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1739",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "United Airlines",
         "destination_iata": "DEN",
-        "destination_name": "Denver International Airport, Denver, United States",
         "local_departure_time": "08:22",
         "local_arrival_time": "10:20",
-        "duration": "03:58"
+        "duration": "03:58",
+        "destination_airport_name": "Denver International Airport",
+        "destination_city": "Denver",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL5175",
         "aircraft_model": "Mitsubishi CRJ-900LR",
         "airline_name": "Delta Connection",
         "destination_iata": "MSP",
-        "destination_name": "Minneapolis Saint Paul International Airport, Minneapolis, United States",
         "local_departure_time": "08:30",
         "local_arrival_time": "10:15",
-        "duration": "02:45"
+        "duration": "02:45",
+        "destination_airport_name": "Minneapolis Saint Paul International Airport",
+        "destination_city": "Minneapolis",
+        "destination_country": "United States"
     },
     {
         "flight_number": "5X5133",
         "aircraft_model": "",
         "airline_name": "UPS",
         "destination_iata": "SDF",
-        "destination_name": "Louisville International Airport, Louisville, United States",
         "local_departure_time": "08:48",
         "local_arrival_time": "10:25",
-        "duration": "01:37"
+        "duration": "01:37",
+        "destination_airport_name": "Louisville International Airport",
+        "destination_city": "Louisville",
+        "destination_country": "United States"
     },
     {
         "flight_number": "MX242",
         "aircraft_model": "Airbus A220-300",
         "airline_name": "Breeze Airways",
         "destination_iata": "LAS",
-        "destination_name": "Las Vegas Harry Reid International Airport, Las Vegas, United States",
         "local_departure_time": "08:51",
         "local_arrival_time": "11:16",
-        "duration": "05:25"
+        "duration": "05:25",
+        "destination_airport_name": "Las Vegas Harry Reid International Airport",
+        "destination_city": "Las Vegas",
+        "destination_country": "United States"
     },
     {
         "flight_number": "MX137",
         "aircraft_model": "Airbus A220-300",
         "airline_name": "Breeze Airways",
         "destination_iata": "TPA",
-        "destination_name": "Tampa International Airport, Tampa, United States",
         "local_departure_time": "09:34",
         "local_arrival_time": "12:32",
-        "duration": "02:58"
+        "duration": "02:58",
+        "destination_airport_name": "Tampa International Airport",
+        "destination_city": "Tampa",
+        "destination_country": "United States"
     },
     {
         "flight_number": "G42943",
         "aircraft_model": "Airbus A319-111",
         "airline_name": "Allegiant Air",
         "destination_iata": "SFB",
-        "destination_name": "Orlando Sanford International Airport, Orlando, United States",
         "local_departure_time": "09:58",
         "local_arrival_time": "12:38",
-        "duration": "02:40"
+        "duration": "02:40",
+        "destination_airport_name": "Orlando Sanford International Airport",
+        "destination_city": "Orlando",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL3579",
         "aircraft_model": "Mitsubishi CRJ-900LR",
         "airline_name": "Delta Connection",
         "destination_iata": "DTW",
-        "destination_name": "Detroit Metropolitan Wayne County Airport, Detroit, United States",
         "local_departure_time": "10:00",
         "local_arrival_time": "11:30",
-        "duration": "01:30"
+        "duration": "01:30",
+        "destination_airport_name": "Detroit Metropolitan Wayne County Airport",
+        "destination_city": "Detroit",
+        "destination_country": "United States"
     },
     {
         "flight_number": "F94207",
         "aircraft_model": "Airbus A321-211",
         "airline_name": "Frontier (Cactus the Coyote Livery)",
         "destination_iata": "RDU",
-        "destination_name": "Raleigh-Durham International Airport, Raleigh-Durham, United States",
         "local_departure_time": "10:06",
         "local_arrival_time": "11:52",
-        "duration": "01:46"
+        "duration": "01:46",
+        "destination_airport_name": "Raleigh-Durham International Airport",
+        "destination_city": "Raleigh-Durham",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA4888",
         "aircraft_model": "Embraer ERJ-145XR",
         "airline_name": "United Express",
         "destination_iata": "IAD",
-        "destination_name": "Washington Dulles International Airport, Washington, United States",
         "local_departure_time": "10:25",
         "local_arrival_time": "11:51",
-        "duration": "01:26"
+        "duration": "01:26",
+        "destination_airport_name": "Washington Dulles International Airport",
+        "destination_city": "Washington",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "UA4487",
+        "aircraft_model": "Mitsubishi CRJ-550",
+        "airline_name": "United Express",
+        "destination_iata": "IAD",
+        "local_departure_time": "10:25",
+        "local_arrival_time": "11:49",
+        "duration": "01:24",
+        "destination_airport_name": "Washington Dulles International Airport",
+        "destination_city": "Washington",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA4510",
         "aircraft_model": "Mitsubishi CRJ-550",
         "airline_name": "United Express",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "10:45",
         "local_arrival_time": "12:05",
-        "duration": "02:20"
+        "duration": "02:20",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA3538",
         "aircraft_model": "Embraer E175LR",
         "airline_name": "United Express",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "10:53",
         "local_arrival_time": "12:16",
-        "duration": "02:23"
+        "duration": "02:23",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL5436",
         "aircraft_model": "Mitsubishi CRJ-900LR",
         "airline_name": "Delta Connection",
         "destination_iata": "JFK",
-        "destination_name": "New York John F. Kennedy International Airport, New York, United States",
         "local_departure_time": "11:05",
         "local_arrival_time": "12:30",
-        "duration": "01:25"
+        "duration": "01:25",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA4134",
         "aircraft_model": "Embraer E170SE",
         "airline_name": "American Eagle",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "11:25",
         "local_arrival_time": "12:36",
-        "duration": "02:11"
+        "duration": "02:11",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "YX3492",
         "aircraft_model": "",
         "airline_name": "Republic Airways",
         "destination_iata": "EWR",
-        "destination_name": "New York Newark Liberty International Airport, New York, United States",
         "local_departure_time": "11:50",
         "local_arrival_time": "12:42",
-        "duration": "00:52"
+        "duration": "00:52",
+        "destination_airport_name": "New York Newark Liberty International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA3492",
         "aircraft_model": "",
         "airline_name": "United Airlines",
         "destination_iata": "EWR",
-        "destination_name": "New York Newark Liberty International Airport, New York, United States",
         "local_departure_time": "11:50",
         "local_arrival_time": "13:08",
-        "duration": "01:18"
+        "duration": "01:18",
+        "destination_airport_name": "New York Newark Liberty International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "MX135",
         "aircraft_model": "Airbus A220-300",
         "airline_name": "Breeze Airways",
         "destination_iata": "RDU",
-        "destination_name": "Raleigh-Durham International Airport, Raleigh-Durham, United States",
         "local_departure_time": "12:05",
         "local_arrival_time": "13:45",
-        "duration": "01:40"
+        "duration": "01:40",
+        "destination_airport_name": "Raleigh-Durham International Airport",
+        "destination_city": "Raleigh-Durham",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL5421",
         "aircraft_model": "Mitsubishi CRJ-900LR",
         "airline_name": "Delta Connection",
         "destination_iata": "LGA",
-        "destination_name": "New York LaGuardia Airport, New York, United States",
         "local_departure_time": "12:20",
         "local_arrival_time": "13:33",
-        "duration": "01:13"
+        "duration": "01:13",
+        "destination_airport_name": "New York LaGuardia Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL1375",
         "aircraft_model": "Airbus A321-211",
         "airline_name": "Delta Air Lines",
         "destination_iata": "ATL",
-        "destination_name": "Atlanta Hartsfield-Jackson International Airport, Atlanta, United States",
         "local_departure_time": "12:27",
         "local_arrival_time": "14:44",
-        "duration": "02:17"
+        "duration": "02:17",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA5873",
         "aircraft_model": "Embraer ERJ-145LR",
         "airline_name": "American Eagle",
         "destination_iata": "BOS",
-        "destination_name": "Boston Logan International Airport, Boston, United States",
         "local_departure_time": "12:47",
         "local_arrival_time": "14:04",
-        "duration": "01:17"
+        "duration": "01:17",
+        "destination_airport_name": "Boston Logan International Airport",
+        "destination_city": "Boston",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL5533",
         "aircraft_model": "Mitsubishi CRJ-701ER",
         "airline_name": "Delta Connection",
         "destination_iata": "DTW",
-        "destination_name": "Detroit Metropolitan Wayne County Airport, Detroit, United States",
         "local_departure_time": "13:00",
         "local_arrival_time": "14:32",
-        "duration": "01:32"
+        "duration": "01:32",
+        "destination_airport_name": "Detroit Metropolitan Wayne County Airport",
+        "destination_city": "Detroit",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA2730",
         "aircraft_model": "Airbus A319-112",
         "airline_name": "American Airlines",
         "destination_iata": "CLT",
-        "destination_name": "Charlotte Douglas International Airport, Charlotte, United States",
         "local_departure_time": "13:06",
         "local_arrival_time": "15:11",
-        "duration": "02:05"
+        "duration": "02:05",
+        "destination_airport_name": "Charlotte Douglas International Airport",
+        "destination_city": "Charlotte",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA5707",
         "aircraft_model": "",
         "airline_name": "American Airlines",
         "destination_iata": "PHL",
-        "destination_name": "Philadelphia International Airport, Philadelphia, United States",
         "local_departure_time": "13:48",
         "local_arrival_time": "14:55",
-        "duration": "01:07"
+        "duration": "01:07",
+        "destination_airport_name": "Philadelphia International Airport",
+        "destination_city": "Philadelphia",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA5035",
         "aircraft_model": "Mitsubishi CRJ-702ER",
         "airline_name": "American Eagle",
         "destination_iata": "DCA",
-        "destination_name": "Washington Ronald Reagan National Airport, Washington, United States",
         "local_departure_time": "13:50",
         "local_arrival_time": "15:19",
-        "duration": "01:29"
+        "duration": "01:29",
+        "destination_airport_name": "Washington Ronald Reagan National Airport",
+        "destination_city": "Washington",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL1375",
         "aircraft_model": "Airbus A320-212",
         "airline_name": "Delta Air Lines",
         "destination_iata": "ATL",
-        "destination_name": "Atlanta Hartsfield-Jackson International Airport, Atlanta, United States",
         "local_departure_time": "14:06",
         "local_arrival_time": "16:28",
-        "duration": "02:22"
+        "duration": "02:22",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA4876",
         "aircraft_model": "Embraer ERJ-145XR",
         "airline_name": "United Express",
         "destination_iata": "IAD",
-        "destination_name": "Washington Dulles International Airport, Washington, United States",
         "local_departure_time": "14:45",
         "local_arrival_time": "16:11",
-        "duration": "01:26"
+        "duration": "01:26",
+        "destination_airport_name": "Washington Dulles International Airport",
+        "destination_city": "Washington",
+        "destination_country": "United States"
     },
     {
         "flight_number": "B62655",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "JetBlue",
         "destination_iata": "MCO",
-        "destination_name": "Orlando International Airport, Orlando, United States",
         "local_departure_time": "15:09",
         "local_arrival_time": "18:05",
-        "duration": "02:56"
+        "duration": "02:56",
+        "destination_airport_name": "Orlando International Airport",
+        "destination_city": "Orlando",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL5328",
         "aircraft_model": "Mitsubishi CRJ-900LR",
         "airline_name": "Delta Connection",
         "destination_iata": "JFK",
-        "destination_name": "New York John F. Kennedy International Airport, New York, United States",
         "local_departure_time": "16:04",
         "local_arrival_time": "17:30",
-        "duration": "01:26"
+        "duration": "01:26",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "F93117",
         "aircraft_model": "Airbus A320-251N",
         "airline_name": "Frontier (Meadow & West the Horses Livery)",
         "destination_iata": "ATL",
-        "destination_name": "Atlanta Hartsfield-Jackson International Airport, Atlanta, United States",
         "local_departure_time": "16:09",
         "local_arrival_time": "18:35",
-        "duration": "02:26"
+        "duration": "02:26",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "F93117",
+        "aircraft_model": "Airbus A320-251N",
+        "airline_name": "Frontier (Hazel the Chipmunk Livery)",
+        "destination_iata": "ATL",
+        "local_departure_time": "16:11",
+        "local_arrival_time": "18:37",
+        "duration": "02:26",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States"
     },
     {
         "flight_number": "B62655",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "JetBlue",
         "destination_iata": "MCO",
-        "destination_name": "Orlando International Airport, Orlando, United States",
         "local_departure_time": "16:14",
         "local_arrival_time": "19:10",
-        "duration": "02:56"
+        "duration": "02:56",
+        "destination_airport_name": "Orlando International Airport",
+        "destination_city": "Orlando",
+        "destination_country": "United States"
     },
     {
         "flight_number": "B62655",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "JetBlue",
         "destination_iata": "MCO",
-        "destination_name": "Orlando International Airport, Orlando, United States",
         "local_departure_time": "16:15",
         "local_arrival_time": "19:11",
-        "duration": "02:56"
+        "duration": "02:56",
+        "destination_airport_name": "Orlando International Airport",
+        "destination_city": "Orlando",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA5746",
         "aircraft_model": "",
         "airline_name": "American Airlines",
         "destination_iata": "PHL",
-        "destination_name": "Philadelphia International Airport, Philadelphia, United States",
         "local_departure_time": "16:21",
         "local_arrival_time": "17:31",
-        "duration": "01:10"
+        "duration": "01:10",
+        "destination_airport_name": "Philadelphia International Airport",
+        "destination_city": "Philadelphia",
+        "destination_country": "United States"
     },
     {
         "flight_number": "G4527",
         "aircraft_model": "Airbus A320-214",
         "airline_name": "Allegiant Air (Insomniac Livery)",
         "destination_iata": "FLL",
-        "destination_name": "Fort Lauderdale Hollywood International Airport, Fort Lauderdale, United States",
         "local_departure_time": "16:41",
         "local_arrival_time": "19:55",
-        "duration": "03:14"
+        "duration": "03:14",
+        "destination_airport_name": "Fort Lauderdale Hollywood International Airport",
+        "destination_city": "Fort Lauderdale",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA3672",
         "aircraft_model": "Embraer E170SE",
         "airline_name": "American Eagle",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "16:48",
         "local_arrival_time": "17:59",
-        "duration": "02:11"
+        "duration": "02:11",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA3559",
         "aircraft_model": "Embraer E175LR",
         "airline_name": "American Eagle",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "16:57",
         "local_arrival_time": "18:08",
-        "duration": "02:11"
+        "duration": "02:11",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA4727",
         "aircraft_model": "",
         "airline_name": "American Airlines",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "16:57",
         "local_arrival_time": "18:09",
-        "duration": "02:12"
+        "duration": "02:12",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL5464",
         "aircraft_model": "Mitsubishi CRJ-900LR",
         "airline_name": "Delta Connection",
         "destination_iata": "LGA",
-        "destination_name": "New York LaGuardia Airport, New York, United States",
         "local_departure_time": "17:00",
         "local_arrival_time": "18:14",
-        "duration": "01:14"
+        "duration": "01:14",
+        "destination_airport_name": "New York LaGuardia Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA5526",
         "aircraft_model": "Mitsubishi CRJ-701ER",
         "airline_name": "American Eagle",
         "destination_iata": "DCA",
-        "destination_name": "Washington Ronald Reagan National Airport, Washington, United States",
         "local_departure_time": "17:23",
         "local_arrival_time": "18:52",
-        "duration": "01:29"
+        "duration": "01:29",
+        "destination_airport_name": "Washington Ronald Reagan National Airport",
+        "destination_city": "Washington",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA3161",
         "aircraft_model": "Airbus A320-214",
         "airline_name": "American Airlines",
         "destination_iata": "CLT",
-        "destination_name": "Charlotte Douglas International Airport, Charlotte, United States",
         "local_departure_time": "17:29",
         "local_arrival_time": "19:34",
-        "duration": "02:05"
+        "duration": "02:05",
+        "destination_airport_name": "Charlotte Douglas International Airport",
+        "destination_city": "Charlotte",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1708",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "United Airlines",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "17:40",
         "local_arrival_time": "18:55",
-        "duration": "02:15"
+        "duration": "02:15",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA5701",
         "aircraft_model": "Embraer E175LR",
         "airline_name": "United Express",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "17:40",
         "local_arrival_time": "18:55",
-        "duration": "02:15"
+        "duration": "02:15",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL4807",
         "aircraft_model": "Mitsubishi CRJ-900LR",
         "airline_name": "Delta Connection",
         "destination_iata": "DTW",
-        "destination_name": "Detroit Metropolitan Wayne County Airport, Detroit, United States",
         "local_departure_time": "17:44",
         "local_arrival_time": "19:14",
-        "duration": "01:30"
+        "duration": "01:30",
+        "destination_airport_name": "Detroit Metropolitan Wayne County Airport",
+        "destination_city": "Detroit",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA5776",
         "aircraft_model": "",
         "airline_name": "American Airlines",
         "destination_iata": "PHL",
-        "destination_name": "Philadelphia International Airport, Philadelphia, United States",
+        "local_departure_time": "17:50",
+        "local_arrival_time": "19:00",
+        "duration": "01:10",
+        "destination_airport_name": "Philadelphia International Airport",
+        "destination_city": "Philadelphia",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "AA5776",
+        "aircraft_model": "",
+        "airline_name": "American Airlines",
+        "destination_iata": "PHL",
         "local_departure_time": "18:09",
         "local_arrival_time": "19:19",
-        "duration": "01:10"
+        "duration": "01:10",
+        "destination_airport_name": "Philadelphia International Airport",
+        "destination_city": "Philadelphia",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL2690",
         "aircraft_model": "Airbus A320-211",
         "airline_name": "Delta Air Lines",
         "destination_iata": "ATL",
-        "destination_name": "Atlanta Hartsfield-Jackson International Airport, Atlanta, United States",
         "local_departure_time": "18:21",
         "local_arrival_time": "20:47",
-        "duration": "02:26"
+        "duration": "02:26",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "5X7841",
+        "aircraft_model": "",
+        "airline_name": "UPS",
+        "destination_iata": "SDF",
+        "local_departure_time": "19:40",
+        "local_arrival_time": "21:21",
+        "duration": "01:41",
+        "destination_airport_name": "Louisville International Airport",
+        "destination_city": "Louisville",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA4853",
         "aircraft_model": "Embraer ERJ-145XR",
         "airline_name": "United Express",
         "destination_iata": "IAD",
-        "destination_name": "Washington Dulles International Airport, Washington, United States",
         "local_departure_time": "19:45",
         "local_arrival_time": "21:10",
-        "duration": "01:25"
+        "duration": "01:25",
+        "destination_airport_name": "Washington Dulles International Airport",
+        "destination_city": "Washington",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA4248",
         "aircraft_model": "Embraer E175LR",
         "airline_name": "American Eagle",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "20:10",
         "local_arrival_time": "21:21",
-        "duration": "02:11"
+        "duration": "02:11",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "FX936",
+        "aircraft_model": "",
+        "airline_name": "FedEx",
+        "destination_iata": "BOS",
+        "local_departure_time": "20:16",
+        "local_arrival_time": "21:00",
+        "duration": "00:44",
+        "destination_airport_name": "Boston Logan International Airport",
+        "destination_city": "Boston",
+        "destination_country": "United States"
     },
     {
         "flight_number": "G4326",
         "aircraft_model": "Airbus A320-214",
         "airline_name": "Allegiant Air",
         "destination_iata": "BNA",
-        "destination_name": "Nashville International Airport, Nashville, United States",
         "local_departure_time": "20:36",
         "local_arrival_time": "21:51",
-        "duration": "02:15"
+        "duration": "02:15",
+        "destination_airport_name": "Nashville International Airport",
+        "destination_city": "Nashville",
+        "destination_country": "United States"
     },
     {
         "flight_number": "G4342",
         "aircraft_model": "Airbus A320-214",
         "airline_name": "Allegiant Air",
         "destination_iata": "BNA",
-        "destination_name": "Nashville International Airport, Nashville, United States",
         "local_departure_time": "20:41",
         "local_arrival_time": "21:56",
-        "duration": "02:15"
+        "duration": "02:15",
+        "destination_airport_name": "Nashville International Airport",
+        "destination_city": "Nashville",
+        "destination_country": "United States"
     },
     {
         "flight_number": "F92289",
         "aircraft_model": "Airbus A321-271NX",
         "airline_name": "Frontier (Miguel & Lina the Island Foxes Livery)",
         "destination_iata": "MCO",
-        "destination_name": "Orlando International Airport, Orlando, United States",
         "local_departure_time": "21:43",
         "local_arrival_time": "00:44 (+1)",
-        "duration": "03:01"
+        "duration": "03:01",
+        "destination_airport_name": "Orlando International Airport",
+        "destination_city": "Orlando",
+        "destination_country": "United States"
     },
     {
         "flight_number": "5X1139",
         "aircraft_model": "Boeing 767-300F(ER)",
         "airline_name": "UPS",
         "destination_iata": "SDF",
-        "destination_name": "Louisville International Airport, Louisville, United States",
         "local_departure_time": "21:55",
         "local_arrival_time": "23:36",
-        "duration": "01:41"
+        "duration": "01:41",
+        "destination_airport_name": "Louisville International Airport",
+        "destination_city": "Louisville",
+        "destination_country": "United States"
     },
     {
         "flight_number": "EJA437",
         "aircraft_model": "",
         "airline_name": "NetJets",
         "destination_iata": "CMH",
-        "destination_name": "Columbus John Glenn International Airport, Columbus, United States",
         "local_departure_time": "21:57",
         "local_arrival_time": "23:03",
-        "duration": "01:06"
+        "duration": "01:06",
+        "destination_airport_name": "Columbus John Glenn International Airport",
+        "destination_city": "Columbus",
+        "destination_country": "United States"
     },
     {
         "flight_number": "5X1131",
         "aircraft_model": "",
         "airline_name": "UPS",
         "destination_iata": "BUF",
-        "destination_name": "Buffalo Niagara International Airport, Buffalo, United States",
         "local_departure_time": "21:59",
         "local_arrival_time": "22:38",
-        "duration": "00:39"
+        "duration": "00:39",
+        "destination_airport_name": "Buffalo Niagara International Airport",
+        "destination_city": "Buffalo",
+        "destination_country": "United States"
     },
     {
         "flight_number": "FX1316",
         "aircraft_model": "",
         "airline_name": "FedEx",
         "destination_iata": "MEM",
-        "destination_name": "Memphis International Airport, Memphis, United States",
         "local_departure_time": "22:09",
         "local_arrival_time": "23:26",
-        "duration": "02:17"
+        "duration": "02:17",
+        "destination_airport_name": "Memphis International Airport",
+        "destination_city": "Memphis",
+        "destination_country": "United States"
     },
     {
         "flight_number": "FX1667",
         "aircraft_model": "",
         "airline_name": "FedEx",
         "destination_iata": "IND",
-        "destination_name": "Indianapolis International Airport, Indianapolis, United States",
         "local_departure_time": "22:31",
         "local_arrival_time": "23:59",
-        "duration": "01:28"
+        "duration": "01:28",
+        "destination_airport_name": "Indianapolis International Airport",
+        "destination_city": "Indianapolis",
+        "destination_country": "United States"
     }
 ]

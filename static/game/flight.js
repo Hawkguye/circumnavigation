@@ -143,8 +143,8 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
             return a.Departure - b.Departure;
         });
 
-        var origin_timezone = getTimezone(origin_iata).rawOffsetInMinutes;
-        var dest_timezone = getTimezone(dest_iata).rawOffsetInMinutes;
+        var origin_timezone = getTimezoneOffset(origin_iata);
+        var dest_timezone = getTimezoneOffset(dest_iata);
 
         var flightInfoEl = document.createElement('tr');
         flightInfoEl.classList.add('table-info');
@@ -164,8 +164,8 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
         flightsData.forEach((flight) => {
             // var priceCalculated = false;
 
-            flight.departUTC = new Date(flight.Departure - origin_timezone * 60000).getTime();
-            flight.arrivalUTC = new Date(flight.Arrival - dest_timezone * 60000).getTime();
+            flight.departUTC = new Date(flight.Departure - origin_timezone * 1000).getTime();
+            flight.arrivalUTC = new Date(flight.Arrival - dest_timezone * 1000).getTime();
             
 
             var flightElement = document.createElement('tr');
@@ -591,4 +591,9 @@ function groundTransport(){
     $("#flight-results").html('');
 
     arrivedNewCity(arrivalTimestamp);
+}
+
+function getTimezoneOffset(iata_code) {
+    var apData = findApData(iata_code);
+    return apData.timezone_offset;
 }

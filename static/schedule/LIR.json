@@ -4,259 +4,347 @@
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "YYC",
-        "destination_name": "Calgary International Airport, Calgary, Canada",
         "local_departure_time": "07:05",
         "local_arrival_time": "14:15",
-        "duration": "07:10"
+        "duration": "07:10",
+        "destination_airport_name": "Calgary International Airport",
+        "destination_city": "Calgary",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "UA2349",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "United Airlines",
         "destination_iata": "SFO",
-        "destination_name": "San Francisco International Airport, San Francisco, United States",
         "local_departure_time": "08:45",
         "local_arrival_time": "14:29",
-        "duration": "06:44"
+        "duration": "06:44",
+        "destination_airport_name": "San Francisco International Airport",
+        "destination_city": "San Francisco",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1036",
         "aircraft_model": "Boeing 737-824",
         "airline_name": "United Airlines",
         "destination_iata": "IAH",
-        "destination_name": "Houston George Bush Intercontinental Airport, Houston, United States",
         "local_departure_time": "11:05",
         "local_arrival_time": "15:47",
-        "duration": "03:42"
+        "duration": "03:42",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AS1331",
         "aircraft_model": "Boeing 737-890",
         "airline_name": "Alaska Airlines",
         "destination_iata": "LAX",
-        "destination_name": "Los Angeles International Airport, Los Angeles, United States",
         "local_departure_time": "11:20",
         "local_arrival_time": "16:27",
-        "duration": "06:07"
+        "duration": "06:07",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1918",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "United Airlines",
         "destination_iata": "DEN",
-        "destination_name": "Denver International Airport, Denver, United States",
         "local_departure_time": "11:49",
         "local_arrival_time": "17:17",
-        "duration": "05:28"
+        "duration": "05:28",
+        "destination_airport_name": "Denver International Airport",
+        "destination_city": "Denver",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "B68192",
+        "aircraft_model": "",
+        "airline_name": "JetBlue",
+        "destination_iata": "JFK",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "18:30",
+        "duration": "04:30"
     },
     {
         "flight_number": "AA898",
         "aircraft_model": "Boeing 737-823",
         "airline_name": "American Airlines",
         "destination_iata": "CLT",
-        "destination_name": "Charlotte Douglas International Airport, Charlotte, United States",
         "local_departure_time": "12:20",
         "local_arrival_time": "18:40",
-        "duration": "04:20"
+        "duration": "04:20",
+        "destination_airport_name": "Charlotte Douglas International Airport",
+        "destination_city": "Charlotte",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WN810",
         "aircraft_model": "Boeing 737-8H4",
         "airline_name": "Southwest Airlines",
         "destination_iata": "BWI",
-        "destination_name": "Baltimore Washington International Airport, Baltimore, United States",
         "local_departure_time": "12:20",
         "local_arrival_time": "18:55",
-        "duration": "04:35"
+        "duration": "04:35",
+        "destination_airport_name": "Baltimore Washington International Airport",
+        "destination_city": "Baltimore",
+        "destination_country": "United States"
     },
     {
         "flight_number": null,
         "aircraft_model": "Cessna Citation Latitude",
         "airline_name": "NetJets",
         "destination_iata": "FLL",
-        "destination_name": "Fort Lauderdale Hollywood International Airport, Fort Lauderdale, United States",
         "local_departure_time": "12:24",
         "local_arrival_time": "17:24",
-        "duration": "03:00"
+        "duration": "03:00",
+        "destination_airport_name": "Fort Lauderdale Hollywood International Airport",
+        "destination_city": "Fort Lauderdale",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "TS601",
+        "aircraft_model": "",
+        "airline_name": "Air Transat",
+        "destination_iata": "YUL",
+        "local_departure_time": "12:40",
+        "local_arrival_time": "20:10",
+        "duration": "05:30",
+        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
+        "destination_city": "Montreal",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AA1338",
         "aircraft_model": "Boeing 737-823",
         "airline_name": "American Airlines",
         "destination_iata": "MIA",
-        "destination_name": "Miami International Airport, Miami, United States",
         "local_departure_time": "12:45",
         "local_arrival_time": "17:35",
-        "duration": "02:50"
+        "duration": "02:50",
+        "destination_airport_name": "Miami International Airport",
+        "destination_city": "Miami",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1121",
         "aircraft_model": "Boeing 737-924(ER)",
         "airline_name": "United Airlines",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "12:53",
         "local_arrival_time": "19:18",
-        "duration": "05:25"
+        "duration": "05:25",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AC1872",
         "aircraft_model": "Airbus A321-211",
         "airline_name": "Air Canada Rouge",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "13:00",
         "local_arrival_time": "20:30",
-        "duration": "05:30"
+        "duration": "05:30",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
+    },
+    {
+        "flight_number": "UA1121",
+        "aircraft_model": "Boeing 737-924(ER)",
+        "airline_name": "United Airlines",
+        "destination_iata": "ORD",
+        "local_departure_time": "13:03",
+        "local_arrival_time": "19:28",
+        "duration": "05:25",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL1820",
         "aircraft_model": "Boeing 757-232",
         "airline_name": "Delta Air Lines",
         "destination_iata": "ATL",
-        "destination_name": "Atlanta Hartsfield-Jackson International Airport, Atlanta, United States",
         "local_departure_time": "13:05",
         "local_arrival_time": "19:07",
-        "duration": "04:02"
+        "duration": "04:02",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1516",
         "aircraft_model": "Boeing 737-924(ER)",
         "airline_name": "United Airlines",
         "destination_iata": "IAH",
-        "destination_name": "Houston George Bush Intercontinental Airport, Houston, United States",
         "local_departure_time": "13:05",
         "local_arrival_time": "17:47",
-        "duration": "03:42"
+        "duration": "03:42",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WS2003",
         "aircraft_model": "Boeing 737-8CT",
         "airline_name": "WestJet",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "13:15",
         "local_arrival_time": "20:40",
-        "duration": "05:25"
+        "duration": "05:25",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "UA1516",
         "aircraft_model": "Boeing 737-924(ER)",
         "airline_name": "United Airlines",
         "destination_iata": "IAH",
-        "destination_name": "Houston George Bush Intercontinental Airport, Houston, United States",
         "local_departure_time": "13:20",
         "local_arrival_time": "18:02",
-        "duration": "03:42"
+        "duration": "03:42",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL1820",
         "aircraft_model": "Boeing 737-932(ER)",
         "airline_name": "Delta Air Lines",
         "destination_iata": "ATL",
-        "destination_name": "Atlanta Hartsfield-Jackson International Airport, Atlanta, United States",
         "local_departure_time": "13:25",
         "local_arrival_time": "19:28",
-        "duration": "04:03"
+        "duration": "04:03",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WN4992",
         "aircraft_model": "Boeing 737-79P",
         "airline_name": "Southwest Airlines",
         "destination_iata": "DEN",
-        "destination_name": "Denver International Airport, Denver, United States",
         "local_departure_time": "13:25",
         "local_arrival_time": "19:00",
-        "duration": "05:35"
+        "duration": "05:35",
+        "destination_airport_name": "Denver International Airport",
+        "destination_city": "Denver",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WS2171",
         "aircraft_model": "Boeing 737-8CT",
         "airline_name": "WestJet",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "13:25",
         "local_arrival_time": "20:51",
-        "duration": "05:26"
+        "duration": "05:26",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AA2060",
         "aircraft_model": "Boeing 737-823",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
-        "destination_name": "Dallas Fort Worth International Airport, Dallas, United States",
         "local_departure_time": "14:05",
         "local_arrival_time": "19:30",
-        "duration": "04:25"
+        "duration": "04:25",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States"
     },
     {
         "flight_number": "B61692",
         "aircraft_model": "Airbus A321-271NX",
         "airline_name": "JetBlue",
         "destination_iata": "JFK",
-        "destination_name": "New York John F. Kennedy International Airport, New York, United States",
         "local_departure_time": "14:05",
         "local_arrival_time": "21:18",
-        "duration": "05:13"
+        "duration": "05:13",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "B61692",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "JetBlue",
         "destination_iata": "JFK",
-        "destination_name": "New York John F. Kennedy International Airport, New York, United States",
         "local_departure_time": "14:10",
         "local_arrival_time": "21:25",
-        "duration": "05:15"
+        "duration": "05:15",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA594",
         "aircraft_model": "Boeing 737-823",
         "airline_name": "American Airlines",
         "destination_iata": "MIA",
-        "destination_name": "Miami International Airport, Miami, United States",
         "local_departure_time": "14:26",
         "local_arrival_time": "19:14",
-        "duration": "02:48"
+        "duration": "02:48",
+        "destination_airport_name": "Miami International Airport",
+        "destination_city": "Miami",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL1784",
         "aircraft_model": "Boeing 737-932(ER)",
         "airline_name": "Delta Air Lines",
         "destination_iata": "ATL",
-        "destination_name": "Atlanta Hartsfield-Jackson International Airport, Atlanta, United States",
         "local_departure_time": "14:40",
         "local_arrival_time": "20:44",
-        "duration": "04:04"
+        "duration": "04:04",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA401",
         "aircraft_model": "Boeing 737-824",
         "airline_name": "United Airlines",
         "destination_iata": "IAH",
-        "destination_name": "Houston George Bush Intercontinental Airport, Houston, United States",
         "local_departure_time": "15:25",
         "local_arrival_time": "20:05",
-        "duration": "03:40"
+        "duration": "03:40",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1993",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "United Airlines (Together Sticker)",
         "destination_iata": "LAX",
-        "destination_name": "Los Angeles International Airport, Los Angeles, United States",
         "local_departure_time": "16:00",
         "local_arrival_time": "20:56",
-        "duration": "05:56"
+        "duration": "05:56",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1446",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "United Airlines",
         "destination_iata": "EWR",
-        "destination_name": "New York Newark Liberty International Airport, New York, United States",
         "local_departure_time": "16:35",
         "local_arrival_time": "23:44",
-        "duration": "05:09"
+        "duration": "05:09",
+        "destination_airport_name": "New York Newark Liberty International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     }
 ]

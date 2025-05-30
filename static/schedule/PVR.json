@@ -4,789 +4,1019 @@
         "aircraft_model": "",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "06:02",
         "local_arrival_time": "07:45",
-        "duration": "01:43"
+        "duration": "01:43",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "VB1167",
         "aircraft_model": "Airbus A321-271NX",
         "airline_name": "Viva",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "10:10",
+        "duration": "01:40",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
+    },
+    {
+        "flight_number": "VB1167",
+        "aircraft_model": "Airbus A321-271NX",
+        "airline_name": "Viva",
+        "destination_iata": "MEX",
         "local_departure_time": "08:45",
         "local_arrival_time": "10:25",
-        "duration": "01:40"
+        "duration": "01:40",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "VB4343",
         "aircraft_model": "Airbus A320-271N",
         "airline_name": "Viva",
         "destination_iata": "MTY",
-        "destination_name": "Monterrey International Airport, Monterrey, Mexico",
         "local_departure_time": "08:45",
         "local_arrival_time": "10:25",
-        "duration": "01:40"
+        "duration": "01:40",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "VB1167",
         "aircraft_model": "Airbus A321-231",
         "airline_name": "Viva",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "08:45",
         "local_arrival_time": "10:10",
-        "duration": "01:25"
+        "duration": "01:25",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": null,
         "aircraft_model": "Cessna Citation XLS",
         "airline_name": "NetJets",
         "destination_iata": "SAT",
-        "destination_name": "San Antonio International Airport, San Antonio, United States",
         "local_departure_time": "08:54",
         "local_arrival_time": "11:54",
-        "duration": "02:00"
+        "duration": "02:00",
+        "destination_airport_name": "San Antonio International Airport",
+        "destination_city": "San Antonio",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "Y47303",
+        "aircraft_model": "Airbus A320-271N",
+        "airline_name": "Volaris",
+        "destination_iata": "BJX",
+        "local_departure_time": "09:15",
+        "local_arrival_time": "10:17",
+        "duration": "01:02",
+        "destination_airport_name": "Silao Del Bajio International Airport",
+        "destination_city": "Silao",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "Y41311",
         "aircraft_model": "Airbus A320-233",
         "airline_name": "Volaris",
         "destination_iata": "GDL",
-        "destination_name": "Guadalajara International Airport, Guadalajara, Mexico",
         "local_departure_time": "09:29",
         "local_arrival_time": "10:26",
-        "duration": "00:57"
+        "duration": "00:57",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AM333",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "10:27",
         "local_arrival_time": "12:10",
-        "duration": "01:43"
+        "duration": "01:43",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AM333",
         "aircraft_model": "",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "10:47",
         "local_arrival_time": "12:30",
-        "duration": "01:43"
+        "duration": "01:43",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AA2639",
         "aircraft_model": "Airbus A321-211",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
-        "destination_name": "Dallas Fort Worth International Airport, Dallas, United States",
         "local_departure_time": "11:15",
         "local_arrival_time": "14:50",
-        "duration": "02:35"
+        "duration": "02:35",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA2639",
         "aircraft_model": "Boeing 737-823",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
-        "destination_name": "Dallas Fort Worth International Airport, Dallas, United States",
         "local_departure_time": "11:15",
         "local_arrival_time": "14:55",
-        "duration": "02:40"
+        "duration": "02:40",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States"
     },
     {
         "flight_number": "Y43121",
         "aircraft_model": "Airbus A321-271NX",
         "airline_name": "Volaris",
         "destination_iata": "TIJ",
-        "destination_name": "Tijuana International Airport, Tijuana, Mexico",
         "local_departure_time": "11:25",
         "local_arrival_time": "13:12",
-        "duration": "02:47"
+        "duration": "02:47",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "VB3233",
         "aircraft_model": "Airbus A321-271NX",
         "airline_name": "Viva",
         "destination_iata": "GDL",
-        "destination_name": "Guadalajara International Airport, Guadalajara, Mexico",
         "local_departure_time": "12:00",
         "local_arrival_time": "13:00",
-        "duration": "01:00"
+        "duration": "01:00",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "WN515",
         "aircraft_model": "Boeing 737-7H4",
         "airline_name": "Southwest Airlines",
         "destination_iata": "DEN",
-        "destination_name": "Denver International Airport, Denver, United States",
         "local_departure_time": "12:00",
         "local_arrival_time": "15:25",
-        "duration": "03:25"
+        "duration": "03:25",
+        "destination_airport_name": "Denver International Airport",
+        "destination_city": "Denver",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1555",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "United Airlines",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "12:10",
         "local_arrival_time": "17:25",
-        "duration": "04:15"
+        "duration": "04:15",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AS842",
         "aircraft_model": "Boeing 737-990(ER)",
         "airline_name": "Alaska Airlines",
         "destination_iata": "LAX",
-        "destination_name": "Los Angeles International Airport, Los Angeles, United States",
         "local_departure_time": "12:12",
         "local_arrival_time": "14:21",
-        "duration": "03:09"
+        "duration": "03:09",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA2263",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "United Airlines",
         "destination_iata": "IAH",
-        "destination_name": "Houston George Bush Intercontinental Airport, Houston, United States",
         "local_departure_time": "12:25",
         "local_arrival_time": "15:51",
-        "duration": "02:26"
+        "duration": "02:26",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States"
     },
     {
         "flight_number": "Y4281",
         "aircraft_model": "Airbus A321-271NX",
         "airline_name": "Volaris",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "12:26",
         "local_arrival_time": "14:00",
-        "duration": "01:34"
+        "duration": "01:34",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "Y45613",
         "aircraft_model": "Airbus A320-233",
         "airline_name": "Volaris",
         "destination_iata": "MTY",
-        "destination_name": "Monterrey International Airport, Monterrey, Mexico",
         "local_departure_time": "12:32",
         "local_arrival_time": "14:09",
-        "duration": "01:37"
+        "duration": "01:37",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AS181",
         "aircraft_model": "Boeing 737-890",
         "airline_name": "Alaska Airlines",
         "destination_iata": "SAN",
-        "destination_name": "San Diego International Airport, San Diego, United States",
         "local_departure_time": "12:40",
         "local_arrival_time": "14:30",
-        "duration": "02:50"
+        "duration": "02:50",
+        "destination_airport_name": "San Diego International Airport",
+        "destination_city": "San Diego",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1070",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "United Airlines",
         "destination_iata": "EWR",
-        "destination_name": "New York Newark Liberty International Airport, New York, United States",
         "local_departure_time": "12:53",
         "local_arrival_time": "20:11",
-        "duration": "05:18"
+        "duration": "05:18",
+        "destination_airport_name": "New York Newark Liberty International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WN1299",
         "aircraft_model": "Boeing 737-8H4",
         "airline_name": "Southwest Airlines",
         "destination_iata": "PHX",
-        "destination_name": "Phoenix Sky Harbor International Airport, Phoenix, United States",
         "local_departure_time": "13:05",
         "local_arrival_time": "14:40",
-        "duration": "02:35"
+        "duration": "02:35",
+        "destination_airport_name": "Phoenix Sky Harbor International Airport",
+        "destination_city": "Phoenix",
+        "destination_country": "United States"
     },
     {
         "flight_number": "Y41313",
         "aircraft_model": "Airbus A320-233",
         "airline_name": "Volaris",
         "destination_iata": "GDL",
-        "destination_name": "Guadalajara International Airport, Guadalajara, Mexico",
         "local_departure_time": "13:05",
         "local_arrival_time": "14:02",
-        "duration": "00:57"
+        "duration": "00:57",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AM335",
         "aircraft_model": "Boeing 737-852",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "13:07",
         "local_arrival_time": "14:50",
-        "duration": "01:43"
+        "duration": "01:43",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AA554",
         "aircraft_model": "Boeing 737-823",
         "airline_name": "American Airlines",
         "destination_iata": "PHX",
-        "destination_name": "Phoenix Sky Harbor International Airport, Phoenix, United States",
         "local_departure_time": "13:10",
         "local_arrival_time": "14:50",
-        "duration": "02:40"
+        "duration": "02:40",
+        "destination_airport_name": "Phoenix Sky Harbor International Airport",
+        "destination_city": "Phoenix",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WS2137",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "13:10",
         "local_arrival_time": "20:08",
-        "duration": "04:58"
+        "duration": "04:58",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "UA2263",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "United Airlines",
         "destination_iata": "IAH",
-        "destination_name": "Houston George Bush Intercontinental Airport, Houston, United States",
         "local_departure_time": "13:11",
         "local_arrival_time": "16:40",
-        "duration": "02:29"
+        "duration": "02:29",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "Y4281",
+        "aircraft_model": "Airbus A321-231",
+        "airline_name": "Volaris",
+        "destination_iata": "MEX",
+        "local_departure_time": "13:11",
+        "local_arrival_time": "14:45",
+        "duration": "01:34",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AM335",
         "aircraft_model": "Boeing 737 MAX 9",
         "airline_name": "Aeroméxico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "13:12",
         "local_arrival_time": "14:55",
-        "duration": "01:43"
+        "duration": "01:43",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AA1215",
         "aircraft_model": "Airbus A321-231",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
-        "destination_name": "Dallas Fort Worth International Airport, Dallas, United States",
         "local_departure_time": "13:35",
         "local_arrival_time": "17:15",
-        "duration": "02:40"
+        "duration": "02:40",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA1215",
         "aircraft_model": "Boeing 737-823",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
-        "destination_name": "Dallas Fort Worth International Airport, Dallas, United States",
         "local_departure_time": "13:40",
         "local_arrival_time": "17:20",
-        "duration": "02:40"
+        "duration": "02:40",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL1816",
         "aircraft_model": "Boeing 737-932(ER)",
         "airline_name": "Delta Air Lines",
         "destination_iata": "ATL",
-        "destination_name": "Atlanta Hartsfield-Jackson International Airport, Atlanta, United States",
         "local_departure_time": "13:40",
         "local_arrival_time": "19:25",
-        "duration": "03:45"
+        "duration": "03:45",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AM335",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "13:42",
         "local_arrival_time": "15:25",
-        "duration": "01:43"
+        "duration": "01:43",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AS165",
         "aircraft_model": "Boeing 737 MAX 9",
         "airline_name": "Alaska Airlines",
         "destination_iata": "SJC",
-        "destination_name": "San Jose International Airport, San Jose, United States",
         "local_departure_time": "13:52",
         "local_arrival_time": "16:37",
-        "duration": "03:45"
+        "duration": "03:45",
+        "destination_airport_name": "San Jose International Airport",
+        "destination_city": "San Jose",
+        "destination_country": "United States"
     },
     {
         "flight_number": "Y47305",
         "aircraft_model": "Airbus A320-233",
         "airline_name": "Volaris",
         "destination_iata": "BJX",
-        "destination_name": "Silao Del Bajio International Airport, Silao, Mexico",
         "local_departure_time": "13:55",
         "local_arrival_time": "14:57",
-        "duration": "01:02"
+        "duration": "01:02",
+        "destination_airport_name": "Silao Del Bajio International Airport",
+        "destination_city": "Silao",
+        "destination_country": "Mexico"
+    },
+    {
+        "flight_number": "VB4341",
+        "aircraft_model": "",
+        "airline_name": "Viva",
+        "destination_iata": "MTY",
+        "local_departure_time": "13:55",
+        "local_arrival_time": "15:35",
+        "duration": "01:40",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "UA296",
         "aircraft_model": "Boeing 737-824",
         "airline_name": "United Airlines",
         "destination_iata": "DEN",
-        "destination_name": "Denver International Airport, Denver, United States",
         "local_departure_time": "13:59",
         "local_arrival_time": "17:19",
-        "duration": "03:20"
+        "duration": "03:20",
+        "destination_airport_name": "Denver International Airport",
+        "destination_city": "Denver",
+        "destination_country": "United States"
     },
     {
         "flight_number": "VB4341",
         "aircraft_model": "Airbus A320-271N",
         "airline_name": "Viva",
         "destination_iata": "MTY",
-        "destination_name": "Monterrey International Airport, Monterrey, Mexico",
         "local_departure_time": "14:05",
         "local_arrival_time": "15:45",
-        "duration": "01:40"
+        "duration": "01:40",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "UA1243",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "United Airlines",
         "destination_iata": "SFO",
-        "destination_name": "San Francisco International Airport, San Francisco, United States",
         "local_departure_time": "14:23",
         "local_arrival_time": "17:08",
-        "duration": "03:45"
+        "duration": "03:45",
+        "destination_airport_name": "San Francisco International Airport",
+        "destination_city": "San Francisco",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WS2001",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "YYC",
-        "destination_name": "Calgary International Airport, Calgary, Canada",
         "local_departure_time": "14:35",
         "local_arrival_time": "19:33",
-        "duration": "04:58"
+        "duration": "04:58",
+        "destination_airport_name": "Calgary International Airport",
+        "destination_city": "Calgary",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "VB4341",
         "aircraft_model": "",
         "airline_name": "Viva",
         "destination_iata": "MTY",
-        "destination_name": "Monterrey International Airport, Monterrey, Mexico",
         "local_departure_time": "14:35",
         "local_arrival_time": "16:15",
-        "duration": "01:40"
+        "duration": "01:40",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AS748",
         "aircraft_model": "Boeing 737-990(ER)",
         "airline_name": "Alaska Airlines",
         "destination_iata": "LAX",
-        "destination_name": "Los Angeles International Airport, Los Angeles, United States",
         "local_departure_time": "14:43",
         "local_arrival_time": "16:56",
-        "duration": "03:13"
+        "duration": "03:13",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WN764",
         "aircraft_model": "Boeing 737-7BD",
         "airline_name": "Southwest Airlines",
         "destination_iata": "SNA",
-        "destination_name": "Santa Ana John Wayne Airport, Santa Ana, United States",
         "local_departure_time": "14:55",
         "local_arrival_time": "17:10",
-        "duration": "03:15"
+        "duration": "03:15",
+        "destination_airport_name": "Santa Ana John Wayne Airport",
+        "destination_city": "Santa Ana",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA1166",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "United Airlines",
         "destination_iata": "IAH",
-        "destination_name": "Houston George Bush Intercontinental Airport, Houston, United States",
         "local_departure_time": "14:56",
         "local_arrival_time": "18:25",
-        "duration": "02:29"
+        "duration": "02:29",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WN515",
         "aircraft_model": "Boeing 737-8H4",
         "airline_name": "Southwest Airlines",
         "destination_iata": "DEN",
-        "destination_name": "Denver International Airport, Denver, United States",
         "local_departure_time": "15:00",
         "local_arrival_time": "18:25",
-        "duration": "03:25"
+        "duration": "03:25",
+        "destination_airport_name": "Denver International Airport",
+        "destination_city": "Denver",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WS2247",
         "aircraft_model": "Boeing 737-7CT",
         "airline_name": "WestJet",
         "destination_iata": "YYC",
-        "destination_name": "Calgary International Airport, Calgary, Canada",
         "local_departure_time": "15:10",
         "local_arrival_time": "20:08",
-        "duration": "04:58"
+        "duration": "04:58",
+        "destination_airport_name": "Calgary International Airport",
+        "destination_city": "Calgary",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "VB5085",
         "aircraft_model": "Airbus A321-271NX",
         "airline_name": "Viva",
         "destination_iata": "TIJ",
-        "destination_name": "Tijuana International Airport, Tijuana, Mexico",
         "local_departure_time": "15:15",
         "local_arrival_time": "17:10",
-        "duration": "02:55"
+        "duration": "02:55",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "DL1838",
         "aircraft_model": "Boeing 737-932(ER)",
         "airline_name": "Delta Air Lines",
         "destination_iata": "SLC",
-        "destination_name": "Salt Lake City International Airport, Salt Lake City, United States",
         "local_departure_time": "15:20",
         "local_arrival_time": "18:54",
-        "duration": "03:34"
+        "duration": "03:34",
+        "destination_airport_name": "Salt Lake City International Airport",
+        "destination_city": "Salt Lake City",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AS1257",
         "aircraft_model": "Boeing 737 MAX 9",
         "airline_name": "Alaska Airlines",
         "destination_iata": "SFO",
-        "destination_name": "San Francisco International Airport, San Francisco, United States",
         "local_departure_time": "15:22",
         "local_arrival_time": "18:13",
-        "duration": "03:51"
+        "duration": "03:51",
+        "destination_airport_name": "San Francisco International Airport",
+        "destination_city": "San Francisco",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA1202",
         "aircraft_model": "Boeing 737-823",
         "airline_name": "American Airlines",
         "destination_iata": "PHX",
-        "destination_name": "Phoenix Sky Harbor International Airport, Phoenix, United States",
         "local_departure_time": "15:30",
         "local_arrival_time": "17:10",
-        "duration": "02:40"
+        "duration": "02:40",
+        "destination_airport_name": "Phoenix Sky Harbor International Airport",
+        "destination_city": "Phoenix",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA244",
         "aircraft_model": "Boeing 737-824",
         "airline_name": "United Airlines",
         "destination_iata": "LAX",
-        "destination_name": "Los Angeles International Airport, Los Angeles, United States",
         "local_departure_time": "15:32",
         "local_arrival_time": "17:37",
-        "duration": "03:05"
+        "duration": "03:05",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States"
     },
     {
         "flight_number": "VB7413",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "Viva",
         "destination_iata": "GDL",
-        "destination_name": "Guadalajara International Airport, Guadalajara, Mexico",
         "local_departure_time": "15:35",
         "local_arrival_time": "16:35",
-        "duration": "01:00"
+        "duration": "01:00",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AA1288",
         "aircraft_model": "Airbus A321-231",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
-        "destination_name": "Dallas Fort Worth International Airport, Dallas, United States",
         "local_departure_time": "15:40",
         "local_arrival_time": "19:20",
-        "duration": "02:40"
+        "duration": "02:40",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AA764",
         "aircraft_model": "Airbus A321-231",
         "airline_name": "American Airlines",
         "destination_iata": "LAX",
-        "destination_name": "Los Angeles International Airport, Los Angeles, United States",
         "local_departure_time": "15:45",
         "local_arrival_time": "18:05",
-        "duration": "03:20"
+        "duration": "03:20",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AS151",
         "aircraft_model": "Boeing 737 MAX 9",
         "airline_name": "Alaska Airlines",
         "destination_iata": "SEA",
-        "destination_name": "Seattle Tacoma International Airport, Seattle, United States",
         "local_departure_time": "15:58",
         "local_arrival_time": "20:00",
-        "duration": "05:02"
+        "duration": "05:02",
+        "destination_airport_name": "Seattle Tacoma International Airport",
+        "destination_city": "Seattle",
+        "destination_country": "United States"
     },
     {
         "flight_number": "Y43123",
         "aircraft_model": "Airbus A321-271NX",
         "airline_name": "Volaris",
         "destination_iata": "TIJ",
-        "destination_name": "Tijuana International Airport, Tijuana, Mexico",
         "local_departure_time": "16:00",
         "local_arrival_time": "17:47",
-        "duration": "02:47"
+        "duration": "02:47",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AS746",
         "aircraft_model": "Boeing 737 MAX 9",
         "airline_name": "Alaska Airlines",
         "destination_iata": "LAX",
-        "destination_name": "Los Angeles International Airport, Los Angeles, United States",
         "local_departure_time": "16:06",
         "local_arrival_time": "18:16",
-        "duration": "03:10"
+        "duration": "03:10",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL1922",
         "aircraft_model": "Boeing 737-832",
         "airline_name": "Delta Air Lines",
         "destination_iata": "SEA",
-        "destination_name": "Seattle Tacoma International Airport, Seattle, United States",
         "local_departure_time": "16:15",
         "local_arrival_time": "20:26",
-        "duration": "05:11"
+        "duration": "05:11",
+        "destination_airport_name": "Seattle Tacoma International Airport",
+        "destination_city": "Seattle",
+        "destination_country": "United States"
     },
     {
         "flight_number": "DL1779",
         "aircraft_model": "Boeing 737-8EH",
         "airline_name": "Delta Air Lines",
         "destination_iata": "LAX",
-        "destination_name": "Los Angeles International Airport, Los Angeles, United States",
         "local_departure_time": "16:30",
         "local_arrival_time": "18:45",
-        "duration": "03:15"
+        "duration": "03:15",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WS2205",
         "aircraft_model": "Boeing 737-7CT",
         "airline_name": "WestJet",
         "destination_iata": "YEG",
-        "destination_name": "Edmonton International Airport, Edmonton, Canada",
         "local_departure_time": "16:30",
         "local_arrival_time": "21:49",
-        "duration": "05:19"
+        "duration": "05:19",
+        "destination_airport_name": "Edmonton International Airport",
+        "destination_city": "Edmonton",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "DL1779",
         "aircraft_model": "Boeing 737-832",
         "airline_name": "Delta Air Lines",
         "destination_iata": "LAX",
-        "destination_name": "Los Angeles International Airport, Los Angeles, United States",
         "local_departure_time": "16:30",
         "local_arrival_time": "18:50",
-        "duration": "03:20"
+        "duration": "03:20",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WN1099",
         "aircraft_model": "Boeing 737-7H4",
         "airline_name": "Southwest Airlines",
         "destination_iata": "SMF",
-        "destination_name": "Sacramento International Airport, Sacramento, United States",
         "local_departure_time": "16:35",
         "local_arrival_time": "19:30",
-        "duration": "03:55"
+        "duration": "03:55",
+        "destination_airport_name": "Sacramento International Airport",
+        "destination_city": "Sacramento",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WN764",
         "aircraft_model": "Boeing 737-7H4",
         "airline_name": "Southwest Airlines",
         "destination_iata": "SNA",
-        "destination_name": "Santa Ana John Wayne Airport, Santa Ana, United States",
         "local_departure_time": "16:50",
         "local_arrival_time": "19:00",
-        "duration": "03:10"
+        "duration": "03:10",
+        "destination_airport_name": "Santa Ana John Wayne Airport",
+        "destination_city": "Santa Ana",
+        "destination_country": "United States"
     },
     {
         "flight_number": "UA705",
         "aircraft_model": "Boeing 737-824",
         "airline_name": "United Airlines",
         "destination_iata": "SFO",
-        "destination_name": "San Francisco International Airport, San Francisco, United States",
         "local_departure_time": "17:00",
         "local_arrival_time": "19:43",
-        "duration": "03:43"
+        "duration": "03:43",
+        "destination_airport_name": "San Francisco International Airport",
+        "destination_city": "San Francisco",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WS2157",
         "aircraft_model": "Boeing 737-8CT",
         "airline_name": "WestJet",
         "destination_iata": "YVR",
-        "destination_name": "Vancouver International Airport, Vancouver, Canada",
         "local_departure_time": "17:05",
         "local_arrival_time": "21:15",
-        "duration": "05:10"
+        "duration": "05:10",
+        "destination_airport_name": "Vancouver International Airport",
+        "destination_city": "Vancouver",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC971",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Air Canada",
         "destination_iata": "YVR",
-        "destination_name": "Vancouver International Airport, Vancouver, Canada",
         "local_departure_time": "17:05",
         "local_arrival_time": "21:10",
-        "duration": "05:05"
+        "duration": "05:05",
+        "destination_airport_name": "Vancouver International Airport",
+        "destination_city": "Vancouver",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AS150",
         "aircraft_model": "Boeing 737-990(ER)",
         "airline_name": "Alaska Airlines",
         "destination_iata": "PDX",
-        "destination_name": "Portland International Airport, Portland, United States",
         "local_departure_time": "17:09",
         "local_arrival_time": "20:47",
-        "duration": "04:38"
+        "duration": "04:38",
+        "destination_airport_name": "Portland International Airport",
+        "destination_city": "Portland",
+        "destination_country": "United States"
     },
     {
         "flight_number": "VB1169",
         "aircraft_model": "Airbus A321-271NX",
         "airline_name": "Viva",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "17:40",
         "local_arrival_time": "19:20",
-        "duration": "01:40"
+        "duration": "01:40",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AM339",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "18:06",
         "local_arrival_time": "19:55",
-        "duration": "01:49"
+        "duration": "01:49",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AM339",
         "aircraft_model": "",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "18:11",
         "local_arrival_time": "20:00",
-        "duration": "01:49"
+        "duration": "01:49",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "Y43125",
         "aircraft_model": "Airbus A321-231",
         "airline_name": "Volaris",
         "destination_iata": "TIJ",
-        "destination_name": "Tijuana International Airport, Tijuana, Mexico",
         "local_departure_time": "18:24",
         "local_arrival_time": "20:11",
-        "duration": "02:47"
+        "duration": "02:47",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "VB4345",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "Avion Express",
         "destination_iata": "MTY",
-        "destination_name": "Monterrey International Airport, Monterrey, Mexico",
         "local_departure_time": "18:45",
         "local_arrival_time": "20:25",
-        "duration": "01:40"
+        "duration": "01:40",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "Y47307",
         "aircraft_model": "Airbus A320-271N",
         "airline_name": "Volaris",
         "destination_iata": "BJX",
-        "destination_name": "Silao Del Bajio International Airport, Silao, Mexico",
         "local_departure_time": "19:10",
         "local_arrival_time": "20:12",
-        "duration": "01:02"
+        "duration": "01:02",
+        "destination_airport_name": "Silao Del Bajio International Airport",
+        "destination_city": "Silao",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AM339",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Aeroméxico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "19:21",
         "local_arrival_time": "21:10",
-        "duration": "01:49"
+        "duration": "01:49",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AM341",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "19:26",
         "local_arrival_time": "21:15",
-        "duration": "01:49"
+        "duration": "01:49",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AS1373",
         "aircraft_model": "Boeing 737 MAX 9",
         "airline_name": "Alaska Airlines",
         "destination_iata": "SFO",
-        "destination_name": "San Francisco International Airport, San Francisco, United States",
         "local_departure_time": "19:34",
         "local_arrival_time": "22:24",
-        "duration": "03:50"
+        "duration": "03:50",
+        "destination_airport_name": "San Francisco International Airport",
+        "destination_city": "San Francisco",
+        "destination_country": "United States"
+    },
+    {
+        "flight_number": "AM339",
+        "aircraft_model": "Boeing 737-8JP",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "local_departure_time": "19:36",
+        "local_arrival_time": "21:25",
+        "duration": "01:49",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "F82801",
         "aircraft_model": "",
         "airline_name": "Flair Airlines",
         "destination_iata": "YVR",
-        "destination_name": "Vancouver International Airport, Vancouver, Canada",
         "local_departure_time": "20:25",
         "local_arrival_time": "00:40 (+1)",
-        "duration": "05:15"
+        "duration": "05:15",
+        "destination_airport_name": "Vancouver International Airport",
+        "destination_city": "Vancouver",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "Y4283",
         "aircraft_model": "Airbus A320-271N",
         "airline_name": "Volaris",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "20:26",
         "local_arrival_time": "22:00",
-        "duration": "01:34"
+        "duration": "01:34",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AM341",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "20:46",
         "local_arrival_time": "22:35",
-        "duration": "01:49"
+        "duration": "01:49",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "AM341",
         "aircraft_model": "",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
-        "destination_name": "Mexico City International Airport, Mexico City, Mexico",
         "local_departure_time": "21:16",
         "local_arrival_time": "23:05",
-        "duration": "01:49"
+        "duration": "01:49",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
+    },
+    {
+        "flight_number": "AM341",
+        "aircraft_model": "Boeing 737 MAX 9",
+        "airline_name": "Aeroméxico",
+        "destination_iata": "MEX",
+        "local_departure_time": "21:31",
+        "local_arrival_time": "23:20",
+        "duration": "01:49",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "VB4349",
         "aircraft_model": "",
         "airline_name": "Viva",
         "destination_iata": "MTY",
-        "destination_name": "Monterrey International Airport, Monterrey, Mexico",
         "local_departure_time": "21:40",
         "local_arrival_time": "23:20",
-        "duration": "01:40"
+        "duration": "01:40",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico"
     },
     {
         "flight_number": "VB4349",
         "aircraft_model": "Airbus A320-232",
         "airline_name": "Viva",
         "destination_iata": "MTY",
-        "destination_name": "Monterrey International Airport, Monterrey, Mexico",
         "local_departure_time": "23:00",
         "local_arrival_time": "00:40 (+1)",
-        "duration": "01:40"
+        "duration": "01:40",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico"
     }
 ]

@@ -4,7 +4,21 @@
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
+        "local_departure_time": "05:20",
+        "local_arrival_time": "06:57",
+        "duration": "02:37",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
+    },
+    {
+        "flight_number": "AC1537",
+        "aircraft_model": "Airbus A321-211",
+        "airline_name": "Air Canada Rouge",
+        "destination_iata": "YYZ",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada",
         "local_departure_time": "05:20",
         "local_arrival_time": "06:57",
         "duration": "02:37"
@@ -14,197 +28,273 @@
         "aircraft_model": "Airbus A321-211",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "05:25",
         "local_arrival_time": "07:02",
-        "duration": "02:37"
+        "duration": "02:37",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC661",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Air Canada",
         "destination_iata": "YUL",
-        "destination_name": "Montreal Pierre Elliott Trudeau Airport, Montreal, Canada",
         "local_departure_time": "05:45",
         "local_arrival_time": "06:35",
-        "duration": "01:50"
+        "duration": "01:50",
+        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
+        "destination_city": "Montreal",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "W8245",
         "aircraft_model": "",
         "airline_name": "Cargojet Airways",
         "destination_iata": "EWR",
-        "destination_name": "New York Newark Liberty International Airport, New York, United States",
         "local_departure_time": "06:15",
         "local_arrival_time": "07:30",
-        "duration": "02:15"
+        "duration": "02:15",
+        "destination_airport_name": "New York Newark Liberty International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "PD200",
         "aircraft_model": "",
         "airline_name": "Porter Airlines Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "06:30",
         "local_arrival_time": "07:56",
-        "duration": "02:26"
+        "duration": "02:26",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "PD2230",
         "aircraft_model": "De Havilland Canada Dash 8-400",
         "airline_name": "Porter",
         "destination_iata": "YOW",
-        "destination_name": "Ottawa Macdonald-Cartier International Airport, Ottawa, Canada",
         "local_departure_time": "06:45",
         "local_arrival_time": "07:54",
-        "duration": "02:09"
+        "duration": "02:09",
+        "destination_airport_name": "Ottawa Macdonald-Cartier International Airport",
+        "destination_city": "Ottawa",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "WS391",
         "aircraft_model": "Boeing 737-8CT",
         "airline_name": "WestJet",
         "destination_iata": "YEG",
-        "destination_name": "Edmonton International Airport, Edmonton, Canada",
         "local_departure_time": "07:00",
         "local_arrival_time": "09:28",
-        "duration": "05:28"
+        "duration": "05:28",
+        "destination_airport_name": "Edmonton International Airport",
+        "destination_city": "Edmonton",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC2585",
         "aircraft_model": "De Havilland Canada Dash 8-400",
         "airline_name": "PAL Airlines",
         "destination_iata": "YOW",
-        "destination_name": "Ottawa Macdonald-Cartier International Airport, Ottawa, Canada",
         "local_departure_time": "07:15",
         "local_arrival_time": "08:27",
-        "duration": "02:12"
+        "duration": "02:12",
+        "destination_airport_name": "Ottawa Macdonald-Cartier International Airport",
+        "destination_city": "Ottawa",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "WS229",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "YYC",
-        "destination_name": "Calgary International Airport, Calgary, Canada",
         "local_departure_time": "08:00",
         "local_arrival_time": "10:35",
-        "duration": "05:35"
+        "duration": "05:35",
+        "destination_airport_name": "Calgary International Airport",
+        "destination_city": "Calgary",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "PD204",
         "aircraft_model": "",
         "airline_name": "Porter Airlines Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "08:25",
         "local_arrival_time": "09:50",
-        "duration": "02:25"
+        "duration": "02:25",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "WS249",
         "aircraft_model": "Boeing 737-7CT",
         "airline_name": "WestJet",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "08:30",
         "local_arrival_time": "09:59",
-        "duration": "02:29"
+        "duration": "02:29",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
+    },
+    {
+        "flight_number": "WS1040",
+        "aircraft_model": "Boeing 737 MAX 8",
+        "airline_name": "WestJet",
+        "destination_iata": "MCO",
+        "destination_airport_name": "Orlando International Airport",
+        "destination_city": "Orlando",
+        "destination_country": "United States",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "11:54",
+        "duration": "03:54"
+    },
+    {
+        "flight_number": "WS2470",
+        "aircraft_model": "Boeing 737-8CT",
+        "airline_name": "WestJet",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "12:18",
+        "duration": "05:18"
     },
     {
         "flight_number": "AC605",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "09:05",
         "local_arrival_time": "10:34",
-        "duration": "02:29"
+        "duration": "02:29",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "PD2324",
         "aircraft_model": "De Havilland Canada Dash 8-400",
         "airline_name": "Porter",
         "destination_iata": "YUL",
-        "destination_name": "Montreal Pierre Elliott Trudeau Airport, Montreal, Canada",
         "local_departure_time": "09:15",
         "local_arrival_time": "10:12",
-        "duration": "01:57"
+        "duration": "01:57",
+        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
+        "destination_city": "Montreal",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC361",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Air Canada",
         "destination_iata": "YVR",
-        "destination_name": "Vancouver International Airport, Vancouver, Canada",
         "local_departure_time": "09:35",
         "local_arrival_time": "11:54",
-        "duration": "06:19"
+        "duration": "06:19",
+        "destination_airport_name": "Vancouver International Airport",
+        "destination_city": "Vancouver",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC2567",
         "aircraft_model": "De Havilland Canada Dash 8-400",
         "airline_name": "PAL Airlines",
         "destination_iata": "EWR",
-        "destination_name": "New York Newark Liberty International Airport, New York, United States",
         "local_departure_time": "10:25",
         "local_arrival_time": "11:56",
-        "duration": "02:31"
+        "duration": "02:31",
+        "destination_airport_name": "New York Newark Liberty International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AC868",
         "aircraft_model": "Boeing 787-8 Dreamliner",
         "airline_name": "Air Canada",
         "destination_iata": "LHR",
-        "destination_name": "London Heathrow Airport, London, United Kingdom",
         "local_departure_time": "11:00",
         "local_arrival_time": "21:00",
-        "duration": "06:00"
+        "duration": "06:00",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom"
     },
     {
         "flight_number": "PD202",
         "aircraft_model": "",
         "airline_name": "Porter Airlines Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "11:05",
         "local_arrival_time": "12:31",
-        "duration": "02:26"
+        "duration": "02:26",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC663",
         "aircraft_model": "Airbus A220-300",
         "airline_name": "Air Canada",
         "destination_iata": "YUL",
-        "destination_name": "Montreal Pierre Elliott Trudeau Airport, Montreal, Canada",
         "local_departure_time": "11:20",
         "local_arrival_time": "12:00",
-        "duration": "01:40"
+        "duration": "01:40",
+        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
+        "destination_city": "Montreal",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "F8657",
         "aircraft_model": "",
         "airline_name": "Flair Airlines",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "11:45",
         "local_arrival_time": "13:10",
-        "duration": "02:25"
+        "duration": "02:25",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC611",
         "aircraft_model": "Airbus A321-211",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "11:55",
         "local_arrival_time": "13:19",
-        "duration": "02:24"
+        "duration": "02:24",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC607",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
+        "local_departure_time": "11:55",
+        "local_arrival_time": "13:19",
+        "duration": "02:24",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
+    },
+    {
+        "flight_number": "AC1535",
+        "aircraft_model": "Airbus A319-114",
+        "airline_name": "Air Canada Rouge",
+        "destination_iata": "YYZ",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada",
         "local_departure_time": "11:55",
         "local_arrival_time": "13:19",
         "duration": "02:24"
@@ -214,267 +304,357 @@
         "aircraft_model": "",
         "airline_name": "Porter Airlines Canada",
         "destination_iata": "YOW",
-        "destination_name": "Ottawa Macdonald-Cartier International Airport, Ottawa, Canada",
         "local_departure_time": "12:00",
         "local_arrival_time": "12:51",
-        "duration": "01:51"
+        "duration": "01:51",
+        "destination_airport_name": "Ottawa Macdonald-Cartier International Airport",
+        "destination_city": "Ottawa",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC2587",
         "aircraft_model": "De Havilland Canada Dash 8-400",
         "airline_name": "PAL Airlines",
         "destination_iata": "YOW",
-        "destination_name": "Ottawa Macdonald-Cartier International Airport, Ottawa, Canada",
         "local_departure_time": "13:15",
         "local_arrival_time": "14:27",
-        "duration": "02:12"
+        "duration": "02:12",
+        "destination_airport_name": "Ottawa Macdonald-Cartier International Airport",
+        "destination_city": "Ottawa",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC613",
         "aircraft_model": "Airbus A321-211",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "13:30",
         "local_arrival_time": "14:54",
-        "duration": "02:24"
+        "duration": "02:24",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "WS285",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "YWG",
-        "destination_name": "Winnipeg James Armstrong Richardson International Airport, Winnipeg, Canada",
         "local_departure_time": "13:30",
         "local_arrival_time": "15:33",
-        "duration": "04:03"
+        "duration": "04:03",
+        "destination_airport_name": "Winnipeg James Armstrong Richardson International Airport",
+        "destination_city": "Winnipeg",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC1537",
         "aircraft_model": "",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "13:30",
         "local_arrival_time": "14:54",
-        "duration": "02:24"
+        "duration": "02:24",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "UA3596",
         "aircraft_model": "Embraer E175LR",
         "airline_name": "United Express",
         "destination_iata": "EWR",
-        "destination_name": "New York Newark Liberty International Airport, New York, United States",
         "local_departure_time": "14:50",
         "local_arrival_time": "16:11",
-        "duration": "02:21"
+        "duration": "02:21",
+        "destination_airport_name": "New York Newark Liberty International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States"
     },
     {
         "flight_number": "WS277",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "15:20",
         "local_arrival_time": "16:51",
-        "duration": "02:31"
+        "duration": "02:31",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "WS235",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "YYC",
-        "destination_name": "Calgary International Airport, Calgary, Canada",
         "local_departure_time": "15:20",
         "local_arrival_time": "17:55",
-        "duration": "05:35"
+        "duration": "05:35",
+        "destination_airport_name": "Calgary International Airport",
+        "destination_city": "Calgary",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC8069",
         "aircraft_model": "De Havilland Canada Dash 8-400",
         "airline_name": "Air Canada Express",
         "destination_iata": "YOW",
-        "destination_name": "Ottawa Macdonald-Cartier International Airport, Ottawa, Canada",
         "local_departure_time": "15:45",
         "local_arrival_time": "16:55",
-        "duration": "02:10"
+        "duration": "02:10",
+        "destination_airport_name": "Ottawa Macdonald-Cartier International Airport",
+        "destination_city": "Ottawa",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC615",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "16:35",
         "local_arrival_time": "17:59",
-        "duration": "02:24"
+        "duration": "02:24",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC2563",
         "aircraft_model": "De Havilland Canada Dash 8-400",
         "airline_name": "PAL Airlines",
         "destination_iata": "BOS",
-        "destination_name": "Boston Logan International Airport, Boston, United States",
         "local_departure_time": "16:45",
         "local_arrival_time": "17:40",
-        "duration": "01:55"
+        "duration": "01:55",
+        "destination_airport_name": "Boston Logan International Airport",
+        "destination_city": "Boston",
+        "destination_country": "United States"
     },
     {
         "flight_number": "PD244",
         "aircraft_model": "Embraer E195-E2",
         "airline_name": "Porter",
         "destination_iata": "YOW",
-        "destination_name": "Ottawa Macdonald-Cartier International Airport, Ottawa, Canada",
         "local_departure_time": "16:55",
         "local_arrival_time": "17:46",
-        "duration": "01:51"
+        "duration": "01:51",
+        "destination_airport_name": "Ottawa Macdonald-Cartier International Airport",
+        "destination_city": "Ottawa",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "UA5934",
         "aircraft_model": "Embraer E175LR",
         "airline_name": "United Express",
         "destination_iata": "ORD",
-        "destination_name": "Chicago O'Hare International Airport, Chicago, United States",
         "local_departure_time": "17:00",
         "local_arrival_time": "18:45",
-        "duration": "03:45"
+        "duration": "03:45",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States"
     },
     {
         "flight_number": "AC1539",
         "aircraft_model": "Airbus A321-211",
         "airline_name": "Air Canada Rouge",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "17:05",
         "local_arrival_time": "18:29",
-        "duration": "02:24"
+        "duration": "02:24",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC667",
         "aircraft_model": "Airbus A330-343",
         "airline_name": "Air Canada (Star Alliance Livery)",
         "destination_iata": "YUL",
-        "destination_name": "Montreal Pierre Elliott Trudeau Airport, Montreal, Canada",
         "local_departure_time": "17:20",
         "local_arrival_time": "17:57",
-        "duration": "01:37"
+        "duration": "01:37",
+        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
+        "destination_city": "Montreal",
+        "destination_country": "Canada"
+    },
+    {
+        "flight_number": "KE282",
+        "aircraft_model": "",
+        "airline_name": "Korean Air",
+        "destination_iata": "ANC",
+        "local_departure_time": "17:20",
+        "local_arrival_time": "19:45",
+        "duration": "07:25",
+        "destination_airport_name": "Anchorage Ted Stevens International Airport",
+        "destination_city": "Anchorage",
+        "destination_country": "United States"
     },
     {
         "flight_number": "PD256",
         "aircraft_model": "Embraer E195-E2",
         "airline_name": "Porter",
         "destination_iata": "YUL",
-        "destination_name": "Montreal Pierre Elliott Trudeau Airport, Montreal, Canada",
         "local_departure_time": "17:50",
         "local_arrival_time": "18:36",
-        "duration": "01:46"
+        "duration": "01:46",
+        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
+        "destination_city": "Montreal",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "PD256",
         "aircraft_model": "",
         "airline_name": "Porter Airlines Canada",
         "destination_iata": "YUL",
-        "destination_name": "Montreal Pierre Elliott Trudeau Airport, Montreal, Canada",
         "local_departure_time": "17:55",
         "local_arrival_time": "18:41",
-        "duration": "01:46"
+        "duration": "01:46",
+        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
+        "destination_city": "Montreal",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "WS233",
         "aircraft_model": "Boeing 737-8CT",
         "airline_name": "WestJet",
         "destination_iata": "YYC",
-        "destination_name": "Calgary International Airport, Calgary, Canada",
         "local_departure_time": "18:00",
         "local_arrival_time": "20:35",
-        "duration": "05:35"
+        "duration": "05:35",
+        "destination_airport_name": "Calgary International Airport",
+        "destination_city": "Calgary",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "W81893",
         "aircraft_model": "",
         "airline_name": "Cargojet Airways",
         "destination_iata": "CGN",
-        "destination_name": "Cologne Bonn Airport, Cologne, Germany",
         "local_departure_time": "18:00",
         "local_arrival_time": "05:30 (+1)",
-        "duration": "06:30"
+        "duration": "06:30",
+        "destination_airport_name": "Cologne Bonn Airport",
+        "destination_city": "Cologne",
+        "destination_country": "Germany"
     },
     {
         "flight_number": "AC619",
         "aircraft_model": "Airbus A319-114",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "18:15",
         "local_arrival_time": "19:44",
-        "duration": "02:29"
+        "duration": "02:29",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC1595",
         "aircraft_model": "Airbus A320-214",
         "airline_name": "Air Canada Rouge",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "18:15",
         "local_arrival_time": "19:44",
-        "duration": "02:29"
+        "duration": "02:29",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "WS275",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "18:30",
         "local_arrival_time": "20:00",
-        "duration": "02:30"
+        "duration": "02:30",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
+    },
+    {
+        "flight_number": "WS281",
+        "aircraft_model": "Boeing 737 MAX 8",
+        "airline_name": "WestJet",
+        "destination_iata": "YYZ",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada",
+        "local_departure_time": "18:30",
+        "local_arrival_time": "20:01",
+        "duration": "02:31"
     },
     {
         "flight_number": "PD206",
         "aircraft_model": "",
         "airline_name": "Porter Airlines Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "18:45",
         "local_arrival_time": "20:11",
-        "duration": "02:26"
+        "duration": "02:26",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "4Y75",
         "aircraft_model": "",
         "airline_name": "Discover Airlines",
         "destination_iata": "FRA",
-        "destination_name": "Frankfurt Airport, Frankfurt, Germany",
         "local_departure_time": "19:30",
         "local_arrival_time": "07:00 (+1)",
-        "duration": "06:30"
+        "duration": "06:30",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany"
     },
     {
         "flight_number": "PD2328",
         "aircraft_model": "De Havilland Canada Dash 8-400",
         "airline_name": "Porter",
         "destination_iata": "YUL",
-        "destination_name": "Montreal Pierre Elliott Trudeau Airport, Montreal, Canada",
         "local_departure_time": "19:55",
         "local_arrival_time": "20:52",
-        "duration": "01:57"
+        "duration": "01:57",
+        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
+        "destination_city": "Montreal",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "WS257",
         "aircraft_model": "Boeing 737-7CT",
         "airline_name": "WestJet",
         "destination_iata": "YYC",
-        "destination_name": "Calgary International Airport, Calgary, Canada",
         "local_departure_time": "20:05",
         "local_arrival_time": "22:40",
-        "duration": "05:35"
+        "duration": "05:35",
+        "destination_airport_name": "Calgary International Airport",
+        "destination_city": "Calgary",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC669",
         "aircraft_model": "Airbus A220-300",
         "airline_name": "Air Canada",
         "destination_iata": "YUL",
-        "destination_name": "Montreal Pierre Elliott Trudeau Airport, Montreal, Canada",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "20:52",
+        "duration": "01:42",
+        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
+        "destination_city": "Montreal",
+        "destination_country": "Canada"
+    },
+    {
+        "flight_number": "AC1599",
+        "aircraft_model": "Airbus A321-211",
+        "airline_name": "Air Canada Rouge",
+        "destination_iata": "YUL",
+        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
+        "destination_city": "Montreal",
+        "destination_country": "Canada",
         "local_departure_time": "20:10",
         "local_arrival_time": "20:52",
         "duration": "01:42"
@@ -484,99 +664,131 @@
         "aircraft_model": "Boeing 737-7CT",
         "airline_name": "WestJet",
         "destination_iata": "YEG",
-        "destination_name": "Edmonton International Airport, Edmonton, Canada",
         "local_departure_time": "21:00",
         "local_arrival_time": "23:29",
-        "duration": "05:29"
+        "duration": "05:29",
+        "destination_airport_name": "Edmonton International Airport",
+        "destination_city": "Edmonton",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC1599",
         "aircraft_model": "Airbus A319-114",
         "airline_name": "Air Canada Rouge",
         "destination_iata": "YUL",
-        "destination_name": "Montreal Pierre Elliott Trudeau Airport, Montreal, Canada",
         "local_departure_time": "21:10",
         "local_arrival_time": "21:52",
-        "duration": "01:42"
+        "duration": "01:42",
+        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
+        "destination_city": "Montreal",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "4Y75",
         "aircraft_model": "",
         "airline_name": "Discover Airlines",
         "destination_iata": "FRA",
-        "destination_name": "Frankfurt Airport, Frankfurt, Germany",
         "local_departure_time": "21:40",
         "local_arrival_time": "09:10 (+1)",
-        "duration": "06:30"
+        "duration": "06:30",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany"
     },
     {
         "flight_number": "AC615",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "21:45",
         "local_arrival_time": "23:09",
-        "duration": "02:24"
+        "duration": "02:24",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "AC2575",
         "aircraft_model": "De Havilland Canada Dash 8-400",
         "airline_name": "PAL Airlines",
         "destination_iata": "YOW",
-        "destination_name": "Ottawa Macdonald-Cartier International Airport, Ottawa, Canada",
         "local_departure_time": "21:55",
         "local_arrival_time": "23:07",
-        "duration": "02:12"
+        "duration": "02:12",
+        "destination_airport_name": "Ottawa Macdonald-Cartier International Airport",
+        "destination_city": "Ottawa",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "WS46",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "EDI",
-        "destination_name": "Edinburgh Airport, Edinburgh, United Kingdom",
         "local_departure_time": "22:35",
         "local_arrival_time": "08:05 (+1)",
-        "duration": "05:30"
+        "duration": "05:30",
+        "destination_airport_name": "Edinburgh Airport",
+        "destination_city": "Edinburgh",
+        "destination_country": "United Kingdom"
     },
     {
         "flight_number": "WS50",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "DUB",
-        "destination_name": "Dublin Airport, Dublin, Ireland",
         "local_departure_time": "22:50",
         "local_arrival_time": "08:25 (+1)",
-        "duration": "05:35"
+        "duration": "05:35",
+        "destination_airport_name": "Dublin Airport",
+        "destination_city": "Dublin",
+        "destination_country": "Ireland"
     },
     {
         "flight_number": "F8651",
         "aircraft_model": "",
         "airline_name": "Flair Airlines",
         "destination_iata": "YYZ",
-        "destination_name": "Toronto Pearson International Airport, Toronto, Canada",
         "local_departure_time": "23:00",
         "local_arrival_time": "00:25 (+1)",
-        "duration": "02:25"
+        "duration": "02:25",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada"
     },
     {
         "flight_number": "WS62",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "CDG",
-        "destination_name": "Paris Charles de Gaulle Airport, Paris, France",
         "local_departure_time": "23:15",
         "local_arrival_time": "10:25 (+1)",
-        "duration": "06:10"
+        "duration": "06:10",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
+        "destination_country": "France"
     },
     {
         "flight_number": "WS24",
         "aircraft_model": "Boeing 737 MAX 8",
         "airline_name": "WestJet",
         "destination_iata": "LGW",
-        "destination_name": "London Gatwick Airport, London, United Kingdom",
         "local_departure_time": "23:25",
         "local_arrival_time": "09:25 (+1)",
-        "duration": "06:00"
+        "duration": "06:00",
+        "destination_airport_name": "London Gatwick Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom"
+    },
+    {
+        "flight_number": "WS70",
+        "aircraft_model": "Boeing 737 MAX 8",
+        "airline_name": "WestJet",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "23:45",
+        "local_arrival_time": "11:00 (+1)",
+        "duration": "06:15"
     }
 ]

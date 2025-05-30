@@ -1,4 +1,3 @@
-const TIMEZONE_JSON = 'https://raw.githubusercontent.com/vvo/tzdb/main/raw-time-zones.json';
 // const API_URL = 'http://127.0.0.1:5000/api/'
 // const API_URL = 'http://36da4346.r5.cpolar.top/api'
 
@@ -32,7 +31,7 @@ var distanceCovered = 0;
 var moneySpent = 0;
 var budget = 500;
 
-var current_timezone;
+var current_timezone_offset = 0;
 
 var airportArray;
 var timezoneArray;
@@ -217,7 +216,7 @@ function arrivedNewCity(timeStamp){
             dest_pin.setIcon(getSpot(findApData(dest_iata)));
             origin_iata = dest_iata;
             dest_iata = null;
-            current_timezone = getTimezone(origin_iata);
+            current_timezone_offset = getTimezoneOffset(origin_iata);
             origin_city = dest_city;
             dest_city = null;
             origin_latlng = dest_latlng;
@@ -241,7 +240,7 @@ function arrivedNewCity(timeStamp){
     origin_iata = dest_iata;
     dest_iata = null;
 
-    current_timezone = getTimezone(origin_iata);
+    current_timezone_offset = getTimezoneOffset(origin_iata);
 
     origin_city = dest_city;
     dest_city = null;
@@ -444,19 +443,19 @@ function apEastWest(orgIata, destIata) {
     return "";
 }
 
-function getTimezone(iata_code){
+function getTimezoneOffset(iata_code) {
     var apData = findApData(iata_code);
-    return timezoneArray.find(timezone => timezone.group.includes(apData.timezone));
+    return apData.timezone_offset;
 }
 
 function gameTimeUpdate(timeStamp){
     gameTime.setTime(timeStamp);
-    localTime.setTime(timeStamp + current_timezone.rawOffsetInMinutes * 60000);
+    localTime.setTime(timeStamp + current_timezone_offset * 1000);
     var timeUsed = new Date(gameTime.getTime() - startingTime.getTime());
     // console.log(timeUsed);
 
     $("#utc-time").text(`UTC: ${toTimeFormat(gameTime)}`);
-    $("#local-time").html(`UTC${current_timezone.rawFormat.slice(0, 6)}: <b>${toTimeFormat(localTime)}</b>`);
+    $("#local-time").html(`UTC${current_timezone_offset >= 0 ? '+' : ''}${current_timezone_offset/3600}: <b>${toTimeFormat(localTime)}</b>`);
     $("#elapsed-time").text(`${timeUsed.getUTCDate()-1}d  ${timeUsed.getUTCHours()}hr ${timeUsed.getUTCMinutes()}min`);
 }
 
@@ -666,8 +665,7 @@ function startGame(){
     $("#money-left").text(`$${budget}`);
     routeInfo.push(startingIata);
 
-    var timezone = getTimezone(startingIata);
-    current_timezone = timezone;
+    current_timezone_offset = getTimezoneOffset(startingIata);
     gameTimeUpdate(startingTime.getTime());
 
     clickAllowed = true;
@@ -709,23 +707,15 @@ async function main() {
     try {
         initMap();
         initTooltip();
-        const timezoneReady = await fetchTimezoneInfo();
         const airportReady = await fetchAirports();
 
-        if (timezoneReady && airportReady){
+        if (airportReady) {
             $("#start-spinner").hide();
             startGame();
         }
         else {
-            if (!airportReady){
-                console.error("fetching airport data failed!");
-            }
-            if (!timezoneReady){
-                console.error("fetching timezone data failed!");
-            }
-            
+            console.error("fetching airport data failed!");
         }
-        
     } catch (error) {
         console.error('Error:', error);
     }
@@ -796,15 +786,18 @@ function viewSchedule(isOrigin = false) {
             $("#schedule-table-body").empty();
 
             // Update modal title
-            $("#schedule-modal-label").text(`Flight Schedule - ${iata}`);
+            $("#schedule-modal-label").text(`Flight Departures - ${iata}`);
 
             // Populate table
             data.forEach(flight => {
                 $("#schedule-table-body").append(`
-                    <tr data-departure="${flight.local_departure_time}">
+                    <tr data-departure="${flight.local_departure_time}" 
+                        data-destination_city="${flight.destination_city}"
+                        data-destination_country="${flight.destination_country}"
+                        data-destination_iata="${flight.destination_iata}">
                         <td>${flight.local_departure_time}</td>
                         <td>${flight.local_arrival_time}</td>
-                        <td><b>${flight.destination_iata}</b> - ${flight.destination_name}</td>
+                        <td><b>${flight.destination_iata}</b> - ${flight.destination_city}, ${flight.destination_country}</td>
                         <td>${flight.duration}</td>
                         <td>${flight.airline_name}</td>
                         <td>${flight.flight_number}</td>
@@ -817,6 +810,51 @@ function viewSchedule(isOrigin = false) {
             if (data.length === 0) {
                 $("#schedule-table-body").html('<tr><td colspan="7" class="text-center">No flights available</td></tr>');
             } else {
+                // Populate filter options
+                const uniqueValues = {
+                    destination_city: new Set(),
+                    destination_country: new Set(),
+                    destination_iata: new Set()
+                };
+
+                data.forEach(flight => {
+                    uniqueValues.destination_city.add(flight.destination_city);
+                    uniqueValues.destination_country.add(flight.destination_country);
+                    uniqueValues.destination_iata.add(flight.destination_iata);
+                });
+
+                // Update filter values when filter type changes
+                $("#schedule-filter-type").on('change', function() {
+                    const filterType = $(this).val();
+                    const filterValue = $("#schedule-filter-value");
+                    filterValue.empty();
+                    filterValue.append('<option value="">All Destinations</option>');
+                    
+                    Array.from(uniqueValues[filterType]).sort().forEach(value => {
+                        filterValue.append(`<option value="${value}">${value}</option>`);
+                    });
+                });
+
+                // Trigger initial filter options
+                $("#schedule-filter-type").trigger('change');
+
+                // Handle filtering
+                $("#schedule-filter-value").on('change', function() {
+                    const filterType = $("#schedule-filter-type").val();
+                    const filterValue = $(this).val();
+                    console.log(filterType);
+                    console.log(filterValue);
+
+                    
+                    $("#schedule-table-body tr").each(function() {
+                        if (!filterValue || $(this).data(filterType) === filterValue) {
+                            $(this).show();
+                        } else {
+                            $(this).hide();
+                        }
+                    });
+                });
+
                 // Add scroll event listener for tooltip
                 const tableContainer = document.querySelector('.table-responsive');
                 const tooltip = document.createElement('div');
