@@ -790,11 +790,14 @@ function viewSchedule(isOrigin = false) {
 
             // Populate table
             data.forEach(flight => {
+                const destAp = findApData(flight.destination_iata);
+                const continent = destAp ? destAp.continent : '';
                 $("#schedule-table-body").append(`
                     <tr data-departure="${flight.local_departure_time}" 
                         data-destination_city="${flight.destination_city}"
                         data-destination_country="${flight.destination_country}"
-                        data-destination_iata="${flight.destination_iata}">
+                        data-destination_iata="${flight.destination_iata}"
+                        data-destination_continent="${continent}">
                         <td>${flight.local_departure_time}</td>
                         <td>${flight.local_arrival_time}</td>
                         <td><b>${flight.destination_iata}</b> - ${flight.destination_city}, ${flight.destination_country}</td>
@@ -814,46 +817,97 @@ function viewSchedule(isOrigin = false) {
                 const uniqueValues = {
                     destination_city: new Set(),
                     destination_country: new Set(),
-                    destination_iata: new Set()
+                    destination_iata: new Set(),
+                    destination_continent: new Set()
+                };
+
+                const continentNames = {
+                    'AF': 'Africa',
+                    'AN': 'Antarctica',
+                    'AS': 'Asia',
+                    'EU': 'Europe',
+                    'NA': 'North America',
+                    'OC': 'Oceania',
+                    'SA': 'South America'
                 };
 
                 data.forEach(flight => {
                     uniqueValues.destination_city.add(flight.destination_city);
                     uniqueValues.destination_country.add(flight.destination_country);
                     uniqueValues.destination_iata.add(flight.destination_iata);
+                    const destAp = findApData(flight.destination_iata);
+                    if (destAp && destAp.continent) {
+                        uniqueValues.destination_continent.add(destAp.continent);
+                    }
                 });
 
                 // Update filter values when filter type changes
                 $("#schedule-filter-type").on('change', function() {
                     const filterType = $(this).val();
-                    const filterValue = $("#schedule-filter-value");
-                    filterValue.empty();
-                    filterValue.append('<option value="">All Destinations</option>');
+                    const filterCheckboxes = $("#filter-checkboxes");
+                    filterCheckboxes.empty();
                     
+                    // Create checkboxes for each unique value
                     Array.from(uniqueValues[filterType]).sort().forEach(value => {
-                        filterValue.append(`<option value="${value}">${value}</option>`);
+                        const displayValue = filterType === 'destination_continent' ? continentNames[value] : value;
+                        filterCheckboxes.append(`
+                            <div class="form-check">
+                                <input class="form-check-input filter-checkbox" type="checkbox" value="${value}" id="filter-${value}" checked>
+                                <label class="form-check-label w-100" for="filter-${value}" style="cursor: pointer;">
+                                    ${displayValue}
+                                </label>
+                            </div>
+                        `);
                     });
+
+                    // Update dropdown button text
+                    updateFilterButtonText();
                 });
 
-                // Trigger initial filter options
-                $("#schedule-filter-type").trigger('change');
+                $("#select-all").prop('checked', true);
+                // Handle "Select All" checkbox
+                $("#select-all").on('change', function() {
+                    const isChecked = $(this).prop('checked');
+                    $(".filter-checkbox").prop('checked', isChecked);
+                    applyFilter();
+                });
 
-                // Handle filtering
-                $("#schedule-filter-value").on('change', function() {
+                // Handle individual checkbox changes
+                $(document).on('change', '.filter-checkbox', function() {
+                    const allChecked = $(".filter-checkbox:checked").length === $(".filter-checkbox").length;
+                    $("#select-all").prop('checked', allChecked);
+                    applyFilter();
+                });
+
+                // Function to apply the filter
+                function applyFilter() {
                     const filterType = $("#schedule-filter-type").val();
-                    const filterValue = $(this).val();
-                    console.log(filterType);
-                    console.log(filterValue);
-
+                    const selectedValues = $(".filter-checkbox:checked").map(function() {
+                        return $(this).val();
+                    }).get();
                     
                     $("#schedule-table-body tr").each(function() {
-                        if (!filterValue || $(this).data(filterType) === filterValue) {
+                        const rowValue = $(this).data(filterType);
+                        if (selectedValues.length === 0 || selectedValues.includes(rowValue)) {
                             $(this).show();
                         } else {
                             $(this).hide();
                         }
                     });
-                });
+
+                    updateFilterButtonText();
+                }
+
+                // Function to update the dropdown button text
+                function updateFilterButtonText() {
+                    const total = $(".filter-checkbox").length;
+                    const selected = $(".filter-checkbox:checked").length;
+                    const buttonText = selected === total ? "All Selected" : `${selected} of ${total} Selected`;
+                    $("#filterDropdown").text(buttonText);
+                }
+
+                // Trigger initial filter options
+                $("#schedule-filter-type").trigger('change');
 
                 // Add scroll event listener for tooltip
                 const tableContainer = document.querySelector('.table-responsive');

@@ -280,15 +280,32 @@
                     <div class="row mb-3">
                         <div class="col-md-4">
                             <select class="form-select" id="schedule-filter-type">
+                                <option value="destination_continent">Filter by Continent</option>
                                 <option value="destination_city">Filter by City</option>
                                 <option value="destination_country">Filter by Country</option>
                                 <option value="destination_iata">Filter by Airport Code</option>
                             </select>
                         </div>
                         <div class="col-md-8">
-                            <select class="form-select" id="schedule-filter-value">
-                                <option value="">All Destinations</option>
-                            </select>
+                            <div class="dropdown">
+                                <button class="btn btn-outline-secondary dropdown-toggle w-100" type="button" id="filterDropdown" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+                                    Select Values
+                                </button>
+                                <div class="dropdown-menu w-100 p-2" id="filter-options" style="z-index: 9999; max-height: 300px; overflow-y: auto;">
+                                    <div class="d-flex justify-content-between align-items-center mb-2 sticky-top bg-white">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="select-all" checked>
+                                            <label class="form-check-label w-100" for="select-all" style="cursor: pointer;">
+                                                All Destinations
+                                            </label>
+                                        </div>
+                                        <button type="button" class="btn-close" aria-label="Close" onclick="$('#filterDropdown').dropdown('hide');"></button>
+                                    </div>
+                                    <hr class="my-2">
+                                    <div id="filter-checkboxes">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="table-responsive" style="max-height: 60vh; overflow-y: auto;">
