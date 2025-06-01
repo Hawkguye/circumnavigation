@@ -6,6 +6,10 @@ import os
 import random
 import re
 from datetime import datetime, timezone, timedelta
+import html
+import secrets
+import traceback
+from functools import wraps
 
 from modals import PlayerStat, Game, TriviaQuestion
 import scraper
@@ -29,27 +33,65 @@ TRIVIA_JSON_DIR = "data/trivia/"
 
 gamesList = []
 
-# first things first
-def save_datas():
-    for game in gamesList:
-        with open(f"{DATA_DIR}{game.gameId:07d}.json", "w") as f:
-            json.dump(game.to_dict(), f, indent=4)
+def handle_errors(f):
+    """Decorator to handle errors and prevent crashes"""
+    @wraps(f)
+    def wrapper(*args, **kwargs):
+        try:
+            return f(*args, **kwargs)
+        except Exception as e:
+            logging.error(f"Error in {f.__name__}: {str(e)}\n{traceback.format_exc()}")
+            return jsonify({"message": "An unexpected error occurred"}), 500
+    return wrapper
+
+def ensure_directories():
+    """Ensure all required directories exist"""
+    directories = [DATA_DIR, DC_DATA_DIR, TRIVIA_JSON_DIR]
+    for directory in directories:
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+            logging.info(f"Created directory: {directory}")
 
 def load_datas():
-    gamesList.clear()
-    gamesJsonList = os.listdir(DATA_DIR)
-    gamesJsonList.sort()
+    """Load game data with error handling"""
+    try:
+        gamesList.clear()
+        if not os.path.exists(DATA_DIR):
+            ensure_directories()
+            return
 
-    for gameJson in gamesJsonList:
-        with open(f"{DATA_DIR}{gameJson}", "r") as f:
-            data = json.load(f)
-            gamesList.append(Game.from_dict(data))
+        gamesJsonList = os.listdir(DATA_DIR)
+        gamesJsonList.sort()
 
-    logging.warning(f"Loaded {len(gamesList)} Games")
+        for gameJson in gamesJsonList:
+            try:
+                with open(f"{DATA_DIR}{gameJson}", "r") as f:
+                    data = json.load(f)
+                    gamesList.append(Game.from_dict(data))
+            except Exception as e:
+                logging.error(f"Error loading game {gameJson}: {str(e)}")
+                continue
 
+        logging.warning(f"Loaded {len(gamesList)} Games")
+    except Exception as e:
+        logging.error(f"Error in load_datas: {str(e)}")
+        gamesList.clear()
+
+def save_datas():
+    """Save game data with error handling"""
+    try:
+        for game in gamesList:
+            try:
+                with open(f"{DATA_DIR}{game.gameId:07d}.json", "w") as f:
+                    json.dump(game.to_dict(), f, indent=4)
+            except Exception as e:
+                logging.error(f"Error saving game {game.gameId}: {str(e)}")
+    except Exception as e:
+        logging.error(f"Error in save_datas: {str(e)}")
 
 # home page stuff
 @app.route("/api/get_dc", methods=["GET"])
+@handle_errors
 def get_dc():
     timeNow = datetime.now(timezone.utc).strftime('%Y-%m-%d')
     JSONDIR = f"{DC_DATA_DIR}{timeNow}.json"
@@ -60,36 +102,61 @@ def get_dc():
         return jsonify({"message": "Can't find today's daily challenge! Notify the dev!"}), 400
 
 @app.route("/api/get_game_meta/<int:game_id>", methods=["GET"])
+@handle_errors
 def get_game_meta(game_id):
     if game_id <= 0 or game_id > len(gamesList):
         return jsonify({"message": "Game not found"}), 404
         
-    orgIata = gamesList[game_id - 1].orgIata
-    startingTime = gamesList[game_id - 1].startingTime
+    try:
+        orgIata = gamesList[game_id - 1].orgIata
+        startingTime = gamesList[game_id - 1].startingTime
 
-    return jsonify({
-        "orgIata": orgIata,
-        "startingTime": startingTime
-    }), 200
+        return jsonify({
+            "orgIata": orgIata,
+            "startingTime": startingTime
+        }), 200
+    except Exception as e:
+        logging.error(f"Error getting game meta for game {game_id}: {str(e)}")
+        return jsonify({"message": "Error retrieving game metadata"}), 500
 
-
-
-# pre game
 @app.route("/api/validate_username/<int:game_id>/<username>")
+@handle_errors
 def validate_username(game_id, username):
     try:
+        # Validate game_id
+        if game_id <= 0 or game_id > len(gamesList):
+            return jsonify({"result": False}), 200
+
+        # Sanitize and validate username
+        username = sanitize_input(username)
+        
+        # Username validation rules
+        if not username:
+            return jsonify({"result": False}), 200
+            
+        # Check username length (adjust max length as needed)
+        if len(username) > 20:
+            return jsonify({"result": False}), 200
+            
+        # # Check for valid characters (alphanumeric, underscore, hyphen)
+        # if not re.match(r'^[a-zA-Z0-9_-]+$', username):
+        #     return jsonify({"result": False}), 200
+
+        # Check for existing username
         playerStats = gamesList[game_id - 1].playerStats
         for playerstat in playerStats:
             if playerstat.username == username:
                 return jsonify({"result": False}), 200
-    except:
+                
+        return jsonify({"result": True}), 200
+        
+    except Exception as e:
+        logging.error(f"Error validating username for game {game_id}: {str(e)}")
         return jsonify({"result": False}), 200
-    return jsonify({"result": True}), 200
-
-
 
 # post game stuff
 @app.route("/api/get_game_data", methods=["GET"])
+@handle_errors
 def get_game_data():
     try:
         gameId = int(request.args.get('gameId'))
@@ -104,108 +171,167 @@ def get_game_data():
     except ValueError:
         return jsonify({"message": "Invalid game ID format"}), 400
     except Exception as e:
-        return jsonify({"message": str(e)}), 400
-
-
+        logging.error(f"Error getting game data: {str(e)}")
+        return jsonify({"message": "Error retrieving game data"}), 500
 
 def new_playerStat(gameId, username, timeUsed, moneyUsed, distanceCovered, legsCount, route):
-    uniqueId = len(gamesList[gameId - 1].playerStats)
+    """Create new player stat with error handling"""
+    try:
+        uniqueId = len(gamesList[gameId - 1].playerStats)
+        newPlayerStat = PlayerStat(uniqueId, username, timeUsed, moneyUsed, distanceCovered, legsCount, route)
+        gamesList[gameId - 1].playerStats.append(newPlayerStat)
+        save_datas()
+        logging.info("New Player Stat!")
+        return uniqueId
+    except Exception as e:
+        logging.error(f"Error creating new player stat: {str(e)}")
+        raise
 
-    newPlayerStat = PlayerStat(uniqueId, username, timeUsed, moneyUsed, distanceCovered, legsCount, route)
-    gamesList[gameId - 1].playerStats.append(newPlayerStat)
-
-    save_datas()
-    logging.info("New Player Stat!")
-
-    return uniqueId
+def sanitize_input(text):
+    # Sanitize input to prevent XSS and injection attacks
+    if not isinstance(text, str):
+        return str(text)
+    return html.escape(text.strip())
 
 @app.route("/api/post_player_stat", methods=["POST"])
+@handle_errors
 def post_player_stat():
     try:
         data = request.get_json()
-        gameId = data.get("gameId")
-        username = data.get("username")
-        timeUsed = data.get("timeUsed")
-        moneyUsed = data.get("moneyUsed")
-        distanceCovered = data.get("distanceCovered")
-        legsCount = data.get("legsCount")
+        if not data:
+            return jsonify({"message": "No data provided"}), 400
+
+        # Validate required fields
+        required_fields = ["gameId", "username", "timeUsed", "moneyUsed", "distanceCovered", "legsCount", "route"]
+        if not all(field in data for field in required_fields):
+            return jsonify({"message": "Missing required fields"}), 400
+
+        # Sanitize and validate inputs
+        gameId = int(data.get("gameId"))
+        username = sanitize_input(data.get("username"))
+        timeUsed = int(data.get("timeUsed"))
+        moneyUsed = int(data.get("moneyUsed"))
+        distanceCovered = int(data.get("distanceCovered"))
+        legsCount = int(data.get("legsCount"))
         route = data.get("route")
 
-        if timeUsed < 10000 or moneyUsed < 100 or legsCount < 2 or len(route) < 3:
-            return jsonify({"message": "No Cheating!"}), 200
+        # Validate game ID
+        if gameId <= 0 or gameId > len(gamesList):
+            return jsonify({"message": "Invalid game ID"}), 400
+
+        # Validate username
+        if not username or len(username) > 20:
+            return jsonify({"message": "Invalid username"}), 400
+
+        # Validate numeric values
+        if timeUsed < 10000 or moneyUsed < 100 or legsCount < 2:
+            return jsonify({"message": "No Cheating!"}), 400
+
+        # Validate route structure
+        if len(route) < 3:
+            return jsonify({"message": "Invalid route data"}), 400
 
         uniqueId = new_playerStat(gameId, username, timeUsed, moneyUsed, distanceCovered, legsCount, route)
 
+    except ValueError:
+        return jsonify({"message": "Invalid numeric values"}), 400
     except Exception as e:
-        return jsonify({"message": str(e)}), 400
+        logging.error(f"Error in post_player_stat: {str(e)}")
+        return jsonify({"message": "Internal server error"}), 500
     
     return jsonify({
         "message": "POST Data Success!",
         "uniqueId": uniqueId
     }), 200
 
-
-
 # trivias
 triviaList = []
 categoryDict = {}
 
 def load_trivia_json():
-    triviaList.clear()
-    categoryDict.clear()
+    """Load trivia data with error handling"""
+    try:
+        triviaList.clear()
+        categoryDict.clear()
 
-    json_dirs = os.listdir(TRIVIA_JSON_DIR)
-    index = 0
-    for json_dir in json_dirs:
-        category = json_dir[:-5]
-        questionList = []
-        skippedCnt = 0
-        with open(f"{TRIVIA_JSON_DIR}{json_dir}", "r", encoding="utf-8") as f:
-            data = json.load(f)
-            for questionData in data:
-                try:
-                    questionList.append(TriviaQuestion.from_dict(questionData))
-                except:
-                    skippedCnt += 1
+        if not os.path.exists(TRIVIA_JSON_DIR):
+            ensure_directories()
+            return
+
+        json_dirs = os.listdir(TRIVIA_JSON_DIR)
+        index = 0
+        for json_dir in json_dirs:
+            try:
+                category = json_dir[:-5]
+                questionList = []
+                skippedCnt = 0
+                with open(f"{TRIVIA_JSON_DIR}{json_dir}", "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    for questionData in data:
+                        try:
+                            questionList.append(TriviaQuestion.from_dict(questionData))
+                        except Exception as e:
+                            logging.error(f"Error loading trivia question: {str(e)}")
+                            skippedCnt += 1
+                
+                triviaList.append(questionList)
+                categoryDict[category] = index
+                index += 1
+                logging.info(f"Loaded {category}: {len(questionList)} trivia questions, skipped {skippedCnt}")
+            except Exception as e:
+                logging.error(f"Error loading trivia category {json_dir}: {str(e)}")
+                continue
         
-        triviaList.append(questionList)
-        categoryDict[category] = index
-        index += 1
-        logging.info(f"Loaded {category}: {len(questionList)} trivia questions, skipped {skippedCnt}")
-    
-    logging.warning(f"trivia loaded, {len(triviaList)} categories")
-
+        logging.warning(f"trivia loaded, {len(triviaList)} categories")
+    except Exception as e:
+        logging.error(f"Error in load_trivia_json: {str(e)}")
+        triviaList.clear()
+        categoryDict.clear()
 
 @app.route("/api/get_trivia/random", methods=["GET"])
+@handle_errors
 def get_random_trivia():
-    categoryIndex = random.randint(0, len(triviaList)-1)
-    question = random.choice(triviaList[categoryIndex])
-
-    return jsonify(question.to_dict()), 200
+    if not triviaList:
+        return jsonify({"message": "No trivia questions available"}), 404
+        
+    try:
+        categoryIndex = random.randint(0, len(triviaList)-1)
+        question = random.choice(triviaList[categoryIndex])
+        return jsonify(question.to_dict()), 200
+    except Exception as e:
+        logging.error(f"Error getting random trivia: {str(e)}")
+        return jsonify({"message": "Error retrieving trivia question"}), 500
 
 @app.route("/api/get_trivia/<string:category>", methods=["GET"])
+@handle_errors
 def get_trivia(category):
-    if category not in categoryDict:
-        return get_random_trivia()
-    question = random.choice(triviaList[categoryDict[category]])
-    return jsonify(question.to_dict()), 200
-
+    if not triviaList:
+        return jsonify({"message": "No trivia questions available"}), 404
+        
+    try:
+        if category not in categoryDict:
+            return get_random_trivia()
+        question = random.choice(triviaList[categoryDict[category]])
+        return jsonify(question.to_dict()), 200
+    except Exception as e:
+        logging.error(f"Error getting trivia for category {category}: {str(e)}")
+        return jsonify({"message": "Error retrieving trivia question"}), 500
 
 # flight scraper
 @app.route("/api/get_flight", methods=["GET"])
+@handle_errors
 def get_flight():
-    
     try:
-
         org = request.args.get('org')
         dest = request.args.get('dest')
         date = request.args.get('date')
-        # logging.info(f"got request {org} -> {dest} @ {date}")
 
         if not org or not dest or not date:
             return jsonify({"message": "params missing!"}), 400
+            
         iataRe = re.compile(r'^[a-zA-Z]{3}$')
         dateRe = re.compile(r'^\d{4}-\d{2}-\d{2}$')
+        
         if not iataRe.match(org) or not iataRe.match(dest):
             return jsonify({"message": "org or dest param doesn't match the format!"}), 400
         if not dateRe.match(date):
@@ -216,13 +342,11 @@ def get_flight():
         if "error" in datajson:
             return jsonify({"message": f"failed to fetch flight data! {datajson}"}), 400
         
-        # logging.info(f"scraper finished {org} -> {dest} @ {date}.")
         return send_file(datajson)
     
     except Exception as e:
-        logging.error(f"get flight error! {e}")
-        return jsonify({"message": f"Backend error! {e}"}), 400
-    
+        logging.error(f"get flight error! {str(e)}")
+        return jsonify({"message": "Error retrieving flight data"}), 500
 
 # TODO: add delete game, dc, get dc
 # admin
@@ -235,22 +359,34 @@ def game_html():
 def dc_html():
     return send_file("make_dc.html")
 
+def secure_compare(a, b):
+    """Compare two strings in a way that prevents timing attacks"""
+    if not isinstance(a, str) or not isinstance(b, str):
+        return False
+    return secrets.compare_digest(a, b)
 
 @app.route("/admin/make_game", methods=["POST"])
 def make_game():
     admin_pw = os.getenv('ADMIN_PASSWORD')
     data = request.get_json()
-    password = data.get("password")
+    
+    if not data:
+        return jsonify({"message": "No data provided"}), 400
 
-    if password != admin_pw:
-        return jsonify({"message": "Password incorrect!"}), 400
+    password = data.get("password")
+    if not password or not secure_compare(password, admin_pw):
+        return jsonify({"message": "Password incorrect!"}), 401
 
     try:
-        orgIata = data.get("orgIata") # eg. DEN
-        startingTime = data.get("startingTime") # eg. 2024-06-20T00:00:00Z
+        orgIata = sanitize_input(data.get("orgIata"))
+        startingTime = sanitize_input(data.get("startingTime"))
+        
+        if not orgIata or not startingTime:
+            return jsonify({"message": "Missing required fields"}), 400
         
         iataRe = r'^[a-zA-Z]{3}$'
         timeRe = r'^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$'
+        
         if not re.match(iataRe, orgIata):
             return jsonify({"message": "orgIata doesn't match the format!"}), 400
         if not re.match(timeRe, startingTime):
@@ -276,16 +412,22 @@ def make_game():
 def make_dc():
     admin_pw = os.getenv('ADMIN_PASSWORD')
     data = request.get_json()
-    password = data.get("password")
+    
+    if not data:
+        return jsonify({"message": "No data provided"}), 400
 
-    if password != admin_pw:
-        return jsonify({"message": "Password incorrect!"}), 400
+    password = data.get("password")
+    if not password or not secure_compare(password, admin_pw):
+        return jsonify({"message": "Password incorrect!"}), 401
 
     try:
-        dc_date = data.get("dc_date") # eg. 2024-06-20
+        dc_date = sanitize_input(data.get("dc_date"))
         gameId = int(data.get("gameId"))
 
-        if gameId > len(os.listdir(DATA_DIR)):
+        if not dc_date or not gameId:
+            return jsonify({"message": "Missing required fields"}), 400
+
+        if gameId <= 0 or gameId > len(os.listdir(DATA_DIR)):
             return jsonify({"message": "Game ID incorrect!"}), 400
         
         dateRe = r'^\d{4}-\d{2}-\d{2}$'
@@ -295,7 +437,6 @@ def make_dc():
         JSONDIR = f"{DC_DATA_DIR}{dc_date}.json"
         if os.path.isfile(JSONDIR):
             return jsonify({"message": "dc_date already exists!"}), 400
-
 
         startTimestamp = datetime.strptime(dc_date, "%Y-%m-%d").replace(tzinfo=timezone.utc).timestamp()
         with open(JSONDIR, "w") as f:
@@ -309,10 +450,10 @@ def make_dc():
         logging.warning(f"New DC! DATE:{dc_date} Game id: {gameId}")
         return send_file(JSONDIR)
     
+    except ValueError:
+        return jsonify({"message": "Invalid game ID format"}), 400
     except Exception as e:
         return jsonify({"message": str(e)}), 400
-
-
 
 @app.route("/admin/ls/root")
 def ls_root():
@@ -409,6 +550,8 @@ def get_games_list():
     except Exception as e:
         return jsonify({"message": str(e)}), 400
 
+# Initialize the application
+ensure_directories()
 load_datas()
 load_trivia_json()
 
