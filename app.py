@@ -83,14 +83,14 @@ def sanitize_input(text):
 @app.route("/")
 @handle_errors
 def main_menu():
-    api_url = os.getenv('API_URL', 'http://127.0.0.1:5000/api/')
+    api_url = os.getenv('API_URL', 'http://127.0.0.1:5050/api/')
     return render_template('home.html', api_url=api_url)
 
 @app.route("/tutorial")
 @handle_errors
 def tutorial():
-    api_url = os.getenv('API_URL', 'http://127.0.0.1:5000/api/')
-    flight_url = os.getenv('FLIGHT_URL', 'http://127.0.0.1:5000/api/')
+    api_url = os.getenv('API_URL', 'http://127.0.0.1:5050/api/')
+    flight_url = os.getenv('FLIGHT_URL', 'http://127.0.0.1:5050/api/')
     return render_template('tutorial.html', api_url=api_url, flight_url=flight_url)
 
 @app.route("/leaderboard/<int:game_id>")
@@ -100,7 +100,7 @@ def leaderboard_html(game_id):
         return "Game not found", 404
     return render_template('leaderboard.html', 
                          game_id=game_id,
-                         api_url=os.getenv('API_URL', 'http://127.0.0.1:5000/api/'))
+                         api_url=os.getenv('API_URL', 'http://127.0.0.1:5050/api/'))
 
 @app.route("/game/<int:game_id>")
 @handle_errors
@@ -109,8 +109,8 @@ def game(game_id):
         return "Game not found", 404
         
     try:
-        api_url = os.getenv('API_URL', 'http://127.0.0.1:5000/api/')
-        flight_url = os.getenv('FLIGHT_URL', 'http://127.0.0.1:5000/api/')
+        api_url = os.getenv('API_URL', 'http://127.0.0.1:5050/api/')
+        flight_url = os.getenv('FLIGHT_URL', 'http://127.0.0.1:5050/api/')
 
         orgIata = gamesList[game_id - 1].orgIata
         startingTime = gamesList[game_id - 1].startingTime
@@ -132,8 +132,8 @@ ICAO_codes = ['ACC', 'ACE', 'ADB', 'ADD', 'ADL', 'AER', 'AGP', 'AKL', 'ALA', 'AL
 @handle_errors
 def freegame():
     try:
-        api_url = os.getenv('API_URL', 'http://127.0.0.1:5000/api/')
-        flight_url = os.getenv('FLIGHT_URL', 'http://127.0.0.1:5000/api/')
+        api_url = os.getenv('API_URL', 'http://127.0.0.1:5050/api/')
+        flight_url = os.getenv('FLIGHT_URL', 'http://127.0.0.1:5050/api/')
 
         org = request.args.get('org')
         date = request.args.get('date')
@@ -207,6 +207,26 @@ def favicon():
 @handle_errors
 def health():
     return jsonify(status="healthy"), 200
+
+@app.route('/api/reload_data', methods=['POST'])
+@handle_errors
+def reload_data():
+    """Endpoint to trigger load_datas() from external services"""
+    try:
+        # Verify the request is from the API service
+        auth_token = request.headers.get('X-Auth-Token')
+        expected_token = os.getenv('INTERNAL_AUTH_TOKEN', 'default_internal_token')
+        
+        if not auth_token or auth_token != expected_token:
+            return jsonify({"message": "Unauthorized"}), 401
+        
+        # Reload the data
+        load_datas()
+        logging.info("Data reloaded successfully via API call")
+        return jsonify({"message": "Data reloaded successfully"}), 200
+    except Exception as e:
+        logging.error(f"Error reloading data: {str(e)}")
+        return jsonify({"message": "Error reloading data"}), 500
 
 # Initialize the application
 ensure_directories()

@@ -8,6 +8,7 @@ const GROUND_TRANSPORT_PRICE = 2; // $ per km
 
 var uniqueId = null;
 var username = null;
+var lastViewedScheduleIata = null;
 
 // const startingIata = {{starting_iata}};
 // const startingTime = new Date({{starting_time}});
@@ -765,6 +766,16 @@ function viewSchedule(isOrigin = false) {
     if (!iata) {
         return;
     }
+
+    // Check if this is the same IATA as last time
+    if (iata === lastViewedScheduleIata) {
+        // Just show the modal without refreshing data
+        $("#schedule-modal").modal('show');
+        return;
+    }
+
+    // Update the last viewed IATA
+    lastViewedScheduleIata = iata;
 
     // Show loading state
     $("#schedule-table-body").html('<tr><td colspan="7" class="text-center">Loading...</td></tr>');

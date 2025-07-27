@@ -312,18 +312,35 @@ const planeMarker = L.icon({
 });
 
 function recordRoute(){
-    greatCircleOriginalPolylines.forEach(line => {
-        var latlngs = line.getLatLngs();
-        // console.log(latlngs);
-        latlngs.forEach(point => {
-            var lng = point.lng;
-            // console.log(lng);
-            routeLngs[Math.floor(lng)] = true;
-            routeLngs[Math.floor(lng)+1] = true;
-            routeLngs[Math.floor(lng)-1] = true;
-
-        })
-    });
+    // Calculate the longitudes that the shortest line between origin and destination crosses
+    const [originLng, originLat] = origin_latlng;
+    const [destLng, destLat] = dest_latlng;
+    
+    // Handle cases where the route crosses the dateline
+    let lngDiff = destLng - originLng;
+    
+    // Normalize longitude difference for dateline crossing
+    if (lngDiff > 180) {
+        lngDiff -= 360;
+    } else if (lngDiff < -180) {
+        lngDiff += 360;
+    }
+    
+    // Calculate the number of longitude degrees to check
+    const numSteps = Math.max(Math.abs(lngDiff), 1);
+    const lngStep = lngDiff / numSteps;
+    
+    // Check each longitude along the route
+    for (let i = 0; i <= numSteps; i++) {
+        const currentLng = originLng + (lngStep * i);
+        const normalizedLng = ((currentLng + 180) % 360) - 180; // Normalize to [-180, 180]
+        
+        // Mark the longitude and adjacent longitudes as crossed
+        const floorLng = Math.floor(normalizedLng);
+        routeLngs[floorLng] = true;
+        routeLngs[floorLng + 1] = true;
+        routeLngs[floorLng - 1] = true;
+    }
 }
 
 let skipFlightAnimation = false;

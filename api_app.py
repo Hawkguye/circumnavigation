@@ -10,6 +10,7 @@ import html
 import secrets
 import traceback
 from functools import wraps
+import requests
 
 from modals import PlayerStat, Game, TriviaQuestion
 import scraper
@@ -365,6 +366,35 @@ def secure_compare(a, b):
         return False
     return secrets.compare_digest(a, b)
 
+def ensure_directories():
+    """Ensure all required directories exist"""
+    directories = [DATA_DIR, DC_DATA_DIR, TRIVIA_JSON_DIR]
+    for directory in directories:
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+            logging.info(f"Created directory: {directory}")
+
+def notify_app_reload_data():
+    """Notify app.py to reload its data"""
+    try:
+        app_url = os.getenv('APP_URL', 'http://127.0.0.1:5000')
+        auth_token = os.getenv('INTERNAL_AUTH_TOKEN', 'default_internal_token')
+        
+        response = requests.post(
+            f"{app_url}/api/reload_data",
+            headers={'X-Auth-Token': auth_token},
+            timeout=5
+        )
+        
+        if response.status_code == 200:
+            logging.info("Successfully notified app.py to reload data")
+        else:
+            logging.warning(f"Failed to notify app.py: {response.status_code} - {response.text}")
+            
+    except Exception as e:
+        logging.error(f"Error notifying app.py to reload data: {str(e)}")
+
+
 @app.route("/admin/make_game", methods=["POST"])
 def make_game():
     admin_pw = os.getenv('ADMIN_PASSWORD')
@@ -447,6 +477,8 @@ def make_dc():
                 "gameId": gameId
             }, f, indent=4)
 
+        notify_app_reload_data()  # Notify app.py to reload data
+        
         logging.warning(f"New DC! DATE:{dc_date} Game id: {gameId}")
         return send_file(JSONDIR)
     
