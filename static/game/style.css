@@ -14,7 +14,17 @@ body {
     color: var(--text-color);
     min-height: 100vh;
     font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
 }
+
+h6 {
+    font-weight: 400;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
 
 .navbar {
     background: var(--card-bg) !important;
@@ -302,7 +312,7 @@ body {
 .table thead th {
     background: var(--primary-color);
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 500;
     border-bottom: 2px solid rgba(255,255,255,0.1);
 }
 

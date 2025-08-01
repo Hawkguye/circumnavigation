@@ -176,7 +176,7 @@ def freegame():
 def minigames(path):
     try:
         # Sanitize path to prevent directory traversal
-        safe_path = os.path.normpath(path).lstrip('/')
+        safe_path = path.replace('\\', '/').lstrip('/')
         if safe_path.startswith('..') or safe_path.startswith('/'):
             return "Invalid path", 400
             
@@ -187,10 +187,10 @@ def minigames(path):
         logging.error(f"Error serving minigame {path}: {str(e)}")
         return "Error loading minigame", 500
 
-@app.route("/about")
-@handle_errors
-def about():
-    return render_template('about.html')
+# @app.route("/about")
+# @handle_errors
+# def about():
+#     return render_template('about.html')
 
 @app.route("/favicon.ico")
 @handle_errors

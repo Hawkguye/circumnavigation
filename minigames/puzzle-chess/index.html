@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" type="module"></script>
+    <title>Puzzle ♟ Chess</title>
+</head>
+
+<body>
+
+    <header>
+        <button id="menu-button">
+            <!-- menu icon c/o Google Fonts / Material Symbols: https://fonts.google.com/ -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            <span>menu</span>
+        </button>
+        <div class="title-container">
+            <h4 id="title">Chess Puzzle</h4>
+            <span id="game-counter">Game: 0/5</span>
+        </div>
+    </header>
+
+    <main id="board">
+        <div id="a1" class="R"><span></span></div>
+        <div id="a2" class="P"><span></span></div>
+        <div id="a3"><span></span></div>
+        <div id="a4"><span></span></div>
+        <div id="a5"><span></span></div>
+        <div id="a6"><span></span></div>
+        <div id="a7" class="p"><span></span></div>
+        <div id="a8" class="r"><span></span></div>
+
+        <div id="b1" class="N"><span></span></div>
+        <div id="b2" class="P"><span></span></div>
+        <div id="b3"><span></span></div>
+        <div id="b4"><span></span></div>
+        <div id="b5"><span></span></div>
+        <div id="b6"><span></span></div>
+        <div id="b7" class="p"><span></span></div>
+        <div id="b8" class="n"><span></span></div>
+
+        <div id="c1" class="B"><span></span></div>
+        <div id="c2" class="P"><span></span></div>
+        <div id="c3"><span></span></div>
+        <div id="c4"><span></span></div>
+        <div id="c5"><span></span></div>
+        <div id="c6"><span></span></div>
+        <div id="c7" class="p"><span></span></div>
+        <div id="c8" class="b"><span></span></div>
+
+        <div id="d1" class="Q"><span></span></div>
+        <div id="d2" class="P"><span></span></div>
+        <div id="d3"><span></span></div>
+        <div id="d4"><span></span></div>
+        <div id="d5"><span></span></div>
+        <div id="d6"><span></span></div>
+        <div id="d7" class="p"><span></span></div>
+        <div id="d8" class="q"><span></span></div>
+
+        <div id="e1" class="K"><span></span></div>
+        <div id="e2" class="P"><span></span></div>
+        <div id="e3"><span></span></div>
+        <div id="e4"><span></span></div>
+        <div id="e5"><span></span></div>
+        <div id="e6"><span></span></div>
+        <div id="e7" class="p"><span></span></div>
+        <div id="e8" class="k"><span></span></div>
+
+        <div id="f1" class="B"><span></span></div>
+        <div id="f2" class="P"><span></span></div>
+        <div id="f3"><span></span></div>
+        <div id="f4"><span></span></div>
+        <div id="f5"><span></span></div>
+        <div id="f6"><span></span></div>
+        <div id="f7" class="p"><span></span></div>
+        <div id="f8" class="b"><span></span></div>
+
+        <div id="g1" class="N"><span></span></div>
+        <div id="g2" class="P"><span></span></div>
+        <div id="g3"><span></span></div>
+        <div id="g4"><span></span></div>
+        <div id="g5"><span></span></div>
+        <div id="g6"><span></span></div>
+        <div id="g7" class="p"><span></span></div>
+        <div id="g8" class="n"><span></span></div>
+
+        <div id="h1" class="R"><span></span></div>
+        <div id="h2" class="P"><span></span></div>
+        <div id="h3"><span></span></div>
+        <div id="h4"><span></span></div>
+        <div id="h5"><span></span></div>
+        <div id="h6"><span></span></div>
+        <div id="h7" class="p"><span></span></div>
+        <div id="h8" class="r"><span></span></div>
+    </main>
+
+    <footer id="message">
+        <p id="no-js">
+            <strong>Oh no!</strong> Either JavaScript is <a href="https://duckduckgo.com/?q=how+to+enable+javascript" target="_blank">disabled</a>, you have <br>a <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors" target="_blank">CORS
+                error</a>, or you aren't running a <a
+                href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server"
+                target="_blank">local server</a>.
+        </p>
+    </footer>
+
+    <aside id="debug" style="display: none;"></aside>
+
+    <div id="info-modal" style="display:none;">
+        <div>
+            <button class="close-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg>
+                <span>close</span> 
+            </button>
+            <h4 id="title">Puzzle ♟ Chess</h4>
+            <p id="game-info"></p>
+            <h5>Game by <a href="https://fexd.com/" rel="me" target="_blank">Arlin Schaffel</a></h5>
+            <p>-- Modified by Hawkguye for <a href="https://github.com/Hawkguye/circumnavigation" target="_blank" rel="noopener noreferrer">Circumnavigation</a> </p>
+            <p class="attribution">Pieces by <a href="https://en.wikipedia.org/wiki/User:Cburnett"
+                    target="_blank">Cburnett</a>,<br> <a href="http://creativecommons.org/licenses/by-sa/3.0/"
+                    target="_blank">CC BY-SA 3.0</a> via <a
+                    href="https://commons.wikimedia.org/wiki/Template:SVG_chess_pieces" target="_blank">Wikimedia
+                    Commons</a></p>
+            <p class="attribution">Puzzles via <a href="https://database.lichess.org/#puzzles"
+                    target="_blank">Lichess Open Database</a>,<br> <a href="https://www.tldrlegal.com/license/creative-commons-cc0-1-0-universal"
+                    target="_blank">Creative Commons CC0</a></p>
+            <p class="attribution">Uses <a href="https://github.com/jayasurian123/fen-validator"
+                    target="_blank">fen-validator</a>,<br> <a href="https://choosealicense.com/licenses/gpl-3.0/"
+                    target="_blank">GNU GPL v3.0</a> by <a href="https://github.com/jayasurian123"
+                    target="_blank">Jayasurian Makkoth</a></p>
+            <p class="attribution">Uses <a href="https://github.com/josefjadrny/js-chess-engine"
+                    target="_blank">JS-CHESS-ENGINE</a>,<br> <a href="https://choosealicense.com/licenses/mit/"
+                    target="_blank">MIT</a> by <a href="https://github.com/josefjadrny" target="_blank">Josef Jadrny</a></p>
+            <p class="attribution">Code available on <a href="https://github.com/FeXd/puzzle-chess"
+                    target="_blank">GitHub</a> | Play on <a href="https://fexd.itch.io/puzzle-chess">itch.io</a></p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -295,9 +295,34 @@ const challengeCards = [
             <h6>Reward: $(Your Score * 100)</h6>
         </div>
     </div>
+    `,
+    // index: 10
+    // minigame --chess puzzle
+    `
+    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+        <img src="{imgDir}chess.png" class="card-img-top" alt="chess">
+        <div class="card-body text-center">
+            <div>
+                <h5 class="card-title">Minigame!</h5>
+                <h6 class="text-end"><b>-- Chess Puzzle</b></h6>
+                <small class="fw-light">source: <a href="https://github.com/FeXd/puzzle-chess" target="_blank" rel="noopener noreferrer">@FeXd/puzzle-chess</a></small>
+            </div>
+            <p class="card-text">
+                Solve chess puzzles! Find the best move in each position.<br>
+                You'll play <b>5 puzzles</b>.<br>
+                Challenge Time: <b>30 minutes</b> of game time.
+            </p>
+        </div>
+        <div class="card-body border-top d-flex text-center">
+            <button class="btn btn-primary mx-auto" id="chess-start-btn">Start Challenge</button>
+        </div>
+        <div class="card-footer text-center">
+            <h6>Reward: $(Games Won * 100)</h6>
+        </div>
+    </div>
     `
 ];
-var challengeCardPick = [1,2,3,4,5,6,7,8,9];
+var challengeCardPick = [1,2,3,4,5,6,7,8,9,10];
 var finishedCategories = [];
 
 function removeChallenge(challengeIndex) {
@@ -452,6 +477,16 @@ function bindChallengeButton(id, cardIndex){
         $(`#bird-start-btn`).off('click').on('click', function() {
             $("#challange-modal").modal("hide");
             startBird();
+            $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
+            removeChallenge(cardIndex);
+        });
+    }
+    
+    // chess
+    if (cardIndex === 10){
+        $(`#chess-start-btn`).off('click').on('click', function() {
+            $("#challange-modal").modal("hide");
+            startChess();
             $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
             removeChallenge(cardIndex);
         });
@@ -641,4 +676,29 @@ function finishBird(score){
 }
 function quitBird(){
     finishBird(0);
+}
+
+// chess puzzle (10)
+
+async function startChess(){
+    setupMinigameCanvas();
+    $("#minigame-canvas").show().html(`
+        <iframe src="/minigames/puzzle-chess/index.html" id="chess-iframe" frameborder="0" width="90%" height="80%" style="max-width: 100%;"></iframe>
+        <button class="btn btn-sm btn-outline-warning quit-button" onclick="quitChess()">Quit</button>
+    `);
+    await delay(100);
+    document.getElementById("chess-iframe").contentWindow.focus();
+    document.getElementById("minigame-canvas").addEventListener('touchmove', preventTouchScroll, { passive: false });
+}
+function finishChess(score){
+    document.getElementById("minigame-canvas").removeEventListener('touchmove', preventTouchScroll);
+    let reward = score * 100;
+    $("#minigame-canvas").html("").hide();
+    challangeFinished(`You solved <b>${score}</b> puzzle(s).<br>You earned $${reward}!<br>30 minutes in game time has passed.`, true);
+    budget += reward;
+    $("#money-left").text(`$${budget}`);
+    gameTimeUpdate(gameTime.getTime() + 30 * 60 * 1000);
+}
+function quitChess(){
+    finishChess(0);
 }

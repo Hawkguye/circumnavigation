@@ -458,6 +458,11 @@ function gameTimeUpdate(timeStamp){
     $("#utc-time").text(`UTC: ${toTimeFormat(gameTime)}`);
     $("#local-time").html(`UTC${current_timezone_offset >= 0 ? '+' : ''}${current_timezone_offset/3600}: <b>${toTimeFormat(localTime)}</b>`);
     $("#elapsed-time").text(`${timeUsed.getUTCDate()-1}d  ${timeUsed.getUTCHours()}hr ${timeUsed.getUTCMinutes()}min`);
+    
+    // Refresh flight display if flight table is visible
+    if (typeof refreshFlightDisplay === 'function') {
+        refreshFlightDisplay();
+    }
 }
 
 function toTimeFormat(time){
@@ -682,11 +687,11 @@ searchInput.addEventListener('input', function () {
     updateDropdown(searchTerm);
 });
 
-$("#search-input").on("keypress", function(event){
-    if(event.keyCode === 13){
+$("#search-input").on("keydown", function(event){
+    if(event.key === "Enter"){
         selectAirport();
     }
-})
+});
 
 $('#researchCanvas').on('shown.bs.offcanvas', function () {
     var iframe = document.getElementById('research-iframe');

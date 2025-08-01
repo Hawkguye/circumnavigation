@@ -1,0 +1,638 @@
+:root {
+    --square: min(calc((100vh - 140px) / 8), calc((100vw - 80px) / 8));
+    --light: rgb(239,218,181);
+    --dark: rgb(181,136,99);
+    --background: rgb(236,235,232);
+    --selected: rgba(20,85,30,.5);
+    --selected-text: white;
+    --previous: rgba(155,199,0,.41);
+    --corner-radius: 10px;
+    --message-neutral: rgb(104, 104, 102);
+    --message-neutral-text: white;
+    --message-good: #629924;
+    --message-good-text: white;
+    --message-bad: #c33;
+    --message-bad-text: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    max-width: calc(var(--square) * 8);
+    border-bottom: 1px solid var(--message-neutral);
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    align-items: center;
+    padding: 3px 0;
+    flex-shrink: 0;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+#game-counter {
+    font-size: 0.7em;
+    color: var(--message-neutral);
+    font-weight: normal;
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        grid-template-columns: 48px 1fr;
+    }
+    
+    header h1 {
+        font-size: 1.2em;
+    }
+    
+    #game-counter {
+        font-size: 0.6em;
+    }
+    
+    body {
+        padding: 15px;
+        gap: 10px;
+    }
+}
+
+/* Buttons */
+
+#menu-button svg, .close-button svg {
+    width: 100%;
+    height: 100%;
+    fill: var(--message-neutral);
+    margin-bottom: -0.6em;
+}
+
+#menu-button span, .close-button span {
+    font-size: 0.8em;
+    color: var(--message-neutral);
+}
+
+#menu-button, .close-button {
+    padding: 0.5em;
+    width: 48px;
+    border: none;
+    border-radius: var(--corner-radius);
+}
+
+.close-button {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.close-button svg {
+    fill: white;
+}
+
+.close-button span {
+    color: white;
+}
+
+#menu-button:hover, .close-button:hover {
+    cursor: pointer;
+}
+
+/* Main */
+
+main {
+    background-color: var(--light);
+    color: var(--dark);
+    display: flex;
+    flex-flow: column-reverse wrap;
+    height: calc(var(--square) * 8);
+    width: calc(var(--square) * 8);
+    border-radius: var(--corner-radius);
+    flex-shrink: 0;
+}
+
+main.flip {
+    flex-flow: column wrap-reverse;
+}
+
+main div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: var(--square);
+    min-height: var(--square);
+    overflow: hidden;
+}
+
+main div.previous {
+    color: var(--previous-text) !important;
+}
+
+main div.previous span {
+    background-color: var(--previous);
+    width: 100%;
+    height: 100%;
+}
+
+main div.circle span {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: var(--selected);
+}
+
+main div.circle.P span,
+main div.circle.p span,
+main div.circle.R span,
+main div.circle.r span,
+main div.circle.N span,
+main div.circle.n span,
+main div.circle.B span,
+main div.circle.b span,
+main div.circle.Q span,
+main div.circle.q span,
+main div.circle.K span,
+main div.circle.k span {
+    width: 100%;
+    height: 100%;
+    background-color:transparent !important;
+    /* TODO: this styling looks better but currently no mobile support */
+    /* border-radius: 50%;
+    outline: var(--square) solid var(--selected);
+    outline-offset: calc(var(--square) / 16); */
+    border-radius: 35%;
+    box-shadow: 0 0 0 calc(var(--square) / 3) var(--selected);
+}
+
+main div.circle:hover span {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    background-color: var(--selected) !important;
+    cursor: pointer;
+}
+
+main div.selected {
+    color: var(--selected-text) !important;
+}
+
+main div.selected span {
+    background-color: var(--selected) !important;
+}
+
+main div.P:hover,
+main div.R:hover,
+main div.N:hover,
+main div.B:hover,
+main div.Q:hover,
+main div.K:hover {
+    cursor: pointer;
+}
+
+main.flip div.p:hover,
+main.flip div.r:hover,
+main.flip div.n:hover,
+main.flip div.b:hover,
+main.flip div.q:hover,
+main.flip div.k:hover {
+    cursor: pointer;
+}
+
+/* Board & Squares */
+
+#a1, #c1, #e1, #g1, #b2, #d2, #f2, #h2,
+#a3, #c3, #e3, #g3, #b4, #d4, #f4, #h4,
+#a5, #c5, #e5, #g5, #b6, #d6, #f6, #h6,
+#a7, #c7, #e7, #g7, #b8, #d8, #f8, #h8 {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+/* Top left corner */
+#a8 {
+    border-radius: var(--corner-radius) 0 0 0;
+}
+
+/* Top right corner */
+#h8 {
+    border-radius: 0 var(--corner-radius) 0 0;
+}
+
+/* Bottom right corner */
+#h1 {
+    border-radius: 0 0 var(--corner-radius) 0;
+}
+
+/* Bottom left corner */
+#a1 {
+    border-radius: 0 0 0 var(--corner-radius);
+}
+
+/* Flip - Bottom right corner */
+main.flip #a8 {
+    border-radius: 0 0 var(--corner-radius) 0;
+}
+
+/* Flip - Bottom left corner */
+main.flip #h8 {
+    border-radius: 0 0 0 var(--corner-radius);
+}
+
+/* Flip - Top left corner */
+main.flip #h1 {
+    border-radius: var(--corner-radius) 0 0 0;
+}
+
+/* Flip - Top right corner*/
+main.flip #a1 {
+    border-radius: 0 var(--corner-radius) 0 0;
+}
+
+main div span {
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+main div.P span {
+    background-image: url(./media/chess_pawn_light.svg);
+}
+
+main div.p span {
+    background-image: url(./media/chess_pawn_dark.svg);
+}
+
+main div.R span {
+    background-image: url(./media/chess_rook_light.svg);
+}
+
+main div.r span {
+    background-image: url(./media/chess_rook_dark.svg);
+}
+
+main div.N span {
+    background-image: url(./media/chess_knight_light.svg);
+}
+
+main div.n span {
+    background-image: url(./media/chess_knight_dark.svg);
+}
+
+main div.B span {
+    background-image: url(./media/chess_bishop_light.svg);
+}
+
+main div.b span {
+    background-image: url(./media/chess_bishop_dark.svg);
+}
+
+main div.Q span {
+    background-image: url(./media/chess_queen_light.svg);
+}
+
+main div.q span {
+    background-image: url(./media/chess_queen_dark.svg);
+}
+
+main div.K span {
+    background-image: url(./media/chess_king_light.svg);
+}
+
+main div.k span {
+    background-image: url(./media/chess_king_dark.svg);
+}
+
+main#board div {
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    main#board div {
+        border-radius: 0;
+    }
+    main#board.flip div {
+        border-radius: 0;
+    }
+    main#board {
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    :root {
+        --square: min(calc((100vh - 80px) / 8), calc((100vw - 40px) / 8));
+    }
+    
+    body {
+        padding: 10px;
+        gap: 8px;
+    }
+    
+    header {
+        padding: 2px 0;
+    }
+}
+
+/* Board Labels */
+
+main div:before, main div:after {
+    content: "";
+    position: absolute;
+    font-size: 0.6em;
+    padding: 0.5em;
+}
+
+main div:before {
+    top: 0;
+    left: 0;
+}
+
+main:not(.flip) #a1:before {
+    content: "1";
+}
+
+main:not(.flip) #a2:before {
+    content: "2";
+}
+
+main:not(.flip) #a3:before {
+    content: "3";
+}
+
+main:not(.flip) #a4:before {
+    content: "4";
+}
+
+main:not(.flip) #a5:before {
+    content: "5";
+}
+
+main:not(.flip) #a6:before {
+    content: "6";
+}
+
+main:not(.flip) #a7:before {
+    content: "7";
+}
+
+main:not(.flip) #a8:before {
+    content: "8";
+}
+
+main.flip #h1:before {
+    content: "1";
+}
+
+main.flip #h2:before {
+    content: "2";
+}
+
+main.flip #h3:before {
+    content: "3";
+}
+
+main.flip #h4:before {
+    content: "4";
+}
+
+main.flip #h5:before {
+    content: "5";
+}
+
+main.flip #h6:before {
+    content: "6";
+}
+
+main.flip #h7:before {
+    content: "7";
+}
+
+main.flip #h8:before {
+    content: "8";
+}
+
+main div:after {
+    bottom: 0;
+    right: 0;
+}
+
+main:not(.flip) #a1:after {
+    content:"a";
+}
+
+main:not(.flip) #b1:after {
+    content:"b";
+}
+
+main:not(.flip) #c1:after {
+    content:"c";
+}
+
+main:not(.flip) #d1:after {
+    content:"d";
+}
+
+main:not(.flip) #e1:after {
+    content:"e";
+}
+
+main:not(.flip) #f1:after {
+    content:"f";
+}
+
+main:not(.flip) #g1:after {
+    content:"g";
+}
+
+main:not(.flip) #h1:after {
+    content:"h";
+}
+
+main.flip #a8:after {
+    content:"a";
+}
+
+main.flip #b8:after {
+    content:"b";
+}
+
+main.flip #c8:after {
+    content:"c";
+}
+
+main.flip #d8:after {
+    content:"d";
+}
+
+main.flip #e8:after {
+    content:"e";
+}
+
+main.flip #f8:after {
+    content:"f";
+}
+
+main.flip #g8:after {
+    content:"g";
+}
+
+main.flip #h8:after {
+    content:"h";
+}
+
+/* Footer */
+footer {
+    display: none;
+}
+
+/* Message */
+
+#message {
+    border: 2px solid var(--message-neutral-text);
+    border-radius: var(--corner-radius);
+    width: calc(var(--square) * 8);
+    background-color: var(--message-neutral);
+    color: var(--message-neutral-text);
+    min-height: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    flex-shrink: 0;
+}
+
+#message #no-js {
+    font-size: 0.7em;
+}
+
+#message.good {
+    border-color: var(--message-good-text);
+    background-color: var(--message-good);
+    color: var(--message-good-text);
+}
+
+#message.bad {
+    border-color: var(--message-bad-text);
+    background-color: var(--message-bad);
+    color: var(--message-bad-text);
+}
+
+#message a {
+    color: var(--message-neutral-text);
+    text-decoration: underline;
+}
+
+#message p:nth-child(2) {
+    font-size: 0.6em;
+}
+
+@media screen and (max-width: 600px) {
+    #message {
+        border: none;
+        border-radius: 0;
+    }
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
+aside#debug {
+    position:absolute;
+    top: 70px;
+    padding: 0.5em;
+    font-size: 0.6em;
+    text-align: left;
+}
+
+/* Modal */
+
+div#info-modal  {
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 9001;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+}
+
+div#info-modal div, div#info-modal div {
+    background-color: var(--message-neutral);
+    border-radius: var(--corner-radius);
+    border: 2px solid black;
+    padding: 1.25em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: calc(var(--square) * 7);
+    max-width: 90vw;
+}
+
+div#info-modal p.attribution {
+    font-size: 0.7em;
+    line-height: 1.3em;
+}
+
+div#info-modal h1, 
+div#info-modal h2 {
+    margin-bottom: 0.4em;
+    font-size: 0.9em;
+}
+
+div#info-modal p {
+    margin-bottom: 0.8em;
+    font-size: 0.75em;
+}
+
+/* div#info-modal p.attribution {
+    margin-bottom: 0;
+} */
+
+div#info-modal a {
+    color: white;
+}

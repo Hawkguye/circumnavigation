@@ -1,6 +1,10 @@
 let currentFlightController = null;
 let timeoutId;
 let isTimeoutAbort = false;
+// Global variables to store current flight search state for refreshing
+let currentFlightsData = null;
+let currentAvgFlightPrice = 0;
+let currentNextDay = false;
 async function searchFlight(nextDay) {
     if (routeDistance <= 200) {
         // skip searching
@@ -39,6 +43,7 @@ async function searchFlight(nextDay) {
         clearTimeout(timeoutId);
         
         if (!response.ok) {
+            $("#flight-title").html('');
             $("#flight-meta").hide();
             $("#flight-info").html('');
             $("#flight-results").html('<h6 style="text-align: center;">Error fetching flight data. <span class="clickable-text text-info" onclick="selectAirport()">Try again</span></h6>');
@@ -82,9 +87,11 @@ async function searchFlight(nextDay) {
                 }
             });
             displayFlightDataDate(Math.max(json.dateCreated, json2.dateCreated));
+            displayFlightTitle(json2.flightDate);
         }
         else {
             displayFlightDataDate(json.dateCreated);
+            displayFlightTitle(json.flightDate);
         }
 
         if (flightNum !== 0) {
@@ -92,9 +99,12 @@ async function searchFlight(nextDay) {
         }
 
         displayFlights(flights, Math.round(avgFlightPrice), nextDay);
+
+
     } catch (error) {
         clearTimeout(timeoutId);
         console.error('Error fetching flight data:', error);
+        $("#flight-title").html('');
         $("#flight-meta").hide();
         $("#flight-info").html('');
         if (isTimeoutAbort) {
@@ -118,6 +128,7 @@ async function searchFlight(nextDay) {
 }
 
 function searchNextDayFlight(){
+    $("#flight-title").html('');
     $("#flight-meta").hide();
     $("#flight-info").html('');
     $("#flight-results").html('');
@@ -128,7 +139,16 @@ function displayFlightDataDate(timestamp){
     $("#flight-meta").show().text(`Data fetched: ${new Date(timestamp).toISOString()}`);
 }
 
+function displayFlightTitle(date){
+    $("#flight-title").html(`<h5 class="mb-0">Available flights for <b>${date}</b> from <b>${origin_iata}</b> to <b>${dest_iata}</b>:</h5> <small>(flights are searched directly from Google Flights)</small>`);
+}
+
 function displayFlights(flightsData, avgFlightPrice, nextDay){
+    // Store current flight data for refreshing
+    currentFlightsData = flightsData;
+    currentAvgFlightPrice = avgFlightPrice;
+    currentNextDay = nextDay;
+    
     if (randomFlightChallenge) {
         clickAllowed = false;
     }
@@ -154,6 +174,7 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
             <td>Duration</td>
             <td>Airline</td>
             <td>Price</td>
+            <td>Takeoff In</td>
             <td>Action</td>
         `;
         $("#search-spinner").hide();
@@ -179,8 +200,11 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
                 console.log(`${flight.Airline} price is calculated`);
             }
 
-            if (flight.Departure > localTime.getTime() + 60*60000){ // no less than 1 hr layover
+            if (flight.Departure > localTime.getTime() + 60*60000){ // no less than 1 hr prior to takeoff
                 flightsInfoArr.push(flight);
+
+                // Calculate minutes until takeoff
+                const minutesUntilTakeoff = Math.floor((flight.Departure - localTime.getTime()) / 60000);
 
                 flightElement.innerHTML = `
                     <td>
@@ -196,6 +220,7 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
                     <td>${flight.Duration}</td>
                     <td>${flight.Airline.split('Operate')[0]}</td>
                     <td>$${flight.Price}</td>
+                    <td>${minutesUntilTakeoff} min</td>
                     <td><button class="btn btn-primary btn-sm book-flight" data-flight-id="${arrayIndex}">Book Now</button></td>
                 `;
                 $("#flight-results").append(flightElement);
@@ -209,6 +234,9 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
             else if (flightsData.length < 8 || localTime.getHours() > 18){
                 flightElement.classList.add("table-danger");
 
+                // Calculate minutes until takeoff (will be negative for past flights)
+                const minutesUntilTakeoff = Math.floor((flight.Departure - localTime.getTime()) / 60000);
+
                 flightElement.innerHTML = `
                     <td>
                         Local: <b>${toTimeFormat(new Date(flight.Departure))}</b>
@@ -223,7 +251,8 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
                     <td>${flight.Duration}</td>
                     <td>${flight.Airline.split('Operate')[0]}</td>
                     <td>$${flight.Price}</td>
-                    <td>(Previous flight)</td>
+                    <td>${minutesUntilTakeoff <= 0 ? 'Departed' : minutesUntilTakeoff + ' min'}</td>
+                    <td>${minutesUntilTakeoff > 0 ? 'Too late to book' : ''}</td>
                 `;
                 $("#flight-results").append(flightElement);
             }
@@ -252,6 +281,7 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
     }
     else {
         // no flights
+        $("#flight-title").html('');
         $("#flight-info").html('');
         $("#flight-results").html('<h6 style="text-align: center;">No flights found.</h6>');
         $("#search-spinner").hide();
@@ -365,9 +395,15 @@ function bookFlight(flightInfo) {
 
     removeDestLines();
 
+    $("#flight-title").html('');
     $("#flight-info").html('');
     $("#flight-results").html('');
     $("#flight-meta").hide();
+    
+    // Clear stored flight data since we're no longer displaying flights
+    currentFlightsData = null;
+    currentAvgFlightPrice = 0;
+    currentNextDay = false;
 
     recordRoute();
     document.getElementById("map").scrollIntoView(false);
@@ -603,9 +639,14 @@ function groundTransport(){
     $("#previous-flights-container").append(flightInfoEl);
 
     removeDestLines();
-
+    $("#flight-title").html('');
     $("#flight-info").html('');
     $("#flight-results").html('');
+    
+    // Clear stored flight data since we're no longer displaying flights
+    currentFlightsData = null;
+    currentAvgFlightPrice = 0;
+    currentNextDay = false;
 
     arrivedNewCity(arrivalTimestamp);
 }
@@ -613,4 +654,15 @@ function groundTransport(){
 function getTimezoneOffset(iata_code) {
     var apData = findApData(iata_code);
     return apData.timezone_offset;
+}
+
+// Function to refresh flight display when time updates
+function refreshFlightDisplay() {
+    // Check if flight table is visible and we have stored flight data
+    if (currentFlightsData && ($("#flight-info").html() !== '' || $("#flight-results").html() !== '')) {
+        // Clear the current display and re-render with updated time
+        $("#flight-info").html('');
+        $("#flight-results").html('');
+        displayFlights(currentFlightsData, currentAvgFlightPrice, currentNextDay);
+    }
 }
