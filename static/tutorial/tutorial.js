@@ -85,7 +85,7 @@ const tutorialObj = [
         "text": `
             <h6>Every time you land at a new airport, you'll get <b>3 new challenges</b>.</h6>
             <p>Complete them to earn more budget.</p>
-            <p><b>Watch the clock!</b> Challenges take time. Check-in closes <b>45 minutes</b> before your flight leaves. Don't miss your desired flight!</p>
+            <p><b>Watch the clock!</b> Challenges take time. Check-in closes <b>60 minutes</b> before your flight leaves. Don't miss your desired flight!</p>
         `,
         "interact": false,
         "next": true

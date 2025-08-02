@@ -71,6 +71,18 @@
                             <img src="{{ url_for('static', filename='img/log_icon.png') }}" alt="flight log" width="25px" height="25px">
                         </span>
                         
+                        <!-- how to play button -->
+                        <span
+                        id="how-to-play-button"
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#how-to-play-modal"
+                        data-bs-placement="bottom"
+                        data-bs-title="How to Play"
+                        >
+                            <img src="{{ url_for('static', filename='img/question_mark.png') }}" alt="how to play" width="25px" height="25px">
+                        </span>
+                        
                     </div>
                 </div>
 
@@ -180,7 +192,7 @@
     >
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="Flights Booked">
-                Flights Booked
+                Flight Log
             </h5>
             <button
                 type="button"
@@ -340,7 +352,7 @@
     <!-- input column -->
     <div class="container my-3" id="airport-input">
         <div class="input-group mb-3">
-            <input type="text" class="form-control" id="search-input" placeholder="Choose an airport to go to">
+            <input type="text" class="form-control" id="search-input" placeholder="Find an airport to go to">
             <select class="form-select" id="dropdown"></select>
             <button class="btn btn-primary" id="selectAirport" onclick="selectAirport()">Select</button>
         </div>
@@ -410,6 +422,84 @@
         </div>
     </div>
 
+    <!-- how to play modal -->
+    <div class="modal fade modal-centered" id="how-to-play-modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">How to Play - Circumnavigation!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h6 class="text-primary mb-2">🎯 Objective</h6>
+                            <p>
+                            Travel around the world and return to your starting airport, covering at least
+                            <strong>36,788 km</strong> and crossing all lines of longitude.
+                            </p>
+
+                            <h6 class="text-primary mt-4 mb-2">✈️ Starting Your Journey</h6>
+                            <ul>
+                            <li><strong>Start:</strong> Begin at the starting airport.</li>
+                            <li><strong>Choose Destinations:</strong> Click on airports on the map or use the search bar.</li>
+                            <li><strong>Book Flights:</strong> Select and book flights (we use real-time flight data from Google Flights).</li>
+                            </ul>
+
+                            <h6 class="text-primary mt-4 mb-2">💰 Budget & Challenges</h6>
+                            <ul>
+                            <li>You begin with a <strong>$500 budget</strong>.</li>
+                            <li><strong>Earn money</strong> by completing challenges. You pull 3 challenges at each airport.</li>
+                            <li>Challenges take time — <strong>don't miss your flight!</strong> Check-in closes <strong>60 min</strong> before departure.</li>
+                            <li><strong>Click the logo</strong> to open the challenge board.</li>
+                            </ul>
+
+                            <h6 class="text-primary mt-4 mb-2">🗺️ Map & Navigation</h6>
+                            <ul>
+                            <li><strong>Blue Dots:</strong> Airports with ≤50 destinations.</li>
+                            <li><strong>Yellow Dots:</strong> 51-100 destinations.</li>
+                            <li><strong>Red Dots:</strong> Over 100 destinations.</li>
+                            <li><strong>Grey Lines:</strong> Potential destinations from your airport (not always accurate).</li>
+                            </ul>
+
+                            <h6 class="text-primary mt-4 mb-2">🚖 Ground Travel</h6>
+                            <p>
+                            Some cities have multiple airports. Use <strong>ground transportation</strong> (taxi) to travel between nearby airports.
+                            </p>
+
+                            <h6 class="text-primary mt-4 mb-2">📊 Your Status</h6>
+                            <ul>
+                            <li><strong>Time:</strong> In-game time shown in local and UTC.</li>
+                            <li><strong>Distance:</strong> Shows your progress around the globe. You have to cover 36788km! The bar turns green once you hit the target.</li>
+                            <li><strong>Budget:</strong> You have to use this money to buy tickets.</li>
+                            </ul>
+
+                            <h6 class="text-primary mt-4 mb-2">🏁 Winning the Game</h6>
+                            <ul>
+                            <li>Return to your <strong>starting airport</strong>.</li>
+                            <li>Cover at least <strong>36,788 km</strong>.</li>
+                            <li><strong>Cross every line of longitude</strong> (go around the world in a full circle!).</li>
+                            <li><strong>Try to find the fastest route</strong>!</li>
+                            </ul>
+
+                            <!-- <h6 class="text-primary mt-4 mb-2">💡 Tips</h6>
+                            <ul>
+                            <li>Plan your route to maximize efficiency and coverage.</li>
+                            <li>Monitor time zones — flights operate on <strong>local time</strong>.</li>
+                            <li>Use the <strong>flight log</strong> to track your past flights.</li>
+                            <li>View the <strong>leaderboard</strong> to compare your performance.</li>
+                            </ul> -->
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- welcome toast -->
     <div class="toast-container position-fixed top-0 start-50 translate-middle-x p-3">
         <div id="welcome-toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="10000">
@@ -417,9 +507,7 @@
                 <strong id="welcome-toast-header" class="me-auto">Welcome to New York!</strong>
                 <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
-            <div id="welcome-toast-body" class="toast-body">
-                Hello, world! This is a toast message.
-            </div>
+            <div id="welcome-toast-body" class="toast-body"></div>
         </div>
     </div>
 

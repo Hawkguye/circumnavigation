@@ -98,7 +98,7 @@ b, strong {
     transform: translateY(-50%) scale(1.05);
 }
 
-#log-button, #home-button {
+#log-button, #home-button, #how-to-play-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -113,12 +113,12 @@ b, strong {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-#log-button:hover, #home-button:hover {
+#log-button:hover, #home-button:hover, #how-to-play-button:hover {
     background: var(--primary-color);
     transform: scale(1.05);
 }
 
-#home-button img, #log-button img {
+#home-button img, #log-button img, #how-to-play-button img {
     width: 25px;
     height: 25px;
     object-fit: contain;

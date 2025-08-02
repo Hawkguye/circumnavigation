@@ -388,20 +388,48 @@ function updateRouteDisplay(){
 
 function updateDropdown(searchTerm) {
     dropdown.innerHTML = ''; // Clear previous options
+    if (!searchTerm) return;
 
-    const matchingAirports = airportArray.filter(airport =>
-        airport.iata_code.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        airport.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        airport.municipality.toLowerCase().includes(searchTerm.toLowerCase())
+    const lowerSearch = searchTerm.toLowerCase();
+
+    const rankAirport = (airport) => {
+        if (airport.iata_code && airport.iata_code.toLowerCase().startsWith(lowerSearch)) return 0;
+        if (airport.municipality && airport.municipality.toLowerCase().startsWith(lowerSearch)) return 1;
+        if (airport.name && airport.name.toLowerCase().includes(lowerSearch)) return 2;
+        return 3;
+    };
+
+    let matchingAirports = airportArray.filter(airport =>
+        (airport.iata_code && airport.iata_code.toLowerCase().includes(lowerSearch)) ||
+        (airport.municipality && airport.municipality.toLowerCase().includes(lowerSearch)) ||
+        (airport.name && airport.name.toLowerCase().includes(lowerSearch))
     );
 
-    matchingAirports.forEach(airport => {
+    // If no primary matches, fallback to country name search
+    if (matchingAirports.length === 0) {
+        matchingAirports = airportArray.filter(airport =>
+            airport.country_name && airport.country_name.toLowerCase().includes(lowerSearch)
+        );
+    }
+
+    matchingAirports.sort((a, b) => {
+        const rankA = rankAirport(a);
+        const rankB = rankAirport(b);
+        if (rankA !== rankB) return rankA - rankB;
+
+        const destA = parseInt(a.dest_count || '0', 10);
+        const destB = parseInt(b.dest_count || '0', 10);
+        return destB - destA; // more destinations = higher rank
+    });
+
+    matchingAirports.slice(0, 20).forEach(airport => {
         const option = document.createElement('option');
         option.value = airport.iata_code;
-        option.textContent = `${airport.name} (${airport.iata_code}) (${airport.municipality})`;
+        option.textContent = `${airport.municipality} (${airport.iata_code}) — ${airport.name} (${airport.dest_count})`;
         dropdown.appendChild(option);
     });
 }
+
 
 function goHomeConfirm(){
     $("#confirm-modal").modal('show');

@@ -163,4 +163,11 @@ function initTooltip(){
         placement: 'bottom',
         title: 'Flight Log'
     });
+
+    // how to play button
+    const howToPlayEl = document.getElementById('how-to-play-button')
+    const howToPlayTooltip = new bootstrap.Tooltip(howToPlayEl, {
+        placement: 'bottom',
+        title: 'How to Play'
+    });
 }
