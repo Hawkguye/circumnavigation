@@ -355,6 +355,12 @@
          * Game initialiser.
          */
         init: function () {
+            // Hide the loading screen
+            var loadingScreen = document.getElementById('loadingScreen');
+            if (loadingScreen) {
+                loadingScreen.style.display = 'none';
+            }
+
             // Hide the static icon.
             document.querySelector('.' + Runner.classes.ICON).style.visibility =
                 'hidden';

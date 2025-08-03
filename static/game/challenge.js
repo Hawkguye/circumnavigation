@@ -617,15 +617,18 @@ function finishDino(score){
 // random flight (7)
 let randomFlightChallenge = false;
 function startRandomFlight(){
+    randomFlightChallenge = false;
+    resetRoute();
     randomFlightChallenge = true;
     let destination = shuffle.pick(current_dest_iatas);
-    window.alert(`You are flying to ${destination}!`);
+    let dest_apData = findApData(destination);
+    window.alert(`You are flying to ${dest_apData.municipality} (${destination}), ${dest_apData.country_name}!`);
     selectedAp = destination;
     selectAirport();
 }
 function finishRandomFlight(){
     randomFlightChallenge = false;
-    challangeFinished(`<h6>Welcome to <b>${dest_iata}</b>!<h6> You earned $1000!`, true)
+    challangeFinished(`<h6>Welcome to ${findApData(dest_iata).municipality} (<b>${dest_iata}</b>)!<h6> You earned $1000!`, true)
     budget += 1000;
     $("#money-left").text(`$${budget}`);
 }

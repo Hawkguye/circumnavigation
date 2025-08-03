@@ -305,6 +305,9 @@ function newCityPopup(){
 }
 
 function resetRoute(){
+    if (randomFlightChallenge){
+        return;
+    }
     // origin_pin = null;
 
     // Abort any ongoing flight search
@@ -324,9 +327,11 @@ function resetRoute(){
     dest_iata = null;
     // origin_iata = null;
     // origin_latlng = [];
+
+    $("#flight-title").html('');
     $("#flight-info").html('');
     $("#flight-results").html('');
-    $("#flight-meta").hide();
+    $("#flight-meta").html('');
     $("#route-distance").text('');
 
     distanceBarUpdate(false);
@@ -734,7 +739,7 @@ $('#researchCanvas').on('shown.bs.offcanvas', function () {
 $("#current-status-container").hide();
 $("#time-flow-container").hide();
 $("#reset-route").hide();
-$("#flight-meta").hide();
+$("#flight-meta").html('');
 $("#skip-animation").hide();
 
 async function main() {

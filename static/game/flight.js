@@ -5,6 +5,8 @@ let isTimeoutAbort = false;
 let currentFlightsData = null;
 let currentAvgFlightPrice = 0;
 let currentNextDay = false;
+let currentFlightDate = '';
+
 async function searchFlight(nextDay) {
     if (routeDistance <= 200) {
         // skip searching
@@ -44,7 +46,7 @@ async function searchFlight(nextDay) {
         
         if (!response.ok) {
             $("#flight-title").html('');
-            $("#flight-meta").hide();
+            $("#flight-meta").html('');
             $("#flight-info").html('');
             $("#flight-results").html('<h6 style="text-align: center;">Error fetching flight data. <span class="clickable-text text-info" onclick="selectAirport()">Try again</span></h6>');
             $("#search-spinner").hide();
@@ -71,6 +73,8 @@ async function searchFlight(nextDay) {
             }
         });
 
+        let flightDate;
+
         if (nextDay) {
             const response2 = await fetch(`${FLIGHT_URL}get_flight?org=${origin_iata}&dest=${dest_iata}&date=${dateNext}`);
             const json2 = await response2.json();
@@ -87,25 +91,25 @@ async function searchFlight(nextDay) {
                 }
             });
             displayFlightDataDate(Math.max(json.dateCreated, json2.dateCreated));
-            displayFlightTitle(json2.flightDate);
+            flightDate = json2.flightDate;
         }
         else {
             displayFlightDataDate(json.dateCreated);
-            displayFlightTitle(json.flightDate);
+            flightDate = json.flightDate;
         }
 
         if (flightNum !== 0) {
             avgFlightPrice /= flightNum;
         }
 
-        displayFlights(flights, Math.round(avgFlightPrice), nextDay);
+        displayFlights(flights, Math.round(avgFlightPrice), nextDay, flightDate);
 
 
     } catch (error) {
         clearTimeout(timeoutId);
         console.error('Error fetching flight data:', error);
         $("#flight-title").html('');
-        $("#flight-meta").hide();
+        $("#flight-meta").html('');
         $("#flight-info").html('');
         if (isTimeoutAbort) {
             $("#flight-results").html('<h6 style="text-align: center;">Flight Search Timed Out. <span class="clickable-text text-info" onclick="selectAirport()">Try again</span></h6>');
@@ -129,25 +133,29 @@ async function searchFlight(nextDay) {
 
 function searchNextDayFlight(){
     $("#flight-title").html('');
-    $("#flight-meta").hide();
+    $("#flight-meta").html('');
     $("#flight-info").html('');
     $("#flight-results").html('');
     searchFlight(true);
 }
 
 function displayFlightDataDate(timestamp){
-    $("#flight-meta").show().text(`Data fetched: ${new Date(timestamp).toISOString()}`);
+    $("#flight-meta").show().html(`
+        <small>Data fetched: ${new Date(timestamp).toISOString()}</small>
+        <small class="text-end">Booking closes <b>60 mins</b> before takeoff.</small>
+    `);
 }
 
-function displayFlightTitle(date){
-    $("#flight-title").html(`<h5 class="mb-0">Available flights for <b>${date}</b> from <b>${origin_iata}</b> to <b>${dest_iata}</b>:</h5> <small>(flights are searched directly from Google Flights)</small>`);
+function displayFlightTitle(date, flights_cnt){
+    $("#flight-title").html(`<h5 class="mb-0"><b>${flights_cnt}</b> flights available from <b>${origin_iata}</b> to <b>${dest_iata}</b> for <b>${date}</b>:</h5> <small>(flights are searched directly from Google Flights)</small>`);
 }
 
-function displayFlights(flightsData, avgFlightPrice, nextDay){
+function displayFlights(flightsData, avgFlightPrice, nextDay, flightDate){
     // Store current flight data for refreshing
     currentFlightsData = flightsData;
     currentAvgFlightPrice = avgFlightPrice;
     currentNextDay = nextDay;
+    currentFlightDate = flightDate;
     
     if (randomFlightChallenge) {
         clickAllowed = false;
@@ -259,6 +267,8 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
 
         });
 
+        displayFlightTitle(flightDate, arrayIndex);
+
         if (arrayIndex < 5 && !nextDay){
             // search next day
             var trElement = document.createElement('tr');
@@ -272,7 +282,7 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
             `;
             $("#flight-results").append(trElement);
 
-            if (randomFlightChallenge) {
+            if (arrayIndex == 0 && randomFlightChallenge) {
                 searchNextDayFlight();
                 return;
             }
@@ -282,6 +292,7 @@ function displayFlights(flightsData, avgFlightPrice, nextDay){
     else {
         // no flights
         $("#flight-title").html('');
+        $("#flight-meta").html('');
         $("#flight-info").html('');
         $("#flight-results").html('<h6 style="text-align: center;">No flights found.</h6>');
         $("#search-spinner").hide();
@@ -398,12 +409,13 @@ function bookFlight(flightInfo) {
     $("#flight-title").html('');
     $("#flight-info").html('');
     $("#flight-results").html('');
-    $("#flight-meta").hide();
+    $("#flight-meta").html('');
     
     // Clear stored flight data since we're no longer displaying flights
     currentFlightsData = null;
     currentAvgFlightPrice = 0;
     currentNextDay = false;
+    currentFlightDate = '';
 
     recordRoute();
     document.getElementById("map").scrollIntoView(false);
@@ -642,11 +654,13 @@ function groundTransport(){
     $("#flight-title").html('');
     $("#flight-info").html('');
     $("#flight-results").html('');
+    $("#flight-meta").html('');
     
     // Clear stored flight data since we're no longer displaying flights
     currentFlightsData = null;
     currentAvgFlightPrice = 0;
     currentNextDay = false;
+    currentFlightDate = '';
 
     arrivedNewCity(arrivalTimestamp);
 }
@@ -661,8 +675,9 @@ function refreshFlightDisplay() {
     // Check if flight table is visible and we have stored flight data
     if (currentFlightsData && ($("#flight-info").html() !== '' || $("#flight-results").html() !== '')) {
         // Clear the current display and re-render with updated time
+        $("#flight-title").html('');
         $("#flight-info").html('');
         $("#flight-results").html('');
-        displayFlights(currentFlightsData, currentAvgFlightPrice, currentNextDay);
+        displayFlights(currentFlightsData, currentAvgFlightPrice, currentNextDay, currentFlightDate);
     }
 }

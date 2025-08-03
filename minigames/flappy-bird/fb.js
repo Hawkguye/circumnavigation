@@ -24,6 +24,12 @@ var loadImages = function(){
 	var onImgLoad = function(){
 		imgComplete++;
 		if(imgComplete == imgNumber){
+			// Hide loading screen
+			var loadingScreen = document.getElementById("loadingScreen");
+			if(loadingScreen) {
+				loadingScreen.style.display = "none";
+			}
+			
 			death = 1;
 			dist = 0;
 			birdY = (height - 112) / 2;

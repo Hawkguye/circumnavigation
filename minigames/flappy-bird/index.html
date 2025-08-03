@@ -56,8 +56,55 @@
 canvas {
   -webkit-tap-highlight-color: transparent;
 }
+
+/* Loading screen styles */
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4EC0CA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    font-family: "Press Start 2P", monospace;
+}
+
+.loading-content {
+    text-align: center;
+    color: white;
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading-content h2 {
+    margin: 0;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
 </style>
 <body style="padding:0;margin:0;outline:0;overflow:hidden">
+	<div id="loadingScreen" class="loading-screen">
+		<div class="loading-content">
+			<div class="loading-spinner"></div>
+			<h2>Loading...</h2>
+		</div>
+	</div>
 	<canvas id="canvas"></canvas>
 	<!-- <div id="easy" class="option" style="box-shadow:0 0 0 2px #165CF3">easy</div>
 	<div id="normal" class="option">normal</div>
