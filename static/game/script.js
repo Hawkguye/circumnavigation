@@ -204,6 +204,12 @@ function arrivedNewCity(timeStamp){
     $("#distance-covered").text(`${distanceCovered} / ${CIRCUMDIST} km`);
     distanceBarUpdate(true);
 
+    // Handle cursed challenges - decrement cities counter
+    if (cursed_challenges && cursed_challenges_cities_left >= 0) {
+        cursed_challenges_cities_left--;
+        updateCurseBanner();
+    }
+
     if (dest_iata == startingIata){
         if (checkLngMissing().length != 0){
             window.alert("You should cross all meridians on your path!");
@@ -492,6 +498,21 @@ function gameTimeUpdate(timeStamp){
     $("#local-time").html(`UTC${current_timezone_offset >= 0 ? '+' : ''}${current_timezone_offset/3600}: <b>${toTimeFormat(localTime)}</b>`);
     $("#elapsed-time").text(`${timeUsed.getUTCDate()-1}d  ${timeUsed.getUTCHours()}hr ${timeUsed.getUTCMinutes()}min`);
     
+    // Check curse expiration
+    if (cursed_longhaul && cursed_start_time > 0) {
+        const curseDuration = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+        const timeElapsed = gameTime.getTime() - cursed_start_time;
+        const timeRemaining = curseDuration - timeElapsed;
+        
+        if (timeRemaining <= 0) {
+            // Curse has expired
+            endCursedLonghaul();
+        } else {
+            // Update curse banner
+            updateCurseBanner();
+        }
+    }
+    
     // Refresh flight display if flight table is visible
     if (typeof refreshFlightDisplay === 'function') {
         refreshFlightDisplay();
@@ -712,6 +733,9 @@ function startGame(){
     selectedAp = startingIata;
     selectAirport();
     distanceBarUpdate(true);
+    
+    // Initialize curse banner
+    updateCurseBanner();
 }
 
 searchInput.addEventListener('input', function () {

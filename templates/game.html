@@ -35,79 +35,88 @@
 
 </head>
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <div class="row w-100 mx-0">
-                <div class="col-md-4 d-flex align-items-center my-2">
-                    <div class="nav-item mx-auto" style="width: 250px;">
-                        <!-- <h5 id="game-time-label"></h5> -->
-                        <h6 class="my-0" id="local-time"></h6>
-                        <h6 class="my-0" id="utc-time">Time</h6>
-                        <h6 class="mt-1 mb-0">Elapsed time: <b id="elapsed-time">0d 0hr 0min</b></h6>
-                    </div>
-                </div>
-
-                <div class="col-md-4 d-flex justify-content-center align-items-center my-2">
-                    <div class="nav-item">
-                        <!-- home button -->
-                        
-                        <span id="home-button" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Back To Home" onclick="goHomeConfirm()">
-                            <img src="{{ url_for('static', filename='img/home.png') }}" alt="home" width="25px" height="25px">
-                        </span>
-
-
-                        <!-- logo -->
-                        <img class="mx-2" id="logo" src="{{ url_for('static', filename='img/logo-sm.png') }}" alt="logo" width="80px" height="80px" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Challenge Board" onclick="openChallengeModal()">
-                        
-                        <!-- log button -->
-                        <span
-                        id="log-button"
-                        type="button"
-                        data-bs-toggle="offcanvas"
-                        data-bs-target="#log-offcanvas"
-                        aria-controls="log-offcanvas"
-                        >
-                            <img src="{{ url_for('static', filename='img/log_icon.png') }}" alt="flight log" width="25px" height="25px">
-                        </span>
-                        
-                        <!-- how to play button -->
-                        <span
-                        id="how-to-play-button"
-                        type="button"
-                        data-bs-toggle="modal"
-                        data-bs-target="#how-to-play-modal"
-                        data-bs-placement="bottom"
-                        data-bs-title="How to Play"
-                        >
-                            <img src="{{ url_for('static', filename='img/question_mark.png') }}" alt="how to play" width="25px" height="25px">
-                        </span>
-                        
-                    </div>
-                </div>
-
-                <!-- money & km -->
-                <div class="col-md-4 d-flex align-items-center my-2">
-                    <div class="nav-item mx-auto">
-                        <!-- distance progress bar -->
-                        <div class="progress-stacked" style="width: 200px;"
-                         data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Distance Covered"
-                        >
-                            <div id="distance-covered-bar" class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                                <div id="distance-covered-bar-label" class="progress-bar">30%</div>
-                            </div>
-                            <div id="distance-preview-bar" class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
-                                <div id="distance-preview-bar-label" class="progress-bar bg-info"></div>
-                            </div>
+    <!-- navbar + curse wrapper -->
+    <div id="navbar-wrapper" class="sticky-top">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="row w-100 mx-0">
+                    <div class="col-md-4 d-flex align-items-center my-2">
+                        <div class="nav-item mx-auto" style="width: 250px;">
+                            <!-- <h5 id="game-time-label"></h5> -->
+                            <h6 class="my-0" id="local-time"></h6>
+                            <h6 class="my-0" id="utc-time">Time</h6>
+                            <h6 class="mt-1 mb-0">Elapsed time: <b id="elapsed-time">0d 0hr 0min</b></h6>
                         </div>
+                    </div>
 
-                        <h6 class="font-weight-bold text-center my-0">Distance: <b id="distance-covered">0 / 36788 km</b></h6>
-                        <h6 class="font-weight-bold text-center my-1">Budget: <b id="money-left">$0</b></h6>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center my-2">
+                        <div class="nav-item">
+                            <!-- home button -->
+                            
+                            <span id="home-button" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Back To Home" onclick="goHomeConfirm()">
+                                <img src="{{ url_for('static', filename='img/home.png') }}" alt="home" width="25px" height="25px">
+                            </span>
+
+
+                            <!-- logo -->
+                            <img class="mx-2" id="logo" src="{{ url_for('static', filename='img/logo-sm.png') }}" alt="logo" width="80px" height="80px" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Challenge Board" onclick="openChallengeModal()">
+                            
+                            <!-- log button -->
+                            <span
+                            id="log-button"
+                            type="button"
+                            data-bs-toggle="offcanvas"
+                            data-bs-target="#log-offcanvas"
+                            aria-controls="log-offcanvas"
+                            >
+                                <img src="{{ url_for('static', filename='img/log_icon.png') }}" alt="flight log" width="25px" height="25px">
+                            </span>
+                            
+                            <!-- how to play button -->
+                            <span
+                            id="how-to-play-button"
+                            type="button"
+                            data-bs-toggle="modal"
+                            data-bs-target="#how-to-play-modal"
+                            data-bs-placement="bottom"
+                            data-bs-title="How to Play"
+                            >
+                                <img src="{{ url_for('static', filename='img/question_mark.png') }}" alt="how to play" width="25px" height="25px">
+                            </span>
+                            
+                        </div>
+                    </div>
+
+                    <!-- money & km -->
+                    <div class="col-md-4 d-flex align-items-center my-2">
+                        <div class="nav-item mx-auto">
+                            <!-- distance progress bar -->
+                            <div class="progress-stacked" style="width: 200px;"
+                            data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Distance Covered"
+                            >
+                                <div id="distance-covered-bar" class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                    <div id="distance-covered-bar-label" class="progress-bar">30%</div>
+                                </div>
+                                <div id="distance-preview-bar" class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+                                    <div id="distance-preview-bar-label" class="progress-bar bg-info"></div>
+                                </div>
+                            </div>
+
+                            <h6 class="font-weight-bold text-center my-0">Distance: <b id="distance-covered">0 / 36788 km</b></h6>
+                            <h6 class="font-weight-bold text-center my-1">Budget: <b id="money-left">$0</b></h6>
+                        </div>
                     </div>
                 </div>
             </div>
+        </nav>
+
+        <!-- curse banner -->
+        <div id="curse-banner" class="alert alert-danger text-center mb-0 py-1 rounded-0" style="display: none; background-color: #6a376a; color: white; border: none;">
+            <strong>🚫 CURSED!</strong> You cannot book flights longer than 6,000 km for <span id="curse-time-remaining">24 hours</span>
         </div>
-    </nav>
+
+    </div>
 
     <!-- challange modal -->
     <div class="modal modal-xl fade modal-centered" id="challange-modal">
@@ -502,7 +511,7 @@
 
     <!-- welcome toast -->
     <div class="toast-container position-fixed top-0 start-50 translate-middle-x p-3">
-        <div id="welcome-toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="10000">
+        <div id="welcome-toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="3000">
             <div class="toast-header">
                 <strong id="welcome-toast-header" class="me-auto">Welcome to New York!</strong>
                 <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>

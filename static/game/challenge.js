@@ -32,9 +32,6 @@ const challengeCards = [
             </div>
             <button class="btn btn-primary ms-auto disabled placeholder col-3"></button>
         </div>
-        <div class="card-footer text-center placeholder-glow">
-            <h6><span class="placeholder col-4"></span></h6>
-        </div>
     </div>
     `,
     // index: 1
@@ -224,7 +221,7 @@ const challengeCards = [
     // minigame -- fly to a random city
     `
     <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
-        <img src="{imgDir}logo.png" class="card-img-top" alt="flight">
+        <img src="{imgDir}curse.png" class="card-img-top" alt="flight">
         <div class="card-body text-center">
             <div>
                 <h5 class="card-title">Cursed!</h5>
@@ -239,7 +236,7 @@ const challengeCards = [
             <button class="btn btn-primary mx-auto" id="random-flight-start-btn">Start Challenge</button>
         </div>
         <div class="card-footer text-center">
-            <h6>Reward: $<b>1000</b> after the flight</h6>
+            <h6>Reward: $<b>800</b> after the flight</h6>
         </div>
     </div>
     `,
@@ -320,18 +317,61 @@ const challengeCards = [
             <h6>Reward: $(Games Won * 100)</h6>
         </div>
     </div>
+    `,
+    // index: 11
+    // cursed -- no flight longer than 6000km for 24 hrs
+    `
+    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+        <img src="{imgDir}curse.png" class="card-img-top" alt="curse">
+        <div class="card-body text-center">
+            <div>
+                <h5 class="card-title">Cursed!</h5>
+                <h6 class="text-end"><b>-- No Long-Haul Flights</b></h6>
+            </div>
+            <p class="card-text">
+                You will be cursed for <b>24 hours</b> of game time!<br>
+                During this time, you <b>cannot book any flights longer than 6,000 km</b>.<br>
+                This will force you to take shorter, regional flights.
+            </p>
+        </div>
+        <div class="card-body border-top d-flex text-center">
+            <button class="btn btn-primary mx-auto" id="cursed-longhaul-start-btn">Start Challenge</button>
+        </div>
+        <div class="card-footer text-center">
+            <h6>Reward: $<b>800</b> immediately</h6>
+        </div>
+    </div>
+    `,
+    // index: 12
+    // cursed -- only one challenge drawn for 24 hrs
+    `
+    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+        <img src="{imgDir}curse.png" class="card-img-top" alt="curse">
+        <div class="card-body text-center">
+            <div>
+                <h5 class="card-title">Cursed!</h5>
+                <h6 class="text-end"><b>-- Limited Challenges</b></h6>
+            </div>
+            <p class="card-text">
+                You will be cursed for the next <b>2 cities</b> you visit!<br>
+                During this time, you will only get <b>1 challenge</b> per city instead of 3.<br>
+                This will make earning money much harder!
+            </p>
+        </div>
+        <div class="card-body border-top d-flex text-center">
+            <button class="btn btn-primary mx-auto" id="cursed-challenges-start-btn">Start Challenge</button>
+        </div>
+        <div class="card-footer text-center">
+            <h6>Reward: $<b>500</b> immediately</h6>
+        </div>
+    </div>
     `
 ];
-var challengeCardPick = [1,2,3,4,5,6,7,8,9,10];
+var challengeCardPick = [1,2,3,4,5,6,7,8,9,10,11,12];
 var finishedCategories = [];
 
 function removeChallenge(challengeIndex) {
-    for (let i=0; i<challengeCardPick.length; i++){
-        if (challengeCardPick[i] === challengeIndex){
-            challengeCardPick.splice(i, 1);
-            return;
-        }
-    }
+    challengeCardPick = challengeCardPick.filter(idx => idx !== challengeIndex);
 }
 
 function createChallengeCard(index, id){
@@ -354,22 +394,48 @@ function openChallengeModal(){
 async function drawNewChallenges(){
     $("#new-challenge-alert").show();
 
-    $("#challenge-card-1").html(challengeCards[0].replace("{title}", "Generating Challenge..."));
-    $("#challenge-card-2").html(challengeCards[0].replace("{title}", "Generating Challenge..."));
-    $("#challenge-card-3").html(challengeCards[0].replace("{title}", "Generating Challenge..."));
+    // Check if cursed challenges is active
+    const numChallenges = cursed_challenges ? 1 : 3;
 
-    var cards = shuffle.pick(challengeCardPick, { 'picks': 3 });
-    await delay(1000);
-    $("#challenge-card-1").html(createChallengeCard(cards[0], 1));
-    bindChallengeButton(1, cards[0])
+    // Initialize all challenge cards
+    if (cursed_challenges){
+        $("#challenge-card-1").html(challengeCards[0].replace("{title}", "<span style='color:#a10000; font-weight:bold;'>⚡ CURSED! ⚡<br><small style='color:#333;'>No Challenge Available</small></span>"));
+        $("#challenge-card-2").html(challengeCards[0].replace("{title}", "<span style='color:#0057b8; font-weight:bold;'>⏳ YOUR CHALLENGE IS... ⏳</span>"));
+        $("#challenge-card-3").html(challengeCards[0].replace("{title}", "<span style='color:#a10000; font-weight:bold;'>⚡ CURSED! ⚡<br><small style='color:#333;'>No Challenge Available</small></span>"));
+    }
+    else {
+        for (let i = 1; i <= 3; i++) {
+            $("#challenge-card-" + i).html(challengeCards[0].replace("{title}", "<span style='color:#0057b8; font-weight:bold;'>⏳ YOUR CHALLENGE IS... ⏳</span>"));
+        }
+    }
+    
 
-    await delay(1000);
-    $("#challenge-card-2").html(createChallengeCard(cards[1], 2));
-    bindChallengeButton(2, cards[1])
+    // Filter out cursed challenges if another curse is active
+    let availableCards = [...challengeCardPick];
+    
+    // If longhaul curse is active, remove the challenges curse (index 12)
+    if (cursed_longhaul) {
+        availableCards = availableCards.filter(card => card !== 12);
+    }
+    
+    // If challenges curse is active, remove the longhaul curse (index 11)
+    if (cursed_challenges) {
+        availableCards = availableCards.filter(card => card !== 11);
+    }
 
-    await delay(1000);
-    $("#challenge-card-3").html(createChallengeCard(cards[2], 3));
-    bindChallengeButton(3, cards[2])
+    var cards = shuffle.pick(availableCards, { 'picks': numChallenges });
+    
+    if (cursed_challenges) {
+        await delay(1000);
+        $("#challenge-card-2").html(createChallengeCard(cards, 1));
+        bindChallengeButton(1, cards[0]);
+    } else {
+        for (let i = 1; i <= 3; i++) {
+            await delay(1000);
+            $(`#challenge-card-${i}`).html(createChallengeCard(cards[i-1], i));
+            bindChallengeButton(i, cards[i-1]);
+        }
+    }
 
     $("#new-challenge-alert").hide();
 }
@@ -439,6 +505,7 @@ function bindChallengeButton(id, cardIndex){
             $("#challange-modal").modal("hide");
             startWordle();
             $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
+            removeChallenge(cardIndex);
         });
     }
     
@@ -458,7 +525,7 @@ function bindChallengeButton(id, cardIndex){
             $("#challange-modal").modal("hide");
             startRandomFlight();
             $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
-            // removeChallenge(cardIndex);
+            removeChallenge(cardIndex);
         });
     }
 
@@ -487,6 +554,26 @@ function bindChallengeButton(id, cardIndex){
         $(`#chess-start-btn`).off('click').on('click', function() {
             $("#challange-modal").modal("hide");
             startChess();
+            $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
+            // removeChallenge(cardIndex);
+        });
+    }
+    
+    // cursed longhaul
+    if (cardIndex === 11){
+        $(`#cursed-longhaul-start-btn`).off('click').on('click', function() {
+            $("#challange-modal").modal("hide");
+            startCursedLonghaul();
+            $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
+            removeChallenge(cardIndex);
+        });
+    }
+    
+    // cursed challenges
+    if (cardIndex === 12){
+        $(`#cursed-challenges-start-btn`).off('click').on('click', function() {
+            $("#challange-modal").modal("hide");
+            startCursedChallenges();
             $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
             removeChallenge(cardIndex);
         });
@@ -578,7 +665,6 @@ function finishWordle(ifWin, guesses, targetWord){
     document.getElementById("minigame-canvas").removeEventListener('touchmove', preventTouchScroll);
     $("#minigame-canvas").html("").hide();
     if (ifWin){
-        // console.log(guesses)
         challangeFinished(`You took ${guesses} attempts to guess the word.<br>You earned $${wordleReward[guesses]}!<br>30 minutes in game time has passed.`, true)
         budget += wordleReward[guesses];
         $("#money-left").text(`$${budget}`);
@@ -629,7 +715,7 @@ function startRandomFlight(){
 function finishRandomFlight(){
     randomFlightChallenge = false;
     challangeFinished(`<h6>Welcome to ${findApData(dest_iata).municipality} (<b>${dest_iata}</b>)!<h6> You earned $1000!`, true)
-    budget += 1000;
+    budget += 800;
     $("#money-left").text(`$${budget}`);
 }
 
@@ -682,7 +768,6 @@ function quitBird(){
 }
 
 // chess puzzle (10)
-
 async function startChess(){
     setupMinigameCanvas();
     $("#minigame-canvas").show().html(`
@@ -704,4 +789,90 @@ function finishChess(score){
 }
 function quitChess(){
     finishChess(0);
+}
+
+// cursed -- no flight longer than 5000km for 24 hrs (11)
+let cursed_longhaul = false;
+let cursed_start_time = 0;
+
+// cursed -- only one challenge drawn for next 2 cities (12)
+let cursed_challenges = false;
+let cursed_challenges_cities_left = 0;
+function startCursedLonghaul(){
+    cursed_longhaul = true;
+    cursed_start_time = gameTime.getTime();
+    challangeFinished(`
+        <h6>You are now <strong>cursed</strong>!<h6>
+        <p>You cannot travel on a flight longer than <b>6,000 km</b> for <b>24 hours</b>.</p>
+        <p>But, you earned <b>$600</b>!</p>
+        `, false);
+    budget += 800;
+    $("#money-left").text(`$${budget}`);
+    updateCurseBanner();
+}
+function endCursedLonghaul(){
+    cursed_longhaul = false;
+    cursed_start_time = 0;
+    $("#curse-banner").hide();
+    challangeFinished("🎉 The curse has been lifted! You can now book long-haul flights again.", true);
+}
+
+function startCursedChallenges(){
+    cursed_challenges = true;
+    cursed_challenges_cities_left = 2;
+    challangeFinished(`
+        <h6>You are now <strong>cursed</strong>!<h6>
+        <p>You will only get <b>1 challenge</b> per city for the next <b>2 cities</b>.</p>
+        <p>But, you earned <b>$500</b>!</p>
+        `, false);
+    budget += 500;
+    $("#money-left").text(`$${budget}`);
+    updateCurseBanner();
+}
+
+function endCursedChallenges(){
+    cursed_challenges = false;
+    cursed_challenges_cities_left = 0;
+    $("#curse-banner").hide();
+    challangeFinished("🎉 The curse has been lifted! You can now get 3 challenges per city again.", true);
+}
+
+function updateCurseBanner() {
+    const curseDuration = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+    let activeCurse = null;
+    let timeRemaining = 0;
+    
+    // Check for longhaul curse
+    if (cursed_longhaul && cursed_start_time > 0) {
+        const timeElapsed = gameTime.getTime() - cursed_start_time;
+        timeRemaining = curseDuration - timeElapsed;
+        
+        if (timeRemaining > 0) {
+            activeCurse = "longhaul";
+        } else {
+            endCursedLonghaul();
+        }
+    }
+    
+    // Check for challenges curse
+    if (cursed_challenges && cursed_challenges_cities_left >= 0) {
+        activeCurse = "challenges";
+    } else if (cursed_challenges && cursed_challenges_cities_left < 0) {
+        endCursedChallenges();
+    }
+    
+    if (activeCurse && (timeRemaining > 0 || activeCurse === "challenges")) {
+        $("#curse-banner").show();
+        
+        if (activeCurse === "longhaul") {
+            const hours = Math.floor(timeRemaining / (60 * 60 * 1000));
+            const minutes = Math.floor((timeRemaining % (60 * 60 * 1000)) / (60 * 1000));
+            const timeString = `${hours}h ${minutes}m`;
+            $("#curse-banner").html('<strong>🚫 CURSED!</strong> You cannot book flights longer than 6,000 km for <span id="curse-time-remaining">' + timeString + '</span>');
+        } else if (activeCurse === "challenges") {
+            $("#curse-banner").html('<strong>🚫 CURSED!</strong> You only get 1 challenge per city for the next <span id="curse-cities-remaining">' + cursed_challenges_cities_left + '</span> city(ies)');
+        }
+    } else {
+        $("#curse-banner").hide();
+    }
 }

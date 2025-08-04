@@ -8,6 +8,10 @@ let currentNextDay = false;
 let currentFlightDate = '';
 
 async function searchFlight(nextDay) {
+    if (randomFlightChallenge && cursed_longhaul && routeDistance > 6000) {
+        startRandomFlight();
+        return;
+    }
     if (routeDistance <= 200) {
         // skip searching
         $("#flight-results").html(`
@@ -315,6 +319,23 @@ function bookFlightConfirm(flightInfo){
     var leaveTime = Math.floor((flightInfo.departUTC - gameTime.getTime()) / 60000)
     $("#confirm-modal").modal('show');
     $("#confirm-title").text(`Booking flight`)
+    
+    // Check if cursed and route is too long
+    if (cursed_longhaul && routeDistance > 6000) {
+        $("#confirm-body").html(`
+            <div class="alert alert-danger" role="alert">
+                <strong>🚫 CURSED!</strong> You cannot book flights longer than 6,000 km while cursed!
+            </div>
+            <b>${origin_iata}</b> -> <b>${dest_iata}</b>
+            <br>Flight time: <b>${flightInfo.Duration}</b>
+            <br>The price is <b>USD$${flightInfo.Price}</b>
+            <br>Route distance: <b>${routeDistance} km</b> (exceeds 6,000 km limit)
+            <br>The current layover at <b>${origin_iata}</b> will be <b>${leaveTime}</b> minutes.
+        `);
+        $("#confirm-button").prop('disabled', true);
+        return;
+    }
+    
     if (flightInfo.Price > budget) {
         $("#confirm-body").html(`
             <div class="alert alert-warning" role="alert">
@@ -322,7 +343,8 @@ function bookFlightConfirm(flightInfo){
             </div>
             <b>${origin_iata}</b> -> <b>${dest_iata}</b>
             <br>Flight time: <b>${flightInfo.Duration}</b>
-            <br>The price is <b>USD$${flightInfo.Price}</b>.
+            <br>The price is <b>USD$${flightInfo.Price}</b>
+            <br>Route distance: <b>${routeDistance} km</b>
             <br>The current layover at <b>${origin_iata}</b> will be <b>${leaveTime}</b> minutes.
         `);
     }
@@ -330,10 +352,12 @@ function bookFlightConfirm(flightInfo){
         $("#confirm-body").html(`
             <b>${origin_iata}</b> -> <b>${dest_iata}</b>
             <br>Flight time: <b>${flightInfo.Duration}</b>
-            <br>The price is <b>USD$${flightInfo.Price}</b>.
+            <br>The price is <b>USD$${flightInfo.Price}</b>
+            <br>Route distance: <b>${routeDistance} km</b>
             <br>The current layover at <b>${origin_iata}</b> will be <b>${leaveTime}</b> minutes.
         `);
     }
+    $("#confirm-button").prop('disabled', false);
     $("#confirm-button").off("click");
     $("#confirm-button").on("click", function() {
         bookFlight(flightInfo);
