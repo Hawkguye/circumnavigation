@@ -209,6 +209,12 @@ function arrivedNewCity(timeStamp){
         cursed_challenges_cities_left--;
         updateCurseBanner();
     }
+    
+    // Handle cursed departures - decrement cities counter
+    if (cursed_departures && cursed_departures_cities_left >= 0) {
+        cursed_departures_cities_left--;
+        updateCurseBanner();
+    }
 
     if (dest_iata == startingIata){
         if (checkLngMissing().length != 0){

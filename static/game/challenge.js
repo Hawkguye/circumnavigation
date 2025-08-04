@@ -365,9 +365,57 @@ const challengeCards = [
             <h6>Reward: $<b>500</b> immediately</h6>
         </div>
     </div>
+    `,
+    // index: 13
+    // cursed -- no departure board for next 2 cities
+    `
+    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+        <img src="{imgDir}curse.png" class="card-img-top" alt="curse">
+        <div class="card-body text-center">
+            <div>
+                <h5 class="card-title">Cursed!</h5>
+                <h6 class="text-end"><b>-- No Departure Board</b></h6>
+            </div>
+            <p class="card-text">
+                You will be cursed for the next <b>2 cities</b> you visit!<br>
+                During this time, you <b>cannot view airport departure boards</b><br>
+                This will make planning your routes much harder!
+            </p>
+        </div>
+        <div class="card-body border-top d-flex text-center">
+            <button class="btn btn-primary mx-auto" id="cursed-departures-start-btn">Start Challenge</button>
+        </div>
+        <div class="card-footer text-center">
+            <h6>Reward: $<b>500</b> immediately</h6>
+        </div>
+    </div>
+    `,
+    // index: 14
+    // cursed -- no expensive tickets for next 2 cities
+    `
+    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+        <img src="{imgDir}curse.png" class="card-img-top" alt="curse">
+        <div class="card-body text-center">
+            <div>
+                <h5 class="card-title">Cursed!</h5>
+                <h6 class="text-end"><b>-- No Expensive Tickets</b></h6>
+            </div>
+            <p class="card-text">
+                For the next <b>2 flights</b> you book,<br>
+                You <b>cannot book flights costing more than $1000</b>.<br>
+                This will limit your flight options significantly!
+            </p>
+        </div>
+        <div class="card-body border-top d-flex text-center">
+            <button class="btn btn-primary mx-auto" id="cursed-expensive-start-btn">Start Challenge</button>
+        </div>
+        <div class="card-footer text-center">
+            <h6>Reward: $<b>500</b> immediately</h6>
+        </div>
+    </div>
     `
 ];
-var challengeCardPick = [1,2,3,4,5,6,7,8,9,10,11,12];
+var challengeCardPick = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
 var finishedCategories = [];
 
 function removeChallenge(challengeIndex) {
@@ -413,14 +461,24 @@ async function drawNewChallenges(){
     // Filter out cursed challenges if another curse is active
     let availableCards = [...challengeCardPick];
     
-    // If longhaul curse is active, remove the challenges curse (index 12)
+    // If longhaul curse is active, remove the challenges curse (index 12), departures curse (index 13), and expensive curse (index 14)
     if (cursed_longhaul) {
-        availableCards = availableCards.filter(card => card !== 12);
+        availableCards = availableCards.filter(card => card !== 12 && card !== 13 && card !== 14);
     }
     
-    // If challenges curse is active, remove the longhaul curse (index 11)
+    // If challenges curse is active, remove the longhaul curse (index 11), departures curse (index 13), and expensive curse (index 14)
     if (cursed_challenges) {
-        availableCards = availableCards.filter(card => card !== 11);
+        availableCards = availableCards.filter(card => card !== 11 && card !== 13 && card !== 14);
+    }
+    
+    // If departures curse is active, remove the longhaul curse (index 11), challenges curse (index 12), and expensive curse (index 14)
+    if (cursed_departures) {
+        availableCards = availableCards.filter(card => card !== 11 && card !== 12 && card !== 14);
+    }
+    
+    // If expensive curse is active, remove the longhaul curse (index 11), challenges curse (index 12), and departures curse (index 13)
+    if (cursed_expensive) {
+        availableCards = availableCards.filter(card => card !== 11 && card !== 12 && card !== 13);
     }
 
     var cards = shuffle.pick(availableCards, { 'picks': numChallenges });
@@ -574,6 +632,26 @@ function bindChallengeButton(id, cardIndex){
         $(`#cursed-challenges-start-btn`).off('click').on('click', function() {
             $("#challange-modal").modal("hide");
             startCursedChallenges();
+            $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
+            removeChallenge(cardIndex);
+        });
+    }
+    
+    // cursed departures
+    if (cardIndex === 13){
+        $(`#cursed-departures-start-btn`).off('click').on('click', function() {
+            $("#challange-modal").modal("hide");
+            startCursedDepartures();
+            $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
+            removeChallenge(cardIndex);
+        });
+    }
+    
+    // cursed expensive
+    if (cardIndex === 14){
+        $(`#cursed-expensive-start-btn`).off('click').on('click', function() {
+            $("#challange-modal").modal("hide");
+            startCursedExpensive();
             $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
             removeChallenge(cardIndex);
         });
@@ -795,9 +873,6 @@ function quitChess(){
 let cursed_longhaul = false;
 let cursed_start_time = 0;
 
-// cursed -- only one challenge drawn for next 2 cities (12)
-let cursed_challenges = false;
-let cursed_challenges_cities_left = 0;
 function startCursedLonghaul(){
     cursed_longhaul = true;
     cursed_start_time = gameTime.getTime();
@@ -817,6 +892,9 @@ function endCursedLonghaul(){
     challangeFinished("🎉 The curse has been lifted! You can now book long-haul flights again.", true);
 }
 
+// cursed -- only one challenge drawn for next 2 cities (12)
+let cursed_challenges = false;
+let cursed_challenges_cities_left = 0;
 function startCursedChallenges(){
     cursed_challenges = true;
     cursed_challenges_cities_left = 2;
@@ -836,6 +914,70 @@ function endCursedChallenges(){
     $("#curse-banner").hide();
     challangeFinished("🎉 The curse has been lifted! You can now get 3 challenges per city again.", true);
 }
+
+// cursed -- no departure board for next 2 cities (13)
+let cursed_departures = false;
+let cursed_departures_cities_left = 0;
+function startCursedDepartures(){
+    cursed_departures = true;
+    cursed_departures_cities_left = 2;
+
+    challangeFinished(`
+        <h6>You are now <strong>cursed</strong>!<h6>
+        <p>You cannot view departure boards for the next <b>2 cities</b> you arrive in.</p>
+        <p>But, you earned <b>$500</b>!</p>
+        `, false);
+    budget += 500;
+    $("#money-left").text(`$${budget}`);
+    updateCurseBanner();
+}
+
+function curseDisableDepButton(){
+    $("#view-schedule-btn").prop("disabled", true).addClass("disabled");
+    $("#view-origin-schedule-btn").prop("disabled", true).addClass("disabled");
+    $("#view-schedule-btn-text").addClass("text-decoration-line-through");
+    $("#view-origin-schedule-btn-text").addClass("text-decoration-line-through");
+}
+
+function endCursedDepartures(){
+    cursed_departures = false;
+    cursed_departures_cities_left = 0;
+    $("#curse-banner").hide();
+    
+    $("#view-schedule-btn").prop("disabled", false).removeClass("disabled");
+    $("#view-origin-schedule-btn").prop("disabled", false).removeClass("disabled");
+    $("#view-schedule-btn-text").removeClass("text-decoration-line-through");
+    $("#view-origin-schedule-btn-text").removeClass("text-decoration-line-through");
+
+    challangeFinished("🎉 The curse has been lifted! You can now view departure boards again.", true);
+}
+
+
+// cursed -- no expensive tickets for next 2 cities (14)
+let cursed_expensive = false;
+let cursed_expensive_cities_left = 0;
+
+function startCursedExpensive(){
+    cursed_expensive = true;
+    cursed_expensive_cities_left = 2;
+    challangeFinished(`
+        <h6>You are now <strong>cursed</strong>!<h6>
+        <p>You cannot book plane ticket costing more than $1000 for the next <b>2 flights</b>.</p>
+        <p>But, you earned <b>$500</b>!</p>
+        `, false);
+    budget += 500;
+    $("#money-left").text(`$${budget}`);
+    updateCurseBanner();
+}
+
+function endCursedExpensive(){
+    cursed_expensive = false;
+    cursed_expensive_cities_left = 0;
+    $("#curse-banner").hide();
+    challangeFinished("🎉 The curse has been lifted! You can now book expensive flights again.", true);
+}
+
+
 
 function updateCurseBanner() {
     const curseDuration = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
@@ -861,7 +1003,24 @@ function updateCurseBanner() {
         endCursedChallenges();
     }
     
-    if (activeCurse && (timeRemaining > 0 || activeCurse === "challenges")) {
+    // Check for departures curse
+    if (cursed_departures && cursed_departures_cities_left >= 0) {
+        activeCurse = "departures";
+        if (cursed_departures_cities_left == 1){
+            curseDisableDepButton();
+        }
+    } else if (cursed_departures && cursed_departures_cities_left < 0) {
+        endCursedDepartures();
+    }
+    
+    // Check for expensive curse
+    if (cursed_expensive && cursed_expensive_cities_left > 0) {
+        activeCurse = "expensive";
+    } else if (cursed_expensive && cursed_expensive_cities_left <= 0) {
+        endCursedExpensive();
+    }
+    
+    if (activeCurse && (timeRemaining > 0 || activeCurse === "challenges" || activeCurse === "departures" || activeCurse === "expensive")) {
         $("#curse-banner").show();
         
         if (activeCurse === "longhaul") {
@@ -871,6 +1030,10 @@ function updateCurseBanner() {
             $("#curse-banner").html('<strong>🚫 CURSED!</strong> You cannot book flights longer than 6,000 km for <span id="curse-time-remaining">' + timeString + '</span>');
         } else if (activeCurse === "challenges") {
             $("#curse-banner").html('<strong>🚫 CURSED!</strong> You only get 1 challenge per city for the next <span id="curse-cities-remaining">' + cursed_challenges_cities_left + '</span> city(ies)');
+        } else if (activeCurse === "departures") {
+            $("#curse-banner").html('<strong>🚫 CURSED!</strong> You cannot view departure boards for the next <span id="curse-departures-remaining">' + cursed_departures_cities_left + '</span> city(ies)');
+        } else if (activeCurse === "expensive") {
+            $("#curse-banner").html('<strong>🚫 CURSED!</strong> You cannot book flights costing more than $1000 for the next <span id="curse-expensive-remaining">' + cursed_expensive_cities_left + '</span> flight(s)');
         }
     } else {
         $("#curse-banner").hide();

@@ -336,6 +336,22 @@ function bookFlightConfirm(flightInfo){
         return;
     }
     
+    // Check if cursed and flight is too expensive
+    if (cursed_expensive && flightInfo.Price > 1000) {
+        $("#confirm-body").html(`
+            <div class="alert alert-danger" role="alert">
+                <strong>🚫 CURSED!</strong> You cannot book flights costing more than $1000 while cursed!
+            </div>
+            <b>${origin_iata}</b> -> <b>${dest_iata}</b>
+            <br>Flight time: <b>${flightInfo.Duration}</b>
+            <br>The price is <b>USD$${flightInfo.Price}</b> (exceeds $1000 limit)
+            <br>Route distance: <b>${routeDistance} km</b>
+            <br>The current layover at <b>${origin_iata}</b> will be <b>${leaveTime}</b> minutes.
+        `);
+        $("#confirm-button").prop('disabled', true);
+        return;
+    }
+    
     if (flightInfo.Price > budget) {
         $("#confirm-body").html(`
             <div class="alert alert-warning" role="alert">
@@ -532,6 +548,11 @@ function bookFlight(flightInfo) {
 
         map.addLayer(marker1);
         map.fitBounds(part1.getBounds());
+    }
+    
+    if (cursed_expensive && cursed_expensive_cities_left >= 0) {
+        cursed_expensive_cities_left--;
+        updateCurseBanner();
     }
 }
 
