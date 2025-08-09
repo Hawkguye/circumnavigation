@@ -839,6 +839,8 @@ function viewSchedule(isOrigin = false) {
     if (iata === lastViewedScheduleIata) {
         // Just show the modal without refreshing data
         $("#schedule-modal").modal('show');
+        // Set current time in modal header
+        $("#schedule-modal-time").text(`Local Time Now: ${toTimeFormat(localTime)}`);
         return;
     }
 
@@ -880,10 +882,9 @@ function viewSchedule(isOrigin = false) {
                         <td>${flight.local_departure_time}</td>
                         <td>${flight.local_arrival_time}</td>
                         <td><b>${flight.destination_iata}</b> - ${flight.destination_city}, ${flight.destination_country}</td>
-                        <td>${flight.duration}</td>
-                        <td>${flight.airline_name}</td>
                         <td>${flight.flight_number}</td>
-                        <td>${flight.aircraft_model}</td>
+                        <td>${flight.airline_name}</td>
+                        <td>${flight.duration}</td>
                     </tr>
                 `);
             });

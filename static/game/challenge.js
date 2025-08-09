@@ -6,7 +6,7 @@ const challengeCards = [
     // index: 0
     // placeholder card 
     `
-    <div class="card challange-card border-2 border-dark" style="height: 350px;">
+    <div class="card challange-card" style="height: 350px;">
         <div class="card-body text-center">
             <div class="placeholder-glow">
                 <h5 class="card-title">
@@ -37,7 +37,7 @@ const challengeCards = [
     // index: 1
     // trivia card -- General Knowledge
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}trivia.png" class="card-img-top" alt="trivia">
         <div class="card-body text-center">
             <div>
@@ -68,7 +68,7 @@ const challengeCards = [
     // index: 2
     // trivia card -- All Categories
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}trivia.png" class="card-img-top" alt="trivia">
         <div class="card-body text-center">
             <div>
@@ -90,7 +90,7 @@ const challengeCards = [
     // index: 3
     // trivia card -- Category Specified
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}trivia.png" class="card-img-top" alt="trivia">
         <div class="card-body text-center">
             <div>
@@ -140,7 +140,7 @@ const challengeCards = [
     // index: 4
     // minigame --2048
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}2048.png" class="card-img-top" alt="2048">
         <div class="card-body text-center">
             <div>
@@ -166,7 +166,7 @@ const challengeCards = [
     // index: 5
     // minigame --wordle
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}wordle.png" class="card-img-top" alt="wordle">
         <div class="card-body text-center">
             <div>
@@ -194,7 +194,7 @@ const challengeCards = [
     // index: 6
     // minigame --dino
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}dino.png" class="card-img-top" alt="dino">
         <div class="card-body text-center">
             <div>
@@ -220,7 +220,7 @@ const challengeCards = [
     // index: 7
     // minigame -- fly to a random city
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}curse.png" class="card-img-top" alt="flight">
         <div class="card-body text-center">
             <div>
@@ -243,7 +243,7 @@ const challengeCards = [
     // index: 8
     // minigame --snake
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}snake.png" class="card-img-top" alt="snake">
         <div class="card-body text-center">
             <div>
@@ -269,7 +269,7 @@ const challengeCards = [
     // index: 9
     // minigame --flappy bird
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}flappy-bird.png" class="card-img-top" alt="flappy-bird">
         <div class="card-body text-center">
             <div>
@@ -296,7 +296,7 @@ const challengeCards = [
     // index: 10
     // minigame --chess puzzle
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}chess.png" class="card-img-top" alt="chess">
         <div class="card-body text-center">
             <div>
@@ -321,7 +321,7 @@ const challengeCards = [
     // index: 11
     // cursed -- no flight longer than 6000km for 24 hrs
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}curse.png" class="card-img-top" alt="curse">
         <div class="card-body text-center">
             <div>
@@ -345,7 +345,7 @@ const challengeCards = [
     // index: 12
     // cursed -- only one challenge drawn for 24 hrs
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}curse.png" class="card-img-top" alt="curse">
         <div class="card-body text-center">
             <div>
@@ -369,8 +369,8 @@ const challengeCards = [
     // index: 13
     // cursed -- no departure board for next 2 cities
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
-        <img src="{imgDir}curse.png" class="card-img-top" alt="curse">
+    <div class="card challange-card" id="challenge-card-{id}">
+        <img src="{imgDir}cursed_departure.png" class="card-img-top" alt="curse">
         <div class="card-body text-center">
             <div>
                 <h5 class="card-title">Cursed!</h5>
@@ -393,7 +393,7 @@ const challengeCards = [
     // index: 14
     // cursed -- no expensive tickets for next 2 cities
     `
-    <div class="card challange-card border-2 border-dark" id="challenge-card-{id}">
+    <div class="card challange-card" id="challenge-card-{id}">
         <img src="{imgDir}curse.png" class="card-img-top" alt="curse">
         <div class="card-body text-center">
             <div>
@@ -413,9 +413,24 @@ const challengeCards = [
             <h6>Reward: $<b>500</b> immediately</h6>
         </div>
     </div>
+    `,
+    // index: 15
+    // get trolled -- no card
+    `
+    <div class="card challange-card" id="challenge-card-{id}">
+        <img src="{imgDir}block.png" class="card-img-top" alt="curse">
+        <div class="card-body text-center">
+            <div>
+                <h5 class="card-title">Empty Card</h5>
+            </div>
+            <p class="card-text">
+                This is an empty card, you do not get a challenge.
+            </p>
+        </div>
+    </div>
     `
 ];
-var challengeCardPick = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+var challengeCardPick = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
 var finishedCategories = [];
 
 function removeChallenge(challengeIndex) {
