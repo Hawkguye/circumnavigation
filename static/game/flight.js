@@ -322,18 +322,52 @@ function bookFlightConfirm(flightInfo){
     
     // Check if cursed and route is too long
     if (cursed_longhaul && routeDistance > 6000) {
-        $("#confirm-body").html(`
-            <div class="alert alert-danger" role="alert">
-                <strong>🚫 CURSED!</strong> You cannot book flights longer than 6,000 km while cursed!
-            </div>
-            <b>${origin_iata}</b> -> <b>${dest_iata}</b>
-            <br>Flight time: <b>${flightInfo.Duration}</b>
-            <br>The price is <b>USD$${flightInfo.Price}</b>
-            <br>Route distance: <b>${routeDistance} km</b> (exceeds 6,000 km limit)
-            <br>The current layover at <b>${origin_iata}</b> will be <b>${leaveTime}</b> minutes.
-        `);
-        $("#confirm-button").prop('disabled', true);
-        return;
+        const curseDuration = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+        const curseEndTime = cursed_start_time + curseDuration;
+        const flightDepartureTime = flightInfo.departUTC;
+        
+        // Check if flight departure time is past the curse end time
+        if (flightDepartureTime >= curseEndTime) {
+            // Allow booking and update game time to flight departure time
+            $("#confirm-body").html(`
+                <div class="alert alert-warning" role="alert">
+                    <strong>⚠️ CURSE EXPIRES SOON!</strong> Your curse will end before this flight departs, so you can book it!
+                </div>
+                <b>${origin_iata}</b> -> <b>${dest_iata}</b>
+                <br>Flight time: <b>${flightInfo.Duration}</b>
+                <br>The price is <b>USD$${flightInfo.Price}</b>
+                <br>Route distance: <b>${routeDistance} km</b>
+                <br>The current layover at <b>${origin_iata}</b> will be <b>${leaveTime}</b> minutes.
+                <br><small class="text-muted">Game time will advance to flight departure time.</small>
+            `);
+            $("#confirm-button").prop('disabled', false);
+            $("#confirm-button").off("click");
+            $("#confirm-button").on("click", function() {
+                // Update game time to flight departure time before booking
+                gameTimeUpdate(flightDepartureTime);
+                bookFlight(flightInfo);
+                if (randomFlightChallenge){
+                    $("#confirm-cancel-button").removeAttr('disabled');
+                    $("#confirm-modal .btn-close").removeAttr('disabled');
+                    finishRandomFlight();
+                }
+            });
+            return;
+        } else {
+            // Curse is still active during flight departure
+            $("#confirm-body").html(`
+                <div class="alert alert-danger" role="alert">
+                    <strong>🚫 CURSED!</strong> You cannot book flights longer than 6,000 km while cursed!
+                </div>
+                <b>${origin_iata}</b> -> <b>${dest_iata}</b>
+                <br>Flight time: <b>${flightInfo.Duration}</b>
+                <br>The price is <b>USD$${flightInfo.Price}</b>
+                <br>Route distance: <b>${routeDistance} km</b> (exceeds 6,000 km limit)
+                <br>The current layover at <b>${origin_iata}</b> will be <b>${leaveTime}</b> minutes.
+            `);
+            $("#confirm-button").prop('disabled', true);
+            return;
+        }
     }
     
     // Check if cursed and flight is too expensive

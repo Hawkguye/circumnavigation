@@ -166,8 +166,10 @@ function initTooltip(){
 
     // how to play button
     const howToPlayEl = document.getElementById('how-to-play-button')
-    const howToPlayTooltip = new bootstrap.Tooltip(howToPlayEl, {
-        placement: 'bottom',
-        title: 'How to Play'
-    });
+    if (howToPlayEl){
+        const howToPlayTooltip = new bootstrap.Tooltip(howToPlayEl, {
+            placement: 'bottom',
+            title: 'How to Play'
+        });
+    }
 }

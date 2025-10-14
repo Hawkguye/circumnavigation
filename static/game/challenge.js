@@ -213,7 +213,7 @@ const challengeCards = [
             <button class="btn btn-primary mx-auto" id="dino-start-btn">Start Challenge</button>
         </div>
         <div class="card-footer text-center">
-            <h6>Reward: $(Your Highest Score)</h6>
+            <h6>Reward: $(Your Highest Score divided by 2)</h6>
         </div>
     </div>
     `,
@@ -338,7 +338,7 @@ const challengeCards = [
             <button class="btn btn-primary mx-auto" id="cursed-longhaul-start-btn">Start Challenge</button>
         </div>
         <div class="card-footer text-center">
-            <h6>Reward: $<b>800</b> immediately</h6>
+            <h6>Reward: $<b>1000</b> immediately</h6>
         </div>
     </div>
     `,
@@ -415,17 +415,25 @@ const challengeCards = [
     </div>
     `,
     // index: 15
-    // get trolled -- no card
+    // the snack zone (empty card)
     `
     <div class="card challange-card" id="challenge-card-{id}">
-        <img src="{imgDir}block.png" class="card-img-top" alt="curse">
+        <img src="{imgDir}snackzoneintro.gif" class="card-img-top" style="height: auto; width: 100%; margin-top: 0px;" alt="The Snack Zone Intro gif">
         <div class="card-body text-center">
             <div>
-                <h5 class="card-title">Empty Card</h5>
+                <h5 class="card-title">The Snack Zone</h5>
             </div>
             <p class="card-text">
-                This is an empty card, you do not get a challenge.
+                You have just entered <b>The SNACK ZONE</b> BABYYYY!!!
+                <br>
+                Takes 10 mins of game time. You get no reward, only aura.
             </p>
+        </div>
+        <div class="card-body border-top d-flex text-center">
+            <button class="btn btn-primary mx-auto" id="snackzone-start-btn">Start Challenge</button>
+        </div>
+        <div class="card-footer text-center">
+            <h6>Reward: None</h6>
         </div>
     </div>
     `
@@ -482,14 +490,14 @@ async function drawNewChallenges(){
     }
     
     // If challenges curse is active, remove the longhaul curse (index 11), departures curse (index 13), and expensive curse (index 14)
-    if (cursed_challenges) {
-        availableCards = availableCards.filter(card => card !== 11 && card !== 13 && card !== 14);
-    }
+    // if (cursed_challenges) {
+    //     availableCards = availableCards.filter(card => card !== 11 && card !== 13 && card !== 14);
+    // }
     
     // If departures curse is active, remove the longhaul curse (index 11), challenges curse (index 12), and expensive curse (index 14)
-    if (cursed_departures) {
-        availableCards = availableCards.filter(card => card !== 11 && card !== 12 && card !== 14);
-    }
+    // if (cursed_departures) {
+    //     availableCards = availableCards.filter(card => card !== 11 && card !== 12 && card !== 14);
+    // }
     
     // If expensive curse is active, remove the longhaul curse (index 11), challenges curse (index 12), and departures curse (index 13)
     if (cursed_expensive) {
@@ -671,6 +679,16 @@ function bindChallengeButton(id, cardIndex){
             removeChallenge(cardIndex);
         });
     }
+
+    // snake zone
+    if (cardIndex === 15){
+        $(`#snackzone-start-btn`).off('click').on('click', function() {
+            $("#challange-modal").modal("hide");
+            startSnackzone();
+            $(`#challenge-card-${id}`).html(challengeCards[0].replace("{title}", "Challenge Finished."));
+            removeChallenge(cardIndex);
+        });
+    }
 }
 
 function challangeFinished(text, cheers){
@@ -787,8 +805,9 @@ function quitDino(){
 function finishDino(score){
     document.getElementById("minigame-canvas").removeEventListener('touchmove', preventTouchScroll);
     $("#minigame-canvas").html("").hide();
-    challangeFinished(`Highest score: ${score}.<br>You earned $${score}!<br>30 minutes in game time has passed.`, true);
-    budget += score;
+    let reward = Math.floor(score/2);
+    challangeFinished(`Highest score: ${score}.<br>You earned $${reward}!<br>30 minutes in game time has passed.`, true);
+    budget += reward;
     $("#money-left").text(`$${budget}`);
     gameTimeUpdate(gameTime.getTime() + 30 * 60 * 1000);
 }
@@ -894,16 +913,16 @@ function startCursedLonghaul(){
     challangeFinished(`
         <h6>You are now <strong>cursed</strong>!<h6>
         <p>You cannot travel on a flight longer than <b>6,000 km</b> for <b>24 hours</b>.</p>
-        <p>But, you earned <b>$600</b>!</p>
+        <p>But, you earned <b>$1000</b>!</p>
         `, false);
-    budget += 800;
+    budget += 1000;
     $("#money-left").text(`$${budget}`);
     updateCurseBanner();
 }
 function endCursedLonghaul(){
     cursed_longhaul = false;
     cursed_start_time = 0;
-    $("#curse-banner").hide();
+    updateCurseBanner();
     challangeFinished("🎉 The curse has been lifted! You can now book long-haul flights again.", true);
 }
 
@@ -926,7 +945,7 @@ function startCursedChallenges(){
 function endCursedChallenges(){
     cursed_challenges = false;
     cursed_challenges_cities_left = 0;
-    $("#curse-banner").hide();
+    updateCurseBanner();
     challangeFinished("🎉 The curse has been lifted! You can now get 3 challenges per city again.", true);
 }
 
@@ -957,7 +976,7 @@ function curseDisableDepButton(){
 function endCursedDepartures(){
     cursed_departures = false;
     cursed_departures_cities_left = 0;
-    $("#curse-banner").hide();
+    updateCurseBanner();
     
     $("#view-schedule-btn").prop("disabled", false).removeClass("disabled");
     $("#view-origin-schedule-btn").prop("disabled", false).removeClass("disabled");
@@ -988,7 +1007,7 @@ function startCursedExpensive(){
 function endCursedExpensive(){
     cursed_expensive = false;
     cursed_expensive_cities_left = 0;
-    $("#curse-banner").hide();
+    updateCurseBanner();
     challangeFinished("🎉 The curse has been lifted! You can now book expensive flights again.", true);
 }
 
@@ -996,7 +1015,7 @@ function endCursedExpensive(){
 
 function updateCurseBanner() {
     const curseDuration = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
-    let activeCurse = null;
+    let activeCurses = [];
     let timeRemaining = 0;
     
     // Check for longhaul curse
@@ -1005,7 +1024,10 @@ function updateCurseBanner() {
         timeRemaining = curseDuration - timeElapsed;
         
         if (timeRemaining > 0) {
-            activeCurse = "longhaul";
+            activeCurses.push({
+                type: "longhaul",
+                timeRemaining: timeRemaining
+            });
         } else {
             endCursedLonghaul();
         }
@@ -1013,14 +1035,20 @@ function updateCurseBanner() {
     
     // Check for challenges curse
     if (cursed_challenges && cursed_challenges_cities_left >= 0) {
-        activeCurse = "challenges";
+        activeCurses.push({
+            type: "challenges",
+            citiesLeft: cursed_challenges_cities_left
+        });
     } else if (cursed_challenges && cursed_challenges_cities_left < 0) {
         endCursedChallenges();
     }
     
     // Check for departures curse
     if (cursed_departures && cursed_departures_cities_left >= 0) {
-        activeCurse = "departures";
+        activeCurses.push({
+            type: "departures",
+            citiesLeft: cursed_departures_cities_left
+        });
         if (cursed_departures_cities_left == 1){
             curseDisableDepButton();
         }
@@ -1030,27 +1058,56 @@ function updateCurseBanner() {
     
     // Check for expensive curse
     if (cursed_expensive && cursed_expensive_cities_left > 0) {
-        activeCurse = "expensive";
+        activeCurses.push({
+            type: "expensive",
+            flightsLeft: cursed_expensive_cities_left
+        });
     } else if (cursed_expensive && cursed_expensive_cities_left <= 0) {
         endCursedExpensive();
     }
     
-    if (activeCurse && (timeRemaining > 0 || activeCurse === "challenges" || activeCurse === "departures" || activeCurse === "expensive")) {
-        $("#curse-banner").show();
-        
-        if (activeCurse === "longhaul") {
-            const hours = Math.floor(timeRemaining / (60 * 60 * 1000));
-            const minutes = Math.floor((timeRemaining % (60 * 60 * 1000)) / (60 * 1000));
-            const timeString = `${hours}h ${minutes}m`;
-            $("#curse-banner").html('<strong>🚫 CURSED!</strong> You cannot book flights longer than 6,000 km for <span id="curse-time-remaining">' + timeString + '</span>');
-        } else if (activeCurse === "challenges") {
-            $("#curse-banner").html('<strong>🚫 CURSED!</strong> You only get 1 challenge per city for the next <span id="curse-cities-remaining">' + cursed_challenges_cities_left + '</span> city(ies)');
-        } else if (activeCurse === "departures") {
-            $("#curse-banner").html('<strong>🚫 CURSED!</strong> You cannot view departure boards for the next <span id="curse-departures-remaining">' + cursed_departures_cities_left + '</span> city(ies)');
-        } else if (activeCurse === "expensive") {
-            $("#curse-banner").html('<strong>🚫 CURSED!</strong> You cannot book flights costing more than $1000 for the next <span id="curse-expensive-remaining">' + cursed_expensive_cities_left + '</span> flight(s)');
-        }
-    } else {
-        $("#curse-banner").hide();
+    // Clear existing curse banners
+    $(".curse-banner").remove();
+    
+    if (activeCurses.length > 0) {
+        activeCurses.forEach((curse, index) => {
+            let bannerHtml = '';
+            
+            if (curse.type === "longhaul") {
+                const hours = Math.floor(curse.timeRemaining / (60 * 60 * 1000));
+                const minutes = Math.floor((curse.timeRemaining % (60 * 60 * 1000)) / (60 * 1000));
+                const timeString = `${hours}h ${minutes}m`;
+                bannerHtml = '<strong>🚫 CURSED!</strong> You cannot book flights longer than 6,000 km for <span id="curse-time-remaining">' + timeString + '</span>';
+            } else if (curse.type === "challenges") {
+                bannerHtml = '<strong>🚫 CURSED!</strong> You only get 1 challenge per city for the next <span id="curse-cities-remaining">' + curse.citiesLeft + '</span> city(ies)';
+            } else if (curse.type === "departures") {
+                bannerHtml = '<strong>🚫 CURSED!</strong> You cannot view departure boards for the next <span id="curse-departures-remaining">' + curse.citiesLeft + '</span> city(ies)';
+            } else if (curse.type === "expensive") {
+                bannerHtml = '<strong>🚫 CURSED!</strong> You cannot book flights costing more than $1000 for the next <span id="curse-expensive-remaining">' + curse.flightsLeft + '</span> flight(s)';
+            }
+            
+            // Determine banner color based on number of active curses
+            let backgroundColor = '#6a376a'; // Default purple color for single curse
+            if (activeCurses.length > 1) {
+                // Use different colors for multiple curses
+                const colors = ['#6a376a', '#661c37', '#400004', '#1a0000'];
+                backgroundColor = colors[index % colors.length];
+            }
+            
+            // Create new banner element
+            const bannerElement = $('<div class="curse-banner alert alert-danger text-center mb-0 py-1 rounded-0" style="background-color: ' + backgroundColor + '; color: white; border: none;">' + bannerHtml + '</div>');
+            
+            // Insert after the navbar
+            $("#navbar-wrapper").append(bannerElement);
+        });
     }
+}
+
+function startSnackzone() {
+    challangeFinished(`
+        <img src="${imgDir}snackzoneoutro.gif" alt="Snack Zone Outro" style="width: 100%; display:block; margin:0 auto 20px auto;">
+        <h6 class="text-center">Thanks for kickin' it in <b>The Snack Zone</b>!</h6>
+        <p class="text-center">10 minutes in game time has passed.</p>
+        `, true);
+    gameTimeUpdate(gameTime.getTime() + 10 * 60 * 1000);
 }

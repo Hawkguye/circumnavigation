@@ -66,7 +66,7 @@ function drawRouteLine(dest_latlng, opt, route) {
 
         let polyline;
         if (opt === 'leaderboard') {
-            polyline = L.polyline(shiftedLatLngs.map(c => [c[0], c[1]]), {color: 'red'}).addTo(map);
+            polyline = L.polyline(shiftedLatLngs.map(c => [c[0], c[1]]), {color: 'orange', opacity: 0.5}).addTo(map);
             polyline.routeData = route; // Store the route data with the polyline
             leaderboardPolyline.push(polyline);
         }
