@@ -14,6 +14,16 @@ import logging
 
 iata_to_icao = {'KEF': 'BIKF', 'YEG': 'CYEG', 'YHZ': 'CYHZ', 'YOW': 'CYOW', 'YUL': 'CYUL', 'YVR': 'CYVR', 'YWG': 'CYWG', 'YYC': 'CYYC', 'YYZ': 'CYYZ', 'ALG': 'DAAG', 'ACC': 'DGAA', 'LOS': 'DNMM', 'TUN': 'DTTA', 'BRU': 'EBBR', 'BER': 'EDDB', 'FRA': 'EDDF', 'HAM': 'EDDH', 'CGN': 'EDDK', 'DUS': 'EDDL', 'MUC': 'EDDM', 'NUE': 'EDDN', 'LEJ': 'EDDP', 'STR': 'EDDS', 'HAJ': 'EDDV', 'TLL': 'EETN', 'HEL': 'EFHK', 'BFS': 'EGAA', 'BHX': 'EGBB', 'MAN': 'EGCC', 'LTN': 'EGGW', 'LGW': 'EGKK', 'LHR': 'EGLL', 'GLA': 'EGPF', 'EDI': 'EGPH', 'STN': 'EGSS', 'AMS': 'EHAM', 'EIN': 'EHEH', 'DUB': 'EIDW', 'BLL': 'EKBI', 'CPH': 'EKCH', 'LUX': 'ELLX', 'BGO': 'ENBR', 'OSL': 'ENGM', 'TOS': 'ENTC', 'TRD': 'ENVA', 'SVG': 'ENZV', 'GDN': 'EPGD', 'KRK': 'EPKK', 'WAW': 'EPWA', 'GOT': 'ESGG', 'ARN': 'ESSA', 'RIX': 'EVRA', 'VNO': 'EYVI', 'CPT': 'FACT', 'JNB': 'FAOR', 'MRU': 'FIMP', 'LAD': 'FNLU', 'SEZ': 'FSIA', 'FUE': 'GCFV', 'LPA': 'GCLP', 'ACE': 'GCRR', 'TFS': 'GCTS', 'CMN': 'GMMN', 'DSS': 'GOBD', 'SID': 'GVAC', 'ADD': 'HAAB', 'CAI': 'HECA', 'HRG': 'HEGN', 'SSH': 'HESH', 'NBO': 'HKJK', 'MBA': 'HKMO', 'KGL': 'HRYR', 'KRT': 'HSSK', 'DAR': 'HTDA', 'ZNZ': 'HTZA', 'EBB': 'HUEN', 'ATL': 'KATL', 'AUS': 'KAUS', 'BNA': 'KBNA', 'BOS': 'KBOS', 'BUF': 'KBUF', 'BWI': 'KBWI', 'CLE': 'KCLE', 'CLT': 'KCLT', 'CMH': 'KCMH', 'CVG': 'KCVG', 'DCA': 'KDCA', 'DEN': 'KDEN', 'DFW': 'KDFW', 'DTW': 'KDTW', 'EWR': 'KEWR', 'FLL': 'KFLL', 'IAD': 'KIAD', 'IAH': 'KIAH', 'IND': 'KIND', 'JAX': 'KJAX', 'JFK': 'KJFK', 'LAS': 'KLAS', 'LAX': 'KLAX', 'LGA': 'KLGA', 'MCI': 'KMCI', 'MCO': 'KMCO', 'MDW': 'KMDW', 'MEM': 'KMEM', 'MIA': 'KMIA', 'MKE': 'KMKE', 'MSP': 'KMSP', 'MSY': 'KMSY', 'OAK': 'KOAK', 'OMA': 'KOMA', 'ONT': 'KONT', 'ORD': 'KORD', 'PBI': 'KPBI', 'PDX': 'KPDX', 'PHL': 'KPHL', 'PHX': 'KPHX', 'PIT': 'KPIT', 'PVD': 'KPVD', 'PWM': 'KPWM', 'RDU': 'KRDU', 'RIC': 'KRIC', 'RNO': 'KRNO', 'RSW': 'KRSW', 'SAN': 'KSAN', 'SAT': 'KSAT', 'SAV': 'KSAV', 'SDF': 'KSDF', 'SEA': 'KSEA', 'SFB': 'KSFB', 'SFO': 'KSFO', 'SJC': 'KSJC', 'SLC': 'KSLC', 'SMF': 'KSMF', 'SNA': 'KSNA', 'STL': 'KSTL', 'SYR': 'KSYR', 'TPA': 'KTPA', 'TUL': 'KTUL', 'TIA': 'LATI', 'BOJ': 'LBBG', 'SOF': 'LBSF', 'VAR': 'LBWN', 'LCA': 'LCLK', 'ZAG': 'LDZA', 'ALC': 'LEAL', 'BCN': 'LEBL', 'IBZ': 'LEIB', 'MAD': 'LEMD', 'AGP': 'LEMG', 'PMI': 'LEPA', 'SCQ': 'LEST', 'BOD': 'LFBD', 'TLS': 'LFBO', 'LYS': 'LFLL', 'MRS': 'LFML', 'NCE': 'LFMN', 'CDG': 'LFPG', 'ORY': 'LFPO', 'BSL': 'LFSB', 'ATH': 'LGAV', 'HER': 'LGIR', 'SKG': 'LGTS', 'BUD': 'LHBP', 'BRI': 'LIBD', 'BDS': 'LIBR', 'CTA': 'LICC', 'PMO': 'LICJ', 'CAG': 'LIEE', 'MXP': 'LIMC', 'BGY': 'LIME', 'TRN': 'LIMF', 'BLQ': 'LIPE', 'VRN': 'LIPX', 'VCE': 'LIPZ', 'FCO': 'LIRF', 'NAP': 'LIRN', 'PSA': 'LIRP', 'LJU': 'LJLJ', 'PRG': 'LKPR', 'TLV': 'LLBG', 'MLA': 'LMML', 'VIE': 'LOWW', 'FAO': 'LPFR', 'FNC': 'LPMA', 'OPO': 'LPPR', 'LIS': 'LPPT', 'OTP': 'LROP', 'GVA': 'LSGG', 'ZRH': 'LSZH', 'ESB': 'LTAC', 'AYT': 'LTAI', 'ADB': 'LTBJ', 'DLM': 'LTBS', 'BJV': 'LTFE', 'SAW': 'LTFJ', 'IST': 'LTFM', 'SKP': 'LWSK', 'BEG': 'LYBE', 'TGD': 'LYPG', 'PLS': 'MBPV', 'PUJ': 'MDPC', 'SDQ': 'MDSD', 'GUA': 'MGGT', 'KIN': 'MKJP', 'GDL': 'MMGL', 'HMO': 'MMHO', 'BJX': 'MMLO', 'MEX': 'MMMX', 'MTY': 'MMMY', 'MZT': 'MMMZ', 'PVR': 'MMPR', 'SJD': 'MMSD', 'TIJ': 'MMTJ', 'CUN': 'MMUN', 'PTY': 'MPTO', 'LIR': 'MRLB', 'SAL': 'MSLP', 'PAP': 'MTPP', 'HAV': 'MUHA', 'GCM': 'MWCR', 'NAS': 'MYNN', 'BZE': 'MZBZ', 'AKL': 'NZAA', 'BAH': 'OBBI', 'DMM': 'OEDF', 'JED': 'OEJN', 'MED': 'OEMA', 'RUH': 'OERK', 'IKA': 'OIIE', 'AMM': 'OJAI', 'KWI': 'OKBK', 'BEY': 'OLBA', 'AUH': 'OMAA', 'DXB': 'OMDB', 'SHJ': 'OMSJ', 'MCT': 'OOMS', 'ISB': 'OPIS', 'KHI': 'OPKC', 'LHE': 'OPLA', 'BGW': 'ORBI', 'DOH': 'OTHH', 'ANC': 'PANC', 'HNL': 'PHNL', 'KHH': 'RCKH', 'TPE': 'RCTP', 'NRT': 'RJAA', 'KIX': 'RJBB', 'CTS': 'RJCC', 'FUK': 'RJFF', 'NGO': 'RJGG', 'HND': 'RJTT', 'PUS': 'RKPK', 'ICN': 'RKSI', 'MNL': 'RPLL', 'CEB': 'RPVM', 'EZE': 'SAEZ', 'BSB': 'SBBR', 'CNF': 'SBCF', 'GIG': 'SBGL', 'GRU': 'SBGR', 'SCL': 'SCEL', 'GYE': 'SEGU', 'UIO': 'SEQM', 'BOG': 'SKBO', 'LIM': 'SPIM', 'CCS': 'SVMI', 'TAO': 'TAO', 'SJU': 'TJSJ', 'AUA': 'TNCA', 'CUR': 'TNCC', 'SXM': 'TNCM', 'ALA': 'UAAA', 'NQZ': 'UACC', 'FRU': 'UAFM', 'GYD': 'UBBB', 'EVN': 'UDYZ', 'TBS': 'UGTB', 'KBP': 'UKBB', 'LWO': 'UKLL', 'LED': 'ULLI', 'MSQ': 'UMMS', 'KJA': 'UNKL', 'OVB': 'UNNT', 'ROV': 'URRP', 'AER': 'URSS', 'SVX': 'USSS', 'TAS': 'UTTT', 'ZIA': 'UUBW', 'DME': 'UUDD', 'SVO': 'UUEE', 'VKO': 'UUWW', 'KZN': 'UWKD', 'UFA': 'UWUU', 'KUF': 'UWWW', 'BOM': 'VABB', 'GOI': 'VAGO', 'CMB': 'VCBI', 'PNH': 'VDPP', 'CCU': 'VECC', 'DAC': 'VGZR', 'HKG': 'VHHH', 'DEL': 'VIDP', 'MFM': 'VMMC', 'KTM': 'VNKT', 'BLR': 'VOBL', 'COK': 'VOCI', 'HYD': 'VOHS', 'MAA': 'VOMM', 'TRV': 'VOTV', 'MLE': 'VRMM', 'DMK': 'VTBD', 'BKK': 'VTBS', 'HKT': 'VTSP', 'HAN': 'VVNB', 'SGN': 'VVTS', 'RGN': 'VYYY', 'DPS': 'WADD', 'BWN': 'WBSB', 'CGK': 'WIII', 'KUL': 'WMKK', 'SIN': 'WSSS', 'BNE': 'YBBN', 'MEL': 'YMML', 'YNT': 'YNT', 'ADL': 'YPAD', 'PER': 'YPPH', 'SYD': 'YSSY', 'PEK': 'ZBAA', 'PKX': 'ZBAD', 'HET': 'ZBHH', 'TSN': 'ZBTJ', 'TYN': 'ZBYN', 'CAN': 'ZGGG', 'CSX': 'ZGHA', 'KWL': 'ZGKL', 'NNG': 'ZGNN', 'SZX': 'ZGSZ', 'CGO': 'ZHCC', 'WUH': 'ZHHH', 'HAK': 'ZJHK', 'SYX': 'ZJSY', 'LHW': 'ZLLL', 'XIY': 'ZLXY', 'KMG': 'ZPPP', 'XMN': 'ZSAM', 'KHN': 'ZSCN', 'FOC': 'ZSFZ', 'HGH': 'ZSHC', 'TNA': 'ZSJN', 'NGB': 'ZSNB', 'NKG': 'ZSNJ', 'PVG': 'ZSPD', 'SHA': 'ZSSS', 'WNZ': 'ZSWZ', 'CKG': 'ZUCK', 'KWE': 'ZUGY', 'TFU': 'ZUTF', 'CTU': 'ZUUU', 'URC': 'ZWWW', 'CGQ': 'ZYCC', 'HRB': 'ZYHB', 'DLC': 'ZYTL', 'SHE': 'ZYTX'}
 
+def create_driver():
+    option = Options()
+    option.add_argument("--headless")
+    option.add_argument("--disable-gpu")
+    option.add_argument("window-size=1024,768")
+    option.add_argument("--no-sandbox")
+    service = Service()
+    driver = webdriver.Chrome(service=service, options=option)
+    return driver
+
 
 class flight:
     def __init__(self, org, dest, date, flight_info):
@@ -80,17 +90,7 @@ class element_stable:
         # print(final_elements)
         return initial_elements == final_elements
 
-def scrape(org, dest, date):
-    option = Options()
-    option.add_argument("--headless")
-    option.add_argument("--disable-gpu")
-    option.add_argument("window-size=1024,768")
-    option.add_argument("--no-sandbox")
-    # option.add_experimental_option("detach", True)/
-    service = Service()
-    driver = webdriver.Chrome(service=service, options=option)
-
-    
+def scrape_with_driver(driver, org, dest, date):
     logging.info(f"fetching {org}->{dest} @ {date}")
 
     orgIata = org
@@ -133,7 +133,17 @@ def scrape(org, dest, date):
         except:
             logging.warn("error fetching flight info, skipping.")
 
-    driver.quit()
+    return flights
+
+def scrape(org, dest, date):
+    driver = create_driver()
+    try:
+        flights = scrape_with_driver(driver, org, dest, date)
+    finally:
+        try:
+            driver.quit()
+        except Exception:
+            pass
     return flights
 
 def flights_to_json(flights, file_path):
@@ -182,4 +192,30 @@ def main(org, dest, date):
         with open(file_path, "w") as f:
             json.dump(json_dict, f, indent=4)
     
+    return file_path
+
+def main_with_driver(driver, org, dest, date):
+    if org not in iata_to_icao or dest not in iata_to_icao:
+        logging.warning("org or dest not valid!")
+        return "error! org or dest not valid!"
+
+    file_path = f"data/flights/{org}_{dest}_{date}.json"
+    if os.path.exists(file_path):
+        return file_path
+
+    flights = scrape_with_driver(driver, org, dest, date)
+    try:
+        flights_to_json(flights, file_path)
+    except:
+        date_created = int(datetime.now(timezone.utc).timestamp()) * 1000
+        json_dict = {
+            "dateCreated": date_created,
+            "orgIata": org,
+            "destIata": dest,
+            "flightDate": date,
+            "flights": []
+        }
+        with open(file_path, "w") as f:
+            json.dump(json_dict, f, indent=4)
+
     return file_path

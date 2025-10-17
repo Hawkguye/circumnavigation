@@ -13,7 +13,6 @@ async function searchFlight(nextDay) {
         return;
     }
     if (routeDistance <= 200) {
-        // skip searching
         $("#flight-results").html(`
             <h6 style="text-align: center;">No flights found.</h6>
             <div class="container text-center justify-content-center">
@@ -22,71 +21,141 @@ async function searchFlight(nextDay) {
         `);
         return;
     }
+
     clickAllowed = false;
     $("#search-spinner").show();
 
     try {
         const dateNow = localTime.toISOString().split('T')[0];
         const dateNext = new Date(localTime.getTime() + 86400000).toISOString().split('T')[0];
+
         let avgFlightPrice = 0, flightNum = 0;
         let flights = [];
 
-        // Abort any existing request
-        if (currentFlightController) {
-            currentFlightController.abort();
-        }
+        // abort any previous search
+        if (currentFlightController) currentFlightController.abort();
         currentFlightController = new AbortController();
-        isTimeoutAbort = false;
-        timeoutId = setTimeout(() => {
-            isTimeoutAbort = true;
-            currentFlightController.abort("timeout");
-        }, 12000); // 12 second timeout
 
+        const controller = currentFlightController;
         const response = await fetch(`${FLIGHT_URL}get_flight?org=${origin_iata}&dest=${dest_iata}&date=${dateNow}`, {
-            signal: currentFlightController.signal
+            signal: controller.signal
         });
-        
-        clearTimeout(timeoutId);
-        
-        if (!response.ok) {
-            $("#flight-title").html('');
-            $("#flight-meta").html('');
-            $("#flight-info").html('');
-            $("#flight-results").html('<h6 style="text-align: center;">Error fetching flight data. <span class="clickable-text text-info" onclick="selectAirport()">Try again</span></h6>');
-            $("#search-spinner").hide();
-            if (randomFlightChallenge) {
-                startRandomFlight();
-                return;
-            }
-            clickAllowed = true;
-            return;
-        }
-        
-        const json = await response.json();
-        const data = await json.flights;
-        console.log(json);
 
-        data.forEach(flight => {
-            const existingFlight = flights.find(existing => existing.Departure === flight.Departure && existing.Arrival === flight.Arrival && existing.Price === flight.Price);
-            if (!existingFlight){
-                flights.push(flight);
-                if (flight.Price !== 0) {
-                    avgFlightPrice += flight.Price;
-                    flightNum++;
+        // ---------------------
+        // Handle scraper queue
+        // ---------------------
+        if (response.status === 202) {
+            const { job_id, status_url } = await response.json();
+            console.log("Scrape started, job id:", job_id);
+
+            // poll every 2s until job done
+            let dataReady = false, jobData = null;
+            for (let i = 0; i < 30; i++) { // up to ~1 min
+                await new Promise(r => setTimeout(r, 2000));
+                const statusResp = await fetch(`${FLIGHT_URL}flight_status/${job_id}`);
+                const statusJson = await statusResp.json();
+                console.log("Job status:", statusJson);
+
+                if (statusJson.status === "done") {
+                    // fetch the actual file
+                    const fileResp = await fetch(`${FLIGHT_URL}get_flight?org=${origin_iata}&dest=${dest_iata}&date=${dateNow}`);
+                    jobData = await fileResp.json();
+                    dataReady = true;
+                    break;
+                } else if (statusJson.status === "error") {
+                    throw new Error(statusJson.error || "Scraper job failed");
                 }
             }
-        });
 
-        let flightDate;
+            if (!dataReady) {
+                throw new Error("Scraper timeout");
+            }
 
-        if (nextDay) {
-            const response2 = await fetch(`${FLIGHT_URL}get_flight?org=${origin_iata}&dest=${dest_iata}&date=${dateNext}`);
-            const json2 = await response2.json();
-            const data2 = await json2.flights;
-            console.log(json2);
+            await handleFlightResponse(jobData, nextDay, dateNow, dateNext);
+        }
+
+        // ---------------------
+        // Handle cached / fast scrape
+        // ---------------------
+        else if (response.ok) {
+            const json = await response.json();
+            await handleFlightResponse(json, nextDay, dateNow, dateNext);
+        }
+
+        // ---------------------
+        // Handle error
+        // ---------------------
+        else {
+            throw new Error("Failed to fetch flight data");
+        }
+
+    } catch (error) {
+        console.error("Error fetching flight data:", error);
+        $("#flight-title, #flight-meta, #flight-info").html('');
+        $("#flight-results").html('<h6 style="text-align: center;">Error fetching flight data. <span class="clickable-text text-info" onclick="selectAirport()">Try again</span></h6>');
+        $("#search-spinner").hide();
+        clickAllowed = true;
+        if (randomFlightChallenge) startRandomFlight();
+    }
+}
+
+async function handleFlightResponse(json, nextDay, dateNow, dateNext) {
+    let avgFlightPrice = 0, flightNum = 0;
+    let flights = [];
+    const data = json.flights || [];
+
+    data.forEach(flight => {
+        const exists = flights.find(f =>
+            f.Departure === flight.Departure &&
+            f.Arrival === flight.Arrival &&
+            f.Price === flight.Price
+        );
+        if (!exists) {
+            flights.push(flight);
+            if (flight.Price !== 0) {
+                avgFlightPrice += flight.Price;
+                flightNum++;
+            }
+        }
+    });
+
+    if (nextDay) {
+        const response2 = await fetch(`${FLIGHT_URL}get_flight?org=${origin_iata}&dest=${dest_iata}&date=${dateNext}`);
+        let json2 = null;
+        if (response2.status === 202) {
+            const { job_id, status_url } = await response2.json();
+            console.log("Scrape (next day) started, job id:", job_id);
+            let dataReady2 = false;
+            for (let i = 0; i < 30; i++) {
+                await new Promise(r => setTimeout(r, 2000));
+                const statusResp2 = await fetch(`${FLIGHT_URL}flight_status/${job_id}`);
+                const statusJson2 = await statusResp2.json();
+                console.log("Next day job status:", statusJson2);
+                if (statusJson2.status === "done") {
+                    const fileResp2 = await fetch(`${FLIGHT_URL}get_flight?org=${origin_iata}&dest=${dest_iata}&date=${dateNext}`);
+                    json2 = await fileResp2.json();
+                    dataReady2 = true;
+                    break;
+                } else if (statusJson2.status === "error") {
+                    throw new Error(statusJson2.error || "Scraper job (next day) failed");
+                }
+            }
+            if (!dataReady2) throw new Error("Scraper timeout (next day)");
+        } else if (response2.ok) {
+            json2 = await response2.json();
+        } else {
+            throw new Error("Failed to fetch next day flight data");
+        }
+
+        if (json2) {
+            const data2 = json2.flights || [];
             data2.forEach(flight => {
-                const existingFlight = flights.find(existing => existing.Departure === flight.Departure && existing.Arrival === flight.Arrival && existing.Price === flight.Price);
-                if (!existingFlight){
+                const exists = flights.find(f =>
+                    f.Departure === flight.Departure &&
+                    f.Arrival === flight.Arrival &&
+                    f.Price === flight.Price
+                );
+                if (!exists) {
                     flights.push(flight);
                     if (flight.Price !== 0) {
                         avgFlightPrice += flight.Price;
@@ -94,46 +163,20 @@ async function searchFlight(nextDay) {
                     }
                 }
             });
-            displayFlightDataDate(Math.max(json.dateCreated, json2.dateCreated));
-            flightDate = json2.flightDate;
+            displayFlightDataDate(Math.max(json.dateCreated || 0, json2.dateCreated || 0));
         }
-        else {
-            displayFlightDataDate(json.dateCreated);
-            flightDate = json.flightDate;
-        }
-
-        if (flightNum !== 0) {
-            avgFlightPrice /= flightNum;
-        }
-
-        displayFlights(flights, Math.round(avgFlightPrice), nextDay, flightDate);
-
-
-    } catch (error) {
-        clearTimeout(timeoutId);
-        console.error('Error fetching flight data:', error);
-        $("#flight-title").html('');
-        $("#flight-meta").html('');
-        $("#flight-info").html('');
-        if (isTimeoutAbort) {
-            $("#flight-results").html('<h6 style="text-align: center;">Flight Search Timed Out. <span class="clickable-text text-info" onclick="selectAirport()">Try again</span></h6>');
-        }
-        else if (error.name === "AbortError"){
-            // else {
-                // $("#flight-results").html('<h6 style="text-align: center;">Flight Search Interrupted. Try again.</h6>');
-            // }
-        }
-        else {
-            $("#flight-results").html('<h6 style="text-align: center;">Error fetching flight data. <span class="clickable-text text-info" onclick="selectAirport()">Try again</span></h6>');
-        }
-        $("#search-spinner").hide();
-        clickAllowed = true;
-        if (randomFlightChallenge) {
-            startRandomFlight();
-            return;
-        }
+    } else {
+        displayFlightDataDate(json.dateCreated || 0);
     }
+
+    if (flightNum !== 0) avgFlightPrice /= flightNum;
+    displayFlights(flights, Math.round(avgFlightPrice), nextDay, json.flightDate || dateNow);
+
+    $("#search-spinner").hide();
+    clickAllowed = true;
 }
+
+
 
 function searchNextDayFlight(){
     $("#flight-title").html('');

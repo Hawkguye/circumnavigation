@@ -31,8 +31,10 @@ CORS(app)
 DATA_DIR = "data/game/"
 DC_DATA_DIR = "data/daily_challenge/"
 TRIVIA_JSON_DIR = "data/trivia/"
+SCRAPER_URL = os.getenv('SCRAPER_URL', 'http://127.0.0.1:5051')
 
 gamesList = []
+IATA_codes = ['ACC', 'ACE', 'ADB', 'ADD', 'ADL', 'AER', 'AGP', 'AKL', 'ALA', 'ALC', 'ALG', 'AMM', 'AMS', 'ANC', 'ARN', 'ATH', 'ATL', 'AUA', 'AUH', 'AUS', 'AYT', 'BAH', 'BCN', 'BDS', 'BEG', 'BER', 'BEY', 'BFS', 'BGO', 'BGW', 'BGY', 'BHX', 'BJV', 'BJX', 'BKK', 'BLL', 'BLQ', 'BLR', 'BNA', 'BNE', 'BOD', 'BOG', 'BOJ', 'BOM', 'BOS', 'BRI', 'BRU', 'BSB', 'BSL', 'BUD', 'BUF', 'BWI', 'BWN', 'BZE', 'CAG', 'CAI', 'CAN', 'CCS', 'CCU', 'CDG', 'CEB', 'CGK', 'CGN', 'CGO', 'CGQ', 'CKG', 'CLE', 'CLT', 'CMB', 'CMH', 'CMN', 'CNF', 'COK', 'CPH', 'CPT', 'CSX', 'CTA', 'CTS', 'CTU', 'CUN', 'CUR', 'CVG', 'DAC', 'DAR', 'DCA', 'DEL', 'DEN', 'DFW', 'DLC', 'DLM', 'DME', 'DMK', 'DMM', 'DOH', 'DPS', 'DSS', 'DTW', 'DUB', 'DUS', 'DXB', 'EBB', 'EDI', 'EIN', 'ESB', 'EVN', 'EWR', 'EZE', 'FAO', 'FCO', 'FLL', 'FNC', 'FOC', 'FRA', 'FRU', 'FUE', 'FUK', 'GCM', 'GDL', 'GDN', 'GIG', 'GLA', 'GOI', 'GOT', 'GRU', 'GUA', 'GVA', 'GYD', 'GYE', 'HAJ', 'HAK', 'HAM', 'HAN', 'HAV', 'HEL', 'HER', 'HET', 'HGH', 'HKG', 'HKT', 'HMO', 'HND', 'HNL', 'HRB', 'HRG', 'HYD', 'IAD', 'IAH', 'IBZ', 'ICN', 'IKA', 'IND', 'ISB', 'IST', 'JAX', 'JED', 'JFK', 'JNB', 'KEF', 'KGL', 'KHH', 'KHI', 'KHN', 'KIN', 'KIX', 'KMG', 'KRK', 'KRT', 'KTM', 'KUF', 'KUL', 'KWE', 'KWI', 'KWL', 'KZN', 'LAD', 'LAS', 'LAX', 'LCA', 'LED', 'LEJ', 'LGA', 'LGW', 'LHE', 'LHR', 'LHW', 'LIM', 'LIR', 'LIS', 'LJU', 'LOS', 'LPA', 'LTN', 'LUX', 'LYS', 'MAA', 'MAD', 'MAN', 'MBA', 'MCI', 'MCO', 'MCT', 'MDW', 'MED', 'MEL', 'MEM', 'MEX', 'MFM', 'MIA', 'MKE', 'MLA', 'MLE', 'MNL', 'MRS', 'MRU', 'MSP', 'MSQ', 'MSY', 'MTY', 'MUC', 'MXP', 'MZT', 'NAP', 'NAS', 'NBO', 'NCE', 'NGB', 'NGO', 'NKG', 'NNG', 'NQZ', 'NRT', 'NUE', 'OAK', 'OMA', 'ONT', 'OPO', 'ORD', 'ORY', 'OSL', 'OTP', 'OVB', 'PAP', 'PBI', 'PDX', 'PEK', 'PER', 'PHL', 'PHX', 'PIT', 'PKX', 'PLS', 'PMI', 'PMO', 'PNH', 'PRG', 'PSA', 'PTY', 'PUJ', 'PUS', 'PVD', 'PVG', 'PVR', 'PWM', 'RDU', 'RGN', 'RIC', 'RIX', 'RNO', 'ROV', 'RSW', 'RUH', 'SAL', 'SAN', 'SAT', 'SAV', 'SAW', 'SCL', 'SCQ', 'SDF', 'SDQ', 'SEA', 'SEZ', 'SFB', 'SFO', 'SGN', 'SHA', 'SHE', 'SHJ', 'SID', 'SIN', 'SJC', 'SJD', 'SJU', 'SKG', 'SKP', 'SLC', 'SMF', 'SNA', 'SOF', 'SSH', 'STL', 'STN', 'STR', 'SVG', 'SVO', 'SVX', 'SXM', 'SYD', 'SYR', 'SYX', 'SZX', 'TAO', 'TAS', 'TBS', 'TFS', 'TFU', 'TGD', 'TIA', 'TIJ', 'TLL', 'TLS', 'TLV', 'TNA', 'TOS', 'TPA', 'TPE', 'TRD', 'TRN', 'TRV', 'TSN', 'TUL', 'TUN', 'TYN', 'UFA', 'UIO', 'URC', 'VAR', 'VCE', 'VIE', 'VKO', 'VNO', 'VRN', 'WAW', 'WNZ', 'WUH', 'XIY', 'XMN', 'YEG', 'YHZ', 'YNT', 'YOW', 'YUL', 'YVR', 'YWG', 'YYC', 'YYZ', 'ZAG', 'ZIA', 'ZNZ', 'ZRH']
 
 def handle_errors(f):
     """Decorator to handle errors and prevent crashes"""
@@ -318,36 +320,106 @@ def get_trivia(category):
         logging.error(f"Error getting trivia for category {category}: {str(e)}")
         return jsonify({"message": "Error retrieving trivia question"}), 500
 
-# flight scraper
+
 @app.route("/api/get_flight", methods=["GET"])
-@handle_errors
 def get_flight():
+    org = (request.args.get("org") or "").upper()
+    dest = (request.args.get("dest") or "").upper()
+    date = request.args.get("date")
+
+    # -----------------------------
+    # Validate input parameters
+    # -----------------------------
+    if not org or not dest or not date:
+        return jsonify({"message": "Missing required parameters: org, dest, date"}), 400
+
+    if not re.match(r"^[A-Z]{3}$", org) or not re.match(r"^[A-Z]{3}$", dest):
+        return jsonify({"message": "org/dest must be valid 3-letter IATA codes"}), 400
+
+    # must exist in IATA dictionary
+    if org not in IATA_codes or dest not in IATA_codes:
+        return jsonify({"message": f"Invalid IATA code(s): {org}, {dest}"}), 400
+
+    # validate date format and must be in the future
     try:
-        org = request.args.get('org')
-        dest = request.args.get('dest')
-        date = request.args.get('date')
+        flight_date = datetime.strptime(date, "%Y-%m-%d").date()
+    except ValueError:
+        return jsonify({"message": "date must be in YYYY-MM-DD format"}), 400
 
-        if not org or not dest or not date:
-            return jsonify({"message": "params missing!"}), 400
-            
-        iataRe = re.compile(r'^[a-zA-Z]{3}$')
-        dateRe = re.compile(r'^\d{4}-\d{2}-\d{2}$')
-        
-        if not iataRe.match(org) or not iataRe.match(dest):
-            return jsonify({"message": "org or dest param doesn't match the format!"}), 400
-        if not dateRe.match(date):
-            return jsonify({"message": "date param doesn't match the format!"}), 400
+    today = datetime.utcnow().date()
+    if flight_date <= today:
+        return jsonify({"message": "Flight date must be in the future"}), 400
 
-        datajson = scraper.main(org, dest, date)
-        
-        if "error" in datajson:
-            return jsonify({"message": f"failed to fetch flight data! {datajson}"}), 400
-        
-        return send_file(datajson)
-    
-    except Exception as e:
-        logging.error(f"get flight error! {str(e)}")
-        return jsonify({"message": "Error retrieving flight data"}), 500
+    # -----------------------------
+    # Forward request to scraper
+    # -----------------------------
+    payload = {"org": org, "dest": dest, "date": date}
+
+    try:
+        resp = requests.post(f"{SCRAPER_URL}/scrape", json=payload, timeout=10)
+    except requests.Timeout:
+        logging.warning("Scraper service timed out on POST /scrape")
+        return jsonify({"message": "Scraper service timed out"}), 504
+    except requests.RequestException as e:
+        logging.error(f"Error contacting scraper service: {e}")
+        return jsonify({"message": "Error contacting scraper service"}), 502
+
+    # -----------------------------
+    # Handle scraper responses
+    # -----------------------------
+    if resp.status_code == 202:
+        # queued for async scraping
+        try:
+            body = resp.json()
+        except Exception:
+            body = {"message": "Scraper accepted job"}
+        # Ensure the job status URL is absolute (helpful for frontend polling)
+        if "job_id" in body and "status_url" not in body:
+            body["status_url"] = f"/api/flight_status/{body['job_id']}"
+        return jsonify(body), 202
+
+    elif resp.status_code == 200:
+        try:
+            data = resp.json()
+        except Exception:
+            data = None
+
+        if isinstance(data, dict) and data.get("file"):
+            file_path = data["file"]
+            if os.path.isfile(file_path):
+                return send_file(file_path)
+            else:
+                logging.error(f"Scraper returned missing file path: {file_path}")
+                return jsonify({"message": "Scraper returned invalid file path"}), 500
+
+        if data is not None:
+            return jsonify(data), 200
+
+        return resp.text, 200
+
+    else:
+        logging.error(f"Scraper returned unexpected status {resp.status_code}: {resp.text}")
+        return jsonify({"message": "Scraper error", "details": resp.text}), 500
+
+@app.route("/api/flight_status/<job_id>", methods=["GET"])
+def flight_status(job_id):
+    """
+    Proxy endpoint for the frontend to check scraper job status.
+    Forwards the request to the scraper microservice.
+    """
+    try:
+        resp = requests.get(f"{SCRAPER_URL}/status/{job_id}", timeout=5)
+        # Forward the status code and JSON body directly
+        try:
+            data = resp.json()
+        except Exception:
+            data = {"message": "Invalid response from scraper"}
+
+        return jsonify(data), resp.status_code
+    except requests.Timeout:
+        return jsonify({"message": "Scraper service timed out"}), 504
+    except requests.RequestException as e:
+        return jsonify({"message": f"Error contacting scraper service: {str(e)}"}), 502
 
 # TODO: add delete game, dc, get dc
 # admin

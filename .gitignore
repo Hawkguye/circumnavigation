@@ -10,6 +10,7 @@ schedules
 .dockerignore
 .env
 .hintrc
+nginx-1.29.2
 
 Dockerfile
 make_dc.py
@@ -21,3 +22,7 @@ make_dc.html
 trivia_catagories.json
 static/dests/1.py
 static/schedule/
+
+app.py
+api_app.py
+scraper_service.py
