@@ -46,15 +46,15 @@ async function searchFlight(nextDay) {
         // ---------------------
         if (response.status === 202) {
             const { job_id, status_url } = await response.json();
-            console.log("Scrape started, job id:", job_id);
+            // console.log("Scrape started, job id:", job_id);
 
             // poll every 2s until job done
             let dataReady = false, jobData = null;
-            for (let i = 0; i < 30; i++) { // up to ~1 min
-                await new Promise(r => setTimeout(r, 2000));
+            for (let i = 0; i < 40; i++) { // up to 40s
+                await new Promise(r => setTimeout(r, 1000));
                 const statusResp = await fetch(`${FLIGHT_URL}flight_status/${job_id}`);
                 const statusJson = await statusResp.json();
-                console.log("Job status:", statusJson);
+                console.log("Job status:", statusJson.status);
 
                 if (statusJson.status === "done") {
                     // fetch the actual file
@@ -103,6 +103,7 @@ async function handleFlightResponse(json, nextDay, dateNow, dateNext) {
     let avgFlightPrice = 0, flightNum = 0;
     let flights = [];
     const data = json.flights || [];
+    console.log(json)
 
     data.forEach(flight => {
         const exists = flights.find(f =>
@@ -124,13 +125,13 @@ async function handleFlightResponse(json, nextDay, dateNow, dateNext) {
         let json2 = null;
         if (response2.status === 202) {
             const { job_id, status_url } = await response2.json();
-            console.log("Scrape (next day) started, job id:", job_id);
+            // console.log("Scrape (next day) started, job id:", job_id);
             let dataReady2 = false;
-            for (let i = 0; i < 30; i++) {
-                await new Promise(r => setTimeout(r, 2000));
+            for (let i = 0; i < 40; i++) {
+                await new Promise(r => setTimeout(r, 1000));
                 const statusResp2 = await fetch(`${FLIGHT_URL}flight_status/${job_id}`);
                 const statusJson2 = await statusResp2.json();
-                console.log("Next day job status:", statusJson2);
+                console.log("Next day job status:", statusJson2.status);
                 if (statusJson2.status === "done") {
                     const fileResp2 = await fetch(`${FLIGHT_URL}get_flight?org=${origin_iata}&dest=${dest_iata}&date=${dateNext}`);
                     json2 = await fileResp2.json();
@@ -148,6 +149,7 @@ async function handleFlightResponse(json, nextDay, dateNow, dateNext) {
         }
 
         if (json2) {
+            console.log(json2);
             const data2 = json2.flights || [];
             data2.forEach(flight => {
                 const exists = flights.find(f =>
