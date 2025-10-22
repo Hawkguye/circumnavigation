@@ -475,11 +475,6 @@ function recordRoute(){
     // Calculate the longitudes that the shortest line between origin and destination crosses
     const [originLng, originLat] = origin_latlng;
     const [destLng, destLat] = dest_latlng;
-
-    if (originLng < -180) originLng = (originLng % 360) + 360;
-    if (destLng < -180) destLng = (destLng % 360) + 360;
-    if (originLng > 180) originLng = (originLng % 360) - 360;
-    if (destLng > 180) destLng = (destLng % 360) - 360;
     
     // Handle cases where the route crosses the dateline
     let lngDiff = destLng - originLng;
