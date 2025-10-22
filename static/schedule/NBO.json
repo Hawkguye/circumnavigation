@@ -11,6 +11,17 @@
         "duration": "03:45"
     },
     {
+        "flight_number": "QR8705",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "00:00",
+        "local_arrival_time": "05:00",
+        "duration": "05:00"
+    },
+    {
         "flight_number": "KQ478",
         "airline_name": "Kenya Airways",
         "destination_iata": "KGL",
@@ -20,39 +31,6 @@
         "local_departure_time": "00:05",
         "local_arrival_time": "00:35",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "D7102",
-        "airline_name": "AirAsia X",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "00:30",
-        "local_arrival_time": "15:15",
-        "duration": "09:45"
-    },
-    {
-        "flight_number": "KQ2314",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "SHJ",
-        "destination_airport_name": "Sharjah International Airport",
-        "destination_city": "Sharjah",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "00:55",
-        "local_arrival_time": "05:50",
-        "duration": "03:55"
-    },
-    {
-        "flight_number": "TK6036",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "01:05",
-        "local_arrival_time": "08:20",
-        "duration": "07:15"
     },
     {
         "flight_number": "QR1342",
@@ -66,17 +44,6 @@
         "duration": "05:10"
     },
     {
-        "flight_number": "TK6462",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "01:20",
-        "local_arrival_time": "07:40",
-        "duration": "06:20"
-    },
-    {
         "flight_number": "KQ458",
         "airline_name": "Kenya Airways",
         "destination_iata": "DAR",
@@ -84,8 +51,8 @@
         "destination_city": "Dar-es-Salaam",
         "destination_country": "Tanzania",
         "local_departure_time": "01:30",
-        "local_arrival_time": "03:00",
-        "duration": "01:30"
+        "local_arrival_time": "02:59 / 03:01",
+        "duration": "01:31"
     },
     {
         "flight_number": "KQ418",
@@ -97,17 +64,6 @@
         "local_departure_time": "01:35",
         "local_arrival_time": "02:50",
         "duration": "01:15"
-    },
-    {
-        "flight_number": "WB403",
-        "airline_name": "RwandAir",
-        "destination_iata": "KGL",
-        "destination_airport_name": "Kigali Airport",
-        "destination_city": "Kigali",
-        "destination_country": "Rwanda",
-        "local_departure_time": "01:40",
-        "local_arrival_time": "02:20",
-        "duration": "01:40"
     },
     {
         "flight_number": "4Z73",
@@ -143,26 +99,15 @@
         "duration": "03:50"
     },
     {
-        "flight_number": "MS1850",
-        "airline_name": "Egyptair",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "02:55",
-        "local_arrival_time": "08:00",
-        "duration": "05:05"
-    },
-    {
         "flight_number": "TK638",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
         "destination_airport_name": "Istanbul Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "03:35",
-        "local_arrival_time": "10:25",
-        "duration": "06:50"
+        "local_departure_time": "03:40",
+        "local_arrival_time": "10:20",
+        "duration": "06:40"
     },
     {
         "flight_number": "ET309",
@@ -174,6 +119,17 @@
         "local_departure_time": "03:45",
         "local_arrival_time": "06:00",
         "duration": "02:15"
+    },
+    {
+        "flight_number": "XY362",
+        "airline_name": "flynas",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "04:00",
+        "local_arrival_time": "09:00",
+        "duration": "05:00"
     },
     {
         "flight_number": "WB464",
@@ -194,30 +150,8 @@
         "destination_city": "Cairo",
         "destination_country": "Egypt",
         "local_departure_time": "05:55",
-        "local_arrival_time": "11:05",
-        "duration": "05:10"
-    },
-    {
-        "flight_number": "5H417",
-        "airline_name": "Fly540",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "06:00",
-        "local_arrival_time": "07:10",
-        "duration": "01:10"
-    },
-    {
-        "flight_number": "KQ600",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "06:30",
-        "local_arrival_time": "07:30",
-        "duration": "01:00"
+        "local_arrival_time": "10:55",
+        "duration": "05:00"
     },
     {
         "flight_number": "JM8600",
@@ -226,8 +160,8 @@
         "destination_airport_name": "Mombasa Moi International Airport",
         "destination_city": "Mombasa",
         "destination_country": "Kenya",
-        "local_departure_time": "06:30",
-        "local_arrival_time": "07:45",
+        "local_departure_time": "06:00",
+        "local_arrival_time": "07:15",
         "duration": "01:15"
     },
     {
@@ -242,7 +176,18 @@
         "duration": "06:30"
     },
     {
-        "flight_number": "OW390",
+        "flight_number": "TC233",
+        "airline_name": "Air Tanzania",
+        "destination_iata": "ZNZ",
+        "destination_airport_name": "Zanzibar Abeid Amani Karume International Airport",
+        "destination_city": "Zanzibar",
+        "destination_country": "Tanzania",
+        "local_departure_time": "06:50",
+        "local_arrival_time": "08:10",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "OW402",
         "airline_name": "Skyward Airlines",
         "destination_iata": "MBA",
         "destination_airport_name": "Mombasa Moi International Airport",
@@ -253,26 +198,26 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "TC201",
-        "airline_name": "Air Tanzania",
-        "destination_iata": "DAR",
-        "destination_airport_name": "Dar-es-Salaam Julius Nyerere International Airport",
-        "destination_city": "Dar-es-Salaam",
-        "destination_country": "Tanzania",
-        "local_departure_time": "07:10",
-        "local_arrival_time": "08:40",
-        "duration": "01:30"
+        "flight_number": "EY770",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "07:00",
+        "local_arrival_time": "13:05",
+        "duration": "05:05"
     },
     {
-        "flight_number": "KQ400",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "ADD",
-        "destination_airport_name": "Addis Ababa Bole Airport",
-        "destination_city": "Addis Ababa",
-        "destination_country": "Ethiopia",
-        "local_departure_time": "07:20",
-        "local_arrival_time": "09:20",
-        "duration": "02:00"
+        "flight_number": "OW390",
+        "airline_name": "Skyward Airlines",
+        "destination_iata": "MBA",
+        "destination_airport_name": "Mombasa Moi International Airport",
+        "destination_city": "Mombasa",
+        "destination_country": "Kenya",
+        "local_departure_time": "07:00",
+        "local_arrival_time": "08:00",
+        "duration": "01:00"
     },
     {
         "flight_number": "SV434",
@@ -292,8 +237,8 @@
         "destination_airport_name": "Kigali Airport",
         "destination_city": "Kigali",
         "destination_country": "Rwanda",
-        "local_departure_time": "07:30",
-        "local_arrival_time": "08:00",
+        "local_departure_time": "07:20 / 07:30",
+        "local_arrival_time": "07:50 / 08:00",
         "duration": "01:30"
     },
     {
@@ -308,17 +253,6 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "KQ270",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "MRU",
-        "destination_airport_name": "Mauritius Sir Seewoosagur Ramgoolam International Airport",
-        "destination_city": "Mauritius",
-        "destination_country": "Mauritius",
-        "local_departure_time": "07:40",
-        "local_arrival_time": "13:00",
-        "duration": "04:20"
-    },
-    {
         "flight_number": "KQ482",
         "airline_name": "Kenya Airways",
         "destination_iata": "DAR",
@@ -330,14 +264,36 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "TC205",
+        "airline_name": "Air Tanzania",
+        "destination_iata": "DAR",
+        "destination_airport_name": "Dar-es-Salaam Julius Nyerere International Airport",
+        "destination_city": "Dar-es-Salaam",
+        "destination_country": "Tanzania",
+        "local_departure_time": "07:40",
+        "local_arrival_time": "09:10",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "KQ270",
+        "airline_name": "Kenya Airways",
+        "destination_iata": "MRU",
+        "destination_airport_name": "Mauritius Sir Seewoosagur Ramgoolam International Airport",
+        "destination_city": "Mauritius",
+        "destination_country": "Mauritius",
+        "local_departure_time": "07:40",
+        "local_arrival_time": "13:00",
+        "duration": "04:20"
+    },
+    {
         "flight_number": "KQ602",
         "airline_name": "Kenya Airways",
         "destination_iata": "MBA",
         "destination_airport_name": "Mombasa Moi International Airport",
         "destination_city": "Mombasa",
         "destination_country": "Kenya",
-        "local_departure_time": "07:40",
-        "local_arrival_time": "08:40",
+        "local_departure_time": "07:40 / 08:00",
+        "local_arrival_time": "08:40 / 09:00",
         "duration": "01:00"
     },
     {
@@ -374,28 +330,6 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "5H441",
-        "airline_name": "Fly540",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "09:10",
-        "duration": "01:10"
-    },
-    {
-        "flight_number": "7C6121",
-        "airline_name": "Jeju Air",
-        "destination_iata": "KGL",
-        "destination_airport_name": "Kigali Airport",
-        "destination_city": "Kigali",
-        "destination_country": "Rwanda",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "09:30",
-        "duration": "02:30"
-    },
-    {
         "flight_number": "GF710",
         "airline_name": "Gulf Air",
         "destination_iata": "BAH",
@@ -405,6 +339,28 @@
         "local_departure_time": "08:05",
         "local_arrival_time": "13:25",
         "duration": "05:20"
+    },
+    {
+        "flight_number": "QR1346",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "08:10",
+        "local_arrival_time": "13:20",
+        "duration": "05:10"
+    },
+    {
+        "flight_number": "KQ532",
+        "airline_name": "Kenya Airways",
+        "destination_iata": "LOS",
+        "destination_airport_name": "Lagos Murtala Mohammed Airport",
+        "destination_city": "Lagos",
+        "destination_country": "Nigeria",
+        "local_departure_time": "08:15",
+        "local_arrival_time": "11:25",
+        "duration": "05:10"
     },
     {
         "flight_number": "JM8712",
@@ -440,81 +396,70 @@
         "duration": "09:10"
     },
     {
-        "flight_number": "KQ114",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "09:50",
-        "local_arrival_time": "17:30",
-        "duration": "08:40"
-    },
-    {
         "flight_number": "JM8602",
         "airline_name": "Jambojet",
         "destination_iata": "MBA",
         "destination_airport_name": "Mombasa Moi International Airport",
         "destination_city": "Mombasa",
         "destination_country": "Kenya",
-        "local_departure_time": "10:05",
-        "local_arrival_time": "11:20",
+        "local_departure_time": "09:35",
+        "local_arrival_time": "10:50",
         "duration": "01:15"
     },
     {
-        "flight_number": "KQ604",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "10:20",
-        "local_arrival_time": "11:20",
-        "duration": "01:00"
+        "flight_number": "WB453",
+        "airline_name": "RwandAir",
+        "destination_iata": "KGL",
+        "destination_airport_name": "Kigali Airport",
+        "destination_city": "Kigali",
+        "destination_country": "Rwanda",
+        "local_departure_time": "11:10",
+        "local_arrival_time": "11:40",
+        "duration": "01:30"
     },
     {
-        "flight_number": "KQ510",
+        "flight_number": "ZN504",
+        "airline_name": "Zambia Airways",
+        "destination_iata": "DAR",
+        "destination_airport_name": "Dar-es-Salaam Julius Nyerere International Airport",
+        "destination_city": "Dar-es-Salaam",
+        "destination_country": "Tanzania",
+        "local_departure_time": "11:45",
+        "local_arrival_time": "13:05",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "KQ508",
         "airline_name": "Kenya Airways",
         "destination_iata": "ACC",
         "destination_airport_name": "Accra Kotoka International Airport",
         "destination_city": "Accra",
         "destination_country": "Ghana",
-        "local_departure_time": "11:30",
-        "local_arrival_time": "14:10",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "14:40",
         "duration": "05:40"
     },
     {
-        "flight_number": "OW394",
-        "airline_name": "Skyward Airlines",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "13:00",
-        "duration": "01:00"
+        "flight_number": "KQ270",
+        "airline_name": "Kenya Airways",
+        "destination_iata": "MRU",
+        "destination_airport_name": "Mauritius Sir Seewoosagur Ramgoolam International Airport",
+        "destination_city": "Mauritius",
+        "destination_country": "Mauritius",
+        "local_departure_time": "12:30",
+        "local_arrival_time": "17:50",
+        "duration": "04:20"
     },
     {
-        "flight_number": "KQ2412",
-        "airline_name": "Kenya Airways",
+        "flight_number": "UR209",
+        "airline_name": "Uganda Airlines",
         "destination_iata": "EBB",
         "destination_airport_name": "Entebbe International Airport",
         "destination_city": "Entebbe",
         "destination_country": "Uganda",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "13:30",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "UU979",
-        "airline_name": "Air Austral",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
         "local_departure_time": "12:30",
-        "local_arrival_time": "20:25",
-        "duration": "08:55"
+        "local_arrival_time": "13:45",
+        "duration": "01:15"
     },
     {
         "flight_number": "KQ762",
@@ -528,39 +473,6 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "JM8610",
-        "airline_name": "Jambojet",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "12:40",
-        "local_arrival_time": "13:55",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "KQ2340",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "SHJ",
-        "destination_airport_name": "Sharjah International Airport",
-        "destination_city": "Sharjah",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "12:40",
-        "local_arrival_time": "17:30",
-        "duration": "03:50"
-    },
-    {
-        "flight_number": "KQ484",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "DAR",
-        "destination_airport_name": "Dar-es-Salaam Julius Nyerere International Airport",
-        "destination_city": "Dar-es-Salaam",
-        "destination_country": "Tanzania",
-        "local_departure_time": "12:50",
-        "local_arrival_time": "14:15",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "KQ606",
         "airline_name": "Kenya Airways",
         "destination_iata": "MBA",
@@ -572,37 +484,26 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "WB453",
-        "airline_name": "RwandAir",
-        "destination_iata": "KGL",
-        "destination_airport_name": "Kigali Airport",
-        "destination_city": "Kigali",
-        "destination_country": "Rwanda",
-        "local_departure_time": "13:00",
-        "local_arrival_time": "13:40",
-        "duration": "01:40"
+        "flight_number": "JM8604",
+        "airline_name": "Jambojet",
+        "destination_iata": "MBA",
+        "destination_airport_name": "Mombasa Moi International Airport",
+        "destination_city": "Mombasa",
+        "destination_country": "Kenya",
+        "local_departure_time": "13:20",
+        "local_arrival_time": "14:35",
+        "duration": "01:15"
     },
     {
-        "flight_number": "7F101",
-        "airline_name": "First Air",
-        "destination_iata": "EBB",
-        "destination_airport_name": "Entebbe International Airport",
-        "destination_city": "Entebbe",
-        "destination_country": "Uganda",
-        "local_departure_time": "13:10",
-        "local_arrival_time": "14:15",
-        "duration": "01:05"
-    },
-    {
-        "flight_number": "PW730",
-        "airline_name": "Precision Air",
-        "destination_iata": "ZNZ",
-        "destination_airport_name": "Zanzibar Abeid Amani Karume International Airport",
-        "destination_city": "Zanzibar",
-        "destination_country": "Tanzania",
-        "local_departure_time": "13:15",
-        "local_arrival_time": "14:55",
-        "duration": "01:40"
+        "flight_number": "EY768",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "13:40",
+        "local_arrival_time": "19:45",
+        "duration": "05:05"
     },
     {
         "flight_number": "G9735",
@@ -616,15 +517,15 @@
         "duration": "05:10"
     },
     {
-        "flight_number": "JM8604",
-        "airline_name": "Jambojet",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "13:50",
-        "local_arrival_time": "15:05",
-        "duration": "01:15"
+        "flight_number": "KQ2340",
+        "airline_name": "Kenya Airways",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "13:55",
+        "local_arrival_time": "18:40",
+        "duration": "03:45"
     },
     {
         "flight_number": "KQ414",
@@ -638,26 +539,15 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "UR209",
-        "airline_name": "Uganda Airlines",
-        "destination_iata": "EBB",
-        "destination_airport_name": "Entebbe International Airport",
-        "destination_city": "Entebbe",
-        "destination_country": "Uganda",
-        "local_departure_time": "15:00",
-        "local_arrival_time": "16:15",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "GF708",
-        "airline_name": "Gulf Air",
-        "destination_iata": "BAH",
-        "destination_airport_name": "Bahrain International Airport",
-        "destination_city": "Bahrain",
-        "destination_country": "Bahrain",
-        "local_departure_time": "15:25",
-        "local_arrival_time": "20:45",
-        "duration": "05:20"
+        "flight_number": "KQ2314",
+        "airline_name": "Kenya Airways",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "19:20",
+        "duration": "03:50"
     },
     {
         "flight_number": "4Z71",
@@ -669,50 +559,6 @@
         "local_departure_time": "15:30",
         "local_arrival_time": "18:40",
         "duration": "04:10"
-    },
-    {
-        "flight_number": "CZ6044",
-        "airline_name": "China Southern Airlines",
-        "destination_iata": "CSX",
-        "destination_airport_name": "Changsha Huanghua International Airport",
-        "destination_city": "Changsha",
-        "destination_country": "China",
-        "local_departure_time": "15:40",
-        "local_arrival_time": "07:45 (+1)",
-        "duration": "11:05"
-    },
-    {
-        "flight_number": "KQ608",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "15:45",
-        "local_arrival_time": "16:45",
-        "duration": "01:00"
-    },
-    {
-        "flight_number": "KQ2348",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "SHJ",
-        "destination_airport_name": "Sharjah International Airport",
-        "destination_city": "Sharjah",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "15:50",
-        "local_arrival_time": "20:30",
-        "duration": "03:40"
-    },
-    {
-        "flight_number": "OW404",
-        "airline_name": "Skyward Airlines",
-        "destination_iata": "DAR",
-        "destination_airport_name": "Dar-es-Salaam Julius Nyerere International Airport",
-        "destination_city": "Dar-es-Salaam",
-        "destination_country": "Tanzania",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "17:40",
-        "duration": "01:40"
     },
     {
         "flight_number": "EK720",
@@ -735,17 +581,6 @@
         "local_departure_time": "16:45",
         "local_arrival_time": "01:30 (+1)",
         "duration": "06:15"
-    },
-    {
-        "flight_number": "ET3303",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "ADD",
-        "destination_airport_name": "Addis Ababa Bole Airport",
-        "destination_city": "Addis Ababa",
-        "destination_country": "Ethiopia",
-        "local_departure_time": "16:45",
-        "local_arrival_time": "18:45",
-        "duration": "02:00"
     },
     {
         "flight_number": "KQ402",
@@ -781,17 +616,6 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "5H405",
-        "airline_name": "Fly540",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "17:40",
-        "local_arrival_time": "18:50",
-        "duration": "01:10"
-    },
-    {
         "flight_number": "ET319",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "ADD",
@@ -801,17 +625,6 @@
         "local_departure_time": "18:00",
         "local_arrival_time": "20:00",
         "duration": "02:00"
-    },
-    {
-        "flight_number": "OW392",
-        "airline_name": "Skyward Airlines",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "19:00",
-        "duration": "01:00"
     },
     {
         "flight_number": "QR1336",
@@ -825,48 +638,26 @@
         "duration": "05:10"
     },
     {
+        "flight_number": "OW392",
+        "airline_name": "Skyward Airlines",
+        "destination_iata": "MBA",
+        "destination_airport_name": "Mombasa Moi International Airport",
+        "destination_city": "Mombasa",
+        "destination_country": "Kenya",
+        "local_departure_time": "18:00",
+        "local_arrival_time": "19:00",
+        "duration": "01:00"
+    },
+    {
         "flight_number": "JM8606",
         "airline_name": "Jambojet",
         "destination_iata": "MBA",
         "destination_airport_name": "Mombasa Moi International Airport",
         "destination_city": "Mombasa",
         "destination_country": "Kenya",
-        "local_departure_time": "18:10",
-        "local_arrival_time": "19:25",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "JM8608",
-        "airline_name": "Jambojet",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "18:10",
-        "local_arrival_time": "19:25",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "EY768",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
         "local_departure_time": "18:20",
-        "local_arrival_time": "00:25 (+1)",
-        "duration": "05:05"
-    },
-    {
-        "flight_number": "KQ486",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "DAR",
-        "destination_airport_name": "Dar-es-Salaam Julius Nyerere International Airport",
-        "destination_city": "Dar-es-Salaam",
-        "destination_country": "Tanzania",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "19:55",
-        "duration": "01:25"
+        "local_arrival_time": "19:35",
+        "duration": "01:15"
     },
     {
         "flight_number": "KQ494",
@@ -880,48 +671,15 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "KQ474",
+        "flight_number": "KQ486",
         "airline_name": "Kenya Airways",
-        "destination_iata": "KGL",
-        "destination_airport_name": "Kigali Airport",
-        "destination_city": "Kigali",
-        "destination_country": "Rwanda",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "19:00",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "KQ534",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "LOS",
-        "destination_airport_name": "Lagos Murtala Mohammed Airport",
-        "destination_city": "Lagos",
-        "destination_country": "Nigeria",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "21:45",
-        "duration": "05:15"
-    },
-    {
-        "flight_number": "KQ416",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "EBB",
-        "destination_airport_name": "Entebbe International Airport",
-        "destination_city": "Entebbe",
-        "destination_country": "Uganda",
-        "local_departure_time": "18:45",
-        "local_arrival_time": "20:00",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "PW712",
-        "airline_name": "Precision Air",
-        "destination_iata": "ZNZ",
-        "destination_airport_name": "Zanzibar Abeid Amani Karume International Airport",
-        "destination_city": "Zanzibar",
+        "destination_iata": "DAR",
+        "destination_airport_name": "Dar-es-Salaam Julius Nyerere International Airport",
+        "destination_city": "Dar-es-Salaam",
         "destination_country": "Tanzania",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "20:35",
-        "duration": "01:40"
+        "local_departure_time": "18:35",
+        "local_arrival_time": "20:00",
+        "duration": "01:25"
     },
     {
         "flight_number": "KQ612",
@@ -930,9 +688,31 @@
         "destination_airport_name": "Mombasa Moi International Airport",
         "destination_city": "Mombasa",
         "destination_country": "Kenya",
-        "local_departure_time": "19:20",
-        "local_arrival_time": "20:20",
+        "local_departure_time": "18:35",
+        "local_arrival_time": "19:35",
         "duration": "01:00"
+    },
+    {
+        "flight_number": "KQ784",
+        "airline_name": "Kenya Airways",
+        "destination_iata": "CPT",
+        "destination_airport_name": "Cape Town International Airport",
+        "destination_city": "Cape Town",
+        "destination_country": "South Africa",
+        "local_departure_time": "18:45",
+        "local_arrival_time": "23:30",
+        "duration": "05:45"
+    },
+    {
+        "flight_number": "JM8608",
+        "airline_name": "Jambojet",
+        "destination_iata": "MBA",
+        "destination_airport_name": "Mombasa Moi International Airport",
+        "destination_city": "Mombasa",
+        "destination_country": "Kenya",
+        "local_departure_time": "19:10",
+        "local_arrival_time": "20:25",
+        "duration": "01:15"
     },
     {
         "flight_number": "YS116",
@@ -968,48 +748,15 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "AI962",
-        "airline_name": "Air India",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
+        "flight_number": "KQ204",
+        "airline_name": "Kenya Airways",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
         "destination_country": "India",
-        "local_departure_time": "20:05",
-        "local_arrival_time": "06:00 (+1)",
-        "duration": "07:25"
-    },
-    {
-        "flight_number": "KQ2344",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "SHJ",
-        "destination_airport_name": "Sharjah International Airport",
-        "destination_city": "Sharjah",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "20:15",
-        "local_arrival_time": "01:00 (+1)",
-        "duration": "03:45"
-    },
-    {
-        "flight_number": "JM8718",
-        "airline_name": "Jambojet",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
-        "local_departure_time": "20:30 / 21:10",
-        "local_arrival_time": "21:45 / 22:25",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "KQ618",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "MBA",
-        "destination_airport_name": "Mombasa Moi International Airport",
-        "destination_city": "Mombasa",
-        "destination_country": "Kenya",
         "local_departure_time": "20:45",
-        "local_arrival_time": "21:45",
-        "duration": "01:00"
+        "local_arrival_time": "05:35 (+1)",
+        "duration": "06:20"
     },
     {
         "flight_number": "WB403",
@@ -1023,15 +770,15 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "KQ2774",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "JNB",
-        "destination_airport_name": "Johannesburg OR Tambo International Airport",
-        "destination_city": "Johannesburg",
-        "destination_country": "South Africa",
+        "flight_number": "ET3305",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "ADD",
+        "destination_airport_name": "Addis Ababa Bole Airport",
+        "destination_city": "Addis Ababa",
+        "destination_country": "Ethiopia",
         "local_departure_time": "21:00",
-        "local_arrival_time": "00:20 (+1)",
-        "duration": "04:20"
+        "local_arrival_time": "23:00",
+        "duration": "02:00"
     },
     {
         "flight_number": "KQ764",
@@ -1045,37 +792,15 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "PW734",
-        "airline_name": "Precision Air",
-        "destination_iata": "ZNZ",
-        "destination_airport_name": "Zanzibar Abeid Amani Karume International Airport",
-        "destination_city": "Zanzibar",
-        "destination_country": "Tanzania",
+        "flight_number": "JM8718",
+        "airline_name": "Jambojet",
+        "destination_iata": "MBA",
+        "destination_airport_name": "Mombasa Moi International Airport",
+        "destination_city": "Mombasa",
+        "destination_country": "Kenya",
         "local_departure_time": "21:10",
-        "local_arrival_time": "22:50",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "PW732",
-        "airline_name": "Precision Air",
-        "destination_iata": "DAR",
-        "destination_airport_name": "Dar-es-Salaam Julius Nyerere International Airport",
-        "destination_city": "Dar-es-Salaam",
-        "destination_country": "Tanzania",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "23:00",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "ET3305",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "ADD",
-        "destination_airport_name": "Addis Ababa Bole Airport",
-        "destination_city": "Addis Ababa",
-        "destination_country": "Ethiopia",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "23:30",
-        "duration": "02:00"
+        "local_arrival_time": "22:25",
+        "duration": "01:15"
     },
     {
         "flight_number": "UU973",
@@ -1089,6 +814,17 @@
         "duration": "08:55"
     },
     {
+        "flight_number": "PW732",
+        "airline_name": "Precision Air",
+        "destination_iata": "DAR",
+        "destination_airport_name": "Dar-es-Salaam Julius Nyerere International Airport",
+        "destination_city": "Dar-es-Salaam",
+        "destination_country": "Tanzania",
+        "local_departure_time": "21:50",
+        "local_arrival_time": "23:40",
+        "duration": "01:50"
+    },
+    {
         "flight_number": "UR205",
         "airline_name": "Uganda Airlines",
         "destination_iata": "EBB",
@@ -1098,6 +834,17 @@
         "local_departure_time": "22:10",
         "local_arrival_time": "23:25",
         "duration": "01:15"
+    },
+    {
+        "flight_number": "QR8701",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "22:15",
+        "local_arrival_time": "03:15 (+1)",
+        "duration": "05:00"
     },
     {
         "flight_number": "KQ304",
@@ -1122,17 +869,6 @@
         "duration": "08:45"
     },
     {
-        "flight_number": "SN482",
-        "airline_name": "Brussels Airlines",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
-        "local_departure_time": "22:45",
-        "local_arrival_time": "06:45 (+1)",
-        "duration": "09:00"
-    },
-    {
         "flight_number": "EK722",
         "airline_name": "Emirates",
         "destination_iata": "DXB",
@@ -1142,6 +878,17 @@
         "local_departure_time": "22:45",
         "local_arrival_time": "04:50 (+1)",
         "duration": "05:05"
+    },
+    {
+        "flight_number": "SN482",
+        "airline_name": "Brussels Airlines",
+        "destination_iata": "BRU",
+        "destination_airport_name": "Brussels Airport",
+        "destination_city": "Brussels",
+        "destination_country": "Belgium",
+        "local_departure_time": "22:45",
+        "local_arrival_time": "06:45 (+1)",
+        "duration": "09:00"
     },
     {
         "flight_number": "KQ274",
@@ -1188,28 +935,6 @@
         "duration": "08:55"
     },
     {
-        "flight_number": "WB403",
-        "airline_name": "RwandAir",
-        "destination_iata": "KGL",
-        "destination_airport_name": "Kigali Airport",
-        "destination_city": "Kigali",
-        "destination_country": "Rwanda",
-        "local_departure_time": "23:00",
-        "local_arrival_time": "23:40",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "MP8342",
-        "airline_name": "Martinair",
-        "destination_iata": "AMS",
-        "destination_airport_name": "Amsterdam Schiphol Airport",
-        "destination_city": "Amsterdam",
-        "destination_country": "Netherlands",
-        "local_departure_time": "23:30",
-        "local_arrival_time": "06:30 (+1)",
-        "duration": "08:00"
-    },
-    {
         "flight_number": "KQ2",
         "airline_name": "Kenya Airways",
         "destination_iata": "JFK",
@@ -1227,20 +952,20 @@
         "destination_airport_name": "London Gatwick Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "23:40",
-        "local_arrival_time": "06:50 (+1)",
+        "local_departure_time": "23:45",
+        "local_arrival_time": "06:55 (+1)",
         "duration": "09:10"
     },
     {
-        "flight_number": "KQ112",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "23:50",
-        "local_arrival_time": "07:30 (+1)",
-        "duration": "08:40"
+        "flight_number": "SN491",
+        "airline_name": "Brussels Airlines",
+        "destination_iata": "BRU",
+        "destination_airport_name": "Brussels Airport",
+        "destination_city": "Brussels",
+        "destination_country": "Belgium",
+        "local_departure_time": "23:45",
+        "local_arrival_time": "07:45 (+1)",
+        "duration": "09:00"
     },
     {
         "flight_number": "TC203",
@@ -1254,6 +979,17 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "KQ112",
+        "airline_name": "Kenya Airways",
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "23:50",
+        "local_arrival_time": "07:30 (+1)",
+        "duration": "08:40"
+    },
+    {
         "flight_number": "KL566",
         "airline_name": "KLM",
         "destination_iata": "AMS",
@@ -1262,7 +998,7 @@
         "destination_country": "Netherlands",
         "local_departure_time": "23:59",
         "local_arrival_time": "08:00 (+1) / 08:15 (+1)",
-        "duration": "09:16"
+        "duration": "09:01"
     },
     {
         "flight_number": "KQ624",

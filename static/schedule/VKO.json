@@ -1,25 +1,14 @@
 [
     {
-        "flight_number": "ZF3001",
-        "airline_name": "Azur Air",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "00:05",
-        "local_arrival_time": "05:00",
-        "duration": "04:55"
-    },
-    {
-        "flight_number": "ZF1001",
-        "airline_name": "Azur Air",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "00:05",
-        "local_arrival_time": "05:00",
-        "duration": "04:55"
+        "flight_number": "FZ952",
+        "airline_name": "flydubai",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "00:15",
+        "local_arrival_time": "07:00",
+        "duration": "05:45"
     },
     {
         "flight_number": "4S3114",
@@ -29,8 +18,8 @@
         "destination_city": "Sharm el-Sheikh",
         "destination_country": "Egypt",
         "local_departure_time": "00:25",
-        "local_arrival_time": "06:30",
-        "duration": "06:05"
+        "local_arrival_time": "06:15",
+        "duration": "05:50"
     },
     {
         "flight_number": "SU6188",
@@ -50,8 +39,8 @@
         "destination_airport_name": "Istanbul Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "00:35 / 00:40",
-        "local_arrival_time": "04:45 / 04:50",
+        "local_departure_time": "00:35",
+        "local_arrival_time": "04:45",
         "duration": "04:10"
     },
     {
@@ -88,6 +77,17 @@
         "duration": "03:25"
     },
     {
+        "flight_number": "NE617",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "01:00",
+        "local_arrival_time": "06:35",
+        "duration": "05:35"
+    },
+    {
         "flight_number": "FZ988",
         "airline_name": "flydubai",
         "destination_iata": "DXB",
@@ -97,17 +97,6 @@
         "local_departure_time": "01:05",
         "local_arrival_time": "07:45",
         "duration": "05:40"
-    },
-    {
-        "flight_number": "SU6657",
-        "airline_name": "Aeroflot",
-        "destination_iata": "UFA",
-        "destination_airport_name": "Ufa International Airport",
-        "destination_city": "Ufa",
-        "destination_country": "Russia",
-        "local_departure_time": "01:10",
-        "local_arrival_time": "05:20",
-        "duration": "02:10"
     },
     {
         "flight_number": "TK410",
@@ -132,15 +121,15 @@
         "duration": "04:25"
     },
     {
-        "flight_number": "DV814",
-        "airline_name": "SCAT",
-        "destination_iata": "NQZ",
-        "destination_airport_name": "Astana Nursultan Nazarbayev International Airport",
-        "destination_city": "Astana",
-        "destination_country": "Kazakhstan",
-        "local_departure_time": "01:30",
-        "local_arrival_time": "06:20",
-        "duration": "02:50"
+        "flight_number": "3F324",
+        "airline_name": "FlyOne",
+        "destination_iata": "EVN",
+        "destination_airport_name": "Yerevan Zvartnots International Airport",
+        "destination_city": "Yerevan",
+        "destination_country": "Armenia",
+        "local_departure_time": "01:20 / 02:10",
+        "local_arrival_time": "05:20 / 06:30",
+        "duration": "03:20"
     },
     {
         "flight_number": "UT363",
@@ -198,6 +187,17 @@
         "duration": "05:40"
     },
     {
+        "flight_number": "DV814",
+        "airline_name": "SCAT",
+        "destination_iata": "NQZ",
+        "destination_airport_name": "Astana Nursultan Nazarbayev International Airport",
+        "destination_city": "Astana",
+        "destination_country": "Kazakhstan",
+        "local_departure_time": "02:10",
+        "local_arrival_time": "07:05",
+        "duration": "02:55"
+    },
+    {
         "flight_number": "TK422",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
@@ -207,17 +207,6 @@
         "local_departure_time": "02:10",
         "local_arrival_time": "06:10",
         "duration": "04:00"
-    },
-    {
-        "flight_number": "3F324",
-        "airline_name": "FlyOne",
-        "destination_iata": "EVN",
-        "destination_airport_name": "Yerevan Zvartnots International Airport",
-        "destination_city": "Yerevan",
-        "destination_country": "Armenia",
-        "local_departure_time": "02:10",
-        "local_arrival_time": "06:30",
-        "duration": "03:20"
     },
     {
         "flight_number": "TK3039",
@@ -231,25 +220,14 @@
         "duration": "04:35"
     },
     {
-        "flight_number": "TK3169",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "02:40",
-        "local_arrival_time": "07:20",
-        "duration": "04:40"
-    },
-    {
         "flight_number": "VF276",
         "airline_name": "AJet",
         "destination_iata": "SAW",
         "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "02:45",
-        "local_arrival_time": "06:40",
+        "local_departure_time": "02:45 / 02:55",
+        "local_arrival_time": "06:40 / 06:50",
         "duration": "03:55"
     },
     {
@@ -264,18 +242,7 @@
         "duration": "04:20"
     },
     {
-        "flight_number": "4S3112",
-        "airline_name": "Red Sea Airlines",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "02:55",
-        "local_arrival_time": "08:50",
-        "duration": "05:55"
-    },
-    {
-        "flight_number": "ZF1005",
+        "flight_number": "ZF1003",
         "airline_name": "Azur Air",
         "destination_iata": "AYT",
         "destination_airport_name": "Antalya Airport",
@@ -284,6 +251,17 @@
         "local_departure_time": "03:05",
         "local_arrival_time": "08:00",
         "duration": "04:55"
+    },
+    {
+        "flight_number": "FZ976",
+        "airline_name": "flydubai",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "03:25",
+        "local_arrival_time": "10:05",
+        "duration": "05:40"
     },
     {
         "flight_number": "TK3105",
@@ -297,15 +275,15 @@
         "duration": "04:25"
     },
     {
-        "flight_number": "ZF1003",
-        "airline_name": "Azur Air",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "03:50",
-        "local_arrival_time": "08:45",
-        "duration": "04:55"
+        "flight_number": "4S3118",
+        "airline_name": "Red Sea Airlines",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "03:45",
+        "local_arrival_time": "09:45",
+        "duration": "06:00"
     },
     {
         "flight_number": "PC387",
@@ -317,6 +295,17 @@
         "local_departure_time": "04:00",
         "local_arrival_time": "08:15",
         "duration": "04:15"
+    },
+    {
+        "flight_number": "TK3169",
+        "airline_name": "Turkish Airlines",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "04:10",
+        "local_arrival_time": "08:50",
+        "duration": "04:40"
     },
     {
         "flight_number": "TK3191",
@@ -352,6 +341,28 @@
         "duration": "04:10"
     },
     {
+        "flight_number": "4S3316",
+        "airline_name": "Red Sea Airlines",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "05:00",
+        "local_arrival_time": "11:00",
+        "duration": "06:00"
+    },
+    {
+        "flight_number": "NE619",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "05:00",
+        "local_arrival_time": "10:35",
+        "duration": "05:35"
+    },
+    {
         "flight_number": "FZ968",
         "airline_name": "flydubai",
         "destination_iata": "DXB",
@@ -361,6 +372,17 @@
         "local_departure_time": "05:15",
         "local_arrival_time": "11:55",
         "duration": "05:40"
+    },
+    {
+        "flight_number": "NE613",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "05:20",
+        "local_arrival_time": "10:55",
+        "duration": "05:35"
     },
     {
         "flight_number": "A9931",
@@ -374,15 +396,15 @@
         "duration": "02:50"
     },
     {
-        "flight_number": "NE601",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "HRG",
-        "destination_airport_name": "Hurghada International Airport",
-        "destination_city": "Hurghada",
-        "destination_country": "Egypt",
-        "local_departure_time": "05:45",
-        "local_arrival_time": "11:20",
-        "duration": "05:35"
+        "flight_number": "VF278",
+        "airline_name": "AJet",
+        "destination_iata": "SAW",
+        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "05:50",
+        "local_arrival_time": "09:35 / 09:45",
+        "duration": "03:55"
     },
     {
         "flight_number": "PC391",
@@ -403,19 +425,8 @@
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
         "local_departure_time": "06:25",
-        "local_arrival_time": "10:30",
-        "duration": "04:05"
-    },
-    {
-        "flight_number": "ZF3009",
-        "airline_name": "Azur Air",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "06:25",
-        "local_arrival_time": "11:40",
-        "duration": "05:15"
+        "local_arrival_time": "10:20",
+        "duration": "03:55"
     },
     {
         "flight_number": "PC1459",
@@ -429,81 +440,48 @@
         "duration": "04:30"
     },
     {
-        "flight_number": "SU6162",
+        "flight_number": "FZ970",
+        "airline_name": "flydubai",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "07:20",
+        "local_arrival_time": "14:00",
+        "duration": "05:40"
+    },
+    {
+        "flight_number": "NE601",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "13:15",
+        "duration": "05:45"
+    },
+    {
+        "flight_number": "NE603",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "07:50",
+        "local_arrival_time": "13:35",
+        "duration": "05:45"
+    },
+    {
+        "flight_number": "SU6170",
         "airline_name": "Aeroflot",
         "destination_iata": "LED",
         "destination_airport_name": "St. Petersburg Pulkovo Airport",
         "destination_city": "St. Petersburg",
         "destination_country": "Russia",
-        "local_departure_time": "07:30",
-        "local_arrival_time": "08:55",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "DP839",
-        "airline_name": "Pobeda",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "07:35",
-        "local_arrival_time": "12:35",
-        "duration": "05:00"
-    },
-    {
-        "flight_number": "ZF511",
-        "airline_name": "Azur Air",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "07:40",
-        "local_arrival_time": "13:00",
-        "duration": "05:20"
-    },
-    {
-        "flight_number": "DP963",
-        "airline_name": "Pobeda",
-        "destination_iata": "DLM",
-        "destination_airport_name": "Dalaman Airport",
-        "destination_city": "Dalaman",
-        "destination_country": "Turkey",
-        "local_departure_time": "07:40",
-        "local_arrival_time": "12:55",
-        "duration": "05:15"
-    },
-    {
-        "flight_number": "DP737",
-        "airline_name": "Pobeda",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "07:50",
-        "local_arrival_time": "12:55",
-        "duration": "05:05"
-    },
-    {
-        "flight_number": "DP993",
-        "airline_name": "Pobeda",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "13:00",
-        "duration": "05:00"
-    },
-    {
-        "flight_number": "DP423",
-        "airline_name": "Pobeda",
-        "destination_iata": "KUF",
-        "destination_airport_name": "Samara Kurumoch International Airport",
-        "destination_city": "Samara",
-        "destination_country": "Russia",
-        "local_departure_time": "08:05",
-        "local_arrival_time": "10:50",
-        "duration": "01:45"
+        "local_departure_time": "08:30",
+        "local_arrival_time": "10:00",
+        "duration": "01:30"
     },
     {
         "flight_number": "DP121",
@@ -528,28 +506,6 @@
         "duration": "03:10"
     },
     {
-        "flight_number": "DP113",
-        "airline_name": "Pobeda",
-        "destination_iata": "AER",
-        "destination_airport_name": "Sochi International Airport",
-        "destination_city": "Sochi",
-        "destination_country": "Russia",
-        "local_departure_time": "08:45",
-        "local_arrival_time": "12:35",
-        "duration": "03:50"
-    },
-    {
-        "flight_number": "DP859",
-        "airline_name": "Pobeda",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "08:45",
-        "local_arrival_time": "13:45",
-        "duration": "05:00"
-    },
-    {
         "flight_number": "DP209",
         "airline_name": "Pobeda",
         "destination_iata": "LED",
@@ -559,17 +515,6 @@
         "local_departure_time": "09:00",
         "local_arrival_time": "10:20",
         "duration": "01:20"
-    },
-    {
-        "flight_number": "UT361",
-        "airline_name": "Utair",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "10:45",
-        "duration": "01:35"
     },
     {
         "flight_number": "B2982",
@@ -583,17 +528,6 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "UT267",
-        "airline_name": "Utair",
-        "destination_iata": "AER",
-        "destination_airport_name": "Sochi International Airport",
-        "destination_city": "Sochi",
-        "destination_country": "Russia",
-        "local_departure_time": "09:25",
-        "local_arrival_time": "13:10",
-        "duration": "03:45"
-    },
-    {
         "flight_number": "SU6052",
         "airline_name": "Aeroflot",
         "destination_iata": "LED",
@@ -603,17 +537,6 @@
         "local_departure_time": "09:30",
         "local_arrival_time": "11:00",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "3F322",
-        "airline_name": "FlyOne Armenia",
-        "destination_iata": "EVN",
-        "destination_airport_name": "Yerevan Zvartnots International Airport",
-        "destination_city": "Yerevan",
-        "destination_country": "Armenia",
-        "local_departure_time": "09:40",
-        "local_arrival_time": "14:00",
-        "duration": "03:20"
     },
     {
         "flight_number": "DV820",
@@ -638,6 +561,17 @@
         "duration": "03:15"
     },
     {
+        "flight_number": "3F322",
+        "airline_name": "FlyOne Armenia",
+        "destination_iata": "EVN",
+        "destination_airport_name": "Yerevan Zvartnots International Airport",
+        "destination_city": "Yerevan",
+        "destination_country": "Armenia",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "14:20",
+        "duration": "03:20"
+    },
+    {
         "flight_number": "DP207",
         "airline_name": "Pobeda",
         "destination_iata": "LED",
@@ -660,15 +594,15 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "UT783",
-        "airline_name": "Utair",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "10:30",
-        "local_arrival_time": "15:25",
-        "duration": "04:55"
+        "flight_number": "NE613",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "10:15",
+        "local_arrival_time": "16:00",
+        "duration": "05:45"
     },
     {
         "flight_number": "SU6004",
@@ -682,6 +616,17 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "UT783",
+        "airline_name": "Utair",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "10:30",
+        "local_arrival_time": "15:50",
+        "duration": "05:20"
+    },
+    {
         "flight_number": "UT249",
         "airline_name": "Utair",
         "destination_iata": "AER",
@@ -693,15 +638,48 @@
         "duration": "03:50"
     },
     {
-        "flight_number": "SU6006",
+        "flight_number": "HY612",
+        "airline_name": "Uzbekistan Airways",
+        "destination_iata": "TAS",
+        "destination_airport_name": "Tashkent International Airport",
+        "destination_city": "Tashkent",
+        "destination_country": "Uzbekistan",
+        "local_departure_time": "10:50",
+        "local_arrival_time": "16:45",
+        "duration": "03:55"
+    },
+    {
+        "flight_number": "SU6014",
         "airline_name": "Aeroflot",
         "destination_iata": "LED",
         "destination_airport_name": "St. Petersburg Pulkovo Airport",
         "destination_city": "St. Petersburg",
         "destination_country": "Russia",
-        "local_departure_time": "11:30",
-        "local_arrival_time": "13:00",
+        "local_departure_time": "11:00",
+        "local_arrival_time": "12:30",
         "duration": "01:30"
+    },
+    {
+        "flight_number": "NE603",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "17:45",
+        "duration": "05:45"
+    },
+    {
+        "flight_number": "ZF3007",
+        "airline_name": "Azur Air",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "16:55",
+        "duration": "04:55"
     },
     {
         "flight_number": "A9935",
@@ -713,17 +691,6 @@
         "local_departure_time": "12:00",
         "local_arrival_time": "15:50",
         "duration": "02:50"
-    },
-    {
-        "flight_number": "4S3314",
-        "airline_name": "Red Sea Airlines",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "12:10",
-        "local_arrival_time": "18:10",
-        "duration": "06:00"
     },
     {
         "flight_number": "DP205",
@@ -754,9 +721,20 @@
         "destination_airport_name": "Istanbul Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
+        "local_departure_time": "12:30",
+        "local_arrival_time": "16:25",
+        "duration": "03:55"
+    },
+    {
+        "flight_number": "TK3049",
+        "airline_name": "Turkish Airlines",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
         "local_departure_time": "12:35",
-        "local_arrival_time": "16:40",
-        "duration": "04:05"
+        "local_arrival_time": "17:10",
+        "duration": "04:35"
     },
     {
         "flight_number": "DP127",
@@ -770,37 +748,37 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "5G510",
-        "airline_name": "Shirak Avia",
+        "flight_number": "J2808",
+        "airline_name": "Azerbaijan Airlines",
+        "destination_iata": "GYD",
+        "destination_airport_name": "Baku Heydar Aliyev International Airport",
+        "destination_city": "Baku",
+        "destination_country": "Azerbaijan",
+        "local_departure_time": "12:50",
+        "local_arrival_time": "17:15",
+        "duration": "03:25"
+    },
+    {
+        "flight_number": "A47029",
+        "airline_name": "Azimuth",
         "destination_iata": "EVN",
         "destination_airport_name": "Yerevan Zvartnots International Airport",
         "destination_city": "Yerevan",
         "destination_country": "Armenia",
-        "local_departure_time": "12:50",
-        "local_arrival_time": "17:30",
-        "duration": "03:40"
-    },
-    {
-        "flight_number": "ZF3005",
-        "airline_name": "Azur Air",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "12:55",
-        "local_arrival_time": "17:50",
-        "duration": "04:55"
-    },
-    {
-        "flight_number": "MRJ4878",
-        "airline_name": "Meraj Airlines",
-        "destination_iata": "IKA",
-        "destination_airport_name": "Tehran Imam Khomeini International Airport",
-        "destination_city": "Tehran",
-        "destination_country": "Iran",
         "local_departure_time": "13:00",
-        "local_arrival_time": "16:30",
-        "duration": "03:00"
+        "local_arrival_time": "17:35",
+        "duration": "03:35"
+    },
+    {
+        "flight_number": "R3466",
+        "airline_name": "Yakutia Airlines",
+        "destination_iata": "OVB",
+        "destination_airport_name": "Novosibirsk Tolmachevo Airport",
+        "destination_city": "Novosibirsk",
+        "destination_country": "Russia",
+        "local_departure_time": "13:00",
+        "local_arrival_time": "20:40",
+        "duration": "03:40"
     },
     {
         "flight_number": "TK3153",
@@ -843,8 +821,8 @@
         "destination_city": "St. Petersburg",
         "destination_country": "Russia",
         "local_departure_time": "13:30",
-        "local_arrival_time": "14:55",
-        "duration": "01:25"
+        "local_arrival_time": "15:00",
+        "duration": "01:30"
     },
     {
         "flight_number": "TK1232",
@@ -858,15 +836,15 @@
         "duration": "04:45"
     },
     {
-        "flight_number": "DP995",
-        "airline_name": "Pobeda",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "13:35",
-        "local_arrival_time": "18:35",
-        "duration": "05:00"
+        "flight_number": "NE681",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "13:45",
+        "local_arrival_time": "19:20",
+        "duration": "05:35"
     },
     {
         "flight_number": "TK3141",
@@ -880,14 +858,25 @@
         "duration": "04:35"
     },
     {
+        "flight_number": "ZF3001",
+        "airline_name": "Azur Air",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "18:55",
+        "duration": "04:55"
+    },
+    {
         "flight_number": "TK418",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
         "destination_airport_name": "Istanbul Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "18:05",
+        "local_departure_time": "14:10",
+        "local_arrival_time": "18:15",
         "duration": "04:05"
     },
     {
@@ -902,59 +891,15 @@
         "duration": "04:35"
     },
     {
-        "flight_number": "ZF901",
-        "airline_name": "Azur Air",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "14:20",
-        "local_arrival_time": "20:35",
-        "duration": "06:15"
-    },
-    {
         "flight_number": "SU6026",
         "airline_name": "Aeroflot",
         "destination_iata": "LED",
         "destination_airport_name": "St. Petersburg Pulkovo Airport",
         "destination_city": "St. Petersburg",
         "destination_country": "Russia",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "15:55",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "5G510",
-        "airline_name": "Shirak Avia",
-        "destination_iata": "EVN",
-        "destination_airport_name": "Yerevan Zvartnots International Airport",
-        "destination_city": "Yerevan",
-        "destination_country": "Armenia",
-        "local_departure_time": "14:35",
-        "local_arrival_time": "19:15",
-        "duration": "03:40"
-    },
-    {
-        "flight_number": "VF278",
-        "airline_name": "AJet",
-        "destination_iata": "SAW",
-        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "14:45",
-        "local_arrival_time": "18:40",
-        "duration": "03:55"
-    },
-    {
-        "flight_number": "XY380",
-        "airline_name": "flynas",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
         "local_departure_time": "15:00",
-        "local_arrival_time": "20:40",
-        "duration": "05:40"
+        "local_arrival_time": "16:30",
+        "duration": "01:30"
     },
     {
         "flight_number": "PC389",
@@ -966,39 +911,6 @@
         "local_departure_time": "15:05",
         "local_arrival_time": "19:20",
         "duration": "04:15"
-    },
-    {
-        "flight_number": "4S3314",
-        "airline_name": "Red Sea Airlines",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "15:10",
-        "local_arrival_time": "21:10",
-        "duration": "06:00"
-    },
-    {
-        "flight_number": "SU6028",
-        "airline_name": "Rossiya",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "17:00",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": null,
-        "airline_name": "Iran Airtour",
-        "destination_iata": "IKA",
-        "destination_airport_name": "Tehran Imam Khomeini International Airport",
-        "destination_city": "Tehran",
-        "destination_country": "Iran",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "19:46",
-        "duration": "03:46"
     },
     {
         "flight_number": "6R544",
@@ -1023,28 +935,6 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "TK3091",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "16:10",
-        "local_arrival_time": "20:50",
-        "duration": "04:40"
-    },
-    {
-        "flight_number": "HY9614",
-        "airline_name": "Uzbekistan Airways",
-        "destination_iata": "TAS",
-        "destination_airport_name": "Tashkent International Airport",
-        "destination_city": "Tashkent",
-        "destination_country": "Uzbekistan",
-        "local_departure_time": "16:25",
-        "local_arrival_time": "22:20",
-        "duration": "03:55"
-    },
-    {
         "flight_number": "FZ990",
         "airline_name": "flydubai",
         "destination_iata": "DXB",
@@ -1057,7 +947,7 @@
     },
     {
         "flight_number": "SU6032",
-        "airline_name": "Rossiya",
+        "airline_name": "Aeroflot",
         "destination_iata": "LED",
         "destination_airport_name": "St. Petersburg Pulkovo Airport",
         "destination_city": "St. Petersburg",
@@ -1065,17 +955,6 @@
         "local_departure_time": "16:30",
         "local_arrival_time": "18:00",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "ZF3001",
-        "airline_name": "Azur Air",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "21:25",
-        "duration": "04:55"
     },
     {
         "flight_number": "A9925",
@@ -1087,17 +966,6 @@
         "local_departure_time": "17:00",
         "local_arrival_time": "20:50",
         "duration": "02:50"
-    },
-    {
-        "flight_number": "A47019",
-        "airline_name": "Azimuth",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
-        "local_departure_time": "17:00",
-        "local_arrival_time": "18:30",
-        "duration": "01:30"
     },
     {
         "flight_number": "B2980",
@@ -1123,7 +991,7 @@
     },
     {
         "flight_number": "SU6038",
-        "airline_name": "Rossiya",
+        "airline_name": "Aeroflot",
         "destination_iata": "LED",
         "destination_airport_name": "St. Petersburg Pulkovo Airport",
         "destination_city": "St. Petersburg",
@@ -1155,30 +1023,8 @@
         "duration": "05:45"
     },
     {
-        "flight_number": "SU6012",
+        "flight_number": "SU6022",
         "airline_name": "Aeroflot",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "19:30",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "A94042",
-        "airline_name": "Georgian Airways",
-        "destination_iata": "TBS",
-        "destination_airport_name": "Tbilisi International Airport",
-        "destination_city": "Tbilisi",
-        "destination_country": "Georgia",
-        "local_departure_time": "18:15",
-        "local_arrival_time": "22:30",
-        "duration": "03:15"
-    },
-    {
-        "flight_number": "SU6176",
-        "airline_name": "Rossiya",
         "destination_iata": "LED",
         "destination_airport_name": "St. Petersburg Pulkovo Airport",
         "destination_city": "St. Petersburg",
@@ -1188,61 +1034,6 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "DV810",
-        "airline_name": "SCAT",
-        "destination_iata": "ALA",
-        "destination_airport_name": "Almaty International Airport",
-        "destination_city": "Almaty",
-        "destination_country": "Kazakhstan",
-        "local_departure_time": "19:00",
-        "local_arrival_time": "01:20 (+1)",
-        "duration": "04:20"
-    },
-    {
-        "flight_number": "UT381",
-        "airline_name": "Utair",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "20:30",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "DP115",
-        "airline_name": "Pobeda",
-        "destination_iata": "AER",
-        "destination_airport_name": "Sochi International Airport",
-        "destination_city": "Sochi",
-        "destination_country": "Russia",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "22:55",
-        "duration": "03:45"
-    },
-    {
-        "flight_number": "DP421",
-        "airline_name": "Pobeda",
-        "destination_iata": "KUF",
-        "destination_airport_name": "Samara Kurumoch International Airport",
-        "destination_city": "Samara",
-        "destination_country": "Russia",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "22:00",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "TK6882",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "23:25",
-        "duration": "04:10"
-    },
-    {
         "flight_number": "TK416",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
@@ -1250,74 +1041,30 @@
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
         "local_departure_time": "19:25",
-        "local_arrival_time": "23:35",
-        "duration": "04:10"
+        "local_arrival_time": "23:25",
+        "duration": "04:00"
     },
     {
         "flight_number": "SU6178",
-        "airline_name": "Rossiya",
+        "airline_name": "Aeroflot",
         "destination_iata": "LED",
         "destination_airport_name": "St. Petersburg Pulkovo Airport",
         "destination_city": "St. Petersburg",
         "destination_country": "Russia",
         "local_departure_time": "19:30",
-        "local_arrival_time": "20:50",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "UT357",
-        "airline_name": "Utair",
-        "destination_iata": "KUF",
-        "destination_airport_name": "Samara Kurumoch International Airport",
-        "destination_city": "Samara",
-        "destination_country": "Russia",
-        "local_departure_time": "19:30",
-        "local_arrival_time": "22:15",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "KA504",
-        "airline_name": "Aero Nomad",
-        "destination_iata": "FRU",
-        "destination_airport_name": "Bishkek Manas International Airport",
-        "destination_city": "Bishkek",
-        "destination_country": "Kyrgyzstan",
-        "local_departure_time": "19:50",
-        "local_arrival_time": "03:10 (+1)",
-        "duration": "04:20"
-    },
-    {
-        "flight_number": "DP967",
-        "airline_name": "Pobeda",
-        "destination_iata": "MSQ",
-        "destination_airport_name": "Minsk National Airport",
-        "destination_city": "Minsk",
-        "destination_country": "Belarus",
-        "local_departure_time": "19:55",
-        "local_arrival_time": "21:25",
+        "local_arrival_time": "21:00",
         "duration": "01:30"
     },
     {
         "flight_number": "SU6942",
-        "airline_name": "Rossiya",
+        "airline_name": "Aeroflot",
         "destination_iata": "LED",
         "destination_airport_name": "St. Petersburg Pulkovo Airport",
         "destination_city": "St. Petersburg",
         "destination_country": "Russia",
         "local_departure_time": "20:30",
-        "local_arrival_time": "21:55",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "HY614",
-        "airline_name": "Uzbekistan Airways",
-        "destination_iata": "TAS",
-        "destination_airport_name": "Tashkent International Airport",
-        "destination_city": "Tashkent",
-        "destination_country": "Uzbekistan",
-        "local_departure_time": "20:50",
-        "local_arrival_time": "02:45 (+1)",
-        "duration": "03:55"
+        "local_arrival_time": "22:00",
+        "duration": "01:30"
     },
     {
         "flight_number": "UT785",
@@ -1331,59 +1078,26 @@
         "duration": "03:35"
     },
     {
-        "flight_number": "DP283",
-        "airline_name": "Pobeda",
-        "destination_iata": "KZN",
-        "destination_airport_name": "Kazan International Airport",
-        "destination_city": "Kazan",
-        "destination_country": "Russia",
-        "local_departure_time": "20:50",
-        "local_arrival_time": "22:20",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "DP741",
-        "airline_name": "Pobeda",
+        "flight_number": "HY614",
+        "airline_name": "Uzbekistan Airways",
         "destination_iata": "TAS",
         "destination_airport_name": "Tashkent International Airport",
         "destination_city": "Tashkent",
         "destination_country": "Uzbekistan",
-        "local_departure_time": "21:20",
-        "local_arrival_time": "03:20 (+1)",
-        "duration": "04:00"
-    },
-    {
-        "flight_number": "4S3114",
-        "airline_name": "Red Sea Airlines",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "21:25",
-        "local_arrival_time": "03:15 (+1)",
-        "duration": "05:50"
+        "local_departure_time": "20:50 / 21:45",
+        "local_arrival_time": "02:45 (+1) / 03:40 (+1)",
+        "duration": "03:55"
     },
     {
         "flight_number": "SU6182",
-        "airline_name": "Rossiya",
+        "airline_name": "Aeroflot",
         "destination_iata": "LED",
         "destination_airport_name": "St. Petersburg Pulkovo Airport",
         "destination_city": "St. Petersburg",
         "destination_country": "Russia",
         "local_departure_time": "21:30",
-        "local_arrival_time": "23:00",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "J2808",
-        "airline_name": "Azerbaijan Airlines",
-        "destination_iata": "GYD",
-        "destination_airport_name": "Baku Heydar Aliyev International Airport",
-        "destination_city": "Baku",
-        "destination_country": "Azerbaijan",
-        "local_departure_time": "21:40",
-        "local_arrival_time": "02:05 (+1)",
-        "duration": "03:25"
+        "local_arrival_time": "22:50",
+        "duration": "01:20"
     },
     {
         "flight_number": "DV816",
@@ -1397,15 +1111,15 @@
         "duration": "04:40"
     },
     {
-        "flight_number": "DP419",
-        "airline_name": "Pobeda",
-        "destination_iata": "OVB",
-        "destination_airport_name": "Novosibirsk Tolmachevo Airport",
-        "destination_city": "Novosibirsk",
-        "destination_country": "Russia",
-        "local_departure_time": "21:50",
-        "local_arrival_time": "05:55 (+1)",
-        "duration": "04:05"
+        "flight_number": null,
+        "airline_name": "flydubai",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "22:00",
+        "local_arrival_time": "04:34 (+1)",
+        "duration": "05:34"
     },
     {
         "flight_number": "SU6948",
@@ -1415,18 +1129,7 @@
         "destination_city": "St. Petersburg",
         "destination_country": "Russia",
         "local_departure_time": "22:00",
-        "local_arrival_time": "23:20",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "SU6180",
-        "airline_name": "Aeroflot",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
-        "local_departure_time": "22:25",
-        "local_arrival_time": "23:55",
+        "local_arrival_time": "23:30",
         "duration": "01:30"
     },
     {
@@ -1494,16 +1197,5 @@
         "local_departure_time": "23:55",
         "local_arrival_time": "07:55 (+1)",
         "duration": "04:00"
-    },
-    {
-        "flight_number": "DP403",
-        "airline_name": "Pobeda",
-        "destination_iata": "SVX",
-        "destination_airport_name": "Yekaterinburg Koltsovo International Airport",
-        "destination_city": "Yekaterinburg",
-        "destination_country": "Russia",
-        "local_departure_time": "23:55",
-        "local_arrival_time": "04:20 (+1)",
-        "duration": "02:25"
     }
 ]

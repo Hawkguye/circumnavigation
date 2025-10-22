@@ -1,16 +1,5 @@
 [
     {
-        "flight_number": "BI121",
-        "airline_name": "Royal Brunei Airlines",
-        "destination_iata": "MAA",
-        "destination_airport_name": "Chennai International Airport",
-        "destination_city": "Chennai",
-        "destination_country": "India",
-        "local_departure_time": "00:30",
-        "local_arrival_time": "03:20",
-        "duration": "05:20"
-    },
-    {
         "flight_number": "BI695",
         "airline_name": "Royal Brunei Airlines",
         "destination_iata": "NRT",
@@ -20,6 +9,17 @@
         "local_departure_time": "00:35",
         "local_arrival_time": "07:30",
         "duration": "05:55"
+    },
+    {
+        "flight_number": "BI623",
+        "airline_name": "Royal Brunei Airlines",
+        "destination_iata": "PKX",
+        "destination_airport_name": "Beijing Daxing International Airport",
+        "destination_city": "Beijing",
+        "destination_country": "China",
+        "local_departure_time": "02:00",
+        "local_arrival_time": "07:25",
+        "duration": "05:25"
     },
     {
         "flight_number": "BI871",
@@ -55,6 +55,17 @@
         "duration": "02:25"
     },
     {
+        "flight_number": "BI451",
+        "airline_name": "Royal Brunei Airlines",
+        "destination_iata": "TPE",
+        "destination_airport_name": "Taipei Taoyuan International Airport",
+        "destination_city": "Taipei",
+        "destination_country": "Taiwan",
+        "local_departure_time": "10:15",
+        "local_arrival_time": "13:50",
+        "duration": "03:35"
+    },
+    {
         "flight_number": "BI635",
         "airline_name": "Royal Brunei Airlines",
         "destination_iata": "HKG",
@@ -64,17 +75,6 @@
         "local_departure_time": "10:25",
         "local_arrival_time": "13:35",
         "duration": "03:10"
-    },
-    {
-        "flight_number": "BI513",
-        "airline_name": "Royal Brunei Airlines",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "10:55",
-        "local_arrival_time": "12:40",
-        "duration": "02:45"
     },
     {
         "flight_number": "BI735",
@@ -88,15 +88,37 @@
         "duration": "02:25"
     },
     {
+        "flight_number": "BI513",
+        "airline_name": "Royal Brunei Airlines",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "10:55",
+        "local_arrival_time": "12:40",
+        "duration": "02:45"
+    },
+    {
         "flight_number": "SQ147",
         "airline_name": "Singapore Airlines",
         "destination_iata": "SIN",
         "destination_airport_name": "Singapore Changi Airport",
         "destination_city": "Singapore",
         "destination_country": "Singapore",
-        "local_departure_time": "15:45",
-        "local_arrival_time": "18:00",
-        "duration": "02:15"
+        "local_departure_time": "12:00",
+        "local_arrival_time": "14:20",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "BI381",
+        "airline_name": "Royal Brunei Airlines",
+        "destination_iata": "SGN",
+        "destination_airport_name": "Ho Chi Minh City International Airport",
+        "destination_city": "Ho Chi Minh City",
+        "destination_country": "Vietnam",
+        "local_departure_time": "12:30",
+        "local_arrival_time": "13:25",
+        "duration": "01:55"
     },
     {
         "flight_number": "AK279",
@@ -138,9 +160,20 @@
         "destination_airport_name": "Singapore Changi Airport",
         "destination_city": "Singapore",
         "destination_country": "Singapore",
-        "local_departure_time": "18:35",
-        "local_arrival_time": "20:35",
+        "local_departure_time": "18:30",
+        "local_arrival_time": "20:30",
         "duration": "02:00"
+    },
+    {
+        "flight_number": "BI97",
+        "airline_name": "Royal Brunei Airlines",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "19:05",
+        "local_arrival_time": "23:30",
+        "duration": "08:25"
     },
     {
         "flight_number": "BI121",
@@ -161,19 +194,8 @@
         "destination_city": "Melbourne",
         "destination_country": "Australia",
         "local_departure_time": "20:35",
-        "local_arrival_time": "05:30 (+1)",
+        "local_arrival_time": "06:30 (+1)",
         "duration": "06:55"
-    },
-    {
-        "flight_number": "QZ529",
-        "airline_name": "Indonesia AirAsia",
-        "destination_iata": "CGK",
-        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
-        "destination_city": "Jakarta",
-        "destination_country": "Indonesia",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "22:55",
-        "duration": "02:25"
     },
     {
         "flight_number": "5J410",

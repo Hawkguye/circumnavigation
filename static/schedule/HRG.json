@@ -1,47 +1,58 @@
 [
     {
-        "flight_number": "NE4190",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "SKP",
-        "destination_airport_name": "Skopje International Airport",
-        "destination_city": "Skopje",
-        "destination_country": "North Macedonia",
-        "local_departure_time": "00:35",
-        "local_arrival_time": "02:50",
-        "duration": "03:15"
+        "flight_number": "CD400",
+        "airline_name": "Corendon Airlines",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "00:15",
+        "local_arrival_time": "04:40",
+        "duration": "05:25"
     },
     {
-        "flight_number": "NE59",
-        "airline_name": "Nesma Airlines",
+        "flight_number": "SM1040",
+        "airline_name": "Air Cairo",
         "destination_iata": "CAI",
         "destination_airport_name": "Cairo International Airport",
         "destination_city": "Cairo",
         "destination_country": "Egypt",
+        "local_departure_time": "01:05",
+        "local_arrival_time": "02:05",
+        "duration": "01:00"
+    },
+    {
+        "flight_number": "NE602",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "VKO",
+        "destination_airport_name": "Moscow Vnukovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "01:20",
+        "local_arrival_time": "06:50",
+        "duration": "05:30"
+    },
+    {
+        "flight_number": "NE600",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "VKO",
+        "destination_airport_name": "Moscow Vnukovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
         "local_departure_time": "02:00",
-        "local_arrival_time": "03:10",
-        "duration": "01:10"
+        "local_arrival_time": "08:00",
+        "duration": "06:00"
     },
     {
-        "flight_number": "SM995",
-        "airline_name": "Air Cairo",
-        "destination_iata": "EVN",
-        "destination_airport_name": "Yerevan Zvartnots International Airport",
-        "destination_city": "Yerevan",
-        "destination_country": "Armenia",
-        "local_departure_time": "02:20",
-        "local_arrival_time": "06:20",
-        "duration": "03:00"
-    },
-    {
-        "flight_number": "H31125",
-        "airline_name": "HelloJets",
-        "destination_iata": "PRG",
-        "destination_airport_name": "Prague Vaclav Havel Airport",
-        "destination_city": "Prague",
-        "destination_country": "Czechia",
-        "local_departure_time": "02:25",
-        "local_arrival_time": "05:57",
-        "duration": "04:32"
+        "flight_number": "NE614",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "VKO",
+        "destination_airport_name": "Moscow Vnukovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "02:30",
+        "local_arrival_time": "08:30",
+        "duration": "06:00"
     },
     {
         "flight_number": "PC621",
@@ -78,36 +89,69 @@
     },
     {
         "flight_number": "CD500",
-        "airline_name": "Corendon Airlines",
+        "airline_name": "Corendon Dutch Airlines",
         "destination_iata": "AMS",
         "destination_airport_name": "Amsterdam Schiphol Airport",
         "destination_city": "Amsterdam",
         "destination_country": "Netherlands",
-        "local_departure_time": "03:20",
-        "local_arrival_time": "07:45",
+        "local_departure_time": "03:25",
+        "local_arrival_time": "07:50",
         "duration": "05:25"
     },
     {
-        "flight_number": "NE5130",
+        "flight_number": "NE614",
         "airline_name": "Nesma Airlines",
-        "destination_iata": "STR",
-        "destination_airport_name": "Stuttgart Airport",
-        "destination_city": "Stuttgart",
-        "destination_country": "Germany",
-        "local_departure_time": "03:30",
-        "local_arrival_time": "07:15",
-        "duration": "04:45"
+        "destination_iata": "VKO",
+        "destination_airport_name": "Moscow Vnukovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "03:35",
+        "local_arrival_time": "09:05",
+        "duration": "05:30"
     },
     {
         "flight_number": "VF252",
-        "airline_name": "AJet",
+        "airline_name": "Turkish Airlines",
         "destination_iata": "SAW",
         "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "03:40",
-        "local_arrival_time": "06:25",
+        "local_departure_time": "03:40 / 03:50",
+        "local_arrival_time": "06:25 / 06:35",
         "duration": "02:45"
+    },
+    {
+        "flight_number": "NE612",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "VKO",
+        "destination_airport_name": "Moscow Vnukovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "03:45",
+        "local_arrival_time": "09:26",
+        "duration": "05:41"
+    },
+    {
+        "flight_number": "4S8215",
+        "airline_name": "Red Sea Airlines",
+        "destination_iata": "LEJ",
+        "destination_airport_name": "Leipzig Halle Airport",
+        "destination_city": "Leipzig",
+        "destination_country": "Germany",
+        "local_departure_time": "04:00",
+        "local_arrival_time": "08:00",
+        "duration": "05:00"
+    },
+    {
+        "flight_number": "NE4610",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "WAW",
+        "destination_airport_name": "Warsaw Chopin Airport",
+        "destination_city": "Warsaw",
+        "destination_country": "Poland",
+        "local_departure_time": "04:05",
+        "local_arrival_time": "07:35",
+        "duration": "04:30"
     },
     {
         "flight_number": "PC623",
@@ -121,15 +165,48 @@
         "duration": "02:40"
     },
     {
-        "flight_number": "4S8501",
-        "airline_name": "Red Sea Airlines",
-        "destination_iata": "MUC",
-        "destination_airport_name": "Munich Airport",
-        "destination_city": "Munich",
-        "destination_country": "Germany",
+        "flight_number": "PC7435",
+        "airline_name": "Pegasus",
+        "destination_iata": "SAW",
+        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
         "local_departure_time": "04:30",
-        "local_arrival_time": "09:00",
-        "duration": "05:30"
+        "local_arrival_time": "07:10",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "SM2950",
+        "airline_name": "Air Cairo",
+        "destination_iata": "STR",
+        "destination_airport_name": "Stuttgart Airport",
+        "destination_city": "Stuttgart",
+        "destination_country": "Germany",
+        "local_departure_time": "04:50",
+        "local_arrival_time": "08:35",
+        "duration": "04:45"
+    },
+    {
+        "flight_number": "CD400",
+        "airline_name": "Corendon Dutch Airlines",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "04:55",
+        "local_arrival_time": "09:20",
+        "duration": "05:25"
+    },
+    {
+        "flight_number": "NP8507",
+        "airline_name": "Nile Air",
+        "destination_iata": "ZRH",
+        "destination_airport_name": "Zurich Airport",
+        "destination_city": "Zurich",
+        "destination_country": "Switzerland",
+        "local_departure_time": "05:30",
+        "local_arrival_time": "09:15",
+        "duration": "04:45"
     },
     {
         "flight_number": "SM2990",
@@ -154,6 +231,17 @@
         "duration": "03:05"
     },
     {
+        "flight_number": "XR6962",
+        "airline_name": "Corendon Airlines",
+        "destination_iata": "STR",
+        "destination_airport_name": "Stuttgart Airport",
+        "destination_city": "Stuttgart",
+        "destination_country": "Germany",
+        "local_departure_time": "06:00",
+        "local_arrival_time": "09:55",
+        "duration": "04:55"
+    },
+    {
         "flight_number": "MS43",
         "airline_name": "Egyptair",
         "destination_iata": "CAI",
@@ -165,15 +253,37 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "NE57",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
+        "flight_number": "SM174",
+        "airline_name": "Air Cairo",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
         "destination_country": "Egypt",
         "local_departure_time": "06:00",
-        "local_arrival_time": "07:10",
-        "duration": "01:10"
+        "local_arrival_time": "06:30",
+        "duration": "00:30"
+    },
+    {
+        "flight_number": "XR6552",
+        "airline_name": "Corendon Airlines Europe",
+        "destination_iata": "BER",
+        "destination_airport_name": "Berlin Brandenburg Airport",
+        "destination_city": "Berlin",
+        "destination_country": "Germany",
+        "local_departure_time": "06:00",
+        "local_arrival_time": "10:00",
+        "duration": "05:00"
+    },
+    {
+        "flight_number": "QS2517",
+        "airline_name": "Smartwings",
+        "destination_iata": "PRG",
+        "destination_airport_name": "Prague Vaclav Havel Airport",
+        "destination_city": "Prague",
+        "destination_country": "Czechia",
+        "local_departure_time": "06:05",
+        "local_arrival_time": "09:40",
+        "duration": "04:35"
     },
     {
         "flight_number": "QS1241",
@@ -187,17 +297,6 @@
         "duration": "04:35"
     },
     {
-        "flight_number": "4S8861",
-        "airline_name": "Red Sea Airlines",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "07:30",
-        "duration": "00:30"
-    },
-    {
         "flight_number": "NP8501",
         "airline_name": "Nile Air",
         "destination_iata": "BER",
@@ -209,15 +308,37 @@
         "duration": "05:15"
     },
     {
-        "flight_number": "QS2517",
-        "airline_name": "Smartwings",
-        "destination_iata": "PRG",
-        "destination_airport_name": "Prague Vaclav Havel Airport",
-        "destination_city": "Prague",
-        "destination_country": "Czechia",
-        "local_departure_time": "07:20",
-        "local_arrival_time": "10:55",
-        "duration": "04:35"
+        "flight_number": "4S8501",
+        "airline_name": "Red Sea Airlines",
+        "destination_iata": "MUC",
+        "destination_airport_name": "Munich Airport",
+        "destination_city": "Munich",
+        "destination_country": "Germany",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "11:00",
+        "duration": "04:30"
+    },
+    {
+        "flight_number": "MS728",
+        "airline_name": "Egyptair",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "09:00",
+        "duration": "01:00"
+    },
+    {
+        "flight_number": "SM2970",
+        "airline_name": "Air Cairo",
+        "destination_iata": "HAM",
+        "destination_airport_name": "Hamburg Airport",
+        "destination_city": "Hamburg",
+        "destination_country": "Germany",
+        "local_departure_time": "08:05",
+        "local_arrival_time": "12:30",
+        "duration": "05:25"
     },
     {
         "flight_number": "SM21",
@@ -238,19 +359,8 @@
         "destination_city": "Cairo",
         "destination_country": "Egypt",
         "local_departure_time": "09:00",
-        "local_arrival_time": "10:00",
-        "duration": "01:00"
-    },
-    {
-        "flight_number": "NE5301",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "BUD",
-        "destination_airport_name": "Budapest Ferenc Liszt International Airport",
-        "destination_city": "Budapest",
-        "destination_country": "Hungary",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "12:15",
-        "duration": "04:15"
+        "local_arrival_time": "10:10",
+        "duration": "01:10"
     },
     {
         "flight_number": "SM2942",
@@ -264,37 +374,37 @@
         "duration": "04:45"
     },
     {
-        "flight_number": "MS47",
+        "flight_number": "QU2226",
+        "airline_name": "SkyLine Express",
+        "destination_iata": "WAW",
+        "destination_airport_name": "Warsaw Chopin Airport",
+        "destination_city": "Warsaw",
+        "destination_country": "Poland",
+        "local_departure_time": "09:45",
+        "local_arrival_time": "13:15",
+        "duration": "04:30"
+    },
+    {
+        "flight_number": "MS243",
         "airline_name": "Egyptair",
         "destination_iata": "CAI",
         "destination_airport_name": "Cairo International Airport",
         "destination_city": "Cairo",
         "destination_country": "Egypt",
         "local_departure_time": "09:55",
-        "local_arrival_time": "11:05",
-        "duration": "01:10"
+        "local_arrival_time": "10:55",
+        "duration": "01:00"
     },
     {
-        "flight_number": "SM223",
+        "flight_number": "SM2944",
         "airline_name": "Air Cairo",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "10:00",
-        "local_arrival_time": "11:15",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "3F7492",
-        "airline_name": "FlyOne Armenia",
-        "destination_iata": "EVN",
-        "destination_airport_name": "Yerevan Zvartnots International Airport",
-        "destination_city": "Yerevan",
-        "destination_country": "Armenia",
-        "local_departure_time": "10:00",
+        "destination_iata": "FRA",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany",
+        "local_departure_time": "10:15",
         "local_arrival_time": "14:00",
-        "duration": "03:00"
+        "duration": "04:45"
     },
     {
         "flight_number": "SM2960",
@@ -303,42 +413,64 @@
         "destination_airport_name": "Berlin Brandenburg Airport",
         "destination_city": "Berlin",
         "destination_country": "Germany",
-        "local_departure_time": "10:05",
-        "local_arrival_time": "13:50",
+        "local_departure_time": "10:25",
+        "local_arrival_time": "14:10",
         "duration": "04:45"
     },
     {
-        "flight_number": "SM2950",
-        "airline_name": "Air Cairo",
-        "destination_iata": "STR",
-        "destination_airport_name": "Stuttgart Airport",
-        "destination_city": "Stuttgart",
-        "destination_country": "Germany",
+        "flight_number": "MS47",
+        "airline_name": "Egyptair",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
         "local_departure_time": "10:40",
-        "local_arrival_time": "14:25",
-        "duration": "04:45"
+        "local_arrival_time": "11:50",
+        "duration": "01:10"
     },
     {
-        "flight_number": "R51196",
-        "airline_name": "Jordan Aviation",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "11:01",
-        "local_arrival_time": "12:20",
-        "duration": "01:19"
+        "flight_number": "4S3317",
+        "airline_name": "Red Sea Airlines",
+        "destination_iata": "VKO",
+        "destination_airport_name": "Moscow Vnukovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "10:45",
+        "local_arrival_time": "16:45",
+        "duration": "06:00"
     },
     {
-        "flight_number": "TK1430",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "11:10",
+        "flight_number": "4S3117",
+        "airline_name": "Red Sea Airlines",
+        "destination_iata": "VKO",
+        "destination_airport_name": "Moscow Vnukovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "10:45",
+        "local_arrival_time": "16:45",
+        "duration": "06:00"
+    },
+    {
+        "flight_number": "SM2990",
+        "airline_name": "Air Cairo",
+        "destination_iata": "VIE",
+        "destination_airport_name": "Vienna International Airport",
+        "destination_city": "Vienna",
+        "destination_country": "Austria",
+        "local_departure_time": "11:00",
         "local_arrival_time": "14:15",
-        "duration": "03:05"
+        "duration": "04:15"
+    },
+    {
+        "flight_number": "SU905",
+        "airline_name": "Aeroflot",
+        "destination_iata": "SVX",
+        "destination_airport_name": "Yekaterinburg Koltsovo International Airport",
+        "destination_city": "Yekaterinburg",
+        "destination_country": "Russia",
+        "local_departure_time": "11:15",
+        "local_arrival_time": "19:10",
+        "duration": "05:55"
     },
     {
         "flight_number": "SM2974",
@@ -363,26 +495,26 @@
         "duration": "04:40"
     },
     {
-        "flight_number": "W46090",
-        "airline_name": "Wizz Air Malta",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "11:35",
-        "local_arrival_time": "14:50",
-        "duration": "04:15"
-    },
-    {
         "flight_number": "SM2980",
         "airline_name": "Air Cairo",
         "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
+        "destination_airport_name": "Dusseldorf Airport",
         "destination_city": "Dusseldorf",
         "destination_country": "Germany",
-        "local_departure_time": "11:50",
-        "local_arrival_time": "16:00",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "16:10",
         "duration": "05:10"
+    },
+    {
+        "flight_number": "SU733",
+        "airline_name": "Aeroflot",
+        "destination_iata": "LED",
+        "destination_airport_name": "St. Petersburg Pulkovo Airport",
+        "destination_city": "St. Petersburg",
+        "destination_country": "Russia",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "18:45",
+        "duration": "06:45"
     },
     {
         "flight_number": "WK131",
@@ -392,30 +524,8 @@
         "destination_city": "Zurich",
         "destination_country": "Switzerland",
         "local_departure_time": "12:15",
-        "local_arrival_time": "15:50",
-        "duration": "04:35"
-    },
-    {
-        "flight_number": "NE5303",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "WAW",
-        "destination_airport_name": "Warsaw Chopin Airport",
-        "destination_city": "Warsaw",
-        "destination_country": "Poland",
-        "local_departure_time": "12:30",
-        "local_arrival_time": "16:00",
-        "duration": "04:30"
-    },
-    {
-        "flight_number": "SM171",
-        "airline_name": "Air Cairo",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "12:30",
-        "local_arrival_time": "13:30",
-        "duration": "01:00"
+        "local_arrival_time": "16:05",
+        "duration": "04:50"
     },
     {
         "flight_number": "DI6239",
@@ -429,26 +539,15 @@
         "duration": "04:50"
     },
     {
-        "flight_number": "CS445",
-        "airline_name": "Chair Airlines",
-        "destination_iata": "ZRH",
-        "destination_airport_name": "Zurich Airport",
-        "destination_city": "Zurich",
+        "flight_number": "U21580",
+        "airline_name": "easyJet",
+        "destination_iata": "GVA",
+        "destination_airport_name": "Geneva International Airport",
+        "destination_city": "Geneva",
         "destination_country": "Switzerland",
         "local_departure_time": "12:45",
-        "local_arrival_time": "16:30",
-        "duration": "04:45"
-    },
-    {
-        "flight_number": "W22165",
-        "airline_name": "Flexflight",
-        "destination_iata": "ZRH",
-        "destination_airport_name": "Zurich Airport",
-        "destination_city": "Zurich",
-        "destination_country": "Switzerland",
-        "local_departure_time": "12:45",
-        "local_arrival_time": "16:30",
-        "duration": "04:45"
+        "local_arrival_time": "16:45",
+        "duration": "05:00"
     },
     {
         "flight_number": "DE25",
@@ -457,9 +556,9 @@
         "destination_airport_name": "Munich Airport",
         "destination_city": "Munich",
         "destination_country": "Germany",
-        "local_departure_time": "12:55",
+        "local_departure_time": "12:50",
         "local_arrival_time": "16:30",
-        "duration": "04:35"
+        "duration": "04:40"
     },
     {
         "flight_number": "SM23",
@@ -473,19 +572,52 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "SU5574",
+        "flight_number": "SU909",
         "airline_name": "Aeroflot",
-        "destination_iata": "UFA",
-        "destination_airport_name": "Ufa International Airport",
-        "destination_city": "Ufa",
+        "destination_iata": "KZN",
+        "destination_airport_name": "Kazan International Airport",
+        "destination_city": "Kazan",
         "destination_country": "Russia",
+        "local_departure_time": "13:50",
+        "local_arrival_time": "19:40",
+        "duration": "05:50"
+    },
+    {
+        "flight_number": "CAT602",
+        "airline_name": "Airseven",
+        "destination_iata": "BLL",
+        "destination_airport_name": "Billund Airport",
+        "destination_city": "Billund",
+        "destination_country": "Denmark",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "18:18",
+        "duration": "05:18"
+    },
+    {
+        "flight_number": "NO4456",
+        "airline_name": "Neos",
+        "destination_iata": "VRN",
+        "destination_airport_name": "Verona Airport",
+        "destination_city": "Verona",
+        "destination_country": "Italy",
         "local_departure_time": "14:30",
-        "local_arrival_time": "22:10",
-        "duration": "05:40"
+        "local_arrival_time": "17:40",
+        "duration": "04:10"
+    },
+    {
+        "flight_number": "XR4086",
+        "airline_name": "Corendon Airlines Europe",
+        "destination_iata": "DUS",
+        "destination_airport_name": "Dusseldorf Airport",
+        "destination_city": "Dusseldorf",
+        "destination_country": "Germany",
+        "local_departure_time": "14:40",
+        "local_arrival_time": "18:55",
+        "duration": "05:15"
     },
     {
         "flight_number": "TB3012",
-        "airline_name": "TUI",
+        "airline_name": "TUI Airlines Belgium",
         "destination_iata": "BRU",
         "destination_airport_name": "Brussels Airport",
         "destination_city": "Brussels",
@@ -495,59 +627,37 @@
         "duration": "05:50"
     },
     {
-        "flight_number": "4S6077",
-        "airline_name": "Red Sea Airlines",
-        "destination_iata": "LIS",
-        "destination_airport_name": "Lisbon Humberto Delgado Airport",
-        "destination_city": "Lisbon",
-        "destination_country": "Portugal",
-        "local_departure_time": "15:00",
-        "local_arrival_time": "21:30",
-        "duration": "08:30"
+        "flight_number": "SU423",
+        "airline_name": "Aeroflot",
+        "destination_iata": "SVO",
+        "destination_airport_name": "Moscow Sheremetyevo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "15:05",
+        "local_arrival_time": "21:20",
+        "duration": "06:15"
     },
     {
-        "flight_number": "TO4341",
-        "airline_name": "Transavia",
-        "destination_iata": "ORY",
-        "destination_airport_name": "Paris Orly Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "15:15 / 15:30",
-        "local_arrival_time": "19:50 / 20:05",
-        "duration": "05:35"
-    },
-    {
-        "flight_number": "SM2920",
-        "airline_name": "Air Cairo",
-        "destination_iata": "ZRH",
-        "destination_airport_name": "Zurich Airport",
-        "destination_city": "Zurich",
-        "destination_country": "Switzerland",
-        "local_departure_time": "15:25 / 16:00",
-        "local_arrival_time": "19:05 / 19:40",
-        "duration": "04:40"
+        "flight_number": "DE193",
+        "airline_name": "Condor",
+        "destination_iata": "FRA",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany",
+        "local_departure_time": "15:30",
+        "local_arrival_time": "19:35",
+        "duration": "05:05"
     },
     {
         "flight_number": "X36123",
-        "airline_name": "TUI",
+        "airline_name": "TUI fly",
         "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
+        "destination_airport_name": "Dusseldorf Airport",
         "destination_city": "Dusseldorf",
         "destination_country": "Germany",
         "local_departure_time": "15:35",
         "local_arrival_time": "19:50",
         "duration": "05:15"
-    },
-    {
-        "flight_number": "NE5305",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "VIE",
-        "destination_airport_name": "Vienna International Airport",
-        "destination_city": "Vienna",
-        "destination_country": "Austria",
-        "local_departure_time": "15:45",
-        "local_arrival_time": "19:10",
-        "duration": "04:25"
     },
     {
         "flight_number": "SM15",
@@ -561,48 +671,92 @@
         "duration": "00:45"
     },
     {
-        "flight_number": "UJ716",
-        "airline_name": "AlMasria Universal Airlines",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "16:05",
-        "local_arrival_time": "23:05",
-        "duration": "07:00"
-    },
-    {
-        "flight_number": "SU423",
-        "airline_name": "Aeroflot",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "16:15",
-        "local_arrival_time": "22:20 / 22:40",
-        "duration": "06:05"
-    },
-    {
-        "flight_number": "SM3603",
+        "flight_number": "SM2920",
         "airline_name": "Air Cairo",
-        "destination_iata": "GDN",
-        "destination_airport_name": "Gdansk Lech Walesa Airport",
-        "destination_city": "Gdansk",
-        "destination_country": "Poland",
-        "local_departure_time": "16:45",
-        "local_arrival_time": "20:28",
-        "duration": "04:43"
+        "destination_iata": "ZRH",
+        "destination_airport_name": "Zurich Airport",
+        "destination_city": "Zurich",
+        "destination_country": "Switzerland",
+        "local_departure_time": "16:00",
+        "local_arrival_time": "19:40",
+        "duration": "04:40"
     },
     {
-        "flight_number": "B29306",
-        "airline_name": "Belavia",
-        "destination_iata": "MSQ",
-        "destination_airport_name": "Minsk National Airport",
-        "destination_city": "Minsk",
-        "destination_country": "Belarus",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "00:20 (+1)",
-        "duration": "06:50"
+        "flight_number": "DK847",
+        "airline_name": "Sunclass Airlines",
+        "destination_iata": "HEL",
+        "destination_airport_name": "Helsinki Vantaa Airport",
+        "destination_city": "Helsinki",
+        "destination_country": "Finland",
+        "local_departure_time": "16:10",
+        "local_arrival_time": "21:45",
+        "duration": "05:35"
+    },
+    {
+        "flight_number": "QS2533",
+        "airline_name": "Smartwings",
+        "destination_iata": "PRG",
+        "destination_airport_name": "Prague Vaclav Havel Airport",
+        "destination_city": "Prague",
+        "destination_country": "Czechia",
+        "local_departure_time": "16:20",
+        "local_arrival_time": "19:55",
+        "duration": "04:35"
+    },
+    {
+        "flight_number": "OR3455",
+        "airline_name": "TUI Airlines Netherlands",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "16:45",
+        "local_arrival_time": "21:30",
+        "duration": "05:45"
+    },
+    {
+        "flight_number": "CAT9690",
+        "airline_name": "Airseven",
+        "destination_iata": "GOT",
+        "destination_airport_name": "Gothenburg Landvetter Airport",
+        "destination_city": "Gothenburg",
+        "destination_country": "Sweden",
+        "local_departure_time": "16:50",
+        "local_arrival_time": "21:14",
+        "duration": "05:24"
+    },
+    {
+        "flight_number": "EW7983",
+        "airline_name": "Eurowings",
+        "destination_iata": "HAM",
+        "destination_airport_name": "Hamburg Airport",
+        "destination_city": "Hamburg",
+        "destination_country": "Germany",
+        "local_departure_time": "17:10",
+        "local_arrival_time": "21:40",
+        "duration": "05:30"
+    },
+    {
+        "flight_number": "XR6784",
+        "airline_name": "Corendon Airlines Europe",
+        "destination_iata": "NUE",
+        "destination_airport_name": "Nuremberg Airport",
+        "destination_city": "Nuremberg",
+        "destination_country": "Germany",
+        "local_departure_time": "17:15",
+        "local_arrival_time": "21:00",
+        "duration": "04:45"
+    },
+    {
+        "flight_number": "U28744",
+        "airline_name": "easyJet",
+        "destination_iata": "LGW",
+        "destination_airport_name": "London Gatwick Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "17:25",
+        "local_arrival_time": "21:15",
+        "duration": "05:50"
     },
     {
         "flight_number": "MS727",
@@ -616,26 +770,15 @@
         "duration": "06:10"
     },
     {
-        "flight_number": "OR3401",
-        "airline_name": "TUI Airlines Netherlands",
-        "destination_iata": "EIN",
-        "destination_airport_name": "Eindhoven Airport",
-        "destination_city": "Eindhoven",
-        "destination_country": "Netherlands",
-        "local_departure_time": "17:55",
-        "local_arrival_time": "22:40",
-        "duration": "05:45"
-    },
-    {
-        "flight_number": "J9750",
-        "airline_name": "Jazeera Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
+        "flight_number": "DE69",
+        "airline_name": "Condor",
+        "destination_iata": "DUS",
+        "destination_airport_name": "Dusseldorf Airport",
+        "destination_city": "Dusseldorf",
+        "destination_country": "Germany",
         "local_departure_time": "18:15",
-        "local_arrival_time": "20:35",
-        "duration": "02:20"
+        "local_arrival_time": "22:30",
+        "duration": "05:15"
     },
     {
         "flight_number": "SM25",
@@ -649,15 +792,15 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "DE69",
+        "flight_number": "DE3",
         "airline_name": "Condor",
-        "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
-        "destination_city": "Dusseldorf",
+        "destination_iata": "HAM",
+        "destination_airport_name": "Hamburg Airport",
+        "destination_city": "Hamburg",
         "destination_country": "Germany",
-        "local_departure_time": "18:15 / 18:20",
-        "local_arrival_time": "22:30 / 22:35",
-        "duration": "05:15"
+        "local_departure_time": "18:25",
+        "local_arrival_time": "22:35",
+        "duration": "05:10"
     },
     {
         "flight_number": "DE31",
@@ -666,31 +809,9 @@
         "destination_airport_name": "Frankfurt Airport",
         "destination_city": "Frankfurt",
         "destination_country": "Germany",
-        "local_departure_time": "18:15 / 18:30",
-        "local_arrival_time": "22:20 / 22:30",
+        "local_departure_time": "18:30",
+        "local_arrival_time": "22:30",
         "duration": "05:00"
-    },
-    {
-        "flight_number": "DE3",
-        "airline_name": "Condor",
-        "destination_iata": "HAM",
-        "destination_airport_name": "Hamburg Airport",
-        "destination_city": "Hamburg",
-        "destination_country": "Germany",
-        "local_departure_time": "18:20 / 18:25",
-        "local_arrival_time": "22:30 / 22:35",
-        "duration": "05:10"
-    },
-    {
-        "flight_number": "4Y207",
-        "airline_name": "Discover Airlines",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "18:25",
-        "local_arrival_time": "22:20",
-        "duration": "04:55"
     },
     {
         "flight_number": "DI6147",
@@ -705,91 +826,36 @@
     },
     {
         "flight_number": "X36103",
-        "airline_name": "TUI",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "18:45",
-        "local_arrival_time": "22:40",
-        "duration": "04:55"
-    },
-    {
-        "flight_number": "X3103",
-        "airline_name": "TUI",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "18:45",
-        "local_arrival_time": "22:42",
-        "duration": "04:57"
-    },
-    {
-        "flight_number": "NP8503",
-        "airline_name": "Nile Air",
-        "destination_iata": "HAJ",
-        "destination_airport_name": "Hannover Langenhagen Airport",
-        "destination_city": "Hannover",
-        "destination_country": "Germany",
-        "local_departure_time": "18:50",
-        "local_arrival_time": "23:05",
-        "duration": "05:15"
-    },
-    {
-        "flight_number": "U28744",
-        "airline_name": "easyJet",
-        "destination_iata": "LGW",
-        "destination_airport_name": "London Gatwick Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "22:40",
-        "duration": "05:45"
-    },
-    {
-        "flight_number": "4Y217",
-        "airline_name": "Discover Airlines",
-        "destination_iata": "MUC",
-        "destination_airport_name": "Munich Airport",
-        "destination_city": "Munich",
-        "destination_country": "Germany",
-        "local_departure_time": "19:05",
-        "local_arrival_time": "22:35",
-        "duration": "04:30"
-    },
-    {
-        "flight_number": "LO6198",
-        "airline_name": "LOT",
-        "destination_iata": "WAW",
-        "destination_airport_name": "Warsaw Chopin Airport",
-        "destination_city": "Warsaw",
-        "destination_country": "Poland",
-        "local_departure_time": "19:35",
-        "local_arrival_time": "23:05",
-        "duration": "04:30"
-    },
-    {
-        "flight_number": "X36683",
         "airline_name": "TUI fly",
-        "destination_iata": "MUC",
-        "destination_airport_name": "Munich Airport",
-        "destination_city": "Munich",
+        "destination_iata": "FRA",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
         "destination_country": "Germany",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "23:25",
-        "duration": "04:40"
+        "local_departure_time": "18:40",
+        "local_arrival_time": "22:40",
+        "duration": "05:00"
     },
     {
-        "flight_number": "H47412",
-        "airline_name": "HiSky",
-        "destination_iata": "OTP",
-        "destination_airport_name": "Bucharest Henri Coanda International Airport",
-        "destination_city": "Bucharest",
-        "destination_country": "Romania",
-        "local_departure_time": "19:50",
-        "local_arrival_time": "23:04",
-        "duration": "03:14"
+        "flight_number": "LG922",
+        "airline_name": "Luxair",
+        "destination_iata": "LUX",
+        "destination_airport_name": "Luxembourg Findel Airport",
+        "destination_city": "Luxembourg",
+        "destination_country": "Luxembourg",
+        "local_departure_time": "18:45",
+        "local_arrival_time": "22:55",
+        "duration": "05:10"
+    },
+    {
+        "flight_number": "D83409",
+        "airline_name": "Norwegian Air Sweden",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "19:15",
+        "local_arrival_time": "23:30",
+        "duration": "05:15"
     },
     {
         "flight_number": "U22256",
@@ -803,26 +869,26 @@
         "duration": "06:05"
     },
     {
-        "flight_number": "HV1446",
-        "airline_name": "Transavia",
-        "destination_iata": "AMS",
-        "destination_airport_name": "Amsterdam Schiphol Airport",
-        "destination_city": "Amsterdam",
-        "destination_country": "Netherlands",
-        "local_departure_time": "20:10",
-        "local_arrival_time": "00:32 (+1)",
-        "duration": "05:22"
+        "flight_number": "X98702",
+        "airline_name": "Avion Express",
+        "destination_iata": "VNO",
+        "destination_airport_name": "Vilnius International Airport",
+        "destination_city": "Vilnius",
+        "destination_country": "Lithuania",
+        "local_departure_time": "20:15",
+        "local_arrival_time": "01:10 (+1)",
+        "duration": "04:55"
     },
     {
-        "flight_number": "OR3412",
-        "airline_name": "TUI",
-        "destination_iata": "AMS",
-        "destination_airport_name": "Amsterdam Schiphol Airport",
-        "destination_city": "Amsterdam",
-        "destination_country": "Netherlands",
-        "local_departure_time": "20:45",
-        "local_arrival_time": "01:30 (+1)",
-        "duration": "05:45"
+        "flight_number": "SU425",
+        "airline_name": "Aeroflot",
+        "destination_iata": "SVO",
+        "destination_airport_name": "Moscow Sheremetyevo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "20:50",
+        "local_arrival_time": "02:50 (+1)",
+        "duration": "06:00"
     },
     {
         "flight_number": "SM2966",
@@ -836,15 +902,59 @@
         "duration": "04:40"
     },
     {
-        "flight_number": "SN3334",
-        "airline_name": "Brussels Airlines",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
-        "local_departure_time": "21:45",
-        "local_arrival_time": "02:05 (+1)",
-        "duration": "05:20"
+        "flight_number": "XR688",
+        "airline_name": "Corendon Airlines",
+        "destination_iata": "HAJ",
+        "destination_airport_name": "Hannover Langenhagen Airport",
+        "destination_city": "Hannover",
+        "destination_country": "Germany",
+        "local_departure_time": "21:10",
+        "local_arrival_time": "01:20 (+1)",
+        "duration": "05:10"
+    },
+    {
+        "flight_number": "U28746",
+        "airline_name": "easyJet",
+        "destination_iata": "LGW",
+        "destination_airport_name": "London Gatwick Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "21:15",
+        "local_arrival_time": "01:05 (+1)",
+        "duration": "05:50"
+    },
+    {
+        "flight_number": "XR1048",
+        "airline_name": "Corendon Airlines Europe",
+        "destination_iata": "CGN",
+        "destination_airport_name": "Cologne Bonn Airport",
+        "destination_city": "Cologne",
+        "destination_country": "Germany",
+        "local_departure_time": "21:20",
+        "local_arrival_time": "01:30 (+1)",
+        "duration": "05:10"
+    },
+    {
+        "flight_number": "XR2272",
+        "airline_name": "Corendon Airlines Europe",
+        "destination_iata": "HAJ",
+        "destination_airport_name": "Hannover Langenhagen Airport",
+        "destination_city": "Hannover",
+        "destination_country": "Germany",
+        "local_departure_time": "21:20",
+        "local_arrival_time": "01:25 (+1)",
+        "duration": "05:05"
+    },
+    {
+        "flight_number": "W42974",
+        "airline_name": "Wizz Air Malta",
+        "destination_iata": "VIE",
+        "destination_airport_name": "Vienna International Airport",
+        "destination_city": "Vienna",
+        "destination_country": "Austria",
+        "local_departure_time": "21:25",
+        "local_arrival_time": "00:45 (+1)",
+        "duration": "04:20"
     },
     {
         "flight_number": "SM2912",
@@ -858,37 +968,37 @@
         "duration": "05:15"
     },
     {
-        "flight_number": "E47034",
-        "airline_name": "Enter Air",
-        "destination_iata": "GDN",
-        "destination_airport_name": "Gdansk Lech Walesa Airport",
-        "destination_city": "Gdansk",
-        "destination_country": "Poland",
+        "flight_number": "SN3326",
+        "airline_name": "Brussels Airlines",
+        "destination_iata": "BRU",
+        "destination_airport_name": "Brussels Airport",
+        "destination_city": "Brussels",
+        "destination_country": "Belgium",
         "local_departure_time": "22:00",
-        "local_arrival_time": "01:51 (+1)",
-        "duration": "04:51"
+        "local_arrival_time": "02:15 (+1)",
+        "duration": "05:15"
     },
     {
-        "flight_number": "BY791",
-        "airline_name": "TUI Airways",
-        "destination_iata": "MAN",
-        "destination_airport_name": "Manchester Airport",
-        "destination_city": "Manchester",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "22:00",
-        "local_arrival_time": "02:10 (+1)",
-        "duration": "06:10"
+        "flight_number": "W46090",
+        "airline_name": "Wizz Air",
+        "destination_iata": "FCO",
+        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
+        "destination_city": "Rome",
+        "destination_country": "Italy",
+        "local_departure_time": "22:10",
+        "local_arrival_time": "01:15 (+1)",
+        "duration": "04:05"
     },
     {
-        "flight_number": "U23166",
-        "airline_name": "easyJet",
-        "destination_iata": "GLA",
-        "destination_airport_name": "Glasgow International Airport",
-        "destination_city": "Glasgow",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "22:30",
-        "local_arrival_time": "03:00 (+1)",
-        "duration": "06:30"
+        "flight_number": "NE612",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "VKO",
+        "destination_airport_name": "Moscow Vnukovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "22:20",
+        "local_arrival_time": "04:20 (+1)",
+        "duration": "06:00"
     },
     {
         "flight_number": "MS49",
@@ -897,20 +1007,20 @@
         "destination_airport_name": "Cairo International Airport",
         "destination_city": "Cairo",
         "destination_country": "Egypt",
-        "local_departure_time": "22:40 / 23:10",
-        "local_arrival_time": "00:10 (+1) / 23:50",
-        "duration": "01:00"
+        "local_departure_time": "22:30 / 22:40",
+        "local_arrival_time": "23:40",
+        "duration": "01:10"
     },
     {
-        "flight_number": "NE600",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "VKO",
-        "destination_airport_name": "Moscow Vnukovo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "22:45",
-        "local_arrival_time": "04:45 (+1)",
-        "duration": "06:00"
+        "flight_number": "SM2964",
+        "airline_name": "Air Cairo",
+        "destination_iata": "NUE",
+        "destination_airport_name": "Nuremberg Airport",
+        "destination_city": "Nuremberg",
+        "destination_country": "Germany",
+        "local_departure_time": "22:35",
+        "local_arrival_time": "02:20 (+1)",
+        "duration": "04:45"
     },
     {
         "flight_number": "SM2932",
@@ -935,91 +1045,47 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "BY813",
-        "airline_name": "TUI Airways",
-        "destination_iata": "LGW",
-        "destination_airport_name": "London Gatwick Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "23:00",
-        "local_arrival_time": "02:35 (+1)",
-        "duration": "05:35"
-    },
-    {
-        "flight_number": "B28142",
-        "airline_name": "Belavia",
-        "destination_iata": "MSQ",
-        "destination_airport_name": "Minsk National Airport",
-        "destination_city": "Minsk",
-        "destination_country": "Belarus",
-        "local_departure_time": "23:15",
-        "local_arrival_time": "06:05 (+1)",
-        "duration": "06:50"
-    },
-    {
-        "flight_number": "NE602",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "VKO",
-        "destination_airport_name": "Moscow Vnukovo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "23:15",
-        "local_arrival_time": "05:15 (+1)",
-        "duration": "06:00"
-    },
-    {
         "flight_number": "SM2934",
         "airline_name": "Air Cairo",
         "destination_iata": "HAJ",
         "destination_airport_name": "Hannover Langenhagen Airport",
         "destination_city": "Hannover",
         "destination_country": "Germany",
-        "local_departure_time": "23:15 / 23:55",
-        "local_arrival_time": "03:20 (+1) / 04:00 (+1)",
+        "local_departure_time": "23:15",
+        "local_arrival_time": "03:20 (+1)",
         "duration": "05:05"
     },
     {
-        "flight_number": "BY549",
-        "airline_name": "TUI Airways",
-        "destination_iata": "BHX",
-        "destination_airport_name": "Birmingham Airport",
-        "destination_city": "Birmingham",
-        "destination_country": "United Kingdom",
+        "flight_number": "B28214",
+        "airline_name": "Belavia",
+        "destination_iata": "MSQ",
+        "destination_airport_name": "Minsk National Airport",
+        "destination_city": "Minsk",
+        "destination_country": "Belarus",
         "local_departure_time": "23:30",
-        "local_arrival_time": "03:20 (+1)",
-        "duration": "05:50"
+        "local_arrival_time": "05:35 (+1)",
+        "duration": "06:05"
     },
     {
-        "flight_number": "NE5132",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "NUE",
-        "destination_airport_name": "Nuremberg Airport",
-        "destination_city": "Nuremberg",
-        "destination_country": "Germany",
+        "flight_number": "U22252",
+        "airline_name": "easyJet",
+        "destination_iata": "MAN",
+        "destination_airport_name": "Manchester Airport",
+        "destination_city": "Manchester",
+        "destination_country": "United Kingdom",
         "local_departure_time": "23:45",
-        "local_arrival_time": "03:15 (+1)",
-        "duration": "04:30"
+        "local_arrival_time": "03:45 (+1)",
+        "duration": "06:00"
     },
     {
-        "flight_number": "XY350",
-        "airline_name": "flynas",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "23:50",
-        "local_arrival_time": "01:55 (+1)",
-        "duration": "02:05"
-    },
-    {
-        "flight_number": "UJ604",
-        "airline_name": "AlMasria Universal Airlines",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
+        "flight_number": "SM2918",
+        "airline_name": "Air Cairo",
+        "destination_iata": "CGN",
+        "destination_airport_name": "Cologne Bonn Airport",
+        "destination_city": "Cologne",
+        "destination_country": "Germany",
         "local_departure_time": "23:55",
-        "local_arrival_time": "06:55 (+1)",
-        "duration": "07:00"
+        "local_arrival_time": "04:10 (+1)",
+        "duration": "05:15"
     }
 ]

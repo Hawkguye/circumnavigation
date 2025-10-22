@@ -11,17 +11,6 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "MS505",
-        "airline_name": "Egyptair",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "00:30",
-        "local_arrival_time": "03:15",
-        "duration": "03:45"
-    },
-    {
         "flight_number": "IX136",
         "airline_name": "Air India Express",
         "destination_iata": "DEL",
@@ -31,17 +20,6 @@
         "local_departure_time": "00:55",
         "local_arrival_time": "06:25",
         "duration": "04:00"
-    },
-    {
-        "flight_number": "PK182",
-        "airline_name": "Pakistan International Airlines",
-        "destination_iata": "ISB",
-        "destination_airport_name": "Islamabad International Airport",
-        "destination_city": "Islamabad",
-        "destination_country": "Pakistan",
-        "local_departure_time": "01:01",
-        "local_arrival_time": "05:10",
-        "duration": "03:09"
     },
     {
         "flight_number": "G9512",
@@ -62,30 +40,8 @@
         "destination_city": "Dhaka",
         "destination_country": "Bangladesh",
         "local_departure_time": "01:30",
-        "local_arrival_time": "08:30",
-        "duration": "05:00"
-    },
-    {
-        "flight_number": "SQ7366",
-        "airline_name": "Singapore Airlines",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
-        "local_departure_time": "01:35",
-        "local_arrival_time": "06:15",
-        "duration": "06:40"
-    },
-    {
-        "flight_number": "IX252",
-        "airline_name": "Air India Express",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "02:00",
-        "local_arrival_time": "06:45",
-        "duration": "03:15"
+        "local_arrival_time": "08:25",
+        "duration": "04:55"
     },
     {
         "flight_number": "IX254",
@@ -94,8 +50,19 @@
         "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
         "destination_city": "Mumbai",
         "destination_country": "India",
-        "local_departure_time": "02:00",
-        "local_arrival_time": "06:45",
+        "local_departure_time": "01:50",
+        "local_arrival_time": "06:35",
+        "duration": "03:15"
+    },
+    {
+        "flight_number": "IX252",
+        "airline_name": "Air India Express",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "01:50",
+        "local_arrival_time": "06:35",
         "duration": "03:15"
     },
     {
@@ -108,6 +75,17 @@
         "local_departure_time": "02:10",
         "local_arrival_time": "08:00",
         "duration": "04:05"
+    },
+    {
+        "flight_number": "G9107",
+        "airline_name": "Air Arabia",
+        "destination_iata": "BAH",
+        "destination_airport_name": "Bahrain International Airport",
+        "destination_city": "Bahrain",
+        "destination_country": "Bahrain",
+        "local_departure_time": "02:30",
+        "local_arrival_time": "02:40",
+        "duration": "01:10"
     },
     {
         "flight_number": "PA413",
@@ -143,17 +121,6 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "VF222",
-        "airline_name": "AJet",
-        "destination_iata": "SAW",
-        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "03:40",
-        "local_arrival_time": "07:30",
-        "duration": "04:50"
-    },
-    {
         "flight_number": "G9167",
         "airline_name": "Air Arabia",
         "destination_iata": "DMM",
@@ -174,6 +141,39 @@
         "local_departure_time": "03:55",
         "local_arrival_time": "04:05",
         "duration": "01:10"
+    },
+    {
+        "flight_number": "VF222",
+        "airline_name": "AJet",
+        "destination_iata": "SAW",
+        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "03:55",
+        "local_arrival_time": "08:00",
+        "duration": "05:05"
+    },
+    {
+        "flight_number": "KQ2319",
+        "airline_name": "Kenya Airways",
+        "destination_iata": "NBO",
+        "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
+        "destination_city": "Nairobi",
+        "destination_country": "Kenya",
+        "local_departure_time": "04:15",
+        "local_arrival_time": "09:05",
+        "duration": "05:50"
+    },
+    {
+        "flight_number": "ET623",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "ADD",
+        "destination_airport_name": "Addis Ababa Bole Airport",
+        "destination_city": "Addis Ababa",
+        "destination_country": "Ethiopia",
+        "local_departure_time": "04:25",
+        "local_arrival_time": "07:45",
+        "duration": "04:20"
     },
     {
         "flight_number": "PA413",
@@ -209,15 +209,15 @@
         "duration": "04:10"
     },
     {
-        "flight_number": "MA6303",
-        "airline_name": "MAE Aircraft Management",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "05:30",
-        "local_arrival_time": "10:00",
-        "duration": "03:00"
+        "flight_number": "PC7257",
+        "airline_name": "Pegasus",
+        "destination_iata": "SAW",
+        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "05:40",
+        "local_arrival_time": "09:25",
+        "duration": "04:45"
     },
     {
         "flight_number": "QR1061",
@@ -253,15 +253,15 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "SQ7987",
-        "airline_name": "Singapore Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "07:10",
-        "local_arrival_time": "18:50",
-        "duration": "07:40"
+        "flight_number": "G9714",
+        "airline_name": "Air Arabia",
+        "destination_iata": "HKT",
+        "destination_airport_name": "Phuket International Airport",
+        "destination_city": "Phuket",
+        "destination_country": "Thailand",
+        "local_departure_time": "07:00 / 08:00",
+        "local_arrival_time": "16:40 / 17:40",
+        "duration": "06:40"
     },
     {
         "flight_number": "PC749",
@@ -275,6 +275,17 @@
         "duration": "04:45"
     },
     {
+        "flight_number": "G911",
+        "airline_name": "Air Arabia",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "07:35",
+        "duration": "01:05"
+    },
+    {
         "flight_number": "G9145",
         "airline_name": "Air Arabia",
         "destination_iata": "JED",
@@ -284,6 +295,17 @@
         "local_departure_time": "07:30",
         "local_arrival_time": "09:20",
         "duration": "02:50"
+    },
+    {
+        "flight_number": "G9151",
+        "airline_name": "Air Arabia",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "08:20",
+        "duration": "01:50"
     },
     {
         "flight_number": "G9177",
@@ -297,15 +319,26 @@
         "duration": "02:40"
     },
     {
-        "flight_number": "G9793",
+        "flight_number": "G9858",
         "airline_name": "Air Arabia",
-        "destination_iata": "BGY",
-        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "07:40",
-        "local_arrival_time": "12:20",
-        "duration": "06:40"
+        "destination_iata": "WAW",
+        "destination_airport_name": "Warsaw Chopin Airport",
+        "destination_city": "Warsaw",
+        "destination_country": "Poland",
+        "local_departure_time": "07:35",
+        "local_arrival_time": "11:55",
+        "duration": "06:20"
+    },
+    {
+        "flight_number": "SQ7987",
+        "airline_name": "Singapore Airlines",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "07:35",
+        "local_arrival_time": "19:15",
+        "duration": "07:40"
     },
     {
         "flight_number": "G991",
@@ -319,17 +352,6 @@
         "duration": "04:30"
     },
     {
-        "flight_number": "G9305",
-        "airline_name": "Air Arabia",
-        "destination_iata": "GYD",
-        "destination_airport_name": "Baku Heydar Aliyev International Airport",
-        "destination_city": "Baku",
-        "destination_country": "Azerbaijan",
-        "local_departure_time": "07:50",
-        "local_arrival_time": "10:40",
-        "duration": "02:50"
-    },
-    {
         "flight_number": "G9816",
         "airline_name": "Air Arabia",
         "destination_iata": "BKK",
@@ -339,6 +361,17 @@
         "local_departure_time": "07:50",
         "local_arrival_time": "17:25",
         "duration": "06:35"
+    },
+    {
+        "flight_number": "G9305",
+        "airline_name": "Air Arabia",
+        "destination_iata": "GYD",
+        "destination_airport_name": "Baku Heydar Aliyev International Airport",
+        "destination_city": "Baku",
+        "destination_country": "Azerbaijan",
+        "local_departure_time": "07:50",
+        "local_arrival_time": "10:40",
+        "duration": "02:50"
     },
     {
         "flight_number": "G9583",
@@ -352,6 +385,28 @@
         "duration": "03:50"
     },
     {
+        "flight_number": null,
+        "airline_name": "FAI rent-a-Jet",
+        "destination_iata": "GYD",
+        "destination_airport_name": "Baku Heydar Aliyev International Airport",
+        "destination_city": "Baku",
+        "destination_country": "Azerbaijan",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "10:39",
+        "duration": "02:39"
+    },
+    {
+        "flight_number": "6Y9101",
+        "airline_name": "SmartLynx",
+        "destination_iata": "BOJ",
+        "destination_airport_name": "Burgas Airport",
+        "destination_city": "Burgas",
+        "destination_country": "Bulgaria",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "11:55",
+        "duration": "04:55"
+    },
+    {
         "flight_number": "G9970",
         "airline_name": "Air Arabia",
         "destination_iata": "VIE",
@@ -361,28 +416,6 @@
         "local_departure_time": "08:00",
         "local_arrival_time": "12:10",
         "duration": "06:10"
-    },
-    {
-        "flight_number": "2Y4956",
-        "airline_name": "Moalem Aviation",
-        "destination_iata": "FRU",
-        "destination_airport_name": "Bishkek Manas International Airport",
-        "destination_city": "Bishkek",
-        "destination_country": "Kyrgyzstan",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "10:15",
-        "duration": "00:15"
-    },
-    {
-        "flight_number": "G9246",
-        "airline_name": "Air Arabia",
-        "destination_iata": "EVN",
-        "destination_airport_name": "Yerevan Zvartnots International Airport",
-        "destination_city": "Yerevan",
-        "destination_country": "Armenia",
-        "local_departure_time": "08:05",
-        "local_arrival_time": "11:10",
-        "duration": "03:05"
     },
     {
         "flight_number": "G9101",
@@ -407,15 +440,15 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "G9298",
+        "flight_number": "G9246",
         "airline_name": "Air Arabia",
-        "destination_iata": "TBS",
-        "destination_airport_name": "Tbilisi International Airport",
-        "destination_city": "Tbilisi",
-        "destination_country": "Georgia",
-        "local_departure_time": "08:10",
-        "local_arrival_time": "11:25",
-        "duration": "03:15"
+        "destination_iata": "EVN",
+        "destination_airport_name": "Yerevan Zvartnots International Airport",
+        "destination_city": "Yerevan",
+        "destination_country": "Armenia",
+        "local_departure_time": "08:05",
+        "local_arrival_time": "11:10",
+        "duration": "03:05"
     },
     {
         "flight_number": "G9124",
@@ -440,6 +473,17 @@
         "duration": "01:15"
     },
     {
+        "flight_number": "G9298",
+        "airline_name": "Air Arabia",
+        "destination_iata": "TBS",
+        "destination_airport_name": "Tbilisi International Airport",
+        "destination_city": "Tbilisi",
+        "destination_country": "Georgia",
+        "local_departure_time": "08:10",
+        "local_arrival_time": "11:25",
+        "duration": "03:15"
+    },
+    {
         "flight_number": "G9337",
         "airline_name": "Air Arabia",
         "destination_iata": "AMM",
@@ -462,17 +506,6 @@
         "duration": "04:30"
     },
     {
-        "flight_number": "SQ7987",
-        "airline_name": "Singapore Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "08:30",
-        "local_arrival_time": "20:10",
-        "duration": "07:40"
-    },
-    {
         "flight_number": "G9135",
         "airline_name": "Air Arabia",
         "destination_iata": "DOH",
@@ -484,15 +517,15 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "G9440",
+        "flight_number": "G9270",
         "airline_name": "Air Arabia",
-        "destination_iata": "AER",
-        "destination_airport_name": "Sochi International Airport",
-        "destination_city": "Sochi",
-        "destination_country": "Russia",
+        "destination_iata": "TAS",
+        "destination_airport_name": "Tashkent International Airport",
+        "destination_city": "Tashkent",
+        "destination_country": "Uzbekistan",
         "local_departure_time": "08:45",
-        "local_arrival_time": "11:30",
-        "duration": "03:45"
+        "local_arrival_time": "13:00",
+        "duration": "03:15"
     },
     {
         "flight_number": "G9730",
@@ -570,6 +603,17 @@
         "local_departure_time": "09:20",
         "local_arrival_time": "11:50",
         "duration": "03:30"
+    },
+    {
+        "flight_number": "G9684",
+        "airline_name": "Air Arabia",
+        "destination_iata": "ATH",
+        "destination_airport_name": "Athens Eleftherios Venizelos",
+        "destination_city": "Athens",
+        "destination_country": "Greece",
+        "local_departure_time": "09:20",
+        "local_arrival_time": "13:10",
+        "duration": "04:50"
     },
     {
         "flight_number": "G9321",
@@ -660,17 +704,6 @@
         "duration": "03:50"
     },
     {
-        "flight_number": "SQ7395",
-        "airline_name": "Singapore Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "12:50",
-        "local_arrival_time": "00:30 (+1)",
-        "duration": "07:40"
-    },
-    {
         "flight_number": "G9442",
         "airline_name": "Air Arabia",
         "destination_iata": "TRV",
@@ -680,17 +713,6 @@
         "local_departure_time": "12:55",
         "local_arrival_time": "18:40",
         "duration": "04:15"
-    },
-    {
-        "flight_number": "G9465",
-        "airline_name": "Air Arabia",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
-        "destination_country": "India",
-        "local_departure_time": "13:05",
-        "local_arrival_time": "17:55",
-        "duration": "03:20"
     },
     {
         "flight_number": "G9300",
@@ -704,15 +726,37 @@
         "duration": "02:50"
     },
     {
-        "flight_number": "G9748",
+        "flight_number": "G9571",
         "airline_name": "Air Arabia",
-        "destination_iata": "KRK",
-        "destination_airport_name": "Krakow John Paul II International Airport",
-        "destination_city": "Krakow",
-        "destination_country": "Poland",
+        "destination_iata": "DAC",
+        "destination_airport_name": "Dhaka Shahjalal International Airport",
+        "destination_city": "Dhaka",
+        "destination_country": "Bangladesh",
         "local_departure_time": "13:05",
-        "local_arrival_time": "17:05",
-        "duration": "06:00"
+        "local_arrival_time": "19:55",
+        "duration": "04:50"
+    },
+    {
+        "flight_number": "G9532",
+        "airline_name": "Air Arabia",
+        "destination_iata": "KTM",
+        "destination_airport_name": "Kathmandu Tribhuvan International Airport",
+        "destination_city": "Kathmandu",
+        "destination_country": "Nepal",
+        "local_departure_time": "13:05",
+        "local_arrival_time": "18:55",
+        "duration": "04:05"
+    },
+    {
+        "flight_number": "G9465",
+        "airline_name": "Air Arabia",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "13:05",
+        "local_arrival_time": "17:55",
+        "duration": "03:20"
     },
     {
         "flight_number": "G9426",
@@ -724,28 +768,6 @@
         "local_departure_time": "13:10",
         "local_arrival_time": "18:40",
         "duration": "04:00"
-    },
-    {
-        "flight_number": "G9571",
-        "airline_name": "Air Arabia",
-        "destination_iata": "DAC",
-        "destination_airport_name": "Dhaka Shahjalal International Airport",
-        "destination_city": "Dhaka",
-        "destination_country": "Bangladesh",
-        "local_departure_time": "13:15",
-        "local_arrival_time": "20:05",
-        "duration": "04:50"
-    },
-    {
-        "flight_number": "G9287",
-        "airline_name": "Air Arabia",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "13:15",
-        "local_arrival_time": "17:10",
-        "duration": "04:55"
     },
     {
         "flight_number": "G9546",
@@ -768,6 +790,17 @@
         "local_departure_time": "13:25",
         "local_arrival_time": "16:40",
         "duration": "03:15"
+    },
+    {
+        "flight_number": "G9244",
+        "airline_name": "Air Arabia",
+        "destination_iata": "EVN",
+        "destination_airport_name": "Yerevan Zvartnots International Airport",
+        "destination_city": "Yerevan",
+        "destination_country": "Armenia",
+        "local_departure_time": "13:35",
+        "local_arrival_time": "16:40",
+        "duration": "03:05"
     },
     {
         "flight_number": "G9335",
@@ -825,6 +858,17 @@
         "duration": "01:10"
     },
     {
+        "flight_number": "G9366",
+        "airline_name": "Air Arabia",
+        "destination_iata": "BGW",
+        "destination_airport_name": "Baghdad International Airport",
+        "destination_city": "Baghdad",
+        "destination_country": "Iraq",
+        "local_departure_time": "14:55",
+        "local_arrival_time": "16:15",
+        "duration": "02:20"
+    },
+    {
         "flight_number": "G9510",
         "airline_name": "Air Arabia",
         "destination_iata": "DAC",
@@ -858,6 +902,17 @@
         "duration": "01:50"
     },
     {
+        "flight_number": "SQ7396",
+        "airline_name": "Singapore Airlines",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "15:30",
+        "local_arrival_time": "19:35",
+        "duration": "07:05"
+    },
+    {
         "flight_number": "9P501",
         "airline_name": "Fly Jinnah",
         "destination_iata": "LHE",
@@ -869,15 +924,15 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "G9605",
+        "flight_number": "G9401",
         "airline_name": "Air Arabia",
-        "destination_iata": "WAW",
-        "destination_airport_name": "Warsaw Chopin Airport",
-        "destination_city": "Warsaw",
-        "destination_country": "Poland",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "20:50",
-        "duration": "06:20"
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "16:35",
+        "local_arrival_time": "21:15",
+        "duration": "03:10"
     },
     {
         "flight_number": "G9160",
@@ -889,17 +944,6 @@
         "local_departure_time": "16:35",
         "local_arrival_time": "16:50",
         "duration": "01:15"
-    },
-    {
-        "flight_number": "G9401",
-        "airline_name": "Air Arabia",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "16:35",
-        "local_arrival_time": "21:15",
-        "duration": "03:10"
     },
     {
         "flight_number": "QR1037",
@@ -946,6 +990,17 @@
         "duration": "01:40"
     },
     {
+        "flight_number": "PK182",
+        "airline_name": "Pakistan International Airlines",
+        "destination_iata": "ISB",
+        "destination_airport_name": "Islamabad International Airport",
+        "destination_city": "Islamabad",
+        "destination_country": "Pakistan",
+        "local_departure_time": "17:15",
+        "local_arrival_time": "21:15",
+        "duration": "03:00"
+    },
+    {
         "flight_number": "G9695",
         "airline_name": "Air Arabia",
         "destination_iata": "BGY",
@@ -990,26 +1045,26 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "G9408",
+        "flight_number": "G9881",
         "airline_name": "Air Arabia",
-        "destination_iata": "BEY",
-        "destination_airport_name": "Beirut Rafic Hariri International Airport",
-        "destination_city": "Beirut",
-        "destination_country": "Lebanon",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "20:30",
-        "duration": "03:30"
+        "destination_iata": "SVX",
+        "destination_airport_name": "Yekaterinburg Koltsovo International Airport",
+        "destination_city": "Yekaterinburg",
+        "destination_country": "Russia",
+        "local_departure_time": "17:55",
+        "local_arrival_time": "23:50",
+        "duration": "04:55"
     },
     {
-        "flight_number": "XY514",
-        "airline_name": "flynas",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "18:10",
-        "local_arrival_time": "20:10",
-        "duration": "03:00"
+        "flight_number": "G9797",
+        "airline_name": "Air Arabia",
+        "destination_iata": "DME",
+        "destination_airport_name": "Moscow Domodedovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "18:50",
+        "local_arrival_time": "23:20",
+        "duration": "05:30"
     },
     {
         "flight_number": "G9944",
@@ -1023,6 +1078,17 @@
         "duration": "04:55"
     },
     {
+        "flight_number": "G9931",
+        "airline_name": "Air Arabia",
+        "destination_iata": "UFA",
+        "destination_airport_name": "Ufa International Airport",
+        "destination_city": "Ufa",
+        "destination_country": "Russia",
+        "local_departure_time": "18:55",
+        "local_arrival_time": "00:35 (+1)",
+        "duration": "04:40"
+    },
+    {
         "flight_number": "G9960",
         "airline_name": "Air Arabia",
         "destination_iata": "SVX",
@@ -1034,28 +1100,6 @@
         "duration": "04:55"
     },
     {
-        "flight_number": "G9818",
-        "airline_name": "Air Arabia",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "22:50",
-        "duration": "04:55"
-    },
-    {
-        "flight_number": "G9922",
-        "airline_name": "Air Arabia",
-        "destination_iata": "KUF",
-        "destination_airport_name": "Samara Kurumoch International Airport",
-        "destination_city": "Samara",
-        "destination_country": "Russia",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "23:35",
-        "duration": "04:40"
-    },
-    {
         "flight_number": "G9956",
         "airline_name": "Air Arabia",
         "destination_iata": "DME",
@@ -1065,17 +1109,6 @@
         "local_departure_time": "19:00",
         "local_arrival_time": "23:30",
         "duration": "05:30"
-    },
-    {
-        "flight_number": "G9965",
-        "airline_name": "Air Arabia",
-        "destination_iata": "KRK",
-        "destination_airport_name": "Krakow John Paul II International Airport",
-        "destination_city": "Krakow",
-        "destination_country": "Poland",
-        "local_departure_time": "19:00",
-        "local_arrival_time": "23:00",
-        "duration": "06:00"
     },
     {
         "flight_number": "G9138",
@@ -1111,17 +1144,6 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "PA213",
-        "airline_name": "airblue",
-        "destination_iata": "ISB",
-        "destination_airport_name": "Islamabad International Airport",
-        "destination_city": "Islamabad",
-        "destination_country": "Pakistan",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "00:00 (+1)",
-        "duration": "03:15"
-    },
-    {
         "flight_number": "G9387",
         "airline_name": "Air Arabia",
         "destination_iata": "BEY",
@@ -1133,15 +1155,15 @@
         "duration": "03:30"
     },
     {
-        "flight_number": "G9330",
-        "airline_name": "Air Arabia",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
+        "flight_number": "MS505",
+        "airline_name": "Egyptair",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
         "local_departure_time": "20:30",
-        "local_arrival_time": "22:35",
-        "duration": "03:05"
+        "local_arrival_time": "23:15",
+        "duration": "03:45"
     },
     {
         "flight_number": "G9285",
@@ -1153,6 +1175,17 @@
         "local_departure_time": "20:50",
         "local_arrival_time": "00:20 (+1)",
         "duration": "04:30"
+    },
+    {
+        "flight_number": "G927",
+        "airline_name": "Air Arabia",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "21:00",
+        "local_arrival_time": "21:05",
+        "duration": "01:05"
     },
     {
         "flight_number": "G9587",
@@ -1177,17 +1210,6 @@
         "duration": "05:30"
     },
     {
-        "flight_number": "G91916",
-        "airline_name": "Air Arabia",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "21:20",
-        "local_arrival_time": "23:25",
-        "duration": "03:05"
-    },
-    {
         "flight_number": "QR1035",
         "airline_name": "Qatar Airways",
         "destination_iata": "DOH",
@@ -1197,17 +1219,6 @@
         "local_departure_time": "21:25",
         "local_arrival_time": "21:35",
         "duration": "01:10"
-    },
-    {
-        "flight_number": "G9738",
-        "airline_name": "Air Arabia",
-        "destination_iata": "ADD",
-        "destination_airport_name": "Addis Ababa Bole Airport",
-        "destination_city": "Addis Ababa",
-        "destination_country": "Ethiopia",
-        "local_departure_time": "21:25",
-        "local_arrival_time": "00:30 (+1)",
-        "duration": "04:05"
     },
     {
         "flight_number": "G9253",
@@ -1221,26 +1232,15 @@
         "duration": "04:05"
     },
     {
-        "flight_number": "G9312",
+        "flight_number": "G9738",
         "airline_name": "Air Arabia",
-        "destination_iata": "FRU",
-        "destination_airport_name": "Bishkek Manas International Airport",
-        "destination_city": "Bishkek",
-        "destination_country": "Kyrgyzstan",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "03:20 (+1)",
-        "duration": "03:50"
-    },
-    {
-        "flight_number": "G9518",
-        "airline_name": "Air Arabia",
-        "destination_iata": "DAC",
-        "destination_airport_name": "Dhaka Shahjalal International Airport",
-        "destination_city": "Dhaka",
-        "destination_country": "Bangladesh",
-        "local_departure_time": "21:30 / 22:25",
-        "local_arrival_time": "04:20 (+1) / 05:15 (+1)",
-        "duration": "04:50"
+        "destination_iata": "ADD",
+        "destination_airport_name": "Addis Ababa Bole Airport",
+        "destination_city": "Addis Ababa",
+        "destination_country": "Ethiopia",
+        "local_departure_time": "21:25",
+        "local_arrival_time": "00:30 (+1)",
+        "duration": "04:05"
     },
     {
         "flight_number": "G9800",
@@ -1252,6 +1252,17 @@
         "local_departure_time": "21:40",
         "local_arrival_time": "09:10 (+1)",
         "duration": "07:30"
+    },
+    {
+        "flight_number": "G9273",
+        "airline_name": "Air Arabia",
+        "destination_iata": "TAS",
+        "destination_airport_name": "Tashkent International Airport",
+        "destination_city": "Tashkent",
+        "destination_country": "Uzbekistan",
+        "local_departure_time": "21:45",
+        "local_arrival_time": "02:00 (+1)",
+        "duration": "03:15"
     },
     {
         "flight_number": "G9422",
@@ -1274,17 +1285,6 @@
         "local_departure_time": "21:45",
         "local_arrival_time": "03:25 (+1)",
         "duration": "04:10"
-    },
-    {
-        "flight_number": "G9273",
-        "airline_name": "Air Arabia",
-        "destination_iata": "TAS",
-        "destination_airport_name": "Tashkent International Airport",
-        "destination_city": "Tashkent",
-        "destination_country": "Uzbekistan",
-        "local_departure_time": "21:45 / 22:05",
-        "local_arrival_time": "02:00 (+1) / 02:20 (+1)",
-        "duration": "03:15"
     },
     {
         "flight_number": "G9496",
@@ -1331,17 +1331,6 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "G91086",
-        "airline_name": "Air Arabia",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "22:25",
-        "local_arrival_time": "00:30 (+1)",
-        "duration": "03:05"
-    },
-    {
         "flight_number": "G9502",
         "airline_name": "Air Arabia",
         "destination_iata": "CMB",
@@ -1351,6 +1340,17 @@
         "local_departure_time": "22:25",
         "local_arrival_time": "04:25 (+1)",
         "duration": "04:30"
+    },
+    {
+        "flight_number": "G9518",
+        "airline_name": "Air Arabia",
+        "destination_iata": "DAC",
+        "destination_airport_name": "Dhaka Shahjalal International Airport",
+        "destination_city": "Dhaka",
+        "destination_country": "Bangladesh",
+        "local_departure_time": "22:25",
+        "local_arrival_time": "05:15 (+1)",
+        "duration": "04:50"
     },
     {
         "flight_number": "G9467",
@@ -1386,15 +1386,26 @@
         "duration": "03:45"
     },
     {
-        "flight_number": "G9548",
+        "flight_number": "G9440",
         "airline_name": "Air Arabia",
-        "destination_iata": "KHI",
-        "destination_airport_name": "Karachi Jinnah International Airport",
-        "destination_city": "Karachi",
+        "destination_iata": "AER",
+        "destination_airport_name": "Sochi International Airport",
+        "destination_city": "Sochi",
+        "destination_country": "Russia",
+        "local_departure_time": "22:40",
+        "local_arrival_time": "01:25 (+1)",
+        "duration": "03:45"
+    },
+    {
+        "flight_number": "9P743",
+        "airline_name": "Fly Jinnah",
+        "destination_iata": "ISB",
+        "destination_airport_name": "Islamabad International Airport",
+        "destination_city": "Islamabad",
         "destination_country": "Pakistan",
-        "local_departure_time": "23:10",
-        "local_arrival_time": "02:10 (+1)",
-        "duration": "02:00"
+        "local_departure_time": "22:50",
+        "local_arrival_time": "02:50 (+1)",
+        "duration": "03:00"
     },
     {
         "flight_number": "G9463",
@@ -1406,6 +1417,28 @@
         "local_departure_time": "23:10",
         "local_arrival_time": "04:00 (+1)",
         "duration": "03:20"
+    },
+    {
+        "flight_number": "G9548",
+        "airline_name": "Air Arabia",
+        "destination_iata": "KHI",
+        "destination_airport_name": "Karachi Jinnah International Airport",
+        "destination_city": "Karachi",
+        "destination_country": "Pakistan",
+        "local_departure_time": "23:10",
+        "local_arrival_time": "02:10 (+1)",
+        "duration": "02:00"
+    },
+    {
+        "flight_number": "MS505",
+        "airline_name": "Egyptair",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "23:20",
+        "local_arrival_time": "02:00 (+1)",
+        "duration": "03:40"
     },
     {
         "flight_number": "G9405",

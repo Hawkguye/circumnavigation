@@ -1,5 +1,38 @@
 [
     {
+        "flight_number": "W62389",
+        "airline_name": "Wizz Air",
+        "destination_iata": "AGP",
+        "destination_airport_name": "Malaga Costa Del Sol Airport",
+        "destination_city": "Malaga",
+        "destination_country": "Spain",
+        "local_departure_time": "05:00",
+        "local_arrival_time": "08:45",
+        "duration": "03:45"
+    },
+    {
+        "flight_number": "W62373",
+        "airline_name": "Wizz Air",
+        "destination_iata": "AMM",
+        "destination_airport_name": "Amman Queen Alia International Airport",
+        "destination_city": "Amman",
+        "destination_country": "Jordan",
+        "local_departure_time": "05:00",
+        "local_arrival_time": "09:30",
+        "duration": "03:30"
+    },
+    {
+        "flight_number": "W62325",
+        "airline_name": "Wizz Air",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
+        "local_departure_time": "05:00 / 05:20",
+        "local_arrival_time": "09:15 / 09:35",
+        "duration": "03:15"
+    },
+    {
         "flight_number": "W62387",
         "airline_name": "Wizz Air",
         "destination_iata": "ALC",
@@ -22,6 +55,17 @@
         "duration": "02:15"
     },
     {
+        "flight_number": "FR8357",
+        "airline_name": "Ryanair",
+        "destination_iata": "MAN",
+        "destination_airport_name": "Manchester Airport",
+        "destination_city": "Manchester",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "05:45",
+        "local_arrival_time": "07:35",
+        "duration": "02:50"
+    },
+    {
         "flight_number": "FR1659",
         "airline_name": "Ryanair",
         "destination_iata": "STN",
@@ -33,15 +77,15 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "W62391",
-        "airline_name": "Wizz Air",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
+        "flight_number": "FR8385",
+        "airline_name": "Ryanair",
+        "destination_iata": "BCN",
+        "destination_airport_name": "Barcelona El Prat Airport",
+        "destination_city": "Barcelona",
         "destination_country": "Spain",
-        "local_departure_time": "05:45",
-        "local_arrival_time": "09:15",
-        "duration": "03:30"
+        "local_departure_time": "05:50",
+        "local_arrival_time": "08:30",
+        "duration": "02:40"
     },
     {
         "flight_number": "FR9566",
@@ -55,6 +99,28 @@
         "duration": "03:10"
     },
     {
+        "flight_number": "FR4144",
+        "airline_name": "Ryanair",
+        "destination_iata": "PRG",
+        "destination_airport_name": "Prague Vaclav Havel Airport",
+        "destination_city": "Prague",
+        "destination_country": "Czechia",
+        "local_departure_time": "05:55",
+        "local_arrival_time": "07:10",
+        "duration": "01:15"
+    },
+    {
+        "flight_number": "FR8859",
+        "airline_name": "Ryanair",
+        "destination_iata": "LIS",
+        "destination_airport_name": "Lisbon Humberto Delgado Airport",
+        "destination_city": "Lisbon",
+        "destination_country": "Portugal",
+        "local_departure_time": "05:55",
+        "local_arrival_time": "09:00",
+        "duration": "04:05"
+    },
+    {
         "flight_number": "W62403",
         "airline_name": "Wizz Air",
         "destination_iata": "ARN",
@@ -66,15 +132,15 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "FR2277",
+        "flight_number": "FR4277",
         "airline_name": "Ryanair",
-        "destination_iata": "MLA",
-        "destination_airport_name": "Malta Luqa International Airport",
-        "destination_city": "Malta",
-        "destination_country": "Malta",
+        "destination_iata": "SKG",
+        "destination_airport_name": "Thessaloniki International Airport",
+        "destination_city": "Thessaloniki",
+        "destination_country": "Greece",
         "local_departure_time": "06:00",
-        "local_arrival_time": "08:20",
-        "duration": "02:20"
+        "local_arrival_time": "08:35",
+        "duration": "01:35"
     },
     {
         "flight_number": "LH1343",
@@ -88,12 +154,12 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "W62339",
+        "flight_number": "W62267",
         "airline_name": "Wizz Air",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
+        "destination_iata": "BSL",
+        "destination_airport_name": "Basel Mulhouse-Freiburg EuroAirport",
+        "destination_city": "Basel",
+        "destination_country": "France",
         "local_departure_time": "06:00",
         "local_arrival_time": "07:50",
         "duration": "01:50"
@@ -110,6 +176,50 @@
         "duration": "02:45"
     },
     {
+        "flight_number": "FR2277",
+        "airline_name": "Ryanair",
+        "destination_iata": "MLA",
+        "destination_airport_name": "Malta Luqa International Airport",
+        "destination_city": "Malta",
+        "destination_country": "Malta",
+        "local_departure_time": "06:00",
+        "local_arrival_time": "08:20",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "W62339",
+        "airline_name": "Wizz Air",
+        "destination_iata": "FCO",
+        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
+        "destination_city": "Rome",
+        "destination_country": "Italy",
+        "local_departure_time": "06:00 / 06:10",
+        "local_arrival_time": "07:50 / 08:00",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "FR6712",
+        "airline_name": "Ryanair",
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
+        "local_departure_time": "06:05",
+        "local_arrival_time": "09:25",
+        "duration": "03:20"
+    },
+    {
+        "flight_number": "W62499",
+        "airline_name": "Wizz Air",
+        "destination_iata": "GYD",
+        "destination_airport_name": "Baku Heydar Aliyev International Airport",
+        "destination_city": "Baku",
+        "destination_country": "Azerbaijan",
+        "local_departure_time": "06:05",
+        "local_arrival_time": "11:50",
+        "duration": "03:45"
+    },
+    {
         "flight_number": "LH1683",
         "airline_name": "Lufthansa",
         "destination_iata": "MUC",
@@ -119,6 +229,39 @@
         "local_departure_time": "06:05",
         "local_arrival_time": "07:25",
         "duration": "01:20"
+    },
+    {
+        "flight_number": "FR4275",
+        "airline_name": "Ryanair",
+        "destination_iata": "MRS",
+        "destination_airport_name": "Marseille Provence Airport",
+        "destination_city": "Marseille",
+        "destination_country": "France",
+        "local_departure_time": "06:10",
+        "local_arrival_time": "08:20",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "W62451",
+        "airline_name": "Wizz Air",
+        "destination_iata": "LCA",
+        "destination_airport_name": "Larnaca International Airport",
+        "destination_city": "Larnaca",
+        "destination_country": "Cyprus",
+        "local_departure_time": "06:10",
+        "local_arrival_time": "10:05",
+        "duration": "02:55"
+    },
+    {
+        "flight_number": "FR1243",
+        "airline_name": "Ryanair",
+        "destination_iata": "ATH",
+        "destination_airport_name": "Athens Eleftherios Venizelos",
+        "destination_city": "Athens",
+        "destination_country": "Greece",
+        "local_departure_time": "06:10",
+        "local_arrival_time": "09:10",
+        "duration": "02:00"
     },
     {
         "flight_number": "FR1018",
@@ -143,28 +286,6 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "FR1243",
-        "airline_name": "Ryanair",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
-        "local_departure_time": "06:10",
-        "local_arrival_time": "09:10",
-        "duration": "02:00"
-    },
-    {
-        "flight_number": "W62451",
-        "airline_name": "Wizz Air",
-        "destination_iata": "LCA",
-        "destination_airport_name": "Larnaca International Airport",
-        "destination_city": "Larnaca",
-        "destination_country": "Cyprus",
-        "local_departure_time": "06:10",
-        "local_arrival_time": "10:05",
-        "duration": "02:55"
-    },
-    {
         "flight_number": "FR1024",
         "airline_name": "Ryanair",
         "destination_iata": "DUB",
@@ -174,6 +295,17 @@
         "local_departure_time": "06:15",
         "local_arrival_time": "08:20",
         "duration": "03:05"
+    },
+    {
+        "flight_number": "W62441",
+        "airline_name": "Wizz Air",
+        "destination_iata": "ATH",
+        "destination_airport_name": "Athens Eleftherios Venizelos",
+        "destination_city": "Athens",
+        "destination_country": "Greece",
+        "local_departure_time": "06:15 / 06:45",
+        "local_arrival_time": "09:15 / 09:50",
+        "duration": "02:00"
     },
     {
         "flight_number": "AF1695",
@@ -220,14 +352,25 @@
         "duration": "02:10"
     },
     {
+        "flight_number": "FR2020",
+        "airline_name": "Ryanair",
+        "destination_iata": "PMO",
+        "destination_airport_name": "Palermo Falcone-Borsellino Airport",
+        "destination_city": "Palermo",
+        "destination_country": "Italy",
+        "local_departure_time": "06:30",
+        "local_arrival_time": "08:35",
+        "duration": "02:05"
+    },
+    {
         "flight_number": "W62375",
         "airline_name": "Wizz Air",
         "destination_iata": "BCN",
         "destination_airport_name": "Barcelona El Prat Airport",
         "destination_city": "Barcelona",
         "destination_country": "Spain",
-        "local_departure_time": "06:30",
-        "local_arrival_time": "09:10",
+        "local_departure_time": "06:30 / 06:45",
+        "local_arrival_time": "09:10 / 09:25",
         "duration": "02:40"
     },
     {
@@ -251,17 +394,6 @@
         "local_departure_time": "06:45",
         "local_arrival_time": "09:25",
         "duration": "01:40"
-    },
-    {
-        "flight_number": "W62441",
-        "airline_name": "Wizz Air",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
-        "local_departure_time": "06:45",
-        "local_arrival_time": "09:50",
-        "duration": "02:05"
     },
     {
         "flight_number": "W62367",
@@ -292,42 +424,64 @@
         "destination_airport_name": "London Heathrow Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "07:10",
-        "local_arrival_time": "09:00",
+        "local_departure_time": "07:10 / 07:40",
+        "local_arrival_time": "09:00 / 09:30",
         "duration": "02:50"
     },
     {
-        "flight_number": "HUA101",
-        "airline_name": "Hungary Airlines",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "07:15",
-        "local_arrival_time": "00:08 (+1)",
-        "duration": "10:53"
+        "flight_number": "FR1026",
+        "airline_name": "Ryanair",
+        "destination_iata": "DUB",
+        "destination_airport_name": "Dublin Airport",
+        "destination_city": "Dublin",
+        "destination_country": "Ireland",
+        "local_departure_time": "07:25",
+        "local_arrival_time": "09:35",
+        "duration": "03:10"
     },
     {
-        "flight_number": "2U8404",
-        "airline_name": "Fly Khiva",
-        "destination_iata": "TAS",
-        "destination_airport_name": "Tashkent International Airport",
-        "destination_city": "Tashkent",
-        "destination_country": "Uzbekistan",
-        "local_departure_time": "07:50",
-        "local_arrival_time": "15:30",
-        "duration": "04:40"
+        "flight_number": "W62231",
+        "airline_name": "Wizz Air",
+        "destination_iata": "TGD",
+        "destination_airport_name": "Podgorica Airport",
+        "destination_city": "Podgorica",
+        "destination_country": "Montenegro",
+        "local_departure_time": "07:25",
+        "local_arrival_time": "08:45",
+        "duration": "01:20"
     },
     {
-        "flight_number": "U21212",
+        "flight_number": "W46710",
+        "airline_name": "Wizz Air",
+        "destination_iata": "VCE",
+        "destination_airport_name": "Venice Marco Polo Airport",
+        "destination_city": "Venice",
+        "destination_country": "Italy",
+        "local_departure_time": "07:40",
+        "local_arrival_time": "09:00",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "U21566",
         "airline_name": "easyJet",
-        "destination_iata": "BSL",
-        "destination_airport_name": "Basel Mulhouse-Freiburg EuroAirport",
-        "destination_city": "Basel",
-        "destination_country": "France",
+        "destination_iata": "GVA",
+        "destination_airport_name": "Geneva International Airport",
+        "destination_city": "Geneva",
+        "destination_country": "Switzerland",
         "local_departure_time": "08:20",
-        "local_arrival_time": "09:55",
-        "duration": "01:35"
+        "local_arrival_time": "10:15",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "FR5023",
+        "airline_name": "Ryanair",
+        "destination_iata": "PSA",
+        "destination_airport_name": "Pisa Galileo Galilei Airport",
+        "destination_city": "Pisa",
+        "destination_country": "Italy",
+        "local_departure_time": "08:25",
+        "local_arrival_time": "10:10",
+        "duration": "01:45"
     },
     {
         "flight_number": "LH1675",
@@ -339,28 +493,6 @@
         "local_departure_time": "08:25",
         "local_arrival_time": "09:55",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "FR7604",
-        "airline_name": "Ryanair",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "08:35",
-        "local_arrival_time": "10:55",
-        "duration": "02:20"
-    },
-    {
-        "flight_number": "W42333",
-        "airline_name": "Wizz Air Malta",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "08:35",
-        "local_arrival_time": "10:20",
-        "duration": "01:45"
     },
     {
         "flight_number": "W62221",
@@ -385,26 +517,48 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "LY2366",
-        "airline_name": "El Al",
-        "destination_iata": "TLV",
-        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
-        "destination_city": "Tel Aviv",
-        "destination_country": "Israel",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "13:15",
-        "duration": "03:05"
-    },
-    {
         "flight_number": "EW9783",
         "airline_name": "Eurowings",
         "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
+        "destination_airport_name": "Dusseldorf Airport",
         "destination_city": "Dusseldorf",
         "destination_country": "Germany",
-        "local_departure_time": "09:15",
-        "local_arrival_time": "11:05",
+        "local_departure_time": "09:05",
+        "local_arrival_time": "10:55",
         "duration": "01:50"
+    },
+    {
+        "flight_number": "FR9942",
+        "airline_name": "Ryanair",
+        "destination_iata": "ALC",
+        "destination_airport_name": "Alicante Airport",
+        "destination_city": "Alicante",
+        "destination_country": "Spain",
+        "local_departure_time": "09:05",
+        "local_arrival_time": "12:15",
+        "duration": "03:10"
+    },
+    {
+        "flight_number": "EW2781",
+        "airline_name": "Eurowings",
+        "destination_iata": "STR",
+        "destination_airport_name": "Stuttgart Airport",
+        "destination_city": "Stuttgart",
+        "destination_country": "Germany",
+        "local_departure_time": "09:10",
+        "local_arrival_time": "10:40",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "FR2108",
+        "airline_name": "Ryanair",
+        "destination_iata": "BGY",
+        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
+        "destination_city": "Milan",
+        "destination_country": "Italy",
+        "local_departure_time": "09:10",
+        "local_arrival_time": "10:50",
+        "duration": "01:40"
     },
     {
         "flight_number": "RO232",
@@ -416,6 +570,17 @@
         "local_departure_time": "09:15",
         "local_arrival_time": "12:00",
         "duration": "01:45"
+    },
+    {
+        "flight_number": "U21212",
+        "airline_name": "easyJet",
+        "destination_iata": "BSL",
+        "destination_airport_name": "Basel Mulhouse-Freiburg EuroAirport",
+        "destination_city": "Basel",
+        "destination_country": "France",
+        "local_departure_time": "09:15",
+        "local_arrival_time": "10:50",
+        "duration": "01:35"
     },
     {
         "flight_number": "LH1335",
@@ -430,7 +595,7 @@
     },
     {
         "flight_number": "LX2251",
-        "airline_name": "Air Baltic",
+        "airline_name": "Swiss",
         "destination_iata": "ZRH",
         "destination_airport_name": "Zurich Airport",
         "destination_city": "Zurich",
@@ -440,15 +605,15 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "D83551",
-        "airline_name": "Norwegian Air Sweden",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
+        "flight_number": "JU141",
+        "airline_name": "AirSERBIA",
+        "destination_iata": "BEG",
+        "destination_airport_name": "Belgrade Nikola Tesla Airport",
+        "destination_city": "Belgrade",
+        "destination_country": "Serbia",
         "local_departure_time": "09:45",
-        "local_arrival_time": "11:40",
-        "duration": "01:55"
+        "local_arrival_time": "10:50",
+        "duration": "01:05"
     },
     {
         "flight_number": "LO534",
@@ -462,17 +627,6 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "U24686",
-        "airline_name": "easyJet",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "09:45",
-        "local_arrival_time": "12:10",
-        "duration": "02:25"
-    },
-    {
         "flight_number": "FR2517",
         "airline_name": "Ryanair",
         "destination_iata": "STN",
@@ -484,15 +638,15 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "QR202",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
+        "flight_number": null,
+        "airline_name": "OK Aviation",
+        "destination_iata": "BCN",
+        "destination_airport_name": "Barcelona El Prat Airport",
+        "destination_city": "Barcelona",
+        "destination_country": "Spain",
         "local_departure_time": "10:00",
-        "local_arrival_time": "16:20",
-        "duration": "05:20"
+        "local_arrival_time": "14:20",
+        "duration": "04:20"
     },
     {
         "flight_number": "W62315",
@@ -506,15 +660,26 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "LG5808",
-        "airline_name": "Luxair",
-        "destination_iata": "LUX",
-        "destination_airport_name": "Luxembourg Findel Airport",
-        "destination_city": "Luxembourg",
-        "destination_country": "Luxembourg",
-        "local_departure_time": "10:15",
-        "local_arrival_time": "12:20",
-        "duration": "02:05"
+        "flight_number": "FR5212",
+        "airline_name": "Ryanair",
+        "destination_iata": "BRI",
+        "destination_airport_name": "Bari Karol Wojtyla Airport",
+        "destination_city": "Bari",
+        "destination_country": "Italy",
+        "local_departure_time": "10:10",
+        "local_arrival_time": "11:40",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "LY2366",
+        "airline_name": "El Al",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
+        "local_departure_time": "10:10",
+        "local_arrival_time": "14:15",
+        "duration": "03:05"
     },
     {
         "flight_number": "LH1685",
@@ -528,59 +693,81 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "FR4144",
+        "flight_number": "FR1243",
         "airline_name": "Ryanair",
-        "destination_iata": "PRG",
-        "destination_airport_name": "Prague Vaclav Havel Airport",
-        "destination_city": "Prague",
-        "destination_country": "Czechia",
-        "local_departure_time": "10:20",
-        "local_arrival_time": "11:40",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "6H718",
-        "airline_name": "Israir Airlines",
-        "destination_iata": "TLV",
-        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
-        "destination_city": "Tel Aviv",
-        "destination_country": "Israel",
-        "local_departure_time": "10:45",
-        "local_arrival_time": "14:55",
-        "duration": "03:10"
-    },
-    {
-        "flight_number": "W62447",
-        "airline_name": "Wizz Air",
-        "destination_iata": "SKG",
-        "destination_airport_name": "Thessaloniki International Airport",
-        "destination_city": "Thessaloniki",
+        "destination_iata": "ATH",
+        "destination_airport_name": "Athens Eleftherios Venizelos",
+        "destination_city": "Athens",
         "destination_country": "Greece",
-        "local_departure_time": "10:55",
-        "local_arrival_time": "13:35",
-        "duration": "01:40"
+        "local_departure_time": "10:25",
+        "local_arrival_time": "13:25",
+        "duration": "02:00"
     },
     {
-        "flight_number": "FR5190",
-        "airline_name": "Ryanair",
-        "destination_iata": "BRI",
-        "destination_airport_name": "Bari Karol Wojtyla Airport",
-        "destination_city": "Bari",
+        "flight_number": "W62333",
+        "airline_name": "Wizz Air",
+        "destination_iata": "MXP",
+        "destination_airport_name": "Milan Malpensa Airport",
+        "destination_city": "Milan",
         "destination_country": "Italy",
+        "local_departure_time": "10:40",
+        "local_arrival_time": "12:25",
+        "duration": "01:45"
+    },
+    {
+        "flight_number": "CA3142",
+        "airline_name": "Air China",
+        "destination_iata": "SZX",
+        "destination_airport_name": "Shenzhen Bao'an International Airport",
+        "destination_city": "Shenzhen",
+        "destination_country": "China",
+        "local_departure_time": "10:45",
+        "local_arrival_time": "04:25 (+1)",
+        "duration": "11:40"
+    },
+    {
+        "flight_number": "QR8008",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "11:00",
+        "local_arrival_time": "17:00",
+        "duration": "05:00"
+    },
+    {
+        "flight_number": "W62269",
+        "airline_name": "Wizz Air",
+        "destination_iata": "BSL",
+        "destination_airport_name": "Basel Mulhouse-Freiburg EuroAirport",
+        "destination_city": "Basel",
+        "destination_country": "France",
         "local_departure_time": "11:05",
-        "local_arrival_time": "12:35",
+        "local_arrival_time": "12:55",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "FR197",
+        "airline_name": "Ryanair",
+        "destination_iata": "BER",
+        "destination_airport_name": "Berlin Brandenburg Airport",
+        "destination_city": "Berlin",
+        "destination_country": "Germany",
+        "local_departure_time": "11:10",
+        "local_arrival_time": "12:40",
         "duration": "01:30"
     },
     {
-        "flight_number": "LH1337",
-        "airline_name": "Lufthansa",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "11:15",
-        "local_arrival_time": "13:00",
-        "duration": "01:45"
+        "flight_number": "FR3589",
+        "airline_name": "Ryanair",
+        "destination_iata": "FAO",
+        "destination_airport_name": "Faro Airport",
+        "destination_city": "Faro",
+        "destination_country": "Portugal",
+        "local_departure_time": "11:10",
+        "local_arrival_time": "14:00",
+        "duration": "03:50"
     },
     {
         "flight_number": "OS714",
@@ -594,26 +781,15 @@
         "duration": "00:45"
     },
     {
-        "flight_number": "W62465",
-        "airline_name": "Wizz Air",
-        "destination_iata": "LCA",
-        "destination_airport_name": "Larnaca International Airport",
-        "destination_city": "Larnaca",
-        "destination_country": "Cyprus",
-        "local_departure_time": "11:15",
-        "local_arrival_time": "15:10",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "W62353",
-        "airline_name": "Wizz Air",
-        "destination_iata": "CTA",
-        "destination_airport_name": "Catania Fontanarossa Airport",
-        "destination_city": "Catania",
-        "destination_country": "Italy",
-        "local_departure_time": "11:20",
-        "local_arrival_time": "13:20",
-        "duration": "02:00"
+        "flight_number": "HUA115",
+        "airline_name": "Hungary Airlines",
+        "destination_iata": "CGO",
+        "destination_airport_name": "Zhengzhou Xinzheng International Airport",
+        "destination_city": "Zhengzhou",
+        "destination_country": "China",
+        "local_departure_time": "11:30",
+        "local_arrival_time": "03:14 (+1)",
+        "duration": "09:44"
     },
     {
         "flight_number": "KL1364",
@@ -627,6 +803,39 @@
         "duration": "02:05"
     },
     {
+        "flight_number": "LH1337",
+        "airline_name": "Lufthansa",
+        "destination_iata": "FRA",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany",
+        "local_departure_time": "11:35",
+        "local_arrival_time": "13:20",
+        "duration": "01:45"
+    },
+    {
+        "flight_number": "6H728",
+        "airline_name": "Israir Airlines",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
+        "local_departure_time": "11:40",
+        "local_arrival_time": "15:50",
+        "duration": "03:10"
+    },
+    {
+        "flight_number": "BA867",
+        "airline_name": "British Airways",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "11:40",
+        "local_arrival_time": "13:25",
+        "duration": "02:45"
+    },
+    {
         "flight_number": "W62289",
         "airline_name": "Wizz Air",
         "destination_iata": "STR",
@@ -638,19 +847,30 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "FR4277",
-        "airline_name": "Ryanair",
-        "destination_iata": "SKG",
-        "destination_airport_name": "Thessaloniki International Airport",
-        "destination_city": "Thessaloniki",
-        "destination_country": "Greece",
+        "flight_number": "4M440",
+        "airline_name": "Mavi Gök Airlines",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "11:50",
+        "local_arrival_time": "15:17",
+        "duration": "02:27"
+    },
+    {
+        "flight_number": "W62327",
+        "airline_name": "Wizz Air",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
         "local_departure_time": "12:00",
-        "local_arrival_time": "14:35",
-        "duration": "01:35"
+        "local_arrival_time": "16:15",
+        "duration": "03:15"
     },
     {
         "flight_number": "AY1252",
-        "airline_name": "Finnair",
+        "airline_name": "DAT",
         "destination_iata": "HEL",
         "destination_airport_name": "Helsinki Vantaa Airport",
         "destination_city": "Helsinki",
@@ -660,37 +880,15 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "HU762",
-        "airline_name": "Hainan Airlines",
-        "destination_iata": "SZX",
-        "destination_airport_name": "Shenzhen Bao'an International Airport",
-        "destination_city": "Shenzhen",
-        "destination_country": "China",
-        "local_departure_time": "12:05",
-        "local_arrival_time": "04:50 (+1)",
-        "duration": "10:45"
-    },
-    {
-        "flight_number": "LY2360",
-        "airline_name": "El Al",
-        "destination_iata": "TLV",
-        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
-        "destination_city": "Tel Aviv",
-        "destination_country": "Israel",
-        "local_departure_time": "12:10",
-        "local_arrival_time": "16:15",
-        "duration": "03:05"
-    },
-    {
-        "flight_number": "FR8325",
-        "airline_name": "Ryanair",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
+        "flight_number": "W62361",
+        "airline_name": "Wizz Air",
+        "destination_iata": "BRI",
+        "destination_airport_name": "Bari Karol Wojtyla Airport",
+        "destination_city": "Bari",
         "destination_country": "Italy",
-        "local_departure_time": "12:15",
-        "local_arrival_time": "14:00",
-        "duration": "01:45"
+        "local_departure_time": "12:05",
+        "local_arrival_time": "13:40",
+        "duration": "01:35"
     },
     {
         "flight_number": "CA720",
@@ -704,6 +902,17 @@
         "duration": "09:50"
     },
     {
+        "flight_number": "FR6748",
+        "airline_name": "Ryanair",
+        "destination_iata": "GOT",
+        "destination_airport_name": "Gothenburg Landvetter Airport",
+        "destination_city": "Gothenburg",
+        "destination_country": "Sweden",
+        "local_departure_time": "12:30",
+        "local_arrival_time": "14:40",
+        "duration": "02:10"
+    },
+    {
         "flight_number": "FM870",
         "airline_name": "Shanghai Airlines",
         "destination_iata": "PVG",
@@ -715,26 +924,48 @@
         "duration": "11:05"
     },
     {
-        "flight_number": "FR6278",
-        "airline_name": "Ryanair",
-        "destination_iata": "CTA",
-        "destination_airport_name": "Catania Fontanarossa Airport",
-        "destination_city": "Catania",
-        "destination_country": "Italy",
-        "local_departure_time": "12:40",
-        "local_arrival_time": "14:50",
-        "duration": "02:10"
-    },
-    {
         "flight_number": "AF1295",
         "airline_name": "Air France",
         "destination_iata": "CDG",
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "12:50",
-        "local_arrival_time": "15:10",
+        "local_departure_time": "12:40",
+        "local_arrival_time": "15:00",
         "duration": "02:20"
+    },
+    {
+        "flight_number": "FR8325",
+        "airline_name": "Ryanair",
+        "destination_iata": "MXP",
+        "destination_airport_name": "Milan Malpensa Airport",
+        "destination_city": "Milan",
+        "destination_country": "Italy",
+        "local_departure_time": "12:40",
+        "local_arrival_time": "14:25",
+        "duration": "01:45"
+    },
+    {
+        "flight_number": "FR3827",
+        "airline_name": "Ryanair",
+        "destination_iata": "BLQ",
+        "destination_airport_name": "Bologna Guglielmo Marconi Airport",
+        "destination_city": "Bologna",
+        "destination_country": "Italy",
+        "local_departure_time": "12:45",
+        "local_arrival_time": "14:15",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "CZ650",
+        "airline_name": "China Southern Airlines",
+        "destination_iata": "CAN",
+        "destination_airport_name": "Guangzhou Baiyun International Airport",
+        "destination_city": "Guangzhou",
+        "destination_country": "China",
+        "local_departure_time": "12:45",
+        "local_arrival_time": "05:55 (+1)",
+        "duration": "11:10"
     },
     {
         "flight_number": "LO536",
@@ -748,37 +979,37 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "BA867",
-        "airline_name": "British Airways",
-        "destination_iata": "LHR",
-        "destination_airport_name": "London Heathrow Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "12:55",
-        "local_arrival_time": "14:40",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "W62397",
+        "flight_number": "W62353",
         "airline_name": "Wizz Air",
-        "destination_iata": "FNC",
-        "destination_airport_name": "Funchal Cristiano Ronaldo Airport",
-        "destination_city": "Funchal",
-        "destination_country": "Portugal",
-        "local_departure_time": "13:00",
-        "local_arrival_time": "17:10",
-        "duration": "05:10"
+        "destination_iata": "CTA",
+        "destination_airport_name": "Catania Fontanarossa Airport",
+        "destination_city": "Catania",
+        "destination_country": "Italy",
+        "local_departure_time": "12:55",
+        "local_arrival_time": "15:10",
+        "duration": "02:15"
     },
     {
-        "flight_number": "RK8357",
-        "airline_name": "Ryanair UK",
-        "destination_iata": "MAN",
-        "destination_airport_name": "Manchester Airport",
-        "destination_city": "Manchester",
-        "destination_country": "United Kingdom",
+        "flight_number": "DY1551",
+        "airline_name": "Norwegian",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "13:00",
+        "local_arrival_time": "15:30",
+        "duration": "02:30"
+    },
+    {
+        "flight_number": "W62357",
+        "airline_name": "Wizz Air",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
         "local_departure_time": "13:05",
-        "local_arrival_time": "14:55",
-        "duration": "02:50"
+        "local_arrival_time": "20:40",
+        "duration": "05:35"
     },
     {
         "flight_number": "FR1018",
@@ -814,39 +1045,6 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "NE5302",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "HRG",
-        "destination_airport_name": "Hurghada International Airport",
-        "destination_city": "Hurghada",
-        "destination_country": "Egypt",
-        "local_departure_time": "13:15",
-        "local_arrival_time": "17:55",
-        "duration": "03:40"
-    },
-    {
-        "flight_number": "W62203",
-        "airline_name": "Wizz Air",
-        "destination_iata": "LTN",
-        "destination_airport_name": "London Luton Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "13:15 / 14:00",
-        "local_arrival_time": "15:00 / 15:45",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "7O5366",
-        "airline_name": "Smartwings Hungary",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "13:20",
-        "local_arrival_time": "16:45",
-        "duration": "02:25"
-    },
-    {
         "flight_number": "LH1677",
         "airline_name": "Lufthansa",
         "destination_iata": "MUC",
@@ -858,37 +1056,15 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "W62251",
-        "airline_name": "Wizz Air",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "13:25",
-        "local_arrival_time": "15:30",
-        "duration": "02:05"
-    },
-    {
-        "flight_number": "FR5570",
-        "airline_name": "Ryanair",
-        "destination_iata": "SOF",
-        "destination_airport_name": "Sofia Vasil Levski Airport",
-        "destination_city": "Sofia",
-        "destination_country": "Bulgaria",
-        "local_departure_time": "13:25 / 14:05",
-        "local_arrival_time": "15:50 / 16:30",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "FR3110",
-        "airline_name": "Ryanair",
-        "destination_iata": "PMI",
-        "destination_airport_name": "Palma de Mallorca Airport",
-        "destination_city": "Palma de Mallorca",
-        "destination_country": "Spain",
+        "flight_number": "6H780",
+        "airline_name": "Israir Airlines",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
         "local_departure_time": "13:30",
-        "local_arrival_time": "16:15",
-        "duration": "02:45"
+        "local_arrival_time": "17:40",
+        "duration": "03:10"
     },
     {
         "flight_number": "FR5248",
@@ -902,15 +1078,15 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "DY1551",
-        "airline_name": "Norwegian",
-        "destination_iata": "OSL",
-        "destination_airport_name": "Oslo Gardermoen Airport",
-        "destination_city": "Oslo",
-        "destination_country": "Norway",
+        "flight_number": "FR2273",
+        "airline_name": "Ryanair",
+        "destination_iata": "AGP",
+        "destination_airport_name": "Malaga Costa Del Sol Airport",
+        "destination_city": "Malaga",
+        "destination_country": "Spain",
         "local_departure_time": "13:45",
-        "local_arrival_time": "16:15",
-        "duration": "02:30"
+        "local_arrival_time": "17:25",
+        "duration": "03:40"
     },
     {
         "flight_number": "PC332",
@@ -922,28 +1098,6 @@
         "local_departure_time": "13:45",
         "local_arrival_time": "16:45",
         "duration": "02:00"
-    },
-    {
-        "flight_number": "W62495",
-        "airline_name": "Wizz Air",
-        "destination_iata": "MLA",
-        "destination_airport_name": "Malta Luqa International Airport",
-        "destination_city": "Malta",
-        "destination_country": "Malta",
-        "local_departure_time": "13:45",
-        "local_arrival_time": "16:05",
-        "duration": "02:20"
-    },
-    {
-        "flight_number": "W62493",
-        "airline_name": "Wizz Air",
-        "destination_iata": "TFS",
-        "destination_airport_name": "Tenerife South Airport",
-        "destination_city": "Tenerife",
-        "destination_country": "Spain",
-        "local_departure_time": "13:50",
-        "local_arrival_time": "18:35",
-        "duration": "05:45"
     },
     {
         "flight_number": "FR4309",
@@ -968,48 +1122,48 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "QR8008",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "14:05",
-        "local_arrival_time": "20:05",
-        "duration": "05:00"
-    },
-    {
-        "flight_number": "W42359",
-        "airline_name": "Wizz Air",
-        "destination_iata": "NAP",
-        "destination_airport_name": "Naples Airport",
-        "destination_city": "Naples",
-        "destination_country": "Italy",
-        "local_departure_time": "14:05 / 14:20",
-        "local_arrival_time": "15:55 / 16:10",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "KL1366",
         "airline_name": "KLM",
         "destination_iata": "AMS",
         "destination_airport_name": "Amsterdam Schiphol Airport",
         "destination_city": "Amsterdam",
         "destination_country": "Netherlands",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "16:25",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "16:15",
         "duration": "02:15"
     },
     {
-        "flight_number": "3U9820",
-        "airline_name": "Sichuan Airlines",
-        "destination_iata": "CTU",
-        "destination_airport_name": "Chengdu Shuangliu International Airport",
-        "destination_city": "Chengdu",
-        "destination_country": "China",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "05:55 (+1)",
-        "duration": "09:45"
+        "flight_number": "W62203",
+        "airline_name": "Wizz Air",
+        "destination_iata": "LTN",
+        "destination_airport_name": "London Luton Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "15:45",
+        "duration": "02:45"
+    },
+    {
+        "flight_number": "FR5570",
+        "airline_name": "Ryanair",
+        "destination_iata": "SOF",
+        "destination_airport_name": "Sofia Vasil Levski Airport",
+        "destination_city": "Sofia",
+        "destination_country": "Bulgaria",
+        "local_departure_time": "14:15",
+        "local_arrival_time": "16:40",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "BA869",
+        "airline_name": "British Airways",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "14:15",
+        "local_arrival_time": "16:00",
+        "duration": "02:45"
     },
     {
         "flight_number": "W62273",
@@ -1023,17 +1177,6 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "BA869",
-        "airline_name": "British Airways",
-        "destination_iata": "LHR",
-        "destination_airport_name": "London Heathrow Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "14:15 / 14:55",
-        "local_arrival_time": "16:00 / 16:40",
-        "duration": "02:45"
-    },
-    {
         "flight_number": "LH1339",
         "airline_name": "Lufthansa",
         "destination_iata": "FRA",
@@ -1043,6 +1186,17 @@
         "local_departure_time": "14:20",
         "local_arrival_time": "16:05",
         "duration": "01:45"
+    },
+    {
+        "flight_number": "W42359",
+        "airline_name": "Wizz Air Malta",
+        "destination_iata": "NAP",
+        "destination_airport_name": "Naples Airport",
+        "destination_city": "Naples",
+        "destination_country": "Italy",
+        "local_departure_time": "14:20",
+        "local_arrival_time": "16:10",
+        "duration": "01:50"
     },
     {
         "flight_number": "BT492",
@@ -1067,28 +1221,6 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "FR4091",
-        "airline_name": "Ryanair",
-        "destination_iata": "PRG",
-        "destination_airport_name": "Prague Vaclav Havel Airport",
-        "destination_city": "Prague",
-        "destination_country": "Czechia",
-        "local_departure_time": "14:40",
-        "local_arrival_time": "15:55",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "W62269",
-        "airline_name": "Wizz Air",
-        "destination_iata": "BSL",
-        "destination_airport_name": "Basel Mulhouse-Freiburg EuroAirport",
-        "destination_city": "Basel",
-        "destination_country": "France",
-        "local_departure_time": "14:45",
-        "local_arrival_time": "16:35",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "3U9822",
         "airline_name": "Sichuan Airlines",
         "destination_iata": "TFU",
@@ -1100,8 +1232,19 @@
         "duration": "10:05"
     },
     {
+        "flight_number": "D83551",
+        "airline_name": "Norwegian Air Sweden",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "14:55",
+        "local_arrival_time": "16:45",
+        "duration": "01:50"
+    },
+    {
         "flight_number": "LX2255",
-        "airline_name": "Air Baltic",
+        "airline_name": "Swiss",
         "destination_iata": "ZRH",
         "destination_airport_name": "Zurich Airport",
         "destination_city": "Zurich",
@@ -1122,17 +1265,6 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "A3879",
-        "airline_name": "Aegean Airlines",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
-        "local_departure_time": "15:05",
-        "local_arrival_time": "18:00",
-        "duration": "01:55"
-    },
-    {
         "flight_number": "OS722",
         "airline_name": "Austrian Airlines",
         "destination_iata": "VIE",
@@ -1142,17 +1274,6 @@
         "local_departure_time": "15:10",
         "local_arrival_time": "15:55",
         "duration": "00:45"
-    },
-    {
-        "flight_number": null,
-        "airline_name": "Sichuan Airlines",
-        "destination_iata": "CTU",
-        "destination_airport_name": "Chengdu Shuangliu International Airport",
-        "destination_city": "Chengdu",
-        "destination_country": "China",
-        "local_departure_time": "15:10",
-        "local_arrival_time": "06:43 (+1)",
-        "duration": "09:33"
     },
     {
         "flight_number": "JU143",
@@ -1166,48 +1287,15 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "FR2515",
-        "airline_name": "Ryanair",
-        "destination_iata": "STN",
-        "destination_airport_name": "London Stansted Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "15:15",
-        "local_arrival_time": "16:50",
-        "duration": "02:35"
-    },
-    {
         "flight_number": "VF110",
         "airline_name": "AJet",
         "destination_iata": "SAW",
         "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "15:15 / 15:20",
-        "local_arrival_time": "18:15 / 18:20",
+        "local_departure_time": "15:15",
+        "local_arrival_time": "18:15",
         "duration": "02:00"
-    },
-    {
-        "flight_number": "EW2783",
-        "airline_name": "Eurowings",
-        "destination_iata": "STR",
-        "destination_airport_name": "Stuttgart Airport",
-        "destination_city": "Stuttgart",
-        "destination_country": "Germany",
-        "local_departure_time": "15:20",
-        "local_arrival_time": "16:50",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "FR80",
-        "airline_name": "Ryanair",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "17:25",
-        "duration": "01:55"
     },
     {
         "flight_number": "IB872",
@@ -1219,17 +1307,6 @@
         "local_departure_time": "15:30",
         "local_arrival_time": "18:50",
         "duration": "03:20"
-    },
-    {
-        "flight_number": "MS752",
-        "airline_name": "Egyptair",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "15:40",
-        "local_arrival_time": "19:50",
-        "duration": "03:10"
     },
     {
         "flight_number": "FR2277",
@@ -1249,12 +1326,12 @@
         "destination_airport_name": "Antalya Airport",
         "destination_city": "Antalya",
         "destination_country": "Turkey",
-        "local_departure_time": "15:50",
-        "local_arrival_time": "19:30",
+        "local_departure_time": "15:45",
+        "local_arrival_time": "19:25",
         "duration": "02:40"
     },
     {
-        "flight_number": "W62357",
+        "flight_number": "W62427",
         "airline_name": "Wizz Air",
         "destination_iata": "KEF",
         "destination_airport_name": "Keflavik International Airport",
@@ -1276,17 +1353,6 @@
         "duration": "03:30"
     },
     {
-        "flight_number": "QR200",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "16:05",
-        "local_arrival_time": "22:50",
-        "duration": "05:45"
-    },
-    {
         "flight_number": "EK112",
         "airline_name": "Emirates",
         "destination_iata": "DXB",
@@ -1298,26 +1364,15 @@
         "duration": "05:20"
     },
     {
-        "flight_number": "FR4090",
-        "airline_name": "Ryanair",
-        "destination_iata": "NAP",
-        "destination_airport_name": "Naples Airport",
-        "destination_city": "Naples",
-        "destination_country": "Italy",
-        "local_departure_time": "16:10",
-        "local_arrival_time": "17:50",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "QR8244",
+        "flight_number": "QR200",
         "airline_name": "Qatar Airways",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "16:10",
-        "local_arrival_time": "18:00",
-        "duration": "01:50"
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "16:05",
+        "local_arrival_time": "22:00",
+        "duration": "04:55"
     },
     {
         "flight_number": "FR1659",
@@ -1329,17 +1384,6 @@
         "local_departure_time": "16:15",
         "local_arrival_time": "17:50",
         "duration": "02:35"
-    },
-    {
-        "flight_number": "W62233",
-        "airline_name": "Wizz Air",
-        "destination_iata": "TIA",
-        "destination_airport_name": "Tirana International Airport",
-        "destination_city": "Tirana",
-        "destination_country": "Albania",
-        "local_departure_time": "16:20",
-        "local_arrival_time": "17:50",
-        "duration": "01:30"
     },
     {
         "flight_number": "W62377",
@@ -1370,9 +1414,20 @@
         "destination_airport_name": "Lisbon Humberto Delgado Airport",
         "destination_city": "Lisbon",
         "destination_country": "Portugal",
-        "local_departure_time": "16:45 / 16:55",
-        "local_arrival_time": "19:50 / 20:00",
+        "local_departure_time": "16:45",
+        "local_arrival_time": "19:50",
         "duration": "04:05"
+    },
+    {
+        "flight_number": "W62205",
+        "airline_name": "Wizz Air",
+        "destination_iata": "LTN",
+        "destination_airport_name": "London Luton Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "16:50",
+        "local_arrival_time": "18:35",
+        "duration": "02:45"
     },
     {
         "flight_number": "FR3110",
@@ -1397,17 +1452,6 @@
         "duration": "03:10"
     },
     {
-        "flight_number": "FR9934",
-        "airline_name": "Ryanair",
-        "destination_iata": "BHX",
-        "destination_airport_name": "Birmingham Airport",
-        "destination_city": "Birmingham",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "17:00",
-        "local_arrival_time": "18:45",
-        "duration": "02:45"
-    },
-    {
         "flight_number": "KL1368",
         "airline_name": "KLM",
         "destination_iata": "AMS",
@@ -1419,25 +1463,14 @@
         "duration": "02:05"
     },
     {
-        "flight_number": "AMQ4481",
-        "airline_name": "Air 001",
-        "destination_iata": "FUE",
-        "destination_airport_name": "Fuerteventura Airport",
-        "destination_city": "Fuerteventura",
-        "destination_country": "Spain",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "21:15",
-        "duration": "04:45"
-    },
-    {
         "flight_number": "LO538",
         "airline_name": "LOT",
         "destination_iata": "WAW",
         "destination_airport_name": "Warsaw Chopin Airport",
         "destination_city": "Warsaw",
         "destination_country": "Poland",
-        "local_departure_time": "17:30 / 17:35",
-        "local_arrival_time": "18:45 / 18:50",
+        "local_departure_time": "17:30",
+        "local_arrival_time": "18:45",
         "duration": "01:15"
     },
     {
@@ -1447,64 +1480,9 @@
         "destination_airport_name": "Munich Airport",
         "destination_city": "Munich",
         "destination_country": "Germany",
-        "local_departure_time": "17:30 / 17:35",
-        "local_arrival_time": "18:50 / 18:55",
+        "local_departure_time": "17:35",
+        "local_arrival_time": "18:55",
         "duration": "01:20"
-    },
-    {
-        "flight_number": "BZ441",
-        "airline_name": "Tus Air",
-        "destination_iata": "TLV",
-        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
-        "destination_city": "Tel Aviv",
-        "destination_country": "Israel",
-        "local_departure_time": "17:30 / 18:30",
-        "local_arrival_time": "22:30 / 22:45",
-        "duration": "04:00"
-    },
-    {
-        "flight_number": "W62205",
-        "airline_name": "Wizz Air",
-        "destination_iata": "LTN",
-        "destination_airport_name": "London Luton Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "17:40",
-        "local_arrival_time": "19:25",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "W62251",
-        "airline_name": "Wizz Air",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "17:45",
-        "local_arrival_time": "19:50",
-        "duration": "02:05"
-    },
-    {
-        "flight_number": "XC618",
-        "airline_name": "Corendon Airlines",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "17:45",
-        "local_arrival_time": "21:20",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "XC620",
-        "airline_name": "Corendon Airlines",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "17:45",
-        "local_arrival_time": "21:20",
-        "duration": "02:35"
     },
     {
         "flight_number": "BA875",
@@ -1513,19 +1491,8 @@
         "destination_airport_name": "London Heathrow Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "17:45 / 17:55",
-        "local_arrival_time": "19:25 / 19:35",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "FR8385",
-        "airline_name": "Ryanair",
-        "destination_iata": "BCN",
-        "destination_airport_name": "Barcelona El Prat Airport",
-        "destination_city": "Barcelona",
-        "destination_country": "Spain",
         "local_departure_time": "17:55",
-        "local_arrival_time": "20:35",
+        "local_arrival_time": "19:35",
         "duration": "02:40"
     },
     {
@@ -1536,8 +1503,19 @@
         "destination_city": "Brussels",
         "destination_country": "Belgium",
         "local_departure_time": "18:00",
-        "local_arrival_time": "20:05 / 20:10",
+        "local_arrival_time": "20:05",
         "duration": "02:05"
+    },
+    {
+        "flight_number": "BZ441",
+        "airline_name": "Tus Air",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
+        "local_departure_time": "18:10",
+        "local_arrival_time": "22:25",
+        "duration": "03:15"
     },
     {
         "flight_number": "RO238",
@@ -1552,7 +1530,7 @@
     },
     {
         "flight_number": "FR2515",
-        "airline_name": "Buzz",
+        "airline_name": "Ryanair",
         "destination_iata": "STN",
         "destination_airport_name": "London Stansted Airport",
         "destination_city": "London",
@@ -1562,15 +1540,26 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "W62263",
+        "flight_number": "W62317",
         "airline_name": "Wizz Air",
-        "destination_iata": "NCE",
-        "destination_airport_name": "Nice Cote d'Azur Airport",
-        "destination_city": "Nice",
-        "destination_country": "France",
-        "local_departure_time": "18:35 / 19:00",
-        "local_arrival_time": "20:40 / 21:05",
-        "duration": "02:05"
+        "destination_iata": "BER",
+        "destination_airport_name": "Berlin Brandenburg Airport",
+        "destination_city": "Berlin",
+        "destination_country": "Germany",
+        "local_departure_time": "18:30",
+        "local_arrival_time": "20:00",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "W62437",
+        "airline_name": "Wizz Air",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "18:40",
+        "local_arrival_time": "21:55",
+        "duration": "02:15"
     },
     {
         "flight_number": "FR2204",
@@ -1584,6 +1573,17 @@
         "duration": "02:20"
     },
     {
+        "flight_number": "W62251",
+        "airline_name": "Wizz Air",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "18:50",
+        "local_arrival_time": "20:55",
+        "duration": "02:05"
+    },
+    {
         "flight_number": "AY1256",
         "airline_name": "Jettime",
         "destination_iata": "HEL",
@@ -1595,15 +1595,15 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "IZ292",
-        "airline_name": "Arkia Israeli Airlines",
-        "destination_iata": "TLV",
-        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
-        "destination_city": "Tel Aviv",
-        "destination_country": "Israel",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "23:00",
-        "duration": "03:05"
+        "flight_number": "W62263",
+        "airline_name": "Wizz Air",
+        "destination_iata": "NCE",
+        "destination_airport_name": "Nice Cote d'Azur Airport",
+        "destination_city": "Nice",
+        "destination_country": "France",
+        "local_departure_time": "19:00",
+        "local_arrival_time": "21:05",
+        "duration": "02:05"
     },
     {
         "flight_number": "LH1341",
@@ -1615,17 +1615,6 @@
         "local_departure_time": "19:05",
         "local_arrival_time": "20:50",
         "duration": "01:45"
-    },
-    {
-        "flight_number": "FR4243",
-        "airline_name": "Ryanair",
-        "destination_iata": "OPO",
-        "destination_airport_name": "Porto Francisco de Sa Carneiro Airport",
-        "destination_city": "Porto",
-        "destination_country": "Portugal",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "21:50",
-        "duration": "03:40"
     },
     {
         "flight_number": "A3879",
@@ -1650,17 +1639,6 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "FR2273",
-        "airline_name": "Ryanair",
-        "destination_iata": "AGP",
-        "destination_airport_name": "Malaga Costa Del Sol Airport",
-        "destination_city": "Malaga",
-        "destination_country": "Spain",
-        "local_departure_time": "19:20",
-        "local_arrival_time": "23:00",
-        "duration": "03:40"
-    },
-    {
         "flight_number": "W62337",
         "airline_name": "Wizz Air",
         "destination_iata": "MXP",
@@ -1670,6 +1648,17 @@
         "local_departure_time": "19:25",
         "local_arrival_time": "21:10",
         "duration": "01:45"
+    },
+    {
+        "flight_number": "6H726",
+        "airline_name": "Israir Airlines",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
+        "local_departure_time": "19:30",
+        "local_arrival_time": "23:40",
+        "duration": "03:10"
     },
     {
         "flight_number": "AF1495",
@@ -1683,17 +1672,6 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "6H726",
-        "airline_name": "Israir Airlines",
-        "destination_iata": "TLV",
-        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
-        "destination_city": "Tel Aviv",
-        "destination_country": "Israel",
-        "local_departure_time": "19:30 / 19:45",
-        "local_arrival_time": "23:40 / 23:55",
-        "duration": "03:10"
-    },
-    {
         "flight_number": "FR80",
         "airline_name": "Ryanair",
         "destination_iata": "CPH",
@@ -1705,28 +1683,6 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "FR7432",
-        "airline_name": "Ryanair",
-        "destination_iata": "BOJ",
-        "destination_airport_name": "Burgas Airport",
-        "destination_city": "Burgas",
-        "destination_country": "Bulgaria",
-        "local_departure_time": "19:35",
-        "local_arrival_time": "22:10",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "IB874",
-        "airline_name": "Iberia",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "19:40",
-        "local_arrival_time": "23:00",
-        "duration": "03:20"
-    },
-    {
         "flight_number": "KL1370",
         "airline_name": "KLM",
         "destination_iata": "AMS",
@@ -1734,8 +1690,19 @@
         "destination_city": "Amsterdam",
         "destination_country": "Netherlands",
         "local_departure_time": "19:40",
-        "local_arrival_time": "21:55",
-        "duration": "02:15"
+        "local_arrival_time": "21:50",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "SK780",
+        "airline_name": "SAS",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "19:45 / 20:05",
+        "local_arrival_time": "21:35 / 22:00",
+        "duration": "01:50"
     },
     {
         "flight_number": "FR4090",
@@ -1744,20 +1711,20 @@
         "destination_airport_name": "Naples Airport",
         "destination_city": "Naples",
         "destination_country": "Italy",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "21:25",
+        "local_departure_time": "19:45 / 20:10",
+        "local_arrival_time": "21:25 / 21:50",
         "duration": "01:40"
     },
     {
-        "flight_number": "FR2108",
+        "flight_number": "FR8492",
         "airline_name": "Ryanair",
-        "destination_iata": "BGY",
-        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
+        "destination_iata": "MXP",
+        "destination_airport_name": "Milan Malpensa Airport",
         "destination_city": "Milan",
         "destination_country": "Italy",
         "local_departure_time": "19:50",
-        "local_arrival_time": "21:30",
-        "duration": "01:40"
+        "local_arrival_time": "21:35",
+        "duration": "01:45"
     },
     {
         "flight_number": "W62233",
@@ -1769,17 +1736,6 @@
         "local_departure_time": "19:55",
         "local_arrival_time": "21:25",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "W62361",
-        "airline_name": "Wizz Air",
-        "destination_iata": "BRI",
-        "destination_airport_name": "Bari Karol Wojtyla Airport",
-        "destination_city": "Bari",
-        "destination_country": "Italy",
-        "local_departure_time": "19:55",
-        "local_arrival_time": "21:30",
-        "duration": "01:35"
     },
     {
         "flight_number": "LX2259",
@@ -1804,6 +1760,17 @@
         "duration": "02:45"
     },
     {
+        "flight_number": "D41903",
+        "airline_name": "Geosky",
+        "destination_iata": "TBS",
+        "destination_airport_name": "Tbilisi International Airport",
+        "destination_city": "Tbilisi",
+        "destination_country": "Georgia",
+        "local_departure_time": "20:00",
+        "local_arrival_time": "00:52 (+1)",
+        "duration": "02:52"
+    },
+    {
         "flight_number": "FR8393",
         "airline_name": "Ryanair",
         "destination_iata": "BCN",
@@ -1815,10 +1782,21 @@
         "duration": "02:40"
     },
     {
+        "flight_number": "BA859",
+        "airline_name": "British Airways",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "21:50",
+        "duration": "02:40"
+    },
+    {
         "flight_number": "EW9785",
         "airline_name": "Eurowings",
         "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
+        "destination_airport_name": "Dusseldorf Airport",
         "destination_city": "Dusseldorf",
         "destination_country": "Germany",
         "local_departure_time": "20:10",
@@ -1826,26 +1804,26 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "W62497",
-        "airline_name": "Wizz Air",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "20:15",
-        "local_arrival_time": "23:30",
-        "duration": "02:15"
+        "flight_number": "D84488",
+        "airline_name": "Norwegian Air Sweden",
+        "destination_iata": "ARN",
+        "destination_airport_name": "Stockholm Arlanda Airport",
+        "destination_city": "Stockholm",
+        "destination_country": "Sweden",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "22:20",
+        "duration": "02:10"
     },
     {
-        "flight_number": "FR6887",
-        "airline_name": "Ryanair",
-        "destination_iata": "TIA",
-        "destination_airport_name": "Tirana International Airport",
-        "destination_city": "Tirana",
-        "destination_country": "Albania",
-        "local_departure_time": "20:20",
-        "local_arrival_time": "21:50",
-        "duration": "01:30"
+        "flight_number": "KE964",
+        "airline_name": "Korean Air",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "13:40 (+1)",
+        "duration": "10:30"
     },
     {
         "flight_number": "LO532",
@@ -1854,20 +1832,20 @@
         "destination_airport_name": "Warsaw Chopin Airport",
         "destination_city": "Warsaw",
         "destination_country": "Poland",
-        "local_departure_time": "20:20 / 20:25",
-        "local_arrival_time": "21:35 / 21:40",
+        "local_departure_time": "20:10 / 20:25",
+        "local_arrival_time": "21:25 / 21:40",
         "duration": "01:15"
     },
     {
-        "flight_number": "DY1551",
-        "airline_name": "Norwegian",
-        "destination_iata": "OSL",
-        "destination_airport_name": "Oslo Gardermoen Airport",
-        "destination_city": "Oslo",
-        "destination_country": "Norway",
-        "local_departure_time": "20:25",
-        "local_arrival_time": "22:55",
-        "duration": "02:30"
+        "flight_number": "U28736",
+        "airline_name": "easyJet",
+        "destination_iata": "LGW",
+        "destination_airport_name": "London Gatwick Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "20:15",
+        "local_arrival_time": "21:55",
+        "duration": "02:40"
     },
     {
         "flight_number": "EW7783",
@@ -1876,9 +1854,20 @@
         "destination_airport_name": "Hamburg Airport",
         "destination_city": "Hamburg",
         "destination_country": "Germany",
-        "local_departure_time": "20:25",
-        "local_arrival_time": "22:10",
+        "local_departure_time": "20:20 / 20:35",
+        "local_arrival_time": "22:05 / 22:20",
         "duration": "01:45"
+    },
+    {
+        "flight_number": "FR207",
+        "airline_name": "Ryanair",
+        "destination_iata": "BER",
+        "destination_airport_name": "Berlin Brandenburg Airport",
+        "destination_city": "Berlin",
+        "destination_country": "Germany",
+        "local_departure_time": "20:25 / 21:25",
+        "local_arrival_time": "21:55 / 22:55",
+        "duration": "01:30"
     },
     {
         "flight_number": "TK1038",
@@ -1892,15 +1881,37 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "KE964",
-        "airline_name": "Korean Air",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "13:40 (+1)",
-        "duration": "10:10"
+        "flight_number": "EW789",
+        "airline_name": "Eurowings",
+        "destination_iata": "CGN",
+        "destination_airport_name": "Cologne Bonn Airport",
+        "destination_city": "Cologne",
+        "destination_country": "Germany",
+        "local_departure_time": "20:35",
+        "local_arrival_time": "22:25",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "5O4368",
+        "airline_name": "ASL Airlines",
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "20:36",
+        "local_arrival_time": "22:56",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "FR5570",
+        "airline_name": "Ryanair",
+        "destination_iata": "SOF",
+        "destination_airport_name": "Sofia Vasil Levski Airport",
+        "destination_city": "Sofia",
+        "destination_country": "Bulgaria",
+        "local_departure_time": "20:40",
+        "local_arrival_time": "23:05",
+        "duration": "01:25"
     },
     {
         "flight_number": "W62495",
@@ -1914,26 +1925,15 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "U21566",
-        "airline_name": "easyJet",
-        "destination_iata": "GVA",
-        "destination_airport_name": "Geneva International Airport",
-        "destination_city": "Geneva",
-        "destination_country": "Switzerland",
+        "flight_number": "IZ292",
+        "airline_name": "FLYYO",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
         "local_departure_time": "20:45",
-        "local_arrival_time": "22:50",
-        "duration": "02:05"
-    },
-    {
-        "flight_number": "U21214",
-        "airline_name": "easyJet",
-        "destination_iata": "BSL",
-        "destination_airport_name": "Basel Mulhouse-Freiburg EuroAirport",
-        "destination_city": "Basel",
-        "destination_country": "France",
-        "local_departure_time": "20:50",
-        "local_arrival_time": "22:30",
-        "duration": "01:40"
+        "local_arrival_time": "00:50 (+1)",
+        "duration": "03:05"
     },
     {
         "flight_number": "FM898",
@@ -1943,74 +1943,19 @@
         "destination_city": "Ningbo",
         "destination_country": "China",
         "local_departure_time": "20:55",
-        "local_arrival_time": "14:20 (+1)",
-        "duration": "11:25"
+        "local_arrival_time": "14:05 (+1)",
+        "duration": "11:10"
     },
     {
-        "flight_number": "1I439",
-        "airline_name": "DRF Luftrettung",
-        "destination_iata": "LEJ",
-        "destination_airport_name": "Leipzig Halle Airport",
-        "destination_city": "Leipzig",
-        "destination_country": "Germany",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "22:36",
-        "duration": "01:36"
-    },
-    {
-        "flight_number": "U28732",
+        "flight_number": "U21214",
         "airline_name": "easyJet",
-        "destination_iata": "LGW",
-        "destination_airport_name": "London Gatwick Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "21:05",
-        "local_arrival_time": "22:45",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "EW2785",
-        "airline_name": "Eurowings",
-        "destination_iata": "STR",
-        "destination_airport_name": "Stuttgart Airport",
-        "destination_city": "Stuttgart",
-        "destination_country": "Germany",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "22:40",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "LS898",
-        "airline_name": "Jet2",
-        "destination_iata": "MAN",
-        "destination_airport_name": "Manchester Airport",
-        "destination_city": "Manchester",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "23:05",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "SK780",
-        "airline_name": "SAS",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "23:00",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "U24400",
-        "airline_name": "easyJet",
-        "destination_iata": "LYS",
-        "destination_airport_name": "Lyon Saint Exupery Airport",
-        "destination_city": "Lyon",
+        "destination_iata": "BSL",
+        "destination_airport_name": "Basel Mulhouse-Freiburg EuroAirport",
+        "destination_city": "Basel",
         "destination_country": "France",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "23:15",
-        "duration": "02:05"
+        "local_departure_time": "20:55 / 21:30",
+        "local_arrival_time": "22:35 / 23:10",
+        "duration": "01:40"
     },
     {
         "flight_number": "DY1553",
@@ -2024,85 +1969,74 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "EW789",
+        "flight_number": "EW2785",
         "airline_name": "Eurowings",
-        "destination_iata": "CGN",
-        "destination_airport_name": "Cologne Bonn Airport",
-        "destination_city": "Cologne",
+        "destination_iata": "STR",
+        "destination_airport_name": "Stuttgart Airport",
+        "destination_city": "Stuttgart",
         "destination_country": "Germany",
-        "local_departure_time": "21:25",
-        "local_arrival_time": "23:15",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "LS1322",
-        "airline_name": "Jet2",
-        "destination_iata": "BHX",
-        "destination_airport_name": "Birmingham Airport",
-        "destination_city": "Birmingham",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "21:25",
-        "local_arrival_time": "23:20",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "FR207",
-        "airline_name": "Ryanair",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "21:25 / 21:30",
-        "local_arrival_time": "22:55 / 23:00",
+        "local_departure_time": "21:30",
+        "local_arrival_time": "23:00",
         "duration": "01:30"
     },
     {
-        "flight_number": "W61690",
-        "airline_name": "Wizz Air",
-        "destination_iata": "GDN",
-        "destination_airport_name": "Gdansk Lech Walesa Airport",
-        "destination_city": "Gdansk",
-        "destination_country": "Poland",
+        "flight_number": "GH1180",
+        "airline_name": "Georgian Airlines",
+        "destination_iata": "TBS",
+        "destination_airport_name": "Tbilisi International Airport",
+        "destination_city": "Tbilisi",
+        "destination_country": "Georgia",
+        "local_departure_time": "21:30",
+        "local_arrival_time": "02:23 (+1)",
+        "duration": "02:53"
+    },
+    {
+        "flight_number": "LS898",
+        "airline_name": "Jet2",
+        "destination_iata": "MAN",
+        "destination_airport_name": "Manchester Airport",
+        "destination_city": "Manchester",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "21:30",
+        "local_arrival_time": "23:25",
+        "duration": "02:55"
+    },
+    {
+        "flight_number": "NE3304",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
         "local_departure_time": "21:35",
-        "local_arrival_time": "23:10",
-        "duration": "01:35"
+        "local_arrival_time": "02:15 (+1)",
+        "duration": "03:40"
     },
     {
-        "flight_number": "AY7064",
-        "airline_name": "Finnair",
-        "destination_iata": "HEL",
-        "destination_airport_name": "Helsinki Vantaa Airport",
-        "destination_city": "Helsinki",
-        "destination_country": "Finland",
+        "flight_number": "FR3591",
+        "airline_name": "Ryanair",
+        "destination_iata": "STN",
+        "destination_airport_name": "London Stansted Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "21:50",
+        "local_arrival_time": "23:25",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "FR1024",
+        "airline_name": "Ryanair",
+        "destination_iata": "DUB",
+        "destination_airport_name": "Dublin Airport",
+        "destination_city": "Dublin",
+        "destination_country": "Ireland",
         "local_departure_time": "21:55",
-        "local_arrival_time": "01:20 (+1)",
-        "duration": "02:25"
-    },
-    {
-        "flight_number": "W62499",
-        "airline_name": "Wizz Air",
-        "destination_iata": "GYD",
-        "destination_airport_name": "Baku Heydar Aliyev International Airport",
-        "destination_city": "Baku",
-        "destination_country": "Azerbaijan",
-        "local_departure_time": "22:00",
-        "local_arrival_time": "03:45 (+1)",
-        "duration": "03:45"
-    },
-    {
-        "flight_number": "JU145",
-        "airline_name": "AirSERBIA",
-        "destination_iata": "BEG",
-        "destination_airport_name": "Belgrade Nikola Tesla Airport",
-        "destination_city": "Belgrade",
-        "destination_country": "Serbia",
-        "local_departure_time": "22:10",
-        "local_arrival_time": "23:15",
-        "duration": "01:05"
+        "local_arrival_time": "00:05 (+1)",
+        "duration": "03:10"
     },
     {
         "flight_number": "RK3591",
-        "airline_name": "Ryanair",
+        "airline_name": "Ryanair UK",
         "destination_iata": "STN",
         "destination_airport_name": "London Stansted Airport",
         "destination_city": "London",
@@ -2123,26 +2057,26 @@
         "duration": "05:35"
     },
     {
-        "flight_number": "FR3591",
-        "airline_name": "Ryanair",
-        "destination_iata": "STN",
-        "destination_airport_name": "London Stansted Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "22:40",
-        "local_arrival_time": "00:15 (+1)",
-        "duration": "02:35"
+        "flight_number": null,
+        "airline_name": "Wizz Air",
+        "destination_iata": "SOF",
+        "destination_airport_name": "Sofia Vasil Levski Airport",
+        "destination_city": "Sofia",
+        "destination_country": "Bulgaria",
+        "local_departure_time": "23:05",
+        "local_arrival_time": "01:21 (+1)",
+        "duration": "01:16"
     },
     {
-        "flight_number": "TK6432",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "23:20",
-        "local_arrival_time": "02:40 (+1)",
-        "duration": "02:20"
+        "flight_number": "W62463",
+        "airline_name": "Wizz Air",
+        "destination_iata": "EVN",
+        "destination_airport_name": "Yerevan Zvartnots International Airport",
+        "destination_city": "Yerevan",
+        "destination_country": "Armenia",
+        "local_departure_time": "23:30",
+        "local_arrival_time": "04:50 (+1)",
+        "duration": "03:20"
     },
     {
         "flight_number": "LY2368",

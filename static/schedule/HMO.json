@@ -39,9 +39,9 @@
         "destination_airport_name": "Monterrey International Airport",
         "destination_city": "Monterrey",
         "destination_country": "Mexico",
-        "local_departure_time": "08:40",
+        "local_departure_time": "08:45",
         "local_arrival_time": "11:45",
-        "duration": "02:05"
+        "duration": "02:00"
     },
     {
         "flight_number": "AM703",
@@ -50,9 +50,9 @@
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "08:46",
-        "local_arrival_time": "12:30",
-        "duration": "02:44"
+        "local_departure_time": "09:10",
+        "local_arrival_time": "12:50",
+        "duration": "02:40"
     },
     {
         "flight_number": "Y43183",
@@ -72,9 +72,9 @@
         "destination_airport_name": "Phoenix Sky Harbor International Airport",
         "destination_city": "Phoenix",
         "destination_country": "United States",
-        "local_departure_time": "12:45",
-        "local_arrival_time": "14:11",
-        "duration": "01:26"
+        "local_departure_time": "12:25",
+        "local_arrival_time": "13:45",
+        "duration": "01:20"
     },
     {
         "flight_number": "AM711",
@@ -83,9 +83,9 @@
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "13:20 / 13:25",
-        "local_arrival_time": "17:10 / 17:15",
-        "duration": "02:50"
+        "local_departure_time": "13:10 / 13:45",
+        "local_arrival_time": "16:55 / 17:30",
+        "duration": "02:45"
     },
     {
         "flight_number": "VB5137",
@@ -94,9 +94,31 @@
         "destination_airport_name": "Tijuana International Airport",
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "15:35",
+        "local_departure_time": "13:50",
+        "local_arrival_time": "15:25",
         "duration": "01:35"
+    },
+    {
+        "flight_number": "VB7065",
+        "airline_name": "Viva",
+        "destination_iata": "SJD",
+        "destination_airport_name": "San Jose del Cabo Los Cabos International Airport",
+        "destination_city": "San Jose del Cabo",
+        "destination_country": "Mexico",
+        "local_departure_time": "15:20",
+        "local_arrival_time": "16:45",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "AM713",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "16:30",
+        "local_arrival_time": "20:15",
+        "duration": "02:45"
     },
     {
         "flight_number": "A8939",
@@ -106,19 +128,8 @@
         "destination_city": "Phoenix",
         "destination_country": "United States",
         "local_departure_time": "17:27",
-        "local_arrival_time": "18:39",
-        "duration": "01:12"
-    },
-    {
-        "flight_number": "AM713",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "17:35",
-        "local_arrival_time": "21:25",
-        "duration": "02:50"
+        "local_arrival_time": "18:40",
+        "duration": "01:13"
     },
     {
         "flight_number": "Y43187",
@@ -138,9 +149,20 @@
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "20:03",
-        "local_arrival_time": "23:55",
-        "duration": "02:52"
+        "local_departure_time": "19:10",
+        "local_arrival_time": "22:55",
+        "duration": "02:45"
+    },
+    {
+        "flight_number": "VB4121",
+        "airline_name": "Viva",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "23:10",
+        "duration": "02:00"
     },
     {
         "flight_number": "Y41183",
@@ -154,15 +176,15 @@
         "duration": "02:06"
     },
     {
-        "flight_number": "VB4121",
+        "flight_number": "VB1323",
         "airline_name": "Viva",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "20:35",
-        "local_arrival_time": "23:40",
-        "duration": "02:05"
+        "local_departure_time": "21:05",
+        "local_arrival_time": "00:35 (+1)",
+        "duration": "02:30"
     },
     {
         "flight_number": "VB3187",
@@ -171,20 +193,9 @@
         "destination_airport_name": "Guadalajara International Airport",
         "destination_city": "Guadalajara",
         "destination_country": "Mexico",
-        "local_departure_time": "20:45",
-        "local_arrival_time": "23:55",
-        "duration": "02:10"
-    },
-    {
-        "flight_number": "VB1323",
-        "airline_name": "Viva",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "20:55",
-        "local_arrival_time": "00:35 (+1)",
-        "duration": "02:40"
+        "local_departure_time": "21:10",
+        "local_arrival_time": "00:15 (+1)",
+        "duration": "02:05"
     },
     {
         "flight_number": "Y4381",
@@ -204,8 +215,8 @@
         "destination_airport_name": "Tijuana International Airport",
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "23:26",
-        "local_arrival_time": "00:46 (+1)",
+        "local_departure_time": "22:38",
+        "local_arrival_time": "23:58",
         "duration": "01:20"
     }
 ]

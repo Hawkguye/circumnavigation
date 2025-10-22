@@ -1,14 +1,14 @@
 [
     {
-        "flight_number": "DX952",
-        "airline_name": "DAT",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "01:45",
-        "local_arrival_time": "02:30",
-        "duration": "00:45"
+        "flight_number": "CAT9521",
+        "airline_name": "Airseven",
+        "destination_iata": "GLA",
+        "destination_airport_name": "Glasgow International Airport",
+        "destination_city": "Glasgow",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "05:30",
+        "local_arrival_time": "05:59",
+        "duration": "01:29"
     },
     {
         "flight_number": "LH843",
@@ -23,7 +23,7 @@
     },
     {
         "flight_number": "LH2437",
-        "airline_name": "Lufthansa",
+        "airline_name": "Air Baltic",
         "destination_iata": "MUC",
         "destination_airport_name": "Munich Airport",
         "destination_city": "Munich",
@@ -42,17 +42,6 @@
         "local_departure_time": "06:00",
         "local_arrival_time": "07:10",
         "duration": "01:10"
-    },
-    {
-        "flight_number": "CAT675",
-        "airline_name": "Airseven",
-        "destination_iata": "BOJ",
-        "destination_airport_name": "Burgas Airport",
-        "destination_city": "Burgas",
-        "destination_country": "Bulgaria",
-        "local_departure_time": "06:05",
-        "local_arrival_time": "09:37",
-        "duration": "02:32"
     },
     {
         "flight_number": "ED6810",
@@ -99,26 +88,70 @@
         "duration": "01:13"
     },
     {
-        "flight_number": "AY986",
-        "airline_name": "Finnair",
-        "destination_iata": "HEL",
-        "destination_airport_name": "Helsinki Vantaa Airport",
-        "destination_city": "Helsinki",
-        "destination_country": "Finland",
-        "local_departure_time": "07:25",
-        "local_arrival_time": "10:05",
-        "duration": "01:40"
+        "flight_number": "CAT601",
+        "airline_name": "Airseven",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "07:00",
+        "local_arrival_time": "12:48",
+        "duration": "04:48"
     },
     {
-        "flight_number": "TK6256",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "08:35",
-        "local_arrival_time": "13:00",
-        "duration": "03:25"
+        "flight_number": "WT4995",
+        "airline_name": "Swiftair",
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
+        "local_departure_time": "07:00",
+        "local_arrival_time": "12:20",
+        "duration": "05:20"
+    },
+    {
+        "flight_number": "W43212",
+        "airline_name": "Wizz Air",
+        "destination_iata": "OTP",
+        "destination_airport_name": "Bucharest Henri Coanda International Airport",
+        "destination_city": "Bucharest",
+        "destination_country": "Romania",
+        "local_departure_time": "07:55",
+        "local_arrival_time": "11:35",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "JNJ503",
+        "airline_name": "JoinJet",
+        "destination_iata": "BLQ",
+        "destination_airport_name": "Bologna Guglielmo Marconi Airport",
+        "destination_city": "Bologna",
+        "destination_country": "Italy",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "09:50",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "DK1214",
+        "airline_name": "Sunclass Airlines",
+        "destination_iata": "LPA",
+        "destination_airport_name": "Gran Canaria Airport",
+        "destination_city": "Gran Canaria",
+        "destination_country": "Spain",
+        "local_departure_time": "08:05",
+        "local_arrival_time": "12:20",
+        "duration": "05:15"
+    },
+    {
+        "flight_number": "BT148",
+        "airline_name": "Air Baltic",
+        "destination_iata": "RIX",
+        "destination_airport_name": "Riga International Airport",
+        "destination_city": "Riga",
+        "destination_country": "Latvia",
+        "local_departure_time": "09:50",
+        "local_arrival_time": "12:25",
+        "duration": "01:35"
     },
     {
         "flight_number": "SK1282",
@@ -132,8 +165,41 @@
         "duration": "00:50"
     },
     {
+        "flight_number": "SK1904",
+        "airline_name": "SAS",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "09:55",
+        "local_arrival_time": "11:00",
+        "duration": "01:05"
+    },
+    {
+        "flight_number": "TK1486",
+        "airline_name": "Turkish Airlines",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "10:05",
+        "local_arrival_time": "14:45",
+        "duration": "03:40"
+    },
+    {
+        "flight_number": "XQ575",
+        "airline_name": "SunExpress",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "10:05",
+        "local_arrival_time": "15:00",
+        "duration": "03:55"
+    },
+    {
         "flight_number": "KL1292",
-        "airline_name": "German Airways",
+        "airline_name": "KLM",
         "destination_iata": "AMS",
         "destination_airport_name": "Amsterdam Schiphol Airport",
         "destination_city": "Amsterdam",
@@ -141,6 +207,17 @@
         "local_departure_time": "10:15",
         "local_arrival_time": "11:25",
         "duration": "01:10"
+    },
+    {
+        "flight_number": "CAT9501",
+        "airline_name": "Airseven",
+        "destination_iata": "HAM",
+        "destination_airport_name": "Hamburg Airport",
+        "destination_city": "Hamburg",
+        "destination_country": "Germany",
+        "local_departure_time": "10:20",
+        "local_arrival_time": "11:15",
+        "duration": "00:55"
     },
     {
         "flight_number": "LO466",
@@ -154,15 +231,15 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "D85085",
-        "airline_name": "Norwegian Air Sweden",
-        "destination_iata": "AGP",
-        "destination_airport_name": "Malaga Costa Del Sol Airport",
-        "destination_city": "Malaga",
-        "destination_country": "Spain",
-        "local_departure_time": "10:30",
-        "local_arrival_time": "14:00",
-        "duration": "03:30"
+        "flight_number": "SK2498",
+        "airline_name": "SAS",
+        "destination_iata": "ARN",
+        "destination_airport_name": "Stockholm Arlanda Airport",
+        "destination_city": "Stockholm",
+        "destination_country": "Sweden",
+        "local_departure_time": "10:35",
+        "local_arrival_time": "11:55",
+        "duration": "01:20"
     },
     {
         "flight_number": "EN8741",
@@ -193,8 +270,8 @@
         "destination_airport_name": "Amsterdam Schiphol Airport",
         "destination_city": "Amsterdam",
         "destination_country": "Netherlands",
-        "local_departure_time": "11:50",
-        "local_arrival_time": "13:05",
+        "local_departure_time": "11:55",
+        "local_arrival_time": "13:10",
         "duration": "01:15"
     },
     {
@@ -206,17 +283,6 @@
         "destination_country": "Germany",
         "local_departure_time": "13:05",
         "local_arrival_time": "14:45",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "AY986",
-        "airline_name": "Finnair",
-        "destination_iata": "HEL",
-        "destination_airport_name": "Helsinki Vantaa Airport",
-        "destination_city": "Helsinki",
-        "destination_country": "Finland",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "16:50",
         "duration": "01:40"
     },
     {
@@ -237,31 +303,9 @@
         "destination_airport_name": "Frankfurt Airport",
         "destination_city": "Frankfurt",
         "destination_country": "Germany",
-        "local_departure_time": "14:40 / 14:55",
-        "local_arrival_time": "16:05 / 16:20",
+        "local_departure_time": "14:40",
+        "local_arrival_time": "16:05",
         "duration": "01:25"
-    },
-    {
-        "flight_number": "GAF947",
-        "airline_name": "Germany - Air Force",
-        "destination_iata": "LEJ",
-        "destination_airport_name": "Leipzig Halle Airport",
-        "destination_city": "Leipzig",
-        "destination_country": "Germany",
-        "local_departure_time": "15:00",
-        "local_arrival_time": "16:12",
-        "duration": "01:12"
-    },
-    {
-        "flight_number": "DY995",
-        "airline_name": "Norwegian",
-        "destination_iata": "OSL",
-        "destination_airport_name": "Oslo Gardermoen Airport",
-        "destination_city": "Oslo",
-        "destination_country": "Norway",
-        "local_departure_time": "15:00 / 15:50",
-        "local_arrival_time": "16:10 / 17:00",
-        "duration": "01:10"
     },
     {
         "flight_number": "W61990",
@@ -275,26 +319,15 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "CAT679",
-        "airline_name": "Airseven",
-        "destination_iata": "HER",
-        "destination_airport_name": "Heraklion International Airport",
-        "destination_city": "Heraklion",
-        "destination_country": "Greece",
-        "local_departure_time": "15:10",
-        "local_arrival_time": "19:31",
-        "duration": "03:21"
-    },
-    {
-        "flight_number": "WF283",
-        "airline_name": "Wideroe",
-        "destination_iata": "BGO",
-        "destination_airport_name": "Bergen Flesland Airport",
-        "destination_city": "Bergen",
-        "destination_country": "Norway",
-        "local_departure_time": "15:45",
-        "local_arrival_time": "17:05",
-        "duration": "01:20"
+        "flight_number": "SK1286",
+        "airline_name": "BRA",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "15:40",
+        "local_arrival_time": "16:30",
+        "duration": "00:50"
     },
     {
         "flight_number": "BA807",
@@ -303,75 +336,31 @@
         "destination_airport_name": "London Heathrow Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "16:15 / 17:00",
-        "local_arrival_time": "17:00 / 17:45",
+        "local_departure_time": "16:15",
+        "local_arrival_time": "17:00",
         "duration": "01:45"
     },
     {
-        "flight_number": "CAT681",
-        "airline_name": "Airseven",
-        "destination_iata": "PMI",
-        "destination_airport_name": "Palma de Mallorca Airport",
-        "destination_city": "Palma de Mallorca",
-        "destination_country": "Spain",
-        "local_departure_time": "16:25",
-        "local_arrival_time": "19:17",
-        "duration": "02:52"
+        "flight_number": "DY995",
+        "airline_name": "Norwegian",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "16:35",
+        "local_arrival_time": "17:45",
+        "duration": "01:10"
     },
     {
-        "flight_number": "SK1286",
-        "airline_name": "SAS",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "17:20",
-        "duration": "00:50"
-    },
-    {
-        "flight_number": "BT148",
-        "airline_name": "Air Baltic",
-        "destination_iata": "RIX",
-        "destination_airport_name": "Riga International Airport",
-        "destination_city": "Riga",
-        "destination_country": "Latvia",
-        "local_departure_time": "16:40",
-        "local_arrival_time": "19:15",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "DK504",
-        "airline_name": "Sunclass Airlines",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "16:55",
-        "local_arrival_time": "21:40",
-        "duration": "03:45"
-    },
-    {
-        "flight_number": "8H4434",
-        "airline_name": "European Air Charter",
-        "destination_iata": "BOJ",
-        "destination_airport_name": "Burgas Airport",
-        "destination_city": "Burgas",
-        "destination_country": "Bulgaria",
-        "local_departure_time": "17:00",
-        "local_arrival_time": "20:50",
-        "duration": "02:50"
-    },
-    {
-        "flight_number": "W61778",
-        "airline_name": "Wizz Air",
-        "destination_iata": "GDN",
-        "destination_airport_name": "Gdansk Lech Walesa Airport",
-        "destination_city": "Gdansk",
-        "destination_country": "Poland",
-        "local_departure_time": "17:35",
-        "local_arrival_time": "18:50",
-        "duration": "01:15"
+        "flight_number": "AF1265",
+        "airline_name": "Air France",
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "17:10",
+        "local_arrival_time": "19:00",
+        "duration": "01:50"
     },
     {
         "flight_number": "KL1298",
@@ -385,41 +374,30 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "LX1281",
-        "airline_name": "Swiss",
-        "destination_iata": "ZRH",
-        "destination_airport_name": "Zurich Airport",
-        "destination_city": "Zurich",
-        "destination_country": "Switzerland",
+        "flight_number": "SK1902",
+        "airline_name": "SAS",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
         "local_departure_time": "18:40",
-        "local_arrival_time": "20:25",
-        "duration": "01:45"
+        "local_arrival_time": "19:45",
+        "duration": "01:05"
     },
     {
         "flight_number": "LH841",
-        "airline_name": "CityJet",
+        "airline_name": "Lufthansa",
         "destination_iata": "FRA",
         "destination_airport_name": "Frankfurt Airport",
         "destination_city": "Frankfurt",
         "destination_country": "Germany",
-        "local_departure_time": "18:40 / 18:45",
-        "local_arrival_time": "20:05 / 20:10",
+        "local_departure_time": "18:45",
+        "local_arrival_time": "20:10",
         "duration": "01:25"
     },
     {
-        "flight_number": "TK1488",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "19:05",
-        "local_arrival_time": "23:40",
-        "duration": "03:35"
-    },
-    {
         "flight_number": "D83534",
-        "airline_name": "Norwegian",
+        "airline_name": "Norwegian Air Sweden",
         "destination_iata": "LGW",
         "destination_airport_name": "London Gatwick Airport",
         "destination_city": "London",
@@ -429,14 +407,14 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "SK2498",
+        "flight_number": "SK1498",
         "airline_name": "SAS",
         "destination_iata": "ARN",
         "destination_airport_name": "Stockholm Arlanda Airport",
         "destination_city": "Stockholm",
         "destination_country": "Sweden",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "21:05",
+        "local_departure_time": "19:40",
+        "local_arrival_time": "21:00",
         "duration": "01:20"
     },
     {
@@ -462,6 +440,39 @@
         "duration": "01:35"
     },
     {
+        "flight_number": "4O2697",
+        "airline_name": "Air Montenegro",
+        "destination_iata": "TGD",
+        "destination_airport_name": "Podgorica Airport",
+        "destination_city": "Podgorica",
+        "destination_country": "Montenegro",
+        "local_departure_time": "20:15",
+        "local_arrival_time": "22:35",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "SK1288",
+        "airline_name": "SAS",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "21:05",
+        "local_arrival_time": "21:55",
+        "duration": "00:50"
+    },
+    {
+        "flight_number": "DY997",
+        "airline_name": "Norwegian",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "21:30",
+        "local_arrival_time": "22:40",
+        "duration": "01:10"
+    },
+    {
         "flight_number": "ED6809",
         "airline_name": "AirExplore",
         "destination_iata": "CGN",
@@ -482,16 +493,5 @@
         "local_departure_time": "22:08",
         "local_arrival_time": "23:53",
         "duration": "01:45"
-    },
-    {
-        "flight_number": "FI275",
-        "airline_name": "Icelandair",
-        "destination_iata": "KEF",
-        "destination_airport_name": "Keflavik International Airport",
-        "destination_city": "Reykjavik",
-        "destination_country": "Iceland",
-        "local_departure_time": "22:35",
-        "local_arrival_time": "23:35",
-        "duration": "03:00"
     }
 ]

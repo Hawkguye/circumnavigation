@@ -11,37 +11,26 @@
         "duration": "04:35"
     },
     {
-        "flight_number": "QR8650",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "HYD",
-        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
-        "destination_city": "Hyderabad",
-        "destination_country": "India",
-        "local_departure_time": "00:15",
-        "local_arrival_time": "06:55",
-        "duration": "04:10"
-    },
-    {
-        "flight_number": "QR8217",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "00:40",
-        "local_arrival_time": "07:00",
-        "duration": "07:20"
-    },
-    {
-        "flight_number": "QR8474",
+        "flight_number": "QR8430",
         "airline_name": "Qatar Airways",
         "destination_iata": "HKG",
         "destination_airport_name": "Hong Kong International Airport",
         "destination_city": "Hong Kong",
         "destination_country": "Hong Kong",
         "local_departure_time": "00:45",
-        "local_arrival_time": "14:30",
-        "duration": "08:45"
+        "local_arrival_time": "13:50",
+        "duration": "08:05"
+    },
+    {
+        "flight_number": "QR1174",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "MED",
+        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
+        "destination_city": "Medina",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "00:50",
+        "local_arrival_time": "03:15",
+        "duration": "02:25"
     },
     {
         "flight_number": "QR1184",
@@ -55,25 +44,14 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "QR8213",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "00:50",
-        "local_arrival_time": "05:50",
-        "duration": "06:00"
-    },
-    {
         "flight_number": "IB392",
         "airline_name": "Iberia",
         "destination_iata": "MAD",
         "destination_airport_name": "Madrid Barajas Airport",
         "destination_city": "Madrid",
         "destination_country": "Spain",
-        "local_departure_time": "00:50 / 01:50",
-        "local_arrival_time": "07:15 / 08:15",
+        "local_departure_time": "00:50",
+        "local_arrival_time": "07:15",
         "duration": "07:25"
     },
     {
@@ -88,6 +66,28 @@
         "duration": "07:30"
     },
     {
+        "flight_number": "QR490",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "IKA",
+        "destination_airport_name": "Tehran Imam Khomeini International Airport",
+        "destination_city": "Tehran",
+        "destination_country": "Iran",
+        "local_departure_time": "01:00",
+        "local_arrival_time": "03:35",
+        "duration": "02:05"
+    },
+    {
+        "flight_number": "QR1116",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "BAH",
+        "destination_airport_name": "Bahrain International Airport",
+        "destination_city": "Bahrain",
+        "destination_country": "Bahrain",
+        "local_departure_time": "01:00",
+        "local_arrival_time": "01:50",
+        "duration": "00:50"
+    },
+    {
         "flight_number": "QR1002",
         "airline_name": "Qatar Airways",
         "destination_iata": "DXB",
@@ -97,17 +97,6 @@
         "local_departure_time": "01:05",
         "local_arrival_time": "03:25",
         "duration": "01:20"
-    },
-    {
-        "flight_number": "QR640",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DAC",
-        "destination_airport_name": "Dhaka Shahjalal International Airport",
-        "destination_city": "Dhaka",
-        "destination_country": "Bangladesh",
-        "local_departure_time": "01:10",
-        "local_arrival_time": "09:25",
-        "duration": "05:15"
     },
     {
         "flight_number": "QR11",
@@ -154,15 +143,37 @@
         "duration": "07:15"
     },
     {
-        "flight_number": "QR1174",
+        "flight_number": "QR640",
         "airline_name": "Qatar Airways",
-        "destination_iata": "MED",
-        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
-        "destination_city": "Medina",
-        "destination_country": "Saudi Arabia",
+        "destination_iata": "DAC",
+        "destination_airport_name": "Dhaka Shahjalal International Airport",
+        "destination_city": "Dhaka",
+        "destination_country": "Bangladesh",
+        "local_departure_time": "01:10",
+        "local_arrival_time": "09:25",
+        "duration": "05:15"
+    },
+    {
+        "flight_number": null,
+        "airline_name": "Qatar Airways",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "01:10",
+        "local_arrival_time": "06:00 / 06:25",
+        "duration": "07:15"
+    },
+    {
+        "flight_number": "QR458",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "BGW",
+        "destination_airport_name": "Baghdad International Airport",
+        "destination_city": "Baghdad",
+        "destination_country": "Iraq",
         "local_departure_time": "01:15",
-        "local_arrival_time": "03:15",
-        "duration": "02:00"
+        "local_arrival_time": "03:20",
+        "duration": "02:05"
     },
     {
         "flight_number": "CZ334",
@@ -172,8 +183,8 @@
         "destination_city": "Guangzhou",
         "destination_country": "China",
         "local_departure_time": "01:15",
-        "local_arrival_time": "13:55",
-        "duration": "07:40"
+        "local_arrival_time": "14:05",
+        "duration": "07:50"
     },
     {
         "flight_number": "QR147",
@@ -198,26 +209,15 @@
         "duration": "14:25"
     },
     {
-        "flight_number": "CZ998",
-        "airline_name": "China Southern Airlines",
-        "destination_iata": "CAN",
-        "destination_airport_name": "Guangzhou Baiyun International Airport",
-        "destination_city": "Guangzhou",
-        "destination_country": "China",
-        "local_departure_time": "01:15",
-        "local_arrival_time": "13:25",
-        "duration": "07:10"
-    },
-    {
-        "flight_number": "QR458",
+        "flight_number": "QR731",
         "airline_name": "Qatar Airways",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "01:15",
-        "local_arrival_time": "03:20",
-        "duration": "02:05"
+        "destination_iata": "DFW",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States",
+        "local_departure_time": "01:20",
+        "local_arrival_time": "09:50",
+        "duration": "16:30"
     },
     {
         "flight_number": "QR1148",
@@ -229,6 +229,61 @@
         "local_departure_time": "01:20",
         "local_arrival_time": "03:55",
         "duration": "01:35"
+    },
+    {
+        "flight_number": "QR35",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "BHX",
+        "destination_airport_name": "Birmingham Airport",
+        "destination_city": "Birmingham",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "01:25",
+        "local_arrival_time": "06:40",
+        "duration": "07:15"
+    },
+    {
+        "flight_number": "QR41",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "01:25",
+        "local_arrival_time": "07:25",
+        "duration": "07:00"
+    },
+    {
+        "flight_number": "QR329",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "LGW",
+        "destination_airport_name": "London Gatwick Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "01:25",
+        "local_arrival_time": "06:40",
+        "duration": "07:15"
+    },
+    {
+        "flight_number": "QR781",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "MIA",
+        "destination_airport_name": "Miami International Airport",
+        "destination_city": "Miami",
+        "destination_country": "United States",
+        "local_departure_time": "01:25",
+        "local_arrival_time": "10:10",
+        "duration": "15:45"
+    },
+    {
+        "flight_number": "AA121",
+        "airline_name": "American Airlines",
+        "destination_iata": "PHL",
+        "destination_airport_name": "Philadelphia International Airport",
+        "destination_city": "Philadelphia",
+        "destination_country": "United States",
+        "local_departure_time": "01:25",
+        "local_arrival_time": "09:00",
+        "duration": "14:35"
     },
     {
         "flight_number": "BA126",
@@ -253,37 +308,15 @@
         "duration": "06:55"
     },
     {
-        "flight_number": "QR329",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "LGW",
-        "destination_airport_name": "London Gatwick Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "01:25",
-        "local_arrival_time": "06:40",
-        "duration": "07:15"
-    },
-    {
-        "flight_number": "QR35",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "BHX",
-        "destination_airport_name": "Birmingham Airport",
-        "destination_city": "Birmingham",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "01:25",
-        "local_arrival_time": "06:40",
-        "duration": "07:15"
-    },
-    {
-        "flight_number": "QR8472",
+        "flight_number": "QR8474",
         "airline_name": "Qatar Airways",
         "destination_iata": "HKG",
         "destination_airport_name": "Hong Kong International Airport",
         "destination_city": "Hong Kong",
         "destination_country": "Hong Kong",
         "local_departure_time": "01:25",
-        "local_arrival_time": "15:10",
-        "duration": "08:45"
+        "local_arrival_time": "14:30",
+        "duration": "08:05"
     },
     {
         "flight_number": "QR161",
@@ -308,6 +341,17 @@
         "duration": "04:35"
     },
     {
+        "flight_number": "QR779",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "GRU",
+        "destination_airport_name": "Sao Paulo Guarulhos International Airport",
+        "destination_city": "Sao Paulo",
+        "destination_country": "Brazil",
+        "local_departure_time": "01:30",
+        "local_arrival_time": "10:40",
+        "duration": "15:10"
+    },
+    {
         "flight_number": "PR685",
         "airline_name": "Philippine Airlines",
         "destination_iata": "MNL",
@@ -319,15 +363,15 @@
         "duration": "09:40"
     },
     {
-        "flight_number": "QR41",
+        "flight_number": "QR818",
         "airline_name": "Qatar Airways",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
         "local_departure_time": "01:35",
-        "local_arrival_time": "07:25",
-        "duration": "06:50"
+        "local_arrival_time": "15:10",
+        "duration": "08:35"
     },
     {
         "flight_number": "QR1335",
@@ -363,15 +407,37 @@
         "duration": "07:55"
     },
     {
-        "flight_number": "QR818",
+        "flight_number": "QR137",
         "airline_name": "Qatar Airways",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "01:35",
-        "local_arrival_time": "15:10",
-        "duration": "08:35"
+        "destination_iata": "BCN",
+        "destination_airport_name": "Barcelona El Prat Airport",
+        "destination_city": "Barcelona",
+        "destination_country": "Spain",
+        "local_departure_time": "01:40",
+        "local_arrival_time": "07:25",
+        "duration": "06:45"
+    },
+    {
+        "flight_number": "QR169",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "ARN",
+        "destination_airport_name": "Stockholm Arlanda Airport",
+        "destination_city": "Stockholm",
+        "destination_country": "Sweden",
+        "local_departure_time": "01:40",
+        "local_arrival_time": "07:20",
+        "duration": "06:40"
+    },
+    {
+        "flight_number": "QR195",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "BRU",
+        "destination_airport_name": "Brussels Airport",
+        "destination_city": "Brussels",
+        "destination_country": "Belgium",
+        "local_departure_time": "01:40",
+        "local_arrival_time": "07:25",
+        "duration": "06:45"
     },
     {
         "flight_number": "QR664",
@@ -396,15 +462,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "QR289",
+        "flight_number": "QR8470",
         "airline_name": "Qatar Airways",
-        "destination_iata": "PRG",
-        "destination_airport_name": "Prague Vaclav Havel Airport",
-        "destination_city": "Prague",
-        "destination_country": "Czechia",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
         "local_departure_time": "01:40",
-        "local_arrival_time": "07:00",
-        "duration": "06:20"
+        "local_arrival_time": "14:45",
+        "duration": "08:05"
     },
     {
         "flight_number": "VA16",
@@ -418,37 +484,15 @@
         "duration": "14:05"
     },
     {
-        "flight_number": "QR195",
+        "flight_number": "QR289",
         "airline_name": "Qatar Airways",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
+        "destination_iata": "PRG",
+        "destination_airport_name": "Prague Vaclav Havel Airport",
+        "destination_city": "Prague",
+        "destination_country": "Czechia",
         "local_departure_time": "01:40",
-        "local_arrival_time": "07:25",
-        "duration": "06:45"
-    },
-    {
-        "flight_number": "QR169",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "01:40",
-        "local_arrival_time": "07:20",
-        "duration": "06:40"
-    },
-    {
-        "flight_number": "QR8604",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "01:40",
-        "local_arrival_time": "07:50",
-        "duration": "03:40"
+        "local_arrival_time": "07:00",
+        "duration": "06:20"
     },
     {
         "flight_number": "H9364",
@@ -462,39 +506,6 @@
         "duration": "04:30"
     },
     {
-        "flight_number": "QR514",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "COK",
-        "destination_airport_name": "Cochin International Airport",
-        "destination_city": "Cochin",
-        "destination_country": "India",
-        "local_departure_time": "01:45",
-        "local_arrival_time": "08:45",
-        "duration": "04:30"
-    },
-    {
-        "flight_number": "MF846",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "PKX",
-        "destination_airport_name": "Beijing Daxing International Airport",
-        "destination_city": "Beijing",
-        "destination_country": "China",
-        "local_departure_time": "01:45",
-        "local_arrival_time": "14:25",
-        "duration": "07:40"
-    },
-    {
-        "flight_number": "QR137",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "BCN",
-        "destination_airport_name": "Barcelona El Prat Airport",
-        "destination_city": "Barcelona",
-        "destination_country": "Spain",
-        "local_departure_time": "01:45",
-        "local_arrival_time": "07:30",
-        "duration": "06:45"
-    },
-    {
         "flight_number": "QR802",
         "airline_name": "Qatar Airways",
         "destination_iata": "KIX",
@@ -504,6 +515,39 @@
         "local_departure_time": "01:45",
         "local_arrival_time": "17:25",
         "duration": "09:40"
+    },
+    {
+        "flight_number": "TK781",
+        "airline_name": "Turkish Airlines",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "01:45",
+        "local_arrival_time": "06:25",
+        "duration": "04:40"
+    },
+    {
+        "flight_number": "MF846",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "PKX",
+        "destination_airport_name": "Beijing Daxing International Airport",
+        "destination_city": "Beijing",
+        "destination_country": "China",
+        "local_departure_time": "01:45",
+        "local_arrival_time": "14:10",
+        "duration": "07:25"
+    },
+    {
+        "flight_number": "QR514",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "COK",
+        "destination_airport_name": "Cochin International Airport",
+        "destination_city": "Cochin",
+        "destination_country": "India",
+        "local_departure_time": "01:45",
+        "local_arrival_time": "08:45",
+        "duration": "04:30"
     },
     {
         "flight_number": "WB301",
@@ -517,26 +561,15 @@
         "duration": "06:10"
     },
     {
-        "flight_number": "QR781",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MIA",
-        "destination_airport_name": "Miami International Airport",
-        "destination_city": "Miami",
-        "destination_country": "United States",
-        "local_departure_time": "01:45",
-        "local_arrival_time": "10:10",
-        "duration": "15:25"
-    },
-    {
-        "flight_number": "AA121",
-        "airline_name": "American Airlines",
-        "destination_iata": "PHL",
-        "destination_airport_name": "Philadelphia International Airport",
-        "destination_city": "Philadelphia",
-        "destination_country": "United States",
+        "flight_number": "MH161",
+        "airline_name": "Malaysia Airlines",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
         "local_departure_time": "01:50",
-        "local_arrival_time": "09:05",
-        "duration": "14:15"
+        "local_arrival_time": "14:45",
+        "duration": "07:55"
     },
     {
         "flight_number": "PC601",
@@ -550,26 +583,15 @@
         "duration": "04:20"
     },
     {
-        "flight_number": "QR731",
+        "flight_number": "QR391",
         "airline_name": "Qatar Airways",
-        "destination_iata": "DFW",
-        "destination_airport_name": "Dallas Fort Worth International Airport",
-        "destination_city": "Dallas",
-        "destination_country": "United States",
+        "destination_iata": "ALA",
+        "destination_airport_name": "Almaty International Airport",
+        "destination_city": "Almaty",
+        "destination_country": "Kazakhstan",
         "local_departure_time": "01:50",
-        "local_arrival_time": "09:50",
-        "duration": "16:00"
-    },
-    {
-        "flight_number": "MH161",
-        "airline_name": "Malaysia Airlines",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "01:50",
-        "local_arrival_time": "14:45",
-        "duration": "07:55"
+        "local_arrival_time": "08:15",
+        "duration": "04:25"
     },
     {
         "flight_number": "QR676",
@@ -594,26 +616,15 @@
         "duration": "14:10"
     },
     {
-        "flight_number": "QR920",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "AKL",
-        "destination_airport_name": "Auckland Airport",
-        "destination_city": "Auckland",
-        "destination_country": "New Zealand",
+        "flight_number": "6E1318",
+        "airline_name": "IndiGo",
+        "destination_iata": "HYD",
+        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
+        "destination_city": "Hyderabad",
+        "destination_country": "India",
         "local_departure_time": "01:50",
-        "local_arrival_time": "02:45 (+1)",
-        "duration": "15:55"
-    },
-    {
-        "flight_number": "QR391",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "ALA",
-        "destination_airport_name": "Almaty International Airport",
-        "destination_city": "Almaty",
-        "destination_country": "Kazakhstan",
-        "local_departure_time": "01:50",
-        "local_arrival_time": "08:15",
-        "duration": "04:25"
+        "local_arrival_time": "08:40",
+        "duration": "04:20"
     },
     {
         "flight_number": "QR69",
@@ -638,6 +649,39 @@
         "duration": "01:35"
     },
     {
+        "flight_number": "QR107",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "01:55",
+        "local_arrival_time": "07:30",
+        "duration": "07:35"
+    },
+    {
+        "flight_number": "QR189",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "VIE",
+        "destination_airport_name": "Vienna International Airport",
+        "destination_city": "Vienna",
+        "destination_country": "Austria",
+        "local_departure_time": "01:55 / 02:25",
+        "local_arrival_time": "07:00",
+        "duration": "05:35"
+    },
+    {
+        "flight_number": "QR59",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "MUC",
+        "destination_airport_name": "Munich Airport",
+        "destination_city": "Munich",
+        "destination_country": "Germany",
+        "local_departure_time": "02:00",
+        "local_arrival_time": "07:00",
+        "duration": "06:00"
+    },
+    {
         "flight_number": "QR123",
         "airline_name": "Qatar Airways",
         "destination_iata": "MXP",
@@ -647,6 +691,28 @@
         "local_departure_time": "02:00",
         "local_arrival_time": "07:10",
         "duration": "06:10"
+    },
+    {
+        "flight_number": "QR215",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "ZAG",
+        "destination_airport_name": "Zagreb Franjo Tudman Airport",
+        "destination_city": "Zagreb",
+        "destination_country": "Croatia",
+        "local_departure_time": "02:00",
+        "local_arrival_time": "06:55",
+        "duration": "05:55"
+    },
+    {
+        "flight_number": "QR932",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "MNL",
+        "destination_airport_name": "Manila Ninoy Aquino International Airport",
+        "destination_city": "Manila",
+        "destination_country": "Philippines",
+        "local_departure_time": "02:00",
+        "local_arrival_time": "16:30",
+        "duration": "09:30"
     },
     {
         "flight_number": "QR970",
@@ -671,37 +737,15 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "QR59",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MUC",
-        "destination_airport_name": "Munich Airport",
-        "destination_city": "Munich",
-        "destination_country": "Germany",
-        "local_departure_time": "02:00",
-        "local_arrival_time": "07:00",
-        "duration": "06:00"
-    },
-    {
-        "flight_number": "QR932",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MNL",
-        "destination_airport_name": "Manila Ninoy Aquino International Airport",
-        "destination_city": "Manila",
-        "destination_country": "Philippines",
-        "local_departure_time": "02:00",
-        "local_arrival_time": "16:30",
-        "duration": "09:30"
-    },
-    {
-        "flight_number": "6E1318",
+        "flight_number": "6E1322",
         "airline_name": "IndiGo",
-        "destination_iata": "HYD",
-        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
-        "destination_city": "Hyderabad",
+        "destination_iata": "MAA",
+        "destination_airport_name": "Chennai International Airport",
+        "destination_city": "Chennai",
         "destination_country": "India",
         "local_departure_time": "02:00",
-        "local_arrival_time": "08:40",
-        "duration": "04:10"
+        "local_arrival_time": "09:10",
+        "duration": "04:40"
     },
     {
         "flight_number": "6E1342",
@@ -715,48 +759,15 @@
         "duration": "03:35"
     },
     {
-        "flight_number": "QR237",
+        "flight_number": "QR91",
         "airline_name": "Qatar Airways",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
+        "destination_iata": "HAM",
+        "destination_airport_name": "Hamburg Airport",
+        "destination_city": "Hamburg",
+        "destination_country": "Germany",
         "local_departure_time": "02:05",
-        "local_arrival_time": "06:20",
-        "duration": "04:15"
-    },
-    {
-        "flight_number": "QR381",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MLA",
-        "destination_airport_name": "Malta Luqa International Airport",
-        "destination_city": "Malta",
-        "destination_country": "Malta",
-        "local_departure_time": "02:05",
-        "local_arrival_time": "06:45",
-        "duration": "05:40"
-    },
-    {
-        "flight_number": "QR779",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "GRU",
-        "destination_airport_name": "Sao Paulo Guarulhos International Airport",
-        "destination_city": "Sao Paulo",
-        "destination_country": "Brazil",
-        "local_departure_time": "02:05",
-        "local_arrival_time": "10:40",
-        "duration": "14:35"
-    },
-    {
-        "flight_number": "QR1369",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CPT",
-        "destination_airport_name": "Cape Town International Airport",
-        "destination_city": "Cape Town",
-        "destination_country": "South Africa",
-        "local_departure_time": "02:05",
-        "local_arrival_time": "10:50",
-        "duration": "09:45"
+        "local_arrival_time": "07:25",
+        "duration": "06:20"
     },
     {
         "flight_number": "QR93",
@@ -781,26 +792,37 @@
         "duration": "06:50"
     },
     {
-        "flight_number": "QR91",
+        "flight_number": "QR1369",
         "airline_name": "Qatar Airways",
-        "destination_iata": "HAM",
-        "destination_airport_name": "Hamburg Airport",
-        "destination_city": "Hamburg",
-        "destination_country": "Germany",
+        "destination_iata": "CPT",
+        "destination_airport_name": "Cape Town International Airport",
+        "destination_city": "Cape Town",
+        "destination_country": "South Africa",
         "local_departure_time": "02:05",
-        "local_arrival_time": "07:25",
-        "duration": "06:20"
+        "local_arrival_time": "10:50",
+        "duration": "09:45"
     },
     {
-        "flight_number": "QR101",
+        "flight_number": "QR237",
         "airline_name": "Qatar Airways",
-        "destination_iata": "GVA",
-        "destination_airport_name": "Geneva International Airport",
-        "destination_city": "Geneva",
-        "destination_country": "Switzerland",
-        "local_departure_time": "02:10",
-        "local_arrival_time": "07:35",
-        "duration": "06:25"
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "02:05",
+        "local_arrival_time": "06:20",
+        "duration": "04:15"
+    },
+    {
+        "flight_number": "QR381",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "MLA",
+        "destination_airport_name": "Malta Luqa International Airport",
+        "destination_city": "Malta",
+        "destination_country": "Malta",
+        "local_departure_time": "02:05",
+        "local_arrival_time": "06:45",
+        "duration": "05:40"
     },
     {
         "flight_number": "QR892",
@@ -836,6 +858,17 @@
         "duration": "05:50"
     },
     {
+        "flight_number": "QR101",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "GVA",
+        "destination_airport_name": "Geneva International Airport",
+        "destination_city": "Geneva",
+        "destination_country": "Switzerland",
+        "local_departure_time": "02:10",
+        "local_arrival_time": "07:35",
+        "duration": "06:25"
+    },
+    {
         "flight_number": "QR614",
         "airline_name": "Qatar Airways",
         "destination_iata": "ISB",
@@ -845,39 +878,6 @@
         "local_departure_time": "02:15",
         "local_arrival_time": "07:40",
         "duration": "03:25"
-    },
-    {
-        "flight_number": "QR1040",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "02:15",
-        "local_arrival_time": "04:25",
-        "duration": "01:10"
-    },
-    {
-        "flight_number": "QR107",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "LHR",
-        "destination_airport_name": "London Heathrow Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "02:15",
-        "local_arrival_time": "07:30",
-        "duration": "07:15"
-    },
-    {
-        "flight_number": "QR880",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CKG",
-        "destination_airport_name": "Chongqing Jiangbei International Airport",
-        "destination_city": "Chongqing",
-        "destination_country": "China",
-        "local_departure_time": "02:15",
-        "local_arrival_time": "15:10",
-        "duration": "07:55"
     },
     {
         "flight_number": "QR870",
@@ -891,48 +891,15 @@
         "duration": "09:05"
     },
     {
-        "flight_number": "QR1116",
+        "flight_number": "QR1040",
         "airline_name": "Qatar Airways",
-        "destination_iata": "BAH",
-        "destination_airport_name": "Bahrain International Airport",
-        "destination_city": "Bahrain",
-        "destination_country": "Bahrain",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
         "local_departure_time": "02:15",
-        "local_arrival_time": "03:05",
-        "duration": "00:50"
-    },
-    {
-        "flight_number": "QR660",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CMB",
-        "destination_airport_name": "Colombo Bandaranaike International Airport",
-        "destination_city": "Colombo",
-        "destination_country": "Sri Lanka",
-        "local_departure_time": "02:20",
-        "local_arrival_time": "09:40",
-        "duration": "04:50"
-    },
-    {
-        "flight_number": "QR858",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "02:20",
-        "local_arrival_time": "17:05",
-        "duration": "08:45"
-    },
-    {
-        "flight_number": "QR890",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "HGH",
-        "destination_airport_name": "Hangzhou Xiaoshan International Airport",
-        "destination_city": "Hangzhou",
-        "destination_country": "China",
-        "local_departure_time": "02:20",
-        "local_arrival_time": "16:05",
-        "duration": "08:45"
+        "local_arrival_time": "04:25",
+        "duration": "01:10"
     },
     {
         "flight_number": "QR79",
@@ -946,15 +913,81 @@
         "duration": "06:05"
     },
     {
-        "flight_number": "QR8081",
+        "flight_number": "QR87",
         "airline_name": "Qatar Airways",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
+        "destination_iata": "DUS",
+        "destination_airport_name": "Dusseldorf Airport",
+        "destination_city": "Dusseldorf",
+        "destination_country": "Germany",
         "local_departure_time": "02:20",
-        "local_arrival_time": "08:40",
-        "duration": "07:20"
+        "local_arrival_time": "07:50",
+        "duration": "06:30"
+    },
+    {
+        "flight_number": "QR628",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "LHE",
+        "destination_airport_name": "Lahore Allama Iqbal International Airport",
+        "destination_city": "Lahore",
+        "destination_country": "Pakistan",
+        "local_departure_time": "02:20",
+        "local_arrival_time": "07:50",
+        "duration": "03:30"
+    },
+    {
+        "flight_number": "QR858",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
+        "local_departure_time": "02:20",
+        "local_arrival_time": "17:05",
+        "duration": "08:45"
+    },
+    {
+        "flight_number": "QR860",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "TFU",
+        "destination_airport_name": "Chengdu Tianfu International Airport",
+        "destination_city": "Chengdu",
+        "destination_country": "China",
+        "local_departure_time": "02:20",
+        "local_arrival_time": "14:55",
+        "duration": "07:35"
+    },
+    {
+        "flight_number": "QR8548",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "MFM",
+        "destination_airport_name": "Macau International Airport",
+        "destination_city": "Macau",
+        "destination_country": "Macao",
+        "local_departure_time": "02:20",
+        "local_arrival_time": "15:20",
+        "duration": "08:00"
+    },
+    {
+        "flight_number": "QR890",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "HGH",
+        "destination_airport_name": "Hangzhou Xiaoshan International Airport",
+        "destination_city": "Hangzhou",
+        "destination_country": "China",
+        "local_departure_time": "02:20",
+        "local_arrival_time": "16:05",
+        "duration": "08:45"
+    },
+    {
+        "flight_number": "QR920",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "AKL",
+        "destination_airport_name": "Auckland Airport",
+        "destination_city": "Auckland",
+        "destination_country": "New Zealand",
+        "local_departure_time": "02:20 / 02:50",
+        "local_arrival_time": "04:15 (+1) / 04:45 (+1)",
+        "duration": "15:55"
     },
     {
         "flight_number": "GA901",
@@ -968,26 +1001,15 @@
         "duration": "08:35"
     },
     {
-        "flight_number": "QR189",
+        "flight_number": "QR570",
         "airline_name": "Qatar Airways",
-        "destination_iata": "VIE",
-        "destination_airport_name": "Vienna International Airport",
-        "destination_city": "Vienna",
-        "destination_country": "Austria",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
         "local_departure_time": "02:25",
-        "local_arrival_time": "07:00",
-        "duration": "05:35"
-    },
-    {
-        "flight_number": "QR263",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "WAW",
-        "destination_airport_name": "Warsaw Chopin Airport",
-        "destination_city": "Warsaw",
-        "destination_country": "Poland",
-        "local_departure_time": "02:25",
-        "local_arrival_time": "07:35",
-        "duration": "06:10"
+        "local_arrival_time": "08:45",
+        "duration": "03:50"
     },
     {
         "flight_number": "QR874",
@@ -1012,15 +1034,26 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "QR570",
+        "flight_number": "QR1960",
         "airline_name": "Qatar Airways",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
-        "destination_country": "India",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
         "local_departure_time": "02:25",
-        "local_arrival_time": "08:45",
-        "duration": "03:50"
+        "local_arrival_time": "04:00",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "QR880",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CKG",
+        "destination_airport_name": "Chongqing Jiangbei International Airport",
+        "destination_city": "Chongqing",
+        "destination_country": "China",
+        "local_departure_time": "02:25",
+        "local_arrival_time": "15:10",
+        "duration": "07:45"
     },
     {
         "flight_number": "QR201",
@@ -1034,28 +1067,6 @@
         "duration": "05:35"
     },
     {
-        "flight_number": "QR211",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
-        "local_departure_time": "02:30",
-        "local_arrival_time": "07:00",
-        "duration": "04:30"
-    },
-    {
-        "flight_number": "QR628",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "LHE",
-        "destination_airport_name": "Lahore Allama Iqbal International Airport",
-        "destination_city": "Lahore",
-        "destination_country": "Pakistan",
-        "local_departure_time": "02:30",
-        "local_arrival_time": "08:00",
-        "duration": "03:30"
-    },
-    {
         "flight_number": "QR115",
         "airline_name": "Qatar Airways",
         "destination_iata": "FCO",
@@ -1065,17 +1076,6 @@
         "local_departure_time": "02:35",
         "local_arrival_time": "07:25",
         "duration": "05:50"
-    },
-    {
-        "flight_number": "QR948",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "02:35",
-        "local_arrival_time": "15:45",
-        "duration": "08:10"
     },
     {
         "flight_number": "QR836",
@@ -1111,15 +1111,15 @@
         "duration": "11:05"
     },
     {
-        "flight_number": "QR25",
+        "flight_number": "QR8217",
         "airline_name": "Qatar Airways",
-        "destination_iata": "MAN",
-        "destination_airport_name": "Manchester Airport",
-        "destination_city": "Manchester",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "02:40",
-        "local_arrival_time": "08:00",
-        "duration": "07:20"
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
+        "local_departure_time": "02:35",
+        "local_arrival_time": "09:05",
+        "duration": "07:30"
     },
     {
         "flight_number": "QR610",
@@ -1133,6 +1133,17 @@
         "duration": "02:35"
     },
     {
+        "flight_number": "QR948",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "02:40",
+        "local_arrival_time": "15:45",
+        "duration": "08:05"
+    },
+    {
         "flight_number": "QR956",
         "airline_name": "Qatar Airways",
         "destination_iata": "CGK",
@@ -1144,26 +1155,26 @@
         "duration": "08:55"
     },
     {
+        "flight_number": "QR25",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "MAN",
+        "destination_airport_name": "Manchester Airport",
+        "destination_city": "Manchester",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "02:40",
+        "local_arrival_time": "08:00",
+        "duration": "07:20"
+    },
+    {
         "flight_number": "QR976",
         "airline_name": "Qatar Airways",
         "destination_iata": "HAN",
         "destination_airport_name": "Hanoi Noi Bai International Airport",
         "destination_city": "Hanoi",
         "destination_country": "Vietnam",
-        "local_departure_time": "02:40",
-        "local_arrival_time": "13:55",
+        "local_departure_time": "02:40 / 02:45",
+        "local_arrival_time": "13:55 / 14:00",
         "duration": "07:15"
-    },
-    {
-        "flight_number": "RA240",
-        "airline_name": "Nepal Airlines",
-        "destination_iata": "KTM",
-        "destination_airport_name": "Kathmandu Tribhuvan International Airport",
-        "destination_city": "Kathmandu",
-        "destination_country": "Nepal",
-        "local_departure_time": "02:45",
-        "local_arrival_time": "10:10",
-        "duration": "04:40"
     },
     {
         "flight_number": "QR806",
@@ -1195,19 +1206,96 @@
         "destination_city": "Melbourne",
         "destination_country": "Australia",
         "local_departure_time": "02:45",
-        "local_arrival_time": "23:10",
+        "local_arrival_time": "00:10 (+1)",
         "duration": "13:25"
     },
     {
-        "flight_number": "ME435",
-        "airline_name": "MEA",
-        "destination_iata": "BEY",
-        "destination_airport_name": "Beirut Rafic Hariri International Airport",
-        "destination_city": "Beirut",
-        "destination_country": "Lebanon",
+        "flight_number": "RA240",
+        "airline_name": "Nepal Airlines",
+        "destination_iata": "KTM",
+        "destination_airport_name": "Kathmandu Tribhuvan International Airport",
+        "destination_city": "Kathmandu",
+        "destination_country": "Nepal",
+        "local_departure_time": "02:45",
+        "local_arrival_time": "10:10",
+        "duration": "04:40"
+    },
+    {
+        "flight_number": "QR219",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "OTP",
+        "destination_airport_name": "Bucharest Henri Coanda International Airport",
+        "destination_city": "Bucharest",
+        "destination_country": "Romania",
         "local_departure_time": "02:50",
-        "local_arrival_time": "05:45",
-        "duration": "02:55"
+        "local_arrival_time": "07:45",
+        "duration": "04:55"
+    },
+    {
+        "flight_number": "QR263",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "WAW",
+        "destination_airport_name": "Warsaw Chopin Airport",
+        "destination_city": "Warsaw",
+        "destination_country": "Poland",
+        "local_departure_time": "02:55",
+        "local_arrival_time": "07:35",
+        "duration": "05:40"
+    },
+    {
+        "flight_number": "QR650",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "KTM",
+        "destination_airport_name": "Kathmandu Tribhuvan International Airport",
+        "destination_city": "Kathmandu",
+        "destination_country": "Nepal",
+        "local_departure_time": "02:55",
+        "local_arrival_time": "10:15",
+        "duration": "04:35"
+    },
+    {
+        "flight_number": "QR936",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CEB",
+        "destination_airport_name": "Cebu Mactan International Airport",
+        "destination_city": "Cebu",
+        "destination_country": "Philippines",
+        "local_departure_time": "02:55",
+        "local_arrival_time": "17:25",
+        "duration": "09:30"
+    },
+    {
+        "flight_number": "QR8174",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "GRU",
+        "destination_airport_name": "Sao Paulo Guarulhos International Airport",
+        "destination_city": "Sao Paulo",
+        "destination_country": "Brazil",
+        "local_departure_time": "02:55",
+        "local_arrival_time": "11:55",
+        "duration": "15:00"
+    },
+    {
+        "flight_number": "QR670",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "MLE",
+        "destination_airport_name": "Male Velana International Airport",
+        "destination_city": "Male",
+        "destination_country": "Maldives",
+        "local_departure_time": "03:05",
+        "local_arrival_time": "09:40",
+        "duration": "04:35"
+    },
+    {
+        "flight_number": "QR1160",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "03:05",
+        "local_arrival_time": "04:40",
+        "duration": "01:35"
     },
     {
         "flight_number": "ET433",
@@ -1221,17 +1309,6 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "QR8404",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "03:25",
-        "local_arrival_time": "17:10",
-        "duration": "08:45"
-    },
-    {
         "flight_number": "QR8209",
         "airline_name": "Qatar Airways",
         "destination_iata": "PRG",
@@ -1241,6 +1318,17 @@
         "local_departure_time": "03:30",
         "local_arrival_time": "08:15",
         "duration": "05:45"
+    },
+    {
+        "flight_number": "WY668",
+        "airline_name": "Oman Air",
+        "destination_iata": "MCT",
+        "destination_airport_name": "Muscat International Airport",
+        "destination_city": "Muscat",
+        "destination_country": "Oman",
+        "local_departure_time": "03:40",
+        "local_arrival_time": "06:10",
+        "duration": "01:30"
     },
     {
         "flight_number": "IX426",
@@ -1254,17 +1342,6 @@
         "duration": "04:35"
     },
     {
-        "flight_number": "QR920",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "AKL",
-        "destination_airport_name": "Auckland Airport",
-        "destination_city": "Auckland",
-        "destination_country": "New Zealand",
-        "local_departure_time": "03:50",
-        "local_arrival_time": "04:45 (+1)",
-        "duration": "15:55"
-    },
-    {
         "flight_number": "G982",
         "airline_name": "Air Arabia",
         "destination_iata": "SHJ",
@@ -1276,28 +1353,6 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "QR8201",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "AMS",
-        "destination_airport_name": "Amsterdam Schiphol Airport",
-        "destination_city": "Amsterdam",
-        "destination_country": "Netherlands",
-        "local_departure_time": "04:00",
-        "local_arrival_time": "09:45",
-        "duration": "06:45"
-    },
-    {
-        "flight_number": "MH6125",
-        "airline_name": "Malaysia Airlines",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "04:05",
-        "local_arrival_time": "16:55",
-        "duration": "07:50"
-    },
-    {
         "flight_number": "PK280",
         "airline_name": "Pakistan International Airlines",
         "destination_iata": "LHE",
@@ -1305,19 +1360,19 @@
         "destination_city": "Lahore",
         "destination_country": "Pakistan",
         "local_departure_time": "04:05",
-        "local_arrival_time": "09:40",
-        "duration": "03:35"
+        "local_arrival_time": "09:30",
+        "duration": "03:25"
     },
     {
-        "flight_number": "QR8024",
+        "flight_number": "QR8201",
         "airline_name": "Qatar Airways",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
         "local_departure_time": "04:10",
-        "local_arrival_time": "17:55",
-        "duration": "08:45"
+        "local_arrival_time": "10:10",
+        "duration": "07:00"
     },
     {
         "flight_number": "MS938",
@@ -1331,6 +1386,17 @@
         "duration": "03:10"
     },
     {
+        "flight_number": "QR8680",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "KHI",
+        "destination_airport_name": "Karachi Jinnah International Airport",
+        "destination_city": "Karachi",
+        "destination_country": "Pakistan",
+        "local_departure_time": "04:25",
+        "local_arrival_time": "08:55",
+        "duration": "02:30"
+    },
+    {
         "flight_number": "EY664",
         "airline_name": "Etihad Airways",
         "destination_iata": "AUH",
@@ -1342,26 +1408,48 @@
         "duration": "01:00"
     },
     {
+        "flight_number": "QR8404",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "04:35",
+        "local_arrival_time": "17:40",
+        "duration": "08:05"
+    },
+    {
+        "flight_number": "MH6125",
+        "airline_name": "Malaysia Airlines",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "04:35",
+        "local_arrival_time": "17:25",
+        "duration": "07:50"
+    },
+    {
         "flight_number": "GF521",
         "airline_name": "Gulf Air",
         "destination_iata": "BAH",
         "destination_airport_name": "Bahrain International Airport",
         "destination_city": "Bahrain",
         "destination_country": "Bahrain",
-        "local_departure_time": "05:15",
-        "local_arrival_time": "06:05",
+        "local_departure_time": "05:25",
+        "local_arrival_time": "06:15",
         "duration": "00:50"
     },
     {
-        "flight_number": "QR8728",
+        "flight_number": "QR8592",
         "airline_name": "Qatar Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "05:30",
-        "local_arrival_time": "07:00",
-        "duration": "01:30"
+        "destination_iata": "LHE",
+        "destination_airport_name": "Lahore Allama Iqbal International Airport",
+        "destination_city": "Lahore",
+        "destination_country": "Pakistan",
+        "local_departure_time": "05:25",
+        "local_arrival_time": "11:00",
+        "duration": "03:35"
     },
     {
         "flight_number": "TK783",
@@ -1375,6 +1463,28 @@
         "duration": "04:30"
     },
     {
+        "flight_number": "QR8912",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "MFM",
+        "destination_airport_name": "Macau International Airport",
+        "destination_city": "Macau",
+        "destination_country": "Macao",
+        "local_departure_time": "06:20",
+        "local_arrival_time": "19:20",
+        "duration": "08:00"
+    },
+    {
+        "flight_number": "QR8728",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "06:25",
+        "local_arrival_time": "07:55",
+        "duration": "01:30"
+    },
+    {
         "flight_number": "RJ651",
         "airline_name": "Royal Jordanian",
         "destination_iata": "AMM",
@@ -1382,19 +1492,19 @@
         "destination_city": "Amman",
         "destination_country": "Jordan",
         "local_departure_time": "06:25",
-        "local_arrival_time": "09:30",
+        "local_arrival_time": "09:25 / 09:30",
         "duration": "03:05"
     },
     {
-        "flight_number": "QR8255",
+        "flight_number": "QR8024",
         "airline_name": "Qatar Airways",
-        "destination_iata": "PRG",
-        "destination_airport_name": "Prague Vaclav Havel Airport",
-        "destination_city": "Prague",
-        "destination_country": "Czechia",
-        "local_departure_time": "07:05",
-        "local_arrival_time": "11:50",
-        "duration": "05:45"
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "07:00",
+        "local_arrival_time": "20:05",
+        "duration": "08:05"
     },
     {
         "flight_number": "QR8207",
@@ -1403,9 +1513,20 @@
         "destination_airport_name": "Amsterdam Schiphol Airport",
         "destination_city": "Amsterdam",
         "destination_country": "Netherlands",
-        "local_departure_time": "07:15",
+        "local_departure_time": "07:00",
         "local_arrival_time": "13:00",
-        "duration": "06:45"
+        "duration": "07:00"
+    },
+    {
+        "flight_number": "QR1178",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "MED",
+        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
+        "destination_city": "Medina",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "07:20",
+        "local_arrival_time": "09:45",
+        "duration": "02:25"
     },
     {
         "flight_number": "QR231",
@@ -1419,15 +1540,15 @@
         "duration": "05:20"
     },
     {
-        "flight_number": "QR8720",
+        "flight_number": "QR8728",
         "airline_name": "Qatar Airways",
-        "destination_iata": "DMM",
-        "destination_airport_name": "Dammam King Fahd International Airport",
-        "destination_city": "Dammam",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "07:25",
-        "local_arrival_time": "08:25",
-        "duration": "01:00"
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "09:00",
+        "duration": "01:30"
     },
     {
         "flight_number": "QR1190",
@@ -1441,8 +1562,19 @@
         "duration": "02:30"
     },
     {
+        "flight_number": "QR8704",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "LOS",
+        "destination_airport_name": "Lagos Murtala Mohammed Airport",
+        "destination_city": "Lagos",
+        "destination_country": "Nigeria",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "13:20",
+        "duration": "07:50"
+    },
+    {
         "flight_number": "JL50",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
@@ -1450,6 +1582,17 @@
         "local_departure_time": "07:30",
         "local_arrival_time": "23:55",
         "duration": "10:25"
+    },
+    {
+        "flight_number": "QR3072",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "ADB",
+        "destination_airport_name": "Izmir Adnan Menderes International Airport",
+        "destination_city": "Izmir",
+        "destination_country": "Turkey",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "11:45",
+        "duration": "04:15"
     },
     {
         "flight_number": "QR227",
@@ -1461,17 +1604,6 @@
         "local_departure_time": "07:35",
         "local_arrival_time": "12:30",
         "duration": "04:55"
-    },
-    {
-        "flight_number": "QR1178",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MED",
-        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
-        "destination_city": "Medina",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "07:35",
-        "local_arrival_time": "09:45",
-        "duration": "02:10"
     },
     {
         "flight_number": "QR239",
@@ -1496,28 +1628,6 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "QR944",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "07:45",
-        "local_arrival_time": "21:00",
-        "duration": "08:15"
-    },
-    {
-        "flight_number": "AY1982",
-        "airline_name": "Finnair",
-        "destination_iata": "HEL",
-        "destination_airport_name": "Helsinki Vantaa Airport",
-        "destination_city": "Helsinki",
-        "destination_country": "Finland",
-        "local_departure_time": "07:45",
-        "local_arrival_time": "15:15",
-        "duration": "07:30"
-    },
-    {
         "flight_number": "QR241",
         "airline_name": "Qatar Airways",
         "destination_iata": "SAW",
@@ -1527,6 +1637,17 @@
         "local_departure_time": "07:45",
         "local_arrival_time": "12:10",
         "duration": "04:25"
+    },
+    {
+        "flight_number": "QR725",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "ORD",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States",
+        "local_departure_time": "07:45",
+        "local_arrival_time": "14:50",
+        "duration": "15:05"
     },
     {
         "flight_number": "QR1405",
@@ -1540,26 +1661,15 @@
         "duration": "07:50"
     },
     {
-        "flight_number": "QR846",
+        "flight_number": "QR149",
         "airline_name": "Qatar Airways",
-        "destination_iata": "HKT",
-        "destination_airport_name": "Phuket International Airport",
-        "destination_city": "Phuket",
-        "destination_country": "Thailand",
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
         "local_departure_time": "07:50",
-        "local_arrival_time": "18:50",
-        "duration": "07:00"
-    },
-    {
-        "flight_number": "QR928",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MNL",
-        "destination_airport_name": "Manila Ninoy Aquino International Airport",
-        "destination_city": "Manila",
-        "destination_country": "Philippines",
-        "local_departure_time": "07:50",
-        "local_arrival_time": "22:20",
-        "duration": "09:30"
+        "local_arrival_time": "14:10",
+        "duration": "07:20"
     },
     {
         "flight_number": "QR674",
@@ -1628,15 +1738,15 @@
         "duration": "07:20"
     },
     {
-        "flight_number": "QR317",
+        "flight_number": "QR273",
         "airline_name": "Qatar Airways",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
         "local_departure_time": "07:55",
-        "local_arrival_time": "12:10",
-        "duration": "04:15"
+        "local_arrival_time": "13:55",
+        "duration": "07:00"
     },
     {
         "flight_number": "QR713",
@@ -1650,17 +1760,6 @@
         "duration": "15:55"
     },
     {
-        "flight_number": "QR1006",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "07:55",
-        "local_arrival_time": "10:15",
-        "duration": "01:20"
-    },
-    {
         "flight_number": "QR755",
         "airline_name": "Qatar Airways",
         "destination_iata": "ATL",
@@ -1672,15 +1771,37 @@
         "duration": "15:00"
     },
     {
-        "flight_number": "QR739",
+        "flight_number": "QR944",
         "airline_name": "Qatar Airways",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "14:00",
-        "duration": "16:00"
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "07:55",
+        "local_arrival_time": "21:00",
+        "duration": "08:05"
+    },
+    {
+        "flight_number": "QR1006",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "07:55",
+        "local_arrival_time": "10:15",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "BA122",
+        "airline_name": "British Airways",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "07:55",
+        "local_arrival_time": "13:20",
+        "duration": "07:25"
     },
     {
         "flight_number": "QR3",
@@ -1705,26 +1826,26 @@
         "duration": "14:10"
     },
     {
-        "flight_number": "QR149",
+        "flight_number": "QR739",
         "airline_name": "Qatar Airways",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "08:05",
-        "local_arrival_time": "14:10",
-        "duration": "07:05"
+        "destination_iata": "LAX",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "14:00",
+        "duration": "16:00"
     },
     {
-        "flight_number": "QR203",
+        "flight_number": "QR155",
         "airline_name": "Qatar Airways",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
-        "local_departure_time": "08:05",
-        "local_arrival_time": "12:35",
-        "duration": "04:30"
+        "destination_iata": "AGP",
+        "destination_airport_name": "Malaga Costa Del Sol Airport",
+        "destination_city": "Malaga",
+        "destination_country": "Spain",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "14:35",
+        "duration": "07:35"
     },
     {
         "flight_number": "MH165",
@@ -1738,6 +1859,17 @@
         "duration": "07:50"
     },
     {
+        "flight_number": "QR203",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "ATH",
+        "destination_airport_name": "Athens Eleftherios Venizelos",
+        "destination_city": "Athens",
+        "destination_country": "Greece",
+        "local_departure_time": "08:05",
+        "local_arrival_time": "12:35",
+        "duration": "04:30"
+    },
+    {
         "flight_number": "QR719",
         "airline_name": "Qatar Airways",
         "destination_iata": "SEA",
@@ -1747,6 +1879,17 @@
         "local_departure_time": "08:05",
         "local_arrival_time": "12:45",
         "duration": "14:40"
+    },
+    {
+        "flight_number": "QR773",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "GRU",
+        "destination_airport_name": "Sao Paulo Guarulhos International Airport",
+        "destination_city": "Sao Paulo",
+        "destination_country": "Brazil",
+        "local_departure_time": "08:05",
+        "local_arrival_time": "17:15",
+        "duration": "15:10"
     },
     {
         "flight_number": "QR777",
@@ -1760,15 +1903,26 @@
         "duration": "15:45"
     },
     {
-        "flight_number": "QR444",
+        "flight_number": "QR1379",
         "airline_name": "Qatar Airways",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
+        "destination_iata": "ALG",
+        "destination_airport_name": "Algiers Houari Boumediene Airport",
+        "destination_city": "Algiers",
+        "destination_country": "Algeria",
+        "local_departure_time": "08:05",
+        "local_arrival_time": "12:55",
+        "duration": "06:50"
+    },
+    {
+        "flight_number": "AY1982",
+        "airline_name": "Finnair",
+        "destination_iata": "HEL",
+        "destination_airport_name": "Helsinki Vantaa Airport",
+        "destination_city": "Helsinki",
+        "destination_country": "Finland",
         "local_departure_time": "08:10",
-        "local_arrival_time": "10:15",
-        "duration": "02:05"
+        "local_arrival_time": "15:15",
+        "duration": "07:05"
     },
     {
         "flight_number": "QR29",
@@ -1793,6 +1947,17 @@
         "duration": "07:15"
     },
     {
+        "flight_number": "QR444",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "BGW",
+        "destination_airport_name": "Baghdad International Airport",
+        "destination_city": "Baghdad",
+        "destination_country": "Iraq",
+        "local_departure_time": "08:10",
+        "local_arrival_time": "10:15",
+        "duration": "02:05"
+    },
+    {
         "flight_number": "QR707",
         "airline_name": "Qatar Airways",
         "destination_iata": "IAD",
@@ -1815,32 +1980,32 @@
         "duration": "13:50"
     },
     {
-        "flight_number": "QR273",
+        "flight_number": "QR8103",
         "airline_name": "Qatar Airways",
-        "destination_iata": "AMS",
-        "destination_airport_name": "Amsterdam Schiphol Airport",
-        "destination_city": "Amsterdam",
-        "destination_country": "Netherlands",
-        "local_departure_time": "08:15",
-        "local_arrival_time": "13:55",
-        "duration": "06:40"
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "08:10",
+        "local_arrival_time": "14:05",
+        "duration": "06:55"
     },
     {
-        "flight_number": "QR828",
+        "flight_number": "QR39",
         "airline_name": "Qatar Airways",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
         "local_departure_time": "08:15",
-        "local_arrival_time": "19:20",
-        "duration": "07:05"
+        "local_arrival_time": "14:25",
+        "duration": "07:10"
     },
     {
         "flight_number": "QR85",
         "airline_name": "Qatar Airways",
         "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
+        "destination_airport_name": "Dusseldorf Airport",
         "destination_city": "Dusseldorf",
         "destination_country": "Germany",
         "local_departure_time": "08:15",
@@ -1859,15 +2024,26 @@
         "duration": "13:50"
     },
     {
-        "flight_number": "QR155",
+        "flight_number": "QR265",
         "airline_name": "Qatar Airways",
-        "destination_iata": "AGP",
-        "destination_airport_name": "Malaga Costa Del Sol Airport",
-        "destination_city": "Malaga",
-        "destination_country": "Spain",
+        "destination_iata": "LCA",
+        "destination_airport_name": "Larnaca International Airport",
+        "destination_city": "Larnaca",
+        "destination_country": "Cyprus",
+        "local_departure_time": "08:15 / 08:45",
+        "local_arrival_time": "11:35 / 12:05",
+        "duration": "03:20"
+    },
+    {
+        "flight_number": "QR255",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "TBS",
+        "destination_airport_name": "Tbilisi International Airport",
+        "destination_city": "Tbilisi",
+        "destination_country": "Georgia",
         "local_departure_time": "08:20",
-        "local_arrival_time": "14:35",
-        "duration": "07:15"
+        "local_arrival_time": "12:40",
+        "duration": "03:20"
     },
     {
         "flight_number": "QR313",
@@ -1881,15 +2057,15 @@
         "duration": "04:00"
     },
     {
-        "flight_number": "QR725",
+        "flight_number": "QR846",
         "airline_name": "Qatar Airways",
-        "destination_iata": "ORD",
-        "destination_airport_name": "Chicago O'Hare International Airport",
-        "destination_city": "Chicago",
-        "destination_country": "United States",
+        "destination_iata": "HKT",
+        "destination_airport_name": "Phuket International Airport",
+        "destination_city": "Phuket",
+        "destination_country": "Thailand",
         "local_departure_time": "08:20",
-        "local_arrival_time": "15:05",
-        "duration": "14:45"
+        "local_arrival_time": "18:50",
+        "duration": "06:30"
     },
     {
         "flight_number": "QR1150",
@@ -1914,17 +2090,6 @@
         "duration": "05:25"
     },
     {
-        "flight_number": "QR816",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "08:20",
-        "local_arrival_time": "21:45",
-        "duration": "08:25"
-    },
-    {
         "flight_number": "QR1389",
         "airline_name": "Qatar Airways",
         "destination_iata": "KGL",
@@ -1934,17 +2099,6 @@
         "local_departure_time": "08:20",
         "local_arrival_time": "13:30",
         "duration": "06:10"
-    },
-    {
-        "flight_number": "6E1314",
-        "airline_name": "IndiGo",
-        "destination_iata": "HYD",
-        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
-        "destination_city": "Hyderabad",
-        "destination_country": "India",
-        "local_departure_time": "08:25",
-        "local_arrival_time": "15:15",
-        "duration": "04:20"
     },
     {
         "flight_number": "QR416",
@@ -1958,15 +2112,26 @@
         "duration": "03:10"
     },
     {
-        "flight_number": "QR773",
+        "flight_number": "QR1395",
         "airline_name": "Qatar Airways",
-        "destination_iata": "GRU",
-        "destination_airport_name": "Sao Paulo Guarulhos International Airport",
-        "destination_city": "Sao Paulo",
-        "destination_country": "Brazil",
+        "destination_iata": "CMN",
+        "destination_airport_name": "Casablanca Mohammed V International Airport",
+        "destination_city": "Casablanca",
+        "destination_country": "Morocco",
         "local_departure_time": "08:25",
-        "local_arrival_time": "17:15",
-        "duration": "14:50"
+        "local_arrival_time": "14:20",
+        "duration": "07:55"
+    },
+    {
+        "flight_number": "6E1314",
+        "airline_name": "IndiGo",
+        "destination_iata": "HYD",
+        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
+        "destination_city": "Hyderabad",
+        "destination_country": "India",
+        "local_departure_time": "08:25",
+        "local_arrival_time": "15:15",
+        "duration": "04:20"
     },
     {
         "flight_number": "QR33",
@@ -1980,6 +2145,39 @@
         "duration": "07:15"
     },
     {
+        "flight_number": "CZ8060",
+        "airline_name": "China Southern Airlines",
+        "destination_iata": "PKX",
+        "destination_airport_name": "Beijing Daxing International Airport",
+        "destination_city": "Beijing",
+        "destination_country": "China",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "21:40",
+        "duration": "08:10"
+    },
+    {
+        "flight_number": "QR828",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "19:20",
+        "duration": "06:50"
+    },
+    {
+        "flight_number": "QR1303",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "12:10",
+        "duration": "03:40"
+    },
+    {
         "flight_number": "MF832",
         "airline_name": "Xiamen Air",
         "destination_iata": "XMN",
@@ -1989,17 +2187,6 @@
         "local_departure_time": "08:30",
         "local_arrival_time": "22:10",
         "duration": "08:40"
-    },
-    {
-        "flight_number": "QR8162",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "08:30",
-        "local_arrival_time": "13:50",
-        "duration": "06:20"
     },
     {
         "flight_number": "QR167",
@@ -2024,26 +2211,26 @@
         "duration": "13:15"
     },
     {
-        "flight_number": "6E1324",
-        "airline_name": "IndiGo",
-        "destination_iata": "COK",
-        "destination_airport_name": "Cochin International Airport",
-        "destination_city": "Cochin",
-        "destination_country": "India",
+        "flight_number": "G912",
+        "airline_name": "Air Arabia",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
         "local_departure_time": "08:35",
-        "local_arrival_time": "15:35",
-        "duration": "04:30"
+        "local_arrival_time": "10:40",
+        "duration": "01:05"
     },
     {
-        "flight_number": "QR39",
+        "flight_number": "QR7",
         "airline_name": "Qatar Airways",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
         "local_departure_time": "08:35",
-        "local_arrival_time": "14:25",
-        "duration": "06:50"
+        "local_arrival_time": "14:10",
+        "duration": "07:35"
     },
     {
         "flight_number": "QR175",
@@ -2057,37 +2244,37 @@
         "duration": "06:55"
     },
     {
-        "flight_number": "QR1379",
+        "flight_number": "QR928",
         "airline_name": "Qatar Airways",
-        "destination_iata": "ALG",
-        "destination_airport_name": "Algiers Houari Boumediene Airport",
-        "destination_city": "Algiers",
-        "destination_country": "Algeria",
+        "destination_iata": "MNL",
+        "destination_airport_name": "Manila Ninoy Aquino International Airport",
+        "destination_city": "Manila",
+        "destination_country": "Philippines",
         "local_departure_time": "08:35",
-        "local_arrival_time": "12:55",
-        "duration": "06:20"
+        "local_arrival_time": "22:20",
+        "duration": "08:45"
     },
     {
-        "flight_number": "6E1308",
+        "flight_number": "QR1345",
         "airline_name": "Qatar Airways",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
+        "destination_iata": "NBO",
+        "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
+        "destination_city": "Nairobi",
+        "destination_country": "Kenya",
+        "local_departure_time": "08:35",
+        "local_arrival_time": "13:40",
+        "duration": "05:05"
+    },
+    {
+        "flight_number": "6E1324",
+        "airline_name": "IndiGo",
+        "destination_iata": "COK",
+        "destination_airport_name": "Cochin International Airport",
+        "destination_city": "Cochin",
         "destination_country": "India",
-        "local_departure_time": "08:40",
-        "local_arrival_time": "15:00",
-        "duration": "03:50"
-    },
-    {
-        "flight_number": "QR353",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "GYD",
-        "destination_airport_name": "Baku Heydar Aliyev International Airport",
-        "destination_city": "Baku",
-        "destination_country": "Azerbaijan",
-        "local_departure_time": "08:40",
-        "local_arrival_time": "12:35",
-        "duration": "02:55"
+        "local_departure_time": "08:35",
+        "local_arrival_time": "15:35",
+        "duration": "04:30"
     },
     {
         "flight_number": "QR1170",
@@ -2101,26 +2288,48 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "QR159",
+        "flight_number": "QR1399",
         "airline_name": "Qatar Airways",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
+        "destination_iata": "TUN",
+        "destination_airport_name": "Tunis Carthage International Airport",
+        "destination_city": "Tunis",
+        "destination_country": "Tunisia",
         "local_departure_time": "08:40",
-        "local_arrival_time": "14:05",
-        "duration": "06:25"
+        "local_arrival_time": "13:10",
+        "duration": "06:30"
     },
     {
-        "flight_number": "QR265",
+        "flight_number": "6E1308",
+        "airline_name": "IndiGo",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "15:30",
+        "duration": "04:20"
+    },
+    {
+        "flight_number": "QR353",
         "airline_name": "Qatar Airways",
-        "destination_iata": "LCA",
-        "destination_airport_name": "Larnaca International Airport",
-        "destination_city": "Larnaca",
-        "destination_country": "Cyprus",
+        "destination_iata": "GYD",
+        "destination_airport_name": "Baku Heydar Aliyev International Airport",
+        "destination_city": "Baku",
+        "destination_country": "Azerbaijan",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "12:35",
+        "duration": "02:55"
+    },
+    {
+        "flight_number": "QR954",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CGK",
+        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
+        "destination_city": "Jakarta",
+        "destination_country": "Indonesia",
         "local_departure_time": "08:45",
-        "local_arrival_time": "12:05",
-        "duration": "03:20"
+        "local_arrival_time": "21:40",
+        "duration": "08:55"
     },
     {
         "flight_number": "QR1044",
@@ -2145,28 +2354,6 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "QR1395",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CMN",
-        "destination_airport_name": "Casablanca Mohammed V International Airport",
-        "destination_city": "Casablanca",
-        "destination_country": "Morocco",
-        "local_departure_time": "08:45",
-        "local_arrival_time": "14:20",
-        "duration": "07:35"
-    },
-    {
-        "flight_number": "QR954",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CGK",
-        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
-        "destination_city": "Jakarta",
-        "destination_country": "Indonesia",
-        "local_departure_time": "08:45",
-        "local_arrival_time": "21:40",
-        "duration": "08:55"
-    },
-    {
         "flight_number": "QR1377",
         "airline_name": "Qatar Airways",
         "destination_iata": "JNB",
@@ -2176,6 +2363,17 @@
         "local_departure_time": "08:45",
         "local_arrival_time": "16:10",
         "duration": "08:25"
+    },
+    {
+        "flight_number": "WB303",
+        "airline_name": "RwandAir",
+        "destination_iata": "KGL",
+        "destination_airport_name": "Kigali Airport",
+        "destination_city": "Kigali",
+        "destination_country": "Rwanda",
+        "local_departure_time": "08:45",
+        "local_arrival_time": "13:45",
+        "duration": "06:00"
     },
     {
         "flight_number": "QR55",
@@ -2222,48 +2420,15 @@
         "duration": "06:20"
     },
     {
-        "flight_number": "QR8428",
+        "flight_number": "QR8162",
         "airline_name": "Qatar Airways",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
+        "destination_iata": "FRA",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany",
         "local_departure_time": "08:50",
-        "local_arrival_time": "11:20",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "QR7",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "LHR",
-        "destination_airport_name": "London Heathrow Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "08:55",
         "local_arrival_time": "14:10",
-        "duration": "07:15"
-    },
-    {
-        "flight_number": "QR1126",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "08:55",
-        "local_arrival_time": "11:30",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "QR1303",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "08:55",
-        "local_arrival_time": "12:10",
-        "duration": "03:15"
+        "duration": "06:20"
     },
     {
         "flight_number": "QR81",
@@ -2275,6 +2440,17 @@
         "local_departure_time": "08:55",
         "local_arrival_time": "14:00",
         "duration": "06:05"
+    },
+    {
+        "flight_number": "QR99",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "GVA",
+        "destination_airport_name": "Geneva International Airport",
+        "destination_city": "Geneva",
+        "destination_country": "Switzerland",
+        "local_departure_time": "08:55",
+        "local_arrival_time": "14:20",
+        "duration": "06:25"
     },
     {
         "flight_number": "QR145",
@@ -2299,26 +2475,37 @@
         "duration": "06:45"
     },
     {
-        "flight_number": "QR832",
+        "flight_number": "QR1126",
         "airline_name": "Qatar Airways",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "19:50",
-        "duration": "06:50"
+        "destination_iata": "MCT",
+        "destination_airport_name": "Muscat International Airport",
+        "destination_city": "Muscat",
+        "destination_country": "Oman",
+        "local_departure_time": "08:55",
+        "local_arrival_time": "11:30",
+        "duration": "01:35"
     },
     {
-        "flight_number": "QR1102",
+        "flight_number": "QR125",
         "airline_name": "Qatar Airways",
-        "destination_iata": "BAH",
-        "destination_airport_name": "Bahrain International Airport",
-        "destination_city": "Bahrain",
-        "destination_country": "Bahrain",
+        "destination_iata": "VCE",
+        "destination_airport_name": "Venice Marco Polo Airport",
+        "destination_city": "Venice",
+        "destination_country": "Italy",
         "local_departure_time": "09:00",
-        "local_arrival_time": "09:50",
-        "duration": "00:50"
+        "local_arrival_time": "14:20",
+        "duration": "06:20"
+    },
+    {
+        "flight_number": "QR159",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "14:25",
+        "duration": "06:25"
     },
     {
         "flight_number": "QR183",
@@ -2332,15 +2519,37 @@
         "duration": "06:05"
     },
     {
-        "flight_number": "QR217",
+        "flight_number": "QR291",
         "airline_name": "Qatar Airways",
-        "destination_iata": "ZAG",
-        "destination_airport_name": "Zagreb Franjo Tudman Airport",
-        "destination_city": "Zagreb",
-        "destination_country": "Croatia",
-        "local_departure_time": "09:05",
-        "local_arrival_time": "14:00",
-        "duration": "05:55"
+        "destination_iata": "PRG",
+        "destination_airport_name": "Prague Vaclav Havel Airport",
+        "destination_city": "Prague",
+        "destination_country": "Czechia",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "14:20",
+        "duration": "06:20"
+    },
+    {
+        "flight_number": "QR816",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "21:45",
+        "duration": "07:45"
+    },
+    {
+        "flight_number": "QR1102",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "BAH",
+        "destination_airport_name": "Bahrain International Airport",
+        "destination_city": "Bahrain",
+        "destination_country": "Bahrain",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "09:50",
+        "duration": "00:50"
     },
     {
         "flight_number": "QR127",
@@ -2352,17 +2561,6 @@
         "local_departure_time": "09:05",
         "local_arrival_time": "14:15",
         "duration": "06:10"
-    },
-    {
-        "flight_number": "QR654",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CMB",
-        "destination_airport_name": "Colombo Bandaranaike International Airport",
-        "destination_city": "Colombo",
-        "destination_country": "Sri Lanka",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "16:50",
-        "duration": "05:10"
     },
     {
         "flight_number": "QR57",
@@ -2387,15 +2585,15 @@
         "duration": "06:10"
     },
     {
-        "flight_number": "QR646",
+        "flight_number": "VA2",
         "airline_name": "Qatar Airways",
-        "destination_iata": "KTM",
-        "destination_airport_name": "Kathmandu Tribhuvan International Airport",
-        "destination_city": "Kathmandu",
-        "destination_country": "Nepal",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
         "local_departure_time": "09:10",
-        "local_arrival_time": "16:45",
-        "duration": "04:50"
+        "local_arrival_time": "07:10 (+1)",
+        "duration": "14:00"
     },
     {
         "flight_number": "QR67",
@@ -2409,26 +2607,15 @@
         "duration": "06:20"
     },
     {
-        "flight_number": "VA2",
+        "flight_number": "QR199",
         "airline_name": "Qatar Airways",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
+        "destination_iata": "BUD",
+        "destination_airport_name": "Budapest Ferenc Liszt International Airport",
+        "destination_city": "Budapest",
+        "destination_country": "Hungary",
         "local_departure_time": "09:15",
-        "local_arrival_time": "06:15 (+1)",
-        "duration": "14:00"
-    },
-    {
-        "flight_number": "QR8070",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "09:15",
-        "local_arrival_time": "11:45",
-        "duration": "01:30"
+        "local_arrival_time": "13:50",
+        "duration": "05:35"
     },
     {
         "flight_number": "QR221",
@@ -2453,17 +2640,6 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "QR1399",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "TUN",
-        "destination_airport_name": "Tunis Carthage International Airport",
-        "destination_city": "Tunis",
-        "destination_country": "Tunisia",
-        "local_departure_time": "09:20",
-        "local_arrival_time": "13:10",
-        "duration": "05:50"
-    },
-    {
         "flight_number": "QR131",
         "airline_name": "Qatar Airways",
         "destination_iata": "FCO",
@@ -2475,15 +2651,15 @@
         "duration": "05:50"
     },
     {
-        "flight_number": "QR125",
+        "flight_number": "QR646",
         "airline_name": "Qatar Airways",
-        "destination_iata": "VCE",
-        "destination_airport_name": "Venice Marco Polo Airport",
-        "destination_city": "Venice",
-        "destination_country": "Italy",
-        "local_departure_time": "09:30",
-        "local_arrival_time": "14:20",
-        "duration": "05:50"
+        "destination_iata": "KTM",
+        "destination_airport_name": "Kathmandu Tribhuvan International Airport",
+        "destination_city": "Kathmandu",
+        "destination_country": "Nepal",
+        "local_departure_time": "09:25",
+        "local_arrival_time": "16:45",
+        "duration": "04:35"
     },
     {
         "flight_number": "QR43",
@@ -2497,6 +2673,17 @@
         "duration": "06:50"
     },
     {
+        "flight_number": "QR654",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CMB",
+        "destination_airport_name": "Colombo Bandaranaike International Airport",
+        "destination_city": "Colombo",
+        "destination_country": "Sri Lanka",
+        "local_departure_time": "09:30",
+        "local_arrival_time": "16:50",
+        "duration": "04:50"
+    },
+    {
         "flight_number": "QR1489",
         "airline_name": "Qatar Airways",
         "destination_iata": "LAD",
@@ -2508,37 +2695,26 @@
         "duration": "07:45"
     },
     {
-        "flight_number": "QR8980",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "09:35",
-        "local_arrival_time": "00:15 (+1)",
-        "duration": "08:40"
-    },
-    {
-        "flight_number": "QR339",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "09:50",
-        "local_arrival_time": "15:20",
-        "duration": "05:30"
-    },
-    {
         "flight_number": "QR402",
         "airline_name": "Qatar Airways",
         "destination_iata": "AMM",
         "destination_airport_name": "Amman Queen Alia International Airport",
         "destination_city": "Amman",
         "destination_country": "Jordan",
-        "local_departure_time": "09:50",
+        "local_departure_time": "09:35",
         "local_arrival_time": "12:30",
-        "duration": "02:40"
+        "duration": "02:55"
+    },
+    {
+        "flight_number": "QR8984",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
+        "local_departure_time": "09:45",
+        "local_arrival_time": "00:35 (+1)",
+        "duration": "08:50"
     },
     {
         "flight_number": "G9136",
@@ -2552,15 +2728,15 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "C63342",
-        "airline_name": "My Freighter",
-        "destination_iata": "TAS",
-        "destination_airport_name": "Tashkent International Airport",
-        "destination_city": "Tashkent",
-        "destination_country": "Uzbekistan",
+        "flight_number": "QR1383",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "EBB",
+        "destination_airport_name": "Entebbe International Airport",
+        "destination_city": "Entebbe",
+        "destination_country": "Uganda",
         "local_departure_time": "10:00",
-        "local_arrival_time": "15:20",
-        "duration": "03:20"
+        "local_arrival_time": "15:30",
+        "duration": "05:30"
     },
     {
         "flight_number": "FZ2",
@@ -2574,70 +2750,48 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "QR1383",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "EBB",
-        "destination_airport_name": "Entebbe International Airport",
-        "destination_city": "Entebbe",
-        "destination_country": "Uganda",
+        "flight_number": "MH6124",
+        "airline_name": "Malaysia Airlines",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
         "local_departure_time": "10:00",
-        "local_arrival_time": "15:30",
+        "local_arrival_time": "16:40",
+        "duration": "07:40"
+    },
+    {
+        "flight_number": "QR339",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "SVO",
+        "destination_airport_name": "Moscow Sheremetyevo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "10:05",
+        "local_arrival_time": "15:35",
         "duration": "05:30"
     },
     {
-        "flight_number": "QR8402",
+        "flight_number": "QR644",
         "airline_name": "Qatar Airways",
-        "destination_iata": "IKA",
-        "destination_airport_name": "Tehran Imam Khomeini International Airport",
-        "destination_city": "Tehran",
-        "destination_country": "Iran",
-        "local_departure_time": "10:05",
-        "local_arrival_time": "12:35",
-        "duration": "02:00"
-    },
-    {
-        "flight_number": "QR8251",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "10:15",
-        "local_arrival_time": "16:00",
-        "duration": "06:45"
-    },
-    {
-        "flight_number": "QR8243",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "BUD",
-        "destination_airport_name": "Budapest Ferenc Liszt International Airport",
-        "destination_city": "Budapest",
-        "destination_country": "Hungary",
-        "local_departure_time": "10:20",
-        "local_arrival_time": "14:30",
-        "duration": "05:10"
-    },
-    {
-        "flight_number": "AH4079",
-        "airline_name": "Air Algerie",
-        "destination_iata": "ALG",
-        "destination_airport_name": "Algiers Houari Boumediene Airport",
-        "destination_city": "Algiers",
-        "destination_country": "Algeria",
+        "destination_iata": "KTM",
+        "destination_airport_name": "Kathmandu Tribhuvan International Airport",
+        "destination_city": "Kathmandu",
+        "destination_country": "Nepal",
         "local_departure_time": "10:30",
-        "local_arrival_time": "15:05",
-        "duration": "06:35"
+        "local_arrival_time": "17:50",
+        "duration": "04:35"
     },
     {
-        "flight_number": "QR341",
+        "flight_number": "QR8960",
         "airline_name": "Qatar Airways",
-        "destination_iata": "LIS",
-        "destination_airport_name": "Lisbon Humberto Delgado Airport",
-        "destination_city": "Lisbon",
-        "destination_country": "Portugal",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
         "local_departure_time": "10:35",
-        "local_arrival_time": "16:25",
-        "duration": "07:50"
+        "local_arrival_time": "00:15 (+1)",
+        "duration": "08:40"
     },
     {
         "flight_number": "EY662",
@@ -2649,6 +2803,17 @@
         "local_departure_time": "10:45",
         "local_arrival_time": "12:45",
         "duration": "01:00"
+    },
+    {
+        "flight_number": "OV238",
+        "airline_name": "SalamAir",
+        "destination_iata": "MCT",
+        "destination_airport_name": "Muscat International Airport",
+        "destination_city": "Muscat",
+        "destination_country": "Oman",
+        "local_departure_time": "10:45",
+        "local_arrival_time": "13:15",
+        "duration": "01:30"
     },
     {
         "flight_number": "FZ4",
@@ -2684,26 +2849,26 @@
         "duration": "00:50"
     },
     {
-        "flight_number": "QR8040",
+        "flight_number": "QR8905",
         "airline_name": "Qatar Airways",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "11:35",
-        "local_arrival_time": "16:55",
-        "duration": "06:20"
+        "destination_iata": "MFM",
+        "destination_airport_name": "Macau International Airport",
+        "destination_city": "Macau",
+        "destination_country": "Macao",
+        "local_departure_time": "11:30",
+        "local_arrival_time": "00:30 (+1)",
+        "duration": "08:00"
     },
     {
-        "flight_number": "QR8962",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "11:45",
-        "local_arrival_time": "02:00 (+1)",
-        "duration": "09:15"
+        "flight_number": "XY226",
+        "airline_name": "flynas",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "12:15",
+        "local_arrival_time": "13:35",
+        "duration": "01:20"
     },
     {
         "flight_number": "QR1164",
@@ -2712,42 +2877,20 @@
         "destination_airport_name": "Riyadh King Khalid International Airport",
         "destination_city": "Riyadh",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "11:50",
-        "local_arrival_time": "13:25",
+        "local_departure_time": "12:25",
+        "local_arrival_time": "14:00",
         "duration": "01:35"
     },
     {
-        "flight_number": "TK6260",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "HYD",
-        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
-        "destination_city": "Hyderabad",
-        "destination_country": "India",
-        "local_departure_time": "12:05",
-        "local_arrival_time": "18:40",
-        "duration": "04:05"
-    },
-    {
-        "flight_number": "QR8221",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
+        "flight_number": "J25112",
+        "airline_name": "Azerbaijan Airlines",
+        "destination_iata": "GYD",
+        "destination_airport_name": "Baku Heydar Aliyev International Airport",
+        "destination_city": "Baku",
+        "destination_country": "Azerbaijan",
         "local_departure_time": "12:30",
-        "local_arrival_time": "17:50",
-        "duration": "06:20"
-    },
-    {
-        "flight_number": "QR8000",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "SZX",
-        "destination_airport_name": "Shenzhen Bao'an International Airport",
-        "destination_city": "Shenzhen",
-        "destination_country": "China",
-        "local_departure_time": "12:30",
-        "local_arrival_time": "02:00 (+1)",
-        "duration": "08:30"
+        "local_arrival_time": "16:40",
+        "duration": "03:10"
     },
     {
         "flight_number": "TK857",
@@ -2772,26 +2915,59 @@
         "duration": "07:15"
     },
     {
-        "flight_number": "QR8902",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "13:10",
-        "local_arrival_time": "01:50 (+1)",
-        "duration": "07:40"
-    },
-    {
-        "flight_number": "QR8402",
+        "flight_number": "QR8410",
         "airline_name": "Qatar Airways",
         "destination_iata": "HKG",
         "destination_airport_name": "Hong Kong International Airport",
         "destination_city": "Hong Kong",
         "destination_country": "Hong Kong",
-        "local_departure_time": "13:30",
-        "local_arrival_time": "03:15 (+1)",
-        "duration": "08:45"
+        "local_departure_time": "12:55",
+        "local_arrival_time": "02:00 (+1)",
+        "duration": "08:05"
+    },
+    {
+        "flight_number": "QR8408",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "13:10",
+        "local_arrival_time": "02:00 (+1)",
+        "duration": "07:50"
+    },
+    {
+        "flight_number": "QR8938",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CAN",
+        "destination_airport_name": "Guangzhou Baiyun International Airport",
+        "destination_city": "Guangzhou",
+        "destination_country": "China",
+        "local_departure_time": "13:10",
+        "local_arrival_time": "02:00 (+1)",
+        "duration": "07:50"
+    },
+    {
+        "flight_number": "QR8076",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "PRG",
+        "destination_airport_name": "Prague Vaclav Havel Airport",
+        "destination_city": "Prague",
+        "destination_country": "Czechia",
+        "local_departure_time": "13:20",
+        "local_arrival_time": "18:05",
+        "duration": "05:45"
+    },
+    {
+        "flight_number": "QR8068",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
+        "local_departure_time": "13:25",
+        "local_arrival_time": "19:55",
+        "duration": "07:30"
     },
     {
         "flight_number": "QR1036",
@@ -2816,48 +2992,15 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "QR8004",
+        "flight_number": "QR8942",
         "airline_name": "Qatar Airways",
-        "destination_iata": "SZX",
-        "destination_airport_name": "Shenzhen Bao'an International Airport",
-        "destination_city": "Shenzhen",
+        "destination_iata": "CAN",
+        "destination_airport_name": "Guangzhou Baiyun International Airport",
+        "destination_city": "Guangzhou",
         "destination_country": "China",
-        "local_departure_time": "13:30",
-        "local_arrival_time": "03:00 (+1)",
-        "duration": "08:30"
-    },
-    {
-        "flight_number": "QR71",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "13:35",
-        "local_arrival_time": "18:55",
-        "duration": "06:20"
-    },
-    {
-        "flight_number": "PK288",
-        "airline_name": "Pakistan International Airlines",
-        "destination_iata": "ISB",
-        "destination_airport_name": "Islamabad International Airport",
-        "destination_city": "Islamabad",
-        "destination_country": "Pakistan",
-        "local_departure_time": "13:45",
-        "local_arrival_time": "19:20",
-        "duration": "03:35"
-    },
-    {
-        "flight_number": "RJ653",
-        "airline_name": "Royal Jordanian",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "13:55",
-        "local_arrival_time": "17:00",
-        "duration": "03:05"
+        "local_departure_time": "13:40",
+        "local_arrival_time": "02:30 (+1)",
+        "duration": "07:50"
     },
     {
         "flight_number": "QR207",
@@ -2882,15 +3025,15 @@
         "duration": "03:10"
     },
     {
-        "flight_number": "QR8940",
+        "flight_number": "QR343",
         "airline_name": "Qatar Airways",
-        "destination_iata": "CAN",
-        "destination_airport_name": "Guangzhou Baiyun International Airport",
-        "destination_city": "Guangzhou",
-        "destination_country": "China",
-        "local_departure_time": "14:05",
-        "local_arrival_time": "03:25 (+1)",
-        "duration": "08:20"
+        "destination_iata": "LIS",
+        "destination_airport_name": "Lisbon Humberto Delgado Airport",
+        "destination_city": "Lisbon",
+        "destination_country": "Portugal",
+        "local_departure_time": "14:10",
+        "local_arrival_time": "20:00",
+        "duration": "07:50"
     },
     {
         "flight_number": "QR1050",
@@ -2904,15 +3047,15 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "IX374",
-        "airline_name": "Air India Express",
-        "destination_iata": "TRV",
-        "destination_airport_name": "Thiruvananthapuram International Airport",
-        "destination_city": "Thiruvananthapuram",
-        "destination_country": "India",
-        "local_departure_time": "14:15",
-        "local_arrival_time": "21:25",
-        "duration": "04:40"
+        "flight_number": "QR1301",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "14:10",
+        "local_arrival_time": "17:50",
+        "duration": "03:40"
     },
     {
         "flight_number": "QR243",
@@ -2948,15 +3091,15 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "QR343",
+        "flight_number": "QR8414",
         "airline_name": "Qatar Airways",
-        "destination_iata": "LIS",
-        "destination_airport_name": "Lisbon Humberto Delgado Airport",
-        "destination_city": "Lisbon",
-        "destination_country": "Portugal",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "20:20",
-        "duration": "07:50"
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "14:25",
+        "local_arrival_time": "03:30 (+1)",
+        "duration": "08:05"
     },
     {
         "flight_number": "QR23",
@@ -2992,47 +3135,14 @@
         "duration": "00:50"
     },
     {
-        "flight_number": "QR8030",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "14:40",
-        "local_arrival_time": "04:25 (+1)",
-        "duration": "08:45"
-    },
-    {
-        "flight_number": "QR1168",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "14:40",
-        "local_arrival_time": "16:15",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "QR1301",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "14:45",
-        "local_arrival_time": "17:50",
-        "duration": "03:05"
-    },
-    {
-        "flight_number": "QR8213",
+        "flight_number": "QR151",
         "airline_name": "Qatar Airways",
         "destination_iata": "MAD",
         "destination_airport_name": "Madrid Barajas Airport",
         "destination_city": "Madrid",
         "destination_country": "Spain",
-        "local_departure_time": "14:50",
-        "local_arrival_time": "21:10",
+        "local_departure_time": "14:55",
+        "local_arrival_time": "21:15",
         "duration": "07:20"
     },
     {
@@ -3080,17 +3190,6 @@
         "duration": "07:15"
     },
     {
-        "flight_number": "QR151",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "15:10",
-        "local_arrival_time": "21:15",
-        "duration": "07:05"
-    },
-    {
         "flight_number": "QR1046",
         "airline_name": "Qatar Airways",
         "destination_iata": "AUH",
@@ -3124,15 +3223,15 @@
         "duration": "06:50"
     },
     {
-        "flight_number": "QR705",
+        "flight_number": "QR8030",
         "airline_name": "Qatar Airways",
-        "destination_iata": "JFK",
-        "destination_airport_name": "New York John F. Kennedy International Airport",
-        "destination_city": "New York",
-        "destination_country": "United States",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
         "local_departure_time": "15:20",
-        "local_arrival_time": "22:30",
-        "duration": "14:10"
+        "local_arrival_time": "04:25 (+1)",
+        "duration": "08:05"
     },
     {
         "flight_number": "QR426",
@@ -3157,6 +3256,17 @@
         "duration": "06:05"
     },
     {
+        "flight_number": "QR141",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "BCN",
+        "destination_airport_name": "Barcelona El Prat Airport",
+        "destination_city": "Barcelona",
+        "destination_country": "Spain",
+        "local_departure_time": "15:30",
+        "local_arrival_time": "21:15",
+        "duration": "06:45"
+    },
+    {
         "flight_number": "QR1066",
         "airline_name": "Qatar Airways",
         "destination_iata": "SHJ",
@@ -3166,39 +3276,6 @@
         "local_departure_time": "15:35",
         "local_arrival_time": "17:50",
         "duration": "01:15"
-    },
-    {
-        "flight_number": "QR8968",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "SGN",
-        "destination_airport_name": "Ho Chi Minh City International Airport",
-        "destination_city": "Ho Chi Minh City",
-        "destination_country": "Vietnam",
-        "local_departure_time": "15:35",
-        "local_arrival_time": "03:30 (+1)",
-        "duration": "07:55"
-    },
-    {
-        "flight_number": "QR1307",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "15:40",
-        "local_arrival_time": "19:20",
-        "duration": "03:40"
-    },
-    {
-        "flight_number": "QR8412",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "15:40",
-        "local_arrival_time": "05:25 (+1)",
-        "duration": "08:45"
     },
     {
         "flight_number": "QR269",
@@ -3223,17 +3300,6 @@
         "duration": "06:10"
     },
     {
-        "flight_number": "QR141",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "BCN",
-        "destination_airport_name": "Barcelona El Prat Airport",
-        "destination_city": "Barcelona",
-        "destination_country": "Spain",
-        "local_departure_time": "15:50",
-        "local_arrival_time": "21:15",
-        "duration": "06:25"
-    },
-    {
         "flight_number": "QR1186",
         "airline_name": "Qatar Airways",
         "destination_iata": "JED",
@@ -3243,17 +3309,6 @@
         "local_departure_time": "15:50",
         "local_arrival_time": "18:20",
         "duration": "02:30"
-    },
-    {
-        "flight_number": "QR253",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "TBS",
-        "destination_airport_name": "Tbilisi International Airport",
-        "destination_city": "Tbilisi",
-        "destination_country": "Georgia",
-        "local_departure_time": "15:50",
-        "local_arrival_time": "20:10",
-        "duration": "03:20"
     },
     {
         "flight_number": "QR351",
@@ -3267,6 +3322,50 @@
         "duration": "02:55"
     },
     {
+        "flight_number": "QR400",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "AMM",
+        "destination_airport_name": "Amman Queen Alia International Airport",
+        "destination_city": "Amman",
+        "destination_country": "Jordan",
+        "local_departure_time": "16:00",
+        "local_arrival_time": "18:55",
+        "duration": "02:55"
+    },
+    {
+        "flight_number": "QR8968",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "SGN",
+        "destination_airport_name": "Ho Chi Minh City International Airport",
+        "destination_city": "Ho Chi Minh City",
+        "destination_country": "Vietnam",
+        "local_departure_time": "16:00",
+        "local_arrival_time": "03:30 (+1)",
+        "duration": "07:30"
+    },
+    {
+        "flight_number": "B29302",
+        "airline_name": "Belavia",
+        "destination_iata": "MSQ",
+        "destination_airport_name": "Minsk National Airport",
+        "destination_city": "Minsk",
+        "destination_country": "Belarus",
+        "local_departure_time": "16:00",
+        "local_arrival_time": "22:00",
+        "duration": "06:00"
+    },
+    {
+        "flight_number": "QR113",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "FCO",
+        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
+        "destination_city": "Rome",
+        "destination_country": "Italy",
+        "local_departure_time": "16:05",
+        "local_arrival_time": "20:55",
+        "duration": "05:50"
+    },
+    {
         "flight_number": "SV547",
         "airline_name": "Saudia",
         "destination_iata": "JED",
@@ -3278,48 +3377,26 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "WY664",
-        "airline_name": "Oman Air",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "16:10",
-        "local_arrival_time": "18:40",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "QR400",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "16:15",
-        "local_arrival_time": "18:55",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "QR113",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "16:20",
-        "local_arrival_time": "20:55",
-        "duration": "05:35"
-    },
-    {
         "flight_number": "KU620",
         "airline_name": "Kuwait Airways",
         "destination_iata": "KWI",
         "destination_airport_name": "Kuwait International Airport",
         "destination_city": "Kuwait City",
         "destination_country": "Kuwait",
-        "local_departure_time": "16:40",
-        "local_arrival_time": "18:00",
+        "local_departure_time": "16:10",
+        "local_arrival_time": "17:30",
         "duration": "01:20"
+    },
+    {
+        "flight_number": "QR8420",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "16:20",
+        "local_arrival_time": "05:25 (+1)",
+        "duration": "08:05"
     },
     {
         "flight_number": "QR5",
@@ -3328,9 +3405,9 @@
         "destination_airport_name": "London Heathrow Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "16:45",
+        "local_departure_time": "16:25",
         "local_arrival_time": "22:00",
-        "duration": "07:15"
+        "duration": "07:35"
     },
     {
         "flight_number": "FZ18",
@@ -3366,50 +3443,6 @@
         "duration": "09:45"
     },
     {
-        "flight_number": "QR1401",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "TUN",
-        "destination_airport_name": "Tunis Carthage International Airport",
-        "destination_city": "Tunis",
-        "destination_country": "Tunisia",
-        "local_departure_time": "17:55",
-        "local_arrival_time": "21:25",
-        "duration": "05:30"
-    },
-    {
-        "flight_number": "QR934",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "MNL",
-        "destination_airport_name": "Manila Ninoy Aquino International Airport",
-        "destination_city": "Manila",
-        "destination_country": "Philippines",
-        "local_departure_time": "17:55",
-        "local_arrival_time": "08:25 (+1)",
-        "duration": "09:30"
-    },
-    {
-        "flight_number": "QR8954",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "HAN",
-        "destination_airport_name": "Hanoi Noi Bai International Airport",
-        "destination_city": "Hanoi",
-        "destination_country": "Vietnam",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "05:10 (+1)",
-        "duration": "07:10"
-    },
-    {
-        "flight_number": "DV5251",
-        "airline_name": "SCAT",
-        "destination_iata": "NQZ",
-        "destination_airport_name": "Astana Nursultan Nazarbayev International Airport",
-        "destination_city": "Astana",
-        "destination_country": "Kazakhstan",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "01:00 (+1)",
-        "duration": "05:00"
-    },
-    {
         "flight_number": "QR1034",
         "airline_name": "Qatar Airways",
         "destination_iata": "SHJ",
@@ -3443,17 +3476,6 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "KU620",
-        "airline_name": "Kuwait Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "18:15",
-        "local_arrival_time": "19:40",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "QR638",
         "airline_name": "Qatar Airways",
         "destination_iata": "DAC",
@@ -3471,8 +3493,8 @@
         "destination_airport_name": "Riyadh King Khalid International Airport",
         "destination_city": "Riyadh",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "18:20 / 18:35",
-        "local_arrival_time": "19:55 / 20:10",
+        "local_departure_time": "18:20",
+        "local_arrival_time": "19:55",
         "duration": "01:35"
     },
     {
@@ -3485,6 +3507,17 @@
         "local_departure_time": "18:30",
         "local_arrival_time": "20:45",
         "duration": "01:15"
+    },
+    {
+        "flight_number": "QR958",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CGK",
+        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
+        "destination_city": "Jakarta",
+        "destination_country": "Indonesia",
+        "local_departure_time": "18:35",
+        "local_arrival_time": "07:30 (+1)",
+        "duration": "08:55"
     },
     {
         "flight_number": "QR1018",
@@ -3507,17 +3540,6 @@
         "local_departure_time": "18:35",
         "local_arrival_time": "21:05",
         "duration": "02:30"
-    },
-    {
-        "flight_number": "QR958",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CGK",
-        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
-        "destination_city": "Jakarta",
-        "destination_country": "Indonesia",
-        "local_departure_time": "18:35",
-        "local_arrival_time": "07:30 (+1)",
-        "duration": "08:55"
     },
     {
         "flight_number": "QR1391",
@@ -3553,6 +3575,17 @@
         "duration": "02:05"
     },
     {
+        "flight_number": "QR498",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "IKA",
+        "destination_airport_name": "Tehran Imam Khomeini International Airport",
+        "destination_city": "Tehran",
+        "destination_country": "Iran",
+        "local_departure_time": "18:40",
+        "local_arrival_time": "21:15",
+        "duration": "02:05"
+    },
+    {
         "flight_number": "G9133",
         "airline_name": "Air Arabia",
         "destination_iata": "SHJ",
@@ -3583,17 +3616,6 @@
         "destination_country": "Kenya",
         "local_departure_time": "18:45",
         "local_arrival_time": "23:50",
-        "duration": "05:05"
-    },
-    {
-        "flight_number": "QR540",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CCU",
-        "destination_airport_name": "Kolkata Subhas Chandra Bose International Airport",
-        "destination_city": "Kolkata",
-        "destination_country": "India",
-        "local_departure_time": "18:45",
-        "local_arrival_time": "02:20 (+1)",
         "duration": "05:05"
     },
     {
@@ -3652,15 +3674,15 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "QR500",
+        "flight_number": "QR540",
         "airline_name": "Qatar Airways",
-        "destination_iata": "HYD",
-        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
-        "destination_city": "Hyderabad",
+        "destination_iata": "CCU",
+        "destination_airport_name": "Kolkata Subhas Chandra Bose International Airport",
+        "destination_city": "Kolkata",
         "destination_country": "India",
         "local_departure_time": "19:10",
-        "local_arrival_time": "02:00 (+1)",
-        "duration": "04:20"
+        "local_arrival_time": "02:20 (+1)",
+        "duration": "04:40"
     },
     {
         "flight_number": "QR506",
@@ -3674,17 +3696,6 @@
         "duration": "04:40"
     },
     {
-        "flight_number": "ZH808",
-        "airline_name": "Shenzhen Airlines",
-        "destination_iata": "SZX",
-        "destination_airport_name": "Shenzhen Bao'an International Airport",
-        "destination_city": "Shenzhen",
-        "destination_country": "China",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "08:50 (+1)",
-        "duration": "08:35"
-    },
-    {
         "flight_number": "QR844",
         "airline_name": "Qatar Airways",
         "destination_iata": "KUL",
@@ -3694,6 +3705,17 @@
         "local_departure_time": "19:15",
         "local_arrival_time": "07:50 (+1)",
         "duration": "07:35"
+    },
+    {
+        "flight_number": "ZH808",
+        "airline_name": "Shenzhen Airlines",
+        "destination_iata": "SZX",
+        "destination_airport_name": "Shenzhen Bao'an International Airport",
+        "destination_city": "Shenzhen",
+        "destination_country": "China",
+        "local_departure_time": "19:15",
+        "local_arrival_time": "08:50 (+1)",
+        "duration": "08:35"
     },
     {
         "flight_number": "GF527",
@@ -3718,6 +3740,17 @@
         "duration": "06:50"
     },
     {
+        "flight_number": "QR500",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "HYD",
+        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
+        "destination_city": "Hyderabad",
+        "destination_country": "India",
+        "local_departure_time": "19:30",
+        "local_arrival_time": "02:00 (+1)",
+        "duration": "04:00"
+    },
+    {
         "flight_number": "XY512",
         "airline_name": "flynas",
         "destination_iata": "JED",
@@ -3727,17 +3760,6 @@
         "local_departure_time": "19:30",
         "local_arrival_time": "21:55",
         "duration": "02:25"
-    },
-    {
-        "flight_number": "6E1316",
-        "airline_name": "IndiGo",
-        "destination_iata": "HYD",
-        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
-        "destination_city": "Hyderabad",
-        "destination_country": "India",
-        "local_departure_time": "19:35",
-        "local_arrival_time": "02:25 (+1)",
-        "duration": "04:20"
     },
     {
         "flight_number": "QR389",
@@ -3762,25 +3784,14 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "QR578",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
+        "flight_number": "6E1316",
+        "airline_name": "IndiGo",
+        "destination_iata": "HYD",
+        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
+        "destination_city": "Hyderabad",
         "destination_country": "India",
         "local_departure_time": "19:35",
-        "local_arrival_time": "01:55 (+1)",
-        "duration": "03:50"
-    },
-    {
-        "flight_number": "QR572",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "BLR",
-        "destination_airport_name": "Bengaluru Kempegowda International Airport",
-        "destination_city": "Bengaluru",
-        "destination_country": "India",
-        "local_departure_time": "19:40",
-        "local_arrival_time": "02:30 (+1)",
+        "local_arrival_time": "02:25 (+1)",
         "duration": "04:20"
     },
     {
@@ -3795,28 +3806,6 @@
         "duration": "04:30"
     },
     {
-        "flight_number": "QR862",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "10:30 (+1)",
-        "duration": "08:45"
-    },
-    {
-        "flight_number": "QR942",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "09:00 (+1)",
-        "duration": "08:15"
-    },
-    {
         "flight_number": "QR658",
         "airline_name": "Qatar Airways",
         "destination_iata": "CMB",
@@ -3828,8 +3817,19 @@
         "duration": "04:50"
     },
     {
-        "flight_number": "6E1302",
+        "flight_number": "QR862",
         "airline_name": "Qatar Airways",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
+        "local_departure_time": "19:45",
+        "local_arrival_time": "10:30 (+1)",
+        "duration": "08:45"
+    },
+    {
+        "flight_number": "6E1302",
+        "airline_name": "IndiGo",
         "destination_iata": "BLR",
         "destination_airport_name": "Bengaluru Kempegowda International Airport",
         "destination_city": "Bengaluru",
@@ -3837,17 +3837,6 @@
         "local_departure_time": "19:45",
         "local_arrival_time": "02:35 (+1)",
         "duration": "04:20"
-    },
-    {
-        "flight_number": "QR377",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "TAS",
-        "destination_airport_name": "Tashkent International Airport",
-        "destination_city": "Tashkent",
-        "destination_country": "Uzbekistan",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "01:20 (+1)",
-        "duration": "03:35"
     },
     {
         "flight_number": "QR528",
@@ -3861,17 +3850,6 @@
         "duration": "04:30"
     },
     {
-        "flight_number": "QR974",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "SGN",
-        "destination_airport_name": "Ho Chi Minh City International Airport",
-        "destination_city": "Ho Chi Minh City",
-        "destination_country": "Vietnam",
-        "local_departure_time": "19:50",
-        "local_arrival_time": "07:40 (+1)",
-        "duration": "07:50"
-    },
-    {
         "flight_number": "VA22",
         "airline_name": "Qatar Airways",
         "destination_iata": "PER",
@@ -3883,15 +3861,15 @@
         "duration": "11:05"
     },
     {
-        "flight_number": "6E1322",
+        "flight_number": "QR578",
         "airline_name": "Qatar Airways",
-        "destination_iata": "MAA",
-        "destination_airport_name": "Chennai International Airport",
-        "destination_city": "Chennai",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
         "destination_country": "India",
-        "local_departure_time": "19:50",
-        "local_arrival_time": "02:50 (+1)",
-        "duration": "04:30"
+        "local_departure_time": "19:55",
+        "local_arrival_time": "01:55 (+1)",
+        "duration": "03:30"
     },
     {
         "flight_number": "QR1154",
@@ -3903,6 +3881,17 @@
         "local_departure_time": "19:55",
         "local_arrival_time": "20:55",
         "duration": "01:00"
+    },
+    {
+        "flight_number": "QR572",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "BLR",
+        "destination_airport_name": "Bengaluru Kempegowda International Airport",
+        "destination_city": "Bengaluru",
+        "destination_country": "India",
+        "local_departure_time": "20:00",
+        "local_arrival_time": "02:30 (+1)",
+        "duration": "04:00"
     },
     {
         "flight_number": "QR620",
@@ -3927,26 +3916,15 @@
         "duration": "00:50"
     },
     {
-        "flight_number": "QR982",
+        "flight_number": "QR942",
         "airline_name": "Qatar Airways",
-        "destination_iata": "HAN",
-        "destination_airport_name": "Hanoi Noi Bai International Airport",
-        "destination_city": "Hanoi",
-        "destination_country": "Vietnam",
-        "local_departure_time": "20:00",
-        "local_arrival_time": "07:15 (+1)",
-        "duration": "07:15"
-    },
-    {
-        "flight_number": "6E1306",
-        "airline_name": "IndiGo",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
         "local_departure_time": "20:05",
-        "local_arrival_time": "02:10 (+1)",
-        "duration": "03:35"
+        "local_arrival_time": "09:00 (+1)",
+        "duration": "07:55"
     },
     {
         "flight_number": "QR1054",
@@ -3971,26 +3949,26 @@
         "duration": "06:50"
     },
     {
-        "flight_number": "QR830",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
+        "flight_number": "6E1306",
+        "airline_name": "IndiGo",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
         "local_departure_time": "20:05",
-        "local_arrival_time": "06:55 (+1)",
-        "duration": "06:50"
+        "local_arrival_time": "02:10 (+1)",
+        "duration": "03:35"
     },
     {
-        "flight_number": "QR8700",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "JNB",
-        "destination_airport_name": "Johannesburg OR Tambo International Airport",
-        "destination_city": "Johannesburg",
-        "destination_country": "South Africa",
+        "flight_number": "6E1346",
+        "airline_name": "IndiGo",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
         "local_departure_time": "20:05",
-        "local_arrival_time": "03:35 (+1)",
-        "duration": "08:30"
+        "local_arrival_time": "02:55 (+1)",
+        "duration": "04:20"
     },
     {
         "flight_number": "QR908",
@@ -4000,8 +3978,19 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "20:10",
-        "local_arrival_time": "17:10 (+1)",
+        "local_arrival_time": "18:10 (+1)",
         "duration": "14:00"
+    },
+    {
+        "flight_number": "QR1305",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "23:50",
+        "duration": "03:40"
     },
     {
         "flight_number": "TK6676",
@@ -4037,28 +4026,6 @@
         "duration": "03:25"
     },
     {
-        "flight_number": "QR914",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "ADL",
-        "destination_airport_name": "Adelaide Airport",
-        "destination_city": "Adelaide",
-        "destination_country": "Australia",
-        "local_departure_time": "20:25",
-        "local_arrival_time": "15:50 (+1)",
-        "duration": "12:55"
-    },
-    {
-        "flight_number": "RJ655",
-        "airline_name": "Royal Jordanian",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "20:25",
-        "local_arrival_time": "23:30",
-        "duration": "03:05"
-    },
-    {
         "flight_number": "QR898",
         "airline_name": "Qatar Airways",
         "destination_iata": "BNE",
@@ -4077,19 +4044,41 @@
         "destination_city": "Melbourne",
         "destination_country": "Australia",
         "local_departure_time": "20:25",
-        "local_arrival_time": "16:50 (+1)",
+        "local_arrival_time": "17:50 (+1)",
         "duration": "13:25"
     },
     {
-        "flight_number": "QR808",
+        "flight_number": "QR914",
         "airline_name": "Qatar Airways",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "12:55 (+1)",
-        "duration": "10:25"
+        "destination_iata": "ADL",
+        "destination_airport_name": "Adelaide Airport",
+        "destination_city": "Adelaide",
+        "destination_country": "Australia",
+        "local_departure_time": "20:25",
+        "local_arrival_time": "16:50 (+1)",
+        "duration": "12:55"
+    },
+    {
+        "flight_number": "QR974",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "SGN",
+        "destination_airport_name": "Ho Chi Minh City International Airport",
+        "destination_city": "Ho Chi Minh City",
+        "destination_country": "Vietnam",
+        "local_departure_time": "20:25",
+        "local_arrival_time": "07:40 (+1)",
+        "duration": "07:15"
+    },
+    {
+        "flight_number": "RJ655",
+        "airline_name": "Royal Jordanian",
+        "destination_iata": "AMM",
+        "destination_airport_name": "Amman Queen Alia International Airport",
+        "destination_city": "Amman",
+        "destination_country": "Jordan",
+        "local_departure_time": "20:25",
+        "local_arrival_time": "23:30",
+        "duration": "03:05"
     },
     {
         "flight_number": "QR285",
@@ -4103,15 +4092,15 @@
         "duration": "02:55"
     },
     {
-        "flight_number": "6E1346",
+        "flight_number": "QR808",
         "airline_name": "Qatar Airways",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
-        "destination_country": "India",
-        "local_departure_time": "20:35",
-        "local_arrival_time": "02:55 (+1)",
-        "duration": "03:50"
+        "destination_iata": "NRT",
+        "destination_airport_name": "Tokyo Narita International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "20:30",
+        "local_arrival_time": "12:55 (+1)",
+        "duration": "10:25"
     },
     {
         "flight_number": "QR404",
@@ -4143,30 +4132,19 @@
         "destination_city": "Mumbai",
         "destination_country": "India",
         "local_departure_time": "20:40",
-        "local_arrival_time": "03:00 (+1)",
-        "duration": "03:50"
+        "local_arrival_time": "02:45 (+1)",
+        "duration": "03:35"
     },
     {
-        "flight_number": "QR8044",
+        "flight_number": "QR982",
         "airline_name": "Qatar Airways",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "20:40",
-        "local_arrival_time": "10:25 (+1)",
-        "duration": "08:45"
-    },
-    {
-        "flight_number": "QR1305",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
+        "destination_iata": "HAN",
+        "destination_airport_name": "Hanoi Noi Bai International Airport",
+        "destination_city": "Hanoi",
+        "destination_country": "Vietnam",
         "local_departure_time": "20:45",
-        "local_arrival_time": "23:50",
-        "duration": "03:05"
+        "local_arrival_time": "07:15 (+1)",
+        "duration": "06:30"
     },
     {
         "flight_number": "FZ6",
@@ -4180,17 +4158,6 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "QR842",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "HKT",
-        "destination_airport_name": "Phuket International Airport",
-        "destination_city": "Phuket",
-        "destination_country": "Thailand",
-        "local_departure_time": "20:50",
-        "local_arrival_time": "07:50 (+1)",
-        "duration": "07:00"
-    },
-    {
         "flight_number": "QR418",
         "airline_name": "Qatar Airways",
         "destination_iata": "BEY",
@@ -4200,17 +4167,6 @@
         "local_departure_time": "21:00",
         "local_arrival_time": "00:10 (+1)",
         "duration": "03:10"
-    },
-    {
-        "flight_number": "QR8950",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "HAN",
-        "destination_airport_name": "Hanoi Noi Bai International Airport",
-        "destination_city": "Hanoi",
-        "destination_country": "Vietnam",
-        "local_departure_time": "21:05",
-        "local_arrival_time": "08:15 (+1)",
-        "duration": "07:10"
     },
     {
         "flight_number": "QR604",
@@ -4235,6 +4191,28 @@
         "duration": "01:15"
     },
     {
+        "flight_number": "QR842",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "HKT",
+        "destination_airport_name": "Phuket International Airport",
+        "destination_city": "Phuket",
+        "destination_country": "Thailand",
+        "local_departure_time": "21:20",
+        "local_arrival_time": "07:50 (+1)",
+        "duration": "06:30"
+    },
+    {
+        "flight_number": "QR8044",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "21:20",
+        "local_arrival_time": "10:25 (+1)",
+        "duration": "08:05"
+    },
+    {
         "flight_number": "AI970",
         "airline_name": "Air India",
         "destination_iata": "BOM",
@@ -4244,6 +4222,39 @@
         "local_departure_time": "21:30",
         "local_arrival_time": "04:05 (+1)",
         "duration": "04:05"
+    },
+    {
+        "flight_number": "QR8578",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "21:35",
+        "local_arrival_time": "19:35 (+1)",
+        "duration": "14:00"
+    },
+    {
+        "flight_number": "QR8758",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "21:40",
+        "local_arrival_time": "23:40",
+        "duration": "01:00"
+    },
+    {
+        "flight_number": "QR8954",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "HAN",
+        "destination_airport_name": "Hanoi Noi Bai International Airport",
+        "destination_city": "Hanoi",
+        "destination_country": "Vietnam",
+        "local_departure_time": "21:45",
+        "local_arrival_time": "08:35 (+1)",
+        "duration": "06:50"
     },
     {
         "flight_number": "WY662",
@@ -4257,6 +4268,17 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "QR1236",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "21:50",
+        "local_arrival_time": "23:25",
+        "duration": "01:35"
+    },
+    {
         "flight_number": "IX476",
         "airline_name": "Air India Express",
         "destination_iata": "COK",
@@ -4268,15 +4290,15 @@
         "duration": "04:35"
     },
     {
-        "flight_number": "MH6125",
-        "airline_name": "Malaysia Airlines",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "22:00",
-        "local_arrival_time": "10:30 (+1)",
-        "duration": "07:30"
+        "flight_number": "G928",
+        "airline_name": "Air Arabia",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "22:05",
+        "local_arrival_time": "00:10 (+1)",
+        "duration": "01:05"
     },
     {
         "flight_number": "AI2290",
@@ -4288,17 +4310,6 @@
         "local_departure_time": "22:15",
         "local_arrival_time": "04:30 (+1)",
         "duration": "03:45"
-    },
-    {
-        "flight_number": "QR8602",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "22:20",
-        "local_arrival_time": "04:30 (+1)",
-        "duration": "03:40"
     },
     {
         "flight_number": "AI2284",
@@ -4334,6 +4345,17 @@
         "duration": "04:45"
     },
     {
+        "flight_number": "QR8602",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "22:30",
+        "local_arrival_time": "04:30 (+1)",
+        "duration": "03:30"
+    },
+    {
         "flight_number": "EY670",
         "airline_name": "Etihad Airways",
         "destination_iata": "AUH",
@@ -4356,28 +4378,6 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "QR8484",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "STN",
-        "destination_airport_name": "London Stansted Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "22:55",
-        "local_arrival_time": "03:55 (+1)",
-        "duration": "07:00"
-    },
-    {
-        "flight_number": "QR8720",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DMM",
-        "destination_airport_name": "Dammam King Fahd International Airport",
-        "destination_city": "Dammam",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "23:20",
-        "local_arrival_time": "00:20 (+1)",
-        "duration": "01:00"
-    },
-    {
         "flight_number": "GF531",
         "airline_name": "Gulf Air",
         "destination_iata": "BAH",
@@ -4396,8 +4396,19 @@
         "destination_city": "Dhaka",
         "destination_country": "Bangladesh",
         "local_departure_time": "23:30",
-        "local_arrival_time": "07:50 (+1)",
-        "duration": "05:20"
+        "local_arrival_time": "07:35 (+1)",
+        "duration": "05:05"
+    },
+    {
+        "flight_number": "QR8720",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DMM",
+        "destination_airport_name": "Dammam King Fahd International Airport",
+        "destination_city": "Dammam",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "23:35",
+        "local_arrival_time": "00:35 (+1)",
+        "duration": "01:00"
     },
     {
         "flight_number": "QR8480",
@@ -4406,9 +4417,9 @@
         "destination_airport_name": "London Stansted Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "23:40",
+        "local_departure_time": "23:45",
         "local_arrival_time": "04:40 (+1)",
-        "duration": "07:00"
+        "duration": "06:55"
     },
     {
         "flight_number": "QR785",

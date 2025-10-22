@@ -1,36 +1,14 @@
 [
     {
-        "flight_number": "AM424",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MIA",
-        "destination_airport_name": "Miami International Airport",
-        "destination_city": "Miami",
-        "destination_country": "United States",
-        "local_departure_time": "00:05",
-        "local_arrival_time": "05:35",
-        "duration": "03:30"
-    },
-    {
         "flight_number": "AM680",
         "airline_name": "Aeromexico",
         "destination_iata": "YUL",
         "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
         "destination_city": "Montreal",
         "destination_country": "Canada",
-        "local_departure_time": "00:05",
+        "local_departure_time": "00:10",
         "local_arrival_time": "07:30",
-        "duration": "05:25"
-    },
-    {
-        "flight_number": "AM654",
-        "airline_name": "Aeromexico",
-        "destination_iata": "SDQ",
-        "destination_airport_name": "Santo Domingo Las Americas International Airport",
-        "destination_city": "Santo Domingo",
-        "destination_country": "Dominican Republic",
-        "local_departure_time": "00:15",
-        "local_arrival_time": "06:46",
-        "duration": "04:31"
+        "duration": "05:20"
     },
     {
         "flight_number": "AC992",
@@ -50,9 +28,20 @@
         "destination_airport_name": "Bogota El Dorado International Airport",
         "destination_city": "Bogota",
         "destination_country": "Colombia",
-        "local_departure_time": "00:20",
+        "local_departure_time": "00:15",
         "local_arrival_time": "06:05",
-        "duration": "04:45"
+        "duration": "04:50"
+    },
+    {
+        "flight_number": "AM654",
+        "airline_name": "Aeromexico",
+        "destination_iata": "SDQ",
+        "destination_airport_name": "Santo Domingo Las Americas International Airport",
+        "destination_city": "Santo Domingo",
+        "destination_country": "Dominican Republic",
+        "local_departure_time": "00:30",
+        "local_arrival_time": "06:50",
+        "duration": "04:20"
     },
     {
         "flight_number": "AV187",
@@ -94,9 +83,9 @@
         "destination_airport_name": "Vancouver International Airport",
         "destination_city": "Vancouver",
         "destination_country": "Canada",
-        "local_departure_time": "01:01",
-        "local_arrival_time": "05:50",
-        "duration": "05:49"
+        "local_departure_time": "01:15",
+        "local_arrival_time": "06:05",
+        "duration": "05:50"
     },
     {
         "flight_number": "CM149",
@@ -108,17 +97,6 @@
         "local_departure_time": "01:40",
         "local_arrival_time": "06:20",
         "duration": "03:40"
-    },
-    {
-        "flight_number": "CZ8032",
-        "airline_name": "China Southern Airlines",
-        "destination_iata": "TIJ",
-        "destination_airport_name": "Tijuana International Airport",
-        "destination_city": "Tijuana",
-        "destination_country": "Mexico",
-        "local_departure_time": "01:45",
-        "local_arrival_time": "04:30",
-        "duration": "03:45"
     },
     {
         "flight_number": "WS2215",
@@ -149,9 +127,20 @@
         "destination_airport_name": "Tijuana International Airport",
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "02:05",
-        "local_arrival_time": "04:20",
-        "duration": "03:15"
+        "local_departure_time": "02:40",
+        "local_arrival_time": "04:35",
+        "duration": "02:55"
+    },
+    {
+        "flight_number": "TK189",
+        "airline_name": "Turkish Airlines",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
+        "local_departure_time": "03:20",
+        "local_arrival_time": "06:35",
+        "duration": "02:15"
     },
     {
         "flight_number": "UA1085",
@@ -161,8 +150,8 @@
         "destination_city": "Houston",
         "destination_country": "United States",
         "local_departure_time": "04:40",
-        "local_arrival_time": "07:57",
-        "duration": "02:17"
+        "local_arrival_time": "07:56",
+        "duration": "02:16"
     },
     {
         "flight_number": "AV45",
@@ -194,8 +183,8 @@
         "destination_city": "San Francisco",
         "destination_country": "United States",
         "local_departure_time": "05:05",
-        "local_arrival_time": "08:52",
-        "duration": "04:47"
+        "local_arrival_time": "08:49",
+        "duration": "04:44"
     },
     {
         "flight_number": "Y4190",
@@ -216,8 +205,8 @@
         "destination_city": "Miami",
         "destination_country": "United States",
         "local_departure_time": "05:35",
-        "local_arrival_time": "11:05",
-        "duration": "03:30"
+        "local_arrival_time": "10:55",
+        "duration": "03:20"
     },
     {
         "flight_number": "VB1120",
@@ -226,9 +215,9 @@
         "destination_airport_name": "Monterrey International Airport",
         "destination_city": "Monterrey",
         "destination_country": "Mexico",
-        "local_departure_time": "05:45",
-        "local_arrival_time": "07:20",
-        "duration": "01:35"
+        "local_departure_time": "05:35",
+        "local_arrival_time": "07:05",
+        "duration": "01:30"
     },
     {
         "flight_number": "CM195",
@@ -260,8 +249,30 @@
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
         "local_departure_time": "05:55",
-        "local_arrival_time": "08:20",
-        "duration": "03:25"
+        "local_arrival_time": "08:30",
+        "duration": "03:35"
+    },
+    {
+        "flight_number": "Y4142",
+        "airline_name": "Volaris",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "06:00",
+        "local_arrival_time": "07:18",
+        "duration": "01:18"
+    },
+    {
+        "flight_number": "NH179",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "NRT",
+        "destination_airport_name": "Tokyo Narita International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "06:00",
+        "local_arrival_time": "11:25 (+1)",
+        "duration": "14:25"
     },
     {
         "flight_number": "VB1028",
@@ -271,8 +282,8 @@
         "destination_city": "Cancun",
         "destination_country": "Mexico",
         "local_departure_time": "06:00",
-        "local_arrival_time": "09:20",
-        "duration": "02:20"
+        "local_arrival_time": "09:15",
+        "duration": "02:15"
     },
     {
         "flight_number": "VB1212",
@@ -297,17 +308,6 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "Y4142",
-        "airline_name": "Volaris",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "06:00",
-        "local_arrival_time": "07:18",
-        "duration": "01:18"
-    },
-    {
         "flight_number": "Y45617",
         "airline_name": "Volaris",
         "destination_iata": "MTY",
@@ -319,26 +319,15 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "NH179",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "06:00",
-        "local_arrival_time": "11:15 (+1)",
-        "duration": "14:15"
-    },
-    {
-        "flight_number": "AM702",
+        "flight_number": "AM200",
         "airline_name": "Aeromexico",
-        "destination_iata": "HMO",
-        "destination_airport_name": "Hermosillo International Airport",
-        "destination_city": "Hermosillo",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
         "destination_country": "Mexico",
         "local_departure_time": "06:01",
-        "local_arrival_time": "08:01",
-        "duration": "03:00"
+        "local_arrival_time": "07:35",
+        "duration": "01:34"
     },
     {
         "flight_number": "AM900",
@@ -347,31 +336,9 @@
         "destination_airport_name": "Monterrey International Airport",
         "destination_city": "Monterrey",
         "destination_country": "Mexico",
-        "local_departure_time": "06:01 / 06:05",
-        "local_arrival_time": "07:52 / 07:56",
-        "duration": "01:51"
-    },
-    {
-        "flight_number": "AM126",
-        "airline_name": "Aeromexico Connect",
-        "destination_iata": "BJX",
-        "destination_airport_name": "Silao Del Bajio International Airport",
-        "destination_city": "Silao",
-        "destination_country": "Mexico",
-        "local_departure_time": "06:05",
-        "local_arrival_time": "07:19",
-        "duration": "01:14"
-    },
-    {
-        "flight_number": "AM200",
-        "airline_name": "Aeromexico",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "06:05",
-        "local_arrival_time": "07:40 / 07:43",
-        "duration": "01:35"
+        "local_departure_time": "06:01",
+        "local_arrival_time": "07:51",
+        "duration": "01:50"
     },
     {
         "flight_number": "AM170",
@@ -380,20 +347,20 @@
         "destination_airport_name": "Tijuana International Airport",
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "06:10",
-        "local_arrival_time": "08:56",
-        "duration": "03:46"
+        "local_departure_time": "06:05",
+        "local_arrival_time": "08:55",
+        "duration": "03:50"
     },
     {
-        "flight_number": "AM330",
+        "flight_number": "AM500",
         "airline_name": "Aeromexico",
-        "destination_iata": "PVR",
-        "destination_airport_name": "Puerto Vallarta International Airport",
-        "destination_city": "Puerto Vallarta",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "06:10",
-        "local_arrival_time": "07:51",
-        "duration": "01:41"
+        "local_departure_time": "06:05",
+        "local_arrival_time": "09:36",
+        "duration": "02:31"
     },
     {
         "flight_number": "VB1322",
@@ -403,19 +370,8 @@
         "destination_city": "Hermosillo",
         "destination_country": "Mexico",
         "local_departure_time": "06:10",
-        "local_arrival_time": "07:45",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "AM500",
-        "airline_name": "Aeromexico",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "06:10",
-        "local_arrival_time": "09:45",
-        "duration": "02:35"
+        "local_arrival_time": "07:50",
+        "duration": "02:40"
     },
     {
         "flight_number": "VB152",
@@ -425,19 +381,19 @@
         "destination_city": "Houston",
         "destination_country": "United States",
         "local_departure_time": "06:20",
-        "local_arrival_time": "09:30",
-        "duration": "02:10"
+        "local_arrival_time": "09:35",
+        "duration": "02:15"
     },
     {
-        "flight_number": "VB1166",
-        "airline_name": "Viva",
-        "destination_iata": "PVR",
-        "destination_airport_name": "Puerto Vallarta International Airport",
-        "destination_city": "Puerto Vallarta",
+        "flight_number": "AM702",
+        "airline_name": "Aeromexico",
+        "destination_iata": "HMO",
+        "destination_airport_name": "Hermosillo International Airport",
+        "destination_city": "Hermosillo",
         "destination_country": "Mexico",
-        "local_departure_time": "06:30",
-        "local_arrival_time": "07:55",
-        "duration": "01:25"
+        "local_departure_time": "06:25",
+        "local_arrival_time": "08:23",
+        "duration": "02:58"
     },
     {
         "flight_number": "AC997",
@@ -458,30 +414,19 @@
         "destination_city": "Houston",
         "destination_country": "United States",
         "local_departure_time": "06:30",
-        "local_arrival_time": "09:47",
-        "duration": "02:17"
+        "local_arrival_time": "10:07",
+        "duration": "02:37"
     },
     {
-        "flight_number": "Y4284",
-        "airline_name": "Volaris",
+        "flight_number": "VB1166",
+        "airline_name": "Viva",
         "destination_iata": "PVR",
         "destination_airport_name": "Puerto Vallarta International Airport",
         "destination_city": "Puerto Vallarta",
         "destination_country": "Mexico",
-        "local_departure_time": "06:35",
-        "local_arrival_time": "08:05",
+        "local_departure_time": "06:30",
+        "local_arrival_time": "08:00",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "AM204",
-        "airline_name": "Aeromexico",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "06:45",
-        "local_arrival_time": "08:20",
-        "duration": "01:35"
     },
     {
         "flight_number": "Y4108",
@@ -495,26 +440,48 @@
         "duration": "02:18"
     },
     {
-        "flight_number": "AM646",
+        "flight_number": "AM504",
         "airline_name": "Aeromexico",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
         "local_departure_time": "06:50",
-        "local_arrival_time": "09:50",
-        "duration": "04:00"
+        "local_arrival_time": "10:22",
+        "duration": "02:32"
     },
     {
-        "flight_number": "AM408",
+        "flight_number": "AM412",
         "airline_name": "Aeromexico",
-        "destination_iata": "JFK",
-        "destination_airport_name": "New York John F. Kennedy International Airport",
-        "destination_city": "New York",
+        "destination_iata": "MIA",
+        "destination_airport_name": "Miami International Airport",
+        "destination_city": "Miami",
         "destination_country": "United States",
-        "local_departure_time": "06:50",
-        "local_arrival_time": "14:00",
-        "duration": "05:10"
+        "local_departure_time": "06:55",
+        "local_arrival_time": "12:25",
+        "duration": "03:30"
+    },
+    {
+        "flight_number": "AM204",
+        "airline_name": "Aeromexico",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "06:55",
+        "local_arrival_time": "08:30",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "Y4240",
+        "airline_name": "Volaris",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico",
+        "local_departure_time": "07:00",
+        "local_arrival_time": "08:35",
+        "duration": "01:35"
     },
     {
         "flight_number": "AM34",
@@ -528,19 +495,19 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "AM440",
+        "flight_number": "AM126",
         "airline_name": "Aeromexico",
-        "destination_iata": "MCO",
-        "destination_airport_name": "Orlando International Airport",
-        "destination_city": "Orlando",
-        "destination_country": "United States",
+        "destination_iata": "BJX",
+        "destination_airport_name": "Silao Del Bajio International Airport",
+        "destination_city": "Silao",
+        "destination_country": "Mexico",
         "local_departure_time": "07:00",
-        "local_arrival_time": "12:35",
-        "duration": "03:35"
+        "local_arrival_time": "08:15",
+        "duration": "01:15"
     },
     {
-        "flight_number": "VB100",
-        "airline_name": "Viva",
+        "flight_number": "AM408",
+        "airline_name": "Aeromexico",
         "destination_iata": "JFK",
         "destination_airport_name": "New York John F. Kennedy International Airport",
         "destination_city": "New York",
@@ -557,30 +524,19 @@
         "destination_city": "Cancun",
         "destination_country": "Mexico",
         "local_departure_time": "07:00",
-        "local_arrival_time": "10:20",
-        "duration": "02:20"
+        "local_arrival_time": "10:15",
+        "duration": "02:15"
     },
     {
-        "flight_number": "Y4240",
-        "airline_name": "Volaris",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "08:35",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "AM504",
+        "flight_number": "AM440",
         "airline_name": "Aeromexico",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "07:01",
-        "local_arrival_time": "10:31",
-        "duration": "02:30"
+        "destination_iata": "MCO",
+        "destination_airport_name": "Orlando International Airport",
+        "destination_city": "Orlando",
+        "destination_country": "United States",
+        "local_departure_time": "07:05",
+        "local_arrival_time": "12:35",
+        "duration": "03:30"
     },
     {
         "flight_number": "AC994",
@@ -594,15 +550,15 @@
         "duration": "05:15"
     },
     {
-        "flight_number": "AM412",
+        "flight_number": "AM646",
         "airline_name": "Aeromexico",
-        "destination_iata": "MIA",
-        "destination_airport_name": "Miami International Airport",
-        "destination_city": "Miami",
+        "destination_iata": "LAX",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
         "destination_country": "United States",
         "local_departure_time": "07:15",
-        "local_arrival_time": "12:51",
-        "duration": "03:36"
+        "local_arrival_time": "10:20",
+        "duration": "04:05"
     },
     {
         "flight_number": "VB1118",
@@ -612,8 +568,30 @@
         "destination_city": "Monterrey",
         "destination_country": "Mexico",
         "local_departure_time": "07:20",
-        "local_arrival_time": "08:55",
-        "duration": "01:35"
+        "local_arrival_time": "08:50",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "VB100",
+        "airline_name": "Viva",
+        "destination_iata": "JFK",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States",
+        "local_departure_time": "07:20",
+        "local_arrival_time": "14:00",
+        "duration": "04:40"
+    },
+    {
+        "flight_number": "AM472",
+        "airline_name": "Aeromexico",
+        "destination_iata": "IAH",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States",
+        "local_departure_time": "07:25",
+        "local_arrival_time": "10:53",
+        "duration": "02:28"
     },
     {
         "flight_number": "UA718",
@@ -623,30 +601,8 @@
         "destination_city": "San Francisco",
         "destination_country": "United States",
         "local_departure_time": "07:30",
-        "local_arrival_time": "11:21",
-        "duration": "04:51"
-    },
-    {
-        "flight_number": "AM906",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "07:30 / 07:35",
-        "local_arrival_time": "09:20 / 09:30",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "AM208",
-        "airline_name": "Aeromexico",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "07:35 / 07:45",
-        "local_arrival_time": "09:04 / 09:14",
-        "duration": "01:29"
+        "local_arrival_time": "11:15",
+        "duration": "04:45"
     },
     {
         "flight_number": "AM508",
@@ -655,9 +611,9 @@
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "07:40 / 07:45",
-        "local_arrival_time": "11:18 / 11:23",
-        "duration": "02:38"
+        "local_departure_time": "07:45",
+        "local_arrival_time": "11:17",
+        "duration": "02:32"
     },
     {
         "flight_number": "Y4750",
@@ -671,15 +627,37 @@
         "duration": "02:05"
     },
     {
+        "flight_number": "AM208",
+        "airline_name": "Aeromexico",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "09:33",
+        "duration": "01:33"
+    },
+    {
+        "flight_number": "AM908",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "09:45",
+        "duration": "01:45"
+    },
+    {
         "flight_number": "AM172",
         "airline_name": "Aeromexico",
         "destination_iata": "TIJ",
         "destination_airport_name": "Tijuana International Airport",
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "08:01",
-        "local_arrival_time": "10:46",
-        "duration": "03:45"
+        "local_departure_time": "08:05",
+        "local_arrival_time": "10:55",
+        "duration": "03:50"
     },
     {
         "flight_number": "UA1064",
@@ -689,8 +667,8 @@
         "destination_city": "New York",
         "destination_country": "United States",
         "local_departure_time": "08:05",
-        "local_arrival_time": "15:15",
-        "duration": "05:10"
+        "local_arrival_time": "15:05",
+        "duration": "05:00"
     },
     {
         "flight_number": "Y4760",
@@ -722,41 +700,19 @@
         "destination_city": "Cancun",
         "destination_country": "Mexico",
         "local_departure_time": "08:20",
-        "local_arrival_time": "11:40",
-        "duration": "02:20"
+        "local_arrival_time": "11:35",
+        "duration": "02:15"
     },
     {
-        "flight_number": "AM210",
+        "flight_number": "AM686",
         "airline_name": "Aeromexico",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "08:20 / 08:25",
-        "local_arrival_time": "09:56 / 10:00",
-        "duration": "01:36"
-    },
-    {
-        "flight_number": "AM472",
-        "airline_name": "Aeromexico",
-        "destination_iata": "IAH",
-        "destination_airport_name": "Houston George Bush Intercontinental Airport",
-        "destination_city": "Houston",
+        "destination_iata": "ORD",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
         "destination_country": "United States",
-        "local_departure_time": "08:25",
-        "local_arrival_time": "11:57",
-        "duration": "02:32"
-    },
-    {
-        "flight_number": "AM910",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "08:25",
-        "local_arrival_time": "10:24",
-        "duration": "01:59"
+        "local_departure_time": "08:30",
+        "local_arrival_time": "13:55",
+        "duration": "04:25"
     },
     {
         "flight_number": "VB1134",
@@ -766,30 +722,30 @@
         "destination_city": "Monterrey",
         "destination_country": "Mexico",
         "local_departure_time": "08:30",
-        "local_arrival_time": "10:05",
-        "duration": "01:35"
+        "local_arrival_time": "10:00",
+        "duration": "01:30"
     },
     {
-        "flight_number": "VB7812",
-        "airline_name": "Viva",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "08:30",
-        "local_arrival_time": "10:05",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "AM484",
+        "flight_number": "AM455",
         "airline_name": "Aeromexico",
-        "destination_iata": "LAS",
-        "destination_airport_name": "Las Vegas Harry Reid International Airport",
-        "destination_city": "Las Vegas",
+        "destination_iata": "IAD",
+        "destination_airport_name": "Washington Dulles International Airport",
+        "destination_city": "Washington",
         "destination_country": "United States",
         "local_departure_time": "08:35",
-        "local_arrival_time": "11:36",
-        "duration": "04:01"
+        "local_arrival_time": "15:10",
+        "duration": "04:35"
+    },
+    {
+        "flight_number": "AM330",
+        "airline_name": "Aeromexico",
+        "destination_iata": "PVR",
+        "destination_airport_name": "Puerto Vallarta International Airport",
+        "destination_city": "Puerto Vallarta",
+        "destination_country": "Mexico",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "10:25",
+        "duration": "01:45"
     },
     {
         "flight_number": "AM658",
@@ -798,20 +754,9 @@
         "destination_airport_name": "Denver International Airport",
         "destination_city": "Denver",
         "destination_country": "United States",
-        "local_departure_time": "08:39",
-        "local_arrival_time": "12:30",
-        "duration": "03:51"
-    },
-    {
-        "flight_number": "AM402",
-        "airline_name": "Aeromexico",
-        "destination_iata": "JFK",
-        "destination_airport_name": "New York John F. Kennedy International Airport",
-        "destination_city": "New York",
-        "destination_country": "United States",
         "local_departure_time": "08:40",
-        "local_arrival_time": "16:00",
-        "duration": "05:20"
+        "local_arrival_time": "12:38",
+        "duration": "03:58"
     },
     {
         "flight_number": "AM761",
@@ -832,41 +777,19 @@
         "destination_city": "Atlanta",
         "destination_country": "United States",
         "local_departure_time": "08:40",
-        "local_arrival_time": "14:18",
-        "duration": "03:38"
+        "local_arrival_time": "14:02",
+        "duration": "03:22"
     },
     {
-        "flight_number": "AM455",
+        "flight_number": "AM464",
         "airline_name": "Aeromexico",
-        "destination_iata": "IAD",
-        "destination_airport_name": "Washington Dulles International Airport",
-        "destination_city": "Washington",
-        "destination_country": "United States",
+        "destination_iata": "PTY",
+        "destination_airport_name": "Panama City Tocumen International Airport",
+        "destination_city": "Panama City",
+        "destination_country": "Panama",
         "local_departure_time": "08:45",
-        "local_arrival_time": "15:31",
-        "duration": "04:46"
-    },
-    {
-        "flight_number": "AM672",
-        "airline_name": "Aeromexico",
-        "destination_iata": "GUA",
-        "destination_airport_name": "Guatemala City La Aurora International Airport",
-        "destination_city": "Guatemala City",
-        "destination_country": "Guatemala",
-        "local_departure_time": "08:45",
-        "local_arrival_time": "10:53",
-        "duration": "02:08"
-    },
-    {
-        "flight_number": "AM1682",
-        "airline_name": "Aeromexico",
-        "destination_iata": "DFW",
-        "destination_airport_name": "Dallas Fort Worth International Airport",
-        "destination_city": "Dallas",
-        "destination_country": "United States",
-        "local_departure_time": "08:45",
-        "local_arrival_time": "12:36",
-        "duration": "02:51"
+        "local_arrival_time": "13:42",
+        "duration": "03:57"
     },
     {
         "flight_number": "UA1567",
@@ -876,30 +799,19 @@
         "destination_city": "Washington",
         "destination_country": "United States",
         "local_departure_time": "08:45",
-        "local_arrival_time": "15:09",
-        "duration": "04:24"
-    },
-    {
-        "flight_number": "AM464",
-        "airline_name": "Aeromexico",
-        "destination_iata": "PTY",
-        "destination_airport_name": "Panama City Tocumen International Airport",
-        "destination_city": "Panama City",
-        "destination_country": "Panama",
-        "local_departure_time": "08:50 / 08:55",
-        "local_arrival_time": "13:46",
-        "duration": "03:51"
-    },
-    {
-        "flight_number": "AM430",
-        "airline_name": "Aeromexico Connect",
-        "destination_iata": "RDU",
-        "destination_airport_name": "Raleigh-Durham International Airport",
-        "destination_city": "Raleigh-Durham",
-        "destination_country": "United States",
-        "local_departure_time": "08:55",
-        "local_arrival_time": "15:18",
+        "local_arrival_time": "15:08",
         "duration": "04:23"
+    },
+    {
+        "flight_number": "AM912",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico",
+        "local_departure_time": "08:50",
+        "local_arrival_time": "10:35",
+        "duration": "01:45"
     },
     {
         "flight_number": "AM460",
@@ -908,9 +820,31 @@
         "destination_airport_name": "Punta Cana International Airport",
         "destination_city": "Punta Cana",
         "destination_country": "Dominican Republic",
+        "local_departure_time": "08:50",
+        "local_arrival_time": "15:45",
+        "duration": "04:55"
+    },
+    {
+        "flight_number": "AM512",
+        "airline_name": "Aeromexico",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
         "local_departure_time": "08:55",
-        "local_arrival_time": "15:40",
-        "duration": "04:45"
+        "local_arrival_time": "12:33",
+        "duration": "02:38"
+    },
+    {
+        "flight_number": "AM430",
+        "airline_name": "Aeromexico",
+        "destination_iata": "RDU",
+        "destination_airport_name": "Raleigh-Durham International Airport",
+        "destination_city": "Raleigh-Durham",
+        "destination_country": "United States",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "15:15",
+        "duration": "04:15"
     },
     {
         "flight_number": "TK181",
@@ -924,17 +858,6 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "UJ780",
-        "airline_name": "Magnicharters",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "12:00",
-        "duration": "02:00"
-    },
-    {
         "flight_number": "Y4302",
         "airline_name": "Volaris",
         "destination_iata": "SJD",
@@ -946,26 +869,15 @@
         "duration": "02:09"
     },
     {
-        "flight_number": "TK184",
-        "airline_name": "Turkish Airlines",
+        "flight_number": "UJ780",
+        "airline_name": "Magnicharters",
         "destination_iata": "CUN",
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
         "local_departure_time": "09:00",
-        "local_arrival_time": "12:25",
-        "duration": "02:25"
-    },
-    {
-        "flight_number": "AM512",
-        "airline_name": "Aeromexico",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "09:01",
-        "local_arrival_time": "12:39",
-        "duration": "02:38"
+        "local_arrival_time": "12:00",
+        "duration": "02:00"
     },
     {
         "flight_number": "AM46",
@@ -979,48 +891,48 @@
         "duration": "06:04"
     },
     {
-        "flight_number": "AM614",
+        "flight_number": "AM212",
         "airline_name": "Aeromexico",
-        "destination_iata": "PHX",
-        "destination_airport_name": "Phoenix Sky Harbor International Airport",
-        "destination_city": "Phoenix",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "09:01",
+        "local_arrival_time": "10:33",
+        "duration": "01:32"
+    },
+    {
+        "flight_number": "AM402",
+        "airline_name": "Aeromexico",
+        "destination_iata": "JFK",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
         "destination_country": "United States",
         "local_departure_time": "09:05",
-        "local_arrival_time": "11:40",
-        "duration": "03:35"
+        "local_arrival_time": "16:20",
+        "duration": "05:15"
     },
     {
-        "flight_number": "AM632",
+        "flight_number": "AM484",
         "airline_name": "Aeromexico",
-        "destination_iata": "SAT",
-        "destination_airport_name": "San Antonio International Airport",
-        "destination_city": "San Antonio",
+        "destination_iata": "LAS",
+        "destination_airport_name": "Las Vegas Harry Reid International Airport",
+        "destination_city": "Las Vegas",
         "destination_country": "United States",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "12:30",
-        "duration": "02:20"
+        "local_departure_time": "09:05",
+        "local_arrival_time": "12:20",
+        "duration": "04:15"
     },
     {
-        "flight_number": "AM686",
+        "flight_number": "AM672",
         "airline_name": "Aeromexico",
-        "destination_iata": "ORD",
-        "destination_airport_name": "Chicago O'Hare International Airport",
-        "destination_city": "Chicago",
-        "destination_country": "United States",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "14:50",
-        "duration": "04:40"
-    },
-    {
-        "flight_number": "AM488",
-        "airline_name": "Aeromexico",
-        "destination_iata": "SEA",
-        "destination_airport_name": "Seattle Tacoma International Airport",
-        "destination_city": "Seattle",
-        "destination_country": "United States",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "14:00",
-        "duration": "05:50"
+        "destination_iata": "GUA",
+        "destination_airport_name": "Guatemala City La Aurora International Airport",
+        "destination_city": "Guatemala City",
+        "destination_country": "Guatemala",
+        "local_departure_time": "09:05",
+        "local_arrival_time": "11:18",
+        "duration": "02:13"
     },
     {
         "flight_number": "AM30",
@@ -1034,26 +946,26 @@
         "duration": "09:10"
     },
     {
-        "flight_number": "Y4152",
-        "airline_name": "Volaris",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "09:15",
-        "local_arrival_time": "10:33",
-        "duration": "01:18"
+        "flight_number": "AM668",
+        "airline_name": "Aeromexico",
+        "destination_iata": "SFO",
+        "destination_airport_name": "San Francisco International Airport",
+        "destination_city": "San Francisco",
+        "destination_country": "United States",
+        "local_departure_time": "09:25",
+        "local_arrival_time": "13:15",
+        "duration": "04:50"
     },
     {
-        "flight_number": "AM914",
+        "flight_number": "AM614",
         "airline_name": "Aeromexico",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "09:25 / 09:35",
-        "local_arrival_time": "11:13 / 11:24",
-        "duration": "01:48"
+        "destination_iata": "PHX",
+        "destination_airport_name": "Phoenix Sky Harbor International Airport",
+        "destination_city": "Phoenix",
+        "destination_country": "United States",
+        "local_departure_time": "09:30",
+        "local_arrival_time": "11:59",
+        "duration": "03:29"
     },
     {
         "flight_number": "VB1356",
@@ -1063,30 +975,19 @@
         "destination_city": "Monterrey",
         "destination_country": "Mexico",
         "local_departure_time": "09:30",
-        "local_arrival_time": "11:05",
-        "duration": "01:35"
+        "local_arrival_time": "11:00",
+        "duration": "01:30"
     },
     {
-        "flight_number": "AM644",
+        "flight_number": "AM632",
         "airline_name": "Aeromexico",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
+        "destination_iata": "SAT",
+        "destination_airport_name": "San Antonio International Airport",
+        "destination_city": "San Antonio",
         "destination_country": "United States",
         "local_departure_time": "09:35",
-        "local_arrival_time": "12:39",
-        "duration": "04:04"
-    },
-    {
-        "flight_number": "AM2684",
-        "airline_name": "Aeromexico Connect",
-        "destination_iata": "AUS",
-        "destination_airport_name": "Austin Bergstrom International Airport",
-        "destination_city": "Austin",
-        "destination_country": "United States",
-        "local_departure_time": "09:35",
-        "local_arrival_time": "13:05",
-        "duration": "02:30"
+        "local_arrival_time": "12:53",
+        "duration": "02:18"
     },
     {
         "flight_number": "UA1089",
@@ -1100,26 +1001,37 @@
         "duration": "02:17"
     },
     {
-        "flight_number": "AM668",
+        "flight_number": "AM434",
         "airline_name": "Aeromexico",
-        "destination_iata": "SFO",
-        "destination_airport_name": "San Francisco International Airport",
-        "destination_city": "San Francisco",
+        "destination_iata": "MCO",
+        "destination_airport_name": "Orlando International Airport",
+        "destination_city": "Orlando",
         "destination_country": "United States",
-        "local_departure_time": "09:40",
-        "local_arrival_time": "13:17",
-        "duration": "04:37"
+        "local_departure_time": "09:45",
+        "local_arrival_time": "15:20",
+        "duration": "03:35"
     },
     {
-        "flight_number": "AM516",
+        "flight_number": "AM350",
         "airline_name": "Aeromexico",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
+        "destination_iata": "MZT",
+        "destination_airport_name": "Mazatlan International Airport",
+        "destination_city": "Mazatlan",
         "destination_country": "Mexico",
         "local_departure_time": "09:50",
-        "local_arrival_time": "13:34",
-        "duration": "02:44"
+        "local_arrival_time": "10:43",
+        "duration": "01:53"
+    },
+    {
+        "flight_number": "AM916",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico",
+        "local_departure_time": "09:50",
+        "local_arrival_time": "11:45",
+        "duration": "01:55"
     },
     {
         "flight_number": "CM137",
@@ -1133,15 +1045,15 @@
         "duration": "03:49"
     },
     {
-        "flight_number": "AM216",
+        "flight_number": "AM174",
         "airline_name": "Aeromexico",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
+        "destination_iata": "TIJ",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "09:50 / 09:55",
-        "local_arrival_time": "11:21 / 11:26",
-        "duration": "01:31"
+        "local_departure_time": "09:55",
+        "local_arrival_time": "12:45",
+        "duration": "03:50"
     },
     {
         "flight_number": "Y4790",
@@ -1155,26 +1067,26 @@
         "duration": "03:11"
     },
     {
+        "flight_number": "AM644",
+        "airline_name": "Aeromexico",
+        "destination_iata": "LAX",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States",
+        "local_departure_time": "09:55",
+        "local_arrival_time": "13:10",
+        "duration": "04:15"
+    },
+    {
         "flight_number": "AM704",
         "airline_name": "Aeromexico",
         "destination_iata": "HMO",
         "destination_airport_name": "Hermosillo International Airport",
         "destination_city": "Hermosillo",
         "destination_country": "Mexico",
-        "local_departure_time": "09:55 / 10:00",
-        "local_arrival_time": "11:55 / 12:00",
-        "duration": "03:00"
-    },
-    {
-        "flight_number": "AM27",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "09:55 / 10:05",
-        "local_arrival_time": "04:45 (+1) / 04:55 (+1)",
-        "duration": "10:50"
+        "local_departure_time": "09:55",
+        "local_arrival_time": "11:50",
+        "duration": "02:55"
     },
     {
         "flight_number": "Y4280",
@@ -1188,26 +1100,59 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "AM1740",
+        "flight_number": "AM2682",
         "airline_name": "Aeromexico",
-        "destination_iata": "TPA",
-        "destination_airport_name": "Tampa International Airport",
-        "destination_city": "Tampa",
+        "destination_iata": "DFW",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
         "destination_country": "United States",
-        "local_departure_time": "10:05",
-        "local_arrival_time": "15:28",
-        "duration": "03:23"
+        "local_departure_time": "10:00",
+        "local_arrival_time": "13:48",
+        "duration": "02:48"
     },
     {
-        "flight_number": "AM332",
+        "flight_number": "AM516",
         "airline_name": "Aeromexico",
-        "destination_iata": "PVR",
-        "destination_airport_name": "Puerto Vallarta International Airport",
-        "destination_city": "Puerto Vallarta",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "10:10 / 10:40",
-        "local_arrival_time": "11:59 / 12:29",
-        "duration": "01:49"
+        "local_departure_time": "10:05",
+        "local_arrival_time": "13:45",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "AM27",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
+        "local_departure_time": "10:10",
+        "local_arrival_time": "04:45 (+1)",
+        "duration": "10:35"
+    },
+    {
+        "flight_number": "AM128",
+        "airline_name": "Aeromexico",
+        "destination_iata": "BJX",
+        "destination_airport_name": "Silao Del Bajio International Airport",
+        "destination_city": "Silao",
+        "destination_country": "Mexico",
+        "local_departure_time": "10:30",
+        "local_arrival_time": "11:50",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "AM382",
+        "airline_name": "Aeromexico",
+        "destination_iata": "SJD",
+        "destination_airport_name": "San Jose del Cabo Los Cabos International Airport",
+        "destination_city": "San Jose del Cabo",
+        "destination_country": "Mexico",
+        "local_departure_time": "10:30",
+        "local_arrival_time": "11:55",
+        "duration": "02:25"
     },
     {
         "flight_number": "VB1022",
@@ -1217,8 +1162,8 @@
         "destination_city": "Cancun",
         "destination_country": "Mexico",
         "local_departure_time": "10:30",
-        "local_arrival_time": "14:05",
-        "duration": "02:35"
+        "local_arrival_time": "13:55",
+        "duration": "02:25"
     },
     {
         "flight_number": "VB1150",
@@ -1232,59 +1177,26 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "AM174",
-        "airline_name": "Aeromexico",
-        "destination_iata": "TIJ",
-        "destination_airport_name": "Tijuana International Airport",
-        "destination_city": "Tijuana",
-        "destination_country": "Mexico",
-        "local_departure_time": "10:40",
-        "local_arrival_time": "13:25",
-        "duration": "03:45"
-    },
-    {
         "flight_number": "AM520",
         "airline_name": "Aeromexico",
         "destination_iata": "CUN",
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "10:40 / 10:50",
-        "local_arrival_time": "14:24 / 14:34",
-        "duration": "02:44"
+        "local_departure_time": "10:50",
+        "local_arrival_time": "14:29",
+        "duration": "02:39"
     },
     {
-        "flight_number": "AM420",
+        "flight_number": "AM920",
         "airline_name": "Aeromexico",
-        "destination_iata": "MIA",
-        "destination_airport_name": "Miami International Airport",
-        "destination_city": "Miami",
-        "destination_country": "United States",
-        "local_departure_time": "10:45",
-        "local_arrival_time": "16:23",
-        "duration": "03:38"
-    },
-    {
-        "flight_number": "AM434",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MCO",
-        "destination_airport_name": "Orlando International Airport",
-        "destination_city": "Orlando",
-        "destination_country": "United States",
-        "local_departure_time": "10:45",
-        "local_arrival_time": "16:20",
-        "duration": "03:35"
-    },
-    {
-        "flight_number": "AM128",
-        "airline_name": "Aeromexico",
-        "destination_iata": "BJX",
-        "destination_airport_name": "Silao Del Bajio International Airport",
-        "destination_city": "Silao",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
         "destination_country": "Mexico",
         "local_departure_time": "10:50",
-        "local_arrival_time": "12:05 / 12:12",
-        "duration": "01:22"
+        "local_arrival_time": "12:45",
+        "duration": "01:55"
     },
     {
         "flight_number": "AA264",
@@ -1294,8 +1206,8 @@
         "destination_city": "Miami",
         "destination_country": "United States",
         "local_departure_time": "10:55",
-        "local_arrival_time": "16:25",
-        "duration": "03:30"
+        "local_arrival_time": "16:15",
+        "duration": "03:20"
     },
     {
         "flight_number": "AM451",
@@ -1304,20 +1216,9 @@
         "destination_airport_name": "Havana Jose Marti International Airport",
         "destination_city": "Havana",
         "destination_country": "Cuba",
-        "local_departure_time": "10:55",
+        "local_departure_time": "11:00",
         "local_arrival_time": "16:00",
-        "duration": "03:05"
-    },
-    {
-        "flight_number": "AM382",
-        "airline_name": "Aeromexico",
-        "destination_iata": "SJD",
-        "destination_airport_name": "San Jose del Cabo Los Cabos International Airport",
-        "destination_city": "San Jose del Cabo",
-        "destination_country": "Mexico",
-        "local_departure_time": "10:55 / 11:30",
-        "local_arrival_time": "12:23 / 12:58",
-        "duration": "02:28"
+        "duration": "03:00"
     },
     {
         "flight_number": "VB112",
@@ -1327,8 +1228,8 @@
         "destination_city": "Las Vegas",
         "destination_country": "United States",
         "local_departure_time": "11:00",
-        "local_arrival_time": "13:45",
-        "duration": "03:45"
+        "local_arrival_time": "13:55",
+        "duration": "03:55"
     },
     {
         "flight_number": "Y4780",
@@ -1342,17 +1243,6 @@
         "duration": "03:19"
     },
     {
-        "flight_number": "AM920",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "11:05 / 11:15",
-        "local_arrival_time": "12:59 / 13:09",
-        "duration": "01:54"
-    },
-    {
         "flight_number": "DL576",
         "airline_name": "Delta Air Lines",
         "destination_iata": "ATL",
@@ -1360,8 +1250,8 @@
         "destination_city": "Atlanta",
         "destination_country": "United States",
         "local_departure_time": "11:15",
-        "local_arrival_time": "16:49",
-        "duration": "03:34"
+        "local_arrival_time": "16:39",
+        "duration": "03:24"
     },
     {
         "flight_number": "AA390",
@@ -1375,6 +1265,17 @@
         "duration": "02:45"
     },
     {
+        "flight_number": "AM222",
+        "airline_name": "Aeromexico",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "11:20",
+        "local_arrival_time": "12:50",
+        "duration": "01:30"
+    },
+    {
         "flight_number": "IB304",
         "airline_name": "Iberia",
         "destination_iata": "MAD",
@@ -1384,6 +1285,17 @@
         "local_departure_time": "11:25",
         "local_arrival_time": "06:00 (+1)",
         "duration": "10:35"
+    },
+    {
+        "flight_number": "AM420",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MIA",
+        "destination_airport_name": "Miami International Airport",
+        "destination_city": "Miami",
+        "destination_country": "United States",
+        "local_departure_time": "11:30",
+        "local_arrival_time": "17:00",
+        "duration": "03:30"
     },
     {
         "flight_number": "UA1091",
@@ -1419,37 +1331,26 @@
         "duration": "03:53"
     },
     {
+        "flight_number": "AM176",
+        "airline_name": "Aeromexico",
+        "destination_iata": "TIJ",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
+        "destination_country": "Mexico",
+        "local_departure_time": "11:45",
+        "local_arrival_time": "14:35",
+        "duration": "03:50"
+    },
+    {
         "flight_number": "AM524",
         "airline_name": "Aeromexico",
         "destination_iata": "CUN",
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "11:50 / 11:55",
-        "local_arrival_time": "15:25 / 15:30",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "AM224",
-        "airline_name": "Aeromexico",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "11:55",
-        "local_arrival_time": "13:25",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "AM628",
-        "airline_name": "Aeromexico",
-        "destination_iata": "SAL",
-        "destination_airport_name": "San Salvador International Airport",
-        "destination_city": "San Salvador",
-        "destination_country": "El Salvador",
         "local_departure_time": "12:00",
-        "local_arrival_time": "14:20",
-        "duration": "02:20"
+        "local_arrival_time": "15:35",
+        "duration": "02:35"
     },
     {
         "flight_number": "Y4144",
@@ -1469,42 +1370,31 @@
         "destination_airport_name": "Toronto Pearson International Airport",
         "destination_city": "Toronto",
         "destination_country": "Canada",
-        "local_departure_time": "12:10",
-        "local_arrival_time": "19:00",
-        "duration": "04:50"
+        "local_departure_time": "12:10 / 12:50",
+        "local_arrival_time": "19:00 / 19:50",
+        "duration": "05:00"
     },
     {
-        "flight_number": "AM350",
+        "flight_number": "AM628",
+        "airline_name": "Aeromexico Connect",
+        "destination_iata": "SAL",
+        "destination_airport_name": "San Salvador International Airport",
+        "destination_city": "San Salvador",
+        "destination_country": "El Salvador",
+        "local_departure_time": "12:20",
+        "local_arrival_time": "14:46",
+        "duration": "02:26"
+    },
+    {
+        "flight_number": "AM332",
         "airline_name": "Aeromexico",
-        "destination_iata": "MZT",
-        "destination_airport_name": "Mazatlan International Airport",
-        "destination_city": "Mazatlan",
+        "destination_iata": "PVR",
+        "destination_airport_name": "Puerto Vallarta International Airport",
+        "destination_city": "Puerto Vallarta",
         "destination_country": "Mexico",
-        "local_departure_time": "12:10 / 12:25",
-        "local_arrival_time": "13:08 / 13:23",
-        "duration": "01:58"
-    },
-    {
-        "flight_number": "AA828",
-        "airline_name": "American Airlines",
-        "destination_iata": "CLT",
-        "destination_airport_name": "Charlotte Douglas International Airport",
-        "destination_city": "Charlotte",
-        "destination_country": "United States",
         "local_departure_time": "12:35",
-        "local_arrival_time": "18:40",
-        "duration": "04:05"
-    },
-    {
-        "flight_number": "AM528",
-        "airline_name": "Aeromexico",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "12:40",
-        "local_arrival_time": "16:15",
-        "duration": "02:35"
+        "local_arrival_time": "14:20",
+        "duration": "01:45"
     },
     {
         "flight_number": "DL645",
@@ -1513,31 +1403,20 @@
         "destination_airport_name": "Detroit Metropolitan Wayne County Airport",
         "destination_city": "Detroit",
         "destination_country": "United States",
-        "local_departure_time": "12:40",
-        "local_arrival_time": "19:10",
-        "duration": "04:30"
+        "local_departure_time": "12:50",
+        "local_arrival_time": "19:15",
+        "duration": "04:25"
     },
     {
-        "flight_number": "AM640",
-        "airline_name": "Aeromexico",
-        "destination_iata": "BOS",
-        "destination_airport_name": "Boston Logan International Airport",
-        "destination_city": "Boston",
+        "flight_number": "UA2252",
+        "airline_name": "United Airlines",
+        "destination_iata": "EWR",
+        "destination_airport_name": "New York Newark Liberty International Airport",
+        "destination_city": "New York",
         "destination_country": "United States",
-        "local_departure_time": "12:45",
-        "local_arrival_time": "20:16",
-        "duration": "05:31"
-    },
-    {
-        "flight_number": "AM178",
-        "airline_name": "Aeromexico",
-        "destination_iata": "TIJ",
-        "destination_airport_name": "Tijuana International Airport",
-        "destination_city": "Tijuana",
-        "destination_country": "Mexico",
-        "local_departure_time": "12:45 / 13:00",
-        "local_arrival_time": "15:30 / 15:45",
-        "duration": "03:45"
+        "local_departure_time": "12:50",
+        "local_arrival_time": "19:54",
+        "duration": "05:04"
     },
     {
         "flight_number": "Y4900",
@@ -1551,48 +1430,37 @@
         "duration": "01:56"
     },
     {
-        "flight_number": "AM928",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "12:50",
-        "local_arrival_time": "14:35",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "UA2252",
-        "airline_name": "United Airlines",
-        "destination_iata": "EWR",
-        "destination_airport_name": "New York Newark Liberty International Airport",
-        "destination_city": "New York",
-        "destination_country": "United States",
-        "local_departure_time": "12:50",
-        "local_arrival_time": "20:02",
-        "duration": "05:12"
-    },
-    {
         "flight_number": "AM228",
         "airline_name": "Aeromexico",
         "destination_iata": "GDL",
         "destination_airport_name": "Guadalajara International Airport",
         "destination_city": "Guadalajara",
         "destination_country": "Mexico",
-        "local_departure_time": "12:55 / 13:00",
-        "local_arrival_time": "14:29 / 14:34",
-        "duration": "01:34"
+        "local_departure_time": "13:00",
+        "local_arrival_time": "14:27 / 14:30",
+        "duration": "01:30"
     },
     {
-        "flight_number": "AM678",
+        "flight_number": "AM608",
         "airline_name": "Aeromexico",
-        "destination_iata": "GUA",
-        "destination_airport_name": "Guatemala City La Aurora International Airport",
-        "destination_city": "Guatemala City",
-        "destination_country": "Guatemala",
-        "local_departure_time": "13:05",
-        "local_arrival_time": "15:14",
-        "duration": "02:09"
+        "destination_iata": "PHL",
+        "destination_airport_name": "Philadelphia International Airport",
+        "destination_city": "Philadelphia",
+        "destination_country": "United States",
+        "local_departure_time": "13:00",
+        "local_arrival_time": "19:56",
+        "duration": "04:56"
+    },
+    {
+        "flight_number": "AM640",
+        "airline_name": "Aeromexico",
+        "destination_iata": "BOS",
+        "destination_airport_name": "Boston Logan International Airport",
+        "destination_city": "Boston",
+        "destination_country": "United States",
+        "local_departure_time": "13:00",
+        "local_arrival_time": "20:27",
+        "duration": "05:27"
     },
     {
         "flight_number": "CM121",
@@ -1602,19 +1470,19 @@
         "destination_city": "Panama City",
         "destination_country": "Panama",
         "local_departure_time": "13:05",
-        "local_arrival_time": "17:49",
-        "duration": "03:44"
+        "local_arrival_time": "17:50",
+        "duration": "03:45"
     },
     {
-        "flight_number": "DL587",
-        "airline_name": "Delta Air Lines",
-        "destination_iata": "ATL",
-        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
-        "destination_city": "Atlanta",
-        "destination_country": "United States",
+        "flight_number": "AM130",
+        "airline_name": "Aeromexico",
+        "destination_iata": "BJX",
+        "destination_airport_name": "Silao Del Bajio International Airport",
+        "destination_city": "Silao",
+        "destination_country": "Mexico",
         "local_departure_time": "13:05",
-        "local_arrival_time": "18:45",
-        "duration": "03:40"
+        "local_arrival_time": "14:22",
+        "duration": "01:17"
     },
     {
         "flight_number": "Y4180",
@@ -1635,19 +1503,41 @@
         "destination_city": "Dallas",
         "destination_country": "United States",
         "local_departure_time": "13:10",
-        "local_arrival_time": "17:00",
-        "duration": "02:50"
+        "local_arrival_time": "16:55",
+        "duration": "02:45"
     },
     {
-        "flight_number": "AM642",
+        "flight_number": "AM928",
         "airline_name": "Aeromexico",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico",
+        "local_departure_time": "13:10",
+        "local_arrival_time": "14:55",
+        "duration": "01:45"
+    },
+    {
+        "flight_number": "AM706",
+        "airline_name": "Aeromexico",
+        "destination_iata": "HMO",
+        "destination_airport_name": "Hermosillo International Airport",
+        "destination_city": "Hermosillo",
+        "destination_country": "Mexico",
+        "local_departure_time": "13:10",
+        "local_arrival_time": "15:05",
+        "duration": "02:55"
+    },
+    {
+        "flight_number": "DL587",
+        "airline_name": "Delta Air Lines",
+        "destination_iata": "ATL",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
         "destination_country": "United States",
         "local_departure_time": "13:10",
-        "local_arrival_time": "16:18",
-        "duration": "04:08"
+        "local_arrival_time": "18:33",
+        "duration": "03:23"
     },
     {
         "flight_number": "VB164",
@@ -1661,48 +1551,26 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "AM436",
+        "flight_number": "AM384",
         "airline_name": "Aeromexico",
-        "destination_iata": "MCO",
-        "destination_airport_name": "Orlando International Airport",
-        "destination_city": "Orlando",
-        "destination_country": "United States",
-        "local_departure_time": "13:25",
-        "local_arrival_time": "19:05",
-        "duration": "03:40"
-    },
-    {
-        "flight_number": "AM608",
-        "airline_name": "Aeromexico",
-        "destination_iata": "PHL",
-        "destination_airport_name": "Philadelphia International Airport",
-        "destination_city": "Philadelphia",
-        "destination_country": "United States",
-        "local_departure_time": "13:30",
-        "local_arrival_time": "20:25",
-        "duration": "04:55"
-    },
-    {
-        "flight_number": "AM422",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MIA",
-        "destination_airport_name": "Miami International Airport",
-        "destination_city": "Miami",
-        "destination_country": "United States",
-        "local_departure_time": "13:40",
-        "local_arrival_time": "19:15",
-        "duration": "03:35"
-    },
-    {
-        "flight_number": "AM532",
-        "airline_name": "Aeromexico",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
+        "destination_iata": "SJD",
+        "destination_airport_name": "San Jose del Cabo Los Cabos International Airport",
+        "destination_city": "San Jose del Cabo",
         "destination_country": "Mexico",
-        "local_departure_time": "13:55",
-        "local_arrival_time": "17:33",
-        "duration": "02:38"
+        "local_departure_time": "13:35",
+        "local_arrival_time": "15:00",
+        "duration": "02:25"
+    },
+    {
+        "flight_number": "AM642",
+        "airline_name": "Aeromexico",
+        "destination_iata": "LAX",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States",
+        "local_departure_time": "13:35",
+        "local_arrival_time": "16:45",
+        "duration": "04:10"
     },
     {
         "flight_number": "DL605",
@@ -1712,19 +1580,8 @@
         "destination_city": "Minneapolis",
         "destination_country": "United States",
         "local_departure_time": "13:55",
-        "local_arrival_time": "19:24",
-        "duration": "04:29"
-    },
-    {
-        "flight_number": "AM232",
-        "airline_name": "Aeromexico",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "13:55 / 14:00",
-        "local_arrival_time": "15:29 / 15:32",
-        "duration": "01:34"
+        "local_arrival_time": "19:15",
+        "duration": "04:20"
     },
     {
         "flight_number": "AA505",
@@ -1734,8 +1591,8 @@
         "destination_city": "Miami",
         "destination_country": "United States",
         "local_departure_time": "14:00",
-        "local_arrival_time": "19:30",
-        "duration": "03:30"
+        "local_arrival_time": "19:15",
+        "duration": "03:15"
     },
     {
         "flight_number": "AV73",
@@ -1749,15 +1606,37 @@
         "duration": "04:29"
     },
     {
-        "flight_number": "UA474",
-        "airline_name": "United Airlines",
-        "destination_iata": "ORD",
-        "destination_airport_name": "Chicago O'Hare International Airport",
-        "destination_city": "Chicago",
-        "destination_country": "United States",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "19:35",
-        "duration": "04:25"
+        "flight_number": "AM232",
+        "airline_name": "Aeromexico",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "15:30",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "AM678",
+        "airline_name": "Aeromexico",
+        "destination_iata": "GUA",
+        "destination_airport_name": "Guatemala City La Aurora International Airport",
+        "destination_city": "Guatemala City",
+        "destination_country": "Guatemala",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "16:10",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "AM178",
+        "airline_name": "Aeromexico",
+        "destination_iata": "TIJ",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
+        "destination_country": "Mexico",
+        "local_departure_time": "14:05",
+        "local_arrival_time": "16:50",
+        "duration": "03:45"
     },
     {
         "flight_number": "Y4400",
@@ -1771,15 +1650,26 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "AM132",
+        "flight_number": "AM532",
         "airline_name": "Aeromexico",
-        "destination_iata": "BJX",
-        "destination_airport_name": "Silao Del Bajio International Airport",
-        "destination_city": "Silao",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "14:10 / 14:45",
-        "local_arrival_time": "15:27 / 16:02",
-        "duration": "01:17"
+        "local_departure_time": "14:10",
+        "local_arrival_time": "17:45",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "UA474",
+        "airline_name": "United Airlines",
+        "destination_iata": "ORD",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States",
+        "local_departure_time": "14:10",
+        "local_arrival_time": "19:28",
+        "duration": "04:18"
     },
     {
         "flight_number": "UA1838",
@@ -1793,6 +1683,17 @@
         "duration": "02:17"
     },
     {
+        "flight_number": "AM1684",
+        "airline_name": "Aeromexico",
+        "destination_iata": "AUS",
+        "destination_airport_name": "Austin Bergstrom International Airport",
+        "destination_city": "Austin",
+        "destination_country": "United States",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "17:55",
+        "duration": "02:25"
+    },
+    {
         "flight_number": "DL624",
         "airline_name": "Delta Air Lines",
         "destination_iata": "JFK",
@@ -1800,8 +1701,8 @@
         "destination_city": "New York",
         "destination_country": "United States",
         "local_departure_time": "14:30",
-        "local_arrival_time": "21:52",
-        "duration": "05:22"
+        "local_arrival_time": "21:34",
+        "duration": "05:04"
     },
     {
         "flight_number": "VB1130",
@@ -1811,30 +1712,19 @@
         "destination_city": "Monterrey",
         "destination_country": "Mexico",
         "local_departure_time": "14:30",
-        "local_arrival_time": "16:05 / 16:15",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "AM384",
-        "airline_name": "Aeromexico",
-        "destination_iata": "SJD",
-        "destination_airport_name": "San Jose del Cabo Los Cabos International Airport",
-        "destination_city": "San Jose del Cabo",
-        "destination_country": "Mexico",
-        "local_departure_time": "14:35",
         "local_arrival_time": "16:05",
-        "duration": "02:30"
+        "duration": "01:35"
     },
     {
-        "flight_number": "AM710",
+        "flight_number": "AM1740",
         "airline_name": "Aeromexico",
-        "destination_iata": "HMO",
-        "destination_airport_name": "Hermosillo International Airport",
-        "destination_city": "Hermosillo",
-        "destination_country": "Mexico",
-        "local_departure_time": "14:40 / 14:45",
-        "local_arrival_time": "16:40 / 16:45",
-        "duration": "03:00"
+        "destination_iata": "TPA",
+        "destination_airport_name": "Tampa International Airport",
+        "destination_city": "Tampa",
+        "destination_country": "United States",
+        "local_departure_time": "14:40",
+        "local_arrival_time": "19:55",
+        "duration": "03:15"
     },
     {
         "flight_number": "Y4242",
@@ -1861,24 +1751,35 @@
     {
         "flight_number": "AA2547",
         "airline_name": "American Airlines",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
+        "destination_iata": "DFW",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
         "destination_country": "United States",
         "local_departure_time": "15:00",
-        "local_arrival_time": "18:05",
-        "duration": "04:05"
+        "local_arrival_time": "18:55",
+        "duration": "02:55"
     },
     {
-        "flight_number": "AM936",
+        "flight_number": "AM470",
         "airline_name": "Aeromexico",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
+        "destination_iata": "IAH",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States",
         "local_departure_time": "15:00",
-        "local_arrival_time": "16:52",
-        "duration": "01:52"
+        "local_arrival_time": "18:30",
+        "duration": "02:30"
+    },
+    {
+        "flight_number": "AM494",
+        "airline_name": "Aeromexico",
+        "destination_iata": "SEA",
+        "destination_airport_name": "Seattle Tacoma International Airport",
+        "destination_city": "Seattle",
+        "destination_country": "United States",
+        "local_departure_time": "15:00",
+        "local_arrival_time": "20:00",
+        "duration": "06:00"
     },
     {
         "flight_number": "VB1254",
@@ -1888,30 +1789,19 @@
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
         "local_departure_time": "15:00",
-        "local_arrival_time": "17:25",
-        "duration": "03:25"
+        "local_arrival_time": "17:35",
+        "duration": "03:35"
     },
     {
-        "flight_number": "AM536",
+        "flight_number": "AM236",
         "airline_name": "Aeromexico",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
         "destination_country": "Mexico",
         "local_departure_time": "15:05",
-        "local_arrival_time": "18:40",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "AM470",
-        "airline_name": "Aeromexico Connect",
-        "destination_iata": "IAH",
-        "destination_airport_name": "Houston George Bush Intercontinental Airport",
-        "destination_city": "Houston",
-        "destination_country": "United States",
-        "local_departure_time": "15:10",
-        "local_arrival_time": "18:39",
-        "duration": "02:29"
+        "local_arrival_time": "16:38",
+        "duration": "01:33"
     },
     {
         "flight_number": "DL642",
@@ -1921,19 +1811,8 @@
         "destination_city": "Salt Lake City",
         "destination_country": "United States",
         "local_departure_time": "15:10",
-        "local_arrival_time": "19:25",
-        "duration": "04:15"
-    },
-    {
-        "flight_number": "VB1168",
-        "airline_name": "Viva",
-        "destination_iata": "PVR",
-        "destination_airport_name": "Puerto Vallarta International Airport",
-        "destination_city": "Puerto Vallarta",
-        "destination_country": "Mexico",
-        "local_departure_time": "15:10",
-        "local_arrival_time": "16:35",
-        "duration": "01:25"
+        "local_arrival_time": "19:30",
+        "duration": "04:20"
     },
     {
         "flight_number": "Y4800",
@@ -1947,6 +1826,17 @@
         "duration": "02:46"
     },
     {
+        "flight_number": "AM352",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MZT",
+        "destination_airport_name": "Mazatlan International Airport",
+        "destination_city": "Mazatlan",
+        "destination_country": "Mexico",
+        "local_departure_time": "15:10",
+        "local_arrival_time": "16:05",
+        "duration": "01:55"
+    },
+    {
         "flight_number": "LA2471",
         "airline_name": "LATAM Airlines",
         "destination_iata": "LIM",
@@ -1958,15 +1848,37 @@
         "duration": "05:35"
     },
     {
-        "flight_number": "AM494",
+        "flight_number": "VB1168",
+        "airline_name": "Viva",
+        "destination_iata": "PVR",
+        "destination_airport_name": "Puerto Vallarta International Airport",
+        "destination_city": "Puerto Vallarta",
+        "destination_country": "Mexico",
+        "local_departure_time": "15:10",
+        "local_arrival_time": "16:35",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "AM936",
         "airline_name": "Aeromexico",
-        "destination_iata": "SEA",
-        "destination_airport_name": "Seattle Tacoma International Airport",
-        "destination_city": "Seattle",
-        "destination_country": "United States",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico",
         "local_departure_time": "15:15",
-        "local_arrival_time": "20:00",
-        "duration": "05:45"
+        "local_arrival_time": "17:10",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "AM536",
+        "airline_name": "Aeromexico",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
+        "local_departure_time": "15:15",
+        "local_arrival_time": "18:50",
+        "duration": "02:35"
     },
     {
         "flight_number": "AA502",
@@ -1976,8 +1888,8 @@
         "destination_city": "Phoenix",
         "destination_country": "United States",
         "local_departure_time": "15:30",
-        "local_arrival_time": "17:55",
-        "duration": "03:25"
+        "local_arrival_time": "17:59",
+        "duration": "03:29"
     },
     {
         "flight_number": "CM135",
@@ -1987,19 +1899,8 @@
         "destination_city": "Panama City",
         "destination_country": "Panama",
         "local_departure_time": "15:30",
-        "local_arrival_time": "20:14",
-        "duration": "03:44"
-    },
-    {
-        "flight_number": "DL599",
-        "airline_name": "Delta Air Lines",
-        "destination_iata": "ATL",
-        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
-        "destination_city": "Atlanta",
-        "destination_country": "United States",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "21:05",
-        "duration": "03:35"
+        "local_arrival_time": "20:13",
+        "duration": "03:43"
     },
     {
         "flight_number": "Y4730",
@@ -2009,19 +1910,8 @@
         "destination_city": "Houston",
         "destination_country": "United States",
         "local_departure_time": "15:45",
-        "local_arrival_time": "19:00",
-        "duration": "02:15"
-    },
-    {
-        "flight_number": "AM18",
-        "airline_name": "Aeromexico",
-        "destination_iata": "LIM",
-        "destination_airport_name": "Lima Jorge Chavez International Airport",
-        "destination_city": "Lima",
-        "destination_country": "Peru",
-        "local_departure_time": "15:50",
-        "local_arrival_time": "23:00",
-        "duration": "06:10"
+        "local_arrival_time": "18:59",
+        "duration": "02:14"
     },
     {
         "flight_number": "AM180",
@@ -2030,20 +1920,31 @@
         "destination_airport_name": "Tijuana International Airport",
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "15:50 / 16:05",
-        "local_arrival_time": "18:25 / 18:40",
-        "duration": "03:35"
+        "local_departure_time": "15:50",
+        "local_arrival_time": "18:35",
+        "duration": "03:45"
     },
     {
-        "flight_number": "VB1398",
-        "airline_name": "Viva",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
+        "flight_number": "DL599",
+        "airline_name": "Delta Air Lines",
+        "destination_iata": "ATL",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States",
+        "local_departure_time": "15:50",
+        "local_arrival_time": "21:17",
+        "duration": "03:27"
+    },
+    {
+        "flight_number": "AM132",
+        "airline_name": "Aeromexico",
+        "destination_iata": "BJX",
+        "destination_airport_name": "Silao Del Bajio International Airport",
+        "destination_city": "Silao",
         "destination_country": "Mexico",
         "local_departure_time": "16:00",
-        "local_arrival_time": "17:20",
-        "duration": "01:20"
+        "local_arrival_time": "17:15",
+        "duration": "01:15"
     },
     {
         "flight_number": "Y4810",
@@ -2057,48 +1958,26 @@
         "duration": "04:35"
     },
     {
-        "flight_number": "AM240",
-        "airline_name": "Aeromexico",
+        "flight_number": "VB1398",
+        "airline_name": "Viva",
         "destination_iata": "GDL",
         "destination_airport_name": "Guadalajara International Airport",
         "destination_city": "Guadalajara",
         "destination_country": "Mexico",
-        "local_departure_time": "16:00 / 16:05",
-        "local_arrival_time": "17:40 / 17:45",
-        "duration": "01:40"
+        "local_departure_time": "16:10",
+        "local_arrival_time": "17:25",
+        "duration": "01:15"
     },
     {
-        "flight_number": "AM336",
+        "flight_number": "AM710",
         "airline_name": "Aeromexico",
-        "destination_iata": "PVR",
-        "destination_airport_name": "Puerto Vallarta International Airport",
-        "destination_city": "Puerto Vallarta",
-        "destination_country": "Mexico",
-        "local_departure_time": "16:10 / 16:15",
-        "local_arrival_time": "18:00 / 18:05",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "AM386",
-        "airline_name": "Aeromexico",
-        "destination_iata": "SJD",
-        "destination_airport_name": "San Jose del Cabo Los Cabos International Airport",
-        "destination_city": "San Jose del Cabo",
+        "destination_iata": "HMO",
+        "destination_airport_name": "Hermosillo International Airport",
+        "destination_city": "Hermosillo",
         "destination_country": "Mexico",
         "local_departure_time": "16:15",
-        "local_arrival_time": "17:45",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "AM688",
-        "airline_name": "Aeromexico",
-        "destination_iata": "ORD",
-        "destination_airport_name": "Chicago O'Hare International Airport",
-        "destination_city": "Chicago",
-        "destination_country": "United States",
-        "local_departure_time": "16:15",
-        "local_arrival_time": "21:43",
-        "duration": "04:28"
+        "local_arrival_time": "18:15",
+        "duration": "03:00"
     },
     {
         "flight_number": "VB1126",
@@ -2134,17 +2013,6 @@
         "duration": "04:34"
     },
     {
-        "flight_number": "AM544",
-        "airline_name": "Aeromexico",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "20:07",
-        "duration": "02:37"
-    },
-    {
         "flight_number": "Y4148",
         "airline_name": "Volaris",
         "destination_iata": "GDL",
@@ -2154,17 +2022,6 @@
         "local_departure_time": "16:30",
         "local_arrival_time": "17:48",
         "duration": "01:18"
-    },
-    {
-        "flight_number": "AM404",
-        "airline_name": "Aeromexico",
-        "destination_iata": "JFK",
-        "destination_airport_name": "New York John F. Kennedy International Airport",
-        "destination_city": "New York",
-        "destination_country": "United States",
-        "local_departure_time": "16:40",
-        "local_arrival_time": "23:56",
-        "duration": "05:16"
     },
     {
         "flight_number": "UA1025",
@@ -2189,26 +2046,15 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "AM712",
+        "flight_number": "AM244",
         "airline_name": "Aeromexico",
-        "destination_iata": "HMO",
-        "destination_airport_name": "Hermosillo International Airport",
-        "destination_city": "Hermosillo",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
         "destination_country": "Mexico",
-        "local_departure_time": "16:50 / 16:55",
-        "local_arrival_time": "18:50 / 18:55",
-        "duration": "03:00"
-    },
-    {
-        "flight_number": "AM2686",
-        "airline_name": "Aeromexico Connect",
-        "destination_iata": "AUS",
-        "destination_airport_name": "Austin Bergstrom International Airport",
-        "destination_city": "Austin",
-        "destination_country": "United States",
-        "local_departure_time": "16:55",
-        "local_arrival_time": "20:35",
-        "duration": "02:40"
+        "local_departure_time": "16:50 / 17:00",
+        "local_arrival_time": "18:20 / 18:35",
+        "duration": "01:30"
     },
     {
         "flight_number": "AM5",
@@ -2217,9 +2063,20 @@
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "17:00",
+        "local_departure_time": "17:05",
         "local_arrival_time": "11:55 (+1)",
-        "duration": "10:55"
+        "duration": "10:50"
+    },
+    {
+        "flight_number": "AM544",
+        "airline_name": "Aeromexico",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
+        "local_departure_time": "17:05",
+        "local_arrival_time": "20:45",
+        "duration": "02:40"
     },
     {
         "flight_number": "VB1352",
@@ -2235,24 +2092,24 @@
     {
         "flight_number": "AA2351",
         "airline_name": "American Airlines",
-        "destination_iata": "DFW",
-        "destination_airport_name": "Dallas Fort Worth International Airport",
-        "destination_city": "Dallas",
-        "destination_country": "United States",
-        "local_departure_time": "17:15",
-        "local_arrival_time": "21:05",
-        "duration": "02:50"
-    },
-    {
-        "flight_number": "AM618",
-        "airline_name": "Aeromexico",
         "destination_iata": "LAX",
         "destination_airport_name": "Los Angeles International Airport",
         "destination_city": "Los Angeles",
         "destination_country": "United States",
         "local_departure_time": "17:15",
-        "local_arrival_time": "20:30",
-        "duration": "04:15"
+        "local_arrival_time": "20:22",
+        "duration": "04:07"
+    },
+    {
+        "flight_number": "AM664",
+        "airline_name": "Aeromexico",
+        "destination_iata": "SFO",
+        "destination_airport_name": "San Francisco International Airport",
+        "destination_city": "San Francisco",
+        "destination_country": "United States",
+        "local_departure_time": "17:15",
+        "local_arrival_time": "21:15",
+        "duration": "05:00"
     },
     {
         "flight_number": "UA1272",
@@ -2262,8 +2119,19 @@
         "destination_city": "San Francisco",
         "destination_country": "United States",
         "local_departure_time": "17:15",
-        "local_arrival_time": "21:02",
-        "duration": "04:47"
+        "local_arrival_time": "21:01",
+        "duration": "04:46"
+    },
+    {
+        "flight_number": "AM946",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico",
+        "local_departure_time": "17:20",
+        "local_arrival_time": "19:10",
+        "duration": "01:50"
     },
     {
         "flight_number": "LA8113",
@@ -2277,28 +2145,6 @@
         "duration": "09:15"
     },
     {
-        "flight_number": "AM664",
-        "airline_name": "Aeromexico",
-        "destination_iata": "SFO",
-        "destination_airport_name": "San Francisco International Airport",
-        "destination_city": "San Francisco",
-        "destination_country": "United States",
-        "local_departure_time": "17:35",
-        "local_arrival_time": "21:30",
-        "duration": "04:55"
-    },
-    {
-        "flight_number": "AM1",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "17:40",
-        "local_arrival_time": "12:35 (+1)",
-        "duration": "10:55"
-    },
-    {
         "flight_number": "Y4104",
         "airline_name": "Volaris",
         "destination_iata": "CUN",
@@ -2308,6 +2154,28 @@
         "local_departure_time": "17:45",
         "local_arrival_time": "21:03",
         "duration": "02:18"
+    },
+    {
+        "flight_number": "AM338",
+        "airline_name": "Aeromexico",
+        "destination_iata": "PVR",
+        "destination_airport_name": "Puerto Vallarta International Airport",
+        "destination_city": "Puerto Vallarta",
+        "destination_country": "Mexico",
+        "local_departure_time": "17:50",
+        "local_arrival_time": "19:26",
+        "duration": "01:36"
+    },
+    {
+        "flight_number": "AM1",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
+        "local_departure_time": "17:50",
+        "local_arrival_time": "12:35 (+1)",
+        "duration": "10:45"
     },
     {
         "flight_number": "AM708",
@@ -2321,15 +2189,37 @@
         "duration": "04:55"
     },
     {
-        "flight_number": "AM476",
+        "flight_number": "AM248",
         "airline_name": "Aeromexico",
-        "destination_iata": "IAH",
-        "destination_airport_name": "Houston George Bush Intercontinental Airport",
-        "destination_city": "Houston",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "17:55 / 18:05",
+        "local_arrival_time": "19:30 / 19:45",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "AM386",
+        "airline_name": "Aeromexico",
+        "destination_iata": "SJD",
+        "destination_airport_name": "San Jose del Cabo Los Cabos International Airport",
+        "destination_city": "San Jose del Cabo",
+        "destination_country": "Mexico",
+        "local_departure_time": "17:59 / 18:00",
+        "local_arrival_time": "19:28",
+        "duration": "02:29"
+    },
+    {
+        "flight_number": "AM428",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MIA",
+        "destination_airport_name": "Miami International Airport",
+        "destination_city": "Miami",
         "destination_country": "United States",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "21:30",
-        "duration": "02:30"
+        "local_departure_time": "17:59 / 18:00",
+        "local_arrival_time": "23:25",
+        "duration": "03:26"
     },
     {
         "flight_number": "VB1066",
@@ -2339,8 +2229,19 @@
         "destination_city": "Guadalajara",
         "destination_country": "Mexico",
         "local_departure_time": "18:05",
-        "local_arrival_time": "19:25",
-        "duration": "01:20"
+        "local_arrival_time": "19:20",
+        "duration": "01:15"
+    },
+    {
+        "flight_number": "Y4282",
+        "airline_name": "Volaris",
+        "destination_iata": "PVR",
+        "destination_airport_name": "Puerto Vallarta International Airport",
+        "destination_city": "Puerto Vallarta",
+        "destination_country": "Mexico",
+        "local_departure_time": "18:05",
+        "local_arrival_time": "19:35",
+        "duration": "01:30"
     },
     {
         "flight_number": "AM950",
@@ -2349,20 +2250,20 @@
         "destination_airport_name": "Monterrey International Airport",
         "destination_city": "Monterrey",
         "destination_country": "Mexico",
-        "local_departure_time": "18:10",
-        "local_arrival_time": "20:02",
+        "local_departure_time": "18:20",
+        "local_arrival_time": "20:12",
         "duration": "01:52"
     },
     {
-        "flight_number": "AM1386",
-        "airline_name": "Aeromexico Connect",
-        "destination_iata": "SJD",
-        "destination_airport_name": "San Jose del Cabo Los Cabos International Airport",
-        "destination_city": "San Jose del Cabo",
-        "destination_country": "Mexico",
-        "local_departure_time": "18:15",
-        "local_arrival_time": "19:33",
-        "duration": "02:18"
+        "flight_number": "Y4702",
+        "airline_name": "Volaris",
+        "destination_iata": "ORD",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States",
+        "local_departure_time": "18:30",
+        "local_arrival_time": "23:32",
+        "duration": "04:02"
     },
     {
         "flight_number": "VB1138",
@@ -2371,9 +2272,31 @@
         "destination_airport_name": "Monterrey International Airport",
         "destination_city": "Monterrey",
         "destination_country": "Mexico",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "20:05",
+        "local_departure_time": "18:35",
+        "local_arrival_time": "20:10",
         "duration": "01:35"
+    },
+    {
+        "flight_number": "AM184",
+        "airline_name": "Aeromexico",
+        "destination_iata": "TIJ",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
+        "destination_country": "Mexico",
+        "local_departure_time": "18:35",
+        "local_arrival_time": "21:30",
+        "duration": "03:55"
+    },
+    {
+        "flight_number": "AM682",
+        "airline_name": "Aeromexico",
+        "destination_iata": "ORD",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States",
+        "local_departure_time": "18:35",
+        "local_arrival_time": "23:55",
+        "duration": "04:20"
     },
     {
         "flight_number": "Y4182",
@@ -2387,28 +2310,6 @@
         "duration": "03:33"
     },
     {
-        "flight_number": "AM352",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MZT",
-        "destination_airport_name": "Mazatlan International Airport",
-        "destination_city": "Mazatlan",
-        "destination_country": "Mexico",
-        "local_departure_time": "18:45",
-        "local_arrival_time": "19:44",
-        "duration": "01:59"
-    },
-    {
-        "flight_number": "AM428",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MIA",
-        "destination_airport_name": "Miami International Airport",
-        "destination_city": "Miami",
-        "destination_country": "United States",
-        "local_departure_time": "18:45",
-        "local_arrival_time": "00:10 (+1)",
-        "duration": "03:25"
-    },
-    {
         "flight_number": "Y4304",
         "airline_name": "Volaris",
         "destination_iata": "SJD",
@@ -2418,6 +2319,17 @@
         "local_departure_time": "18:45",
         "local_arrival_time": "19:54",
         "duration": "02:09"
+    },
+    {
+        "flight_number": "AM252",
+        "airline_name": "Aeromexico",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "18:45",
+        "local_arrival_time": "20:25",
+        "duration": "01:40"
     },
     {
         "flight_number": "EK256",
@@ -2464,37 +2376,15 @@
         "duration": "09:40"
     },
     {
-        "flight_number": "AM552",
-        "airline_name": "Aeromexico",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "22:30",
-        "duration": "02:35"
-    },
-    {
         "flight_number": "AF179",
         "airline_name": "Air France",
         "destination_iata": "CDG",
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "13:50 (+1)",
+        "local_departure_time": "18:55 / 19:15",
+        "local_arrival_time": "13:50 (+1) / 14:10 (+1)",
         "duration": "10:55"
-    },
-    {
-        "flight_number": "AM682",
-        "airline_name": "Aeromexico",
-        "destination_iata": "ORD",
-        "destination_airport_name": "Chicago O'Hare International Airport",
-        "destination_city": "Chicago",
-        "destination_country": "United States",
-        "local_departure_time": "19:00",
-        "local_arrival_time": "00:15 (+1)",
-        "duration": "04:15"
     },
     {
         "flight_number": "IB308",
@@ -2526,30 +2416,19 @@
         "destination_city": "Cancun",
         "destination_country": "Mexico",
         "local_departure_time": "19:00",
-        "local_arrival_time": "22:20",
-        "duration": "02:20"
+        "local_arrival_time": "22:15",
+        "duration": "02:15"
     },
     {
-        "flight_number": "AM252",
+        "flight_number": "AM552",
         "airline_name": "Aeromexico",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "20:52",
-        "duration": "01:42"
-    },
-    {
-        "flight_number": "AM490",
-        "airline_name": "Aeromexico",
-        "destination_iata": "LAS",
-        "destination_airport_name": "Las Vegas Harry Reid International Airport",
-        "destination_city": "Las Vegas",
-        "destination_country": "United States",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "22:17",
-        "duration": "04:07"
+        "local_departure_time": "19:05",
+        "local_arrival_time": "22:37",
+        "duration": "02:32"
     },
     {
         "flight_number": "AM648",
@@ -2559,52 +2438,19 @@
         "destination_city": "Los Angeles",
         "destination_country": "United States",
         "local_departure_time": "19:10",
-        "local_arrival_time": "22:28",
-        "duration": "04:18"
+        "local_arrival_time": "22:30",
+        "duration": "04:20"
     },
     {
-        "flight_number": "AM338",
+        "flight_number": "AM954",
         "airline_name": "Aeromexico",
-        "destination_iata": "PVR",
-        "destination_airport_name": "Puerto Vallarta International Airport",
-        "destination_city": "Puerto Vallarta",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
         "destination_country": "Mexico",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "20:59",
-        "duration": "01:44"
-    },
-    {
-        "flight_number": "AM698",
-        "airline_name": "Aeromexico",
-        "destination_iata": "SFO",
-        "destination_airport_name": "San Francisco International Airport",
-        "destination_city": "San Francisco",
-        "destination_country": "United States",
-        "local_departure_time": "19:25",
-        "local_arrival_time": "23:29",
-        "duration": "05:04"
-    },
-    {
-        "flight_number": "AM70",
-        "airline_name": "Aeromexico",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "19:30",
-        "local_arrival_time": "15:30 (+1)",
-        "duration": "12:00"
-    },
-    {
-        "flight_number": "Y4710",
-        "airline_name": "Volaris",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "22:42",
-        "duration": "03:57"
+        "local_departure_time": "19:20",
+        "local_arrival_time": "21:15",
+        "duration": "01:55"
     },
     {
         "flight_number": "VB146",
@@ -2613,20 +2459,20 @@
         "destination_airport_name": "Los Angeles International Airport",
         "destination_city": "Los Angeles",
         "destination_country": "United States",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "22:35",
-        "duration": "03:50"
+        "local_departure_time": "19:35",
+        "local_arrival_time": "22:30",
+        "duration": "03:55"
     },
     {
-        "flight_number": "Y4150",
-        "airline_name": "Volaris",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "21:03",
-        "duration": "01:18"
+        "flight_number": "AM70",
+        "airline_name": "Aeromexico",
+        "destination_iata": "FCO",
+        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
+        "destination_city": "Rome",
+        "destination_country": "Italy",
+        "local_departure_time": "19:40",
+        "local_arrival_time": "15:30 (+1)",
+        "duration": "11:50"
     },
     {
         "flight_number": "Y4380",
@@ -2640,6 +2486,50 @@
         "duration": "02:45"
     },
     {
+        "flight_number": "Y4710",
+        "airline_name": "Volaris",
+        "destination_iata": "LAX",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States",
+        "local_departure_time": "19:45",
+        "local_arrival_time": "22:42",
+        "duration": "03:57"
+    },
+    {
+        "flight_number": "AM90",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico",
+        "local_departure_time": "19:45",
+        "local_arrival_time": "21:40",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "Y4150",
+        "airline_name": "Volaris",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "19:45",
+        "local_arrival_time": "21:03",
+        "duration": "01:18"
+    },
+    {
+        "flight_number": "AM256",
+        "airline_name": "Aeromexico",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "19:50",
+        "local_arrival_time": "21:25",
+        "duration": "01:35"
+    },
+    {
         "flight_number": "LH499",
         "airline_name": "Lufthansa",
         "destination_iata": "FRA",
@@ -2651,26 +2541,15 @@
         "duration": "10:55"
     },
     {
-        "flight_number": "AM556",
+        "flight_number": "AM956",
         "airline_name": "Aeromexico",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
         "destination_country": "Mexico",
-        "local_departure_time": "19:55",
-        "local_arrival_time": "23:33",
-        "duration": "02:38"
-    },
-    {
-        "flight_number": "AM184",
-        "airline_name": "Aeromexico",
-        "destination_iata": "TIJ",
-        "destination_airport_name": "Tijuana International Airport",
-        "destination_city": "Tijuana",
-        "destination_country": "Mexico",
-        "local_departure_time": "19:55",
-        "local_arrival_time": "22:46",
-        "duration": "03:51"
+        "local_departure_time": "19:50 / 20:00",
+        "local_arrival_time": "21:45 / 21:55",
+        "duration": "01:55"
     },
     {
         "flight_number": "LA621",
@@ -2680,19 +2559,8 @@
         "destination_city": "Santiago",
         "destination_country": "Chile",
         "local_departure_time": "20:00",
-        "local_arrival_time": "06:40 (+1)",
-        "duration": "08:40"
-    },
-    {
-        "flight_number": "AM956",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "20:00",
-        "local_arrival_time": "21:58",
-        "duration": "01:58"
+        "local_arrival_time": "07:50 (+1)",
+        "duration": "08:50"
     },
     {
         "flight_number": "KL686",
@@ -2706,15 +2574,26 @@
         "duration": "10:40"
     },
     {
-        "flight_number": "AM90",
+        "flight_number": "AM556",
         "airline_name": "Aeromexico",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "20:25",
-        "local_arrival_time": "22:20",
-        "duration": "01:55"
+        "local_departure_time": "20:10",
+        "local_arrival_time": "23:40",
+        "duration": "02:30"
+    },
+    {
+        "flight_number": "AM340",
+        "airline_name": "Aeromexico",
+        "destination_iata": "PVR",
+        "destination_airport_name": "Puerto Vallarta International Airport",
+        "destination_city": "Puerto Vallarta",
+        "destination_country": "Mexico",
+        "local_departure_time": "20:15",
+        "local_arrival_time": "22:00",
+        "duration": "01:45"
     },
     {
         "flight_number": "AM388",
@@ -2724,19 +2603,19 @@
         "destination_city": "San Jose del Cabo",
         "destination_country": "Mexico",
         "local_departure_time": "20:30",
-        "local_arrival_time": "22:00",
-        "duration": "02:30"
+        "local_arrival_time": "21:56",
+        "duration": "02:26"
     },
     {
-        "flight_number": "AM258",
-        "airline_name": "Aeromexico",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
+        "flight_number": "VB1250",
+        "airline_name": "Viva",
+        "destination_iata": "TIJ",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "22:03",
-        "duration": "01:33"
+        "local_departure_time": "20:50",
+        "local_arrival_time": "23:25",
+        "duration": "03:35"
     },
     {
         "flight_number": "AM960",
@@ -2750,81 +2629,15 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "AM186",
-        "airline_name": "Aeromexico",
-        "destination_iata": "TIJ",
-        "destination_airport_name": "Tijuana International Airport",
-        "destination_city": "Tijuana",
-        "destination_country": "Mexico",
-        "local_departure_time": "20:55",
-        "local_arrival_time": "23:50",
-        "duration": "03:55"
-    },
-    {
-        "flight_number": "VB1250",
-        "airline_name": "Viva",
-        "destination_iata": "TIJ",
-        "destination_airport_name": "Tijuana International Airport",
-        "destination_city": "Tijuana",
-        "destination_country": "Mexico",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "23:25",
-        "duration": "03:25"
-    },
-    {
-        "flight_number": "AM158",
-        "airline_name": "Aeromexico",
-        "destination_iata": "BJX",
-        "destination_airport_name": "Silao Del Bajio International Airport",
-        "destination_city": "Silao",
-        "destination_country": "Mexico",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "22:32",
-        "duration": "01:22"
-    },
-    {
-        "flight_number": "AM560",
-        "airline_name": "Aeromexico",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "00:37 (+1)",
-        "duration": "02:27"
-    },
-    {
         "flight_number": "VB1248",
         "airline_name": "Viva",
         "destination_iata": "TIJ",
         "destination_airport_name": "Tijuana International Airport",
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "21:25",
-        "local_arrival_time": "23:50",
-        "duration": "03:25"
-    },
-    {
-        "flight_number": "AM21",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "16:30 (+1)",
-        "duration": "11:00"
-    },
-    {
-        "flight_number": "AM714",
-        "airline_name": "Aeromexico",
-        "destination_iata": "HMO",
-        "destination_airport_name": "Hermosillo International Airport",
-        "destination_city": "Hermosillo",
-        "destination_country": "Mexico",
-        "local_departure_time": "21:35",
-        "local_arrival_time": "23:38",
-        "duration": "03:03"
+        "local_departure_time": "21:00",
+        "local_arrival_time": "23:35",
+        "duration": "03:35"
     },
     {
         "flight_number": "AM188",
@@ -2833,20 +2646,9 @@
         "destination_airport_name": "Tijuana International Airport",
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "21:40",
-        "local_arrival_time": "00:19 (+1)",
-        "duration": "03:39"
-    },
-    {
-        "flight_number": "AM964",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "21:50",
-        "local_arrival_time": "23:49",
-        "duration": "01:59"
+        "local_departure_time": "21:15",
+        "local_arrival_time": "23:59",
+        "duration": "03:44"
     },
     {
         "flight_number": "AM564",
@@ -2855,9 +2657,75 @@
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
+        "local_departure_time": "21:40",
+        "local_arrival_time": "01:15 (+1)",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "AM262",
+        "airline_name": "Aeromexico",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "21:40",
+        "local_arrival_time": "23:15",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "AM714",
+        "airline_name": "Aeromexico",
+        "destination_iata": "HMO",
+        "destination_airport_name": "Hermosillo International Airport",
+        "destination_city": "Hermosillo",
+        "destination_country": "Mexico",
+        "local_departure_time": "21:45",
+        "local_arrival_time": "23:38",
+        "duration": "02:53"
+    },
+    {
+        "flight_number": "AM21",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
+        "local_departure_time": "21:50",
+        "local_arrival_time": "16:30 (+1)",
+        "duration": "10:40"
+    },
+    {
+        "flight_number": "Y4184",
+        "airline_name": "Volaris",
+        "destination_iata": "TIJ",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
+        "destination_country": "Mexico",
         "local_departure_time": "21:55",
-        "local_arrival_time": "01:29 (+1)",
-        "duration": "02:34"
+        "local_arrival_time": "00:28 (+1)",
+        "duration": "03:33"
+    },
+    {
+        "flight_number": "AM158",
+        "airline_name": "Aeromexico",
+        "destination_iata": "BJX",
+        "destination_airport_name": "Silao Del Bajio International Airport",
+        "destination_city": "Silao",
+        "destination_country": "Mexico",
+        "local_departure_time": "22:00",
+        "local_arrival_time": "23:12",
+        "duration": "01:12"
+    },
+    {
+        "flight_number": "AM964",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
+        "destination_country": "Mexico",
+        "local_departure_time": "22:00",
+        "local_arrival_time": "23:55",
+        "duration": "01:55"
     },
     {
         "flight_number": "BA242",
@@ -2878,19 +2746,19 @@
         "destination_city": "Paris",
         "destination_country": "France",
         "local_departure_time": "22:05",
-        "local_arrival_time": "16:50 (+1)",
-        "duration": "10:45"
+        "local_arrival_time": "16:45 (+1)",
+        "duration": "10:40"
     },
     {
-        "flight_number": "AM340",
-        "airline_name": "Aeromexico Connect",
-        "destination_iata": "PVR",
-        "destination_airport_name": "Puerto Vallarta International Airport",
-        "destination_city": "Puerto Vallarta",
+        "flight_number": "AM58",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MTY",
+        "destination_airport_name": "Monterrey International Airport",
+        "destination_city": "Monterrey",
         "destination_country": "Mexico",
         "local_departure_time": "22:05",
-        "local_arrival_time": "23:54",
-        "duration": "01:49"
+        "local_arrival_time": "23:55",
+        "duration": "01:50"
     },
     {
         "flight_number": "Y43918",
@@ -2904,59 +2772,26 @@
         "duration": "06:01"
     },
     {
-        "flight_number": "AM264",
-        "airline_name": "Aeromexico",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "22:10",
-        "local_arrival_time": "23:43",
-        "duration": "01:33"
-    },
-    {
-        "flight_number": "AM58",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "22:10",
-        "local_arrival_time": "00:05 (+1)",
-        "duration": "01:55"
-    },
-    {
         "flight_number": "AM7",
         "airline_name": "Aeromexico",
         "destination_iata": "LHR",
         "destination_airport_name": "London Heathrow Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "22:20",
+        "local_departure_time": "22:25",
         "local_arrival_time": "16:00 (+1)",
+        "duration": "10:35"
+    },
+    {
+        "flight_number": "AM25",
+        "airline_name": "Aeromexico",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "22:30",
+        "local_arrival_time": "17:10 (+1)",
         "duration": "10:40"
-    },
-    {
-        "flight_number": "Y4184",
-        "airline_name": "Volaris",
-        "destination_iata": "TIJ",
-        "destination_airport_name": "Tijuana International Airport",
-        "destination_city": "Tijuana",
-        "destination_country": "Mexico",
-        "local_departure_time": "22:20",
-        "local_arrival_time": "00:53 (+1)",
-        "duration": "03:33"
-    },
-    {
-        "flight_number": "AM968",
-        "airline_name": "Aeromexico Connect",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "22:35",
-        "local_arrival_time": "00:34 (+1)",
-        "duration": "01:59"
     },
     {
         "flight_number": "VB1070",
@@ -2966,8 +2801,30 @@
         "destination_city": "Guadalajara",
         "destination_country": "Mexico",
         "local_departure_time": "22:40",
-        "local_arrival_time": "23:50",
-        "duration": "01:10"
+        "local_arrival_time": "23:55",
+        "duration": "01:15"
+    },
+    {
+        "flight_number": "VB1374",
+        "airline_name": "Viva",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
+        "local_departure_time": "22:45",
+        "local_arrival_time": "01:55 (+1)",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "LH521",
+        "airline_name": "Lufthansa",
+        "destination_iata": "MUC",
+        "destination_airport_name": "Munich Airport",
+        "destination_city": "Munich",
+        "destination_country": "Germany",
+        "local_departure_time": "22:50",
+        "local_arrival_time": "18:00 (+1)",
+        "duration": "11:10"
     },
     {
         "flight_number": "VB1144",
@@ -2977,19 +2834,19 @@
         "destination_city": "Monterrey",
         "destination_country": "Mexico",
         "local_departure_time": "22:50",
-        "local_arrival_time": "00:30 (+1)",
-        "duration": "01:40"
+        "local_arrival_time": "00:25 (+1)",
+        "duration": "01:35"
     },
     {
-        "flight_number": "VB1374",
+        "flight_number": "VB1072",
         "airline_name": "Viva",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
         "destination_country": "Mexico",
-        "local_departure_time": "23:05",
-        "local_arrival_time": "02:15 (+1)",
-        "duration": "02:10"
+        "local_departure_time": "23:00",
+        "local_arrival_time": "00:15 (+1)",
+        "duration": "01:15"
     },
     {
         "flight_number": "AM692",
@@ -3003,17 +2860,6 @@
         "duration": "05:10"
     },
     {
-        "flight_number": "AM400",
-        "airline_name": "Aeromexico",
-        "destination_iata": "JFK",
-        "destination_airport_name": "New York John F. Kennedy International Airport",
-        "destination_city": "New York",
-        "destination_country": "United States",
-        "local_departure_time": "23:15",
-        "local_arrival_time": "06:20 (+1)",
-        "duration": "05:05"
-    },
-    {
         "flight_number": "Y4118",
         "airline_name": "Volaris",
         "destination_iata": "CUN",
@@ -3023,17 +2869,6 @@
         "local_departure_time": "23:15",
         "local_arrival_time": "02:33 (+1)",
         "duration": "02:18"
-    },
-    {
-        "flight_number": "AA2996",
-        "airline_name": "American Airlines",
-        "destination_iata": "JFK",
-        "destination_airport_name": "New York John F. Kennedy International Airport",
-        "destination_city": "New York",
-        "destination_country": "United States",
-        "local_departure_time": "23:20",
-        "local_arrival_time": "06:15 (+1)",
-        "duration": "04:55"
     },
     {
         "flight_number": "AV23",
@@ -3047,15 +2882,37 @@
         "duration": "04:30"
     },
     {
+        "flight_number": "AA2996",
+        "airline_name": "American Airlines",
+        "destination_iata": "JFK",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States",
+        "local_departure_time": "23:20",
+        "local_arrival_time": "06:15 (+1)",
+        "duration": "04:55"
+    },
+    {
+        "flight_number": "ET3516",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "BOG",
+        "destination_airport_name": "Bogota El Dorado International Airport",
+        "destination_city": "Bogota",
+        "destination_country": "Colombia",
+        "local_departure_time": "23:30",
+        "local_arrival_time": "05:00 (+1)",
+        "duration": "04:30"
+    },
+    {
         "flight_number": "AM25",
         "airline_name": "Aeromexico",
         "destination_iata": "AMS",
         "destination_airport_name": "Amsterdam Schiphol Airport",
         "destination_city": "Amsterdam",
         "destination_country": "Netherlands",
-        "local_departure_time": "23:45",
+        "local_departure_time": "23:55",
         "local_arrival_time": "18:35 (+1)",
-        "duration": "10:50"
+        "duration": "10:40"
     },
     {
         "flight_number": "IB312",

@@ -1,5 +1,16 @@
 [
     {
+        "flight_number": "IT260",
+        "airline_name": "Tigerair Taiwan",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "06:55",
+        "local_arrival_time": "12:05",
+        "duration": "04:10"
+    },
+    {
         "flight_number": "BR140",
         "airline_name": "EVA Air",
         "destination_iata": "ICN",
@@ -17,9 +28,9 @@
         "destination_airport_name": "Osaka Kansai International Airport",
         "destination_city": "Osaka",
         "destination_country": "Japan",
-        "local_departure_time": "06:55",
+        "local_departure_time": "06:55 / 07:00",
         "local_arrival_time": "10:55",
-        "duration": "03:00"
+        "duration": "02:55"
     },
     {
         "flight_number": "BR108",
@@ -44,17 +55,6 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "CI581",
-        "airline_name": "China Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "09:30",
-        "duration": "02:30"
-    },
-    {
         "flight_number": "BR182",
         "airline_name": "EVA Air",
         "destination_iata": "KIX",
@@ -64,6 +64,17 @@
         "local_departure_time": "07:05",
         "local_arrival_time": "11:10",
         "duration": "03:05"
+    },
+    {
+        "flight_number": "CI138",
+        "airline_name": "China Airlines",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "07:05",
+        "local_arrival_time": "10:50",
+        "duration": "02:45"
     },
     {
         "flight_number": "CI164",
@@ -88,6 +99,17 @@
         "duration": "01:45"
     },
     {
+        "flight_number": "AE967",
+        "airline_name": "China Airlines",
+        "destination_iata": "XMN",
+        "destination_airport_name": "Xiamen Gaoqi International Airport",
+        "destination_city": "Xiamen",
+        "destination_country": "China",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "09:00",
+        "duration": "01:30"
+    },
+    {
         "flight_number": "CX449",
         "airline_name": "Cathay Pacific",
         "destination_iata": "HKG",
@@ -110,17 +132,6 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "AE967",
-        "airline_name": "China Airlines",
-        "destination_iata": "XMN",
-        "destination_airport_name": "Xiamen Gaoqi International Airport",
-        "destination_city": "Xiamen",
-        "destination_country": "China",
-        "local_departure_time": "07:30",
-        "local_arrival_time": "09:00",
-        "duration": "01:30"
-    },
-    {
         "flight_number": "CI933",
         "airline_name": "China Airlines",
         "destination_iata": "HKG",
@@ -138,20 +149,9 @@
         "destination_airport_name": "Tokyo Narita International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "08:00",
+        "local_departure_time": "08:01",
         "local_arrival_time": "12:35",
-        "duration": "03:35"
-    },
-    {
-        "flight_number": "FD234",
-        "airline_name": "AirAsia",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "08:05",
-        "local_arrival_time": "12:55",
-        "duration": "03:50"
+        "duration": "03:34"
     },
     {
         "flight_number": "IT280",
@@ -165,6 +165,28 @@
         "duration": "03:35"
     },
     {
+        "flight_number": "FD234",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "NRT",
+        "destination_airport_name": "Tokyo Narita International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "08:05",
+        "local_arrival_time": "12:55",
+        "duration": "03:50"
+    },
+    {
+        "flight_number": "CI585",
+        "airline_name": "China Airlines",
+        "destination_iata": "SZX",
+        "destination_airport_name": "Shenzhen Bao'an International Airport",
+        "destination_city": "Shenzhen",
+        "destination_country": "China",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "10:10",
+        "duration": "01:40"
+    },
+    {
         "flight_number": "VN587",
         "airline_name": "Vietnam Airlines",
         "destination_iata": "HAN",
@@ -174,6 +196,17 @@
         "local_departure_time": "08:40",
         "local_arrival_time": "10:20",
         "duration": "02:40"
+    },
+    {
+        "flight_number": "BR829",
+        "airline_name": "EVA Air",
+        "destination_iata": "MFM",
+        "destination_airport_name": "Macau International Airport",
+        "destination_city": "Macau",
+        "destination_country": "Macao",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "10:35",
+        "duration": "01:35"
     },
     {
         "flight_number": "NX657",
@@ -198,14 +231,14 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "UO131",
-        "airline_name": "HK express",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "10:15",
-        "local_arrival_time": "11:45",
+        "flight_number": "NX9661",
+        "airline_name": "Air Macau",
+        "destination_iata": "MFM",
+        "destination_airport_name": "Macau International Airport",
+        "destination_city": "Macau",
+        "destination_country": "Macao",
+        "local_departure_time": "10:00 / 10:45",
+        "local_arrival_time": "11:25 / 12:15",
         "duration": "01:30"
     },
     {
@@ -215,20 +248,20 @@
         "destination_airport_name": "Tokyo Narita International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "10:25",
-        "local_arrival_time": "15:15",
-        "duration": "03:50"
+        "local_departure_time": "10:15",
+        "local_arrival_time": "15:00",
+        "duration": "03:45"
     },
     {
-        "flight_number": "NX9661",
-        "airline_name": "Air Macau",
-        "destination_iata": "MFM",
-        "destination_airport_name": "Macau International Airport",
-        "destination_city": "Macau",
-        "destination_country": "Macao",
-        "local_departure_time": "11:20",
-        "local_arrival_time": "12:45",
-        "duration": "01:25"
+        "flight_number": "UO131",
+        "airline_name": "HK express",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "10:15",
+        "local_arrival_time": "11:45",
+        "duration": "01:30"
     },
     {
         "flight_number": "CX431",
@@ -264,6 +297,39 @@
         "duration": "03:10"
     },
     {
+        "flight_number": "CZ3094",
+        "airline_name": "China Southern Airlines",
+        "destination_iata": "WUH",
+        "destination_airport_name": "Wuhan Tianhe International Airport",
+        "destination_city": "Wuhan",
+        "destination_country": "China",
+        "local_departure_time": "12:10",
+        "local_arrival_time": "14:45",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "VJ885",
+        "airline_name": "VietJet Air",
+        "destination_iata": "SGN",
+        "destination_airport_name": "Ho Chi Minh City International Airport",
+        "destination_city": "Ho Chi Minh City",
+        "destination_country": "Vietnam",
+        "local_departure_time": "12:40",
+        "local_arrival_time": "14:50",
+        "duration": "03:10"
+    },
+    {
+        "flight_number": "CI757",
+        "airline_name": "Mandarin Airlines",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "12:50",
+        "local_arrival_time": "17:10",
+        "duration": "04:20"
+    },
+    {
         "flight_number": "CI126",
         "airline_name": "China Airlines",
         "destination_iata": "NRT",
@@ -297,6 +363,39 @@
         "duration": "02:45"
     },
     {
+        "flight_number": "SL391",
+        "airline_name": "Thai Lion Air",
+        "destination_iata": "DMK",
+        "destination_airport_name": "Bangkok Don Mueang International Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "13:40",
+        "local_arrival_time": "16:05",
+        "duration": "03:25"
+    },
+    {
+        "flight_number": "AK171",
+        "airline_name": "AirAsia",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "13:45",
+        "local_arrival_time": "18:05",
+        "duration": "04:20"
+    },
+    {
+        "flight_number": "IT274",
+        "airline_name": "Tigerair Taiwan",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "17:50",
+        "duration": "02:50"
+    },
+    {
         "flight_number": "BX796",
         "airline_name": "Air Busan",
         "destination_iata": "PUS",
@@ -309,7 +408,7 @@
     },
     {
         "flight_number": "CI839",
-        "airline_name": "Mandarin Airlines",
+        "airline_name": "China Airlines",
         "destination_iata": "BKK",
         "destination_airport_name": "Bangkok Suvarnabhumi Airport",
         "destination_city": "Bangkok",
@@ -352,17 +451,6 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "BR148",
-        "airline_name": "EVA Air",
-        "destination_iata": "KIX",
-        "destination_airport_name": "Osaka Kansai International Airport",
-        "destination_city": "Osaka",
-        "destination_country": "Japan",
-        "local_departure_time": "15:25",
-        "local_arrival_time": "19:35",
-        "duration": "03:10"
-    },
-    {
         "flight_number": "BR120",
         "airline_name": "EVA Air",
         "destination_iata": "FUK",
@@ -385,6 +473,17 @@
         "duration": "03:00"
     },
     {
+        "flight_number": "BR172",
+        "airline_name": "EVA Air",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
+        "local_departure_time": "15:50",
+        "local_arrival_time": "19:45",
+        "duration": "02:55"
+    },
+    {
         "flight_number": "TW672",
         "airline_name": "T'way Air",
         "destination_iata": "ICN",
@@ -394,6 +493,17 @@
         "local_departure_time": "16:10",
         "local_arrival_time": "19:55",
         "duration": "02:45"
+    },
+    {
+        "flight_number": "CI583",
+        "airline_name": "China Airlines",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
+        "local_departure_time": "16:45",
+        "local_arrival_time": "19:10",
+        "duration": "02:25"
     },
     {
         "flight_number": "BR849",
@@ -418,6 +528,17 @@
         "duration": "02:15"
     },
     {
+        "flight_number": "7C6256",
+        "airline_name": "Jeju Air",
+        "destination_iata": "PUS",
+        "destination_airport_name": "Busan Gimhae International Airport",
+        "destination_city": "Busan",
+        "destination_country": "South Korea",
+        "local_departure_time": "17:00",
+        "local_arrival_time": "20:40",
+        "duration": "02:40"
+    },
+    {
         "flight_number": "TG631",
         "airline_name": "Thai Airways",
         "destination_iata": "BKK",
@@ -427,6 +548,17 @@
         "local_departure_time": "17:15",
         "local_arrival_time": "19:55",
         "duration": "03:40"
+    },
+    {
+        "flight_number": "IT321",
+        "airline_name": "Tigerair Taiwan",
+        "destination_iata": "MFM",
+        "destination_airport_name": "Macau International Airport",
+        "destination_city": "Macau",
+        "destination_country": "Macao",
+        "local_departure_time": "17:30",
+        "local_arrival_time": "19:20",
+        "duration": "01:50"
     },
     {
         "flight_number": "CI935",
@@ -440,26 +572,15 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "FD235",
-        "airline_name": "AirAsia",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "18:05",
-        "local_arrival_time": "20:30",
-        "duration": "03:25"
-    },
-    {
-        "flight_number": "VJ947",
-        "airline_name": "VietJet Air",
-        "destination_iata": "HAN",
-        "destination_airport_name": "Hanoi Noi Bai International Airport",
-        "destination_city": "Hanoi",
-        "destination_country": "Vietnam",
-        "local_departure_time": "18:50",
-        "local_arrival_time": "20:35",
-        "duration": "02:45"
+        "flight_number": "Z2133",
+        "airline_name": "Philippines AirAsia",
+        "destination_iata": "MNL",
+        "destination_airport_name": "Manila Ninoy Aquino International Airport",
+        "destination_city": "Manila",
+        "destination_country": "Philippines",
+        "local_departure_time": "18:35",
+        "local_arrival_time": "20:25",
+        "duration": "01:50"
     },
     {
         "flight_number": "CX459",
@@ -471,38 +592,5 @@
         "local_departure_time": "19:10",
         "local_arrival_time": "20:50",
         "duration": "01:40"
-    },
-    {
-        "flight_number": "MF8680",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "FOC",
-        "destination_airport_name": "Fuzhou Changle International Airport",
-        "destination_city": "Fuzhou",
-        "destination_country": "China",
-        "local_departure_time": "19:50",
-        "local_arrival_time": "21:35",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "5J345",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "MNL",
-        "destination_airport_name": "Manila Ninoy Aquino International Airport",
-        "destination_city": "Manila",
-        "destination_country": "Philippines",
-        "local_departure_time": "20:00",
-        "local_arrival_time": "22:00",
-        "duration": "02:00"
-    },
-    {
-        "flight_number": "UO135",
-        "airline_name": "HK express",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "21:15",
-        "local_arrival_time": "22:40",
-        "duration": "01:25"
     }
 ]

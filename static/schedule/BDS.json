@@ -1,5 +1,16 @@
 [
     {
+        "flight_number": "FR4352",
+        "airline_name": "Ryanair",
+        "destination_iata": "BLQ",
+        "destination_airport_name": "Bologna Guglielmo Marconi Airport",
+        "destination_city": "Bologna",
+        "destination_country": "Italy",
+        "local_departure_time": "05:45",
+        "local_arrival_time": "07:10",
+        "duration": "01:25"
+    },
+    {
         "flight_number": "FR2859",
         "airline_name": "Ryanair",
         "destination_iata": "BGY",
@@ -22,6 +33,17 @@
         "duration": "01:15"
     },
     {
+        "flight_number": "FR5843",
+        "airline_name": "Ryanair",
+        "destination_iata": "FCO",
+        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
+        "destination_city": "Rome",
+        "destination_country": "Italy",
+        "local_departure_time": "07:35",
+        "local_arrival_time": "08:55",
+        "duration": "01:20"
+    },
+    {
         "flight_number": "FR3733",
         "airline_name": "Ryanair",
         "destination_iata": "VCE",
@@ -33,26 +55,26 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "FR4352",
+        "flight_number": "FR2877",
         "airline_name": "Ryanair",
-        "destination_iata": "BLQ",
-        "destination_airport_name": "Bologna Guglielmo Marconi Airport",
-        "destination_city": "Bologna",
+        "destination_iata": "BGY",
+        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
+        "destination_city": "Milan",
         "destination_country": "Italy",
-        "local_departure_time": "07:45",
-        "local_arrival_time": "09:05",
-        "duration": "01:20"
+        "local_departure_time": "07:50",
+        "local_arrival_time": "09:30",
+        "duration": "01:40"
     },
     {
-        "flight_number": "FR8279",
+        "flight_number": "FR8913",
         "airline_name": "Ryanair",
-        "destination_iata": "PSA",
-        "destination_airport_name": "Pisa Galileo Galilei Airport",
-        "destination_city": "Pisa",
+        "destination_iata": "TRN",
+        "destination_airport_name": "Turin Caselle Airport",
+        "destination_city": "Turin",
         "destination_country": "Italy",
-        "local_departure_time": "08:35",
+        "local_departure_time": "08:20",
         "local_arrival_time": "10:05",
-        "duration": "01:30"
+        "duration": "01:45"
     },
     {
         "flight_number": "U21426",
@@ -61,9 +83,20 @@
         "destination_airport_name": "Geneva International Airport",
         "destination_city": "Geneva",
         "destination_country": "Switzerland",
-        "local_departure_time": "08:55",
-        "local_arrival_time": "11:00",
-        "duration": "02:05"
+        "local_departure_time": "08:45",
+        "local_arrival_time": "10:45",
+        "duration": "02:00"
+    },
+    {
+        "flight_number": "FR3237",
+        "airline_name": "Ryanair",
+        "destination_iata": "EIN",
+        "destination_airport_name": "Eindhoven Airport",
+        "destination_city": "Eindhoven",
+        "destination_country": "Netherlands",
+        "local_departure_time": "09:40",
+        "local_arrival_time": "12:15",
+        "duration": "02:35"
     },
     {
         "flight_number": "FR978",
@@ -72,31 +105,20 @@
         "destination_airport_name": "Milan Malpensa Airport",
         "destination_city": "Milan",
         "destination_country": "Italy",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "10:55",
+        "local_departure_time": "10:20",
+        "local_arrival_time": "12:05",
         "duration": "01:45"
     },
     {
-        "flight_number": "U23514",
-        "airline_name": "easyJet",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
+        "flight_number": "FR2865",
+        "airline_name": "Ryanair",
+        "destination_iata": "BGY",
+        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
         "destination_city": "Milan",
         "destination_country": "Italy",
-        "local_departure_time": "09:30",
-        "local_arrival_time": "11:15",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "FR3075",
-        "airline_name": "Ryanair",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "10:40",
-        "local_arrival_time": "12:00",
-        "duration": "01:20"
+        "local_departure_time": "10:25",
+        "local_arrival_time": "12:05",
+        "duration": "01:40"
     },
     {
         "flight_number": "AZ1624",
@@ -110,58 +132,14 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "BA615",
-        "airline_name": "British Airways",
-        "destination_iata": "LHR",
-        "destination_airport_name": "London Heathrow Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "11:20",
-        "local_arrival_time": "13:25",
-        "duration": "03:05"
-    },
-    {
-        "flight_number": "FR4339",
-        "airline_name": "Ryanair",
-        "destination_iata": "BLQ",
-        "destination_airport_name": "Bologna Guglielmo Marconi Airport",
-        "destination_city": "Bologna",
-        "destination_country": "Italy",
-        "local_departure_time": "11:55",
-        "local_arrival_time": "13:20",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "U24418",
-        "airline_name": "easyJet",
-        "destination_iata": "LYS",
-        "destination_airport_name": "Lyon Saint Exupery Airport",
-        "destination_city": "Lyon",
-        "destination_country": "France",
-        "local_departure_time": "13:35",
-        "local_arrival_time": "15:50",
-        "duration": "02:15"
-    },
-    {
-        "flight_number": "U21120",
-        "airline_name": "easyJet",
-        "destination_iata": "BSL",
-        "destination_airport_name": "Basel Mulhouse-Freiburg EuroAirport",
-        "destination_city": "Basel",
-        "destination_country": "France",
-        "local_departure_time": "14:30 / 14:55",
-        "local_arrival_time": "16:30 / 16:55",
-        "duration": "02:00"
-    },
-    {
         "flight_number": "U23516",
         "airline_name": "easyJet",
         "destination_iata": "MXP",
         "destination_airport_name": "Milan Malpensa Airport",
         "destination_city": "Milan",
         "destination_country": "Italy",
-        "local_departure_time": "14:30 / 15:20",
-        "local_arrival_time": "16:15 / 17:05",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "16:15",
         "duration": "01:45"
     },
     {
@@ -174,28 +152,6 @@
         "local_departure_time": "14:50",
         "local_arrival_time": "16:50",
         "duration": "02:00"
-    },
-    {
-        "flight_number": "AZ1622",
-        "airline_name": "ITA Airways",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "15:15",
-        "local_arrival_time": "16:25",
-        "duration": "01:10"
-    },
-    {
-        "flight_number": "FR8826",
-        "airline_name": "Ryanair",
-        "destination_iata": "TRN",
-        "destination_airport_name": "Turin Caselle Airport",
-        "destination_city": "Turin",
-        "destination_country": "Italy",
-        "local_departure_time": "15:20",
-        "local_arrival_time": "17:05",
-        "duration": "01:45"
     },
     {
         "flight_number": "FR858",
@@ -231,39 +187,6 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "FR2865",
-        "airline_name": "Ryanair",
-        "destination_iata": "BGY",
-        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "17:40",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "FR3520",
-        "airline_name": "Ryanair",
-        "destination_iata": "GDN",
-        "destination_airport_name": "Gdansk Lech Walesa Airport",
-        "destination_city": "Gdansk",
-        "destination_country": "Poland",
-        "local_departure_time": "16:35",
-        "local_arrival_time": "19:00",
-        "duration": "02:25"
-    },
-    {
-        "flight_number": "FR2877",
-        "airline_name": "Ryanair",
-        "destination_iata": "BGY",
-        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "17:50",
-        "local_arrival_time": "19:30",
-        "duration": "01:40"
-    },
-    {
         "flight_number": "FR3075",
         "airline_name": "Ryanair",
         "destination_iata": "FCO",
@@ -275,28 +198,6 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "FR3415",
-        "airline_name": "Ryanair",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "17:55",
-        "local_arrival_time": "19:40",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "FR8971",
-        "airline_name": "Ryanair",
-        "destination_iata": "PMO",
-        "destination_airport_name": "Palermo Falcone-Borsellino Airport",
-        "destination_city": "Palermo",
-        "destination_country": "Italy",
-        "local_departure_time": "18:20",
-        "local_arrival_time": "19:35",
-        "duration": "01:15"
-    },
-    {
         "flight_number": "AZ1634",
         "airline_name": "ITA Airways",
         "destination_iata": "FCO",
@@ -306,28 +207,6 @@
         "local_departure_time": "19:10",
         "local_arrival_time": "20:25",
         "duration": "01:15"
-    },
-    {
-        "flight_number": "TO3869",
-        "airline_name": "Transavia France",
-        "destination_iata": "ORY",
-        "destination_airport_name": "Paris Orly Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "19:25",
-        "local_arrival_time": "22:05",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "FR7686",
-        "airline_name": "Ryanair",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "19:35",
-        "local_arrival_time": "22:50",
-        "duration": "03:15"
     },
     {
         "flight_number": "FR8826",
@@ -342,14 +221,14 @@
     },
     {
         "flight_number": "LX1721",
-        "airline_name": "Air Baltic",
+        "airline_name": "Helvetic Airways",
         "destination_iata": "ZRH",
         "destination_airport_name": "Zurich Airport",
         "destination_city": "Zurich",
         "destination_country": "Switzerland",
-        "local_departure_time": "19:45 / 20:25",
-        "local_arrival_time": "21:45 / 22:30",
-        "duration": "02:05"
+        "local_departure_time": "20:10 / 20:25",
+        "local_arrival_time": "22:10 / 22:30",
+        "duration": "02:00"
     },
     {
         "flight_number": "FR3775",
@@ -358,20 +237,9 @@
         "destination_airport_name": "Bologna Guglielmo Marconi Airport",
         "destination_city": "Bologna",
         "destination_country": "Italy",
-        "local_departure_time": "20:05 / 20:15",
-        "local_arrival_time": "21:30 / 21:40",
+        "local_departure_time": "20:15",
+        "local_arrival_time": "21:40",
         "duration": "01:25"
-    },
-    {
-        "flight_number": "FR3150",
-        "airline_name": "Ryanair",
-        "destination_iata": "VRN",
-        "destination_airport_name": "Verona Airport",
-        "destination_city": "Verona",
-        "destination_country": "Italy",
-        "local_departure_time": "20:20",
-        "local_arrival_time": "21:50",
-        "duration": "01:30"
     },
     {
         "flight_number": "BA615",
@@ -392,41 +260,30 @@
         "destination_city": "Geneva",
         "destination_country": "Switzerland",
         "local_departure_time": "20:35",
-        "local_arrival_time": "22:35",
-        "duration": "02:00"
+        "local_arrival_time": "22:30",
+        "duration": "01:55"
     },
     {
-        "flight_number": "U21438",
+        "flight_number": "U21134",
         "airline_name": "easyJet",
-        "destination_iata": "GVA",
-        "destination_airport_name": "Geneva International Airport",
-        "destination_city": "Geneva",
-        "destination_country": "Switzerland",
-        "local_departure_time": "20:50",
-        "local_arrival_time": "22:50",
+        "destination_iata": "BSL",
+        "destination_airport_name": "Basel Mulhouse-Freiburg EuroAirport",
+        "destination_city": "Basel",
+        "destination_country": "France",
+        "local_departure_time": "20:40",
+        "local_arrival_time": "22:40",
         "duration": "02:00"
     },
     {
-        "flight_number": "FR2476",
+        "flight_number": "FR2877",
         "airline_name": "Ryanair",
-        "destination_iata": "STN",
-        "destination_airport_name": "London Stansted Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "21:15",
-        "local_arrival_time": "23:15",
-        "duration": "03:00"
-    },
-    {
-        "flight_number": "U28334",
-        "airline_name": "easyJet",
-        "destination_iata": "LGW",
-        "destination_airport_name": "London Gatwick Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "23:40",
-        "duration": "03:10"
+        "destination_iata": "BGY",
+        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
+        "destination_city": "Milan",
+        "destination_country": "Italy",
+        "local_departure_time": "21:00",
+        "local_arrival_time": "22:40",
+        "duration": "01:40"
     },
     {
         "flight_number": "FR6020",
@@ -435,8 +292,8 @@
         "destination_airport_name": "Pisa Galileo Galilei Airport",
         "destination_city": "Pisa",
         "destination_country": "Italy",
-        "local_departure_time": "21:45",
-        "local_arrival_time": "23:15",
+        "local_departure_time": "21:45 / 22:20",
+        "local_arrival_time": "23:15 / 23:50",
         "duration": "01:30"
     },
     {
@@ -446,41 +303,19 @@
         "destination_airport_name": "Milan Malpensa Airport",
         "destination_city": "Milan",
         "destination_country": "Italy",
-        "local_departure_time": "22:10 / 22:35",
-        "local_arrival_time": "00:20 (+1) / 23:55",
+        "local_departure_time": "22:10",
+        "local_arrival_time": "23:55",
         "duration": "01:45"
     },
     {
-        "flight_number": "FR8971",
-        "airline_name": "Ryanair",
-        "destination_iata": "PMO",
-        "destination_airport_name": "Palermo Falcone-Borsellino Airport",
-        "destination_city": "Palermo",
-        "destination_country": "Italy",
-        "local_departure_time": "22:20",
-        "local_arrival_time": "23:35",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "FR858",
-        "airline_name": "Ryanair",
-        "destination_iata": "BGY",
-        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "22:55",
-        "local_arrival_time": "00:35 (+1)",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "FR5843",
+        "flight_number": "FR3075",
         "airline_name": "Ryanair",
         "destination_iata": "FCO",
         "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
         "destination_city": "Rome",
         "destination_country": "Italy",
-        "local_departure_time": "23:15",
-        "local_arrival_time": "00:35 (+1)",
+        "local_departure_time": "22:55",
+        "local_arrival_time": "00:15 (+1)",
         "duration": "01:20"
     },
     {
@@ -495,14 +330,14 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "FR357",
+        "flight_number": "FR858",
         "airline_name": "Ryanair",
-        "destination_iata": "VCE",
-        "destination_airport_name": "Venice Marco Polo Airport",
-        "destination_city": "Venice",
+        "destination_iata": "BGY",
+        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
+        "destination_city": "Milan",
         "destination_country": "Italy",
-        "local_departure_time": "23:40",
+        "local_departure_time": "23:30",
         "local_arrival_time": "01:10 (+1)",
-        "duration": "01:30"
+        "duration": "01:40"
     }
 ]

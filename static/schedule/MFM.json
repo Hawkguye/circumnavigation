@@ -1,16 +1,5 @@
 [
     {
-        "flight_number": "BX382",
-        "airline_name": "Air Busan",
-        "destination_iata": "PUS",
-        "destination_airport_name": "Busan Gimhae International Airport",
-        "destination_city": "Busan",
-        "destination_country": "South Korea",
-        "local_departure_time": "01:55",
-        "local_arrival_time": "06:30",
-        "duration": "03:35"
-    },
-    {
         "flight_number": "QR8906",
         "airline_name": "Qatar Airways",
         "destination_iata": "DOH",
@@ -18,8 +7,8 @@
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "02:30",
-        "local_arrival_time": "05:20",
-        "duration": "07:50"
+        "local_arrival_time": "05:30",
+        "duration": "08:00"
     },
     {
         "flight_number": "NX632",
@@ -31,6 +20,28 @@
         "local_departure_time": "07:10",
         "local_arrival_time": "08:55",
         "duration": "01:45"
+    },
+    {
+        "flight_number": "NX9606",
+        "airline_name": "Air Macau",
+        "destination_iata": "TPE",
+        "destination_airport_name": "Taipei Taoyuan International Airport",
+        "destination_city": "Taipei",
+        "destination_country": "Taiwan",
+        "local_departure_time": "07:15",
+        "local_arrival_time": "09:05",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "NX9662",
+        "airline_name": "Air Macau",
+        "destination_iata": "KHH",
+        "destination_airport_name": "Kaohsiung International Airport",
+        "destination_city": "Kaohsiung",
+        "destination_country": "Taiwan",
+        "local_departure_time": "07:30 / 08:15",
+        "local_arrival_time": "09:00 / 09:45",
+        "duration": "01:30"
     },
     {
         "flight_number": "NX996",
@@ -86,17 +97,6 @@
         "local_departure_time": "08:35",
         "local_arrival_time": "13:15",
         "duration": "03:40"
-    },
-    {
-        "flight_number": "NX9662",
-        "airline_name": "Air Macau",
-        "destination_iata": "KHH",
-        "destination_airport_name": "Kaohsiung International Airport",
-        "destination_city": "Kaohsiung",
-        "destination_country": "Taiwan",
-        "local_departure_time": "08:45",
-        "local_arrival_time": "10:20",
-        "duration": "01:35"
     },
     {
         "flight_number": "NX862",
@@ -165,6 +165,39 @@
         "duration": "03:35"
     },
     {
+        "flight_number": "NX922",
+        "airline_name": "Air Macau",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "11:40",
+        "local_arrival_time": "15:30",
+        "duration": "03:50"
+    },
+    {
+        "flight_number": "NX182",
+        "airline_name": "Air Macau",
+        "destination_iata": "CKG",
+        "destination_airport_name": "Chongqing Jiangbei International Airport",
+        "destination_city": "Chongqing",
+        "destination_country": "China",
+        "local_departure_time": "11:40",
+        "local_arrival_time": "14:20",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "BR830",
+        "airline_name": "EVA Air",
+        "destination_iata": "KHH",
+        "destination_airport_name": "Kaohsiung International Airport",
+        "destination_city": "Kaohsiung",
+        "destination_country": "Taiwan",
+        "local_departure_time": "11:45",
+        "local_arrival_time": "13:15",
+        "duration": "01:30"
+    },
+    {
         "flight_number": "NX908",
         "airline_name": "Air Macau",
         "destination_iata": "SIN",
@@ -205,8 +238,8 @@
         "destination_city": "Chengdu",
         "destination_country": "China",
         "local_departure_time": "12:20",
-        "local_arrival_time": "14:50",
-        "duration": "02:30"
+        "local_arrival_time": "14:50 / 15:00",
+        "duration": "02:40"
     },
     {
         "flight_number": "NX668",
@@ -220,6 +253,17 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "NX936",
+        "airline_name": "Air Macau",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "12:35",
+        "local_arrival_time": "14:20",
+        "duration": "02:45"
+    },
+    {
         "flight_number": "NX162",
         "airline_name": "Air Macau",
         "destination_iata": "NGB",
@@ -229,6 +273,17 @@
         "local_departure_time": "12:50",
         "local_arrival_time": "14:55",
         "duration": "02:05"
+    },
+    {
+        "flight_number": "MU866",
+        "airline_name": "China Eastern Airlines",
+        "destination_iata": "KHN",
+        "destination_airport_name": "Nanchang Changbei International Airport",
+        "destination_city": "Nanchang",
+        "destination_country": "China",
+        "local_departure_time": "12:55",
+        "local_arrival_time": "14:45",
+        "duration": "01:50"
     },
     {
         "flight_number": "BR802",
@@ -260,8 +315,19 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "13:25",
-        "local_arrival_time": "15:50",
-        "duration": "02:25"
+        "local_arrival_time": "15:40 / 16:00",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "NX258",
+        "airline_name": "Air Macau",
+        "destination_iata": "WNZ",
+        "destination_airport_name": "Wenzhou Longwan International Airport",
+        "destination_city": "Wenzhou",
+        "destination_country": "China",
+        "local_departure_time": "13:35",
+        "local_arrival_time": "15:35",
+        "duration": "02:00"
     },
     {
         "flight_number": "FM818",
@@ -271,8 +337,8 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "13:40",
-        "local_arrival_time": "16:10",
-        "duration": "02:30"
+        "local_arrival_time": "16:15",
+        "duration": "02:35"
     },
     {
         "flight_number": "NX128",
@@ -286,6 +352,17 @@
         "duration": "02:15"
     },
     {
+        "flight_number": "AK189",
+        "airline_name": "AirAsia",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "17:55",
+        "duration": "03:55"
+    },
+    {
         "flight_number": "KE170",
         "airline_name": "Korean Air",
         "destination_iata": "ICN",
@@ -297,26 +374,15 @@
         "duration": "03:50"
     },
     {
-        "flight_number": "SL373",
-        "airline_name": "Thai Lion Air",
+        "flight_number": "FD763",
+        "airline_name": "AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
         "destination_country": "Thailand",
-        "local_departure_time": "14:20",
-        "local_arrival_time": "15:55",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "AK189",
-        "airline_name": "AirAsia",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "14:35",
-        "local_arrival_time": "18:30",
-        "duration": "03:55"
+        "local_departure_time": "14:15",
+        "local_arrival_time": "16:00",
+        "duration": "02:45"
     },
     {
         "flight_number": "MU9798",
@@ -341,39 +407,6 @@
         "duration": "03:45"
     },
     {
-        "flight_number": "MF8682",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "XMN",
-        "destination_airport_name": "Xiamen Gaoqi International Airport",
-        "destination_city": "Xiamen",
-        "destination_country": "China",
-        "local_departure_time": "15:00",
-        "local_arrival_time": "16:05",
-        "duration": "01:05"
-    },
-    {
-        "flight_number": "NX22",
-        "airline_name": "Air Macau",
-        "destination_iata": "TAO",
-        "destination_airport_name": "Qingdao Jiaodong International Airport",
-        "destination_city": "Qingdao",
-        "destination_country": "China",
-        "local_departure_time": "15:15",
-        "local_arrival_time": "18:35",
-        "duration": "03:20"
-    },
-    {
-        "flight_number": "NX10",
-        "airline_name": "Air Macau",
-        "destination_iata": "PEK",
-        "destination_airport_name": "Beijing Capital International Airport",
-        "destination_city": "Beijing",
-        "destination_country": "China",
-        "local_departure_time": "15:20",
-        "local_arrival_time": "18:40",
-        "duration": "03:20"
-    },
-    {
         "flight_number": "CZ6082",
         "airline_name": "China Southern Airlines",
         "destination_iata": "PKX",
@@ -383,17 +416,6 @@
         "local_departure_time": "15:55",
         "local_arrival_time": "19:15",
         "duration": "03:20"
-    },
-    {
-        "flight_number": "CA120",
-        "airline_name": "Air China",
-        "destination_iata": "WUH",
-        "destination_airport_name": "Wuhan Tianhe International Airport",
-        "destination_city": "Wuhan",
-        "destination_country": "China",
-        "local_departure_time": "16:15",
-        "local_arrival_time": "18:00",
-        "duration": "01:45"
     },
     {
         "flight_number": "MU2008",
@@ -418,6 +440,17 @@
         "duration": "02:35"
     },
     {
+        "flight_number": "QR8829",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "CCU",
+        "destination_airport_name": "Kolkata Subhas Chandra Bose International Airport",
+        "destination_city": "Kolkata",
+        "destination_country": "India",
+        "local_departure_time": "17:00",
+        "local_arrival_time": "18:15",
+        "duration": "03:45"
+    },
+    {
         "flight_number": "NX102",
         "airline_name": "Air Macau",
         "destination_iata": "PVG",
@@ -427,17 +460,6 @@
         "local_departure_time": "17:15",
         "local_arrival_time": "19:45",
         "duration": "02:30"
-    },
-    {
-        "flight_number": "MF8672",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "FOC",
-        "destination_airport_name": "Fuzhou Changle International Airport",
-        "destination_city": "Fuzhou",
-        "destination_country": "China",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "19:20",
-        "duration": "01:50"
     },
     {
         "flight_number": "NX618",
@@ -491,8 +513,8 @@
         "destination_city": "Guiyang",
         "destination_country": "China",
         "local_departure_time": "18:05",
-        "local_arrival_time": "19:40",
-        "duration": "01:35"
+        "local_arrival_time": "19:55",
+        "duration": "01:50"
     },
     {
         "flight_number": "NX826",
@@ -550,6 +572,17 @@
         "duration": "02:10"
     },
     {
+        "flight_number": "NX8",
+        "airline_name": "Air Macau",
+        "destination_iata": "PEK",
+        "destination_airport_name": "Beijing Capital International Airport",
+        "destination_city": "Beijing",
+        "destination_country": "China",
+        "local_departure_time": "19:15",
+        "local_arrival_time": "22:30",
+        "duration": "03:15"
+    },
+    {
         "flight_number": "NX138",
         "airline_name": "Air Macau",
         "destination_iata": "SHA",
@@ -559,6 +592,17 @@
         "local_departure_time": "19:20",
         "local_arrival_time": "21:40",
         "duration": "02:20"
+    },
+    {
+        "flight_number": "NX992",
+        "airline_name": "Air Macau",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "19:45",
+        "local_arrival_time": "21:50",
+        "duration": "03:05"
     },
     {
         "flight_number": "MU2056",
@@ -581,39 +625,6 @@
         "local_departure_time": "20:10",
         "local_arrival_time": "22:05",
         "duration": "01:55"
-    },
-    {
-        "flight_number": "MU240",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "SHA",
-        "destination_airport_name": "Shanghai Hongqiao International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "20:20",
-        "local_arrival_time": "22:55",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "NX196",
-        "airline_name": "Air Macau",
-        "destination_iata": "NNG",
-        "destination_airport_name": "Nanning Wuxu International Airport",
-        "destination_city": "Nanning",
-        "destination_country": "China",
-        "local_departure_time": "20:25",
-        "local_arrival_time": "21:45",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "NX992",
-        "airline_name": "Air Macau",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "22:35",
-        "duration": "03:05"
     },
     {
         "flight_number": "NX166",
@@ -682,17 +693,6 @@
         "duration": "03:45"
     },
     {
-        "flight_number": "AK187",
-        "airline_name": "AirAsia",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "01:20 (+1)",
-        "duration": "03:50"
-    },
-    {
         "flight_number": "MU9992",
         "airline_name": "China Eastern Airlines",
         "destination_iata": "PVG",
@@ -735,38 +735,5 @@
         "local_departure_time": "22:25",
         "local_arrival_time": "00:45 (+1)",
         "duration": "02:20"
-    },
-    {
-        "flight_number": "QR8913",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "22:30",
-        "local_arrival_time": "01:20 (+1)",
-        "duration": "07:50"
-    },
-    {
-        "flight_number": "NX984",
-        "airline_name": "Air Macau",
-        "destination_iata": "HAN",
-        "destination_airport_name": "Hanoi Noi Bai International Airport",
-        "destination_city": "Hanoi",
-        "destination_country": "Vietnam",
-        "local_departure_time": "22:50",
-        "local_arrival_time": "23:45",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "NX982",
-        "airline_name": "Air Macau",
-        "destination_iata": "HAN",
-        "destination_airport_name": "Hanoi Noi Bai International Airport",
-        "destination_city": "Hanoi",
-        "destination_country": "Vietnam",
-        "local_departure_time": "22:55",
-        "local_arrival_time": "23:35",
-        "duration": "01:40"
     }
 ]

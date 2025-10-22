@@ -7,8 +7,8 @@
         "destination_city": "Miami",
         "destination_country": "United States",
         "local_departure_time": "07:00",
-        "local_arrival_time": "09:40",
-        "duration": "01:40"
+        "local_arrival_time": "09:35",
+        "duration": "01:35"
     },
     {
         "flight_number": "KX600",
@@ -22,15 +22,15 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "KX200",
-        "airline_name": "Cayman Airways",
-        "destination_iata": "TPA",
-        "destination_airport_name": "Tampa International Airport",
-        "destination_city": "Tampa",
+        "flight_number": "AA1106",
+        "airline_name": "American Airlines",
+        "destination_iata": "MIA",
+        "destination_airport_name": "Miami International Airport",
+        "destination_city": "Miami",
         "destination_country": "United States",
-        "local_departure_time": "11:25",
-        "local_arrival_time": "14:15",
-        "duration": "01:50"
+        "local_departure_time": "08:25",
+        "local_arrival_time": "11:00",
+        "duration": "01:35"
     },
     {
         "flight_number": "KX852",
@@ -51,8 +51,19 @@
         "destination_city": "Miami",
         "destination_country": "United States",
         "local_departure_time": "12:10",
-        "local_arrival_time": "14:45",
-        "duration": "01:35"
+        "local_arrival_time": "14:40",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "KX908",
+        "airline_name": "Cayman Airways",
+        "destination_iata": "MIA",
+        "destination_airport_name": "Miami International Airport",
+        "destination_city": "Miami",
+        "destination_country": "United States",
+        "local_departure_time": "12:15",
+        "local_arrival_time": "15:15",
+        "duration": "02:00"
     },
     {
         "flight_number": "AA301",
@@ -64,17 +75,6 @@
         "local_departure_time": "12:25",
         "local_arrival_time": "16:30",
         "duration": "03:05"
-    },
-    {
-        "flight_number": "DL1870",
-        "airline_name": "Delta Air Lines",
-        "destination_iata": "ATL",
-        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
-        "destination_city": "Atlanta",
-        "destination_country": "United States",
-        "local_departure_time": "12:37",
-        "local_arrival_time": "16:27",
-        "duration": "02:50"
     },
     {
         "flight_number": "KX202",
@@ -99,26 +99,15 @@
         "duration": "04:00"
     },
     {
-        "flight_number": "KX832",
-        "airline_name": "Cayman Airways",
-        "destination_iata": "HAV",
-        "destination_airport_name": "Havana Jose Marti International Airport",
-        "destination_city": "Havana",
-        "destination_country": "Cuba",
-        "local_departure_time": "12:55",
-        "local_arrival_time": "15:10",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "UA1854",
-        "airline_name": "United Airlines",
-        "destination_iata": "IAH",
-        "destination_airport_name": "Houston George Bush Intercontinental Airport",
-        "destination_city": "Houston",
+        "flight_number": "DL1870",
+        "airline_name": "Delta Air Lines",
+        "destination_iata": "ATL",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
         "destination_country": "United States",
-        "local_departure_time": "13:35",
-        "local_arrival_time": "16:40",
-        "duration": "03:05"
+        "local_departure_time": "12:55",
+        "local_arrival_time": "16:44",
+        "duration": "02:49"
     },
     {
         "flight_number": "AA367",
@@ -127,8 +116,8 @@
         "destination_airport_name": "Miami International Airport",
         "destination_city": "Miami",
         "destination_country": "United States",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "16:45",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "16:35",
         "duration": "01:35"
     },
     {
@@ -139,19 +128,8 @@
         "destination_city": "Miami",
         "destination_country": "United States",
         "local_departure_time": "16:45",
-        "local_arrival_time": "19:25",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "KX606",
-        "airline_name": "Cayman Airways",
-        "destination_iata": "KIN",
-        "destination_airport_name": "Kingston Norman Manley International Airport",
-        "destination_city": "Kingston",
-        "destination_country": "Jamaica",
-        "local_departure_time": "17:35",
-        "local_arrival_time": "18:45",
-        "duration": "01:10"
+        "local_arrival_time": "19:20",
+        "duration": "01:35"
     },
     {
         "flight_number": "BA252",
@@ -163,5 +141,16 @@
         "local_departure_time": "18:05",
         "local_arrival_time": "20:40",
         "duration": "01:35"
+    },
+    {
+        "flight_number": "KX792",
+        "airline_name": "Cayman Airways",
+        "destination_iata": "JFK",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States",
+        "local_departure_time": "18:10",
+        "local_arrival_time": "23:00",
+        "duration": "03:50"
     }
 ]

@@ -6,24 +6,46 @@
         "destination_airport_name": "Lisbon Humberto Delgado Airport",
         "destination_city": "Lisbon",
         "destination_country": "Portugal",
-        "local_departure_time": "00:15",
+        "local_departure_time": "00:10 / 00:15",
         "local_arrival_time": "06:10",
-        "duration": "03:55"
+        "duration": "04:00"
     },
     {
-        "flight_number": "VR604",
-        "airline_name": "Cabo Verde Airlines",
+        "flight_number": "AT596",
+        "airline_name": "Royal Air Maroc",
+        "destination_iata": "CMN",
+        "destination_airport_name": "Casablanca Mohammed V International Airport",
+        "destination_city": "Casablanca",
+        "destination_country": "Morocco",
+        "local_departure_time": "01:45",
+        "local_arrival_time": "07:05",
+        "duration": "03:20"
+    },
+    {
+        "flight_number": "U27696",
+        "airline_name": "easyJet",
+        "destination_iata": "LIS",
+        "destination_airport_name": "Lisbon Humberto Delgado Airport",
+        "destination_city": "Lisbon",
+        "destination_country": "Portugal",
+        "local_departure_time": "09:25",
+        "local_arrival_time": "15:30",
+        "duration": "04:05"
+    },
+    {
+        "flight_number": "U27790",
+        "airline_name": "easyJet",
         "destination_iata": "OPO",
         "destination_airport_name": "Porto Francisco de Sa Carneiro Airport",
         "destination_city": "Porto",
         "destination_country": "Portugal",
-        "local_departure_time": "08:05",
-        "local_arrival_time": "14:15",
-        "duration": "04:10"
+        "local_departure_time": "09:35",
+        "local_arrival_time": "16:00",
+        "duration": "04:25"
     },
     {
         "flight_number": "X36254",
-        "airline_name": "TUI",
+        "airline_name": "TUI fly",
         "destination_iata": "STR",
         "destination_airport_name": "Stuttgart Airport",
         "destination_city": "Stuttgart",
@@ -33,19 +55,8 @@
         "duration": "05:45"
     },
     {
-        "flight_number": "TP1552",
-        "airline_name": "TAP Air Portugal",
-        "destination_iata": "LIS",
-        "destination_airport_name": "Lisbon Humberto Delgado Airport",
-        "destination_city": "Lisbon",
-        "destination_country": "Portugal",
-        "local_departure_time": "12:45",
-        "local_arrival_time": "18:35",
-        "duration": "03:50"
-    },
-    {
         "flight_number": "TO3240",
-        "airline_name": "Transavia",
+        "airline_name": "Transavia France",
         "destination_iata": "ORY",
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
@@ -53,50 +64,6 @@
         "local_departure_time": "13:15",
         "local_arrival_time": "22:00",
         "duration": "05:45"
-    },
-    {
-        "flight_number": "OR3701",
-        "airline_name": "TUI",
-        "destination_iata": "AMS",
-        "destination_airport_name": "Amsterdam Schiphol Airport",
-        "destination_city": "Amsterdam",
-        "destination_country": "Netherlands",
-        "local_departure_time": "13:20",
-        "local_arrival_time": "22:55",
-        "duration": "06:35"
-    },
-    {
-        "flight_number": "P63448",
-        "airline_name": "Privilege Style",
-        "destination_iata": "SCQ",
-        "destination_airport_name": "Santiago de Compostela Airport",
-        "destination_city": "Santiago de Compostela",
-        "destination_country": "Spain",
-        "local_departure_time": "13:55",
-        "local_arrival_time": "21:00",
-        "duration": "04:05"
-    },
-    {
-        "flight_number": "X37104",
-        "airline_name": "TUI fly",
-        "destination_iata": "MUC",
-        "destination_airport_name": "Munich Airport",
-        "destination_city": "Munich",
-        "destination_country": "Germany",
-        "local_departure_time": "14:05",
-        "local_arrival_time": "23:10",
-        "duration": "06:05"
-    },
-    {
-        "flight_number": "QS4107",
-        "airline_name": "Smartwings",
-        "destination_iata": "PRG",
-        "destination_airport_name": "Prague Vaclav Havel Airport",
-        "destination_city": "Prague",
-        "destination_country": "Czechia",
-        "local_departure_time": "14:45",
-        "local_arrival_time": "00:25 (+1)",
-        "duration": "06:40"
     },
     {
         "flight_number": "NO4864",
@@ -110,26 +77,15 @@
         "duration": "05:35"
     },
     {
-        "flight_number": "LAV5382",
-        "airline_name": "AlbaStar",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "15:15",
-        "local_arrival_time": "22:25",
-        "duration": "04:10"
-    },
-    {
-        "flight_number": "U28996",
-        "airline_name": "easyJet",
-        "destination_iata": "LGW",
-        "destination_airport_name": "London Gatwick Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
+        "flight_number": "DK629",
+        "airline_name": "Sunclass Airlines",
+        "destination_iata": "ARN",
+        "destination_airport_name": "Stockholm Arlanda Airport",
+        "destination_city": "Stockholm",
+        "destination_country": "Sweden",
         "local_departure_time": "15:20",
-        "local_arrival_time": "23:10",
-        "duration": "05:50"
+        "local_arrival_time": "01:30 (+1)",
+        "duration": "07:10"
     },
     {
         "flight_number": "NO4723",
@@ -143,51 +99,18 @@
         "duration": "05:40"
     },
     {
-        "flight_number": "QS4147",
-        "airline_name": "Smartwings",
-        "destination_iata": "PRG",
-        "destination_airport_name": "Prague Vaclav Havel Airport",
-        "destination_city": "Prague",
-        "destination_country": "Czechia",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "04:00 (+1)",
-        "duration": "06:30"
-    },
-    {
-        "flight_number": "BY705",
+        "flight_number": "BY783",
         "airline_name": "TUI Airways",
-        "destination_iata": "BHX",
-        "destination_airport_name": "Birmingham Airport",
-        "destination_city": "Birmingham",
+        "destination_iata": "LGW",
+        "destination_airport_name": "London Gatwick Airport",
+        "destination_city": "London",
         "destination_country": "United Kingdom",
         "local_departure_time": "19:20",
         "local_arrival_time": "03:00 (+1)",
         "duration": "05:40"
     },
     {
-        "flight_number": "BY783",
-        "airline_name": "TUI",
-        "destination_iata": "LGW",
-        "destination_airport_name": "London Gatwick Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "19:25",
-        "local_arrival_time": "02:50 (+1)",
-        "duration": "05:25"
-    },
-    {
-        "flight_number": "BY323",
-        "airline_name": "TUI Airways",
-        "destination_iata": "GLA",
-        "destination_airport_name": "Glasgow International Airport",
-        "destination_city": "Glasgow",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "19:30",
-        "local_arrival_time": "03:40 (+1)",
-        "duration": "06:10"
-    },
-    {
-        "flight_number": "BY417",
+        "flight_number": "BY557",
         "airline_name": "TUI",
         "destination_iata": "MAN",
         "destination_airport_name": "Manchester Airport",
@@ -198,14 +121,25 @@
         "duration": "05:50"
     },
     {
-        "flight_number": "TO3430",
-        "airline_name": "Transavia France",
-        "destination_iata": "ORY",
-        "destination_airport_name": "Paris Orly Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "21:45",
-        "local_arrival_time": "06:30 (+1)",
-        "duration": "05:45"
+        "flight_number": "BY417",
+        "airline_name": "TUI Airways",
+        "destination_iata": "MAN",
+        "destination_airport_name": "Manchester Airport",
+        "destination_city": "Manchester",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "19:50",
+        "local_arrival_time": "03:40 (+1)",
+        "duration": "05:50"
+    },
+    {
+        "flight_number": "QS4147",
+        "airline_name": "Smartwings",
+        "destination_iata": "PRG",
+        "destination_airport_name": "Prague Vaclav Havel Airport",
+        "destination_city": "Prague",
+        "destination_country": "Czechia",
+        "local_departure_time": "22:45",
+        "local_arrival_time": "08:15 (+1)",
+        "duration": "06:30"
     }
 ]

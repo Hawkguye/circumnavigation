@@ -1,16 +1,5 @@
 [
     {
-        "flight_number": "Z2761",
-        "airline_name": "AirAsia",
-        "destination_iata": "CEB",
-        "destination_airport_name": "Cebu Mactan International Airport",
-        "destination_city": "Cebu",
-        "destination_country": "Philippines",
-        "local_departure_time": "00:05",
-        "local_arrival_time": "01:25",
-        "duration": "01:20"
-    },
-    {
         "flight_number": "PR221",
         "airline_name": "Philippine Airlines",
         "destination_iata": "BNE",
@@ -39,8 +28,8 @@
         "destination_airport_name": "Cebu Mactan International Airport",
         "destination_city": "Cebu",
         "destination_country": "Philippines",
-        "local_departure_time": "00:15",
-        "local_arrival_time": "01:50",
+        "local_departure_time": "00:30",
+        "local_arrival_time": "02:05",
         "duration": "01:35"
     },
     {
@@ -77,6 +66,17 @@
         "duration": "04:00"
     },
     {
+        "flight_number": "RW228",
+        "airline_name": "Royalair Philippines",
+        "destination_iata": "HAK",
+        "destination_airport_name": "Haikou Meilan International Airport",
+        "destination_city": "Haikou",
+        "destination_country": "China",
+        "local_departure_time": "01:05",
+        "local_arrival_time": "03:30",
+        "duration": "02:25"
+    },
+    {
         "flight_number": "KE626",
         "airline_name": "Korean Air",
         "destination_iata": "ICN",
@@ -111,18 +111,18 @@
     },
     {
         "flight_number": "GI4376",
-        "airline_name": "Air Central",
+        "airline_name": "Gridiron Air",
         "destination_iata": "NNG",
         "destination_airport_name": "Nanning Wuxu International Airport",
         "destination_city": "Nanning",
         "destination_country": "China",
         "local_departure_time": "02:20 / 03:00",
         "local_arrival_time": "05:20 / 05:45",
-        "duration": "03:00"
+        "duration": "02:45"
     },
     {
         "flight_number": "MU212",
-        "airline_name": "China Eastern",
+        "airline_name": "China Eastern Airlines",
         "destination_iata": "PVG",
         "destination_airport_name": "Shanghai Pudong International Airport",
         "destination_city": "Shanghai",
@@ -141,6 +141,17 @@
         "local_departure_time": "02:45",
         "local_arrival_time": "12:15",
         "duration": "07:30"
+    },
+    {
+        "flight_number": "GK42",
+        "airline_name": "Jetstar Japan",
+        "destination_iata": "NRT",
+        "destination_airport_name": "Tokyo Narita International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "02:50",
+        "local_arrival_time": "08:20",
+        "duration": "04:30"
     },
     {
         "flight_number": "CA480",
@@ -176,17 +187,6 @@
         "duration": "04:10"
     },
     {
-        "flight_number": "HB232",
-        "airline_name": "Greater Bay Airlines",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "03:20",
-        "local_arrival_time": "05:35",
-        "duration": "02:15"
-    },
-    {
         "flight_number": "Z2759",
         "airline_name": "Philippines AirAsia",
         "destination_iata": "CEB",
@@ -207,6 +207,17 @@
         "local_departure_time": "03:25",
         "local_arrival_time": "05:55",
         "duration": "02:30"
+    },
+    {
+        "flight_number": "DG6507",
+        "airline_name": "Cebgo",
+        "destination_iata": "CEB",
+        "destination_airport_name": "Cebu Mactan International Airport",
+        "destination_city": "Cebu",
+        "destination_country": "Philippines",
+        "local_departure_time": "03:25 / 03:40",
+        "local_arrival_time": "05:25 / 05:40",
+        "duration": "02:00"
     },
     {
         "flight_number": "PR1841",
@@ -254,7 +265,7 @@
     },
     {
         "flight_number": "Z2779",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "CEB",
         "destination_airport_name": "Cebu Mactan International Airport",
         "destination_city": "Cebu",
@@ -262,6 +273,17 @@
         "local_departure_time": "03:55",
         "local_arrival_time": "05:25",
         "duration": "01:30"
+    },
+    {
+        "flight_number": "DG6499",
+        "airline_name": "Cebgo",
+        "destination_iata": "CEB",
+        "destination_airport_name": "Cebu Mactan International Airport",
+        "destination_city": "Cebu",
+        "destination_country": "Philippines",
+        "local_departure_time": "04:00",
+        "local_arrival_time": "06:05",
+        "duration": "02:05"
     },
     {
         "flight_number": "CI710",
@@ -275,19 +297,8 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "DG6499",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "CEB",
-        "destination_airport_name": "Cebu Mactan International Airport",
-        "destination_city": "Cebu",
-        "destination_country": "Philippines",
-        "local_departure_time": "04:00",
-        "local_arrival_time": "06:05",
-        "duration": "02:05"
-    },
-    {
         "flight_number": "Z2190",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "NRT",
         "destination_airport_name": "Tokyo Narita International Airport",
         "destination_city": "Tokyo",
@@ -308,15 +319,15 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "PR1845",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "CEB",
-        "destination_airport_name": "Cebu Mactan International Airport",
-        "destination_city": "Cebu",
-        "destination_country": "Philippines",
-        "local_departure_time": "04:45",
-        "local_arrival_time": "06:20",
-        "duration": "01:35"
+        "flight_number": "HB232",
+        "airline_name": "Greater Bay Airlines",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "05:05",
+        "local_arrival_time": "07:15",
+        "duration": "02:10"
     },
     {
         "flight_number": "5J744",
@@ -385,6 +396,17 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "PR511",
+        "airline_name": "Philippine Airlines",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "05:35",
+        "local_arrival_time": "09:25",
+        "duration": "03:50"
+    },
+    {
         "flight_number": "5J272",
         "airline_name": "Cebu Pacific",
         "destination_iata": "HKG",
@@ -407,15 +429,26 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "5J5054",
+        "flight_number": "5J817",
         "airline_name": "Cebu Pacific",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
         "local_departure_time": "05:50",
-        "local_arrival_time": "11:35",
-        "duration": "04:45"
+        "local_arrival_time": "09:45",
+        "duration": "03:55"
+    },
+    {
+        "flight_number": "Z2763",
+        "airline_name": "Philippines AirAsia",
+        "destination_iata": "CEB",
+        "destination_airport_name": "Cebu Mactan International Airport",
+        "destination_city": "Cebu",
+        "destination_country": "Philippines",
+        "local_departure_time": "05:55",
+        "local_arrival_time": "07:20",
+        "duration": "01:25"
     },
     {
         "flight_number": "5J561",
@@ -429,17 +462,6 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "Z2763",
-        "airline_name": "AirAsia",
-        "destination_iata": "CEB",
-        "destination_airport_name": "Cebu Mactan International Airport",
-        "destination_city": "Cebu",
-        "destination_country": "Philippines",
-        "local_departure_time": "05:55",
-        "local_arrival_time": "07:20",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "PR1851",
         "airline_name": "Philippine Airlines",
         "destination_iata": "CEB",
@@ -451,6 +473,28 @@
         "duration": "01:40"
     },
     {
+        "flight_number": "5J5054",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "NRT",
+        "destination_airport_name": "Tokyo Narita International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "06:10",
+        "local_arrival_time": "11:35",
+        "duration": "04:25"
+    },
+    {
+        "flight_number": "PR1845",
+        "airline_name": "Philippine Airlines",
+        "destination_iata": "CEB",
+        "destination_airport_name": "Cebu Mactan International Airport",
+        "destination_city": "Cebu",
+        "destination_country": "Philippines",
+        "local_departure_time": "06:10",
+        "local_arrival_time": "07:45",
+        "duration": "01:35"
+    },
+    {
         "flight_number": "CA180",
         "airline_name": "Air China",
         "destination_iata": "PEK",
@@ -458,8 +502,8 @@
         "destination_city": "Beijing",
         "destination_country": "China",
         "local_departure_time": "06:25",
-        "local_arrival_time": "10:55 / 11:15",
-        "duration": "04:50"
+        "local_arrival_time": "11:10 / 11:15",
+        "duration": "04:45"
     },
     {
         "flight_number": "PR890",
@@ -480,19 +524,8 @@
         "destination_city": "Cebu",
         "destination_country": "Philippines",
         "local_departure_time": "06:30",
-        "local_arrival_time": "08:20",
+        "local_arrival_time": "08:20 / 08:40",
         "duration": "01:50"
-    },
-    {
-        "flight_number": "5J5038",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "NGO",
-        "destination_airport_name": "Nagoya Chubu Centrair International Airport",
-        "destination_city": "Nagoya",
-        "destination_country": "Japan",
-        "local_departure_time": "06:35",
-        "local_arrival_time": "11:50",
-        "duration": "04:15"
     },
     {
         "flight_number": "PR438",
@@ -504,6 +537,17 @@
         "local_departure_time": "06:35",
         "local_arrival_time": "11:45",
         "duration": "04:10"
+    },
+    {
+        "flight_number": "5J5038",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "NGO",
+        "destination_airport_name": "Nagoya Chubu Centrair International Airport",
+        "destination_city": "Nagoya",
+        "destination_country": "Japan",
+        "local_departure_time": "06:35",
+        "local_arrival_time": "11:50",
+        "duration": "04:15"
     },
     {
         "flight_number": "PR591",
@@ -539,17 +583,6 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "PR358",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "PEK",
-        "destination_airport_name": "Beijing Capital International Airport",
-        "destination_city": "Beijing",
-        "destination_country": "China",
-        "local_departure_time": "06:55",
-        "local_arrival_time": "11:55",
-        "duration": "05:00"
-    },
-    {
         "flight_number": "TR397",
         "airline_name": "Scoot",
         "destination_iata": "SIN",
@@ -559,6 +592,17 @@
         "local_departure_time": "06:55",
         "local_arrival_time": "10:30",
         "duration": "03:35"
+    },
+    {
+        "flight_number": "PR358",
+        "airline_name": "Philippine Airlines",
+        "destination_iata": "PEK",
+        "destination_airport_name": "Beijing Capital International Airport",
+        "destination_city": "Beijing",
+        "destination_country": "China",
+        "local_departure_time": "06:55",
+        "local_arrival_time": "11:55",
+        "duration": "05:00"
     },
     {
         "flight_number": "LD457",
@@ -584,7 +628,7 @@
     },
     {
         "flight_number": "Z2884",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "ICN",
         "destination_airport_name": "Seoul Incheon International Airport",
         "destination_city": "Seoul",
@@ -592,17 +636,6 @@
         "local_departure_time": "07:15",
         "local_arrival_time": "12:10",
         "duration": "03:55"
-    },
-    {
-        "flight_number": "PR525",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "07:20",
-        "local_arrival_time": "11:20",
-        "duration": "04:00"
     },
     {
         "flight_number": "RW246",
@@ -616,15 +649,15 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "5J929",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "07:25",
-        "local_arrival_time": "10:05",
-        "duration": "03:40"
+        "flight_number": "PR525",
+        "airline_name": "Philippine Airlines",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "07:20",
+        "local_arrival_time": "11:20",
+        "duration": "04:00"
     },
     {
         "flight_number": "PR334",
@@ -636,6 +669,17 @@
         "local_departure_time": "07:25",
         "local_arrival_time": "10:00",
         "duration": "02:35"
+    },
+    {
+        "flight_number": "5J929",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "07:25",
+        "local_arrival_time": "10:05",
+        "duration": "03:40"
     },
     {
         "flight_number": "PR428",
@@ -671,17 +715,6 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "WY844",
-        "airline_name": "Oman Air",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "07:45",
-        "local_arrival_time": "12:00",
-        "duration": "08:15"
-    },
-    {
         "flight_number": "EK337",
         "airline_name": "Emirates",
         "destination_iata": "DXB",
@@ -691,6 +724,17 @@
         "local_departure_time": "07:45",
         "local_arrival_time": "12:15",
         "duration": "08:30"
+    },
+    {
+        "flight_number": "WY844",
+        "airline_name": "Oman Air",
+        "destination_iata": "MCT",
+        "destination_airport_name": "Muscat International Airport",
+        "destination_city": "Muscat",
+        "destination_country": "Oman",
+        "local_departure_time": "07:45",
+        "local_arrival_time": "12:00",
+        "duration": "08:15"
     },
     {
         "flight_number": "Z2124",
@@ -732,9 +776,9 @@
         "destination_airport_name": "Hong Kong International Airport",
         "destination_city": "Hong Kong",
         "destination_country": "Hong Kong",
-        "local_departure_time": "08:00",
+        "local_departure_time": "08:00 / 08:01",
         "local_arrival_time": "10:35",
-        "duration": "02:35"
+        "duration": "02:34"
     },
     {
         "flight_number": "PR422",
@@ -749,7 +793,7 @@
     },
     {
         "flight_number": "Z2188",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "KIX",
         "destination_airport_name": "Osaka Kansai International Airport",
         "destination_city": "Osaka",
@@ -771,7 +815,7 @@
     },
     {
         "flight_number": "Z2781",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "CEB",
         "destination_airport_name": "Cebu Mactan International Airport",
         "destination_city": "Cebu",
@@ -788,8 +832,8 @@
         "destination_city": "San Francisco",
         "destination_country": "United States",
         "local_departure_time": "08:40",
-        "local_arrival_time": "06:40",
-        "duration": "13:00"
+        "local_arrival_time": "06:35",
+        "duration": "12:55"
     },
     {
         "flight_number": "5J585",
@@ -815,7 +859,7 @@
     },
     {
         "flight_number": "Z2285",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -902,6 +946,17 @@
         "duration": "02:30"
     },
     {
+        "flight_number": "QR935",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "09:55",
+        "local_arrival_time": "14:10",
+        "duration": "09:15"
+    },
+    {
         "flight_number": "CI712",
         "airline_name": "Mandarin Airlines",
         "destination_iata": "KHH",
@@ -914,7 +969,7 @@
     },
     {
         "flight_number": "JL746",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "NRT",
         "destination_airport_name": "Tokyo Narita International Airport",
         "destination_city": "Tokyo",
@@ -922,6 +977,28 @@
         "local_departure_time": "10:05",
         "local_arrival_time": "15:30",
         "duration": "04:25"
+    },
+    {
+        "flight_number": "5J565",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "CEB",
+        "destination_airport_name": "Cebu Mactan International Airport",
+        "destination_city": "Cebu",
+        "destination_country": "Philippines",
+        "local_departure_time": "10:05",
+        "local_arrival_time": "11:40",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "5J557",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "CEB",
+        "destination_airport_name": "Cebu Mactan International Airport",
+        "destination_city": "Cebu",
+        "destination_country": "Philippines",
+        "local_departure_time": "10:15",
+        "local_arrival_time": "11:50",
+        "duration": "01:35"
     },
     {
         "flight_number": "CI702",
@@ -957,17 +1034,6 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "5J565",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "CEB",
-        "destination_airport_name": "Cebu Mactan International Airport",
-        "destination_city": "Cebu",
-        "destination_country": "Philippines",
-        "local_departure_time": "10:55",
-        "local_arrival_time": "12:30",
-        "duration": "01:35"
-    },
-    {
         "flight_number": "PR112",
         "airline_name": "Philippine Airlines",
         "destination_iata": "LAX",
@@ -977,6 +1043,28 @@
         "local_departure_time": "11:05",
         "local_arrival_time": "09:45",
         "duration": "13:40"
+    },
+    {
+        "flight_number": "5J5128",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "11:10",
+        "local_arrival_time": "17:25",
+        "duration": "05:15"
+    },
+    {
+        "flight_number": "PR527",
+        "airline_name": "Philippine Airlines",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "11:25",
+        "local_arrival_time": "15:25",
+        "duration": "04:00"
     },
     {
         "flight_number": "5J557",
@@ -1023,6 +1111,17 @@
         "duration": "03:50"
     },
     {
+        "flight_number": "PR1847",
+        "airline_name": "Philippine Airlines",
+        "destination_iata": "CEB",
+        "destination_airport_name": "Cebu Mactan International Airport",
+        "destination_city": "Cebu",
+        "destination_country": "Philippines",
+        "local_departure_time": "12:15",
+        "local_arrival_time": "13:50",
+        "duration": "01:35"
+    },
+    {
         "flight_number": "KE622",
         "airline_name": "Korean Air",
         "destination_iata": "ICN",
@@ -1045,17 +1144,6 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "5J5056",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "12:30",
-        "local_arrival_time": "18:10",
-        "duration": "04:40"
-    },
-    {
         "flight_number": "CX930",
         "airline_name": "Cathay Pacific",
         "destination_iata": "HKG",
@@ -1065,6 +1153,17 @@
         "local_departure_time": "12:30",
         "local_arrival_time": "15:05",
         "duration": "02:35"
+    },
+    {
+        "flight_number": "5J5056",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "NRT",
+        "destination_airport_name": "Tokyo Narita International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "12:30",
+        "local_arrival_time": "18:10",
+        "duration": "04:40"
     },
     {
         "flight_number": "PR658",
@@ -1100,6 +1199,28 @@
         "duration": "09:20"
     },
     {
+        "flight_number": "5J49",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "MEL",
+        "destination_airport_name": "Melbourne Airport",
+        "destination_city": "Melbourne",
+        "destination_country": "Australia",
+        "local_departure_time": "12:45",
+        "local_arrival_time": "00:05 (+1)",
+        "duration": "08:20"
+    },
+    {
+        "flight_number": "5J18",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "12:45",
+        "local_arrival_time": "18:10",
+        "duration": "09:25"
+    },
+    {
         "flight_number": "MH807",
         "airline_name": "Malaysia Airlines",
         "destination_iata": "KUL",
@@ -1133,6 +1254,17 @@
         "duration": "03:30"
     },
     {
+        "flight_number": "CI5842",
+        "airline_name": "China Airlines",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "13:00",
+        "local_arrival_time": "15:35",
+        "duration": "02:35"
+    },
+    {
         "flight_number": "CI5880",
         "airline_name": "China Airlines",
         "destination_iata": "TPE",
@@ -1144,28 +1276,6 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "5J805",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "13:00",
-        "local_arrival_time": "17:10",
-        "duration": "04:10"
-    },
-    {
-        "flight_number": "5J18",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "13:05",
-        "local_arrival_time": "18:10",
-        "duration": "09:05"
-    },
-    {
         "flight_number": "SQ913",
         "airline_name": "Singapore Airlines",
         "destination_iata": "SIN",
@@ -1175,6 +1285,17 @@
         "local_departure_time": "13:05",
         "local_arrival_time": "16:40",
         "duration": "03:35"
+    },
+    {
+        "flight_number": "5J805",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "13:05",
+        "local_arrival_time": "17:10",
+        "duration": "04:05"
     },
     {
         "flight_number": "AK583",
@@ -1189,7 +1310,7 @@
     },
     {
         "flight_number": "Z2192",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "NRT",
         "destination_airport_name": "Tokyo Narita International Airport",
         "destination_city": "Tokyo",
@@ -1197,6 +1318,17 @@
         "local_departure_time": "13:20",
         "local_arrival_time": "19:05",
         "duration": "04:45"
+    },
+    {
+        "flight_number": "5J828",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "KIX",
+        "destination_airport_name": "Osaka Kansai International Airport",
+        "destination_city": "Osaka",
+        "destination_country": "Japan",
+        "local_departure_time": "13:25",
+        "local_arrival_time": "18:40",
+        "duration": "04:15"
     },
     {
         "flight_number": "PR2867",
@@ -1210,17 +1342,6 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "5J922",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "19:00",
-        "duration": "04:00"
-    },
-    {
         "flight_number": "SQ917",
         "airline_name": "Singapore Airlines",
         "destination_iata": "SIN",
@@ -1232,15 +1353,26 @@
         "duration": "03:45"
     },
     {
+        "flight_number": "5J922",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "14:05",
+        "local_arrival_time": "19:00",
+        "duration": "03:55"
+    },
+    {
         "flight_number": "PR468",
         "airline_name": "Philippine Airlines",
         "destination_iata": "ICN",
         "destination_airport_name": "Seoul Incheon International Airport",
         "destination_city": "Seoul",
         "destination_country": "South Korea",
-        "local_departure_time": "14:05",
-        "local_arrival_time": "19:35",
-        "duration": "04:30"
+        "local_departure_time": "14:10",
+        "local_arrival_time": "19:20",
+        "duration": "04:10"
     },
     {
         "flight_number": "ZG96",
@@ -1254,17 +1386,6 @@
         "duration": "04:35"
     },
     {
-        "flight_number": "PR408",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "KIX",
-        "destination_airport_name": "Osaka Kansai International Airport",
-        "destination_city": "Osaka",
-        "destination_country": "Japan",
-        "local_departure_time": "14:35",
-        "local_arrival_time": "19:40",
-        "duration": "04:05"
-    },
-    {
         "flight_number": "NH870",
         "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
@@ -1274,17 +1395,6 @@
         "local_departure_time": "14:40",
         "local_arrival_time": "20:00",
         "duration": "04:20"
-    },
-    {
-        "flight_number": "PR306",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "14:50",
-        "local_arrival_time": "17:20",
-        "duration": "02:30"
     },
     {
         "flight_number": "PR432",
@@ -1321,7 +1431,7 @@
     },
     {
         "flight_number": "Z21264",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "HKG",
         "destination_airport_name": "Hong Kong International Airport",
         "destination_city": "Hong Kong",
@@ -1364,6 +1474,17 @@
         "duration": "03:45"
     },
     {
+        "flight_number": "5J14",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "15:20",
+        "local_arrival_time": "20:40",
+        "duration": "09:20"
+    },
+    {
         "flight_number": "5J112",
         "airline_name": "Cebu Pacific",
         "destination_iata": "HKG",
@@ -1375,39 +1496,6 @@
         "duration": "02:40"
     },
     {
-        "flight_number": "5J14",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "15:35",
-        "local_arrival_time": "20:40",
-        "duration": "09:05"
-    },
-    {
-        "flight_number": "SV861",
-        "airline_name": "Saudia",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "15:40",
-        "local_arrival_time": "20:45",
-        "duration": "10:05"
-    },
-    {
-        "flight_number": "5J581",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "CEB",
-        "destination_airport_name": "Cebu Mactan International Airport",
-        "destination_city": "Cebu",
-        "destination_country": "Philippines",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "17:35",
-        "duration": "01:35"
-    },
-    {
         "flight_number": "5J571",
         "airline_name": "Cebu Pacific",
         "destination_iata": "CEB",
@@ -1417,6 +1505,17 @@
         "local_departure_time": "16:05",
         "local_arrival_time": "17:40",
         "duration": "01:35"
+    },
+    {
+        "flight_number": "Z2132",
+        "airline_name": "Philippines AirAsia",
+        "destination_iata": "KHH",
+        "destination_airport_name": "Kaohsiung International Airport",
+        "destination_city": "Kaohsiung",
+        "destination_country": "Taiwan",
+        "local_departure_time": "16:10",
+        "local_arrival_time": "17:55",
+        "duration": "01:45"
     },
     {
         "flight_number": "Z292",
@@ -1441,7 +1540,7 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "PR1861",
+        "flight_number": "PR2861",
         "airline_name": "Philippine Airlines",
         "destination_iata": "CEB",
         "destination_airport_name": "Cebu Mactan International Airport",
@@ -1461,28 +1560,6 @@
         "local_departure_time": "16:55",
         "local_arrival_time": "20:30",
         "duration": "03:35"
-    },
-    {
-        "flight_number": "5J344",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "KHH",
-        "destination_airport_name": "Kaohsiung International Airport",
-        "destination_city": "Kaohsiung",
-        "destination_country": "Taiwan",
-        "local_departure_time": "17:00",
-        "local_arrival_time": "19:00",
-        "duration": "02:00"
-    },
-    {
-        "flight_number": "PR501",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "17:05",
-        "local_arrival_time": "20:50",
-        "duration": "03:45"
     },
     {
         "flight_number": "CX918",
@@ -1507,15 +1584,15 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "5J569",
+        "flight_number": "5J114",
         "airline_name": "Cebu Pacific",
-        "destination_iata": "CEB",
-        "destination_airport_name": "Cebu Mactan International Airport",
-        "destination_city": "Cebu",
-        "destination_country": "Philippines",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
         "local_departure_time": "17:50",
-        "local_arrival_time": "19:25",
-        "duration": "01:35"
+        "local_arrival_time": "20:20",
+        "duration": "02:30"
     },
     {
         "flight_number": "DG6505",
@@ -1540,26 +1617,26 @@
         "duration": "08:45"
     },
     {
+        "flight_number": "Z2126",
+        "airline_name": "AirAsia",
+        "destination_iata": "TPE",
+        "destination_airport_name": "Taipei Taoyuan International Airport",
+        "destination_city": "Taipei",
+        "destination_country": "Taiwan",
+        "local_departure_time": "18:20",
+        "local_arrival_time": "20:40",
+        "duration": "02:20"
+    },
+    {
         "flight_number": "5J573",
         "airline_name": "Cebu Pacific",
         "destination_iata": "CEB",
         "destination_airport_name": "Cebu Mactan International Airport",
         "destination_city": "Cebu",
         "destination_country": "Philippines",
-        "local_departure_time": "18:25",
-        "local_arrival_time": "20:00",
+        "local_departure_time": "18:30",
+        "local_arrival_time": "20:05",
         "duration": "01:35"
-    },
-    {
-        "flight_number": "PR894",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "TPE",
-        "destination_airport_name": "Taipei Taoyuan International Airport",
-        "destination_city": "Taipei",
-        "destination_country": "Taiwan",
-        "local_departure_time": "18:25",
-        "local_arrival_time": "20:50",
-        "duration": "02:25"
     },
     {
         "flight_number": "SQ921",
@@ -1580,8 +1657,8 @@
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "18:35",
-        "local_arrival_time": "22:40",
-        "duration": "09:05"
+        "local_arrival_time": "23:00",
+        "duration": "09:25"
     },
     {
         "flight_number": "5J188",
@@ -1595,17 +1672,6 @@
         "duration": "04:10"
     },
     {
-        "flight_number": "PR209",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "MEL",
-        "destination_airport_name": "Melbourne Airport",
-        "destination_city": "Melbourne",
-        "destination_country": "Australia",
-        "local_departure_time": "18:40",
-        "local_arrival_time": "05:00 (+1)",
-        "duration": "08:20"
-    },
-    {
         "flight_number": "PR100",
         "airline_name": "Philippine Airlines",
         "destination_iata": "HNL",
@@ -1615,17 +1681,6 @@
         "local_departure_time": "18:40",
         "local_arrival_time": "11:10",
         "duration": "10:30"
-    },
-    {
-        "flight_number": "PR684",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "18:50",
-        "local_arrival_time": "23:40",
-        "duration": "09:50"
     },
     {
         "flight_number": "BR278",
@@ -1639,15 +1694,15 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "5J362",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "MFM",
-        "destination_airport_name": "Macau International Airport",
-        "destination_city": "Macau",
-        "destination_country": "Macao",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "21:25",
-        "duration": "02:30"
+        "flight_number": "PR684",
+        "airline_name": "Philippine Airlines",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "18:50",
+        "local_arrival_time": "23:40",
+        "duration": "09:50"
     },
     {
         "flight_number": "PR1863",
@@ -1661,37 +1716,15 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "PR424",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "19:00",
-        "local_arrival_time": "00:25 (+1)",
-        "duration": "04:25"
-    },
-    {
-        "flight_number": "5J863",
+        "flight_number": "5J362",
         "airline_name": "Cebu Pacific",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "22:00",
-        "duration": "03:45"
-    },
-    {
-        "flight_number": "EY441",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "19:20",
-        "local_arrival_time": "00:35 (+1)",
-        "duration": "09:15"
+        "destination_iata": "MFM",
+        "destination_airport_name": "Macau International Airport",
+        "destination_city": "Macau",
+        "destination_country": "Macao",
+        "local_departure_time": "19:05",
+        "local_arrival_time": "21:25",
+        "duration": "02:20"
     },
     {
         "flight_number": "PR310",
@@ -1705,15 +1738,37 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "PR118",
+        "flight_number": "EY441",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "19:20",
+        "local_arrival_time": "00:35 (+1)",
+        "duration": "09:15"
+    },
+    {
+        "flight_number": "PR126",
         "airline_name": "Philippine Airlines",
-        "destination_iata": "YYZ",
-        "destination_airport_name": "Toronto Pearson International Airport",
-        "destination_city": "Toronto",
-        "destination_country": "Canada",
-        "local_departure_time": "19:30",
-        "local_arrival_time": "23:00",
-        "duration": "15:30"
+        "destination_iata": "JFK",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States",
+        "local_departure_time": "19:25",
+        "local_arrival_time": "23:40",
+        "duration": "16:15"
+    },
+    {
+        "flight_number": "5J863",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "DMK",
+        "destination_airport_name": "Bangkok Don Mueang International Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "19:25",
+        "local_arrival_time": "22:00",
+        "duration": "03:35"
     },
     {
         "flight_number": "TR391",
@@ -1750,7 +1805,7 @@
     },
     {
         "flight_number": "Z2771",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "CEB",
         "destination_airport_name": "Cebu Mactan International Airport",
         "destination_city": "Cebu",
@@ -1758,17 +1813,6 @@
         "local_departure_time": "19:45",
         "local_arrival_time": "21:10",
         "duration": "01:25"
-    },
-    {
-        "flight_number": "5J281",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "19:50",
-        "local_arrival_time": "00:00 (+1)",
-        "duration": "04:10"
     },
     {
         "flight_number": "TG625",
@@ -1793,17 +1837,6 @@
         "duration": "03:55"
     },
     {
-        "flight_number": "5J501",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "20:05",
-        "local_arrival_time": "00:10 (+1)",
-        "duration": "04:05"
-    },
-    {
         "flight_number": "PR209",
         "airline_name": "Philippine Airlines",
         "destination_iata": "MEL",
@@ -1811,7 +1844,7 @@
         "destination_city": "Melbourne",
         "destination_country": "Australia",
         "local_departure_time": "20:05",
-        "local_arrival_time": "06:30 (+1)",
+        "local_arrival_time": "07:30 (+1)",
         "duration": "08:25"
     },
     {
@@ -1826,6 +1859,17 @@
         "duration": "02:25"
     },
     {
+        "flight_number": "5J501",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "20:05",
+        "local_arrival_time": "00:10 (+1)",
+        "duration": "04:05"
+    },
+    {
         "flight_number": "5J759",
         "airline_name": "Cebu Pacific",
         "destination_iata": "CGK",
@@ -1835,39 +1879,6 @@
         "local_departure_time": "20:10",
         "local_arrival_time": "23:30",
         "duration": "04:20"
-    },
-    {
-        "flight_number": "PR2843",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "CEB",
-        "destination_airport_name": "Cebu Mactan International Airport",
-        "destination_city": "Cebu",
-        "destination_country": "Philippines",
-        "local_departure_time": "20:10",
-        "local_arrival_time": "21:45",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "5J559",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "CEB",
-        "destination_airport_name": "Cebu Mactan International Airport",
-        "destination_city": "Cebu",
-        "destination_country": "Philippines",
-        "local_departure_time": "20:15",
-        "local_arrival_time": "21:50",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "5J678",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "20:15",
-        "local_arrival_time": "00:05 (+1)",
-        "duration": "03:50"
     },
     {
         "flight_number": "CX902",
@@ -1910,12 +1921,12 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "20:35",
-        "local_arrival_time": "06:40 (+1)",
+        "local_arrival_time": "07:40 (+1)",
         "duration": "08:05"
     },
     {
         "flight_number": "Z2769",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "CEB",
         "destination_airport_name": "Cebu Mactan International Airport",
         "destination_city": "Cebu",
@@ -1923,17 +1934,6 @@
         "local_departure_time": "20:35",
         "local_arrival_time": "21:55",
         "duration": "01:20"
-    },
-    {
-        "flight_number": "5J803",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "20:40",
-        "local_arrival_time": "00:35 (+1)",
-        "duration": "03:55"
     },
     {
         "flight_number": "PR535",
@@ -1947,26 +1947,15 @@
         "duration": "04:10"
     },
     {
-        "flight_number": "MF820",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "XMN",
-        "destination_airport_name": "Xiamen Gaoqi International Airport",
-        "destination_city": "Xiamen",
-        "destination_country": "China",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "23:30",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "UO515",
-        "airline_name": "HK express",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "23:35",
-        "duration": "02:25"
+        "flight_number": "5J803",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "20:50",
+        "local_arrival_time": "00:35 (+1)",
+        "duration": "03:45"
     },
     {
         "flight_number": "ET645",
@@ -1980,6 +1969,28 @@
         "duration": "02:15"
     },
     {
+        "flight_number": "PR2855",
+        "airline_name": "Philippine Airlines",
+        "destination_iata": "CEB",
+        "destination_airport_name": "Cebu Mactan International Airport",
+        "destination_city": "Cebu",
+        "destination_country": "Philippines",
+        "local_departure_time": "21:10",
+        "local_arrival_time": "23:00",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "UO515",
+        "airline_name": "HK express",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "21:10",
+        "local_arrival_time": "23:35",
+        "duration": "02:25"
+    },
+    {
         "flight_number": "PR211",
         "airline_name": "Philippine Airlines",
         "destination_iata": "SYD",
@@ -1987,7 +1998,7 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "21:15",
-        "local_arrival_time": "08:00 (+1)",
+        "local_arrival_time": "09:00 (+1)",
         "duration": "08:45"
     },
     {
@@ -2002,17 +2013,6 @@
         "duration": "12:25"
     },
     {
-        "flight_number": "Y87906",
-        "airline_name": "Suparna Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "01:30 (+1)",
-        "duration": "04:00"
-    },
-    {
         "flight_number": "BI686",
         "airline_name": "Royal Brunei Airlines",
         "destination_iata": "BWN",
@@ -2024,17 +2024,6 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "5J2503",
-        "airline_name": "Cebu Pacific",
-        "destination_iata": "CEB",
-        "destination_airport_name": "Cebu Mactan International Airport",
-        "destination_city": "Cebu",
-        "destination_country": "Philippines",
-        "local_departure_time": "21:35 / 21:50",
-        "local_arrival_time": "23:10 / 23:20",
-        "duration": "01:30"
-    },
-    {
         "flight_number": "PR2859",
         "airline_name": "Philippine Airlines",
         "destination_iata": "CEB",
@@ -2044,6 +2033,17 @@
         "local_departure_time": "21:40",
         "local_arrival_time": "23:15",
         "duration": "01:35"
+    },
+    {
+        "flight_number": "5J2503",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "CEB",
+        "destination_airport_name": "Cebu Mactan International Airport",
+        "destination_city": "Cebu",
+        "destination_country": "Philippines",
+        "local_departure_time": "21:50",
+        "local_arrival_time": "23:20",
+        "duration": "01:30"
     },
     {
         "flight_number": "KU418",
@@ -2069,7 +2069,7 @@
     },
     {
         "flight_number": "Z2773",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "CEB",
         "destination_airport_name": "Cebu Mactan International Airport",
         "destination_city": "Cebu",
@@ -2077,39 +2077,6 @@
         "local_departure_time": "22:05",
         "local_arrival_time": "23:30",
         "duration": "01:25"
-    },
-    {
-        "flight_number": "PR2621",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "PNH",
-        "destination_airport_name": "Phnom Penh International Airport",
-        "destination_city": "Phnom Penh",
-        "destination_country": "Cambodia",
-        "local_departure_time": "22:15",
-        "local_arrival_time": "00:15 (+1)",
-        "duration": "03:00"
-    },
-    {
-        "flight_number": "PR595",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "HAN",
-        "destination_airport_name": "Hanoi Noi Bai International Airport",
-        "destination_city": "Hanoi",
-        "destination_country": "Vietnam",
-        "local_departure_time": "22:15 / 22:55",
-        "local_arrival_time": "00:45 (+1) / 01:30 (+1)",
-        "duration": "03:35"
-    },
-    {
-        "flight_number": "PR124",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "SEA",
-        "destination_airport_name": "Seattle Tacoma International Airport",
-        "destination_city": "Seattle",
-        "destination_country": "United States",
-        "local_departure_time": "22:20",
-        "local_arrival_time": "19:15",
-        "duration": "11:55"
     },
     {
         "flight_number": "5J751",
@@ -2145,17 +2112,6 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "AK585",
-        "airline_name": "AirAsia",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "22:45",
-        "local_arrival_time": "02:40 (+1)",
-        "duration": "03:55"
-    },
-    {
         "flight_number": "PR104",
         "airline_name": "Philippine Airlines",
         "destination_iata": "SFO",
@@ -2165,6 +2121,17 @@
         "local_departure_time": "22:45",
         "local_arrival_time": "20:50",
         "duration": "13:05"
+    },
+    {
+        "flight_number": "AK585",
+        "airline_name": "AirAsia",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "22:45",
+        "local_arrival_time": "02:40 (+1)",
+        "duration": "03:55"
     },
     {
         "flight_number": "5J583",
@@ -2178,15 +2145,15 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "5J746",
-        "airline_name": "Cebu Pacific",
+        "flight_number": "PR595",
+        "airline_name": "Philippine Airlines",
         "destination_iata": "HAN",
         "destination_airport_name": "Hanoi Noi Bai International Airport",
         "destination_city": "Hanoi",
         "destination_country": "Vietnam",
-        "local_departure_time": "22:50",
+        "local_departure_time": "22:55",
         "local_arrival_time": "01:30 (+1)",
-        "duration": "03:40"
+        "duration": "03:35"
     },
     {
         "flight_number": "PR2869",
@@ -2211,19 +2178,8 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "PR223",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "PER",
-        "destination_airport_name": "Perth Airport",
-        "destination_city": "Perth",
-        "destination_country": "Australia",
-        "local_departure_time": "23:10",
-        "local_arrival_time": "06:25 (+1)",
-        "duration": "07:15"
-    },
-    {
         "flight_number": "Z2128",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "TPE",
         "destination_airport_name": "Taipei Taoyuan International Airport",
         "destination_city": "Taipei",
@@ -2251,12 +2207,12 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "23:25",
-        "local_arrival_time": "09:45 (+1)",
+        "local_arrival_time": "10:45 (+1)",
         "duration": "08:20"
     },
     {
         "flight_number": "JL78",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
@@ -2264,17 +2220,6 @@
         "local_departure_time": "23:25",
         "local_arrival_time": "04:40 (+1)",
         "duration": "04:15"
-    },
-    {
-        "flight_number": "SV871",
-        "airline_name": "Saudia",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "23:30",
-        "local_arrival_time": "05:15 (+1)",
-        "duration": "10:45"
     },
     {
         "flight_number": "KE624",
@@ -2286,6 +2231,17 @@
         "local_departure_time": "23:30",
         "local_arrival_time": "04:35 (+1)",
         "duration": "04:05"
+    },
+    {
+        "flight_number": "SV871",
+        "airline_name": "Saudia",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "23:30",
+        "local_arrival_time": "05:15 (+1)",
+        "duration": "10:45"
     },
     {
         "flight_number": "5J308",
@@ -2306,8 +2262,8 @@
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "23:50",
-        "local_arrival_time": "03:45 (+1)",
-        "duration": "08:55"
+        "local_arrival_time": "04:05 (+1)",
+        "duration": "09:15"
     },
     {
         "flight_number": "OZ704",

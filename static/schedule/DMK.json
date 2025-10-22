@@ -7,23 +7,12 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "00:20",
-        "local_arrival_time": "05:40",
-        "duration": "04:20"
-    },
-    {
-        "flight_number": "SL242",
-        "airline_name": "Thai Lion Air",
-        "destination_iata": "CCU",
-        "destination_airport_name": "Kolkata Subhas Chandra Bose International Airport",
-        "destination_city": "Kolkata",
-        "destination_country": "India",
-        "local_departure_time": "00:30",
-        "local_arrival_time": "01:35",
-        "duration": "02:35"
+        "local_arrival_time": "05:45",
+        "duration": "04:25"
     },
     {
         "flight_number": "XJ638",
-        "airline_name": "AirAsia X",
+        "airline_name": "Thai AirAsia X",
         "destination_iata": "NGO",
         "destination_airport_name": "Nagoya Chubu Centrair International Airport",
         "destination_city": "Nagoya",
@@ -34,7 +23,7 @@
     },
     {
         "flight_number": "XJ612",
-        "airline_name": "Garuda Indonesia",
+        "airline_name": "Thai AirAsia X",
         "destination_iata": "KIX",
         "destination_airport_name": "Osaka Kansai International Airport",
         "destination_city": "Osaka",
@@ -55,14 +44,25 @@
         "duration": "03:30"
     },
     {
+        "flight_number": "XJ620",
+        "airline_name": "Thai AirAsia X",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "02:00",
+        "local_arrival_time": "10:40",
+        "duration": "06:40"
+    },
+    {
         "flight_number": "FD234",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "KHH",
         "destination_airport_name": "Kaohsiung International Airport",
         "destination_city": "Kaohsiung",
         "destination_country": "Taiwan",
-        "local_departure_time": "02:35 / 02:45",
-        "local_arrival_time": "07:05 / 07:15",
+        "local_departure_time": "02:35",
+        "local_arrival_time": "07:05",
         "duration": "03:30"
     },
     {
@@ -77,17 +77,6 @@
         "duration": "06:05"
     },
     {
-        "flight_number": "XJ700",
-        "airline_name": "AirAsia X",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "02:45",
-        "local_arrival_time": "10:20",
-        "duration": "05:35"
-    },
-    {
         "flight_number": "SL390",
         "airline_name": "Thai Lion Air",
         "destination_iata": "KHH",
@@ -97,6 +86,17 @@
         "local_departure_time": "02:45",
         "local_arrival_time": "07:15",
         "duration": "03:30"
+    },
+    {
+        "flight_number": "XJ700",
+        "airline_name": "Thai AirAsia X",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
+        "local_departure_time": "02:45",
+        "local_arrival_time": "10:20",
+        "duration": "05:35"
     },
     {
         "flight_number": "SL398",
@@ -121,6 +121,17 @@
         "duration": "03:10"
     },
     {
+        "flight_number": "FD359",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "06:10",
+        "local_arrival_time": "09:35",
+        "duration": "02:25"
+    },
+    {
         "flight_number": "SL394",
         "airline_name": "Thai Lion Air",
         "destination_iata": "TPE",
@@ -133,7 +144,7 @@
     },
     {
         "flight_number": "FD396",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "DPS",
         "destination_airport_name": "Denpasar Ngurah Rai International Airport",
         "destination_city": "Denpasar",
@@ -144,7 +155,7 @@
     },
     {
         "flight_number": "FD3001",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "HKT",
         "destination_airport_name": "Phuket International Airport",
         "destination_city": "Phuket",
@@ -154,15 +165,15 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "DD520",
-        "airline_name": "Nok Air",
-        "destination_iata": "HKT",
-        "destination_airport_name": "Phuket International Airport",
-        "destination_city": "Phuket",
-        "destination_country": "Thailand",
-        "local_departure_time": "06:35",
-        "local_arrival_time": "08:05",
-        "duration": "01:30"
+        "flight_number": "FD566",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "HGH",
+        "destination_airport_name": "Hangzhou Xiaoshan International Airport",
+        "destination_city": "Hangzhou",
+        "destination_country": "China",
+        "local_departure_time": "06:25",
+        "local_arrival_time": "11:35",
+        "duration": "04:10"
     },
     {
         "flight_number": "5J5959",
@@ -177,7 +188,7 @@
     },
     {
         "flight_number": "FD642",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "HAN",
         "destination_airport_name": "Hanoi Noi Bai International Airport",
         "destination_city": "Hanoi",
@@ -199,7 +210,7 @@
     },
     {
         "flight_number": "FD311",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "KUL",
         "destination_airport_name": "Kuala Lumpur International Airport",
         "destination_city": "Kuala Lumpur",
@@ -232,7 +243,7 @@
     },
     {
         "flight_number": "FD656",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "SGN",
         "destination_airport_name": "Ho Chi Minh City International Airport",
         "destination_city": "Ho Chi Minh City",
@@ -240,6 +251,17 @@
         "local_departure_time": "07:30",
         "local_arrival_time": "09:15",
         "duration": "01:45"
+    },
+    {
+        "flight_number": "FD3029",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "HKT",
+        "destination_airport_name": "Phuket International Airport",
+        "destination_city": "Phuket",
+        "destination_country": "Thailand",
+        "local_departure_time": "07:35",
+        "local_arrival_time": "09:00",
+        "duration": "01:25"
     },
     {
         "flight_number": "SL100",
@@ -262,17 +284,6 @@
         "local_departure_time": "07:45",
         "local_arrival_time": "09:10",
         "duration": "01:25"
-    },
-    {
-        "flight_number": "FD608",
-        "airline_name": "AirAsia",
-        "destination_iata": "PNH",
-        "destination_airport_name": "Phnom Penh International Airport",
-        "destination_city": "Phnom Penh",
-        "destination_country": "Cambodia",
-        "local_departure_time": "07:45",
-        "local_arrival_time": "08:55",
-        "duration": "01:10"
     },
     {
         "flight_number": "FD480",
@@ -337,23 +348,12 @@
         "destination_city": "Yangon",
         "destination_country": "Myanmar (Burma)",
         "local_departure_time": "08:50",
-        "local_arrival_time": "10:10",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "OD525",
-        "airline_name": "Batik Air Malaysia",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "09:05",
-        "local_arrival_time": "12:15",
-        "duration": "02:10"
+        "local_arrival_time": "09:40",
+        "duration": "01:20"
     },
     {
         "flight_number": "FD175",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "MLE",
         "destination_airport_name": "Male Velana International Airport",
         "destination_city": "Male",
@@ -361,17 +361,6 @@
         "local_departure_time": "09:15",
         "local_arrival_time": "11:35",
         "duration": "04:20"
-    },
-    {
-        "flight_number": "SL360",
-        "airline_name": "Thai Lion Air",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "09:20",
-        "local_arrival_time": "13:05",
-        "duration": "02:45"
     },
     {
         "flight_number": "SL934",
@@ -383,6 +372,17 @@
         "local_departure_time": "09:20",
         "local_arrival_time": "13:35",
         "duration": "03:15"
+    },
+    {
+        "flight_number": "SL360",
+        "airline_name": "Thai Lion Air",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "09:20",
+        "local_arrival_time": "13:05",
+        "duration": "02:45"
     },
     {
         "flight_number": "SL372",
@@ -408,7 +408,7 @@
     },
     {
         "flight_number": "FD3037",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "HKT",
         "destination_airport_name": "Phuket International Airport",
         "destination_city": "Phuket",
@@ -429,6 +429,17 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "FD762",
+        "airline_name": "AirAsia",
+        "destination_iata": "MFM",
+        "destination_airport_name": "Macau International Airport",
+        "destination_city": "Macau",
+        "destination_country": "Macao",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "13:45",
+        "duration": "02:45"
+    },
+    {
         "flight_number": "AK881",
         "airline_name": "AirAsia",
         "destination_iata": "KUL",
@@ -441,7 +452,7 @@
     },
     {
         "flight_number": "FD640",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "HAN",
         "destination_airport_name": "Hanoi Noi Bai International Airport",
         "destination_city": "Hanoi",
@@ -451,8 +462,19 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "FD357",
+        "flight_number": "FD508",
         "airline_name": "AirAsia",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "10:20",
+        "local_arrival_time": "14:00",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "FD357",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "SIN",
         "destination_airport_name": "Singapore Changi Airport",
         "destination_city": "Singapore",
@@ -463,18 +485,18 @@
     },
     {
         "flight_number": "FD3025",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "HKT",
         "destination_airport_name": "Phuket International Airport",
         "destination_city": "Phuket",
         "destination_country": "Thailand",
-        "local_departure_time": "11:05",
+        "local_departure_time": "11:05 / 11:10",
         "local_arrival_time": "12:35",
         "duration": "01:30"
     },
     {
         "flight_number": "FD652",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "SGN",
         "destination_airport_name": "Ho Chi Minh City International Airport",
         "destination_city": "Ho Chi Minh City",
@@ -496,7 +518,7 @@
     },
     {
         "flight_number": "QZ251",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "CGK",
         "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
         "destination_city": "Jakarta",
@@ -506,19 +528,30 @@
         "duration": "03:35"
     },
     {
-        "flight_number": "ID7632",
-        "airline_name": "Batik Air",
-        "destination_iata": "CGK",
-        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
-        "destination_city": "Jakarta",
-        "destination_country": "Indonesia",
-        "local_departure_time": "11:25",
+        "flight_number": "SL220",
+        "airline_name": "Thai Lion Air",
+        "destination_iata": "KTM",
+        "destination_airport_name": "Kathmandu Tribhuvan International Airport",
+        "destination_city": "Kathmandu",
+        "destination_country": "Nepal",
+        "local_departure_time": "11:45",
+        "local_arrival_time": "13:50",
+        "duration": "03:20"
+    },
+    {
+        "flight_number": "OD521",
+        "airline_name": "Batik Air Malaysia",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "11:50",
         "local_arrival_time": "15:00",
-        "duration": "03:35"
+        "duration": "02:10"
     },
     {
         "flight_number": "XJ606",
-        "airline_name": "AirAsia X",
+        "airline_name": "Thai AirAsia X",
         "destination_iata": "NRT",
         "destination_airport_name": "Tokyo Narita International Airport",
         "destination_city": "Tokyo",
@@ -540,7 +573,7 @@
     },
     {
         "flight_number": "FD182",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "KTM",
         "destination_airport_name": "Kathmandu Tribhuvan International Airport",
         "destination_city": "Kathmandu",
@@ -551,7 +584,7 @@
     },
     {
         "flight_number": "XJ610",
-        "airline_name": "AirAsia X",
+        "airline_name": "Thai AirAsia X",
         "destination_iata": "KIX",
         "destination_airport_name": "Osaka Kansai International Airport",
         "destination_city": "Osaka",
@@ -584,7 +617,7 @@
     },
     {
         "flight_number": "Z2286",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "MNL",
         "destination_airport_name": "Manila Ninoy Aquino International Airport",
         "destination_city": "Manila",
@@ -606,7 +639,7 @@
     },
     {
         "flight_number": "XJ230",
-        "airline_name": "AirAsia X",
+        "airline_name": "Thai AirAsia X",
         "destination_iata": "DEL",
         "destination_airport_name": "Delhi Indira Gandhi International Airport",
         "destination_city": "Delhi",
@@ -628,7 +661,7 @@
     },
     {
         "flight_number": "FD3091",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "HKT",
         "destination_airport_name": "Phuket International Airport",
         "destination_city": "Phuket",
@@ -636,17 +669,6 @@
         "local_departure_time": "13:00",
         "local_arrival_time": "14:30",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "FD398",
-        "airline_name": "AirAsia",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "13:05",
-        "local_arrival_time": "18:20",
-        "duration": "04:15"
     },
     {
         "flight_number": "AK883",
@@ -672,7 +694,7 @@
     },
     {
         "flight_number": "FD654",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "SGN",
         "destination_airport_name": "Ho Chi Minh City International Airport",
         "destination_city": "Ho Chi Minh City",
@@ -693,8 +715,19 @@
         "duration": "04:20"
     },
     {
+        "flight_number": "FD552",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "CKG",
+        "destination_airport_name": "Chongqing Jiangbei International Airport",
+        "destination_city": "Chongqing",
+        "destination_country": "China",
+        "local_departure_time": "13:55",
+        "local_arrival_time": "18:00",
+        "duration": "03:05"
+    },
+    {
         "flight_number": "FD3023",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "HKT",
         "destination_airport_name": "Phuket International Airport",
         "destination_city": "Phuket",
@@ -738,25 +771,14 @@
     },
     {
         "flight_number": "FD3007",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "HKT",
         "destination_airport_name": "Phuket International Airport",
         "destination_city": "Phuket",
         "destination_country": "Thailand",
-        "local_departure_time": "14:40",
-        "local_arrival_time": "16:10",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "FD606",
-        "airline_name": "AirAsia",
-        "destination_iata": "PNH",
-        "destination_airport_name": "Phnom Penh International Airport",
-        "destination_city": "Phnom Penh",
-        "destination_country": "Cambodia",
-        "local_departure_time": "15:05",
+        "local_departure_time": "15:00",
         "local_arrival_time": "16:20",
-        "duration": "01:15"
+        "duration": "01:20"
     },
     {
         "flight_number": "AK885",
@@ -770,26 +792,15 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "SL118",
-        "airline_name": "Thai Lion Air",
-        "destination_iata": "CGK",
-        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
-        "destination_city": "Jakarta",
-        "destination_country": "Indonesia",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "19:30",
-        "duration": "03:30"
-    },
-    {
-        "flight_number": "QZ255",
-        "airline_name": "AirAsia",
-        "destination_iata": "CGK",
-        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
-        "destination_city": "Jakarta",
-        "destination_country": "Indonesia",
-        "local_departure_time": "16:10",
-        "local_arrival_time": "19:45",
-        "duration": "03:35"
+        "flight_number": "FD3017",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "HKT",
+        "destination_airport_name": "Phuket International Airport",
+        "destination_city": "Phuket",
+        "destination_country": "Thailand",
+        "local_departure_time": "15:20",
+        "local_arrival_time": "16:55",
+        "duration": "01:35"
     },
     {
         "flight_number": "SL760",
@@ -803,37 +814,15 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "FD588",
-        "airline_name": "Thai AirAsia",
-        "destination_iata": "XIY",
-        "destination_airport_name": "Xi'an Xianyang International Airport",
-        "destination_city": "Xi'an",
-        "destination_country": "China",
-        "local_departure_time": "16:40",
-        "local_arrival_time": "21:35",
-        "duration": "03:55"
-    },
-    {
         "flight_number": "DD528",
         "airline_name": "Nok Air",
         "destination_iata": "HKT",
         "destination_airport_name": "Phuket International Airport",
         "destination_city": "Phuket",
         "destination_country": "Thailand",
-        "local_departure_time": "16:45",
-        "local_arrival_time": "18:15",
+        "local_departure_time": "16:35",
+        "local_arrival_time": "18:05",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "FD351",
-        "airline_name": "AirAsia",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "16:45",
-        "local_arrival_time": "20:05",
-        "duration": "02:20"
     },
     {
         "flight_number": "AK887",
@@ -842,8 +831,19 @@
         "destination_airport_name": "Kuala Lumpur International Airport",
         "destination_city": "Kuala Lumpur",
         "destination_country": "Malaysia",
-        "local_departure_time": "16:50",
-        "local_arrival_time": "20:10",
+        "local_departure_time": "16:45",
+        "local_arrival_time": "20:05",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "FD351",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "16:45",
+        "local_arrival_time": "20:05",
         "duration": "02:20"
     },
     {
@@ -881,7 +881,7 @@
     },
     {
         "flight_number": "FD3027",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "HKT",
         "destination_airport_name": "Phuket International Airport",
         "destination_city": "Phuket",
@@ -902,28 +902,6 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "OD529",
-        "airline_name": "Batik Air Malaysia",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "18:05",
-        "local_arrival_time": "21:15",
-        "duration": "02:10"
-    },
-    {
-        "flight_number": "QZ257",
-        "airline_name": "AirAsia",
-        "destination_iata": "CGK",
-        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
-        "destination_city": "Jakarta",
-        "destination_country": "Indonesia",
-        "local_departure_time": "18:20",
-        "local_arrival_time": "21:50",
-        "duration": "03:30"
-    },
-    {
         "flight_number": "ID7630",
         "airline_name": "Batik Air",
         "destination_iata": "CGK",
@@ -936,7 +914,7 @@
     },
     {
         "flight_number": "FD644",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "HAN",
         "destination_airport_name": "Hanoi Noi Bai International Airport",
         "destination_city": "Hanoi",
@@ -947,7 +925,7 @@
     },
     {
         "flight_number": "FD596",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "SZX",
         "destination_airport_name": "Shenzhen Bao'an International Airport",
         "destination_city": "Shenzhen",
@@ -955,6 +933,17 @@
         "local_departure_time": "18:30",
         "local_arrival_time": "22:25",
         "duration": "02:55"
+    },
+    {
+        "flight_number": "FD3009",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "HKT",
+        "destination_airport_name": "Phuket International Airport",
+        "destination_city": "Phuket",
+        "destination_country": "Thailand",
+        "local_departure_time": "18:35",
+        "local_arrival_time": "19:55",
+        "duration": "01:20"
     },
     {
         "flight_number": "AK893",
@@ -966,17 +955,6 @@
         "local_departure_time": "18:45",
         "local_arrival_time": "22:00",
         "duration": "02:15"
-    },
-    {
-        "flight_number": "QZ245",
-        "airline_name": "AirAsia",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "18:45 / 19:00",
-        "local_arrival_time": "00:05 (+1) / 00:20 (+1)",
-        "duration": "04:20"
     },
     {
         "flight_number": "8M363",
@@ -991,7 +969,7 @@
     },
     {
         "flight_number": "FD530",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "CAN",
         "destination_airport_name": "Guangzhou Baiyun International Airport",
         "destination_city": "Guangzhou",
@@ -1013,7 +991,7 @@
     },
     {
         "flight_number": "FD658",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "SGN",
         "destination_airport_name": "Ho Chi Minh City International Airport",
         "destination_city": "Ho Chi Minh City",
@@ -1021,17 +999,6 @@
         "local_departure_time": "19:25",
         "local_arrival_time": "21:05",
         "duration": "01:40"
-    },
-    {
-        "flight_number": "SL764",
-        "airline_name": "Thai Lion Air",
-        "destination_iata": "HKT",
-        "destination_airport_name": "Phuket International Airport",
-        "destination_city": "Phuket",
-        "destination_country": "Thailand",
-        "local_departure_time": "19:30",
-        "local_arrival_time": "20:55",
-        "duration": "01:25"
     },
     {
         "flight_number": "AK889",
@@ -1057,13 +1024,13 @@
     },
     {
         "flight_number": "FD3031",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "HKT",
         "destination_airport_name": "Phuket International Airport",
         "destination_city": "Phuket",
         "destination_country": "Thailand",
-        "local_departure_time": "19:55",
-        "local_arrival_time": "21:25",
+        "local_departure_time": "20:05",
+        "local_arrival_time": "21:35",
         "duration": "01:30"
     },
     {
@@ -1073,13 +1040,13 @@
         "destination_airport_name": "Kuala Lumpur International Airport",
         "destination_city": "Kuala Lumpur",
         "destination_country": "Malaysia",
-        "local_departure_time": "20:15 / 21:15",
-        "local_arrival_time": "00:25 (+1) / 23:25",
+        "local_departure_time": "20:15",
+        "local_arrival_time": "23:25",
         "duration": "02:10"
     },
     {
         "flight_number": "FD140",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "CMB",
         "destination_airport_name": "Colombo Bandaranaike International Airport",
         "destination_city": "Colombo",
@@ -1090,7 +1057,7 @@
     },
     {
         "flight_number": "FD170",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "COK",
         "destination_airport_name": "Cochin International Airport",
         "destination_city": "Cochin",
@@ -1111,8 +1078,19 @@
         "duration": "04:15"
     },
     {
+        "flight_number": "FD3013",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "HKT",
+        "destination_airport_name": "Phuket International Airport",
+        "destination_city": "Phuket",
+        "destination_country": "Thailand",
+        "local_departure_time": "20:25",
+        "local_arrival_time": "21:50",
+        "duration": "01:25"
+    },
+    {
         "flight_number": "FD137",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "BLR",
         "destination_airport_name": "Bengaluru Kempegowda International Airport",
         "destination_city": "Bengaluru",
@@ -1122,52 +1100,8 @@
         "duration": "03:35"
     },
     {
-        "flight_number": "FD3013",
-        "airline_name": "AirAsia",
-        "destination_iata": "HKT",
-        "destination_airport_name": "Phuket International Airport",
-        "destination_city": "Phuket",
-        "destination_country": "Thailand",
-        "local_departure_time": "20:35",
-        "local_arrival_time": "21:55",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "QZ253",
-        "airline_name": "AirAsia",
-        "destination_iata": "CGK",
-        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
-        "destination_city": "Jakarta",
-        "destination_country": "Indonesia",
-        "local_departure_time": "20:40",
-        "local_arrival_time": "00:05 (+1)",
-        "duration": "03:25"
-    },
-    {
-        "flight_number": "SL950",
-        "airline_name": "Thai Lion Air",
-        "destination_iata": "XIY",
-        "destination_airport_name": "Xi'an Xianyang International Airport",
-        "destination_city": "Xi'an",
-        "destination_country": "China",
-        "local_departure_time": "20:40",
-        "local_arrival_time": "01:20 (+1)",
-        "duration": "03:40"
-    },
-    {
-        "flight_number": "FD118",
-        "airline_name": "Thai AirAsia",
-        "destination_iata": "HYD",
-        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
-        "destination_city": "Hyderabad",
-        "destination_country": "India",
-        "local_departure_time": "20:50",
-        "local_arrival_time": "22:55",
-        "duration": "03:35"
-    },
-    {
         "flight_number": "FD153",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "MAA",
         "destination_airport_name": "Chennai International Airport",
         "destination_city": "Chennai",
@@ -1175,39 +1109,6 @@
         "local_departure_time": "20:55",
         "local_arrival_time": "22:40",
         "duration": "03:15"
-    },
-    {
-        "flight_number": "AK889",
-        "airline_name": "AirAsia",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "00:10 (+1)",
-        "duration": "02:10"
-    },
-    {
-        "flight_number": "SL216",
-        "airline_name": "Thai Lion Air",
-        "destination_iata": "BLR",
-        "destination_airport_name": "Bengaluru Kempegowda International Airport",
-        "destination_city": "Bengaluru",
-        "destination_country": "India",
-        "local_departure_time": "21:20",
-        "local_arrival_time": "23:35",
-        "duration": "03:45"
-    },
-    {
-        "flight_number": "AK897",
-        "airline_name": "AirAsia",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "00:45 (+1)",
-        "duration": "02:15"
     },
     {
         "flight_number": "SL900",
@@ -1221,19 +1122,8 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "8M363",
-        "airline_name": "Myanmar Airways International",
-        "destination_iata": "RGN",
-        "destination_airport_name": "Yangon International Airport",
-        "destination_city": "Yangon",
-        "destination_country": "Myanmar (Burma)",
-        "local_departure_time": "21:45",
-        "local_arrival_time": "22:35",
-        "duration": "01:20"
-    },
-    {
         "flight_number": "FD562",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "TFU",
         "destination_airport_name": "Chengdu Tianfu International Airport",
         "destination_city": "Chengdu",
@@ -1241,28 +1131,6 @@
         "local_departure_time": "21:50",
         "local_arrival_time": "02:00 (+1)",
         "duration": "03:10"
-    },
-    {
-        "flight_number": "W550",
-        "airline_name": "Mahan Air",
-        "destination_iata": "IKA",
-        "destination_airport_name": "Tehran Imam Khomeini International Airport",
-        "destination_city": "Tehran",
-        "destination_country": "Iran",
-        "local_departure_time": "22:00",
-        "local_arrival_time": "02:10 (+1)",
-        "duration": "07:40"
-    },
-    {
-        "flight_number": "QZ259",
-        "airline_name": "AirAsia",
-        "destination_iata": "CGK",
-        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
-        "destination_city": "Jakarta",
-        "destination_country": "Indonesia",
-        "local_departure_time": "22:35",
-        "local_arrival_time": "01:55 (+1)",
-        "duration": "03:20"
     },
     {
         "flight_number": "SL210",
@@ -1288,7 +1156,7 @@
     },
     {
         "flight_number": "FD120",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "CCU",
         "destination_airport_name": "Kolkata Subhas Chandra Bose International Airport",
         "destination_city": "Kolkata",
@@ -1298,8 +1166,19 @@
         "duration": "02:34"
     },
     {
+        "flight_number": "SL240",
+        "airline_name": "Thai Lion Air",
+        "destination_iata": "MAA",
+        "destination_airport_name": "Chennai International Airport",
+        "destination_city": "Chennai",
+        "destination_country": "India",
+        "local_departure_time": "23:00",
+        "local_arrival_time": "01:00 (+1)",
+        "duration": "03:30"
+    },
+    {
         "flight_number": "5J864",
-        "airline_name": "Cebu Pacific Air",
+        "airline_name": "Cebu Pacific",
         "destination_iata": "MNL",
         "destination_airport_name": "Manila Ninoy Aquino International Airport",
         "destination_city": "Manila",
@@ -1309,8 +1188,19 @@
         "duration": "03:30"
     },
     {
+        "flight_number": "FD598",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "SZX",
+        "destination_airport_name": "Shenzhen Bao'an International Airport",
+        "destination_city": "Shenzhen",
+        "destination_country": "China",
+        "local_departure_time": "23:10",
+        "local_arrival_time": "03:00 (+1)",
+        "duration": "02:50"
+    },
+    {
         "flight_number": "FD236",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "FUK",
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
@@ -1321,7 +1211,7 @@
     },
     {
         "flight_number": "XJ600",
-        "airline_name": "AirAsia X",
+        "airline_name": "Thai AirAsia X",
         "destination_iata": "NRT",
         "destination_airport_name": "Tokyo Narita International Airport",
         "destination_city": "Tokyo",

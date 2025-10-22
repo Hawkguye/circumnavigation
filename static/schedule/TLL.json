@@ -1,5 +1,16 @@
 [
     {
+        "flight_number": "SK9259",
+        "airline_name": "SAS",
+        "destination_iata": "ARN",
+        "destination_airport_name": "Stockholm Arlanda Airport",
+        "destination_city": "Stockholm",
+        "destination_country": "Sweden",
+        "local_departure_time": "00:15",
+        "local_arrival_time": "00:08",
+        "duration": "00:53"
+    },
+    {
         "flight_number": "FR4611",
         "airline_name": "Ryanair",
         "destination_iata": "ARN",
@@ -11,48 +22,37 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "U57103",
-        "airline_name": "Fly2Sky",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "04:40",
-        "local_arrival_time": "09:26",
-        "duration": "04:46"
-    },
-    {
-        "flight_number": "HN329",
-        "airline_name": "Heston Airlines",
-        "destination_iata": "BOJ",
-        "destination_airport_name": "Burgas Airport",
-        "destination_city": "Burgas",
-        "destination_country": "Bulgaria",
-        "local_departure_time": "04:45",
-        "local_arrival_time": "07:55",
-        "duration": "03:10"
-    },
-    {
-        "flight_number": "W2329",
-        "airline_name": "Flexflight",
-        "destination_iata": "BOJ",
-        "destination_airport_name": "Burgas Airport",
-        "destination_city": "Burgas",
-        "destination_country": "Bulgaria",
-        "local_departure_time": "04:45",
-        "local_arrival_time": "07:55",
-        "duration": "03:10"
+        "flight_number": "XQ497",
+        "airline_name": "SunExpress",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "04:25",
+        "local_arrival_time": "08:30",
+        "duration": "04:05"
     },
     {
         "flight_number": null,
         "airline_name": "Heston Airlines",
-        "destination_iata": "BOJ",
-        "destination_airport_name": "Burgas Airport",
-        "destination_city": "Burgas",
-        "destination_country": "Bulgaria",
-        "local_departure_time": "04:45",
-        "local_arrival_time": "07:38",
-        "duration": "02:53"
+        "destination_iata": "HER",
+        "destination_airport_name": "Heraklion International Airport",
+        "destination_city": "Heraklion",
+        "destination_country": "Greece",
+        "local_departure_time": "04:30",
+        "local_arrival_time": "08:25",
+        "duration": "03:55"
+    },
+    {
+        "flight_number": "FH732",
+        "airline_name": "Freebird Airlines",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "04:40",
+        "local_arrival_time": "08:47",
+        "duration": "04:07"
     },
     {
         "flight_number": "BT362",
@@ -110,26 +110,26 @@
         "duration": "02:50"
     },
     {
+        "flight_number": "SK1791",
+        "airline_name": "SAS",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "06:20",
+        "local_arrival_time": "06:55",
+        "duration": "01:35"
+    },
+    {
         "flight_number": "BT861",
         "airline_name": "Air Baltic",
         "destination_iata": "CDG",
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "06:20",
-        "local_arrival_time": "08:20",
+        "local_departure_time": "06:35",
+        "local_arrival_time": "08:35",
         "duration": "03:00"
-    },
-    {
-        "flight_number": "SK1771",
-        "airline_name": "SAS",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "06:45",
-        "local_arrival_time": "07:00",
-        "duration": "01:15"
     },
     {
         "flight_number": "AY1012",
@@ -141,6 +141,28 @@
         "local_departure_time": "06:55",
         "local_arrival_time": "07:25",
         "duration": "00:30"
+    },
+    {
+        "flight_number": "SK1771",
+        "airline_name": "SAS",
+        "destination_iata": "ARN",
+        "destination_airport_name": "Stockholm Arlanda Airport",
+        "destination_city": "Stockholm",
+        "destination_country": "Sweden",
+        "local_departure_time": "07:00",
+        "local_arrival_time": "07:00",
+        "duration": "01:00"
+    },
+    {
+        "flight_number": "BT879",
+        "airline_name": "Air Baltic",
+        "destination_iata": "AGP",
+        "destination_airport_name": "Malaga Costa Del Sol Airport",
+        "destination_city": "Malaga",
+        "destination_country": "Spain",
+        "local_departure_time": "07:15",
+        "local_arrival_time": "11:05",
+        "duration": "04:50"
     },
     {
         "flight_number": "BT823",
@@ -165,6 +187,28 @@
         "duration": "02:30"
     },
     {
+        "flight_number": "BT811",
+        "airline_name": "Air Baltic",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "08:05",
+        "local_arrival_time": "08:45",
+        "duration": "01:40"
+    },
+    {
+        "flight_number": "BT902",
+        "airline_name": "Air Baltic",
+        "destination_iata": "VNO",
+        "destination_airport_name": "Vilnius International Airport",
+        "destination_city": "Vilnius",
+        "destination_country": "Lithuania",
+        "local_departure_time": "08:10",
+        "local_arrival_time": "09:20",
+        "duration": "01:10"
+    },
+    {
         "flight_number": "LO790",
         "airline_name": "LOT",
         "destination_iata": "WAW",
@@ -187,6 +231,17 @@
         "duration": "00:50"
     },
     {
+        "flight_number": "FR4645",
+        "airline_name": "Ryanair",
+        "destination_iata": "ARN",
+        "destination_airport_name": "Stockholm Arlanda Airport",
+        "destination_city": "Stockholm",
+        "destination_country": "Sweden",
+        "local_departure_time": "09:10",
+        "local_arrival_time": "09:15",
+        "duration": "01:05"
+    },
+    {
         "flight_number": "AY1014",
         "airline_name": "Finnair",
         "destination_iata": "HEL",
@@ -199,13 +254,13 @@
     },
     {
         "flight_number": "SK749",
-        "airline_name": "BRA",
+        "airline_name": "SAS",
         "destination_iata": "ARN",
         "destination_airport_name": "Stockholm Arlanda Airport",
         "destination_city": "Stockholm",
         "destination_country": "Sweden",
-        "local_departure_time": "10:55",
-        "local_arrival_time": "11:10",
+        "local_departure_time": "10:50",
+        "local_arrival_time": "11:05",
         "duration": "01:15"
     },
     {
@@ -215,31 +270,42 @@
         "destination_airport_name": "Helsinki Vantaa Airport",
         "destination_city": "Helsinki",
         "destination_country": "Finland",
-        "local_departure_time": "11:00",
-        "local_arrival_time": "11:30",
+        "local_departure_time": "11:35",
+        "local_arrival_time": "12:05",
         "duration": "00:30"
     },
     {
-        "flight_number": "D82011",
-        "airline_name": "Norwegian Air Sweden",
-        "destination_iata": "OSL",
-        "destination_airport_name": "Oslo Gardermoen Airport",
-        "destination_city": "Oslo",
-        "destination_country": "Norway",
-        "local_departure_time": "12:15",
-        "local_arrival_time": "12:45",
-        "duration": "01:30"
+        "flight_number": "FR5694",
+        "airline_name": "Ryanair",
+        "destination_iata": "DUB",
+        "destination_airport_name": "Dublin Airport",
+        "destination_city": "Dublin",
+        "destination_country": "Ireland",
+        "local_departure_time": "11:45",
+        "local_arrival_time": "13:00",
+        "duration": "03:15"
     },
     {
-        "flight_number": "TK1422",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "12:35",
-        "local_arrival_time": "16:20",
-        "duration": "03:45"
+        "flight_number": "BT314",
+        "airline_name": "Air Baltic",
+        "destination_iata": "RIX",
+        "destination_airport_name": "Riga International Airport",
+        "destination_city": "Riga",
+        "destination_country": "Latvia",
+        "local_departure_time": "12:15",
+        "local_arrival_time": "13:05",
+        "duration": "00:50"
+    },
+    {
+        "flight_number": "FR2224",
+        "airline_name": "Ryanair",
+        "destination_iata": "STN",
+        "destination_airport_name": "London Stansted Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "12:15",
+        "local_arrival_time": "13:10",
+        "duration": "02:55"
     },
     {
         "flight_number": "AY1018",
@@ -264,17 +330,6 @@
         "duration": "00:50"
     },
     {
-        "flight_number": "BT821",
-        "airline_name": "Air Baltic",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "14:55",
-        "duration": "01:55"
-    },
-    {
         "flight_number": "BT859",
         "airline_name": "Air Baltic",
         "destination_iata": "AMS",
@@ -297,14 +352,25 @@
         "duration": "01:40"
     },
     {
+        "flight_number": "HN3453",
+        "airline_name": "Heston Airlines",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "19:28",
+        "duration": "04:58"
+    },
+    {
         "flight_number": "LH881",
         "airline_name": "Lufthansa",
         "destination_iata": "FRA",
         "destination_airport_name": "Frankfurt Airport",
         "destination_city": "Frankfurt",
         "destination_country": "Germany",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "16:05",
+        "local_departure_time": "14:40",
+        "local_arrival_time": "16:15",
         "duration": "02:35"
     },
     {
@@ -315,8 +381,41 @@
         "destination_city": "Helsinki",
         "destination_country": "Finland",
         "local_departure_time": "14:55",
-        "local_arrival_time": "15:30",
-        "duration": "00:35"
+        "local_arrival_time": "15:25",
+        "duration": "00:30"
+    },
+    {
+        "flight_number": "BT815",
+        "airline_name": "Air Baltic",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "14:55",
+        "local_arrival_time": "15:25",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "SK1787",
+        "airline_name": "SAS",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "15:45",
+        "local_arrival_time": "16:20",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "AY1022",
+        "airline_name": "Finnair",
+        "destination_iata": "HEL",
+        "destination_airport_name": "Helsinki Vantaa Airport",
+        "destination_city": "Helsinki",
+        "destination_country": "Finland",
+        "local_departure_time": "16:35",
+        "local_arrival_time": "17:05",
+        "duration": "00:30"
     },
     {
         "flight_number": "SK1745",
@@ -326,19 +425,8 @@
         "destination_city": "Stockholm",
         "destination_country": "Sweden",
         "local_departure_time": "16:35",
-        "local_arrival_time": "16:50",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "AY1022",
-        "airline_name": "Finnair",
-        "destination_iata": "HEL",
-        "destination_airport_name": "Helsinki Vantaa Airport",
-        "destination_city": "Helsinki",
-        "destination_country": "Finland",
-        "local_departure_time": "16:35 / 16:45",
-        "local_arrival_time": "17:05 / 17:15",
-        "duration": "00:30"
+        "local_arrival_time": "16:35",
+        "duration": "01:00"
     },
     {
         "flight_number": "BT871",
@@ -352,17 +440,6 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "BT906",
-        "airline_name": "Air Baltic",
-        "destination_iata": "VNO",
-        "destination_airport_name": "Vilnius International Airport",
-        "destination_city": "Vilnius",
-        "destination_country": "Lithuania",
-        "local_departure_time": "17:00",
-        "local_arrival_time": "18:10",
-        "duration": "01:10"
-    },
-    {
         "flight_number": "AY1024",
         "airline_name": "Finnair",
         "destination_iata": "HEL",
@@ -374,15 +451,15 @@
         "duration": "00:30"
     },
     {
-        "flight_number": "FR4623",
-        "airline_name": "Ryanair",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "17:45",
-        "local_arrival_time": "17:50",
-        "duration": "01:05"
+        "flight_number": "BT853",
+        "airline_name": "Air Baltic",
+        "destination_iata": "BRU",
+        "destination_airport_name": "Brussels Airport",
+        "destination_city": "Brussels",
+        "destination_country": "Belgium",
+        "local_departure_time": "18:15",
+        "local_arrival_time": "19:55",
+        "duration": "02:40"
     },
     {
         "flight_number": "LO788",
@@ -391,8 +468,8 @@
         "destination_airport_name": "Warsaw Chopin Airport",
         "destination_city": "Warsaw",
         "destination_country": "Poland",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "19:10",
+        "local_departure_time": "18:25",
+        "local_arrival_time": "19:05",
         "duration": "01:40"
     },
     {
@@ -402,31 +479,9 @@
         "destination_airport_name": "Frankfurt Airport",
         "destination_city": "Frankfurt",
         "destination_country": "Germany",
-        "local_departure_time": "18:45 / 18:50",
-        "local_arrival_time": "20:20 / 20:25",
+        "local_departure_time": "18:45",
+        "local_arrival_time": "20:20",
         "duration": "02:35"
-    },
-    {
-        "flight_number": "BT851",
-        "airline_name": "Air Baltic",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
-        "local_departure_time": "19:00",
-        "local_arrival_time": "20:40",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "LH2405",
-        "airline_name": "Lufthansa",
-        "destination_iata": "MUC",
-        "destination_airport_name": "Munich Airport",
-        "destination_city": "Munich",
-        "destination_country": "Germany",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "20:40",
-        "duration": "02:30"
     },
     {
         "flight_number": "BT827",
@@ -451,70 +506,26 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "AEG7003",
-        "airline_name": "Airest",
-        "destination_iata": "HEL",
-        "destination_airport_name": "Helsinki Vantaa Airport",
-        "destination_city": "Helsinki",
-        "destination_country": "Finland",
-        "local_departure_time": "19:40",
-        "local_arrival_time": "20:12",
-        "duration": "00:32"
-    },
-    {
-        "flight_number": "TO7401",
-        "airline_name": "Transavia France",
-        "destination_iata": "ORY",
-        "destination_airport_name": "Paris Orly Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "21:55",
-        "duration": "03:10"
-    },
-    {
         "flight_number": "AY1028",
         "airline_name": "Finnair",
         "destination_iata": "HEL",
         "destination_airport_name": "Helsinki Vantaa Airport",
         "destination_city": "Helsinki",
         "destination_country": "Finland",
-        "local_departure_time": "20:00 / 20:10",
-        "local_arrival_time": "20:30 / 20:40",
+        "local_departure_time": "20:00",
+        "local_arrival_time": "20:30",
         "duration": "00:30"
     },
     {
-        "flight_number": "3V4367",
-        "airline_name": "ASL Airlines",
+        "flight_number": "SK1749",
+        "airline_name": "SAS",
         "destination_iata": "ARN",
         "destination_airport_name": "Stockholm Arlanda Airport",
         "destination_city": "Stockholm",
         "destination_country": "Sweden",
-        "local_departure_time": "20:26",
-        "local_arrival_time": "20:25",
-        "duration": "00:59"
-    },
-    {
-        "flight_number": "EW4281",
-        "airline_name": "Eurowings",
-        "destination_iata": "PRG",
-        "destination_airport_name": "Prague Vaclav Havel Airport",
-        "destination_city": "Prague",
-        "destination_country": "Czechia",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "21:40",
-        "duration": "02:10"
-    },
-    {
-        "flight_number": "BT811",
-        "airline_name": "Air Baltic",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "20:35",
-        "local_arrival_time": "21:15",
-        "duration": "01:40"
+        "local_departure_time": "20:00",
+        "local_arrival_time": "20:15",
+        "duration": "01:15"
     },
     {
         "flight_number": "BT906",
@@ -528,37 +539,15 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "W95446",
-        "airline_name": "Wizz Air UK",
-        "destination_iata": "LTN",
-        "destination_airport_name": "London Luton Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "22:10",
-        "duration": "03:00"
-    },
-    {
         "flight_number": "BT318",
         "airline_name": "Air Baltic",
         "destination_iata": "RIX",
         "destination_airport_name": "Riga International Airport",
         "destination_city": "Riga",
         "destination_country": "Latvia",
-        "local_departure_time": "21:25 / 21:50",
-        "local_arrival_time": "22:15 / 22:40",
+        "local_departure_time": "21:25",
+        "local_arrival_time": "22:15",
         "duration": "00:50"
-    },
-    {
-        "flight_number": "FR2733",
-        "airline_name": "Ryanair",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "22:30",
-        "duration": "02:00"
     },
     {
         "flight_number": "AY1032",
@@ -572,25 +561,14 @@
         "duration": "00:30"
     },
     {
-        "flight_number": "FR2224",
-        "airline_name": "Ryanair",
-        "destination_iata": "STN",
-        "destination_airport_name": "London Stansted Airport",
+        "flight_number": "W95446",
+        "airline_name": "Wizz Air UK",
+        "destination_iata": "LTN",
+        "destination_airport_name": "London Luton Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "23:35",
-        "local_arrival_time": "00:30 (+1)",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "BT843",
-        "airline_name": "Air Baltic",
-        "destination_iata": "TIA",
-        "destination_airport_name": "Tirana International Airport",
-        "destination_city": "Tirana",
-        "destination_country": "Albania",
-        "local_departure_time": "23:45",
-        "local_arrival_time": "01:50 (+1)",
-        "duration": "03:05"
+        "local_departure_time": "23:55",
+        "local_arrival_time": "00:55 (+1)",
+        "duration": "03:00"
     }
 ]

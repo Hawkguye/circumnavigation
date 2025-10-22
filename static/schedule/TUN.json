@@ -11,15 +11,26 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "UX1116",
-        "airline_name": "Air Europa",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
+        "flight_number": "A3735",
+        "airline_name": "Aegean Airlines",
+        "destination_iata": "ATH",
+        "destination_airport_name": "Athens Eleftherios Venizelos",
+        "destination_city": "Athens",
+        "destination_country": "Greece",
+        "local_departure_time": "01:10",
+        "local_arrival_time": "05:05",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "EW383",
+        "airline_name": "Eurowings",
+        "destination_iata": "CGN",
+        "destination_airport_name": "Cologne Bonn Airport",
+        "destination_city": "Cologne",
+        "destination_country": "Germany",
         "local_departure_time": "01:40",
-        "local_arrival_time": "04:55",
-        "duration": "02:15"
+        "local_arrival_time": "05:10",
+        "duration": "02:30"
     },
     {
         "flight_number": "LH1327",
@@ -31,17 +42,6 @@
         "local_departure_time": "01:50",
         "local_arrival_time": "05:20",
         "duration": "02:30"
-    },
-    {
-        "flight_number": "RJ554",
-        "airline_name": "Royal Jordanian",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "03:25",
-        "local_arrival_time": "09:15",
-        "duration": "03:50"
     },
     {
         "flight_number": "TK6191",
@@ -56,7 +56,7 @@
     },
     {
         "flight_number": "TO8859",
-        "airline_name": "Transavia France",
+        "airline_name": "Transavia",
         "destination_iata": "ORY",
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
@@ -94,9 +94,9 @@
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "05:45",
-        "local_arrival_time": "09:00",
-        "duration": "02:15"
+        "local_departure_time": "05:40 / 05:55",
+        "local_arrival_time": "09:05 / 09:20",
+        "duration": "02:25"
     },
     {
         "flight_number": "BJ714",
@@ -121,6 +121,28 @@
         "duration": "02:15"
     },
     {
+        "flight_number": "TU750",
+        "airline_name": "Tunisair",
+        "destination_iata": "LYS",
+        "destination_airport_name": "Lyon Saint Exupery Airport",
+        "destination_city": "Lyon",
+        "destination_country": "France",
+        "local_departure_time": "06:35 / 06:40",
+        "local_arrival_time": "09:25 / 09:30",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "BJ640",
+        "airline_name": "Nouvelair",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "06:45",
+        "local_arrival_time": "11:35",
+        "duration": "02:50"
+    },
+    {
         "flight_number": "BJ516",
         "airline_name": "Nouvelair",
         "destination_iata": "MRS",
@@ -132,26 +154,15 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "BJ510",
-        "airline_name": "Nouvelair",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "10:35",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "TU214",
+        "flight_number": "TU930",
         "airline_name": "Tunisair",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "11:40",
-        "duration": "02:40"
+        "destination_iata": "MRS",
+        "destination_airport_name": "Marseille Provence Airport",
+        "destination_city": "Marseille",
+        "destination_country": "France",
+        "local_departure_time": "06:50",
+        "local_arrival_time": "09:25",
+        "duration": "01:35"
     },
     {
         "flight_number": "TU996",
@@ -165,63 +176,52 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "TU282",
-        "airline_name": "Tunisair",
-        "destination_iata": "TLS",
-        "destination_airport_name": "Toulouse Blagnac Airport",
-        "destination_city": "Toulouse",
+        "flight_number": "BJ510",
+        "airline_name": "Nouvelair",
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
         "destination_country": "France",
+        "local_departure_time": "07:00",
+        "local_arrival_time": "10:35",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "TU702",
+        "airline_name": "Tunisair",
+        "destination_iata": "GVA",
+        "destination_airport_name": "Geneva International Airport",
+        "destination_city": "Geneva",
+        "destination_country": "Switzerland",
         "local_departure_time": "07:05",
         "local_arrival_time": "10:00",
         "duration": "01:55"
     },
     {
-        "flight_number": "TU750",
+        "flight_number": "TU792",
         "airline_name": "Tunisair",
+        "destination_iata": "LGW",
+        "destination_airport_name": "London Gatwick Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "07:20",
+        "local_arrival_time": "10:05",
+        "duration": "02:45"
+    },
+    {
+        "flight_number": "TO8777",
+        "airline_name": "Transavia France",
         "destination_iata": "LYS",
         "destination_airport_name": "Lyon Saint Exupery Airport",
         "destination_city": "Lyon",
         "destination_country": "France",
-        "local_departure_time": "07:15",
-        "local_arrival_time": "10:05",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "TU756",
-        "airline_name": "Tunisair",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "07:15",
-        "local_arrival_time": "10:00",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "BJ232",
-        "airline_name": "Nouvelair",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "07:30",
-        "local_arrival_time": "11:15",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "TU362",
-        "airline_name": "Tunisair",
-        "destination_iata": "BLQ",
-        "destination_airport_name": "Bologna Guglielmo Marconi Airport",
-        "destination_city": "Bologna",
-        "destination_country": "Italy",
         "local_departure_time": "07:45",
-        "local_arrival_time": "10:25",
-        "duration": "01:40"
+        "local_arrival_time": "10:45",
+        "duration": "02:00"
     },
     {
         "flight_number": "TU718",
-        "airline_name": "Tunisair",
+        "airline_name": "Avion Express",
         "destination_iata": "ORY",
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
@@ -242,15 +242,15 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "TU744",
-        "airline_name": "Tunisair",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "07:55",
-        "local_arrival_time": "11:30",
-        "duration": "02:35"
+        "flight_number": "TU756",
+        "airline_name": "Avion Express",
+        "destination_iata": "MXP",
+        "destination_airport_name": "Milan Malpensa Airport",
+        "destination_city": "Milan",
+        "destination_country": "Italy",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "10:45",
+        "duration": "01:45"
     },
     {
         "flight_number": "TO8337",
@@ -259,20 +259,9 @@
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "12:35",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "12:15",
         "duration": "02:35"
-    },
-    {
-        "flight_number": "TU202",
-        "airline_name": "Tunisair",
-        "destination_iata": "YUL",
-        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
-        "destination_city": "Montreal",
-        "destination_country": "Canada",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "12:55",
-        "duration": "08:55"
     },
     {
         "flight_number": "AH4001",
@@ -286,15 +275,15 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "TU954",
-        "airline_name": "Tunisair",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
-        "local_departure_time": "09:35",
-        "local_arrival_time": "13:10",
-        "duration": "02:35"
+        "flight_number": "IA502",
+        "airline_name": "Iraqi Airways",
+        "destination_iata": "BGW",
+        "destination_airport_name": "Baghdad International Airport",
+        "destination_city": "Baghdad",
+        "destination_country": "Iraq",
+        "local_departure_time": "09:30",
+        "local_arrival_time": "16:00",
+        "duration": "04:30"
     },
     {
         "flight_number": "AF1085",
@@ -303,6 +292,17 @@
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
         "destination_country": "France",
+        "local_departure_time": "09:50",
+        "local_arrival_time": "13:25",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "TU744",
+        "airline_name": "Tunisair",
+        "destination_iata": "FRA",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany",
         "local_departure_time": "09:50",
         "local_arrival_time": "13:25",
         "duration": "02:35"
@@ -319,6 +319,17 @@
         "duration": "02:50"
     },
     {
+        "flight_number": "UG1730",
+        "airline_name": "Tunisair Express",
+        "destination_iata": "NAP",
+        "destination_airport_name": "Naples Airport",
+        "destination_city": "Naples",
+        "destination_country": "Italy",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "12:45",
+        "duration": "01:45"
+    },
+    {
         "flight_number": "AZ863",
         "airline_name": "ITA Airways",
         "destination_iata": "FCO",
@@ -330,15 +341,26 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "UG1300",
+        "flight_number": "UG1758",
         "airline_name": "Tunisair Express",
-        "destination_iata": "MLA",
-        "destination_airport_name": "Malta Luqa International Airport",
-        "destination_city": "Malta",
-        "destination_country": "Malta",
+        "destination_iata": "PMO",
+        "destination_airport_name": "Palermo Falcone-Borsellino Airport",
+        "destination_city": "Palermo",
+        "destination_country": "Italy",
         "local_departure_time": "10:30",
-        "local_arrival_time": "12:40",
-        "duration": "01:10"
+        "local_arrival_time": "12:30",
+        "duration": "01:00"
+    },
+    {
+        "flight_number": null,
+        "airline_name": "Luxwing",
+        "destination_iata": "PMO",
+        "destination_airport_name": "Palermo Falcone-Borsellino Airport",
+        "destination_city": "Palermo",
+        "destination_country": "Italy",
+        "local_departure_time": "10:30",
+        "local_arrival_time": "12:18",
+        "duration": "00:48"
     },
     {
         "flight_number": "MS844",
@@ -352,14 +374,25 @@
         "duration": "03:05"
     },
     {
+        "flight_number": "LH1745",
+        "airline_name": "Lufthansa",
+        "destination_iata": "MUC",
+        "destination_airport_name": "Munich Airport",
+        "destination_city": "Munich",
+        "destination_country": "Germany",
+        "local_departure_time": "11:20",
+        "local_arrival_time": "14:35",
+        "duration": "02:15"
+    },
+    {
         "flight_number": "TO8285",
         "airline_name": "Transavia France",
         "destination_iata": "ORY",
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "11:25",
-        "local_arrival_time": "15:00",
+        "local_departure_time": "11:30",
+        "local_arrival_time": "15:05",
         "duration": "02:35"
     },
     {
@@ -374,37 +407,15 @@
         "duration": "04:30"
     },
     {
-        "flight_number": "BJ598",
+        "flight_number": "BJ396",
         "airline_name": "Nouvelair",
-        "destination_iata": "LYS",
-        "destination_airport_name": "Lyon Saint Exupery Airport",
-        "destination_city": "Lyon",
-        "destination_country": "France",
+        "destination_iata": "BRU",
+        "destination_airport_name": "Brussels Airport",
+        "destination_city": "Brussels",
+        "destination_country": "Belgium",
         "local_departure_time": "11:45",
-        "local_arrival_time": "14:40",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "BJ246",
-        "airline_name": "Nouvelair",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "11:45",
-        "local_arrival_time": "15:20",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "LH1323",
-        "airline_name": "Lufthansa",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "11:45",
-        "local_arrival_time": "15:15",
-        "duration": "02:30"
+        "local_arrival_time": "15:30",
+        "duration": "02:45"
     },
     {
         "flight_number": "AF1285",
@@ -429,26 +440,26 @@
         "duration": "03:15"
     },
     {
-        "flight_number": "BJ730",
+        "flight_number": "BJ130",
         "airline_name": "Nouvelair",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "12:40",
-        "local_arrival_time": "16:15",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "TU374",
-        "airline_name": "Tunisair",
         "destination_iata": "ALG",
         "destination_airport_name": "Algiers Houari Boumediene Airport",
         "destination_city": "Algiers",
         "destination_country": "Algeria",
-        "local_departure_time": "12:50",
-        "local_arrival_time": "14:10",
-        "duration": "01:20"
+        "local_departure_time": "12:30",
+        "local_arrival_time": "13:55",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "TU752",
+        "airline_name": "Tunisair",
+        "destination_iata": "FCO",
+        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
+        "destination_city": "Rome",
+        "destination_country": "Italy",
+        "local_departure_time": "12:35",
+        "local_arrival_time": "15:00",
+        "duration": "01:25"
     },
     {
         "flight_number": "TU902",
@@ -457,64 +468,9 @@
         "destination_airport_name": "Marseille Provence Airport",
         "destination_city": "Marseille",
         "destination_country": "France",
-        "local_departure_time": "13:05",
-        "local_arrival_time": "15:40",
+        "local_departure_time": "13:20",
+        "local_arrival_time": "15:55",
         "duration": "01:35"
-    },
-    {
-        "flight_number": "TU850",
-        "airline_name": "Tunisair",
-        "destination_iata": "LYS",
-        "destination_airport_name": "Lyon Saint Exupery Airport",
-        "destination_city": "Lyon",
-        "destination_country": "France",
-        "local_departure_time": "13:15",
-        "local_arrival_time": "16:05",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "TU526",
-        "airline_name": "Tunisair",
-        "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
-        "destination_city": "Dusseldorf",
-        "destination_country": "Germany",
-        "local_departure_time": "13:15",
-        "local_arrival_time": "17:00",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "TU856",
-        "airline_name": "Avion Express",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "13:45",
-        "local_arrival_time": "16:30",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "RJ552",
-        "airline_name": "Royal Jordanian",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "13:45",
-        "local_arrival_time": "19:35",
-        "duration": "03:50"
-    },
-    {
-        "flight_number": "UG1760",
-        "airline_name": "Tunisair Express",
-        "destination_iata": "CTA",
-        "destination_airport_name": "Catania Fontanarossa Airport",
-        "destination_city": "Catania",
-        "destination_country": "Italy",
-        "local_departure_time": "13:45",
-        "local_arrival_time": "16:00",
-        "duration": "01:15"
     },
     {
         "flight_number": "EK748",
@@ -528,15 +484,15 @@
         "duration": "06:00"
     },
     {
-        "flight_number": "BJ130",
-        "airline_name": "Nouvelair",
-        "destination_iata": "ALG",
-        "destination_airport_name": "Algiers Houari Boumediene Airport",
-        "destination_city": "Algiers",
-        "destination_country": "Algeria",
+        "flight_number": null,
+        "airline_name": "Luxwing",
+        "destination_iata": "NAP",
+        "destination_airport_name": "Naples Airport",
+        "destination_city": "Naples",
+        "destination_country": "Italy",
         "local_departure_time": "14:00",
-        "local_arrival_time": "15:25",
-        "duration": "01:25"
+        "local_arrival_time": "16:18",
+        "duration": "01:18"
     },
     {
         "flight_number": "BJ184",
@@ -550,17 +506,6 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "TU700",
-        "airline_name": "Tunisair",
-        "destination_iata": "GVA",
-        "destination_airport_name": "Geneva International Airport",
-        "destination_city": "Geneva",
-        "destination_country": "Switzerland",
-        "local_departure_time": "14:25",
-        "local_arrival_time": "17:20",
-        "duration": "01:55"
-    },
-    {
         "flight_number": "BJ730",
         "airline_name": "Nouvelair",
         "destination_iata": "CDG",
@@ -572,15 +517,15 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "BJ396",
-        "airline_name": "Nouvelair",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
+        "flight_number": "TU642",
+        "airline_name": "Avion Express",
+        "destination_iata": "VIE",
+        "destination_airport_name": "Vienna International Airport",
+        "destination_city": "Vienna",
+        "destination_country": "Austria",
         "local_departure_time": "15:00",
-        "local_arrival_time": "18:45",
-        "duration": "02:45"
+        "local_arrival_time": "18:15",
+        "duration": "02:15"
     },
     {
         "flight_number": "TU606",
@@ -594,37 +539,15 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "TU542",
-        "airline_name": "Tunisair",
-        "destination_iata": "MUC",
-        "destination_airport_name": "Munich Airport",
-        "destination_city": "Munich",
-        "destination_country": "Germany",
-        "local_departure_time": "15:05",
-        "local_arrival_time": "18:20",
-        "duration": "02:15"
-    },
-    {
         "flight_number": "TU722",
-        "airline_name": "Legend Airlines",
+        "airline_name": "Tunisair",
         "destination_iata": "ORY",
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "15:35 / 15:40",
-        "local_arrival_time": "19:00 / 19:05",
+        "local_departure_time": "15:35",
+        "local_arrival_time": "19:00",
         "duration": "02:25"
-    },
-    {
-        "flight_number": "TU792",
-        "airline_name": "Tunisair",
-        "destination_iata": "LGW",
-        "destination_airport_name": "London Gatwick Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "15:55",
-        "local_arrival_time": "18:40",
-        "duration": "02:45"
     },
     {
         "flight_number": "QR1400",
@@ -638,17 +561,6 @@
         "duration": "05:05"
     },
     {
-        "flight_number": "TU713",
-        "airline_name": "Tunisair",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "16:25",
-        "local_arrival_time": "22:40",
-        "duration": "04:15"
-    },
-    {
         "flight_number": "BJ844",
         "airline_name": "Nouvelair",
         "destination_iata": "LGW",
@@ -658,17 +570,6 @@
         "local_departure_time": "16:30",
         "local_arrival_time": "19:35",
         "duration": "03:05"
-    },
-    {
-        "flight_number": "AF1585",
-        "airline_name": "Air France",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "16:50",
-        "local_arrival_time": "20:25",
-        "duration": "02:35"
     },
     {
         "flight_number": "WT149",
@@ -682,6 +583,17 @@
         "duration": "01:20"
     },
     {
+        "flight_number": "TU724",
+        "airline_name": "Tunisair",
+        "destination_iata": "ORY",
+        "destination_airport_name": "Paris Orly Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "17:20",
+        "local_arrival_time": "20:40",
+        "duration": "02:20"
+    },
+    {
         "flight_number": "TK664",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
@@ -693,48 +605,26 @@
         "duration": "02:55"
     },
     {
-        "flight_number": "TU724",
-        "airline_name": "Tunisair",
-        "destination_iata": "ORY",
-        "destination_airport_name": "Paris Orly Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "17:25",
-        "local_arrival_time": "20:50",
-        "duration": "02:25"
-    },
-    {
         "flight_number": "BJ520",
         "airline_name": "Nouvelair",
         "destination_iata": "CDG",
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "17:30 / 17:45",
-        "local_arrival_time": "21:05 / 21:20",
+        "local_departure_time": "17:45",
+        "local_arrival_time": "21:20",
         "duration": "02:35"
     },
     {
-        "flight_number": "TU642",
-        "airline_name": "Avion Express",
-        "destination_iata": "VIE",
-        "destination_airport_name": "Vienna International Airport",
-        "destination_city": "Vienna",
-        "destination_country": "Austria",
-        "local_departure_time": "17:35",
-        "local_arrival_time": "20:50",
-        "duration": "02:15"
-    },
-    {
-        "flight_number": "BJ634",
-        "airline_name": "Nouvelair",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "17:50 / 18:30",
-        "local_arrival_time": "20:40 / 21:20",
-        "duration": "01:50"
+        "flight_number": "TU338",
+        "airline_name": "Tunisair",
+        "destination_iata": "ALG",
+        "destination_airport_name": "Algiers Houari Boumediene Airport",
+        "destination_city": "Algiers",
+        "destination_country": "Algeria",
+        "local_departure_time": "17:45",
+        "local_arrival_time": "19:05",
+        "duration": "01:20"
     },
     {
         "flight_number": "AT573",
@@ -754,20 +644,9 @@
         "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
         "destination_city": "Rome",
         "destination_country": "Italy",
-        "local_departure_time": "18:10 / 18:20",
-        "local_arrival_time": "20:35 / 20:45",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "TU338",
-        "airline_name": "Tunisair",
-        "destination_iata": "ALG",
-        "destination_airport_name": "Algiers Houari Boumediene Airport",
-        "destination_city": "Algiers",
-        "destination_country": "Algeria",
         "local_departure_time": "18:20",
-        "local_arrival_time": "19:40",
-        "duration": "01:20"
+        "local_arrival_time": "20:45",
+        "duration": "01:25"
     },
     {
         "flight_number": "T7118",
@@ -782,7 +661,7 @@
     },
     {
         "flight_number": "TO8231",
-        "airline_name": "Transavia",
+        "airline_name": "Transavia France",
         "destination_iata": "ORY",
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
@@ -790,17 +669,6 @@
         "local_departure_time": "18:30",
         "local_arrival_time": "22:05",
         "duration": "02:35"
-    },
-    {
-        "flight_number": "TU628",
-        "airline_name": "Tunisair",
-        "destination_iata": "BOD",
-        "destination_airport_name": "Bordeaux Merignac Airport",
-        "destination_city": "Bordeaux",
-        "destination_country": "France",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "21:40",
-        "duration": "02:10"
     },
     {
         "flight_number": "AF1185",
@@ -825,81 +693,26 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "TU858",
-        "airline_name": "Tunisair",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "19:00",
-        "local_arrival_time": "21:45",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "BJ690",
-        "airline_name": "Nouvelair",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "00:00 (+1)",
-        "duration": "02:50"
-    },
-    {
-        "flight_number": "TU928",
-        "airline_name": "Avion Express",
-        "destination_iata": "MRS",
-        "destination_airport_name": "Marseille Provence Airport",
-        "destination_city": "Marseille",
-        "destination_country": "France",
-        "local_departure_time": "19:25",
-        "local_arrival_time": "22:00",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "BJ586",
-        "airline_name": "Nouvelair",
-        "destination_iata": "NCE",
-        "destination_airport_name": "Nice Cote d'Azur Airport",
-        "destination_city": "Nice",
-        "destination_country": "France",
-        "local_departure_time": "19:25",
-        "local_arrival_time": "22:00",
-        "duration": "01:35"
-    },
-    {
         "flight_number": "AH4003",
         "airline_name": "Air Algerie",
         "destination_iata": "ALG",
         "destination_airport_name": "Algiers Houari Boumediene Airport",
         "destination_city": "Algiers",
         "destination_country": "Algeria",
-        "local_departure_time": "19:30 / 20:20",
-        "local_arrival_time": "20:50 / 21:40",
+        "local_departure_time": "19:10",
+        "local_arrival_time": "20:30",
         "duration": "01:20"
     },
     {
-        "flight_number": "TU514",
+        "flight_number": "TU713",
         "airline_name": "Tunisair",
-        "destination_iata": "BCN",
-        "destination_airport_name": "Barcelona El Prat Airport",
-        "destination_city": "Barcelona",
-        "destination_country": "Spain",
-        "local_departure_time": "20:10",
-        "local_arrival_time": "22:55",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "TU606",
-        "airline_name": "Tunisair",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "20:20",
-        "local_arrival_time": "23:35",
-        "duration": "02:15"
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "19:25",
+        "local_arrival_time": "01:50 (+1)",
+        "duration": "04:25"
     },
     {
         "flight_number": "BJ170",
@@ -913,28 +726,6 @@
         "duration": "02:50"
     },
     {
-        "flight_number": "VY2691",
-        "airline_name": "Vueling",
-        "destination_iata": "BCN",
-        "destination_airport_name": "Barcelona El Prat Airport",
-        "destination_city": "Barcelona",
-        "destination_country": "Spain",
-        "local_departure_time": "21:20",
-        "local_arrival_time": "00:15 (+1)",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "TO8777",
-        "airline_name": "Transavia France",
-        "destination_iata": "LYS",
-        "destination_airport_name": "Lyon Saint Exupery Airport",
-        "destination_city": "Lyon",
-        "destination_country": "France",
-        "local_departure_time": "21:25",
-        "local_arrival_time": "00:25 (+1)",
-        "duration": "02:00"
-    },
-    {
         "flight_number": "TU813",
         "airline_name": "Tunisair",
         "destination_iata": "CAI",
@@ -946,48 +737,26 @@
         "duration": "03:05"
     },
     {
+        "flight_number": "TU216",
+        "airline_name": "Tunisair",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "22:10",
+        "local_arrival_time": "02:50 (+1)",
+        "duration": "02:40"
+    },
+    {
         "flight_number": "TU705",
         "airline_name": "Tunisair",
         "destination_iata": "CMN",
         "destination_airport_name": "Casablanca Mohammed V International Airport",
         "destination_city": "Casablanca",
         "destination_country": "Morocco",
-        "local_departure_time": "22:30 / 23:15",
-        "local_arrival_time": "01:10 (+1) / 01:55 (+1)",
+        "local_departure_time": "22:30",
+        "local_arrival_time": "01:10 (+1)",
         "duration": "02:40"
-    },
-    {
-        "flight_number": "BJ3906",
-        "airline_name": "Nouvelair",
-        "destination_iata": "LYS",
-        "destination_airport_name": "Lyon Saint Exupery Airport",
-        "destination_city": "Lyon",
-        "destination_country": "France",
-        "local_departure_time": "23:00",
-        "local_arrival_time": "01:55 (+1)",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "QR1402",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "23:25",
-        "local_arrival_time": "06:30 (+1)",
-        "duration": "05:05"
-    },
-    {
-        "flight_number": "VY2691",
-        "airline_name": "Vueling",
-        "destination_iata": "BCN",
-        "destination_airport_name": "Barcelona El Prat Airport",
-        "destination_city": "Barcelona",
-        "destination_country": "Spain",
-        "local_departure_time": "23:35",
-        "local_arrival_time": "02:25 (+1)",
-        "duration": "01:50"
     },
     {
         "flight_number": "TK658",

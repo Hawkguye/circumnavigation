@@ -33,17 +33,6 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "TK610",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "17:15",
-        "duration": "07:15"
-    },
-    {
         "flight_number": "P47751",
         "airline_name": "Air Peace",
         "destination_iata": "LOS",
@@ -62,8 +51,19 @@
         "destination_city": "New York",
         "destination_country": "United States",
         "local_departure_time": "09:25",
-        "local_arrival_time": "16:00",
-        "duration": "10:35"
+        "local_arrival_time": "16:15",
+        "duration": "10:50"
+    },
+    {
+        "flight_number": "GO110",
+        "airline_name": "Air Ghana",
+        "destination_iata": "LOS",
+        "destination_airport_name": "Lagos Murtala Mohammed Airport",
+        "destination_city": "Lagos",
+        "destination_country": "Nigeria",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "12:05",
+        "duration": "01:05"
     },
     {
         "flight_number": "AW214",
@@ -77,17 +77,6 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "QR1424",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "11:25",
-        "local_arrival_time": "22:05",
-        "duration": "07:40"
-    },
-    {
         "flight_number": "ET920",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "ADD",
@@ -97,28 +86,6 @@
         "local_departure_time": "12:20",
         "local_arrival_time": "21:00",
         "duration": "05:40"
-    },
-    {
-        "flight_number": "WB220",
-        "airline_name": "RwandAir",
-        "destination_iata": "KGL",
-        "destination_airport_name": "Kigali Airport",
-        "destination_city": "Kigali",
-        "destination_country": "Rwanda",
-        "local_departure_time": "13:30",
-        "local_arrival_time": "21:30",
-        "duration": "06:00"
-    },
-    {
-        "flight_number": "MS882",
-        "airline_name": "Egyptair",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "13:40",
-        "local_arrival_time": "22:30",
-        "duration": "05:50"
     },
     {
         "flight_number": "QI603",
@@ -138,8 +105,8 @@
         "destination_airport_name": "Lagos Murtala Mohammed Airport",
         "destination_city": "Lagos",
         "destination_country": "Nigeria",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "19:40",
+        "local_departure_time": "17:30 / 18:30",
+        "local_arrival_time": "19:40 / 20:40",
         "duration": "01:10"
     },
     {
@@ -149,9 +116,9 @@
         "destination_airport_name": "Dubai International Airport",
         "destination_city": "Dubai",
         "destination_country": "United Arab Emirates",
-        "local_departure_time": "18:00",
+        "local_departure_time": "18:25",
         "local_arrival_time": "06:15 (+1)",
-        "duration": "08:15"
+        "duration": "07:50"
     },
     {
         "flight_number": "ET3651",
@@ -182,30 +149,30 @@
         "destination_airport_name": "Istanbul Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "19:55",
-        "local_arrival_time": "05:50 (+1)",
-        "duration": "06:55"
-    },
-    {
-        "flight_number": "ET928",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "ADD",
-        "destination_airport_name": "Addis Ababa Bole Airport",
-        "destination_city": "Addis Ababa",
-        "destination_country": "Ethiopia",
-        "local_departure_time": "20:00",
-        "local_arrival_time": "04:55 (+1)",
-        "duration": "05:55"
+        "local_departure_time": "19:40",
+        "local_arrival_time": "05:45 (+1)",
+        "duration": "07:05"
     },
     {
         "flight_number": "SA57",
-        "airline_name": "South African Airways",
+        "airline_name": "Sirius Aero",
         "destination_iata": "JNB",
         "destination_airport_name": "Johannesburg OR Tambo International Airport",
         "destination_city": "Johannesburg",
         "destination_country": "South Africa",
         "local_departure_time": "20:15",
         "local_arrival_time": "04:10 (+1)",
+        "duration": "05:55"
+    },
+    {
+        "flight_number": "SA53",
+        "airline_name": "South African Airways",
+        "destination_iata": "JNB",
+        "destination_airport_name": "Johannesburg OR Tambo International Airport",
+        "destination_city": "Johannesburg",
+        "destination_country": "South Africa",
+        "local_departure_time": "20:30",
+        "local_arrival_time": "04:25 (+1)",
         "duration": "05:55"
     },
     {
@@ -253,26 +220,15 @@
         "duration": "06:30"
     },
     {
-        "flight_number": "KQ511",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "NBO",
-        "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
-        "destination_city": "Nairobi",
-        "destination_country": "Kenya",
-        "local_departure_time": "22:00",
-        "local_arrival_time": "06:40 (+1)",
-        "duration": "05:40"
-    },
-    {
         "flight_number": "KL590",
         "airline_name": "KLM",
         "destination_iata": "AMS",
         "destination_airport_name": "Amsterdam Schiphol Airport",
         "destination_city": "Amsterdam",
         "destination_country": "Netherlands",
-        "local_departure_time": "22:05",
-        "local_arrival_time": "06:40 (+1)",
-        "duration": "06:35"
+        "local_departure_time": "22:00",
+        "local_arrival_time": "06:45 (+1)",
+        "duration": "06:45"
     },
     {
         "flight_number": "BA78",
@@ -297,6 +253,17 @@
         "duration": "06:05"
     },
     {
+        "flight_number": "TK650",
+        "airline_name": "Turkish Airlines",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "22:20",
+        "local_arrival_time": "08:25 (+1)",
+        "duration": "07:05"
+    },
+    {
         "flight_number": "UA997",
         "airline_name": "United Airlines",
         "destination_iata": "IAD",
@@ -304,8 +271,8 @@
         "destination_city": "Washington",
         "destination_country": "United States",
         "local_departure_time": "22:20",
-        "local_arrival_time": "05:00 (+1)",
-        "duration": "10:40"
+        "local_arrival_time": "05:10 (+1)",
+        "duration": "10:50"
     },
     {
         "flight_number": "AZ853",
@@ -317,16 +284,5 @@
         "local_departure_time": "22:30",
         "local_arrival_time": "06:15 (+1)",
         "duration": "05:45"
-    },
-    {
-        "flight_number": "TK650",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "22:30",
-        "local_arrival_time": "08:35 (+1)",
-        "duration": "07:05"
     }
 ]

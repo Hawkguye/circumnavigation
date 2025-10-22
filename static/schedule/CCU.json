@@ -1,7 +1,7 @@
 [
     {
         "flight_number": "FD121",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -11,15 +11,26 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "MH185",
-        "airline_name": "Malaysia Airlines",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "00:40",
-        "local_arrival_time": "07:15",
-        "duration": "04:05"
+        "flight_number": "AI2703",
+        "airline_name": "Air India",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "00:55",
+        "local_arrival_time": "03:25",
+        "duration": "02:30"
+    },
+    {
+        "flight_number": "QR8027",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "01:30",
+        "local_arrival_time": "04:05",
+        "duration": "05:05"
     },
     {
         "flight_number": "FZ462",
@@ -29,19 +40,8 @@
         "destination_city": "Dubai",
         "destination_country": "United Arab Emirates",
         "local_departure_time": "01:30",
-        "local_arrival_time": "04:55",
-        "duration": "04:55"
-    },
-    {
-        "flight_number": "AI180",
-        "airline_name": "Air India",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "02:00",
-        "local_arrival_time": "04:50",
-        "duration": "02:50"
+        "local_arrival_time": "05:00",
+        "duration": "05:00"
     },
     {
         "flight_number": "TG314",
@@ -62,8 +62,8 @@
         "destination_city": "Mumbai",
         "destination_country": "India",
         "local_departure_time": "02:00",
-        "local_arrival_time": "04:50",
-        "duration": "02:50"
+        "local_arrival_time": "04:40",
+        "duration": "02:40"
     },
     {
         "flight_number": "6E1015",
@@ -88,6 +88,17 @@
         "duration": "02:30"
     },
     {
+        "flight_number": "SG8911",
+        "airline_name": "SpiceJet",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "02:55",
+        "local_arrival_time": "05:10",
+        "duration": "02:15"
+    },
+    {
         "flight_number": "QR541",
         "airline_name": "Qatar Airways",
         "destination_iata": "DOH",
@@ -95,8 +106,19 @@
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "03:50",
-        "local_arrival_time": "06:10",
-        "duration": "04:50"
+        "local_arrival_time": "06:35",
+        "duration": "05:15"
+    },
+    {
+        "flight_number": "AI184",
+        "airline_name": "Air India",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "04:00",
+        "local_arrival_time": "06:20",
+        "duration": "02:20"
     },
     {
         "flight_number": "EY221",
@@ -110,15 +132,48 @@
         "duration": "04:55"
     },
     {
-        "flight_number": "AI2720",
+        "flight_number": "AI176",
         "airline_name": "Air India",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
+        "destination_iata": "BLR",
+        "destination_airport_name": "Bengaluru Kempegowda International Airport",
+        "destination_city": "Bengaluru",
         "destination_country": "India",
-        "local_departure_time": "04:15",
-        "local_arrival_time": "06:35",
-        "duration": "02:20"
+        "local_departure_time": "04:25",
+        "local_arrival_time": "06:50",
+        "duration": "02:25"
+    },
+    {
+        "flight_number": "AI180",
+        "airline_name": "Air India",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "04:25",
+        "local_arrival_time": "07:05",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "IX1584",
+        "airline_name": "Air India Express",
+        "destination_iata": "BLR",
+        "destination_airport_name": "Bengaluru Kempegowda International Airport",
+        "destination_city": "Bengaluru",
+        "destination_country": "India",
+        "local_departure_time": "05:00",
+        "local_arrival_time": "07:50",
+        "duration": "02:50"
+    },
+    {
+        "flight_number": "QP1173",
+        "airline_name": "Akasa Air",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "05:00",
+        "local_arrival_time": "07:50",
+        "duration": "02:50"
     },
     {
         "flight_number": "6E6438",
@@ -143,17 +198,6 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "QP1173",
-        "airline_name": "Akasa Air",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "05:20",
-        "local_arrival_time": "08:00",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "6E6623",
         "airline_name": "IndiGo",
         "destination_iata": "HYD",
@@ -171,20 +215,9 @@
         "destination_airport_name": "Delhi Indira Gandhi International Airport",
         "destination_city": "Delhi",
         "destination_country": "India",
-        "local_departure_time": "05:30",
+        "local_departure_time": "05:30 / 05:31",
         "local_arrival_time": "07:45",
-        "duration": "02:15"
-    },
-    {
-        "flight_number": "SG185",
-        "airline_name": "SpiceJet",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
-        "destination_country": "India",
-        "local_departure_time": "06:10",
-        "local_arrival_time": "08:40",
-        "duration": "02:30"
+        "duration": "02:14"
     },
     {
         "flight_number": "6E5194",
@@ -216,8 +249,8 @@
         "destination_city": "Delhi",
         "destination_country": "India",
         "local_departure_time": "06:25",
-        "local_arrival_time": "08:45",
-        "duration": "02:20"
+        "local_arrival_time": "08:55",
+        "duration": "02:30"
     },
     {
         "flight_number": "6E771",
@@ -227,8 +260,8 @@
         "destination_city": "Bengaluru",
         "destination_country": "India",
         "local_departure_time": "06:30",
-        "local_arrival_time": "09:15",
-        "duration": "02:45"
+        "local_arrival_time": "09:10",
+        "duration": "02:40"
     },
     {
         "flight_number": "IX1254",
@@ -253,48 +286,37 @@
         "duration": "03:10"
     },
     {
-        "flight_number": "AI2778",
+        "flight_number": "AI2720",
         "airline_name": "Air India",
         "destination_iata": "DEL",
         "destination_airport_name": "Delhi Indira Gandhi International Airport",
         "destination_city": "Delhi",
         "destination_country": "India",
-        "local_departure_time": "07:20",
-        "local_arrival_time": "10:00",
-        "duration": "02:40"
+        "local_departure_time": "07:00",
+        "local_arrival_time": "09:20",
+        "duration": "02:20"
     },
     {
-        "flight_number": "IX2542",
-        "airline_name": "Air India Express",
+        "flight_number": "6E5301",
+        "airline_name": "IndiGo",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "08:15",
+        "local_arrival_time": "10:35",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "6E496",
+        "airline_name": "IndiGo",
         "destination_iata": "BLR",
         "destination_airport_name": "Bengaluru Kempegowda International Airport",
         "destination_city": "Bengaluru",
         "destination_country": "India",
-        "local_departure_time": "07:50",
-        "local_arrival_time": "10:30",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "B3700",
-        "airline_name": "Bhutan Airlines",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
         "local_departure_time": "08:20",
-        "local_arrival_time": "12:30",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "AI2536",
-        "airline_name": "Air India",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
-        "destination_country": "India",
-        "local_departure_time": "08:20",
-        "local_arrival_time": "10:45",
-        "duration": "02:25"
+        "local_arrival_time": "10:55",
+        "duration": "02:35"
     },
     {
         "flight_number": "6E563",
@@ -306,6 +328,17 @@
         "local_departure_time": "08:35",
         "local_arrival_time": "11:05",
         "duration": "02:30"
+    },
+    {
+        "flight_number": "AI2778",
+        "airline_name": "Air India",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "11:20",
+        "duration": "02:40"
     },
     {
         "flight_number": "6E6513",
@@ -337,8 +370,8 @@
         "destination_city": "Hyderabad",
         "destination_country": "India",
         "local_departure_time": "09:20",
-        "local_arrival_time": "11:45",
-        "duration": "02:25"
+        "local_arrival_time": "11:50",
+        "duration": "02:30"
     },
     {
         "flight_number": "EK571",
@@ -350,6 +383,17 @@
         "local_departure_time": "09:45",
         "local_arrival_time": "13:05",
         "duration": "04:50"
+    },
+    {
+        "flight_number": "AI2536",
+        "airline_name": "Air India",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "09:55",
+        "local_arrival_time": "12:30",
+        "duration": "02:35"
     },
     {
         "flight_number": "6E5198",
@@ -396,17 +440,6 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "IX1573",
-        "airline_name": "Air India Express",
-        "destination_iata": "BLR",
-        "destination_airport_name": "Bengaluru Kempegowda International Airport",
-        "destination_city": "Bengaluru",
-        "destination_country": "India",
-        "local_departure_time": "11:00",
-        "local_arrival_time": "13:40",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "6E334",
         "airline_name": "IndiGo",
         "destination_iata": "HYD",
@@ -418,15 +451,26 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "BS202",
-        "airline_name": "US-Bangla Airlines",
-        "destination_iata": "DAC",
-        "destination_airport_name": "Dhaka Shahjalal International Airport",
-        "destination_city": "Dhaka",
-        "destination_country": "Bangladesh",
+        "flight_number": "6E6358",
+        "airline_name": "IndiGo",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "11:25",
+        "local_arrival_time": "14:00",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "6E833",
+        "airline_name": "IndiGo",
+        "destination_iata": "MAA",
+        "destination_airport_name": "Chennai International Airport",
+        "destination_city": "Chennai",
+        "destination_country": "India",
         "local_departure_time": "11:30",
-        "local_arrival_time": "13:00",
-        "duration": "01:00"
+        "local_arrival_time": "13:45",
+        "duration": "02:15"
     },
     {
         "flight_number": "6E5288",
@@ -437,6 +481,17 @@
         "destination_country": "India",
         "local_departure_time": "11:30",
         "local_arrival_time": "14:20",
+        "duration": "02:50"
+    },
+    {
+        "flight_number": "IX1134",
+        "airline_name": "Air India Express",
+        "destination_iata": "BLR",
+        "destination_airport_name": "Bengaluru Kempegowda International Airport",
+        "destination_city": "Bengaluru",
+        "destination_country": "India",
+        "local_departure_time": "11:35",
+        "local_arrival_time": "14:25",
         "duration": "02:50"
     },
     {
@@ -451,26 +506,37 @@
         "duration": "02:40"
     },
     {
+        "flight_number": "B3700",
+        "airline_name": "Bhutan Airlines",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "11:55",
+        "local_arrival_time": "16:05",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "W2520",
+        "airline_name": "Flexflight",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "11:55",
+        "local_arrival_time": "16:05",
+        "duration": "02:40"
+    },
+    {
         "flight_number": "6E634",
         "airline_name": "IndiGo",
         "destination_iata": "GOI",
         "destination_airport_name": "Goa Dabolim Airport",
         "destination_city": "Goa",
         "destination_country": "India",
-        "local_departure_time": "11:50",
+        "local_departure_time": "12:00",
         "local_arrival_time": "14:40",
-        "duration": "02:50"
-    },
-    {
-        "flight_number": "6E6358",
-        "airline_name": "IndiGo",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
-        "destination_country": "India",
-        "local_departure_time": "12:30",
-        "local_arrival_time": "15:00",
-        "duration": "02:30"
+        "duration": "02:40"
     },
     {
         "flight_number": "AI2770",
@@ -484,14 +550,14 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "IX1256",
-        "airline_name": "Air India Express",
-        "destination_iata": "HYD",
-        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
-        "destination_city": "Hyderabad",
+        "flight_number": "6E313",
+        "airline_name": "IndiGo",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
         "destination_country": "India",
-        "local_departure_time": "13:00",
-        "local_arrival_time": "15:25",
+        "local_departure_time": "12:50",
+        "local_arrival_time": "15:15",
         "duration": "02:25"
     },
     {
@@ -572,17 +638,6 @@
         "duration": "02:40"
     },
     {
-        "flight_number": "IX1258",
-        "airline_name": "Air India Express",
-        "destination_iata": "BLR",
-        "destination_airport_name": "Bengaluru Kempegowda International Airport",
-        "destination_city": "Bengaluru",
-        "destination_country": "India",
-        "local_departure_time": "15:15",
-        "local_arrival_time": "17:55",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "6E1105",
         "airline_name": "IndiGo",
         "destination_iata": "DAC",
@@ -592,6 +647,17 @@
         "local_departure_time": "15:35",
         "local_arrival_time": "17:00",
         "duration": "00:55"
+    },
+    {
+        "flight_number": "SG254",
+        "airline_name": "SpiceJet",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "16:05",
+        "local_arrival_time": "18:50",
+        "duration": "02:45"
     },
     {
         "flight_number": "AI2768",
@@ -612,8 +678,8 @@
         "destination_city": "Mumbai",
         "destination_country": "India",
         "local_departure_time": "16:20",
-        "local_arrival_time": "19:15",
-        "duration": "02:55"
+        "local_arrival_time": "19:10",
+        "duration": "02:50"
     },
     {
         "flight_number": "6E6516",
@@ -633,20 +699,20 @@
         "destination_airport_name": "Bengaluru Kempegowda International Airport",
         "destination_city": "Bengaluru",
         "destination_country": "India",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "19:05",
-        "duration": "02:35"
+        "local_departure_time": "16:35",
+        "local_arrival_time": "19:15",
+        "duration": "02:40"
     },
     {
-        "flight_number": "SG722",
-        "airline_name": "SpiceJet",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
+        "flight_number": "IX2914",
+        "airline_name": "Air India Express",
+        "destination_iata": "BLR",
+        "destination_airport_name": "Bengaluru Kempegowda International Airport",
+        "destination_city": "Bengaluru",
         "destination_country": "India",
-        "local_departure_time": "16:45",
-        "local_arrival_time": "19:10",
-        "duration": "02:25"
+        "local_departure_time": "16:40",
+        "local_arrival_time": "19:30",
+        "duration": "02:50"
     },
     {
         "flight_number": "6E757",
@@ -658,17 +724,6 @@
         "local_departure_time": "17:00",
         "local_arrival_time": "19:40",
         "duration": "02:40"
-    },
-    {
-        "flight_number": "AI186",
-        "airline_name": "Air India",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
-        "destination_country": "India",
-        "local_departure_time": "17:25",
-        "local_arrival_time": "19:45",
-        "duration": "02:20"
     },
     {
         "flight_number": "AI2774",
@@ -693,6 +748,17 @@
         "duration": "02:25"
     },
     {
+        "flight_number": "AI175",
+        "airline_name": "Air India",
+        "destination_iata": "SFO",
+        "destination_airport_name": "San Francisco International Airport",
+        "destination_city": "San Francisco",
+        "destination_country": "United States",
+        "local_departure_time": "18:05",
+        "local_arrival_time": "20:25",
+        "duration": "14:50"
+    },
+    {
         "flight_number": "6E6528",
         "airline_name": "IndiGo",
         "destination_iata": "HYD",
@@ -700,8 +766,8 @@
         "destination_city": "Hyderabad",
         "destination_country": "India",
         "local_departure_time": "18:05",
-        "local_arrival_time": "20:10",
-        "duration": "02:05"
+        "local_arrival_time": "20:15",
+        "duration": "02:10"
     },
     {
         "flight_number": "6E234",
@@ -737,6 +803,17 @@
         "duration": "01:50"
     },
     {
+        "flight_number": "AI2738",
+        "airline_name": "Air India",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "18:45",
+        "local_arrival_time": "21:20",
+        "duration": "02:35"
+    },
+    {
         "flight_number": "IX1575",
         "airline_name": "Air India Express",
         "destination_iata": "MAA",
@@ -770,37 +847,26 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "AI2738",
+        "flight_number": "QR8829",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "19:15",
+        "local_arrival_time": "21:50",
+        "duration": "05:05"
+    },
+    {
+        "flight_number": "AI2482",
         "airline_name": "Air India",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
         "destination_country": "India",
-        "local_departure_time": "19:25",
-        "local_arrival_time": "22:10",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "6E493",
-        "airline_name": "IndiGo",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
-        "destination_country": "India",
-        "local_departure_time": "19:30",
-        "local_arrival_time": "21:55",
-        "duration": "02:25"
-    },
-    {
-        "flight_number": "6E1057",
-        "airline_name": "IndiGo",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "19:50",
-        "local_arrival_time": "00:10 (+1)",
-        "duration": "02:50"
+        "local_departure_time": "19:55",
+        "local_arrival_time": "23:10",
+        "duration": "03:15"
     },
     {
         "flight_number": "IX2826",
@@ -810,8 +876,8 @@
         "destination_city": "Hyderabad",
         "destination_country": "India",
         "local_departure_time": "20:10",
-        "local_arrival_time": "22:35",
-        "duration": "02:25"
+        "local_arrival_time": "22:45",
+        "duration": "02:35"
     },
     {
         "flight_number": "6E1641",
@@ -832,8 +898,8 @@
         "destination_city": "Delhi",
         "destination_country": "India",
         "local_departure_time": "20:30",
-        "local_arrival_time": "23:05",
-        "duration": "02:35"
+        "local_arrival_time": "22:55",
+        "duration": "02:25"
     },
     {
         "flight_number": "6E6314",
@@ -858,26 +924,15 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "EK573",
-        "airline_name": "Emirates",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "20:45",
-        "local_arrival_time": "00:05 (+1)",
-        "duration": "04:50"
-    },
-    {
-        "flight_number": "QP1125",
-        "airline_name": "Akasa Air",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
+        "flight_number": "6E2198",
+        "airline_name": "IndiGo",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
         "destination_country": "India",
-        "local_departure_time": "21:05",
-        "local_arrival_time": "23:55",
-        "duration": "02:50"
+        "local_departure_time": "21:15",
+        "local_arrival_time": "23:40",
+        "duration": "02:25"
     },
     {
         "flight_number": "6E723",
@@ -891,26 +946,15 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "6E2198",
-        "airline_name": "IndiGo",
+        "flight_number": "AI2710",
+        "airline_name": "Air India",
         "destination_iata": "DEL",
         "destination_airport_name": "Delhi Indira Gandhi International Airport",
         "destination_city": "Delhi",
         "destination_country": "India",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "00:05 (+1)",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "EY223",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "01:00 (+1)",
-        "duration": "05:00"
+        "local_departure_time": "21:20",
+        "local_arrival_time": "23:50",
+        "duration": "02:30"
     },
     {
         "flight_number": "6E1631",
@@ -964,12 +1008,12 @@
         "destination_city": "Mumbai",
         "destination_country": "India",
         "local_departure_time": "22:15",
-        "local_arrival_time": "01:00 (+1)",
-        "duration": "02:45"
+        "local_arrival_time": "00:55 (+1)",
+        "duration": "02:40"
     },
     {
         "flight_number": "BZ201",
-        "airline_name": "Blue Dart Aviation",
+        "airline_name": "Bluebird Airways",
         "destination_iata": "DEL",
         "destination_airport_name": "Delhi Indira Gandhi International Airport",
         "destination_city": "Delhi",
@@ -986,8 +1030,8 @@
         "destination_city": "Delhi",
         "destination_country": "India",
         "local_departure_time": "22:30",
-        "local_arrival_time": "01:00 (+1)",
-        "duration": "02:30"
+        "local_arrival_time": "00:55 (+1)",
+        "duration": "02:25"
     },
     {
         "flight_number": "QP1141",
@@ -997,8 +1041,8 @@
         "destination_city": "Mumbai",
         "destination_country": "India",
         "local_departure_time": "22:40",
-        "local_arrival_time": "01:20 (+1)",
-        "duration": "02:40"
+        "local_arrival_time": "01:40 (+1)",
+        "duration": "03:00"
     },
     {
         "flight_number": "AK64",
@@ -1019,8 +1063,8 @@
         "destination_city": "Bengaluru",
         "destination_country": "India",
         "local_departure_time": "23:20",
-        "local_arrival_time": "02:05 (+1)",
-        "duration": "02:45"
+        "local_arrival_time": "01:55 (+1)",
+        "duration": "02:35"
     },
     {
         "flight_number": "SQ517",
@@ -1052,18 +1096,7 @@
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "23:35",
-        "local_arrival_time": "02:00 (+1)",
-        "duration": "04:55"
-    },
-    {
-        "flight_number": "SG720",
-        "airline_name": "SpiceJet",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "23:35",
-        "local_arrival_time": "02:35 (+1)",
-        "duration": "03:00"
+        "local_arrival_time": "02:10 (+1)",
+        "duration": "05:05"
     }
 ]

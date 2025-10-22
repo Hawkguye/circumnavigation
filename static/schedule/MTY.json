@@ -1,25 +1,14 @@
 [
     {
-        "flight_number": "CM186",
-        "airline_name": "Copa Airlines",
-        "destination_iata": "PTY",
-        "destination_airport_name": "Panama City Tocumen International Airport",
-        "destination_city": "Panama City",
-        "destination_country": "Panama",
-        "local_departure_time": "00:59",
-        "local_arrival_time": "06:12",
-        "duration": "04:13"
-    },
-    {
         "flight_number": "AM58",
         "airline_name": "Aeromexico",
         "destination_iata": "NRT",
         "destination_airport_name": "Tokyo Narita International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "01:35",
+        "local_departure_time": "01:25",
         "local_arrival_time": "06:20 (+1)",
-        "duration": "13:45"
+        "duration": "13:55"
     },
     {
         "flight_number": "VB1117",
@@ -51,8 +40,8 @@
         "destination_city": "Dallas",
         "destination_country": "United States",
         "local_departure_time": "05:45",
-        "local_arrival_time": "08:30",
-        "duration": "01:45"
+        "local_arrival_time": "08:35",
+        "duration": "01:50"
     },
     {
         "flight_number": "AM901",
@@ -73,23 +62,12 @@
         "destination_city": "San Francisco",
         "destination_country": "United States",
         "local_departure_time": "05:55",
-        "local_arrival_time": "09:14",
-        "duration": "04:19"
-    },
-    {
-        "flight_number": "AA3755",
-        "airline_name": "American Eagle",
-        "destination_iata": "MIA",
-        "destination_airport_name": "Miami International Airport",
-        "destination_city": "Miami",
-        "destination_country": "United States",
-        "local_departure_time": "06:00",
-        "local_arrival_time": "11:16",
-        "duration": "03:16"
+        "local_arrival_time": "08:52",
+        "duration": "03:57"
     },
     {
         "flight_number": "VB3191",
-        "airline_name": "SKY Airline",
+        "airline_name": "Viva",
         "destination_iata": "GDL",
         "destination_airport_name": "Guadalajara International Airport",
         "destination_city": "Guadalajara",
@@ -97,28 +75,6 @@
         "local_departure_time": "06:00",
         "local_arrival_time": "07:30",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "VB4020",
-        "airline_name": "Viva",
-        "destination_iata": "MZT",
-        "destination_airport_name": "Mazatlan International Airport",
-        "destination_city": "Mazatlan",
-        "destination_country": "Mexico",
-        "local_departure_time": "06:00",
-        "local_arrival_time": "06:25",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "VB610",
-        "airline_name": "Viva",
-        "destination_iata": "IAH",
-        "destination_airport_name": "Houston George Bush Intercontinental Airport",
-        "destination_city": "Houston",
-        "destination_country": "United States",
-        "local_departure_time": "06:05",
-        "local_arrival_time": "08:30",
-        "duration": "01:25"
     },
     {
         "flight_number": "VB1133",
@@ -149,9 +105,31 @@
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "06:06",
+        "local_departure_time": "06:09",
         "local_arrival_time": "09:28",
-        "duration": "02:22"
+        "duration": "02:19"
+    },
+    {
+        "flight_number": "VB610",
+        "airline_name": "Viva",
+        "destination_iata": "IAH",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States",
+        "local_departure_time": "06:10",
+        "local_arrival_time": "08:30",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "VB2163",
+        "airline_name": "Viva",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
+        "local_departure_time": "06:10",
+        "local_arrival_time": "09:40",
+        "duration": "02:30"
     },
     {
         "flight_number": "Y45540",
@@ -165,37 +143,15 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "VB2163",
-        "airline_name": "Viva",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
+        "flight_number": "AA3755",
+        "airline_name": "American Eagle",
+        "destination_iata": "MIA",
+        "destination_airport_name": "Miami International Airport",
+        "destination_city": "Miami",
+        "destination_country": "United States",
         "local_departure_time": "06:30",
-        "local_arrival_time": "10:00",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "AM903",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "06:35",
-        "local_arrival_time": "08:20",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "VB4080",
-        "airline_name": "SKY Airline",
-        "destination_iata": "TIJ",
-        "destination_airport_name": "Tijuana International Airport",
-        "destination_city": "Tijuana",
-        "destination_country": "Mexico",
-        "local_departure_time": "06:40",
-        "local_arrival_time": "08:25",
-        "duration": "02:45"
+        "local_arrival_time": "11:30",
+        "duration": "03:00"
     },
     {
         "flight_number": "VB4342",
@@ -204,9 +160,20 @@
         "destination_airport_name": "Puerto Vallarta International Airport",
         "destination_city": "Puerto Vallarta",
         "destination_country": "Mexico",
-        "local_departure_time": "06:40",
+        "local_departure_time": "06:30",
         "local_arrival_time": "08:10",
-        "duration": "01:30"
+        "duration": "01:40"
+    },
+    {
+        "flight_number": "VB4080",
+        "airline_name": "Viva",
+        "destination_iata": "TIJ",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
+        "destination_country": "Mexico",
+        "local_departure_time": "06:40",
+        "local_arrival_time": "08:40",
+        "duration": "03:00"
     },
     {
         "flight_number": "VB4110",
@@ -215,9 +182,20 @@
         "destination_airport_name": "Hermosillo International Airport",
         "destination_city": "Hermosillo",
         "destination_country": "Mexico",
-        "local_departure_time": "06:45",
-        "local_arrival_time": "07:45",
-        "duration": "02:00"
+        "local_departure_time": "06:50",
+        "local_arrival_time": "07:55",
+        "duration": "02:05"
+    },
+    {
+        "flight_number": "AM905",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "06:55",
+        "local_arrival_time": "08:40",
+        "duration": "01:45"
     },
     {
         "flight_number": "VB1355",
@@ -237,53 +215,9 @@
         "destination_airport_name": "San Jose del Cabo Los Cabos International Airport",
         "destination_city": "San Jose del Cabo",
         "destination_country": "Mexico",
-        "local_departure_time": "07:05",
+        "local_departure_time": "07:10",
         "local_arrival_time": "08:00",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "AA3835",
-        "airline_name": "American Eagle",
-        "destination_iata": "PHX",
-        "destination_airport_name": "Phoenix Sky Harbor International Airport",
-        "destination_city": "Phoenix",
-        "destination_country": "United States",
-        "local_departure_time": "07:14",
-        "local_arrival_time": "08:50",
-        "duration": "02:36"
-    },
-    {
-        "flight_number": "AM905",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "07:20",
-        "local_arrival_time": "09:05",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "UA2037",
-        "airline_name": "United Airlines",
-        "destination_iata": "IAH",
-        "destination_airport_name": "Houston George Bush Intercontinental Airport",
-        "destination_city": "Houston",
-        "destination_country": "United States",
-        "local_departure_time": "07:35",
-        "local_arrival_time": "10:02",
-        "duration": "01:27"
-    },
-    {
-        "flight_number": "VB2165",
-        "airline_name": "Viva",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "07:45",
-        "local_arrival_time": "11:15",
-        "duration": "02:30"
+        "duration": "01:50"
     },
     {
         "flight_number": "AA3810",
@@ -292,20 +226,42 @@
         "destination_airport_name": "Dallas Fort Worth International Airport",
         "destination_city": "Dallas",
         "destination_country": "United States",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "10:50",
+        "local_departure_time": "07:25",
+        "local_arrival_time": "10:15",
         "duration": "01:50"
     },
     {
-        "flight_number": "LXJ422",
-        "airline_name": "Flexjet",
-        "destination_iata": "CLE",
-        "destination_airport_name": "Cleveland Hopkins International Airport",
-        "destination_city": "Cleveland",
+        "flight_number": "UA6144",
+        "airline_name": "United Express",
+        "destination_iata": "IAH",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
         "destination_country": "United States",
+        "local_departure_time": "07:35",
+        "local_arrival_time": "10:11",
+        "duration": "01:36"
+    },
+    {
+        "flight_number": "AM909",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "07:50",
+        "local_arrival_time": "09:40",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "VB2165",
+        "airline_name": "Viva",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
         "local_departure_time": "08:00",
-        "local_arrival_time": "13:22",
-        "duration": "03:22"
+        "local_arrival_time": "11:30",
+        "duration": "02:30"
     },
     {
         "flight_number": "VB1121",
@@ -314,9 +270,20 @@
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "08:05 / 08:15",
-        "local_arrival_time": "09:40 / 09:50",
+        "local_departure_time": "08:05",
+        "local_arrival_time": "09:40",
         "duration": "01:35"
+    },
+    {
+        "flight_number": "AM978",
+        "airline_name": "Aeromexico",
+        "destination_iata": "ATL",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States",
+        "local_departure_time": "08:10",
+        "local_arrival_time": "13:00",
+        "duration": "02:50"
     },
     {
         "flight_number": "Y41081",
@@ -336,20 +303,9 @@
         "destination_airport_name": "Guadalajara International Airport",
         "destination_city": "Guadalajara",
         "destination_country": "Mexico",
-        "local_departure_time": "08:20",
-        "local_arrival_time": "09:50",
+        "local_departure_time": "08:25",
+        "local_arrival_time": "09:55",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "AM978",
-        "airline_name": "Aeromexico Connect",
-        "destination_iata": "ATL",
-        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
-        "destination_city": "Atlanta",
-        "destination_country": "United States",
-        "local_departure_time": "08:29",
-        "local_arrival_time": "13:25",
-        "duration": "02:56"
     },
     {
         "flight_number": "VB4180",
@@ -363,15 +319,26 @@
         "duration": "01:10"
     },
     {
+        "flight_number": "VB2167",
+        "airline_name": "Viva",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
+        "local_departure_time": "08:35",
+        "local_arrival_time": "12:05",
+        "duration": "02:30"
+    },
+    {
         "flight_number": "AM911",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "08:37 / 08:42",
-        "local_arrival_time": "10:20 / 10:25",
-        "duration": "01:43"
+        "local_departure_time": "08:45",
+        "local_arrival_time": "10:30",
+        "duration": "01:45"
     },
     {
         "flight_number": "VB7806",
@@ -381,30 +348,19 @@
         "destination_city": "San Antonio",
         "destination_country": "United States",
         "local_departure_time": "08:45",
-        "local_arrival_time": "10:50",
-        "duration": "01:05"
+        "local_arrival_time": "10:55",
+        "duration": "01:10"
     },
     {
-        "flight_number": "VB2167",
+        "flight_number": "VB2197",
         "airline_name": "Viva",
         "destination_iata": "CUN",
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "12:30",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "VB730",
-        "airline_name": "Viva",
-        "destination_iata": "MIA",
-        "destination_airport_name": "Miami International Airport",
-        "destination_city": "Miami",
-        "destination_country": "United States",
         "local_departure_time": "09:20",
-        "local_arrival_time": "14:35",
-        "duration": "03:15"
+        "local_arrival_time": "12:50",
+        "duration": "02:30"
     },
     {
         "flight_number": "Y4241",
@@ -418,37 +374,15 @@
         "duration": "01:33"
     },
     {
-        "flight_number": "VB2197",
-        "airline_name": "Viva",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "09:25",
-        "local_arrival_time": "12:55",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "AA4163",
+        "flight_number": "AA3406",
         "airline_name": "American Eagle",
         "destination_iata": "DFW",
         "destination_airport_name": "Dallas Fort Worth International Airport",
         "destination_city": "Dallas",
         "destination_country": "United States",
-        "local_departure_time": "09:31 / 09:32",
-        "local_arrival_time": "12:16 / 12:17",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "VB740",
-        "airline_name": "Viva",
-        "destination_iata": "OAK",
-        "destination_airport_name": "Oakland International Airport",
-        "destination_city": "Oakland",
-        "destination_country": "United States",
-        "local_departure_time": "09:40",
+        "local_departure_time": "09:35",
         "local_arrival_time": "12:20",
-        "duration": "03:40"
+        "duration": "01:45"
     },
     {
         "flight_number": "Y45608",
@@ -458,19 +392,19 @@
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
         "local_departure_time": "09:55",
-        "local_arrival_time": "11:36",
-        "duration": "02:41"
+        "local_arrival_time": "11:47",
+        "duration": "02:52"
     },
     {
-        "flight_number": "UA5223",
+        "flight_number": "UA6327",
         "airline_name": "United Express",
         "destination_iata": "IAH",
         "destination_airport_name": "Houston George Bush Intercontinental Airport",
         "destination_city": "Houston",
         "destination_country": "United States",
         "local_departure_time": "10:00",
-        "local_arrival_time": "12:36",
-        "duration": "01:36"
+        "local_arrival_time": "12:31",
+        "duration": "01:31"
     },
     {
         "flight_number": "VB4340",
@@ -479,19 +413,8 @@
         "destination_airport_name": "Puerto Vallarta International Airport",
         "destination_city": "Puerto Vallarta",
         "destination_country": "Mexico",
-        "local_departure_time": "10:05",
-        "local_arrival_time": "11:40",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "AM917",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "10:10 / 10:20",
-        "local_arrival_time": "11:55 / 12:05",
+        "local_departure_time": "10:30",
+        "local_arrival_time": "12:15",
         "duration": "01:45"
     },
     {
@@ -502,19 +425,19 @@
         "destination_city": "Orlando",
         "destination_country": "United States",
         "local_departure_time": "10:30",
-        "local_arrival_time": "15:35",
-        "duration": "03:05"
+        "local_arrival_time": "15:20",
+        "duration": "02:50"
     },
     {
-        "flight_number": "VB720",
+        "flight_number": "VB2169",
         "airline_name": "Viva",
-        "destination_iata": "DEN",
-        "destination_airport_name": "Denver International Airport",
-        "destination_city": "Denver",
-        "destination_country": "United States",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
         "local_departure_time": "10:35",
-        "local_arrival_time": "13:20",
-        "duration": "02:45"
+        "local_arrival_time": "14:05",
+        "duration": "02:30"
     },
     {
         "flight_number": "Y45586",
@@ -524,19 +447,19 @@
         "destination_city": "Cancun",
         "destination_country": "Mexico",
         "local_departure_time": "10:35",
-        "local_arrival_time": "13:57",
-        "duration": "02:22"
+        "local_arrival_time": "13:54",
+        "duration": "02:19"
     },
     {
-        "flight_number": "AC1358",
-        "airline_name": "Air Canada",
-        "destination_iata": "YYZ",
-        "destination_airport_name": "Toronto Pearson International Airport",
-        "destination_city": "Toronto",
-        "destination_country": "Canada",
-        "local_departure_time": "10:45",
-        "local_arrival_time": "16:55",
-        "duration": "04:10"
+        "flight_number": "AM919",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "10:37",
+        "local_arrival_time": "12:25",
+        "duration": "01:48"
     },
     {
         "flight_number": "AM34",
@@ -550,59 +473,15 @@
         "duration": "10:10"
     },
     {
-        "flight_number": "VB2169",
-        "airline_name": "Viva",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "10:50",
-        "local_arrival_time": "14:15",
-        "duration": "02:25"
-    },
-    {
         "flight_number": "VB682",
         "airline_name": "Viva",
         "destination_iata": "DFW",
         "destination_airport_name": "Dallas Fort Worth International Airport",
         "destination_city": "Dallas",
         "destination_country": "United States",
-        "local_departure_time": "11:00",
-        "local_arrival_time": "13:40",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "VB7812",
-        "airline_name": "Viva",
-        "destination_iata": "AUS",
-        "destination_airport_name": "Austin Bergstrom International Airport",
-        "destination_city": "Austin",
-        "destination_country": "United States",
-        "local_departure_time": "11:05",
-        "local_arrival_time": "13:25",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "AM921",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "11:18",
-        "local_arrival_time": "13:05",
-        "duration": "01:47"
-    },
-    {
-        "flight_number": "AA3862",
-        "airline_name": "American Eagle",
-        "destination_iata": "DFW",
-        "destination_airport_name": "Dallas Fort Worth International Airport",
-        "destination_city": "Dallas",
-        "destination_country": "United States",
-        "local_departure_time": "11:19 / 11:24",
-        "local_arrival_time": "14:00 / 14:05",
-        "duration": "01:41"
+        "local_departure_time": "11:15",
+        "local_arrival_time": "14:00",
+        "duration": "01:45"
     },
     {
         "flight_number": "Y45612",
@@ -612,8 +491,30 @@
         "destination_city": "Puerto Vallarta",
         "destination_country": "Mexico",
         "local_departure_time": "11:25",
-        "local_arrival_time": "12:57",
-        "duration": "01:32"
+        "local_arrival_time": "13:00",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "AA3862",
+        "airline_name": "American Eagle",
+        "destination_iata": "DFW",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States",
+        "local_departure_time": "11:29",
+        "local_arrival_time": "14:10",
+        "duration": "01:41"
+    },
+    {
+        "flight_number": "AM923",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "11:30",
+        "local_arrival_time": "13:20",
+        "duration": "01:50"
     },
     {
         "flight_number": "VB602",
@@ -622,31 +523,9 @@
         "destination_airport_name": "Las Vegas Harry Reid International Airport",
         "destination_city": "Las Vegas",
         "destination_country": "United States",
-        "local_departure_time": "11:35",
-        "local_arrival_time": "13:35",
-        "duration": "03:00"
-    },
-    {
-        "flight_number": "DL1866",
-        "airline_name": "Delta Air Lines",
-        "destination_iata": "ATL",
-        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
-        "destination_city": "Atlanta",
-        "destination_country": "United States",
         "local_departure_time": "11:50",
-        "local_arrival_time": "16:48",
-        "duration": "02:58"
-    },
-    {
-        "flight_number": "AM925",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "12:03 / 12:18",
-        "local_arrival_time": "13:55 / 14:10",
-        "duration": "01:52"
+        "local_arrival_time": "13:55",
+        "duration": "03:05"
     },
     {
         "flight_number": "VB1129",
@@ -655,9 +534,9 @@
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "12:05",
+        "local_departure_time": "12:00",
         "local_arrival_time": "13:40",
-        "duration": "01:35"
+        "duration": "01:40"
     },
     {
         "flight_number": "UA2026",
@@ -667,8 +546,8 @@
         "destination_city": "Houston",
         "destination_country": "United States",
         "local_departure_time": "12:10",
-        "local_arrival_time": "14:37",
-        "duration": "01:27"
+        "local_arrival_time": "14:36",
+        "duration": "01:26"
     },
     {
         "flight_number": "VB4176",
@@ -682,26 +561,15 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "VB622",
-        "airline_name": "Viva",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "12:15",
-        "local_arrival_time": "14:20",
-        "duration": "03:05"
-    },
-    {
         "flight_number": "AM2722",
-        "airline_name": "Aeromexico",
+        "airline_name": "Aeromexico Connect",
         "destination_iata": "DTW",
         "destination_airport_name": "Detroit Metropolitan Wayne County Airport",
         "destination_city": "Detroit",
         "destination_country": "United States",
-        "local_departure_time": "12:23",
+        "local_departure_time": "12:25",
         "local_arrival_time": "18:03",
-        "duration": "03:40"
+        "duration": "03:38"
     },
     {
         "flight_number": "UA5387",
@@ -711,8 +579,30 @@
         "destination_city": "Chicago",
         "destination_country": "United States",
         "local_departure_time": "12:25",
-        "local_arrival_time": "16:58",
-        "duration": "03:33"
+        "local_arrival_time": "16:52",
+        "duration": "03:27"
+    },
+    {
+        "flight_number": "DL1866",
+        "airline_name": "Delta Air Lines",
+        "destination_iata": "ATL",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States",
+        "local_departure_time": "12:26",
+        "local_arrival_time": "17:09",
+        "duration": "02:43"
+    },
+    {
+        "flight_number": "AM927",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "12:35",
+        "local_arrival_time": "14:25",
+        "duration": "01:50"
     },
     {
         "flight_number": "Y41083",
@@ -726,14 +616,25 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "AA3835",
+        "airline_name": "American Eagle",
+        "destination_iata": "PHX",
+        "destination_airport_name": "Phoenix Sky Harbor International Airport",
+        "destination_city": "Phoenix",
+        "destination_country": "United States",
+        "local_departure_time": "12:55 / 13:15",
+        "local_arrival_time": "14:30 / 14:50",
+        "duration": "02:35"
+    },
+    {
         "flight_number": "VB3193",
         "airline_name": "Viva",
         "destination_iata": "GDL",
         "destination_airport_name": "Guadalajara International Airport",
         "destination_city": "Guadalajara",
         "destination_country": "Mexico",
-        "local_departure_time": "13:15",
-        "local_arrival_time": "14:45",
+        "local_departure_time": "13:25",
+        "local_arrival_time": "14:55",
         "duration": "01:30"
     },
     {
@@ -743,9 +644,9 @@
         "destination_airport_name": "Tijuana International Airport",
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "13:20",
-        "local_arrival_time": "15:05",
-        "duration": "02:45"
+        "local_departure_time": "13:30",
+        "local_arrival_time": "15:30",
+        "duration": "03:00"
     },
     {
         "flight_number": "AM931",
@@ -754,19 +655,30 @@
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "13:45 / 13:55",
-        "local_arrival_time": "15:30 / 15:40",
+        "local_departure_time": "13:35",
+        "local_arrival_time": "15:20",
         "duration": "01:45"
     },
     {
-        "flight_number": "AA1742",
+        "flight_number": "VB4024",
+        "airline_name": "Viva",
+        "destination_iata": "MZT",
+        "destination_airport_name": "Mazatlan International Airport",
+        "destination_city": "Mazatlan",
+        "destination_country": "Mexico",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "14:25",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "AA2154",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
         "destination_airport_name": "Dallas Fort Worth International Airport",
         "destination_city": "Dallas",
         "destination_country": "United States",
-        "local_departure_time": "14:05 / 14:13",
-        "local_arrival_time": "16:50 / 16:58",
+        "local_departure_time": "14:00 / 14:15",
+        "local_arrival_time": "16:45 / 17:00",
         "duration": "01:45"
     },
     {
@@ -776,9 +688,9 @@
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "16:20",
-        "duration": "01:50"
+        "local_departure_time": "14:55",
+        "local_arrival_time": "16:40",
+        "duration": "01:45"
     },
     {
         "flight_number": "VB4184",
@@ -787,9 +699,9 @@
         "destination_airport_name": "Silao Del Bajio International Airport",
         "destination_city": "Silao",
         "destination_country": "Mexico",
-        "local_departure_time": "14:55",
+        "local_departure_time": "15:00",
         "local_arrival_time": "16:10",
-        "duration": "01:15"
+        "duration": "01:10"
     },
     {
         "flight_number": "VB4344",
@@ -798,9 +710,31 @@
         "destination_airport_name": "Puerto Vallarta International Airport",
         "destination_city": "Puerto Vallarta",
         "destination_country": "Mexico",
-        "local_departure_time": "15:05",
-        "local_arrival_time": "16:40",
+        "local_departure_time": "15:10",
+        "local_arrival_time": "16:45",
         "duration": "01:35"
+    },
+    {
+        "flight_number": "VB3199",
+        "airline_name": "Viva",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "15:25",
+        "local_arrival_time": "16:55",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "VB642",
+        "airline_name": "Viva",
+        "destination_iata": "HAV",
+        "destination_airport_name": "Havana Jose Marti International Airport",
+        "destination_city": "Havana",
+        "destination_country": "Cuba",
+        "local_departure_time": "15:30",
+        "local_arrival_time": "20:15",
+        "duration": "02:45"
     },
     {
         "flight_number": "VB2199",
@@ -809,9 +743,9 @@
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "15:25",
+        "local_departure_time": "15:30",
         "local_arrival_time": "18:50",
-        "duration": "02:25"
+        "duration": "02:20"
     },
     {
         "flight_number": "Y45614",
@@ -821,8 +755,19 @@
         "destination_city": "Puerto Vallarta",
         "destination_country": "Mexico",
         "local_departure_time": "15:35",
-        "local_arrival_time": "17:07",
-        "duration": "01:32"
+        "local_arrival_time": "17:10",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "AM941",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "15:40 / 16:05",
+        "local_arrival_time": "17:35 / 17:59",
+        "duration": "01:54"
     },
     {
         "flight_number": "Y45588",
@@ -831,20 +776,9 @@
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "15:40",
+        "local_departure_time": "15:43",
         "local_arrival_time": "19:02",
-        "duration": "02:22"
-    },
-    {
-        "flight_number": "AS3451",
-        "airline_name": "Alaska SkyWest",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "15:45",
-        "local_arrival_time": "17:59",
-        "duration": "03:14"
+        "duration": "02:19"
     },
     {
         "flight_number": "UA1853",
@@ -864,20 +798,9 @@
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "16:05",
+        "local_departure_time": "16:10",
         "local_arrival_time": "17:45",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "AM943",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "16:05 / 16:15",
-        "local_arrival_time": "17:50 / 18:00",
-        "duration": "01:45"
+        "duration": "01:35"
     },
     {
         "flight_number": "VB2201",
@@ -886,31 +809,20 @@
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "16:40",
-        "local_arrival_time": "20:05",
-        "duration": "02:25"
+        "local_departure_time": "16:30",
+        "local_arrival_time": "19:50",
+        "duration": "02:20"
     },
     {
-        "flight_number": "UA6000",
-        "airline_name": "United Express",
-        "destination_iata": "SFO",
-        "destination_airport_name": "San Francisco International Airport",
-        "destination_city": "San Francisco",
-        "destination_country": "United States",
-        "local_departure_time": "16:50",
-        "local_arrival_time": "19:41",
-        "duration": "03:51"
-    },
-    {
-        "flight_number": "VB4024",
+        "flight_number": "VB2237",
         "airline_name": "Viva",
-        "destination_iata": "MZT",
-        "destination_airport_name": "Mazatlan International Airport",
-        "destination_city": "Mazatlan",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "16:55",
-        "local_arrival_time": "17:20",
-        "duration": "01:25"
+        "local_departure_time": "17:00",
+        "local_arrival_time": "20:20",
+        "duration": "02:20"
     },
     {
         "flight_number": "Y45596",
@@ -924,15 +836,15 @@
         "duration": "01:11"
     },
     {
-        "flight_number": "VB2239",
-        "airline_name": "Viva",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "17:05",
-        "local_arrival_time": "20:30",
-        "duration": "02:25"
+        "flight_number": "UA5243",
+        "airline_name": "United Express",
+        "destination_iata": "IAH",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States",
+        "local_departure_time": "17:10",
+        "local_arrival_time": "19:41",
+        "duration": "01:31"
     },
     {
         "flight_number": "Y4243",
@@ -947,39 +859,17 @@
     },
     {
         "flight_number": "VB2177",
-        "airline_name": "SKY Airline",
+        "airline_name": "Viva",
         "destination_iata": "CUN",
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "17:30",
+        "local_departure_time": "17:35",
         "local_arrival_time": "20:55",
-        "duration": "02:25"
+        "duration": "02:20"
     },
     {
-        "flight_number": "VB3195",
-        "airline_name": "Viva",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "19:00",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "AM949",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "17:43",
-        "local_arrival_time": "19:35",
-        "duration": "01:52"
-    },
-    {
-        "flight_number": "VB676",
+        "flight_number": "VB678",
         "airline_name": "Viva",
         "destination_iata": "SAT",
         "destination_airport_name": "San Antonio International Airport",
@@ -990,26 +880,26 @@
         "duration": "01:05"
     },
     {
+        "flight_number": "VB3195",
+        "airline_name": "Viva",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "17:45",
+        "local_arrival_time": "19:15",
+        "duration": "01:30"
+    },
+    {
         "flight_number": "VB7401",
-        "airline_name": "SKY Airline",
+        "airline_name": "Viva",
         "destination_iata": "TIJ",
         "destination_airport_name": "Tijuana International Airport",
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "17:45",
-        "local_arrival_time": "19:30",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "AA3889",
-        "airline_name": "American Eagle",
-        "destination_iata": "DFW",
-        "destination_airport_name": "Dallas Fort Worth International Airport",
-        "destination_city": "Dallas",
-        "destination_country": "United States",
-        "local_departure_time": "17:55",
-        "local_arrival_time": "20:40",
-        "duration": "01:45"
+        "local_departure_time": "17:50",
+        "local_arrival_time": "19:50",
+        "duration": "03:00"
     },
     {
         "flight_number": "Y41087",
@@ -1018,53 +908,31 @@
         "destination_airport_name": "Guadalajara International Airport",
         "destination_city": "Guadalajara",
         "destination_country": "Mexico",
-        "local_departure_time": "18:01",
-        "local_arrival_time": "19:31",
+        "local_departure_time": "17:51",
+        "local_arrival_time": "19:21",
         "duration": "01:30"
     },
     {
-        "flight_number": "VB2181",
-        "airline_name": "SKY Airline",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "18:10",
-        "local_arrival_time": "21:35",
-        "duration": "02:25"
+        "flight_number": "AA3889",
+        "airline_name": "American Eagle",
+        "destination_iata": "DFW",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States",
+        "local_departure_time": "17:56",
+        "local_arrival_time": "20:41",
+        "duration": "01:45"
     },
     {
-        "flight_number": "VB694",
-        "airline_name": "Viva",
-        "destination_iata": "BOG",
-        "destination_airport_name": "Bogota El Dorado International Airport",
-        "destination_city": "Bogota",
-        "destination_country": "Colombia",
-        "local_departure_time": "18:40",
-        "local_arrival_time": "00:45 (+1)",
-        "duration": "05:05"
-    },
-    {
-        "flight_number": "VB1127",
-        "airline_name": "Viva",
+        "flight_number": "AM949",
+        "airline_name": "Aeromexico",
         "destination_iata": "MEX",
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "18:45",
-        "local_arrival_time": "20:25",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "VB2243",
-        "airline_name": "Viva",
-        "destination_iata": "CUN",
-        "destination_airport_name": "Cancun International Airport",
-        "destination_city": "Cancun",
-        "destination_country": "Mexico",
-        "local_departure_time": "18:50",
-        "local_arrival_time": "22:15",
-        "duration": "02:25"
+        "local_departure_time": "17:59 / 18:05",
+        "local_arrival_time": "19:50 / 19:55",
+        "duration": "01:51"
     },
     {
         "flight_number": "VB4120",
@@ -1073,42 +941,75 @@
         "destination_airport_name": "Hermosillo International Airport",
         "destination_city": "Hermosillo",
         "destination_country": "Mexico",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "19:55",
-        "duration": "02:00"
+        "local_departure_time": "18:25",
+        "local_arrival_time": "19:30",
+        "duration": "02:05"
     },
     {
-        "flight_number": "VB7800",
+        "flight_number": "VB1127",
         "airline_name": "Viva",
-        "destination_iata": "IAH",
-        "destination_airport_name": "Houston George Bush Intercontinental Airport",
-        "destination_city": "Houston",
-        "destination_country": "United States",
-        "local_departure_time": "19:05",
-        "local_arrival_time": "21:30",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "VB4350",
-        "airline_name": "Viva",
-        "destination_iata": "PVR",
-        "destination_airport_name": "Puerto Vallarta International Airport",
-        "destination_city": "Puerto Vallarta",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "20:45",
+        "local_departure_time": "18:30",
+        "local_arrival_time": "20:05",
         "duration": "01:35"
     },
     {
-        "flight_number": "AM953",
+        "flight_number": "VB2243",
+        "airline_name": "Viva",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
+        "local_departure_time": "18:45",
+        "local_arrival_time": "22:05",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "VB694",
+        "airline_name": "Viva",
+        "destination_iata": "BOG",
+        "destination_airport_name": "Bogota El Dorado International Airport",
+        "destination_city": "Bogota",
+        "destination_country": "Colombia",
+        "local_departure_time": "18:50",
+        "local_arrival_time": "00:50 (+1)",
+        "duration": "05:00"
+    },
+    {
+        "flight_number": "VB2179",
+        "airline_name": "Viva",
+        "destination_iata": "CUN",
+        "destination_airport_name": "Cancun International Airport",
+        "destination_city": "Cancun",
+        "destination_country": "Mexico",
+        "local_departure_time": "18:55",
+        "local_arrival_time": "22:15",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "VB3205",
+        "airline_name": "Viva",
+        "destination_iata": "GDL",
+        "destination_airport_name": "Guadalajara International Airport",
+        "destination_city": "Guadalajara",
+        "destination_country": "Mexico",
+        "local_departure_time": "19:15",
+        "local_arrival_time": "20:45",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "AM955",
         "airline_name": "Aeromexico",
         "destination_iata": "MEX",
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "21:05",
-        "duration": "01:50"
+        "local_departure_time": "19:15 / 19:20",
+        "local_arrival_time": "21:00 / 21:05",
+        "duration": "01:45"
     },
     {
         "flight_number": "VB632",
@@ -1118,30 +1019,19 @@
         "destination_city": "Chicago",
         "destination_country": "United States",
         "local_departure_time": "19:20",
-        "local_arrival_time": "23:50",
-        "duration": "03:30"
+        "local_arrival_time": "23:35",
+        "duration": "03:15"
     },
     {
-        "flight_number": "VB3205",
+        "flight_number": "VB7800",
         "airline_name": "Viva",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "19:40",
-        "local_arrival_time": "21:10",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "VB4336",
-        "airline_name": "Viva",
-        "destination_iata": "SJD",
-        "destination_airport_name": "San Jose del Cabo Los Cabos International Airport",
-        "destination_city": "San Jose del Cabo",
-        "destination_country": "Mexico",
-        "local_departure_time": "19:40",
-        "local_arrival_time": "20:35",
-        "duration": "01:55"
+        "destination_iata": "IAH",
+        "destination_airport_name": "Houston George Bush Intercontinental Airport",
+        "destination_city": "Houston",
+        "destination_country": "United States",
+        "local_departure_time": "19:25",
+        "local_arrival_time": "21:45",
+        "duration": "01:20"
     },
     {
         "flight_number": "VB4348",
@@ -1155,15 +1045,26 @@
         "duration": "01:35"
     },
     {
+        "flight_number": "AM957",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "20:05",
+        "local_arrival_time": "21:55",
+        "duration": "01:50"
+    },
+    {
         "flight_number": "VB1353",
         "airline_name": "Viva",
         "destination_iata": "MEX",
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "19:50",
-        "local_arrival_time": "21:30",
-        "duration": "01:40"
+        "local_departure_time": "20:05",
+        "local_arrival_time": "21:40",
+        "duration": "01:35"
     },
     {
         "flight_number": "VB1143",
@@ -1175,17 +1076,6 @@
         "local_departure_time": "20:10",
         "local_arrival_time": "21:45",
         "duration": "01:35"
-    },
-    {
-        "flight_number": "VB4026",
-        "airline_name": "Viva",
-        "destination_iata": "MZT",
-        "destination_airport_name": "Mazatlan International Airport",
-        "destination_city": "Mazatlan",
-        "destination_country": "Mexico",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "20:55",
-        "duration": "01:25"
     },
     {
         "flight_number": "Y41085",
@@ -1205,8 +1095,8 @@
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "22:45",
+        "local_departure_time": "21:05",
+        "local_arrival_time": "22:50",
         "duration": "01:45"
     },
     {
@@ -1227,8 +1117,8 @@
         "destination_airport_name": "Cancun International Airport",
         "destination_city": "Cancun",
         "destination_country": "Mexico",
-        "local_departure_time": "21:35",
-        "local_arrival_time": "01:00 (+1)",
+        "local_departure_time": "21:25",
+        "local_arrival_time": "00:50 (+1)",
         "duration": "02:25"
     },
     {
@@ -1241,6 +1131,17 @@
         "local_departure_time": "22:05",
         "local_arrival_time": "23:15",
         "duration": "01:10"
+    },
+    {
+        "flight_number": "AM965",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "22:10",
+        "local_arrival_time": "23:55",
+        "duration": "01:45"
     },
     {
         "flight_number": "Y45616",
@@ -1260,31 +1161,9 @@
         "destination_airport_name": "Tijuana International Airport",
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "22:45",
-        "local_arrival_time": "00:26 (+1)",
-        "duration": "02:41"
-    },
-    {
-        "flight_number": "AM969",
-        "airline_name": "Aeromexico Connect",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "22:46",
-        "local_arrival_time": "00:25 (+1)",
-        "duration": "01:39"
-    },
-    {
-        "flight_number": "VB3203",
-        "airline_name": "Viva",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "22:50",
-        "local_arrival_time": "00:20 (+1)",
-        "duration": "01:30"
+        "local_departure_time": "22:31",
+        "local_arrival_time": "00:23 (+1)",
+        "duration": "02:52"
     },
     {
         "flight_number": "AM90",
@@ -1293,8 +1172,8 @@
         "destination_airport_name": "Seoul Incheon International Airport",
         "destination_city": "Seoul",
         "destination_country": "South Korea",
-        "local_departure_time": "23:50",
+        "local_departure_time": "23:10",
         "local_arrival_time": "06:00 (+2)",
-        "duration": "15:10"
+        "duration": "15:50"
     }
 ]

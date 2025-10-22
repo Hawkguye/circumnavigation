@@ -17,8 +17,8 @@
         "destination_airport_name": "Toronto Pearson International Airport",
         "destination_city": "Toronto",
         "destination_country": "Canada",
-        "local_departure_time": "00:55",
-        "local_arrival_time": "06:40",
+        "local_departure_time": "00:45",
+        "local_arrival_time": "06:30",
         "duration": "03:45"
     },
     {
@@ -28,9 +28,9 @@
         "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
         "destination_city": "Montreal",
         "destination_country": "Canada",
-        "local_departure_time": "01:05",
+        "local_departure_time": "01:00",
         "local_arrival_time": "07:10",
-        "duration": "04:05"
+        "duration": "04:10"
     },
     {
         "flight_number": "F8630",
@@ -44,17 +44,6 @@
         "duration": "03:45"
     },
     {
-        "flight_number": "UA1925",
-        "airline_name": "United Airlines",
-        "destination_iata": "DEN",
-        "destination_airport_name": "Denver International Airport",
-        "destination_city": "Denver",
-        "destination_country": "United States",
-        "local_departure_time": "06:00",
-        "local_arrival_time": "08:44",
-        "duration": "02:44"
-    },
-    {
         "flight_number": "WS238",
         "airline_name": "WestJet",
         "destination_iata": "YYC",
@@ -62,19 +51,30 @@
         "destination_city": "Calgary",
         "destination_country": "Canada",
         "local_departure_time": "06:00",
-        "local_arrival_time": "06:56",
-        "duration": "00:56"
+        "local_arrival_time": "06:57",
+        "duration": "00:57"
     },
     {
-        "flight_number": "WS161",
-        "airline_name": "WestJet",
+        "flight_number": "AC231",
+        "airline_name": "Air Canada",
         "destination_iata": "YVR",
         "destination_airport_name": "Vancouver International Airport",
         "destination_city": "Vancouver",
         "destination_country": "Canada",
-        "local_departure_time": "06:15",
-        "local_arrival_time": "06:55",
-        "duration": "01:40"
+        "local_departure_time": "06:00",
+        "local_arrival_time": "06:43",
+        "duration": "01:43"
+    },
+    {
+        "flight_number": "UA1522",
+        "airline_name": "United Airlines",
+        "destination_iata": "DEN",
+        "destination_airport_name": "Denver International Airport",
+        "destination_city": "Denver",
+        "destination_country": "United States",
+        "local_departure_time": "06:00",
+        "local_arrival_time": "08:46",
+        "duration": "02:46"
     },
     {
         "flight_number": "AC160",
@@ -84,19 +84,19 @@
         "destination_city": "Toronto",
         "destination_country": "Canada",
         "local_departure_time": "06:15",
-        "local_arrival_time": "12:00",
-        "duration": "03:45"
+        "local_arrival_time": "12:01",
+        "duration": "03:46"
     },
     {
-        "flight_number": "AC231",
-        "airline_name": "Air Canada",
+        "flight_number": "WS161",
+        "airline_name": "WestJet",
         "destination_iata": "YVR",
         "destination_airport_name": "Vancouver International Airport",
         "destination_city": "Vancouver",
         "destination_country": "Canada",
-        "local_departure_time": "06:20",
+        "local_departure_time": "06:15",
         "local_arrival_time": "07:00",
-        "duration": "01:40"
+        "duration": "01:45"
     },
     {
         "flight_number": "WS2206",
@@ -106,8 +106,19 @@
         "destination_city": "Cancun",
         "destination_country": "Mexico",
         "local_departure_time": "06:30",
-        "local_arrival_time": "13:24",
-        "duration": "05:54"
+        "local_arrival_time": "13:14",
+        "duration": "05:44"
+    },
+    {
+        "flight_number": "PD402",
+        "airline_name": "Porter",
+        "destination_iata": "YYZ",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada",
+        "local_departure_time": "06:45",
+        "local_arrival_time": "12:33",
+        "duration": "03:48"
     },
     {
         "flight_number": "F8827",
@@ -121,17 +132,6 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "PD402",
-        "airline_name": "Porter",
-        "destination_iata": "YYZ",
-        "destination_airport_name": "Toronto Pearson International Airport",
-        "destination_city": "Toronto",
-        "destination_country": "Canada",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "12:48",
-        "duration": "03:48"
-    },
-    {
         "flight_number": "WS288",
         "airline_name": "WestJet",
         "destination_iata": "YYC",
@@ -139,8 +139,8 @@
         "destination_city": "Calgary",
         "destination_country": "Canada",
         "local_departure_time": "07:00",
-        "local_arrival_time": "07:56",
-        "duration": "00:56"
+        "local_arrival_time": "07:57",
+        "duration": "00:57"
     },
     {
         "flight_number": "WS422",
@@ -172,19 +172,19 @@
         "destination_city": "Ottawa",
         "destination_country": "Canada",
         "local_departure_time": "07:10",
-        "local_arrival_time": "13:05",
-        "duration": "03:55"
+        "local_arrival_time": "13:03",
+        "duration": "03:53"
     },
     {
-        "flight_number": "AC7775",
-        "airline_name": "Air Canada Express",
+        "flight_number": "AC233",
+        "airline_name": "Air Canada",
         "destination_iata": "YVR",
         "destination_airport_name": "Vancouver International Airport",
         "destination_city": "Vancouver",
         "destination_country": "Canada",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "08:42",
-        "duration": "01:42"
+        "local_departure_time": "07:50",
+        "local_arrival_time": "08:33",
+        "duration": "01:43"
     },
     {
         "flight_number": "WS266",
@@ -194,19 +194,8 @@
         "destination_city": "Calgary",
         "destination_country": "Canada",
         "local_departure_time": "08:00",
-        "local_arrival_time": "08:56",
-        "duration": "00:56"
-    },
-    {
-        "flight_number": "WS1422",
-        "airline_name": "WestJet",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "10:36",
-        "duration": "03:36"
+        "local_arrival_time": "08:57",
+        "duration": "00:57"
     },
     {
         "flight_number": "PD378",
@@ -220,15 +209,15 @@
         "duration": "04:04"
     },
     {
-        "flight_number": "UA2399",
+        "flight_number": "UA1478",
         "airline_name": "United Airlines",
         "destination_iata": "IAH",
         "destination_airport_name": "Houston George Bush Intercontinental Airport",
         "destination_city": "Houston",
         "destination_country": "United States",
         "local_departure_time": "08:05",
-        "local_arrival_time": "13:29",
-        "duration": "04:24"
+        "local_arrival_time": "13:31",
+        "duration": "04:26"
     },
     {
         "flight_number": "WS163",
@@ -238,8 +227,8 @@
         "destination_city": "Vancouver",
         "destination_country": "Canada",
         "local_departure_time": "08:15",
-        "local_arrival_time": "08:55",
-        "duration": "01:40"
+        "local_arrival_time": "08:57",
+        "duration": "01:42"
     },
     {
         "flight_number": "WS570",
@@ -253,17 +242,6 @@
         "duration": "01:56"
     },
     {
-        "flight_number": "WS1546",
-        "airline_name": "WestJet",
-        "destination_iata": "MSP",
-        "destination_airport_name": "Minneapolis Saint Paul International Airport",
-        "destination_city": "Minneapolis",
-        "destination_country": "United States",
-        "local_departure_time": "09:25",
-        "local_arrival_time": "13:12",
-        "duration": "02:47"
-    },
-    {
         "flight_number": "AC162",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
@@ -275,6 +253,17 @@
         "duration": "03:45"
     },
     {
+        "flight_number": "WS1546",
+        "airline_name": "WestJet",
+        "destination_iata": "MSP",
+        "destination_airport_name": "Minneapolis Saint Paul International Airport",
+        "destination_city": "Minneapolis",
+        "destination_country": "United States",
+        "local_departure_time": "09:25",
+        "local_arrival_time": "13:09",
+        "duration": "02:44"
+    },
+    {
         "flight_number": "WS3376",
         "airline_name": "WestJet",
         "destination_iata": "YYC",
@@ -282,19 +271,19 @@
         "destination_city": "Calgary",
         "destination_country": "Canada",
         "local_departure_time": "09:30",
-        "local_arrival_time": "10:32",
-        "duration": "01:02"
+        "local_arrival_time": "10:30",
+        "duration": "01:00"
     },
     {
-        "flight_number": "WS1124",
+        "flight_number": "WS165",
         "airline_name": "WestJet",
-        "destination_iata": "SLC",
-        "destination_airport_name": "Salt Lake City International Airport",
-        "destination_city": "Salt Lake City",
-        "destination_country": "United States",
-        "local_departure_time": "09:45",
-        "local_arrival_time": "12:03",
-        "duration": "02:18"
+        "destination_iata": "YVR",
+        "destination_airport_name": "Vancouver International Airport",
+        "destination_city": "Vancouver",
+        "destination_country": "Canada",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "10:42",
+        "duration": "01:42"
     },
     {
         "flight_number": "WS426",
@@ -308,39 +297,6 @@
         "duration": "03:46"
     },
     {
-        "flight_number": "WS165",
-        "airline_name": "WestJet",
-        "destination_iata": "YVR",
-        "destination_airport_name": "Vancouver International Airport",
-        "destination_city": "Vancouver",
-        "destination_country": "Canada",
-        "local_departure_time": "10:00",
-        "local_arrival_time": "10:40",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "F8823",
-        "airline_name": "Flair Airlines",
-        "destination_iata": "YVR",
-        "destination_airport_name": "Vancouver International Airport",
-        "destination_city": "Vancouver",
-        "destination_country": "Canada",
-        "local_departure_time": "10:10",
-        "local_arrival_time": "10:55",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "AC8557",
-        "airline_name": "Air Canada Express",
-        "destination_iata": "SFO",
-        "destination_airport_name": "San Francisco International Airport",
-        "destination_city": "San Francisco",
-        "destination_country": "United States",
-        "local_departure_time": "10:15",
-        "local_arrival_time": "12:20",
-        "duration": "03:05"
-    },
-    {
         "flight_number": "WS224",
         "airline_name": "WestJet",
         "destination_iata": "YOW",
@@ -348,8 +304,8 @@
         "destination_city": "Ottawa",
         "destination_country": "Canada",
         "local_departure_time": "10:30",
-        "local_arrival_time": "16:20",
-        "duration": "03:50"
+        "local_arrival_time": "16:19",
+        "duration": "03:49"
     },
     {
         "flight_number": "AC8133",
@@ -359,52 +315,30 @@
         "destination_city": "Calgary",
         "destination_country": "Canada",
         "local_departure_time": "10:50",
-        "local_arrival_time": "11:46",
-        "duration": "00:56"
+        "local_arrival_time": "11:45",
+        "duration": "00:55"
     },
     {
-        "flight_number": "AC237",
-        "airline_name": "Air Canada",
+        "flight_number": "AC7777",
+        "airline_name": "Air Canada Express",
         "destination_iata": "YVR",
         "destination_airport_name": "Vancouver International Airport",
         "destination_city": "Vancouver",
         "destination_country": "Canada",
         "local_departure_time": "10:55",
-        "local_arrival_time": "11:42",
-        "duration": "01:47"
+        "local_arrival_time": "11:38",
+        "duration": "01:43"
     },
     {
-        "flight_number": "WS398",
-        "airline_name": "WestJet",
-        "destination_iata": "YHZ",
-        "destination_airport_name": "Halifax Stanfield International Airport",
-        "destination_city": "Halifax",
+        "flight_number": "AC164",
+        "airline_name": "Air Canada",
+        "destination_iata": "YYZ",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
         "destination_country": "Canada",
-        "local_departure_time": "11:00",
-        "local_arrival_time": "18:46",
-        "duration": "04:46"
-    },
-    {
-        "flight_number": "WS3710",
-        "airline_name": "WestJet",
-        "destination_iata": "SEA",
-        "destination_airport_name": "Seattle Tacoma International Airport",
-        "destination_city": "Seattle",
-        "destination_country": "United States",
-        "local_departure_time": "11:15",
-        "local_arrival_time": "12:35",
-        "duration": "02:20"
-    },
-    {
-        "flight_number": "AS2106",
-        "airline_name": "Alaska Horizon",
-        "destination_iata": "SEA",
-        "destination_airport_name": "Seattle Tacoma International Airport",
-        "destination_city": "Seattle",
-        "destination_country": "United States",
-        "local_departure_time": "11:31",
-        "local_arrival_time": "12:23",
-        "duration": "01:52"
+        "local_departure_time": "11:20",
+        "local_arrival_time": "17:06",
+        "duration": "03:46"
     },
     {
         "flight_number": "AC336",
@@ -418,26 +352,48 @@
         "duration": "04:05"
     },
     {
-        "flight_number": "AC239",
-        "airline_name": "Air Canada",
+        "flight_number": "AS2106",
+        "airline_name": "Alaska Airlines",
+        "destination_iata": "SEA",
+        "destination_airport_name": "Seattle Tacoma International Airport",
+        "destination_city": "Seattle",
+        "destination_country": "United States",
+        "local_departure_time": "11:36",
+        "local_arrival_time": "12:31",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "AC7779",
+        "airline_name": "Air Canada Express",
         "destination_iata": "YVR",
         "destination_airport_name": "Vancouver International Airport",
         "destination_city": "Vancouver",
         "destination_country": "Canada",
-        "local_departure_time": "11:45 / 11:50",
-        "local_arrival_time": "12:32 / 12:37",
-        "duration": "01:47"
+        "local_departure_time": "11:40",
+        "local_arrival_time": "12:23",
+        "duration": "01:43"
     },
     {
-        "flight_number": "PD406",
-        "airline_name": "Porter",
-        "destination_iata": "YYZ",
-        "destination_airport_name": "Toronto Pearson International Airport",
-        "destination_city": "Toronto",
+        "flight_number": "4N702",
+        "airline_name": "Air North",
+        "destination_iata": "YYC",
+        "destination_airport_name": "Calgary International Airport",
+        "destination_city": "Calgary",
         "destination_country": "Canada",
-        "local_departure_time": "11:55",
-        "local_arrival_time": "17:43",
-        "duration": "03:48"
+        "local_departure_time": "12:00",
+        "local_arrival_time": "12:55",
+        "duration": "00:55"
+    },
+    {
+        "flight_number": "WS167",
+        "airline_name": "WestJet",
+        "destination_iata": "YVR",
+        "destination_airport_name": "Vancouver International Airport",
+        "destination_city": "Vancouver",
+        "destination_country": "Canada",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "12:41",
+        "duration": "01:41"
     },
     {
         "flight_number": "WS3348",
@@ -451,59 +407,15 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "AC164",
-        "airline_name": "Air Canada",
-        "destination_iata": "YYZ",
-        "destination_airport_name": "Toronto Pearson International Airport",
-        "destination_city": "Toronto",
-        "destination_country": "Canada",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "17:45",
-        "duration": "03:45"
-    },
-    {
-        "flight_number": "WS167",
-        "airline_name": "WestJet",
-        "destination_iata": "YVR",
-        "destination_airport_name": "Vancouver International Airport",
-        "destination_city": "Vancouver",
-        "destination_country": "Canada",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "12:40",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "WS428",
-        "airline_name": "WestJet",
-        "destination_iata": "YYZ",
-        "destination_airport_name": "Toronto Pearson International Airport",
-        "destination_city": "Toronto",
-        "destination_country": "Canada",
-        "local_departure_time": "12:15",
-        "local_arrival_time": "18:03",
-        "duration": "03:48"
-    },
-    {
-        "flight_number": "PD282",
+        "flight_number": "PD406",
         "airline_name": "Porter",
-        "destination_iata": "YOW",
-        "destination_airport_name": "Ottawa Macdonald-Cartier International Airport",
-        "destination_city": "Ottawa",
+        "destination_iata": "YYZ",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
         "destination_country": "Canada",
-        "local_departure_time": "12:25",
-        "local_arrival_time": "18:20",
-        "duration": "03:55"
-    },
-    {
-        "flight_number": "AC241",
-        "airline_name": "Air Canada",
-        "destination_iata": "YVR",
-        "destination_airport_name": "Vancouver International Airport",
-        "destination_city": "Vancouver",
-        "destination_country": "Canada",
-        "local_departure_time": "12:45",
-        "local_arrival_time": "13:30",
-        "duration": "01:45"
+        "local_departure_time": "12:20",
+        "local_arrival_time": "18:08",
+        "duration": "03:48"
     },
     {
         "flight_number": "AC168",
@@ -512,9 +424,9 @@
         "destination_airport_name": "Toronto Pearson International Airport",
         "destination_city": "Toronto",
         "destination_country": "Canada",
-        "local_departure_time": "13:45",
-        "local_arrival_time": "19:30",
-        "duration": "03:45"
+        "local_departure_time": "13:40",
+        "local_arrival_time": "19:26",
+        "duration": "03:46"
     },
     {
         "flight_number": "F8636",
@@ -546,8 +458,8 @@
         "destination_city": "Calgary",
         "destination_country": "Canada",
         "local_departure_time": "14:05",
-        "local_arrival_time": "15:01",
-        "duration": "00:56"
+        "local_arrival_time": "15:00",
+        "duration": "00:55"
     },
     {
         "flight_number": "WS146",
@@ -557,19 +469,30 @@
         "destination_city": "Winnipeg",
         "destination_country": "Canada",
         "local_departure_time": "14:30",
-        "local_arrival_time": "17:26",
-        "duration": "01:56"
+        "local_arrival_time": "17:25",
+        "duration": "01:55"
     },
     {
-        "flight_number": "WS152",
-        "airline_name": "WestJet",
+        "flight_number": "CNK55",
+        "airline_name": "Sunwest Aviation",
         "destination_iata": "YYC",
         "destination_airport_name": "Calgary International Airport",
         "destination_city": "Calgary",
         "destination_country": "Canada",
-        "local_departure_time": "14:45",
-        "local_arrival_time": "15:40",
-        "duration": "00:55"
+        "local_departure_time": "14:30",
+        "local_arrival_time": "15:11",
+        "duration": "00:41"
+    },
+    {
+        "flight_number": null,
+        "airline_name": "KLM",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "14:50",
+        "local_arrival_time": "06:37 (+1)",
+        "duration": "07:47"
     },
     {
         "flight_number": "AC243",
@@ -579,19 +502,30 @@
         "destination_city": "Vancouver",
         "destination_country": "Canada",
         "local_departure_time": "14:55",
-        "local_arrival_time": "15:34",
-        "duration": "01:39"
+        "local_arrival_time": "15:38",
+        "duration": "01:43"
     },
     {
-        "flight_number": "UA1773",
+        "flight_number": "WS434",
+        "airline_name": "WestJet",
+        "destination_iata": "YYZ",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada",
+        "local_departure_time": "15:15",
+        "local_arrival_time": "21:01",
+        "duration": "03:46"
+    },
+    {
+        "flight_number": "UA1153",
         "airline_name": "United Airlines",
         "destination_iata": "DEN",
         "destination_airport_name": "Denver International Airport",
         "destination_city": "Denver",
         "destination_country": "United States",
         "local_departure_time": "15:17",
-        "local_arrival_time": "18:01",
-        "duration": "02:44"
+        "local_arrival_time": "18:03",
+        "duration": "02:46"
     },
     {
         "flight_number": "WS171",
@@ -601,19 +535,30 @@
         "destination_city": "Vancouver",
         "destination_country": "Canada",
         "local_departure_time": "15:30",
-        "local_arrival_time": "16:10",
-        "duration": "01:40"
+        "local_arrival_time": "16:11",
+        "duration": "01:41"
     },
     {
-        "flight_number": "AC172",
-        "airline_name": "Air Canada",
-        "destination_iata": "YYZ",
-        "destination_airport_name": "Toronto Pearson International Airport",
-        "destination_city": "Toronto",
+        "flight_number": "WS1430",
+        "airline_name": "WestJet",
+        "destination_iata": "LAX",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States",
+        "local_departure_time": "15:35",
+        "local_arrival_time": "18:09",
+        "duration": "03:34"
+    },
+    {
+        "flight_number": "CNK44",
+        "airline_name": "Sunwest Aviation",
+        "destination_iata": "YYC",
+        "destination_airport_name": "Calgary International Airport",
+        "destination_city": "Calgary",
         "destination_country": "Canada",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "21:45",
-        "duration": "03:45"
+        "local_departure_time": "15:40",
+        "local_arrival_time": "16:20",
+        "duration": "00:40"
     },
     {
         "flight_number": "WS244",
@@ -623,19 +568,8 @@
         "destination_city": "Calgary",
         "destination_country": "Canada",
         "local_departure_time": "16:00",
-        "local_arrival_time": "16:56",
-        "duration": "00:56"
-    },
-    {
-        "flight_number": "F8750",
-        "airline_name": "Flair Airlines",
-        "destination_iata": "YWG",
-        "destination_airport_name": "Winnipeg James Armstrong Richardson International Airport",
-        "destination_city": "Winnipeg",
-        "destination_country": "Canada",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "18:55",
-        "duration": "01:55"
+        "local_arrival_time": "16:55",
+        "duration": "00:55"
     },
     {
         "flight_number": "F8821",
@@ -649,25 +583,14 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "WS1430",
-        "airline_name": "WestJet",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "16:20",
-        "local_arrival_time": "18:55",
-        "duration": "03:35"
-    },
-    {
         "flight_number": "PD408",
         "airline_name": "Porter",
         "destination_iata": "YYZ",
         "destination_airport_name": "Toronto Pearson International Airport",
         "destination_city": "Toronto",
         "destination_country": "Canada",
-        "local_departure_time": "16:35",
-        "local_arrival_time": "22:23",
+        "local_departure_time": "16:40",
+        "local_arrival_time": "22:28",
         "duration": "03:48"
     },
     {
@@ -677,9 +600,31 @@
         "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
         "destination_city": "Montreal",
         "destination_country": "Canada",
-        "local_departure_time": "17:05",
-        "local_arrival_time": "23:12",
-        "duration": "04:07"
+        "local_departure_time": "17:10",
+        "local_arrival_time": "23:19",
+        "duration": "04:09"
+    },
+    {
+        "flight_number": "AS3350",
+        "airline_name": "Alaska SkyWest",
+        "destination_iata": "SEA",
+        "destination_airport_name": "Seattle Tacoma International Airport",
+        "destination_city": "Seattle",
+        "destination_country": "United States",
+        "local_departure_time": "17:24",
+        "local_arrival_time": "18:27",
+        "duration": "02:03"
+    },
+    {
+        "flight_number": "WS1450",
+        "airline_name": "WestJet",
+        "destination_iata": "LAS",
+        "destination_airport_name": "Las Vegas Harry Reid International Airport",
+        "destination_city": "Las Vegas",
+        "destination_country": "United States",
+        "local_departure_time": "17:30",
+        "local_arrival_time": "19:37",
+        "duration": "03:07"
     },
     {
         "flight_number": "AC8143",
@@ -689,8 +634,19 @@
         "destination_city": "Calgary",
         "destination_country": "Canada",
         "local_departure_time": "17:30",
-        "local_arrival_time": "18:26",
-        "duration": "00:56"
+        "local_arrival_time": "18:25",
+        "duration": "00:55"
+    },
+    {
+        "flight_number": "AC7781",
+        "airline_name": "Air Canada Express",
+        "destination_iata": "YVR",
+        "destination_airport_name": "Vancouver International Airport",
+        "destination_city": "Vancouver",
+        "destination_country": "Canada",
+        "local_departure_time": "17:35",
+        "local_arrival_time": "18:18",
+        "duration": "01:43"
     },
     {
         "flight_number": "KL676",
@@ -715,17 +671,6 @@
         "duration": "00:55"
     },
     {
-        "flight_number": "AC7781",
-        "airline_name": "Air Canada Express",
-        "destination_iata": "YVR",
-        "destination_airport_name": "Vancouver International Airport",
-        "destination_city": "Vancouver",
-        "destination_country": "Canada",
-        "local_departure_time": "17:45",
-        "local_arrival_time": "18:27",
-        "duration": "01:42"
-    },
-    {
         "flight_number": "AC174",
         "airline_name": "Air Canada",
         "destination_iata": "YYZ",
@@ -733,19 +678,8 @@
         "destination_city": "Toronto",
         "destination_country": "Canada",
         "local_departure_time": "17:50",
-        "local_arrival_time": "23:35",
-        "duration": "03:45"
-    },
-    {
-        "flight_number": "AS3406",
-        "airline_name": "Alaska SkyWest",
-        "destination_iata": "SEA",
-        "destination_airport_name": "Seattle Tacoma International Airport",
-        "destination_city": "Seattle",
-        "destination_country": "United States",
-        "local_departure_time": "18:10",
-        "local_arrival_time": "19:09",
-        "duration": "01:59"
+        "local_arrival_time": "23:36",
+        "duration": "03:46"
     },
     {
         "flight_number": "WS175",
@@ -755,8 +689,8 @@
         "destination_city": "Vancouver",
         "destination_country": "Canada",
         "local_departure_time": "18:30",
-        "local_arrival_time": "19:10",
-        "duration": "01:40"
+        "local_arrival_time": "19:11",
+        "duration": "01:41"
     },
     {
         "flight_number": "WS572",
@@ -766,8 +700,8 @@
         "destination_city": "Winnipeg",
         "destination_country": "Canada",
         "local_departure_time": "18:30",
-        "local_arrival_time": "21:26",
-        "duration": "01:56"
+        "local_arrival_time": "21:25",
+        "duration": "01:55"
     },
     {
         "flight_number": "WS438",
@@ -777,8 +711,8 @@
         "destination_city": "Toronto",
         "destination_country": "Canada",
         "local_departure_time": "18:45",
-        "local_arrival_time": "00:33 (+1)",
-        "duration": "03:48"
+        "local_arrival_time": "00:31 (+1)",
+        "duration": "03:46"
     },
     {
         "flight_number": "AC245",
@@ -798,9 +732,9 @@
         "destination_airport_name": "Toronto Pearson International Airport",
         "destination_city": "Toronto",
         "destination_country": "Canada",
-        "local_departure_time": "20:05",
-        "local_arrival_time": "01:50 (+1)",
-        "duration": "03:45"
+        "local_departure_time": "20:00",
+        "local_arrival_time": "01:46 (+1)",
+        "duration": "03:46"
     },
     {
         "flight_number": "WS240",
@@ -810,8 +744,8 @@
         "destination_city": "Calgary",
         "destination_country": "Canada",
         "local_departure_time": "20:45",
-        "local_arrival_time": "21:41",
-        "duration": "00:56"
+        "local_arrival_time": "21:40",
+        "duration": "00:55"
     },
     {
         "flight_number": "WS576",
@@ -821,8 +755,8 @@
         "destination_city": "Winnipeg",
         "destination_country": "Canada",
         "local_departure_time": "20:45",
-        "local_arrival_time": "23:41",
-        "duration": "01:56"
+        "local_arrival_time": "23:40",
+        "duration": "01:55"
     },
     {
         "flight_number": "F8833",
@@ -836,6 +770,17 @@
         "duration": "01:45"
     },
     {
+        "flight_number": "CNK22",
+        "airline_name": "Sunwest Aviation",
+        "destination_iata": "YYC",
+        "destination_airport_name": "Calgary International Airport",
+        "destination_city": "Calgary",
+        "destination_country": "Canada",
+        "local_departure_time": "21:00",
+        "local_arrival_time": "21:42",
+        "duration": "00:42"
+    },
+    {
         "flight_number": "WS177",
         "airline_name": "WestJet",
         "destination_iata": "YVR",
@@ -843,8 +788,8 @@
         "destination_city": "Vancouver",
         "destination_country": "Canada",
         "local_departure_time": "21:45",
-        "local_arrival_time": "22:25",
-        "duration": "01:40"
+        "local_arrival_time": "22:26",
+        "duration": "01:41"
     },
     {
         "flight_number": "WS392",
@@ -854,29 +799,7 @@
         "destination_city": "Halifax",
         "destination_country": "Canada",
         "local_departure_time": "22:15",
-        "local_arrival_time": "06:01 (+1)",
-        "duration": "04:46"
-    },
-    {
-        "flight_number": "WS318",
-        "airline_name": "WestJet",
-        "destination_iata": "YOW",
-        "destination_airport_name": "Ottawa Macdonald-Cartier International Airport",
-        "destination_city": "Ottawa",
-        "destination_country": "Canada",
-        "local_departure_time": "23:35",
-        "local_arrival_time": "05:25 (+1)",
-        "duration": "03:50"
-    },
-    {
-        "flight_number": "PD410",
-        "airline_name": "Porter",
-        "destination_iata": "YYZ",
-        "destination_airport_name": "Toronto Pearson International Airport",
-        "destination_city": "Toronto",
-        "destination_country": "Canada",
-        "local_departure_time": "23:50",
-        "local_arrival_time": "05:38 (+1)",
-        "duration": "03:48"
+        "local_arrival_time": "05:59 (+1)",
+        "duration": "04:44"
     }
 ]

@@ -6,20 +6,9 @@
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "06:01",
-        "local_arrival_time": "09:20",
-        "duration": "02:19"
-    },
-    {
-        "flight_number": "VB3153",
-        "airline_name": "Viva",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "07:25",
-        "local_arrival_time": "09:55",
-        "duration": "01:30"
+        "local_departure_time": "06:00",
+        "local_arrival_time": "09:15",
+        "duration": "02:15"
     },
     {
         "flight_number": "VB4325",
@@ -33,26 +22,37 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "UA1165",
-        "airline_name": "United Airlines",
-        "destination_iata": "IAH",
-        "destination_airport_name": "Houston George Bush Intercontinental Airport",
-        "destination_city": "Houston",
-        "destination_country": "United States",
-        "local_departure_time": "10:00",
-        "local_arrival_time": "14:39",
-        "duration": "02:39"
-    },
-    {
         "flight_number": "AA1304",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
         "destination_airport_name": "Dallas Fort Worth International Airport",
         "destination_city": "Dallas",
         "destination_country": "United States",
-        "local_departure_time": "10:25",
-        "local_arrival_time": "15:10",
-        "duration": "02:45"
+        "local_departure_time": "10:10",
+        "local_arrival_time": "14:50",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "AS1343",
+        "airline_name": "Alaska Airlines",
+        "destination_iata": "LAX",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States",
+        "local_departure_time": "10:38",
+        "local_arrival_time": "13:11",
+        "duration": "02:33"
+    },
+    {
+        "flight_number": "AA2513",
+        "airline_name": "American Airlines",
+        "destination_iata": "DFW",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States",
+        "local_departure_time": "10:55",
+        "local_arrival_time": "15:35",
+        "duration": "02:40"
     },
     {
         "flight_number": "Y4303",
@@ -66,39 +66,6 @@
         "duration": "02:08"
     },
     {
-        "flight_number": "UA1515",
-        "airline_name": "United Airlines",
-        "destination_iata": "SFO",
-        "destination_airport_name": "San Francisco International Airport",
-        "destination_city": "San Francisco",
-        "destination_country": "United States",
-        "local_departure_time": "11:10",
-        "local_arrival_time": "14:18",
-        "duration": "03:08"
-    },
-    {
-        "flight_number": "AS96",
-        "airline_name": "Alaska Airlines",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "11:21",
-        "local_arrival_time": "13:55",
-        "duration": "02:34"
-    },
-    {
-        "flight_number": "AS1435",
-        "airline_name": "Alaska Airlines",
-        "destination_iata": "SJC",
-        "destination_airport_name": "San Jose International Airport",
-        "destination_city": "San Jose",
-        "destination_country": "United States",
-        "local_departure_time": "11:28",
-        "local_arrival_time": "14:25",
-        "duration": "02:57"
-    },
-    {
         "flight_number": "UA2103",
         "airline_name": "United Airlines",
         "destination_iata": "IAH",
@@ -106,19 +73,41 @@
         "destination_city": "Houston",
         "destination_country": "United States",
         "local_departure_time": "11:32",
-        "local_arrival_time": "16:10",
-        "duration": "02:38"
+        "local_arrival_time": "16:06",
+        "duration": "02:34"
     },
     {
-        "flight_number": "AA661",
+        "flight_number": "AA3288",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
         "destination_airport_name": "Dallas Fort Worth International Airport",
         "destination_city": "Dallas",
         "destination_country": "United States",
-        "local_departure_time": "11:35",
-        "local_arrival_time": "16:20",
+        "local_departure_time": "11:40",
+        "local_arrival_time": "16:25",
         "duration": "02:45"
+    },
+    {
+        "flight_number": "AS1167",
+        "airline_name": "Alaska Airlines",
+        "destination_iata": "SAN",
+        "destination_airport_name": "San Diego International Airport",
+        "destination_city": "San Diego",
+        "destination_country": "United States",
+        "local_departure_time": "11:45",
+        "local_arrival_time": "14:09",
+        "duration": "02:24"
+    },
+    {
+        "flight_number": "UA766",
+        "airline_name": "United Airlines",
+        "destination_iata": "ORD",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "United States",
+        "local_departure_time": "11:52",
+        "local_arrival_time": "18:06",
+        "duration": "04:14"
     },
     {
         "flight_number": "Y41145",
@@ -132,26 +121,70 @@
         "duration": "01:31"
     },
     {
-        "flight_number": "AA2619",
+        "flight_number": "AS345",
+        "airline_name": "Alaska Airlines",
+        "destination_iata": "PDX",
+        "destination_airport_name": "Portland International Airport",
+        "destination_city": "Portland",
+        "destination_country": "United States",
+        "local_departure_time": "12:02",
+        "local_arrival_time": "16:10",
+        "duration": "04:08"
+    },
+    {
+        "flight_number": "AS984",
+        "airline_name": "Alaska Airlines",
+        "destination_iata": "SEA",
+        "destination_airport_name": "Seattle Tacoma International Airport",
+        "destination_city": "Seattle",
+        "destination_country": "United States",
+        "local_departure_time": "12:02",
+        "local_arrival_time": "16:32",
+        "duration": "04:30"
+    },
+    {
+        "flight_number": "VB7064",
+        "airline_name": "Viva",
+        "destination_iata": "HMO",
+        "destination_airport_name": "Hermosillo International Airport",
+        "destination_city": "Hermosillo",
+        "destination_country": "Mexico",
+        "local_departure_time": "12:15",
+        "local_arrival_time": "13:40",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "AA2420",
         "airline_name": "American Airlines",
         "destination_iata": "PHX",
         "destination_airport_name": "Phoenix Sky Harbor International Airport",
         "destination_city": "Phoenix",
         "destination_country": "United States",
-        "local_departure_time": "12:13 / 12:23",
-        "local_arrival_time": "14:23 / 14:28",
-        "duration": "02:10"
+        "local_departure_time": "12:19",
+        "local_arrival_time": "14:34",
+        "duration": "02:15"
     },
     {
-        "flight_number": "DL1848",
-        "airline_name": "Delta Air Lines",
-        "destination_iata": "ATL",
-        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
-        "destination_city": "Atlanta",
+        "flight_number": "AA2647",
+        "airline_name": "American Airlines",
+        "destination_iata": "DFW",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
         "destination_country": "United States",
-        "local_departure_time": "12:27",
-        "local_arrival_time": "19:39",
-        "duration": "04:12"
+        "local_departure_time": "12:25",
+        "local_arrival_time": "17:10",
+        "duration": "02:45"
+    },
+    {
+        "flight_number": "AA3258",
+        "airline_name": "American Airlines",
+        "destination_iata": "LAX",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States",
+        "local_departure_time": "12:28",
+        "local_arrival_time": "15:03",
+        "duration": "02:35"
     },
     {
         "flight_number": "UA547",
@@ -165,15 +198,48 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "AA2656",
+        "flight_number": "AA1185",
         "airline_name": "American Airlines",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
+        "destination_iata": "ORD",
+        "destination_airport_name": "Chicago O'Hare International Airport",
+        "destination_city": "Chicago",
         "destination_country": "United States",
-        "local_departure_time": "12:37",
-        "local_arrival_time": "15:02",
-        "duration": "02:25"
+        "local_departure_time": "12:45",
+        "local_arrival_time": "19:10",
+        "duration": "04:25"
+    },
+    {
+        "flight_number": "AM383",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "12:45",
+        "local_arrival_time": "16:05",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "WN1922",
+        "airline_name": "Southwest Airlines",
+        "destination_iata": "PHX",
+        "destination_airport_name": "Phoenix Sky Harbor International Airport",
+        "destination_city": "Phoenix",
+        "destination_country": "United States",
+        "local_departure_time": "12:45 / 12:50",
+        "local_arrival_time": "14:55 / 15:00",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "DL1848",
+        "airline_name": "Delta Air Lines",
+        "destination_iata": "ATL",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States",
+        "local_departure_time": "12:47",
+        "local_arrival_time": "19:36",
+        "duration": "03:49"
     },
     {
         "flight_number": "DL1951",
@@ -182,20 +248,9 @@
         "destination_airport_name": "Salt Lake City International Airport",
         "destination_city": "Salt Lake City",
         "destination_country": "United States",
-        "local_departure_time": "12:42",
-        "local_arrival_time": "16:47",
-        "duration": "03:05"
-    },
-    {
-        "flight_number": "B6938",
-        "airline_name": "JetBlue",
-        "destination_iata": "JFK",
-        "destination_airport_name": "New York John F. Kennedy International Airport",
-        "destination_city": "New York",
-        "destination_country": "United States",
-        "local_departure_time": "12:47",
-        "local_arrival_time": "21:29",
-        "duration": "05:42"
+        "local_departure_time": "12:48",
+        "local_arrival_time": "17:00",
+        "duration": "03:12"
     },
     {
         "flight_number": "WS2785",
@@ -227,29 +282,7 @@
         "destination_city": "San Francisco",
         "destination_country": "United States",
         "local_departure_time": "13:00",
-        "local_arrival_time": "16:11",
-        "duration": "03:11"
-    },
-    {
-        "flight_number": "AM383",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "13:11 / 13:46",
-        "local_arrival_time": "16:35 / 17:10",
-        "duration": "02:24"
-    },
-    {
-        "flight_number": "UA2152",
-        "airline_name": "United Airlines",
-        "destination_iata": "DEN",
-        "destination_airport_name": "Denver International Airport",
-        "destination_city": "Denver",
-        "destination_country": "United States",
-        "local_departure_time": "13:12",
-        "local_arrival_time": "17:18",
+        "local_arrival_time": "16:06",
         "duration": "03:06"
     },
     {
@@ -259,20 +292,31 @@
         "destination_airport_name": "Santa Ana John Wayne Airport",
         "destination_city": "Santa Ana",
         "destination_country": "United States",
-        "local_departure_time": "13:15",
-        "local_arrival_time": "15:40",
-        "duration": "02:25"
+        "local_departure_time": "13:00 / 13:40",
+        "local_arrival_time": "15:30 / 16:10",
+        "duration": "02:30"
     },
     {
-        "flight_number": "AA2646",
-        "airline_name": "American Airlines",
-        "destination_iata": "PHX",
-        "destination_airport_name": "Phoenix Sky Harbor International Airport",
-        "destination_city": "Phoenix",
+        "flight_number": "WN1214",
+        "airline_name": "Southwest Airlines",
+        "destination_iata": "SAN",
+        "destination_airport_name": "San Diego International Airport",
+        "destination_city": "San Diego",
         "destination_country": "United States",
-        "local_departure_time": "13:16",
-        "local_arrival_time": "15:26",
-        "duration": "02:10"
+        "local_departure_time": "13:05",
+        "local_arrival_time": "15:20",
+        "duration": "02:15"
+    },
+    {
+        "flight_number": "UA2152",
+        "airline_name": "United Airlines",
+        "destination_iata": "DEN",
+        "destination_airport_name": "Denver International Airport",
+        "destination_city": "Denver",
+        "destination_country": "United States",
+        "local_departure_time": "13:12",
+        "local_arrival_time": "17:13",
+        "duration": "03:01"
     },
     {
         "flight_number": "XN1433",
@@ -286,37 +330,37 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "AS1343",
-        "airline_name": "Alaska Airlines",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "13:27",
-        "local_arrival_time": "16:00",
-        "duration": "02:33"
-    },
-    {
-        "flight_number": "AS1437",
-        "airline_name": "Alaska Airlines",
-        "destination_iata": "SAN",
-        "destination_airport_name": "San Diego International Airport",
-        "destination_city": "San Diego",
-        "destination_country": "United States",
-        "local_departure_time": "13:37",
-        "local_arrival_time": "15:51",
-        "duration": "02:14"
-    },
-    {
-        "flight_number": "WN1922",
-        "airline_name": "Southwest Airlines",
+        "flight_number": "AA2128",
+        "airline_name": "American Airlines",
         "destination_iata": "PHX",
         "destination_airport_name": "Phoenix Sky Harbor International Airport",
         "destination_city": "Phoenix",
         "destination_country": "United States",
-        "local_departure_time": "13:45",
-        "local_arrival_time": "15:45",
-        "duration": "02:00"
+        "local_departure_time": "13:24",
+        "local_arrival_time": "15:34",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "B6938",
+        "airline_name": "JetBlue",
+        "destination_iata": "JFK",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States",
+        "local_departure_time": "13:37",
+        "local_arrival_time": "22:00",
+        "duration": "05:23"
+    },
+    {
+        "flight_number": "AS1435",
+        "airline_name": "Alaska Airlines",
+        "destination_iata": "SJC",
+        "destination_airport_name": "San Jose International Airport",
+        "destination_city": "San Jose",
+        "destination_country": "United States",
+        "local_departure_time": "13:41",
+        "local_arrival_time": "16:44",
+        "duration": "03:03"
     },
     {
         "flight_number": "UA579",
@@ -326,8 +370,8 @@
         "destination_city": "Houston",
         "destination_country": "United States",
         "local_departure_time": "13:46",
-        "local_arrival_time": "18:25",
-        "duration": "02:39"
+        "local_arrival_time": "18:20",
+        "duration": "02:34"
     },
     {
         "flight_number": "WS2061",
@@ -341,37 +385,59 @@
         "duration": "04:40"
     },
     {
+        "flight_number": "WN2018",
+        "airline_name": "Southwest Airlines",
+        "destination_iata": "SMF",
+        "destination_airport_name": "Sacramento International Airport",
+        "destination_city": "Sacramento",
+        "destination_country": "United States",
+        "local_departure_time": "14:15",
+        "local_arrival_time": "17:25",
+        "duration": "03:10"
+    },
+    {
+        "flight_number": "WN2021",
+        "airline_name": "Southwest Airlines",
+        "destination_iata": "PHX",
+        "destination_airport_name": "Phoenix Sky Harbor International Airport",
+        "destination_city": "Phoenix",
+        "destination_country": "United States",
+        "local_departure_time": "14:20 / 14:35",
+        "local_arrival_time": "16:25 / 16:40",
+        "duration": "02:05"
+    },
+    {
         "flight_number": "DL1876",
         "airline_name": "Delta Air Lines",
         "destination_iata": "LAX",
         "destination_airport_name": "Los Angeles International Airport",
         "destination_city": "Los Angeles",
         "destination_country": "United States",
-        "local_departure_time": "14:15",
-        "local_arrival_time": "16:52",
-        "duration": "02:37"
+        "local_departure_time": "14:25",
+        "local_arrival_time": "17:01",
+        "duration": "02:36"
     },
     {
-        "flight_number": "AA1385",
+        "flight_number": "WS2289",
+        "airline_name": "WestJet",
+        "destination_iata": "YYC",
+        "destination_airport_name": "Calgary International Airport",
+        "destination_city": "Calgary",
+        "destination_country": "Canada",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "20:03",
+        "duration": "04:33"
+    },
+    {
+        "flight_number": "AA2180",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
         "destination_airport_name": "Dallas Fort Worth International Airport",
         "destination_city": "Dallas",
         "destination_country": "United States",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "19:15",
+        "local_departure_time": "14:35 / 14:50",
+        "local_arrival_time": "19:20 / 19:35",
         "duration": "02:45"
-    },
-    {
-        "flight_number": "UA1286",
-        "airline_name": "United Airlines",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "14:40",
-        "local_arrival_time": "17:11",
-        "duration": "02:31"
     },
     {
         "flight_number": "UA338",
@@ -381,8 +447,8 @@
         "destination_city": "Denver",
         "destination_country": "United States",
         "local_departure_time": "14:50",
-        "local_arrival_time": "18:55",
-        "duration": "03:05"
+        "local_arrival_time": "18:51",
+        "duration": "03:01"
     },
     {
         "flight_number": "Y41143",
@@ -396,6 +462,17 @@
         "duration": "01:31"
     },
     {
+        "flight_number": "AS3215",
+        "airline_name": "Alaska SkyWest",
+        "destination_iata": "LAS",
+        "destination_airport_name": "Las Vegas Harry Reid International Airport",
+        "destination_city": "Las Vegas",
+        "destination_country": "United States",
+        "local_departure_time": "15:08",
+        "local_arrival_time": "18:01",
+        "duration": "02:53"
+    },
+    {
         "flight_number": "VB3157",
         "airline_name": "Viva",
         "destination_iata": "GDL",
@@ -407,26 +484,15 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "AS1395",
-        "airline_name": "Alaska Airlines",
-        "destination_iata": "SAN",
-        "destination_airport_name": "San Diego International Airport",
-        "destination_city": "San Diego",
+        "flight_number": "AA2675",
+        "airline_name": "American Airlines",
+        "destination_iata": "PHX",
+        "destination_airport_name": "Phoenix Sky Harbor International Airport",
+        "destination_city": "Phoenix",
         "destination_country": "United States",
-        "local_departure_time": "15:34",
-        "local_arrival_time": "17:45",
-        "duration": "02:11"
-    },
-    {
-        "flight_number": "AS1401",
-        "airline_name": "Alaska Airlines",
-        "destination_iata": "SEA",
-        "destination_airport_name": "Seattle Tacoma International Airport",
-        "destination_city": "Seattle",
-        "destination_country": "United States",
-        "local_departure_time": "15:37",
-        "local_arrival_time": "19:59",
-        "duration": "04:22"
+        "local_departure_time": "15:28",
+        "local_arrival_time": "17:38",
+        "duration": "02:10"
     },
     {
         "flight_number": "UA1174",
@@ -440,6 +506,17 @@
         "duration": "03:06"
     },
     {
+        "flight_number": "AM385",
+        "airline_name": "Aeromexico",
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "15:50",
+        "local_arrival_time": "19:10",
+        "duration": "02:20"
+    },
+    {
         "flight_number": "Y47957",
         "airline_name": "Volaris",
         "destination_iata": "ONT",
@@ -451,15 +528,26 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "AA2372",
+        "flight_number": "AS1395",
+        "airline_name": "Alaska Airlines",
+        "destination_iata": "SAN",
+        "destination_airport_name": "San Diego International Airport",
+        "destination_city": "San Diego",
+        "destination_country": "United States",
+        "local_departure_time": "16:02",
+        "local_arrival_time": "18:15",
+        "duration": "02:13"
+    },
+    {
+        "flight_number": "AA2213",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
         "destination_airport_name": "Dallas Fort Worth International Airport",
         "destination_city": "Dallas",
         "destination_country": "United States",
-        "local_departure_time": "16:24",
-        "local_arrival_time": "21:09",
-        "duration": "02:45"
+        "local_departure_time": "16:25",
+        "local_arrival_time": "21:05",
+        "duration": "02:40"
     },
     {
         "flight_number": "Y47911",
@@ -473,6 +561,17 @@
         "duration": "03:04"
     },
     {
+        "flight_number": "AS1401",
+        "airline_name": "Alaska Airlines",
+        "destination_iata": "SEA",
+        "destination_airport_name": "Seattle Tacoma International Airport",
+        "destination_city": "Seattle",
+        "destination_country": "United States",
+        "local_departure_time": "16:35",
+        "local_arrival_time": "21:00",
+        "duration": "04:25"
+    },
+    {
         "flight_number": "Y43103",
         "airline_name": "Volaris",
         "destination_iata": "TIJ",
@@ -484,15 +583,26 @@
         "duration": "02:03"
     },
     {
-        "flight_number": "AM385",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
+        "flight_number": "AS84",
+        "airline_name": "Alaska Airlines",
+        "destination_iata": "LAX",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States",
+        "local_departure_time": "17:22",
+        "local_arrival_time": "19:57",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "VB7065",
+        "airline_name": "Viva",
+        "destination_iata": "TIJ",
+        "destination_airport_name": "Tijuana International Airport",
+        "destination_city": "Tijuana",
         "destination_country": "Mexico",
-        "local_departure_time": "16:51",
-        "local_arrival_time": "20:15",
-        "duration": "02:24"
+        "local_departure_time": "17:25",
+        "local_arrival_time": "19:40",
+        "duration": "02:15"
     },
     {
         "flight_number": "VB7055",
@@ -502,30 +612,8 @@
         "destination_city": "Tijuana",
         "destination_country": "Mexico",
         "local_departure_time": "17:25",
-        "local_arrival_time": "19:30",
-        "duration": "02:05"
-    },
-    {
-        "flight_number": "Y41141",
-        "airline_name": "Volaris",
-        "destination_iata": "GDL",
-        "destination_airport_name": "Guadalajara International Airport",
-        "destination_city": "Guadalajara",
-        "destination_country": "Mexico",
-        "local_departure_time": "17:34",
-        "local_arrival_time": "20:05",
-        "duration": "01:31"
-    },
-    {
-        "flight_number": "AM387",
-        "airline_name": "Aeromexico",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "18:35",
-        "local_arrival_time": "21:55",
-        "duration": "02:20"
+        "local_arrival_time": "19:40",
+        "duration": "02:15"
     },
     {
         "flight_number": "AS1429",
@@ -534,20 +622,20 @@
         "destination_airport_name": "San Francisco International Airport",
         "destination_city": "San Francisco",
         "destination_country": "United States",
-        "local_departure_time": "19:22",
-        "local_arrival_time": "22:26",
-        "duration": "03:04"
+        "local_departure_time": "17:48",
+        "local_arrival_time": "20:56",
+        "duration": "03:08"
     },
     {
-        "flight_number": "AS1359",
-        "airline_name": "Alaska Airlines",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "19:51",
-        "local_arrival_time": "22:23",
-        "duration": "02:32"
+        "flight_number": "Y47311",
+        "airline_name": "Volaris",
+        "destination_iata": "BJX",
+        "destination_airport_name": "Silao Del Bajio International Airport",
+        "destination_city": "Silao",
+        "destination_country": "Mexico",
+        "local_departure_time": "18:41",
+        "local_arrival_time": "21:14",
+        "duration": "01:33"
     },
     {
         "flight_number": "VB1213",
@@ -561,15 +649,15 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "AM389",
-        "airline_name": "Aeromexico Connect",
+        "flight_number": "AM387",
+        "airline_name": "Aeromexico",
         "destination_iata": "MEX",
         "destination_airport_name": "Mexico City International Airport",
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
-        "local_departure_time": "20:26",
-        "local_arrival_time": "23:45",
-        "duration": "02:19"
+        "local_departure_time": "20:13",
+        "local_arrival_time": "23:29",
+        "duration": "02:16"
     },
     {
         "flight_number": "Y4305",
@@ -581,16 +669,5 @@
         "local_departure_time": "20:37",
         "local_arrival_time": "23:45",
         "duration": "02:08"
-    },
-    {
-        "flight_number": "VB4337",
-        "airline_name": "Viva",
-        "destination_iata": "MTY",
-        "destination_airport_name": "Monterrey International Airport",
-        "destination_city": "Monterrey",
-        "destination_country": "Mexico",
-        "local_departure_time": "21:05",
-        "local_arrival_time": "23:59",
-        "duration": "01:54"
     }
 ]

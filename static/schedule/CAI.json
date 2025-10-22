@@ -11,17 +11,6 @@
         "duration": "02:50"
     },
     {
-        "flight_number": "XY1590",
-        "airline_name": "flynas",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "00:05",
-        "local_arrival_time": "02:30",
-        "duration": "02:25"
-    },
-    {
         "flight_number": "VY1595",
         "airline_name": "Vueling",
         "destination_iata": "BCN",
@@ -55,17 +44,6 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "MS981",
-        "airline_name": "Egyptair",
-        "destination_iata": "IAD",
-        "destination_airport_name": "Washington Dulles International Airport",
-        "destination_city": "Washington",
-        "destination_country": "United States",
-        "local_departure_time": "00:20",
-        "local_arrival_time": "05:10",
-        "duration": "11:50"
-    },
-    {
         "flight_number": "MS683",
         "airline_name": "Egyptair",
         "destination_iata": "DMM",
@@ -75,28 +53,6 @@
         "local_departure_time": "00:25",
         "local_arrival_time": "03:05",
         "duration": "02:40"
-    },
-    {
-        "flight_number": "MS20",
-        "airline_name": "Egyptair",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "00:30",
-        "local_arrival_time": "01:30",
-        "duration": "01:00"
-    },
-    {
-        "flight_number": "MS649",
-        "airline_name": "Egyptair",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "00:30",
-        "local_arrival_time": "03:05",
-        "duration": "02:35"
     },
     {
         "flight_number": "MS663",
@@ -110,15 +66,15 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "MS958",
+        "flight_number": "MS649",
         "airline_name": "Egyptair",
-        "destination_iata": "CAN",
-        "destination_airport_name": "Guangzhou Baiyun International Airport",
-        "destination_city": "Guangzhou",
-        "destination_country": "China",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
         "local_departure_time": "00:30",
-        "local_arrival_time": "15:30",
-        "duration": "10:00"
+        "local_arrival_time": "03:05",
+        "duration": "02:35"
     },
     {
         "flight_number": "MS745",
@@ -130,6 +86,39 @@
         "local_departure_time": "00:30",
         "local_arrival_time": "02:50",
         "duration": "02:20"
+    },
+    {
+        "flight_number": "MS958",
+        "airline_name": "Egyptair",
+        "destination_iata": "CAN",
+        "destination_airport_name": "Guangzhou Baiyun International Airport",
+        "destination_city": "Guangzhou",
+        "destination_country": "China",
+        "local_departure_time": "00:30",
+        "local_arrival_time": "15:30",
+        "duration": "10:00"
+    },
+    {
+        "flight_number": "MS964",
+        "airline_name": "Egyptair",
+        "destination_iata": "NRT",
+        "destination_airport_name": "Tokyo Narita International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "00:30",
+        "local_arrival_time": "18:30",
+        "duration": "12:00"
+    },
+    {
+        "flight_number": "MS20",
+        "airline_name": "Egyptair",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "00:30 / 00:45",
+        "local_arrival_time": "01:30 / 01:45",
+        "duration": "01:00"
     },
     {
         "flight_number": "SV320",
@@ -176,15 +165,15 @@
         "duration": "06:21"
     },
     {
-        "flight_number": "J91734",
-        "airline_name": "Jazeera Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
+        "flight_number": "SM1045",
+        "airline_name": "Air Cairo",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
         "local_departure_time": "01:10",
-        "local_arrival_time": "03:40",
-        "duration": "02:30"
+        "local_arrival_time": "02:10",
+        "duration": "01:00"
     },
     {
         "flight_number": "XY568",
@@ -193,9 +182,20 @@
         "destination_airport_name": "Jeddah King Abdulaziz International Airport",
         "destination_city": "Jeddah",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "01:20",
-        "local_arrival_time": "03:45",
+        "local_departure_time": "01:15",
+        "local_arrival_time": "03:40",
         "duration": "02:25"
+    },
+    {
+        "flight_number": "MS627",
+        "airline_name": "Egyptair",
+        "destination_iata": "BGW",
+        "destination_airport_name": "Baghdad International Airport",
+        "destination_city": "Baghdad",
+        "destination_country": "Iraq",
+        "local_departure_time": "01:15",
+        "local_arrival_time": "03:20",
+        "duration": "02:05"
     },
     {
         "flight_number": "MS739",
@@ -204,42 +204,9 @@
         "destination_airport_name": "Amman Queen Alia International Airport",
         "destination_city": "Amman",
         "destination_country": "Jordan",
-        "local_departure_time": "01:25",
-        "local_arrival_time": "02:40",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "XY288",
-        "airline_name": "flynas",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "01:30",
-        "local_arrival_time": "04:15",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "NE174",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "01:30 / 02:15",
-        "local_arrival_time": "03:45 / 04:30",
-        "duration": "02:15"
-    },
-    {
-        "flight_number": "E5317",
-        "airline_name": "Air Arabia Egypt",
-        "destination_iata": "DMM",
-        "destination_airport_name": "Dammam King Fahd International Airport",
-        "destination_city": "Dammam",
-        "destination_country": "Saudi Arabia",
         "local_departure_time": "01:35",
-        "local_arrival_time": "04:25",
-        "duration": "02:50"
+        "local_arrival_time": "02:50",
+        "duration": "01:15"
     },
     {
         "flight_number": "WY408",
@@ -275,6 +242,17 @@
         "duration": "02:10"
     },
     {
+        "flight_number": "MS981",
+        "airline_name": "Egyptair",
+        "destination_iata": "IAD",
+        "destination_airport_name": "Washington Dulles International Airport",
+        "destination_city": "Washington",
+        "destination_country": "United States",
+        "local_departure_time": "02:00",
+        "local_arrival_time": "06:50",
+        "duration": "11:50"
+    },
+    {
         "flight_number": "QR1306",
         "airline_name": "Qatar Airways",
         "destination_iata": "DOH",
@@ -306,6 +284,17 @@
         "local_departure_time": "02:15",
         "local_arrival_time": "03:40",
         "duration": "01:25"
+    },
+    {
+        "flight_number": "NE174",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "02:15",
+        "local_arrival_time": "04:30",
+        "duration": "02:15"
     },
     {
         "flight_number": "G9621",
@@ -352,17 +341,6 @@
         "duration": "02:45"
     },
     {
-        "flight_number": "MS953",
-        "airline_name": "Egyptair",
-        "destination_iata": "HGH",
-        "destination_airport_name": "Hangzhou Xiaoshan International Airport",
-        "destination_city": "Hangzhou",
-        "destination_country": "China",
-        "local_departure_time": "02:45",
-        "local_arrival_time": "18:05",
-        "duration": "10:20"
-    },
-    {
         "flight_number": "EK926",
         "airline_name": "Emirates",
         "destination_iata": "DXB",
@@ -372,6 +350,17 @@
         "local_departure_time": "02:45",
         "local_arrival_time": "07:10",
         "duration": "03:25"
+    },
+    {
+        "flight_number": "NP61",
+        "airline_name": "Nile Air",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "02:50",
+        "local_arrival_time": "03:50",
+        "duration": "01:00"
     },
     {
         "flight_number": "MS995",
@@ -385,6 +374,17 @@
         "duration": "11:30"
     },
     {
+        "flight_number": "MS953",
+        "airline_name": "Egyptair",
+        "destination_iata": "HGH",
+        "destination_airport_name": "Hangzhou Xiaoshan International Airport",
+        "destination_city": "Hangzhou",
+        "destination_country": "China",
+        "local_departure_time": "02:55",
+        "local_arrival_time": "18:20",
+        "duration": "10:25"
+    },
+    {
         "flight_number": "MS665",
         "airline_name": "Egyptair",
         "destination_iata": "JED",
@@ -396,15 +396,37 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "MS697",
-        "airline_name": "Egyptair",
-        "destination_iata": "DMM",
-        "destination_airport_name": "Dammam King Fahd International Airport",
-        "destination_city": "Dammam",
+        "flight_number": "LO148",
+        "airline_name": "LOT",
+        "destination_iata": "WAW",
+        "destination_airport_name": "Warsaw Chopin Airport",
+        "destination_city": "Warsaw",
+        "destination_country": "Poland",
+        "local_departure_time": "03:10",
+        "local_arrival_time": "06:10",
+        "duration": "04:00"
+    },
+    {
+        "flight_number": "AH4037",
+        "airline_name": "Air Algerie",
+        "destination_iata": "ALG",
+        "destination_airport_name": "Algiers Houari Boumediene Airport",
+        "destination_city": "Algiers",
+        "destination_country": "Algeria",
+        "local_departure_time": "03:15",
+        "local_arrival_time": "05:25",
+        "duration": "04:10"
+    },
+    {
+        "flight_number": "UJ905",
+        "airline_name": "AlMasria Universal Airlines",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
         "destination_country": "Saudi Arabia",
         "local_departure_time": "03:15",
-        "local_arrival_time": "05:55",
-        "duration": "02:40"
+        "local_arrival_time": "05:40",
+        "duration": "02:25"
     },
     {
         "flight_number": "ET453",
@@ -440,6 +462,17 @@
         "duration": "03:25"
     },
     {
+        "flight_number": "NE170",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "03:40",
+        "local_arrival_time": "05:55",
+        "duration": "02:15"
+    },
+    {
         "flight_number": "OS866",
         "airline_name": "Austrian Airlines",
         "destination_iata": "VIE",
@@ -449,6 +482,17 @@
         "local_departure_time": "03:40",
         "local_arrival_time": "06:15",
         "duration": "03:35"
+    },
+    {
+        "flight_number": "SM477",
+        "airline_name": "Air Cairo",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "03:45",
+        "local_arrival_time": "06:05",
+        "duration": "02:20"
     },
     {
         "flight_number": "VF600",
@@ -462,28 +506,6 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "KU544",
-        "airline_name": "Kuwait Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "03:55",
-        "local_arrival_time": "06:35",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "MS627",
-        "airline_name": "Egyptair",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "03:55",
-        "local_arrival_time": "06:00",
-        "duration": "02:05"
-    },
-    {
         "flight_number": "A3931",
         "airline_name": "Aegean Airlines",
         "destination_iata": "ATH",
@@ -493,6 +515,17 @@
         "local_departure_time": "04:00",
         "local_arrival_time": "06:00",
         "duration": "02:00"
+    },
+    {
+        "flight_number": "J9736",
+        "airline_name": "Jazeera Airways",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "04:00",
+        "local_arrival_time": "06:20",
+        "duration": "02:20"
     },
     {
         "flight_number": "TU814",
@@ -506,37 +539,26 @@
         "duration": "03:15"
     },
     {
-        "flight_number": "J9736",
-        "airline_name": "Jazeera Airways",
+        "flight_number": "KU544",
+        "airline_name": "Kuwait Airways",
         "destination_iata": "KWI",
         "destination_airport_name": "Kuwait International Airport",
         "destination_city": "Kuwait City",
         "destination_country": "Kuwait",
-        "local_departure_time": "04:15",
-        "local_arrival_time": "06:35",
-        "duration": "02:20"
-    },
-    {
-        "flight_number": "SM477",
-        "airline_name": "Air Cairo",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
         "local_departure_time": "04:20",
-        "local_arrival_time": "06:40",
-        "duration": "02:20"
+        "local_arrival_time": "07:00",
+        "duration": "02:40"
     },
     {
-        "flight_number": "SV306",
-        "airline_name": "Saudia",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "04:25",
-        "local_arrival_time": "06:40",
-        "duration": "02:15"
+        "flight_number": "LH8291",
+        "airline_name": "Lufthansa",
+        "destination_iata": "FRA",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany",
+        "local_departure_time": "04:20",
+        "local_arrival_time": "07:30",
+        "duration": "04:10"
     },
     {
         "flight_number": "SV308",
@@ -561,17 +583,6 @@
         "duration": "03:30"
     },
     {
-        "flight_number": "RO102",
-        "airline_name": "Tarom",
-        "destination_iata": "OTP",
-        "destination_airport_name": "Bucharest Henri Coanda International Airport",
-        "destination_city": "Bucharest",
-        "destination_country": "Romania",
-        "local_departure_time": "04:30",
-        "local_arrival_time": "07:20",
-        "duration": "02:50"
-    },
-    {
         "flight_number": "VF248",
         "airline_name": "AJet",
         "destination_iata": "SAW",
@@ -581,6 +592,17 @@
         "local_departure_time": "04:30",
         "local_arrival_time": "06:40",
         "duration": "02:10"
+    },
+    {
+        "flight_number": "RO102",
+        "airline_name": "Tarom",
+        "destination_iata": "OTP",
+        "destination_airport_name": "Bucharest Henri Coanda International Airport",
+        "destination_city": "Bucharest",
+        "destination_country": "Romania",
+        "local_departure_time": "04:30",
+        "local_arrival_time": "07:20",
+        "duration": "02:50"
     },
     {
         "flight_number": "AZ895",
@@ -594,17 +616,6 @@
         "duration": "03:25"
     },
     {
-        "flight_number": "SV322",
-        "airline_name": "Saudia",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "04:45",
-        "local_arrival_time": "07:35",
-        "duration": "02:50"
-    },
-    {
         "flight_number": "LH585",
         "airline_name": "Lufthansa",
         "destination_iata": "FRA",
@@ -614,17 +625,6 @@
         "local_departure_time": "04:55",
         "local_arrival_time": "08:25",
         "duration": "04:30"
-    },
-    {
-        "flight_number": "NE170",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "05:00",
-        "local_arrival_time": "07:15",
-        "duration": "02:15"
     },
     {
         "flight_number": "LO150",
@@ -647,6 +647,17 @@
         "local_departure_time": "05:15",
         "local_arrival_time": "08:00",
         "duration": "02:45"
+    },
+    {
+        "flight_number": "SM477",
+        "airline_name": "Air Cairo",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "05:20",
+        "local_arrival_time": "07:30",
+        "duration": "02:10"
     },
     {
         "flight_number": "MS783",
@@ -677,8 +688,8 @@
         "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
         "destination_city": "Medina",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "05:45",
-        "local_arrival_time": "07:35",
+        "local_departure_time": "05:35",
+        "local_arrival_time": "07:25",
         "duration": "01:50"
     },
     {
@@ -726,15 +737,15 @@
         "duration": "03:25"
     },
     {
-        "flight_number": "MS985",
-        "airline_name": "Egyptair",
-        "destination_iata": "JFK",
-        "destination_airport_name": "New York John F. Kennedy International Airport",
-        "destination_city": "New York",
-        "destination_country": "United States",
+        "flight_number": "SM493",
+        "airline_name": "Air Cairo",
+        "destination_iata": "MED",
+        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
+        "destination_city": "Medina",
+        "destination_country": "Saudi Arabia",
         "local_departure_time": "06:30",
-        "local_arrival_time": "11:00",
-        "duration": "11:30"
+        "local_arrival_time": "08:30",
+        "duration": "02:00"
     },
     {
         "flight_number": "SM20",
@@ -746,6 +757,28 @@
         "local_departure_time": "06:30",
         "local_arrival_time": "08:00",
         "duration": "01:30"
+    },
+    {
+        "flight_number": "MS1995",
+        "airline_name": "Egyptair",
+        "destination_iata": "YYZ",
+        "destination_airport_name": "Toronto Pearson International Airport",
+        "destination_city": "Toronto",
+        "destination_country": "Canada",
+        "local_departure_time": "06:30",
+        "local_arrival_time": "10:55",
+        "duration": "11:25"
+    },
+    {
+        "flight_number": "MS985",
+        "airline_name": "Egyptair",
+        "destination_iata": "JFK",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States",
+        "local_departure_time": "06:30 / 07:30",
+        "local_arrival_time": "11:00 / 12:00",
+        "duration": "11:30"
     },
     {
         "flight_number": "SM439",
@@ -798,8 +831,8 @@
         "destination_airport_name": "Sharm el-Sheikh International Airport",
         "destination_city": "Sharm el-Sheikh",
         "destination_country": "Egypt",
-        "local_departure_time": "07:25",
-        "local_arrival_time": "08:25",
+        "local_departure_time": "07:20 / 07:25",
+        "local_arrival_time": "08:20 / 08:25",
         "duration": "01:00"
     },
     {
@@ -825,15 +858,37 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "MS5046",
+        "airline_name": "Egyptair",
+        "destination_iata": "BEY",
+        "destination_airport_name": "Beirut Rafic Hariri International Airport",
+        "destination_city": "Beirut",
+        "destination_country": "Lebanon",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "08:45",
+        "duration": "01:15"
+    },
+    {
+        "flight_number": "MS552",
+        "airline_name": "Egyptair",
+        "destination_iata": "LOS",
+        "destination_airport_name": "Lagos Murtala Mohammed Airport",
+        "destination_city": "Lagos",
+        "destination_country": "Nigeria",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "11:00",
+        "duration": "05:30"
+    },
+    {
         "flight_number": "NP6511",
         "airline_name": "Nile Air",
         "destination_iata": "MAD",
         "destination_airport_name": "Madrid Barajas Airport",
         "destination_city": "Madrid",
         "destination_country": "Spain",
-        "local_departure_time": "07:35",
+        "local_departure_time": "07:30",
         "local_arrival_time": "11:45",
-        "duration": "05:10"
+        "duration": "05:15"
     },
     {
         "flight_number": "MS695",
@@ -858,15 +913,26 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "MS5059",
+        "flight_number": "MS977",
         "airline_name": "Egyptair",
-        "destination_iata": "LCA",
-        "destination_airport_name": "Larnaca International Airport",
-        "destination_city": "Larnaca",
-        "destination_country": "Cyprus",
+        "destination_iata": "CGK",
+        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
+        "destination_city": "Jakarta",
+        "destination_country": "Indonesia",
         "local_departure_time": "08:00",
-        "local_arrival_time": "09:20",
-        "duration": "01:20"
+        "local_arrival_time": "22:50",
+        "duration": "10:50"
+    },
+    {
+        "flight_number": "MS242",
+        "airline_name": "Egyptair",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "08:15",
+        "local_arrival_time": "09:15",
+        "duration": "01:00"
     },
     {
         "flight_number": "MS46",
@@ -875,8 +941,8 @@
         "destination_airport_name": "Hurghada International Airport",
         "destination_city": "Hurghada",
         "destination_country": "Egypt",
-        "local_departure_time": "08:15",
-        "local_arrival_time": "09:15",
+        "local_departure_time": "08:15 / 09:00",
+        "local_arrival_time": "09:15 / 10:00",
         "duration": "01:00"
     },
     {
@@ -891,6 +957,28 @@
         "duration": "03:20"
     },
     {
+        "flight_number": "SM805",
+        "airline_name": "Air Cairo",
+        "destination_iata": "MXP",
+        "destination_airport_name": "Milan Malpensa Airport",
+        "destination_city": "Milan",
+        "destination_country": "Italy",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "11:30",
+        "duration": "04:00"
+    },
+    {
+        "flight_number": "E5753",
+        "airline_name": "Air Arabia Egypt",
+        "destination_iata": "MCT",
+        "destination_airport_name": "Muscat International Airport",
+        "destination_city": "Muscat",
+        "destination_country": "Oman",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "13:20",
+        "duration": "03:50"
+    },
+    {
         "flight_number": "E5542",
         "airline_name": "Air Arabia Egypt",
         "destination_iata": "BGY",
@@ -902,17 +990,6 @@
         "duration": "03:50"
     },
     {
-        "flight_number": "NE5001",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "08:30",
-        "local_arrival_time": "12:40",
-        "duration": "05:10"
-    },
-    {
         "flight_number": "RJ502",
         "airline_name": "Royal Jordanian",
         "destination_iata": "AMM",
@@ -922,17 +999,6 @@
         "local_departure_time": "08:50",
         "local_arrival_time": "10:20",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "MS639",
-        "airline_name": "Egyptair",
-        "destination_iata": "MED",
-        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
-        "destination_city": "Medina",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "10:50",
-        "duration": "01:50"
     },
     {
         "flight_number": "MS681",
@@ -979,17 +1045,6 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "MS651",
-        "airline_name": "Egyptair",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "09:25",
-        "local_arrival_time": "12:00",
-        "duration": "02:35"
-    },
-    {
         "flight_number": "XY566",
         "airline_name": "flynas",
         "destination_iata": "JED",
@@ -1018,8 +1073,8 @@
         "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
         "destination_city": "Medina",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "09:30",
-        "local_arrival_time": "11:25",
+        "local_departure_time": "09:35",
+        "local_arrival_time": "11:30",
         "duration": "01:55"
     },
     {
@@ -1032,17 +1087,6 @@
         "local_departure_time": "09:35",
         "local_arrival_time": "13:20",
         "duration": "05:45"
-    },
-    {
-        "flight_number": "AT273",
-        "airline_name": "Royal Air Maroc",
-        "destination_iata": "CMN",
-        "destination_airport_name": "Casablanca Mohammed V International Airport",
-        "destination_city": "Casablanca",
-        "destination_country": "Morocco",
-        "local_departure_time": "09:40",
-        "local_arrival_time": "13:30",
-        "duration": "05:50"
     },
     {
         "flight_number": "MS845",
@@ -1067,26 +1111,26 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "MS881",
+        "flight_number": "MS610",
         "airline_name": "Egyptair",
-        "destination_iata": "ACC",
-        "destination_airport_name": "Accra Kotoka International Airport",
-        "destination_city": "Accra",
-        "destination_country": "Ghana",
-        "local_departure_time": "09:55",
-        "local_arrival_time": "12:40",
-        "duration": "05:45"
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "12:30",
+        "duration": "02:30"
     },
     {
-        "flight_number": "A3933",
-        "airline_name": "Aegean Airlines",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
+        "flight_number": "MS639",
+        "airline_name": "Egyptair",
+        "destination_iata": "MED",
+        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
+        "destination_city": "Medina",
+        "destination_country": "Saudi Arabia",
         "local_departure_time": "10:00",
-        "local_arrival_time": "12:05",
-        "duration": "02:05"
+        "local_arrival_time": "11:50",
+        "duration": "01:50"
     },
     {
         "flight_number": "MS935",
@@ -1111,26 +1155,15 @@
         "duration": "05:25"
     },
     {
-        "flight_number": "ME305",
-        "airline_name": "MEA",
-        "destination_iata": "BEY",
-        "destination_airport_name": "Beirut Rafic Hariri International Airport",
-        "destination_city": "Beirut",
-        "destination_country": "Lebanon",
-        "local_departure_time": "10:05",
-        "local_arrival_time": "11:20",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "MS610",
-        "airline_name": "Egyptair",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
+        "flight_number": "TK691",
+        "airline_name": "Turkish Airlines",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
         "local_departure_time": "10:10",
-        "local_arrival_time": "12:45",
-        "duration": "02:35"
+        "local_arrival_time": "12:40",
+        "duration": "02:30"
     },
     {
         "flight_number": "MS747",
@@ -1144,17 +1177,6 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "TK691",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "10:10",
-        "local_arrival_time": "12:40",
-        "duration": "02:30"
-    },
-    {
         "flight_number": "MS753",
         "airline_name": "Egyptair",
         "destination_iata": "MAD",
@@ -1164,17 +1186,6 @@
         "local_departure_time": "10:15",
         "local_arrival_time": "14:30",
         "duration": "05:15"
-    },
-    {
-        "flight_number": "MS757",
-        "airline_name": "Egyptair",
-        "destination_iata": "AMS",
-        "destination_airport_name": "Amsterdam Schiphol Airport",
-        "destination_city": "Amsterdam",
-        "destination_country": "Netherlands",
-        "local_departure_time": "10:15",
-        "local_arrival_time": "13:55",
-        "duration": "04:40"
     },
     {
         "flight_number": "SM475",
@@ -1210,6 +1221,28 @@
         "duration": "05:10"
     },
     {
+        "flight_number": "NP251",
+        "airline_name": "Nile Air",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "10:25",
+        "local_arrival_time": "13:10",
+        "duration": "02:45"
+    },
+    {
+        "flight_number": "MS757",
+        "airline_name": "Egyptair",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "10:25",
+        "local_arrival_time": "14:20",
+        "duration": "04:55"
+    },
+    {
         "flight_number": "MS703",
         "airline_name": "Egyptair",
         "destination_iata": "MXP",
@@ -1232,26 +1265,15 @@
         "duration": "05:25"
     },
     {
-        "flight_number": "MS733",
-        "airline_name": "Egyptair",
-        "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
-        "destination_city": "Dusseldorf",
-        "destination_country": "Germany",
-        "local_departure_time": "10:30",
-        "local_arrival_time": "14:05",
-        "duration": "04:35"
-    },
-    {
-        "flight_number": "NE5320",
+        "flight_number": "NE150",
         "airline_name": "Nesma Airlines",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
+        "destination_iata": "DMM",
+        "destination_airport_name": "Dammam King Fahd International Airport",
+        "destination_city": "Dammam",
+        "destination_country": "Saudi Arabia",
         "local_departure_time": "10:30",
-        "local_arrival_time": "14:40",
-        "duration": "05:10"
+        "local_arrival_time": "13:25",
+        "duration": "02:55"
     },
     {
         "flight_number": "MS791",
@@ -1276,26 +1298,26 @@
         "duration": "03:25"
     },
     {
-        "flight_number": "MS771",
+        "flight_number": "MS737",
         "airline_name": "Egyptair",
-        "destination_iata": "GVA",
-        "destination_airport_name": "Geneva International Airport",
-        "destination_city": "Geneva",
-        "destination_country": "Switzerland",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
         "local_departure_time": "10:40",
-        "local_arrival_time": "14:00",
-        "duration": "04:20"
+        "local_arrival_time": "13:00",
+        "duration": "02:20"
     },
     {
-        "flight_number": "MS785",
+        "flight_number": "MS733",
         "airline_name": "Egyptair",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
+        "destination_iata": "DUS",
+        "destination_airport_name": "Dusseldorf Airport",
+        "destination_city": "Dusseldorf",
         "destination_country": "Germany",
-        "local_departure_time": "10:45",
-        "local_arrival_time": "14:10",
-        "duration": "04:25"
+        "local_departure_time": "10:40",
+        "local_arrival_time": "14:15",
+        "duration": "04:35"
     },
     {
         "flight_number": "MS799",
@@ -1309,6 +1331,17 @@
         "duration": "04:40"
     },
     {
+        "flight_number": "MS785",
+        "airline_name": "Egyptair",
+        "destination_iata": "FRA",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany",
+        "local_departure_time": "10:45",
+        "local_arrival_time": "14:10",
+        "duration": "04:25"
+    },
+    {
         "flight_number": "XY264",
         "airline_name": "flynas",
         "destination_iata": "RUH",
@@ -1320,6 +1353,17 @@
         "duration": "02:45"
     },
     {
+        "flight_number": "MS725",
+        "airline_name": "Egyptair",
+        "destination_iata": "BRU",
+        "destination_airport_name": "Brussels Airport",
+        "destination_city": "Brussels",
+        "destination_country": "Belgium",
+        "local_departure_time": "11:00",
+        "local_arrival_time": "14:45",
+        "duration": "04:45"
+    },
+    {
         "flight_number": "SM4",
         "airline_name": "Air Cairo",
         "destination_iata": "SSH",
@@ -1329,17 +1373,6 @@
         "local_departure_time": "11:00",
         "local_arrival_time": "12:30",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "MS737",
-        "airline_name": "Egyptair",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "11:05",
-        "local_arrival_time": "13:20",
-        "duration": "02:15"
     },
     {
         "flight_number": "F3912",
@@ -1375,6 +1408,28 @@
         "duration": "03:20"
     },
     {
+        "flight_number": "SM407",
+        "airline_name": "Air Cairo",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "11:15",
+        "local_arrival_time": "13:55",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "SM601",
+        "airline_name": "Air Cairo",
+        "destination_iata": "CGN",
+        "destination_airport_name": "Cologne Bonn Airport",
+        "destination_city": "Cologne",
+        "destination_country": "Germany",
+        "local_departure_time": "11:15",
+        "local_arrival_time": "14:55",
+        "duration": "04:40"
+    },
+    {
         "flight_number": "SM22",
         "airline_name": "Air Cairo",
         "destination_iata": "HRG",
@@ -1386,15 +1441,48 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "MS725",
+        "flight_number": "KU546",
+        "airline_name": "Kuwait Airways",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "11:20",
+        "local_arrival_time": "14:00",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "MS222",
         "airline_name": "Egyptair",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
-        "local_departure_time": "11:30",
-        "local_arrival_time": "15:15",
-        "duration": "04:45"
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "11:20",
+        "local_arrival_time": "12:20",
+        "duration": "01:00"
+    },
+    {
+        "flight_number": "XY855",
+        "airline_name": "flynas",
+        "destination_iata": "DMM",
+        "destination_airport_name": "Dammam King Fahd International Airport",
+        "destination_city": "Dammam",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "11:20",
+        "local_arrival_time": "14:15",
+        "duration": "02:55"
+    },
+    {
+        "flight_number": "SM461",
+        "airline_name": "Air Cairo",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "11:25",
+        "local_arrival_time": "14:10",
+        "duration": "02:45"
     },
     {
         "flight_number": "MS731",
@@ -1408,15 +1496,15 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "NE160",
+        "flight_number": "NE172",
         "airline_name": "Nesma Airlines",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "11:30",
-        "local_arrival_time": "14:10",
-        "duration": "02:40"
+        "local_departure_time": "11:35",
+        "local_arrival_time": "13:50",
+        "duration": "02:15"
     },
     {
         "flight_number": "G9584",
@@ -1430,17 +1518,6 @@
         "duration": "03:25"
     },
     {
-        "flight_number": "NE172",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "11:35",
-        "local_arrival_time": "13:50",
-        "duration": "02:15"
-    },
-    {
         "flight_number": "SV310",
         "airline_name": "Saudia",
         "destination_iata": "RUH",
@@ -1450,6 +1527,28 @@
         "local_departure_time": "11:40",
         "local_arrival_time": "14:30",
         "duration": "02:50"
+    },
+    {
+        "flight_number": "E5410",
+        "airline_name": "Air Arabia Egypt",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "11:40",
+        "local_arrival_time": "14:20",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "SM303",
+        "airline_name": "Air Cairo",
+        "destination_iata": "SAW",
+        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "11:45",
+        "local_arrival_time": "14:00",
+        "duration": "02:15"
     },
     {
         "flight_number": "F3770",
@@ -1507,26 +1606,37 @@
         "duration": "02:45"
     },
     {
-        "flight_number": "MS751",
-        "airline_name": "Egyptair",
-        "destination_iata": "BUD",
-        "destination_airport_name": "Budapest Ferenc Liszt International Airport",
-        "destination_city": "Budapest",
-        "destination_country": "Hungary",
-        "local_departure_time": "12:20",
-        "local_arrival_time": "14:40",
-        "duration": "03:20"
+        "flight_number": "E5987",
+        "airline_name": "Air Arabia Egypt",
+        "destination_iata": "SAW",
+        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "12:15",
+        "local_arrival_time": "14:30",
+        "duration": "02:15"
     },
     {
-        "flight_number": "MS689",
-        "airline_name": "Egyptair",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
+        "flight_number": "HU472",
+        "airline_name": "Hainan Airlines",
+        "destination_iata": "SZX",
+        "destination_airport_name": "Shenzhen Bao'an International Airport",
+        "destination_city": "Shenzhen",
+        "destination_country": "China",
         "local_departure_time": "12:25",
-        "local_arrival_time": "15:00",
-        "duration": "02:35"
+        "local_arrival_time": "04:00 (+1)",
+        "duration": "10:35"
+    },
+    {
+        "flight_number": "MS789",
+        "airline_name": "Egyptair",
+        "destination_iata": "PRG",
+        "destination_airport_name": "Prague Vaclav Havel Airport",
+        "destination_city": "Prague",
+        "destination_country": "Czechia",
+        "local_departure_time": "12:45",
+        "local_arrival_time": "15:40",
+        "duration": "03:55"
     },
     {
         "flight_number": "NP127",
@@ -1551,17 +1661,6 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "SM461",
-        "airline_name": "Air Cairo",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "12:50",
-        "local_arrival_time": "15:35",
-        "duration": "02:45"
-    },
-    {
         "flight_number": "XY274",
         "airline_name": "flynas",
         "destination_iata": "RUH",
@@ -1573,15 +1672,15 @@
         "duration": "02:45"
     },
     {
-        "flight_number": "SM217",
-        "airline_name": "Air Cairo",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
+        "flight_number": "MS637",
+        "airline_name": "Egyptair",
+        "destination_iata": "BGW",
+        "destination_airport_name": "Baghdad International Airport",
+        "destination_city": "Baghdad",
+        "destination_country": "Iraq",
         "local_departure_time": "13:00",
-        "local_arrival_time": "14:15",
-        "duration": "01:15"
+        "local_arrival_time": "15:05",
+        "duration": "02:05"
     },
     {
         "flight_number": "EK928",
@@ -1595,15 +1694,37 @@
         "duration": "03:20"
     },
     {
-        "flight_number": "NP191",
-        "airline_name": "Nile Air",
-        "destination_iata": "SAW",
-        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
+        "flight_number": "F3606",
+        "airline_name": "flyadeal",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "13:10",
+        "local_arrival_time": "15:55",
+        "duration": "02:45"
+    },
+    {
+        "flight_number": "J9732",
+        "airline_name": "Jazeera Airways",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
         "local_departure_time": "13:20",
-        "local_arrival_time": "15:30",
-        "duration": "02:10"
+        "local_arrival_time": "15:55",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "XY794",
+        "airline_name": "flynas",
+        "destination_iata": "MED",
+        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
+        "destination_city": "Medina",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "13:20",
+        "local_arrival_time": "15:10",
+        "duration": "01:50"
     },
     {
         "flight_number": "IA102",
@@ -1617,17 +1738,6 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "KU546",
-        "airline_name": "Kuwait Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "13:30",
-        "local_arrival_time": "16:10",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "MS905",
         "airline_name": "Egyptair",
         "destination_iata": "DXB",
@@ -1637,17 +1747,6 @@
         "local_departure_time": "13:35",
         "local_arrival_time": "18:00",
         "duration": "03:25"
-    },
-    {
-        "flight_number": "TO4331",
-        "airline_name": "Transavia France",
-        "destination_iata": "ORY",
-        "destination_airport_name": "Paris Orly Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "13:45",
-        "local_arrival_time": "17:45",
-        "duration": "05:00"
     },
     {
         "flight_number": "MS705",
@@ -1661,17 +1760,6 @@
         "duration": "04:00"
     },
     {
-        "flight_number": "E5415",
-        "airline_name": "Air Arabia Egypt",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "13:50",
-        "local_arrival_time": "16:30",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "SM803",
         "airline_name": "Air Cairo",
         "destination_iata": "MXP",
@@ -1683,15 +1771,15 @@
         "duration": "04:00"
     },
     {
-        "flight_number": "CA830",
-        "airline_name": "Air China",
-        "destination_iata": "PEK",
-        "destination_airport_name": "Beijing Capital International Airport",
-        "destination_city": "Beijing",
-        "destination_country": "China",
+        "flight_number": "MS504",
+        "airline_name": "Egyptair",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
         "local_departure_time": "14:00",
-        "local_arrival_time": "05:00 (+1)",
-        "duration": "10:00"
+        "local_arrival_time": "18:30",
+        "duration": "03:30"
     },
     {
         "flight_number": "RJ504",
@@ -1703,17 +1791,6 @@
         "local_departure_time": "14:05",
         "local_arrival_time": "15:35",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "J9732",
-        "airline_name": "Jazeera Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "16:45",
-        "duration": "02:35"
     },
     {
         "flight_number": "QR1304",
@@ -1734,22 +1811,11 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "14:30",
-        "local_arrival_time": "05:50 (+1) / 06:00 (+1)",
+        "local_arrival_time": "05:50 (+1)",
         "duration": "10:20"
     },
     {
-        "flight_number": "LH8295",
-        "airline_name": "Lufthansa",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "18:05",
-        "duration": "04:35"
-    },
-    {
-        "flight_number": "ME309",
+        "flight_number": "ME305",
         "airline_name": "MEA",
         "destination_iata": "BEY",
         "destination_airport_name": "Beirut Rafic Hariri International Airport",
@@ -1758,17 +1824,6 @@
         "local_departure_time": "14:35",
         "local_arrival_time": "15:50",
         "duration": "01:15"
-    },
-    {
-        "flight_number": "EY714",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "14:40",
-        "local_arrival_time": "19:00",
-        "duration": "03:20"
     },
     {
         "flight_number": "3U3864",
@@ -1782,15 +1837,15 @@
         "duration": "09:25"
     },
     {
-        "flight_number": "MS793",
-        "airline_name": "Egyptair",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "14:55",
-        "local_arrival_time": "17:20",
-        "duration": "03:25"
+        "flight_number": "VF392",
+        "airline_name": "AJet",
+        "destination_iata": "SAW",
+        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "15:00",
+        "local_arrival_time": "17:15",
+        "duration": "02:15"
     },
     {
         "flight_number": "SV306",
@@ -1804,36 +1859,14 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "MS735",
-        "airline_name": "Egyptair",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "15:10 / 15:15",
-        "local_arrival_time": "17:10 / 17:35",
-        "duration": "02:00"
-    },
-    {
-        "flight_number": "MS727",
-        "airline_name": "Egyptair",
-        "destination_iata": "HRG",
-        "destination_airport_name": "Hurghada International Airport",
-        "destination_city": "Hurghada",
-        "destination_country": "Egypt",
-        "local_departure_time": "15:15",
-        "local_arrival_time": "16:15",
-        "duration": "01:00"
-    },
-    {
         "flight_number": "AH4039",
-        "airline_name": "Ascend Airways",
+        "airline_name": "Air Algerie",
         "destination_iata": "ALG",
         "destination_airport_name": "Algiers Houari Boumediene Airport",
         "destination_city": "Algiers",
         "destination_country": "Algeria",
-        "local_departure_time": "15:15 / 15:30",
-        "local_arrival_time": "17:25 / 17:40",
+        "local_departure_time": "15:15",
+        "local_arrival_time": "17:25",
         "duration": "04:10"
     },
     {
@@ -1859,26 +1892,26 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "NP211",
-        "airline_name": "Nile Air",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "15:25",
-        "local_arrival_time": "19:30",
-        "duration": "05:05"
+        "flight_number": "MS735",
+        "airline_name": "Egyptair",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "15:35",
+        "local_arrival_time": "17:55",
+        "duration": "02:20"
     },
     {
-        "flight_number": "MS930",
+        "flight_number": "MS727",
         "airline_name": "Egyptair",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "15:40",
-        "local_arrival_time": "20:20",
-        "duration": "03:40"
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "15:35",
+        "local_arrival_time": "16:35",
+        "duration": "01:00"
     },
     {
         "flight_number": "F3608",
@@ -1890,6 +1923,17 @@
         "local_departure_time": "15:40",
         "local_arrival_time": "18:25",
         "duration": "02:45"
+    },
+    {
+        "flight_number": "MS930",
+        "airline_name": "Egyptair",
+        "destination_iata": "MCT",
+        "destination_airport_name": "Muscat International Airport",
+        "destination_city": "Muscat",
+        "destination_country": "Oman",
+        "local_departure_time": "15:40",
+        "local_arrival_time": "20:20",
+        "duration": "03:40"
     },
     {
         "flight_number": "SM6",
@@ -1914,6 +1958,17 @@
         "duration": "02:45"
     },
     {
+        "flight_number": "NO4930",
+        "airline_name": "Neos",
+        "destination_iata": "MXP",
+        "destination_airport_name": "Milan Malpensa Airport",
+        "destination_city": "Milan",
+        "destination_country": "Italy",
+        "local_departure_time": "16:00",
+        "local_arrival_time": "19:00",
+        "duration": "04:00"
+    },
+    {
         "flight_number": "SM24",
         "airline_name": "Air Cairo",
         "destination_iata": "HRG",
@@ -1936,19 +1991,8 @@
         "duration": "02:50"
     },
     {
-        "flight_number": "SM309",
-        "airline_name": "Air Cairo",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "16:05",
-        "local_arrival_time": "17:40",
-        "duration": "01:35"
-    },
-    {
         "flight_number": "TO4331",
-        "airline_name": "Transavia",
+        "airline_name": "Transavia France",
         "destination_iata": "ORY",
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
@@ -1980,17 +2024,6 @@
         "duration": "04:30"
     },
     {
-        "flight_number": "NO4024",
-        "airline_name": "Neos",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "16:25",
-        "local_arrival_time": "19:25",
-        "duration": "04:00"
-    },
-    {
         "flight_number": "SU401",
         "airline_name": "Aeroflot",
         "destination_iata": "SVO",
@@ -1998,8 +2031,8 @@
         "destination_city": "Moscow",
         "destination_country": "Russia",
         "local_departure_time": "16:30",
-        "local_arrival_time": "21:50 / 21:55",
-        "duration": "05:20"
+        "local_arrival_time": "22:00",
+        "duration": "05:30"
     },
     {
         "flight_number": "XY575",
@@ -2011,17 +2044,6 @@
         "local_departure_time": "16:30",
         "local_arrival_time": "18:20",
         "duration": "01:50"
-    },
-    {
-        "flight_number": "MS620",
-        "airline_name": "Egyptair",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "16:30 / 17:05",
-        "local_arrival_time": "19:00 / 19:40",
-        "duration": "02:30"
     },
     {
         "flight_number": "MS749",
@@ -2046,6 +2068,39 @@
         "duration": "03:35"
     },
     {
+        "flight_number": "MS504",
+        "airline_name": "Egyptair",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "17:00",
+        "local_arrival_time": "21:20",
+        "duration": "03:20"
+    },
+    {
+        "flight_number": "MS620",
+        "airline_name": "Egyptair",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "17:05",
+        "local_arrival_time": "19:40",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "MS687",
+        "airline_name": "Egyptair",
+        "destination_iata": "DMM",
+        "destination_airport_name": "Dammam King Fahd International Airport",
+        "destination_city": "Dammam",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "17:10",
+        "local_arrival_time": "19:50",
+        "duration": "02:40"
+    },
+    {
         "flight_number": "GF70",
         "airline_name": "Gulf Air",
         "destination_iata": "BAH",
@@ -2055,28 +2110,6 @@
         "local_departure_time": "17:15",
         "local_arrival_time": "20:15",
         "duration": "03:00"
-    },
-    {
-        "flight_number": "MS687",
-        "airline_name": "Egyptair",
-        "destination_iata": "DMM",
-        "destination_airport_name": "Dammam King Fahd International Airport",
-        "destination_city": "Dammam",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "17:15",
-        "local_arrival_time": "19:50 / 19:55",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "MS741",
-        "airline_name": "Egyptair",
-        "destination_iata": "LCA",
-        "destination_airport_name": "Larnaca International Airport",
-        "destination_city": "Larnaca",
-        "destination_country": "Cyprus",
-        "local_departure_time": "17:20",
-        "local_arrival_time": "18:35",
-        "duration": "01:15"
     },
     {
         "flight_number": "MS801",
@@ -2090,14 +2123,25 @@
         "duration": "04:45"
     },
     {
+        "flight_number": "MS741",
+        "airline_name": "Egyptair",
+        "destination_iata": "LCA",
+        "destination_airport_name": "Larnaca International Airport",
+        "destination_city": "Larnaca",
+        "destination_country": "Cyprus",
+        "local_departure_time": "17:20",
+        "local_arrival_time": "18:35",
+        "duration": "01:15"
+    },
+    {
         "flight_number": "BA389",
         "airline_name": "British Airways",
         "destination_iata": "LHR",
         "destination_airport_name": "London Heathrow Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "17:25 / 18:05",
-        "local_arrival_time": "20:40 / 21:20",
+        "local_departure_time": "17:25",
+        "local_arrival_time": "20:40",
         "duration": "05:15"
     },
     {
@@ -2129,8 +2173,8 @@
         "destination_airport_name": "London Heathrow Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "17:40 / 17:50",
-        "local_arrival_time": "20:55 / 21:05",
+        "local_departure_time": "17:40",
+        "local_arrival_time": "20:55",
         "duration": "05:15"
     },
     {
@@ -2143,17 +2187,6 @@
         "local_departure_time": "17:45",
         "local_arrival_time": "02:00 (+1)",
         "duration": "05:45"
-    },
-    {
-        "flight_number": "MS711",
-        "airline_name": "Egyptair",
-        "destination_iata": "BEY",
-        "destination_airport_name": "Beirut Rafic Hariri International Airport",
-        "destination_city": "Beirut",
-        "destination_country": "Lebanon",
-        "local_departure_time": "17:50",
-        "local_arrival_time": "19:10",
-        "duration": "01:20"
     },
     {
         "flight_number": "NP161",
@@ -2176,6 +2209,28 @@
         "local_departure_time": "17:50",
         "local_arrival_time": "20:05",
         "duration": "02:15"
+    },
+    {
+        "flight_number": "MS711",
+        "airline_name": "Egyptair",
+        "destination_iata": "BEY",
+        "destination_airport_name": "Beirut Rafic Hariri International Airport",
+        "destination_city": "Beirut",
+        "destination_country": "Lebanon",
+        "local_departure_time": "17:50",
+        "local_arrival_time": "19:10",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "SM180",
+        "airline_name": "Air Cairo",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "17:50",
+        "local_arrival_time": "18:50",
+        "duration": "01:00"
     },
     {
         "flight_number": "AZ897",
@@ -2222,6 +2277,17 @@
         "duration": "04:20"
     },
     {
+        "flight_number": "NE164",
+        "airline_name": "Nesma Airlines",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "18:00",
+        "local_arrival_time": "20:40",
+        "duration": "02:40"
+    },
+    {
         "flight_number": "F3756",
         "airline_name": "flyadeal",
         "destination_iata": "JED",
@@ -2231,39 +2297,6 @@
         "local_departure_time": "18:00",
         "local_arrival_time": "20:15",
         "duration": "02:15"
-    },
-    {
-        "flight_number": "MS504",
-        "airline_name": "Egyptair",
-        "destination_iata": "SHJ",
-        "destination_airport_name": "Sharjah International Airport",
-        "destination_city": "Sharjah",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "22:30",
-        "duration": "03:30"
-    },
-    {
-        "flight_number": "NP221",
-        "airline_name": "Nile Air",
-        "destination_iata": "BGY",
-        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "21:00",
-        "duration": "04:00"
-    },
-    {
-        "flight_number": "SM1811",
-        "airline_name": "Air Cairo",
-        "destination_iata": "HRG",
-        "destination_airport_name": "Hurghada International Airport",
-        "destination_city": "Hurghada",
-        "destination_country": "Egypt",
-        "local_departure_time": "18:05",
-        "local_arrival_time": "19:05",
-        "duration": "01:00"
     },
     {
         "flight_number": "XY276",
@@ -2299,37 +2332,15 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "SM407",
+        "flight_number": "SM475",
         "airline_name": "Air Cairo",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "18:10",
-        "local_arrival_time": "20:50",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "SM1806",
-        "airline_name": "Air Cairo",
-        "destination_iata": "HRG",
-        "destination_airport_name": "Hurghada International Airport",
-        "destination_city": "Hurghada",
-        "destination_country": "Egypt",
-        "local_departure_time": "18:15",
-        "local_arrival_time": "19:15",
-        "duration": "01:00"
-    },
-    {
-        "flight_number": "NE301",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "18:15",
-        "local_arrival_time": "21:30",
-        "duration": "04:15"
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "18:20",
+        "local_arrival_time": "20:30",
+        "duration": "02:10"
     },
     {
         "flight_number": "MS647",
@@ -2365,17 +2376,6 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "EY716",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "18:20",
-        "local_arrival_time": "22:45",
-        "duration": "03:25"
-    },
-    {
         "flight_number": "WY406",
         "airline_name": "Oman Air",
         "destination_iata": "MCT",
@@ -2385,17 +2385,6 @@
         "local_departure_time": "18:50",
         "local_arrival_time": "23:45",
         "duration": "03:55"
-    },
-    {
-        "flight_number": "SM479",
-        "airline_name": "Air Cairo",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "21:15",
-        "duration": "02:20"
     },
     {
         "flight_number": "NP131",
@@ -2409,59 +2398,26 @@
         "duration": "02:50"
     },
     {
-        "flight_number": "NP231",
-        "airline_name": "Nile Air",
-        "destination_iata": "DMM",
-        "destination_airport_name": "Dammam King Fahd International Airport",
-        "destination_city": "Dammam",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "22:00",
-        "duration": "02:50"
-    },
-    {
         "flight_number": "XY570",
         "airline_name": "flynas",
         "destination_iata": "JED",
         "destination_airport_name": "Jeddah King Abdulaziz International Airport",
         "destination_city": "Jeddah",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "19:25",
-        "local_arrival_time": "21:50",
+        "local_departure_time": "19:05",
+        "local_arrival_time": "21:30",
         "duration": "02:25"
     },
     {
-        "flight_number": "NP261",
-        "airline_name": "Nile Air",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "19:35",
-        "local_arrival_time": "22:15",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "NE210",
-        "airline_name": "Nesma Airlines",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "19:40",
-        "local_arrival_time": "22:15",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "MS669",
+        "flight_number": "MS500",
         "airline_name": "Egyptair",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "19:50",
-        "local_arrival_time": "22:00",
-        "duration": "02:10"
+        "destination_iata": "AMM",
+        "destination_airport_name": "Amman Queen Alia International Airport",
+        "destination_city": "Amman",
+        "destination_country": "Jordan",
+        "local_departure_time": "19:15",
+        "local_arrival_time": "20:30",
+        "duration": "01:15"
     },
     {
         "flight_number": "QR1302",
@@ -2486,17 +2442,6 @@
         "duration": "02:05"
     },
     {
-        "flight_number": "MS723",
-        "airline_name": "Egyptair",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
-        "local_departure_time": "19:55",
-        "local_arrival_time": "21:55",
-        "duration": "02:00"
-    },
-    {
         "flight_number": "EK924",
         "airline_name": "Emirates",
         "destination_iata": "DXB",
@@ -2508,15 +2453,15 @@
         "duration": "03:35"
     },
     {
-        "flight_number": "SM479",
-        "airline_name": "Air Cairo",
+        "flight_number": "MS669",
+        "airline_name": "Egyptair",
         "destination_iata": "JED",
         "destination_airport_name": "Jeddah King Abdulaziz International Airport",
         "destination_city": "Jeddah",
         "destination_country": "Saudi Arabia",
         "local_departure_time": "20:10",
-        "local_arrival_time": "22:30",
-        "duration": "02:20"
+        "local_arrival_time": "22:20",
+        "duration": "02:10"
     },
     {
         "flight_number": "XY272",
@@ -2530,15 +2475,15 @@
         "duration": "02:45"
     },
     {
-        "flight_number": "MS861",
-        "airline_name": "Egyptair",
-        "destination_iata": "CMN",
-        "destination_airport_name": "Casablanca Mohammed V International Airport",
-        "destination_city": "Casablanca",
-        "destination_country": "Morocco",
+        "flight_number": "IA110",
+        "airline_name": "Iraqi Airways",
+        "destination_iata": "BGW",
+        "destination_airport_name": "Baghdad International Airport",
+        "destination_city": "Baghdad",
+        "destination_country": "Iraq",
         "local_departure_time": "20:15",
-        "local_arrival_time": "23:45",
-        "duration": "05:30"
+        "local_arrival_time": "22:45",
+        "duration": "02:30"
     },
     {
         "flight_number": "AT271",
@@ -2552,28 +2497,6 @@
         "duration": "05:50"
     },
     {
-        "flight_number": "IA110",
-        "airline_name": "Iraqi Airways",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "23:00",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "SM8",
-        "airline_name": "Air Cairo",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "22:00",
-        "duration": "01:30"
-    },
-    {
         "flight_number": "ME307",
         "airline_name": "MEA",
         "destination_iata": "BEY",
@@ -2583,17 +2506,6 @@
         "local_departure_time": "20:35",
         "local_arrival_time": "21:50",
         "duration": "01:15"
-    },
-    {
-        "flight_number": "SV380",
-        "airline_name": "Saudia",
-        "destination_iata": "MED",
-        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
-        "destination_city": "Medina",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "20:45",
-        "local_arrival_time": "22:40",
-        "duration": "01:55"
     },
     {
         "flight_number": "SM26",
@@ -2618,26 +2530,15 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "MS614",
+        "flight_number": "MS48",
         "airline_name": "Egyptair",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "20:55",
-        "local_arrival_time": "23:30",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "MS920",
-        "airline_name": "Egyptair",
-        "destination_iata": "BAH",
-        "destination_airport_name": "Bahrain International Airport",
-        "destination_city": "Bahrain",
-        "destination_country": "Bahrain",
-        "local_departure_time": "20:55",
-        "local_arrival_time": "23:40",
-        "duration": "02:45"
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "20:50 / 21:00",
+        "local_arrival_time": "21:50 / 22:00",
+        "duration": "01:00"
     },
     {
         "flight_number": "SV302",
@@ -2662,48 +2563,70 @@
         "duration": "02:50"
     },
     {
-        "flight_number": "MS1849",
-        "airline_name": "Egyptair",
-        "destination_iata": "NBO",
-        "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
-        "destination_city": "Nairobi",
-        "destination_country": "Kenya",
+        "flight_number": "SV380",
+        "airline_name": "Saudia",
+        "destination_iata": "MED",
+        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
+        "destination_city": "Medina",
+        "destination_country": "Saudi Arabia",
         "local_departure_time": "20:55",
-        "local_arrival_time": "01:55 (+1)",
-        "duration": "05:00"
+        "local_arrival_time": "22:50",
+        "duration": "01:55"
     },
     {
-        "flight_number": "MS48",
+        "flight_number": "MS920",
         "airline_name": "Egyptair",
-        "destination_iata": "HRG",
-        "destination_airport_name": "Hurghada International Airport",
-        "destination_city": "Hurghada",
-        "destination_country": "Egypt",
-        "local_departure_time": "20:55 / 21:30",
-        "local_arrival_time": "22:00 / 22:30",
-        "duration": "01:00"
+        "destination_iata": "BAH",
+        "destination_airport_name": "Bahrain International Airport",
+        "destination_city": "Bahrain",
+        "destination_country": "Bahrain",
+        "local_departure_time": "20:55",
+        "local_arrival_time": "23:40",
+        "duration": "02:45"
     },
     {
-        "flight_number": "RJ5561",
-        "airline_name": "Royal Jordanian",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "22:30",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "SM180",
+        "flight_number": "SM8",
         "airline_name": "Air Cairo",
         "destination_iata": "SSH",
         "destination_airport_name": "Sharm el-Sheikh International Airport",
         "destination_city": "Sharm el-Sheikh",
         "destination_country": "Egypt",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "22:10",
+        "local_departure_time": "21:00",
+        "local_arrival_time": "22:00",
         "duration": "01:00"
+    },
+    {
+        "flight_number": "E5546",
+        "airline_name": "Air Arabia",
+        "destination_iata": "BGY",
+        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
+        "destination_city": "Milan",
+        "destination_country": "Italy",
+        "local_departure_time": "21:10",
+        "local_arrival_time": "23:59",
+        "duration": "03:49"
+    },
+    {
+        "flight_number": "F3762",
+        "airline_name": "flyadeal",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "21:15",
+        "local_arrival_time": "23:30",
+        "duration": "02:15"
+    },
+    {
+        "flight_number": "MS891",
+        "airline_name": "Egyptair",
+        "destination_iata": "ALG",
+        "destination_airport_name": "Algiers Houari Boumediene Airport",
+        "destination_city": "Algiers",
+        "destination_country": "Algeria",
+        "local_departure_time": "21:15",
+        "local_arrival_time": "23:20",
+        "duration": "04:05"
     },
     {
         "flight_number": "MS643",
@@ -2715,17 +2638,6 @@
         "local_departure_time": "21:20",
         "local_arrival_time": "23:30",
         "duration": "02:10"
-    },
-    {
-        "flight_number": "QR1308",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "21:20",
-        "local_arrival_time": "00:40 (+1)",
-        "duration": "03:20"
     },
     {
         "flight_number": "RJ506",
@@ -2772,17 +2684,6 @@
         "duration": "03:25"
     },
     {
-        "flight_number": "MS891",
-        "airline_name": "Egyptair",
-        "destination_iata": "ALG",
-        "destination_airport_name": "Algiers Houari Boumediene Airport",
-        "destination_city": "Algiers",
-        "destination_country": "Algeria",
-        "local_departure_time": "21:40",
-        "local_arrival_time": "23:45",
-        "duration": "04:05"
-    },
-    {
         "flight_number": "TK695",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
@@ -2792,28 +2693,6 @@
         "local_departure_time": "21:40",
         "local_arrival_time": "00:05 (+1)",
         "duration": "02:25"
-    },
-    {
-        "flight_number": "WY406",
-        "airline_name": "Oman Air",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "21:50",
-        "local_arrival_time": "02:45 (+1)",
-        "duration": "03:55"
-    },
-    {
-        "flight_number": "R5812",
-        "airline_name": "Jordan Aviation",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "22:00",
-        "local_arrival_time": "00:30 (+1)",
-        "duration": "02:30"
     },
     {
         "flight_number": "XY572",
@@ -2827,17 +2706,6 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "KU542",
-        "airline_name": "Kuwait Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "22:00 / 22:30",
-        "local_arrival_time": "00:40 (+1) / 01:10 (+1)",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "XY270",
         "airline_name": "flynas",
         "destination_iata": "RUH",
@@ -2847,17 +2715,6 @@
         "local_departure_time": "22:05",
         "local_arrival_time": "00:50 (+1)",
         "duration": "02:45"
-    },
-    {
-        "flight_number": "SM1806",
-        "airline_name": "Air Cairo",
-        "destination_iata": "HRG",
-        "destination_airport_name": "Hurghada International Airport",
-        "destination_city": "Hurghada",
-        "destination_country": "Egypt",
-        "local_departure_time": "22:10",
-        "local_arrival_time": "23:10",
-        "duration": "01:00"
     },
     {
         "flight_number": "MS835",
@@ -2871,37 +2728,37 @@
         "duration": "05:20"
     },
     {
-        "flight_number": "MS837",
-        "airline_name": "Egyptair",
-        "destination_iata": "EBB",
-        "destination_airport_name": "Entebbe International Airport",
-        "destination_city": "Entebbe",
-        "destination_country": "Uganda",
-        "local_departure_time": "22:20",
-        "local_arrival_time": "03:20 (+1)",
-        "duration": "05:00"
+        "flight_number": "SM170",
+        "airline_name": "Air Cairo",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "22:25",
+        "local_arrival_time": "23:25",
+        "duration": "01:00"
     },
     {
-        "flight_number": "F3762",
-        "airline_name": "flyadeal",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "22:35",
-        "local_arrival_time": "00:50 (+1)",
-        "duration": "02:15"
+        "flight_number": "KU542",
+        "airline_name": "Kuwait Airways",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "22:30",
+        "local_arrival_time": "01:10 (+1)",
+        "duration": "02:40"
     },
     {
-        "flight_number": "NP351",
-        "airline_name": "Nile Air",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "22:35",
-        "local_arrival_time": "01:20 (+1)",
-        "duration": "02:45"
+        "flight_number": "R5812",
+        "airline_name": "Jordan Aviation",
+        "destination_iata": "AMM",
+        "destination_airport_name": "Amman Queen Alia International Airport",
+        "destination_city": "Amman",
+        "destination_country": "Jordan",
+        "local_departure_time": "22:30",
+        "local_arrival_time": "23:55",
+        "duration": "01:25"
     },
     {
         "flight_number": "MS841",
@@ -2970,6 +2827,17 @@
         "duration": "02:25"
     },
     {
+        "flight_number": "MS951",
+        "airline_name": "Egyptair",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
+        "local_departure_time": "23:25",
+        "local_arrival_time": "15:00 (+1)",
+        "duration": "10:35"
+    },
+    {
         "flight_number": "XY266",
         "airline_name": "flynas",
         "destination_iata": "RUH",
@@ -2981,15 +2849,15 @@
         "duration": "02:45"
     },
     {
-        "flight_number": "MS951",
-        "airline_name": "Egyptair",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "23:25",
-        "local_arrival_time": "15:00 (+1)",
-        "duration": "10:35"
+        "flight_number": "J9734",
+        "airline_name": "Jazeera Airways",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "23:30",
+        "local_arrival_time": "02:00 (+1)",
+        "duration": "02:30"
     },
     {
         "flight_number": "MS42",
@@ -3014,17 +2882,6 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "MS851",
-        "airline_name": "Egyptair",
-        "destination_iata": "ADD",
-        "destination_airport_name": "Addis Ababa Bole Airport",
-        "destination_city": "Addis Ababa",
-        "destination_country": "Ethiopia",
-        "local_departure_time": "23:30",
-        "local_arrival_time": "03:10 (+1)",
-        "duration": "03:40"
-    },
-    {
         "flight_number": "MS910",
         "airline_name": "Egyptair",
         "destination_iata": "DXB",
@@ -3036,26 +2893,15 @@
         "duration": "03:25"
     },
     {
-        "flight_number": "J9734",
-        "airline_name": "Jazeera Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
+        "flight_number": "MS851",
+        "airline_name": "Egyptair",
+        "destination_iata": "ADD",
+        "destination_airport_name": "Addis Ababa Bole Airport",
+        "destination_city": "Addis Ababa",
+        "destination_country": "Ethiopia",
         "local_departure_time": "23:30",
-        "local_arrival_time": "02:00 (+1)",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "SM1040",
-        "airline_name": "Air Cairo",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "23:40",
-        "local_arrival_time": "00:40 (+1)",
-        "duration": "01:00"
+        "local_arrival_time": "03:10 (+1)",
+        "duration": "03:40"
     },
     {
         "flight_number": "MS916",
@@ -3069,6 +2915,17 @@
         "duration": "03:20"
     },
     {
+        "flight_number": "MS839",
+        "airline_name": "Egyptair",
+        "destination_iata": "JNB",
+        "destination_airport_name": "Johannesburg OR Tambo International Airport",
+        "destination_city": "Johannesburg",
+        "destination_country": "South Africa",
+        "local_departure_time": "23:45",
+        "local_arrival_time": "07:10 (+1)",
+        "duration": "08:25"
+    },
+    {
         "flight_number": "MS849",
         "airline_name": "Egyptair",
         "destination_iata": "NBO",
@@ -3078,16 +2935,5 @@
         "local_departure_time": "23:55",
         "local_arrival_time": "04:55 (+1)",
         "duration": "05:00"
-    },
-    {
-        "flight_number": "MS839",
-        "airline_name": "Egyptair",
-        "destination_iata": "JNB",
-        "destination_airport_name": "Johannesburg OR Tambo International Airport",
-        "destination_city": "Johannesburg",
-        "destination_country": "South Africa",
-        "local_departure_time": "23:59",
-        "local_arrival_time": "07:10 (+1)",
-        "duration": "08:11"
     }
 ]

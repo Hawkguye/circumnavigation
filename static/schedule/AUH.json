@@ -40,8 +40,8 @@
         "destination_city": "Bengaluru",
         "destination_country": "India",
         "local_departure_time": "00:30",
-        "local_arrival_time": "05:40",
-        "duration": "03:40"
+        "local_arrival_time": "06:05",
+        "duration": "04:05"
     },
     {
         "flight_number": "IX538",
@@ -55,6 +55,17 @@
         "duration": "04:25"
     },
     {
+        "flight_number": "3L752",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "DME",
+        "destination_airport_name": "Moscow Domodedovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "01:30",
+        "local_arrival_time": "06:10",
+        "duration": "05:40"
+    },
+    {
         "flight_number": "TK869",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
@@ -64,6 +75,28 @@
         "local_departure_time": "01:35",
         "local_arrival_time": "05:30",
         "duration": "04:55"
+    },
+    {
+        "flight_number": "QR8759",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "01:45",
+        "local_arrival_time": "01:55",
+        "duration": "01:10"
+    },
+    {
+        "flight_number": "EY979",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "HAN",
+        "destination_airport_name": "Hanoi Noi Bai International Airport",
+        "destination_city": "Hanoi",
+        "destination_country": "Vietnam",
+        "local_departure_time": "01:50",
+        "local_arrival_time": "11:15",
+        "duration": "06:25"
     },
     {
         "flight_number": "EY603",
@@ -77,17 +110,6 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "EY663",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "01:55",
-        "local_arrival_time": "02:00",
-        "duration": "01:05"
-    },
-    {
         "flight_number": "EY647",
         "airline_name": "Etihad Airways",
         "destination_iata": "BAH",
@@ -95,8 +117,19 @@
         "destination_city": "Bahrain",
         "destination_country": "Bahrain",
         "local_departure_time": "01:55",
-        "local_arrival_time": "02:10",
-        "duration": "01:15"
+        "local_arrival_time": "02:05",
+        "duration": "01:10"
+    },
+    {
+        "flight_number": "EY99",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "LIS",
+        "destination_airport_name": "Lisbon Humberto Delgado Airport",
+        "destination_city": "Lisbon",
+        "destination_country": "Portugal",
+        "local_departure_time": "02:00",
+        "local_arrival_time": "07:20",
+        "duration": "08:20"
     },
     {
         "flight_number": "EY551",
@@ -108,6 +141,17 @@
         "local_departure_time": "02:00",
         "local_arrival_time": "02:45",
         "duration": "01:45"
+    },
+    {
+        "flight_number": "EY690",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "MCT",
+        "destination_airport_name": "Muscat International Airport",
+        "destination_city": "Muscat",
+        "destination_country": "Oman",
+        "local_departure_time": "02:00",
+        "local_arrival_time": "03:10",
+        "duration": "01:10"
     },
     {
         "flight_number": "EY45",
@@ -132,6 +176,28 @@
         "duration": "04:55"
     },
     {
+        "flight_number": "EY769",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "NBO",
+        "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
+        "destination_city": "Nairobi",
+        "destination_country": "Kenya",
+        "local_departure_time": "02:05",
+        "local_arrival_time": "06:05",
+        "duration": "05:00"
+    },
+    {
+        "flight_number": "EY77",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "MAN",
+        "destination_airport_name": "Manchester Airport",
+        "destination_city": "Manchester",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "02:10",
+        "local_arrival_time": "07:05",
+        "duration": "07:55"
+    },
+    {
         "flight_number": "EY85",
         "airline_name": "Etihad Airways",
         "destination_iata": "FCO",
@@ -154,26 +220,15 @@
         "duration": "06:50"
     },
     {
-        "flight_number": "EY747",
+        "flight_number": "EY575",
         "airline_name": "Etihad Airways",
-        "destination_iata": "JNB",
-        "destination_airport_name": "Johannesburg OR Tambo International Airport",
-        "destination_city": "Johannesburg",
-        "destination_country": "South Africa",
+        "destination_iata": "DMM",
+        "destination_airport_name": "Dammam King Fahd International Airport",
+        "destination_city": "Dammam",
+        "destination_country": "Saudi Arabia",
         "local_departure_time": "02:10",
-        "local_arrival_time": "08:20",
-        "duration": "08:10"
-    },
-    {
-        "flight_number": "EY77",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "MAN",
-        "destination_airport_name": "Manchester Airport",
-        "destination_city": "Manchester",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "02:10",
-        "local_arrival_time": "07:05",
-        "duration": "07:55"
+        "local_arrival_time": "02:35",
+        "duration": "01:25"
     },
     {
         "flight_number": "EY81",
@@ -187,15 +242,15 @@
         "duration": "06:30"
     },
     {
-        "flight_number": "EY575",
+        "flight_number": "EY747",
         "airline_name": "Etihad Airways",
-        "destination_iata": "DMM",
-        "destination_airport_name": "Dammam King Fahd International Airport",
-        "destination_city": "Dammam",
-        "destination_country": "Saudi Arabia",
+        "destination_iata": "JNB",
+        "destination_airport_name": "Johannesburg OR Tambo International Airport",
+        "destination_city": "Johannesburg",
+        "destination_country": "South Africa",
         "local_departure_time": "02:10",
-        "local_arrival_time": "02:35",
-        "duration": "01:25"
+        "local_arrival_time": "08:20",
+        "duration": "08:10"
     },
     {
         "flight_number": "EY101",
@@ -207,17 +262,6 @@
         "local_departure_time": "02:15",
         "local_arrival_time": "07:45",
         "duration": "07:30"
-    },
-    {
-        "flight_number": "EY543",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "02:15",
-        "local_arrival_time": "06:15",
-        "duration": "05:00"
     },
     {
         "flight_number": "EY111",
@@ -242,6 +286,17 @@
         "duration": "06:30"
     },
     {
+        "flight_number": "EY543",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "02:15",
+        "local_arrival_time": "06:15",
+        "duration": "05:00"
+    },
+    {
         "flight_number": "EY757",
         "airline_name": "Etihad Airways",
         "destination_iata": "CMN",
@@ -262,6 +317,17 @@
         "local_departure_time": "02:15",
         "local_arrival_time": "07:50",
         "duration": "04:05"
+    },
+    {
+        "flight_number": "EY61",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "02:20",
+        "local_arrival_time": "07:00",
+        "duration": "07:40"
     },
     {
         "flight_number": "EY200",
@@ -308,15 +374,15 @@
         "duration": "14:40"
     },
     {
-        "flight_number": "EY61",
+        "flight_number": "EY663",
         "airline_name": "Etihad Airways",
-        "destination_iata": "LHR",
-        "destination_airport_name": "London Heathrow Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
         "local_departure_time": "02:20",
-        "local_arrival_time": "07:00",
-        "duration": "07:40"
+        "local_arrival_time": "02:25",
+        "duration": "01:05"
     },
     {
         "flight_number": "EY57",
@@ -341,6 +407,17 @@
         "duration": "06:35"
     },
     {
+        "flight_number": "EY298",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "KHI",
+        "destination_airport_name": "Karachi Jinnah International Airport",
+        "destination_city": "Karachi",
+        "destination_country": "Pakistan",
+        "local_departure_time": "02:25",
+        "local_arrival_time": "05:40",
+        "duration": "02:15"
+    },
+    {
         "flight_number": "EY155",
         "airline_name": "Etihad Airways",
         "destination_iata": "PRG",
@@ -350,6 +427,28 @@
         "local_departure_time": "02:25",
         "local_arrival_time": "06:50",
         "duration": "06:25"
+    },
+    {
+        "flight_number": "EY133",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "DUS",
+        "destination_airport_name": "Dusseldorf Airport",
+        "destination_city": "Dusseldorf",
+        "destination_country": "Germany",
+        "local_departure_time": "02:30",
+        "local_arrival_time": "07:45",
+        "duration": "07:15"
+    },
+    {
+        "flight_number": "EY153",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "VIE",
+        "destination_airport_name": "Vienna International Airport",
+        "destination_city": "Vienna",
+        "destination_country": "Austria",
+        "local_departure_time": "02:30",
+        "local_arrival_time": "06:35",
+        "duration": "06:05"
     },
     {
         "flight_number": "EY31",
@@ -374,17 +473,6 @@
         "duration": "06:50"
     },
     {
-        "flight_number": "EY153",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "VIE",
-        "destination_airport_name": "Vienna International Airport",
-        "destination_city": "Vienna",
-        "destination_country": "Austria",
-        "local_departure_time": "02:30",
-        "local_arrival_time": "06:35",
-        "duration": "06:05"
-    },
-    {
         "flight_number": "EY177",
         "airline_name": "Etihad Airways",
         "destination_iata": "CPH",
@@ -392,30 +480,8 @@
         "destination_city": "Copenhagen",
         "destination_country": "Denmark",
         "local_departure_time": "02:30",
-        "local_arrival_time": "07:25",
-        "duration": "06:55"
-    },
-    {
-        "flight_number": "EY133",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
-        "destination_city": "Dusseldorf",
-        "destination_country": "Germany",
-        "local_departure_time": "02:30",
-        "local_arrival_time": "07:25",
-        "duration": "06:55"
-    },
-    {
-        "flight_number": "EY107",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AGP",
-        "destination_airport_name": "Malaga Costa Del Sol Airport",
-        "destination_city": "Malaga",
-        "destination_country": "Spain",
-        "local_departure_time": "02:35",
-        "local_arrival_time": "08:20",
-        "duration": "07:45"
+        "local_arrival_time": "07:45",
+        "duration": "07:15"
     },
     {
         "flight_number": "EY841",
@@ -440,6 +506,17 @@
         "duration": "14:25"
     },
     {
+        "flight_number": "EY107",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AGP",
+        "destination_airport_name": "Malaga Costa Del Sol Airport",
+        "destination_city": "Malaga",
+        "destination_country": "Spain",
+        "local_departure_time": "02:35",
+        "local_arrival_time": "08:20",
+        "duration": "07:45"
+    },
+    {
         "flight_number": "EY342",
         "airline_name": "Etihad Airways",
         "destination_iata": "MAA",
@@ -462,17 +539,6 @@
         "duration": "03:45"
     },
     {
-        "flight_number": "EY589",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "02:40",
-        "local_arrival_time": "04:45",
-        "duration": "03:05"
-    },
-    {
         "flight_number": "EY711",
         "airline_name": "Etihad Airways",
         "destination_iata": "CAI",
@@ -482,17 +548,6 @@
         "local_departure_time": "02:40",
         "local_arrival_time": "05:30",
         "duration": "03:50"
-    },
-    {
-        "flight_number": "EY690",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "02:40",
-        "local_arrival_time": "03:50",
-        "duration": "01:10"
     },
     {
         "flight_number": "EY159",
@@ -517,15 +572,15 @@
         "duration": "04:10"
     },
     {
-        "flight_number": "EY37",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "NCE",
-        "destination_airport_name": "Nice Cote d'Azur Airport",
-        "destination_city": "Nice",
-        "destination_country": "France",
+        "flight_number": "BG328",
+        "airline_name": "Biman Bangladesh Airlines",
+        "destination_iata": "DAC",
+        "destination_airport_name": "Dhaka Shahjalal International Airport",
+        "destination_city": "Dhaka",
+        "destination_country": "Bangladesh",
         "local_departure_time": "02:45",
-        "local_arrival_time": "07:25",
-        "duration": "06:40"
+        "local_arrival_time": "10:10",
+        "duration": "05:25"
     },
     {
         "flight_number": "EY9",
@@ -539,6 +594,17 @@
         "duration": "14:50"
     },
     {
+        "flight_number": "EY583",
+        "airline_name": "Airhub Airlines",
+        "destination_iata": "BEY",
+        "destination_airport_name": "Beirut Rafic Hariri International Airport",
+        "destination_city": "Beirut",
+        "destination_country": "Lebanon",
+        "local_departure_time": "02:55",
+        "local_arrival_time": "05:45",
+        "duration": "03:50"
+    },
+    {
         "flight_number": "QP577",
         "airline_name": "Akasa Air",
         "destination_iata": "BLR",
@@ -546,8 +612,8 @@
         "destination_city": "Bengaluru",
         "destination_country": "India",
         "local_departure_time": "03:00",
-        "local_arrival_time": "08:40",
-        "duration": "04:10"
+        "local_arrival_time": "08:45",
+        "duration": "04:15"
     },
     {
         "flight_number": "PA231",
@@ -638,39 +704,6 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "5W7003",
-        "airline_name": "Wizz Air Abu Dhabi",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "05:55",
-        "local_arrival_time": "08:10",
-        "duration": "03:15"
-    },
-    {
-        "flight_number": "5W7013",
-        "airline_name": "Wizz Air Abu Dhabi",
-        "destination_iata": "EVN",
-        "destination_airport_name": "Yerevan Zvartnots International Airport",
-        "destination_city": "Yerevan",
-        "destination_country": "Armenia",
-        "local_departure_time": "06:20",
-        "local_arrival_time": "09:45",
-        "duration": "03:25"
-    },
-    {
-        "flight_number": "5W7125",
-        "airline_name": "Wizz Air Abu Dhabi",
-        "destination_iata": "MED",
-        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
-        "destination_city": "Medina",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "06:40",
-        "local_arrival_time": "08:30",
-        "duration": "02:50"
-    },
-    {
         "flight_number": "RJ623",
         "airline_name": "Royal Jordanian",
         "destination_iata": "AMM",
@@ -704,6 +737,17 @@
         "duration": "05:00"
     },
     {
+        "flight_number": "3L43",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "KTM",
+        "destination_airport_name": "Kathmandu Tribhuvan International Airport",
+        "destination_city": "Kathmandu",
+        "destination_country": "Nepal",
+        "local_departure_time": "07:25",
+        "local_arrival_time": "13:40",
+        "duration": "04:30"
+    },
+    {
         "flight_number": "EY202",
         "airline_name": "Etihad Airways",
         "destination_iata": "BOM",
@@ -721,8 +765,8 @@
         "destination_airport_name": "Riyadh King Khalid International Airport",
         "destination_city": "Riyadh",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "07:50",
-        "local_arrival_time": "08:45",
+        "local_departure_time": "07:50 / 08:05",
+        "local_arrival_time": "08:45 / 09:00",
         "duration": "01:55"
     },
     {
@@ -737,17 +781,6 @@
         "duration": "07:40"
     },
     {
-        "flight_number": "5W7015",
-        "airline_name": "Wizz Air Abu Dhabi",
-        "destination_iata": "GYD",
-        "destination_airport_name": "Baku Heydar Aliyev International Airport",
-        "destination_city": "Baku",
-        "destination_country": "Azerbaijan",
-        "local_departure_time": "08:10",
-        "local_arrival_time": "11:20",
-        "duration": "03:10"
-    },
-    {
         "flight_number": "EY653",
         "airline_name": "Etihad Airways",
         "destination_iata": "KWI",
@@ -757,6 +790,17 @@
         "local_departure_time": "08:20",
         "local_arrival_time": "09:10",
         "duration": "01:50"
+    },
+    {
+        "flight_number": "EY189",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "ATH",
+        "destination_airport_name": "Athens Eleftherios Venizelos",
+        "destination_city": "Athens",
+        "destination_country": "Greece",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "12:50",
+        "duration": "05:20"
     },
     {
         "flight_number": "EY416",
@@ -781,17 +825,6 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "EY593",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "TLV",
-        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
-        "destination_city": "Tel Aviv",
-        "destination_country": "Israel",
-        "local_departure_time": "08:35",
-        "local_arrival_time": "11:00",
-        "duration": "03:25"
-    },
-    {
         "flight_number": "EY615",
         "airline_name": "Etihad Airways",
         "destination_iata": "JED",
@@ -801,6 +834,17 @@
         "local_departure_time": "08:35",
         "local_arrival_time": "10:25",
         "duration": "02:50"
+    },
+    {
+        "flight_number": "IX298",
+        "airline_name": "Air India Express",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "08:35",
+        "local_arrival_time": "13:05",
+        "duration": "03:00"
     },
     {
         "flight_number": "EY826",
@@ -814,15 +858,37 @@
         "duration": "08:30"
     },
     {
-        "flight_number": "EY446",
-        "airline_name": "Wamos Air",
-        "destination_iata": "MNL",
-        "destination_airport_name": "Manila Ninoy Aquino International Airport",
-        "destination_city": "Manila",
-        "destination_country": "Philippines",
-        "local_departure_time": "08:45",
-        "local_arrival_time": "22:00",
-        "duration": "09:15"
+        "flight_number": "EY236",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "BLR",
+        "destination_airport_name": "Bengaluru Kempegowda International Airport",
+        "destination_city": "Bengaluru",
+        "destination_country": "India",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "14:15",
+        "duration": "04:05"
+    },
+    {
+        "flight_number": "EY332",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "COK",
+        "destination_airport_name": "Cochin International Airport",
+        "destination_city": "Cochin",
+        "destination_country": "India",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "14:15",
+        "duration": "04:05"
+    },
+    {
+        "flight_number": "EY767",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "NBO",
+        "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
+        "destination_city": "Nairobi",
+        "destination_country": "Kenya",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "12:40",
+        "duration": "05:00"
     },
     {
         "flight_number": "EY376",
@@ -836,15 +902,48 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "EY344",
+        "flight_number": "EY446",
         "airline_name": "Etihad Airways",
+        "destination_iata": "MNL",
+        "destination_airport_name": "Manila Ninoy Aquino International Airport",
+        "destination_city": "Manila",
+        "destination_country": "Philippines",
+        "local_departure_time": "08:45",
+        "local_arrival_time": "22:00",
+        "duration": "09:15"
+    },
+    {
+        "flight_number": "3L763",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "TAS",
+        "destination_airport_name": "Tashkent International Airport",
+        "destination_city": "Tashkent",
+        "destination_country": "Uzbekistan",
+        "local_departure_time": "08:50",
+        "local_arrival_time": "13:20",
+        "duration": "03:30"
+    },
+    {
+        "flight_number": "QP587",
+        "airline_name": "Akasa Air",
         "destination_iata": "MAA",
         "destination_airport_name": "Chennai International Airport",
         "destination_city": "Chennai",
         "destination_country": "India",
         "local_departure_time": "08:50",
-        "local_arrival_time": "14:45",
-        "duration": "04:25"
+        "local_arrival_time": "14:35",
+        "duration": "04:15"
+    },
+    {
+        "flight_number": "EY593",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
+        "local_departure_time": "08:50 / 08:55",
+        "local_arrival_time": "11:15 / 11:20",
+        "duration": "03:25"
     },
     {
         "flight_number": "EY214",
@@ -869,26 +968,15 @@
         "duration": "06:30"
     },
     {
-        "flight_number": "EY7",
+        "flight_number": "EY845",
         "airline_name": "Etihad Airways",
-        "destination_iata": "BOS",
-        "destination_airport_name": "Boston Logan International Airport",
-        "destination_city": "Boston",
-        "destination_country": "United States",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "14:55",
-        "duration": "13:55"
-    },
-    {
-        "flight_number": "3L20",
-        "airline_name": "Air Arabia Abu Dhabi",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "09:45",
-        "duration": "01:45"
+        "destination_iata": "SVO",
+        "destination_airport_name": "Moscow Sheremetyevo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "08:55",
+        "local_arrival_time": "14:00",
+        "duration": "06:05"
     },
     {
         "flight_number": "3L441",
@@ -902,15 +990,48 @@
         "duration": "03:20"
     },
     {
-        "flight_number": "3L750",
-        "airline_name": "Air Arabia Abu Dhabi",
-        "destination_iata": "DME",
-        "destination_airport_name": "Moscow Domodedovo International Airport",
-        "destination_city": "Moscow",
+        "flight_number": "EY727",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "ADD",
+        "destination_airport_name": "Addis Ababa Bole Airport",
+        "destination_city": "Addis Ababa",
+        "destination_country": "Ethiopia",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "12:35",
+        "duration": "04:35"
+    },
+    {
+        "flight_number": "EY7",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "BOS",
+        "destination_airport_name": "Boston Logan International Airport",
+        "destination_city": "Boston",
+        "destination_country": "United States",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "14:55",
+        "duration": "13:55"
+    },
+    {
+        "flight_number": "EY858",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AER",
+        "destination_airport_name": "Sochi International Airport",
+        "destination_city": "Sochi",
         "destination_country": "Russia",
-        "local_departure_time": "09:05",
-        "local_arrival_time": "13:45",
-        "duration": "05:40"
+        "local_departure_time": "09:00",
+        "local_arrival_time": "12:20",
+        "duration": "04:20"
+    },
+    {
+        "flight_number": "3L20",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "09:45",
+        "duration": "01:45"
     },
     {
         "flight_number": "EY541",
@@ -924,15 +1045,15 @@
         "duration": "05:00"
     },
     {
-        "flight_number": "5W7113",
-        "airline_name": "Wizz Air Abu Dhabi",
-        "destination_iata": "BEY",
-        "destination_airport_name": "Beirut Rafic Hariri International Airport",
-        "destination_city": "Beirut",
-        "destination_country": "Lebanon",
+        "flight_number": "3L750",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "DME",
+        "destination_airport_name": "Moscow Domodedovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
         "local_departure_time": "09:05",
-        "local_arrival_time": "11:50",
-        "duration": "03:45"
+        "local_arrival_time": "13:45",
+        "duration": "05:40"
     },
     {
         "flight_number": "EY406",
@@ -957,26 +1078,15 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "EY390",
+        "flight_number": "EY661",
         "airline_name": "Etihad Airways",
-        "destination_iata": "CMB",
-        "destination_airport_name": "Colombo Bandaranaike International Airport",
-        "destination_city": "Colombo",
-        "destination_country": "Sri Lanka",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
         "local_departure_time": "09:15",
-        "local_arrival_time": "15:25",
-        "duration": "04:40"
-    },
-    {
-        "flight_number": "EY641",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "BAH",
-        "destination_airport_name": "Bahrain International Airport",
-        "destination_city": "Bahrain",
-        "destination_country": "Bahrain",
-        "local_departure_time": "09:15",
-        "local_arrival_time": "09:30",
-        "duration": "01:15"
+        "local_arrival_time": "09:20",
+        "duration": "01:05"
     },
     {
         "flight_number": "EY692",
@@ -990,15 +1100,15 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "EY661",
+        "flight_number": "EY390",
         "airline_name": "Etihad Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
+        "destination_iata": "CMB",
+        "destination_airport_name": "Colombo Bandaranaike International Airport",
+        "destination_city": "Colombo",
+        "destination_country": "Sri Lanka",
         "local_departure_time": "09:15",
-        "local_arrival_time": "09:20",
-        "duration": "01:05"
+        "local_arrival_time": "15:25",
+        "duration": "04:40"
     },
     {
         "flight_number": "EY472",
@@ -1023,15 +1133,15 @@
         "duration": "03:30"
     },
     {
-        "flight_number": "3L781",
-        "airline_name": "Air Arabia Abu Dhabi",
-        "destination_iata": "ALA",
-        "destination_airport_name": "Almaty International Airport",
-        "destination_city": "Almaty",
-        "destination_country": "Kazakhstan",
-        "local_departure_time": "09:20",
-        "local_arrival_time": "14:35",
-        "duration": "04:15"
+        "flight_number": "EY641",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "BAH",
+        "destination_airport_name": "Bahrain International Airport",
+        "destination_city": "Bahrain",
+        "destination_country": "Bahrain",
+        "local_departure_time": "09:15",
+        "local_arrival_time": "09:30",
+        "duration": "01:15"
     },
     {
         "flight_number": "EY591",
@@ -1045,6 +1155,17 @@
         "duration": "03:15"
     },
     {
+        "flight_number": "3L781",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "ALA",
+        "destination_airport_name": "Almaty International Airport",
+        "destination_city": "Almaty",
+        "destination_country": "Kazakhstan",
+        "local_departure_time": "09:20",
+        "local_arrival_time": "14:35",
+        "duration": "04:15"
+    },
+    {
         "flight_number": "EY13",
         "airline_name": "Etihad Airways",
         "destination_iata": "ATL",
@@ -1054,6 +1175,17 @@
         "local_departure_time": "09:20",
         "local_arrival_time": "16:20",
         "duration": "15:00"
+    },
+    {
+        "flight_number": "3L43",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "KTM",
+        "destination_airport_name": "Kathmandu Tribhuvan International Airport",
+        "destination_city": "Kathmandu",
+        "destination_country": "Nepal",
+        "local_departure_time": "09:25",
+        "local_arrival_time": "15:40",
+        "duration": "04:30"
     },
     {
         "flight_number": "EY581",
@@ -1067,15 +1199,15 @@
         "duration": "04:00"
     },
     {
-        "flight_number": "3L450",
+        "flight_number": "3L730",
         "airline_name": "Air Arabia Abu Dhabi",
-        "destination_iata": "BEY",
-        "destination_airport_name": "Beirut Rafic Hariri International Airport",
-        "destination_city": "Beirut",
-        "destination_country": "Lebanon",
-        "local_departure_time": "09:40",
-        "local_arrival_time": "12:10",
-        "duration": "03:30"
+        "destination_iata": "GYD",
+        "destination_airport_name": "Baku Heydar Aliyev International Airport",
+        "destination_city": "Baku",
+        "destination_country": "Azerbaijan",
+        "local_departure_time": "09:35",
+        "local_arrival_time": "12:40",
+        "duration": "03:05"
     },
     {
         "flight_number": "EY5",
@@ -1089,6 +1221,17 @@
         "duration": "14:30"
     },
     {
+        "flight_number": "3L450",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "BEY",
+        "destination_airport_name": "Beirut Rafic Hariri International Airport",
+        "destination_city": "Beirut",
+        "destination_country": "Lebanon",
+        "local_departure_time": "09:40",
+        "local_arrival_time": "12:10",
+        "duration": "03:30"
+    },
+    {
         "flight_number": "EY3",
         "airline_name": "Etihad Airways",
         "destination_iata": "JFK",
@@ -1100,15 +1243,37 @@
         "duration": "14:05"
     },
     {
-        "flight_number": "EY713",
+        "flight_number": "EY615",
         "airline_name": "Etihad Airways",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "10:05",
+        "local_arrival_time": "11:55",
+        "duration": "02:50"
+    },
+    {
+        "flight_number": "EY450",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
         "local_departure_time": "10:25",
-        "local_arrival_time": "13:15",
-        "duration": "03:50"
+        "local_arrival_time": "07:10 (+1)",
+        "duration": "13:45"
+    },
+    {
+        "flight_number": "3L690",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "TBS",
+        "destination_airport_name": "Tbilisi International Airport",
+        "destination_city": "Tbilisi",
+        "destination_country": "Georgia",
+        "local_departure_time": "10:30",
+        "local_arrival_time": "14:00",
+        "duration": "03:30"
     },
     {
         "flight_number": "EY65",
@@ -1133,17 +1298,6 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "RJ621",
-        "airline_name": "Royal Jordanian",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "13:00",
-        "local_arrival_time": "15:20",
-        "duration": "03:20"
-    },
-    {
         "flight_number": "3L248",
         "airline_name": "Air Arabia Abu Dhabi",
         "destination_iata": "TRV",
@@ -1155,15 +1309,15 @@
         "duration": "04:20"
     },
     {
-        "flight_number": "IX448",
-        "airline_name": "Air India Express",
-        "destination_iata": "COK",
-        "destination_airport_name": "Cochin International Airport",
-        "destination_city": "Cochin",
-        "destination_country": "India",
-        "local_departure_time": "13:40",
-        "local_arrival_time": "19:20",
-        "duration": "04:10"
+        "flight_number": "3L63",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "DAC",
+        "destination_airport_name": "Dhaka Shahjalal International Airport",
+        "destination_city": "Dhaka",
+        "destination_country": "Bangladesh",
+        "local_departure_time": "13:20",
+        "local_arrival_time": "20:20",
+        "duration": "05:00"
     },
     {
         "flight_number": "6E1404",
@@ -1177,19 +1331,8 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "EY41",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AMS",
-        "destination_airport_name": "Amsterdam Schiphol Airport",
-        "destination_city": "Amsterdam",
-        "destination_country": "Netherlands",
-        "local_departure_time": "13:50",
-        "local_arrival_time": "18:55",
-        "duration": "07:05"
-    },
-    {
         "flight_number": "EY83",
-        "airline_name": "Wamos Air",
+        "airline_name": "Etihad Airways",
         "destination_iata": "FCO",
         "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
         "destination_city": "Rome",
@@ -1208,6 +1351,17 @@
         "local_departure_time": "13:50",
         "local_arrival_time": "23:35",
         "duration": "06:45"
+    },
+    {
+        "flight_number": "EY571",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "DMM",
+        "destination_airport_name": "Dammam King Fahd International Airport",
+        "destination_city": "Dammam",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "13:55",
+        "local_arrival_time": "14:25",
+        "duration": "01:30"
     },
     {
         "flight_number": "EY655",
@@ -1232,17 +1386,6 @@
         "duration": "07:20"
     },
     {
-        "flight_number": "EY47",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "DUB",
-        "destination_airport_name": "Dublin Airport",
-        "destination_city": "Dublin",
-        "destination_country": "Ireland",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "18:55",
-        "duration": "07:55"
-    },
-    {
         "flight_number": "EY75",
         "airline_name": "Etihad Airways",
         "destination_iata": "MAN",
@@ -1254,30 +1397,8 @@
         "duration": "07:55"
     },
     {
-        "flight_number": "EY222",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "CCU",
-        "destination_airport_name": "Kolkata Subhas Chandra Bose International Airport",
-        "destination_city": "Kolkata",
-        "destination_country": "India",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "20:35",
-        "duration": "05:05"
-    },
-    {
-        "flight_number": "PK262",
-        "airline_name": "Pakistan International Airlines",
-        "destination_iata": "ISB",
-        "destination_airport_name": "Islamabad International Airport",
-        "destination_city": "Islamabad",
-        "destination_country": "Pakistan",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "18:20",
-        "duration": "03:20"
-    },
-    {
         "flight_number": "EY103",
-        "airline_name": "Air Europa",
+        "airline_name": "Etihad Airways",
         "destination_iata": "MAD",
         "destination_airport_name": "Madrid Barajas Airport",
         "destination_city": "Madrid",
@@ -1285,17 +1406,6 @@
         "local_departure_time": "14:00",
         "local_arrival_time": "19:20",
         "duration": "07:20"
-    },
-    {
-        "flight_number": "3L730",
-        "airline_name": "Air Arabia Abu Dhabi",
-        "destination_iata": "GYD",
-        "destination_airport_name": "Baku Heydar Aliyev International Airport",
-        "destination_city": "Baku",
-        "destination_country": "Azerbaijan",
-        "local_departure_time": "14:05",
-        "local_arrival_time": "17:10",
-        "duration": "03:05"
     },
     {
         "flight_number": "EY113",
@@ -1307,6 +1417,17 @@
         "local_departure_time": "14:05",
         "local_arrival_time": "19:20",
         "duration": "07:15"
+    },
+    {
+        "flight_number": "EY41",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "14:05",
+        "local_arrival_time": "19:15",
+        "duration": "07:10"
     },
     {
         "flight_number": "EY67",
@@ -1342,17 +1463,6 @@
         "duration": "04:05"
     },
     {
-        "flight_number": "EY300",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "ISB",
-        "destination_airport_name": "Islamabad International Airport",
-        "destination_city": "Islamabad",
-        "destination_country": "Pakistan",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "18:25",
-        "duration": "03:15"
-    },
-    {
         "flight_number": "EY346",
         "airline_name": "Etihad Airways",
         "destination_iata": "MAA",
@@ -1375,15 +1485,15 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "EY141",
+        "flight_number": "EY300",
         "airline_name": "Etihad Airways",
-        "destination_iata": "ZRH",
-        "destination_airport_name": "Zurich Airport",
-        "destination_city": "Zurich",
-        "destination_country": "Switzerland",
-        "local_departure_time": "14:15",
-        "local_arrival_time": "18:50",
-        "duration": "06:35"
+        "destination_iata": "ISB",
+        "destination_airport_name": "Islamabad International Airport",
+        "destination_city": "Islamabad",
+        "destination_country": "Pakistan",
+        "local_departure_time": "14:10",
+        "local_arrival_time": "18:25",
+        "duration": "03:15"
     },
     {
         "flight_number": "EY216",
@@ -1408,15 +1518,15 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "5W7077",
-        "airline_name": "Wizz Air Abu Dhabi",
-        "destination_iata": "ALA",
-        "destination_airport_name": "Almaty International Airport",
-        "destination_city": "Almaty",
-        "destination_country": "Kazakhstan",
+        "flight_number": "EY141",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "ZRH",
+        "destination_airport_name": "Zurich Airport",
+        "destination_city": "Zurich",
+        "destination_country": "Switzerland",
         "local_departure_time": "14:15",
-        "local_arrival_time": "19:35",
-        "duration": "04:20"
+        "local_arrival_time": "18:50",
+        "duration": "06:35"
     },
     {
         "flight_number": "EY127",
@@ -1441,14 +1551,25 @@
         "duration": "04:45"
     },
     {
+        "flight_number": "EY597",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
+        "local_departure_time": "14:20",
+        "local_arrival_time": "16:45",
+        "duration": "03:25"
+    },
+    {
         "flight_number": "EY123",
         "airline_name": "Etihad Airways",
         "destination_iata": "FRA",
         "destination_airport_name": "Frankfurt Airport",
         "destination_city": "Frankfurt",
         "destination_country": "Germany",
-        "local_departure_time": "14:20",
-        "local_arrival_time": "19:00",
+        "local_departure_time": "14:25",
+        "local_arrival_time": "19:05",
         "duration": "06:40"
     },
     {
@@ -1485,48 +1606,26 @@
         "duration": "06:30"
     },
     {
-        "flight_number": "EY715",
+        "flight_number": "EY9855",
         "airline_name": "Etihad Airways",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
         "local_departure_time": "14:25",
-        "local_arrival_time": "17:15",
-        "duration": "03:50"
+        "local_arrival_time": "02:35 (+1)",
+        "duration": "08:10"
     },
     {
-        "flight_number": "EY597",
+        "flight_number": "EY643",
         "airline_name": "Etihad Airways",
-        "destination_iata": "TLV",
-        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
-        "destination_city": "Tel Aviv",
-        "destination_country": "Israel",
+        "destination_iata": "BAH",
+        "destination_airport_name": "Bahrain International Airport",
+        "destination_city": "Bahrain",
+        "destination_country": "Bahrain",
         "local_departure_time": "14:30",
-        "local_arrival_time": "16:55",
-        "duration": "03:25"
-    },
-    {
-        "flight_number": "EY694",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "15:35",
-        "duration": "01:05"
-    },
-    {
-        "flight_number": "EY843",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "19:20",
-        "duration": "05:50"
+        "local_arrival_time": "14:45",
+        "duration": "01:15"
     },
     {
         "flight_number": "SV573",
@@ -1540,6 +1639,17 @@
         "duration": "01:55"
     },
     {
+        "flight_number": "EY694",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "MCT",
+        "destination_airport_name": "Muscat International Airport",
+        "destination_city": "Muscat",
+        "destination_country": "Oman",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "15:35",
+        "duration": "01:05"
+    },
+    {
         "flight_number": "EY358",
         "airline_name": "Etihad Airways",
         "destination_iata": "HYD",
@@ -1549,17 +1659,6 @@
         "local_departure_time": "14:35",
         "local_arrival_time": "19:50",
         "duration": "03:45"
-    },
-    {
-        "flight_number": "EY583",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "BEY",
-        "destination_airport_name": "Beirut Rafic Hariri International Airport",
-        "destination_city": "Beirut",
-        "destination_country": "Lebanon",
-        "local_departure_time": "14:35",
-        "local_arrival_time": "17:40",
-        "duration": "04:05"
     },
     {
         "flight_number": "EY204",
@@ -1584,6 +1683,17 @@
         "duration": "02:15"
     },
     {
+        "flight_number": "EY843",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "SVO",
+        "destination_airport_name": "Moscow Sheremetyevo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "14:40",
+        "local_arrival_time": "19:30",
+        "duration": "05:50"
+    },
+    {
         "flight_number": "EY288",
         "airline_name": "Etihad Airways",
         "destination_iata": "LHE",
@@ -1595,15 +1705,26 @@
         "duration": "03:15"
     },
     {
-        "flight_number": "5W7005",
-        "airline_name": "Wizz Air",
-        "destination_iata": "LCA",
-        "destination_airport_name": "Larnaca International Airport",
-        "destination_city": "Larnaca",
-        "destination_country": "Cyprus",
-        "local_departure_time": "15:10",
-        "local_arrival_time": "18:30",
-        "duration": "04:20"
+        "flight_number": "3L166",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "CCU",
+        "destination_airport_name": "Kolkata Subhas Chandra Bose International Airport",
+        "destination_city": "Kolkata",
+        "destination_country": "India",
+        "local_departure_time": "14:55",
+        "local_arrival_time": "21:20",
+        "duration": "04:55"
+    },
+    {
+        "flight_number": "PK262",
+        "airline_name": "Pakistan International Airlines",
+        "destination_iata": "ISB",
+        "destination_airport_name": "Islamabad International Airport",
+        "destination_city": "Islamabad",
+        "destination_country": "Pakistan",
+        "local_departure_time": "15:00",
+        "local_arrival_time": "19:15",
+        "duration": "03:15"
     },
     {
         "flight_number": "3L125",
@@ -1657,7 +1778,7 @@
         "destination_city": "Moscow",
         "destination_country": "Russia",
         "local_departure_time": "16:50",
-        "local_arrival_time": "21:45 / 21:50",
+        "local_arrival_time": "21:45",
         "duration": "05:55"
     },
     {
@@ -1670,28 +1791,6 @@
         "local_departure_time": "17:15",
         "local_arrival_time": "18:00",
         "duration": "01:45"
-    },
-    {
-        "flight_number": "IX524",
-        "airline_name": "Air India Express",
-        "destination_iata": "TRV",
-        "destination_airport_name": "Thiruvananthapuram International Airport",
-        "destination_city": "Thiruvananthapuram",
-        "destination_country": "India",
-        "local_departure_time": "17:20",
-        "local_arrival_time": "23:15",
-        "duration": "04:25"
-    },
-    {
-        "flight_number": "5W7159",
-        "airline_name": "Wizz Air Abu Dhabi",
-        "destination_iata": "TAS",
-        "destination_airport_name": "Tashkent International Airport",
-        "destination_city": "Tashkent",
-        "destination_country": "Uzbekistan",
-        "local_departure_time": "17:25",
-        "local_arrival_time": "21:45",
-        "duration": "03:20"
     },
     {
         "flight_number": "XY518",
@@ -1716,17 +1815,6 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "3L32",
-        "airline_name": "Air Arabia Abu Dhabi",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "17:40",
-        "local_arrival_time": "19:50",
-        "duration": "03:10"
-    },
-    {
         "flight_number": "3L431",
         "airline_name": "Air Arabia Abu Dhabi",
         "destination_iata": "CAI",
@@ -1736,6 +1824,17 @@
         "local_departure_time": "17:55",
         "local_arrival_time": "20:45",
         "duration": "03:50"
+    },
+    {
+        "flight_number": "EY9717",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "18:00",
+        "local_arrival_time": "19:05",
+        "duration": "02:05"
     },
     {
         "flight_number": "3L17",
@@ -1758,17 +1857,6 @@
         "local_departure_time": "18:25",
         "local_arrival_time": "23:50",
         "duration": "03:55"
-    },
-    {
-        "flight_number": "5W7159",
-        "airline_name": "Wizz Air Abu Dhabi",
-        "destination_iata": "TAS",
-        "destination_airport_name": "Tashkent International Airport",
-        "destination_city": "Tashkent",
-        "destination_country": "Uzbekistan",
-        "local_departure_time": "18:35",
-        "local_arrival_time": "22:55",
-        "duration": "03:20"
     },
     {
         "flight_number": "3L452",
@@ -1802,28 +1890,6 @@
         "local_departure_time": "18:45",
         "local_arrival_time": "19:30",
         "duration": "01:45"
-    },
-    {
-        "flight_number": "6E1430",
-        "airline_name": "IndiGo",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "18:45",
-        "local_arrival_time": "23:45",
-        "duration": "03:30"
-    },
-    {
-        "flight_number": "3L143",
-        "airline_name": "Air Arabia Abu Dhabi",
-        "destination_iata": "MAA",
-        "destination_airport_name": "Chennai International Airport",
-        "destination_city": "Chennai",
-        "destination_country": "India",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "00:45 (+1)",
-        "duration": "04:20"
     },
     {
         "flight_number": "GF545",
@@ -1888,7 +1954,7 @@
         "destination_city": "Melbourne",
         "destination_country": "Australia",
         "local_departure_time": "20:30",
-        "local_arrival_time": "15:35 (+1)",
+        "local_arrival_time": "16:35 (+1)",
         "duration": "13:05"
     },
     {
@@ -1925,6 +1991,17 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "EY599",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
+        "local_departure_time": "20:40",
+        "local_arrival_time": "23:05",
+        "duration": "03:25"
+    },
+    {
         "flight_number": "EY657",
         "airline_name": "Etihad Airways",
         "destination_iata": "KWI",
@@ -1958,17 +2035,6 @@
         "duration": "06:45"
     },
     {
-        "flight_number": "EY340",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "MAA",
-        "destination_airport_name": "Chennai International Airport",
-        "destination_city": "Chennai",
-        "destination_country": "India",
-        "local_departure_time": "20:50",
-        "local_arrival_time": "02:40 (+1)",
-        "duration": "04:20"
-    },
-    {
         "flight_number": "EY418",
         "airline_name": "Etihad Airways",
         "destination_iata": "KUL",
@@ -1998,19 +2064,30 @@
         "destination_city": "Muscat",
         "destination_country": "Oman",
         "local_departure_time": "20:50",
-        "local_arrival_time": "21:55 / 22:00",
+        "local_arrival_time": "22:00",
         "duration": "01:10"
     },
     {
-        "flight_number": "QP585",
-        "airline_name": "Akasa Air",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
+        "flight_number": "J9132",
+        "airline_name": "Jazeera Airways",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "20:50",
+        "local_arrival_time": "21:30",
+        "duration": "01:40"
+    },
+    {
+        "flight_number": "EY340",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "MAA",
+        "destination_airport_name": "Chennai International Airport",
+        "destination_city": "Chennai",
         "destination_country": "India",
         "local_departure_time": "20:50",
-        "local_arrival_time": "01:55 (+1)",
-        "duration": "03:35"
+        "local_arrival_time": "02:40 (+1)",
+        "duration": "04:20"
     },
     {
         "flight_number": "EY264",
@@ -2035,37 +2112,15 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "EY336",
-        "airline_name": "Etihad Airways",
+        "flight_number": "QP589",
+        "airline_name": "Akasa Air",
         "destination_iata": "COK",
         "destination_airport_name": "Cochin International Airport",
         "destination_city": "Cochin",
         "destination_country": "India",
         "local_departure_time": "21:00",
-        "local_arrival_time": "02:35 (+1)",
-        "duration": "04:05"
-    },
-    {
-        "flight_number": "EY814",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "KIX",
-        "destination_airport_name": "Osaka Kansai International Airport",
-        "destination_city": "Osaka",
-        "destination_country": "Japan",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "11:40 (+1)",
-        "duration": "09:30"
-    },
-    {
-        "flight_number": "EY800",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "12:15 (+1)",
-        "duration": "10:05"
+        "local_arrival_time": "02:50 (+1)",
+        "duration": "04:20"
     },
     {
         "flight_number": "EY822",
@@ -2079,6 +2134,28 @@
         "duration": "08:35"
     },
     {
+        "flight_number": "EY800",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "NRT",
+        "destination_airport_name": "Tokyo Narita International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "21:10",
+        "local_arrival_time": "12:15 (+1)",
+        "duration": "10:05"
+    },
+    {
+        "flight_number": "EY814",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "KIX",
+        "destination_airport_name": "Osaka Kansai International Airport",
+        "destination_city": "Osaka",
+        "destination_country": "Japan",
+        "local_departure_time": "21:10",
+        "local_arrival_time": "11:40 (+1)",
+        "duration": "09:30"
+    },
+    {
         "flight_number": "EY206",
         "airline_name": "Etihad Airways",
         "destination_iata": "BOM",
@@ -2088,6 +2165,17 @@
         "local_departure_time": "21:15",
         "local_arrival_time": "01:55 (+1)",
         "duration": "03:10"
+    },
+    {
+        "flight_number": "EY454",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "21:15",
+        "local_arrival_time": "17:55 (+1)",
+        "duration": "13:40"
     },
     {
         "flight_number": "EY601",
@@ -2101,17 +2189,6 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "EY454",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
-        "local_departure_time": "21:15",
-        "local_arrival_time": "16:55 (+1)",
-        "duration": "13:40"
-    },
-    {
         "flight_number": "EY888",
         "airline_name": "Etihad Airways",
         "destination_iata": "PKX",
@@ -2123,15 +2200,26 @@
         "duration": "07:35"
     },
     {
-        "flight_number": "EY717",
+        "flight_number": "W62358",
+        "airline_name": "Wizz Air",
+        "destination_iata": "BUD",
+        "destination_airport_name": "Budapest Ferenc Liszt International Airport",
+        "destination_city": "Budapest",
+        "destination_country": "Hungary",
+        "local_departure_time": "21:15",
+        "local_arrival_time": "01:10 (+1)",
+        "duration": "05:55"
+    },
+    {
+        "flight_number": "EY898",
         "airline_name": "Etihad Airways",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
+        "destination_iata": "TPE",
+        "destination_airport_name": "Taipei Taoyuan International Airport",
+        "destination_city": "Taipei",
+        "destination_country": "Taiwan",
         "local_departure_time": "21:20",
-        "local_arrival_time": "00:05 (+1)",
-        "duration": "03:45"
+        "local_arrival_time": "09:35 (+1)",
+        "duration": "08:15"
     },
     {
         "flight_number": "EY352",
@@ -2143,6 +2231,28 @@
         "local_departure_time": "21:30",
         "local_arrival_time": "02:40 (+1)",
         "duration": "03:40"
+    },
+    {
+        "flight_number": "EY717",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "21:35",
+        "local_arrival_time": "00:20 (+1)",
+        "duration": "03:45"
+    },
+    {
+        "flight_number": "EY587",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AMM",
+        "destination_airport_name": "Amman Queen Alia International Airport",
+        "destination_city": "Amman",
+        "destination_country": "Jordan",
+        "local_departure_time": "21:40",
+        "local_arrival_time": "23:45",
+        "duration": "03:05"
     },
     {
         "flight_number": "EY402",
@@ -2200,17 +2310,6 @@
         "duration": "03:30"
     },
     {
-        "flight_number": "IX492",
-        "airline_name": "Air India Express",
-        "destination_iata": "BLR",
-        "destination_airport_name": "Bengaluru Kempegowda International Airport",
-        "destination_city": "Bengaluru",
-        "destination_country": "India",
-        "local_departure_time": "22:00",
-        "local_arrival_time": "03:35 (+1)",
-        "duration": "04:05"
-    },
-    {
         "flight_number": "EY474",
         "airline_name": "Etihad Airways",
         "destination_iata": "CGK",
@@ -2222,6 +2321,39 @@
         "duration": "08:35"
     },
     {
+        "flight_number": "ME419",
+        "airline_name": "MEA",
+        "destination_iata": "BEY",
+        "destination_airport_name": "Beirut Rafic Hariri International Airport",
+        "destination_city": "Beirut",
+        "destination_country": "Lebanon",
+        "local_departure_time": "22:00",
+        "local_arrival_time": "00:15 (+1)",
+        "duration": "03:15"
+    },
+    {
+        "flight_number": "IX492",
+        "airline_name": "Air India Express",
+        "destination_iata": "BLR",
+        "destination_airport_name": "Bengaluru Kempegowda International Airport",
+        "destination_city": "Bengaluru",
+        "destination_country": "India",
+        "local_departure_time": "22:00",
+        "local_arrival_time": "03:20 (+1)",
+        "duration": "03:50"
+    },
+    {
+        "flight_number": "BS350",
+        "airline_name": "US-Bangla Airlines",
+        "destination_iata": "DAC",
+        "destination_airport_name": "Dhaka Shahjalal International Airport",
+        "destination_city": "Dhaka",
+        "destination_country": "Bangladesh",
+        "local_departure_time": "22:10",
+        "local_arrival_time": "04:55 (+1)",
+        "duration": "04:45"
+    },
+    {
         "flight_number": "EY218",
         "airline_name": "Etihad Airways",
         "destination_iata": "DEL",
@@ -2231,17 +2363,6 @@
         "local_departure_time": "22:10",
         "local_arrival_time": "03:15 (+1)",
         "duration": "03:35"
-    },
-    {
-        "flight_number": "3L461",
-        "airline_name": "Air Arabia Abu Dhabi",
-        "destination_iata": "CMB",
-        "destination_airport_name": "Colombo Bandaranaike International Airport",
-        "destination_city": "Colombo",
-        "destination_country": "Sri Lanka",
-        "local_departure_time": "22:15",
-        "local_arrival_time": "04:25 (+1)",
-        "duration": "04:40"
     },
     {
         "flight_number": "3L141",
@@ -2266,17 +2387,6 @@
         "duration": "04:20"
     },
     {
-        "flight_number": "EY284",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "LHE",
-        "destination_airport_name": "Lahore Allama Iqbal International Airport",
-        "destination_city": "Lahore",
-        "destination_country": "Pakistan",
-        "local_departure_time": "22:45",
-        "local_arrival_time": "03:05 (+1)",
-        "duration": "03:20"
-    },
-    {
         "flight_number": "QR1053",
         "airline_name": "Qatar Airways",
         "destination_iata": "DOH",
@@ -2299,15 +2409,15 @@
         "duration": "04:05"
     },
     {
-        "flight_number": "5W7033",
-        "airline_name": "Wizz Air Abu Dhabi",
-        "destination_iata": "DMM",
-        "destination_airport_name": "Dammam King Fahd International Airport",
-        "destination_city": "Dammam",
-        "destination_country": "Saudi Arabia",
+        "flight_number": "EY284",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "LHE",
+        "destination_airport_name": "Lahore Allama Iqbal International Airport",
+        "destination_city": "Lahore",
+        "destination_country": "Pakistan",
         "local_departure_time": "22:45",
-        "local_arrival_time": "23:15",
-        "duration": "01:30"
+        "local_arrival_time": "03:05 (+1)",
+        "duration": "03:20"
     },
     {
         "flight_number": "EY440",
@@ -2319,17 +2429,6 @@
         "local_departure_time": "22:50",
         "local_arrival_time": "11:55 (+1)",
         "duration": "09:05"
-    },
-    {
-        "flight_number": "UL208",
-        "airline_name": "SriLankan Airlines",
-        "destination_iata": "CMB",
-        "destination_airport_name": "Colombo Bandaranaike International Airport",
-        "destination_city": "Colombo",
-        "destination_country": "Sri Lanka",
-        "local_departure_time": "23:00",
-        "local_arrival_time": "05:00 (+1)",
-        "duration": "04:30"
     },
     {
         "flight_number": "EY302",
@@ -2354,6 +2453,17 @@
         "duration": "09:20"
     },
     {
+        "flight_number": "EY296",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "KHI",
+        "destination_airport_name": "Karachi Jinnah International Airport",
+        "destination_city": "Karachi",
+        "destination_country": "Pakistan",
+        "local_departure_time": "23:40",
+        "local_arrival_time": "03:00 (+1)",
+        "duration": "02:20"
+    },
+    {
         "flight_number": "6E1408",
         "airline_name": "IndiGo",
         "destination_iata": "HYD",
@@ -2376,15 +2486,15 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "EY296",
+        "flight_number": "EY378",
         "airline_name": "Etihad Airways",
-        "destination_iata": "KHI",
-        "destination_airport_name": "Karachi Jinnah International Airport",
-        "destination_city": "Karachi",
-        "destination_country": "Pakistan",
+        "destination_iata": "MLE",
+        "destination_airport_name": "Male Velana International Airport",
+        "destination_city": "Male",
+        "destination_country": "Maldives",
         "local_departure_time": "23:55",
-        "local_arrival_time": "03:15 (+1)",
-        "duration": "02:20"
+        "local_arrival_time": "05:10 (+1)",
+        "duration": "04:15"
     },
     {
         "flight_number": "IX420",
@@ -2407,16 +2517,5 @@
         "local_departure_time": "23:55",
         "local_arrival_time": "02:45 (+1)",
         "duration": "03:50"
-    },
-    {
-        "flight_number": "EY378",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "MLE",
-        "destination_airport_name": "Male Velana International Airport",
-        "destination_city": "Male",
-        "destination_country": "Maldives",
-        "local_departure_time": "23:55",
-        "local_arrival_time": "05:10 (+1)",
-        "duration": "04:15"
     }
 ]

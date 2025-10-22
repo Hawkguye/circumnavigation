@@ -1,16 +1,5 @@
 [
     {
-        "flight_number": "MU2082",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "XIY",
-        "destination_airport_name": "Xi'an Xianyang International Airport",
-        "destination_city": "Xi'an",
-        "destination_country": "China",
-        "local_departure_time": "00:05",
-        "local_arrival_time": "06:20",
-        "duration": "05:15"
-    },
-    {
         "flight_number": "FM832",
         "airline_name": "Shanghai Airlines",
         "destination_iata": "PVG",
@@ -55,19 +44,8 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "VZ317",
-        "airline_name": "Thai VietJet Air",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "07:35",
-        "local_arrival_time": "09:00",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "FD3036",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -78,7 +56,7 @@
     },
     {
         "flight_number": "FD3002",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -88,15 +66,26 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "DD521",
-        "airline_name": "Nok Air",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "08:35",
-        "local_arrival_time": "10:05",
+        "flight_number": "AK829",
+        "airline_name": "AirAsia",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "08:25",
+        "local_arrival_time": "10:55",
         "duration": "01:30"
+    },
+    {
+        "flight_number": "8M355",
+        "airline_name": "Myanmar Airways International",
+        "destination_iata": "RGN",
+        "destination_airport_name": "Yangon International Airport",
+        "destination_city": "Yangon",
+        "destination_country": "Myanmar (Burma)",
+        "local_departure_time": "08:45",
+        "local_arrival_time": "10:00",
+        "duration": "01:45"
     },
     {
         "flight_number": "G9688",
@@ -132,17 +121,6 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "9C8668",
-        "airline_name": "Spring Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "08:55",
-        "local_arrival_time": "15:10",
-        "duration": "05:15"
-    },
-    {
         "flight_number": "AI379",
         "airline_name": "Air India",
         "destination_iata": "DEL",
@@ -172,12 +150,12 @@
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "09:20",
-        "local_arrival_time": "11:45",
-        "duration": "06:25"
+        "local_arrival_time": "12:05",
+        "duration": "06:45"
     },
     {
         "flight_number": "FD3038",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -185,6 +163,17 @@
         "local_departure_time": "09:20",
         "local_arrival_time": "10:45",
         "duration": "01:25"
+    },
+    {
+        "flight_number": "HH2202",
+        "airline_name": "Qanot Sharq",
+        "destination_iata": "TAS",
+        "destination_airport_name": "Tashkent International Airport",
+        "destination_city": "Tashkent",
+        "destination_country": "Uzbekistan",
+        "local_departure_time": "09:25",
+        "local_arrival_time": "14:15",
+        "duration": "06:50"
     },
     {
         "flight_number": "EY411",
@@ -196,6 +185,17 @@
         "local_departure_time": "09:30",
         "local_arrival_time": "12:40",
         "duration": "06:10"
+    },
+    {
+        "flight_number": "FD3030",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "DMK",
+        "destination_airport_name": "Bangkok Don Mueang International Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "09:30",
+        "local_arrival_time": "11:00",
+        "duration": "01:30"
     },
     {
         "flight_number": "TR659",
@@ -231,6 +231,28 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "N45484",
+        "airline_name": "Nordwind Airlines",
+        "destination_iata": "LED",
+        "destination_airport_name": "St. Petersburg Pulkovo Airport",
+        "destination_city": "St. Petersburg",
+        "destination_country": "Russia",
+        "local_departure_time": "09:50",
+        "local_arrival_time": "16:30",
+        "duration": "10:40"
+    },
+    {
+        "flight_number": "VZ301",
+        "airline_name": "Thai VietJet Air",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "09:50",
+        "local_arrival_time": "11:20",
+        "duration": "01:30"
+    },
+    {
         "flight_number": "SQ725",
         "airline_name": "Singapore Airlines",
         "destination_iata": "SIN",
@@ -242,8 +264,19 @@
         "duration": "02:05"
     },
     {
+        "flight_number": "DE2369",
+        "airline_name": "Condor",
+        "destination_iata": "FRA",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "17:30",
+        "duration": "12:30"
+    },
+    {
         "flight_number": "FD4125",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "BKK",
         "destination_airport_name": "Bangkok Suvarnabhumi Airport",
         "destination_city": "Bangkok",
@@ -303,31 +336,9 @@
         "destination_airport_name": "Moscow Sheremetyevo International Airport",
         "destination_city": "Moscow",
         "destination_country": "Russia",
-        "local_departure_time": "10:35",
-        "local_arrival_time": "16:35",
+        "local_departure_time": "10:35 / 11:05",
+        "local_arrival_time": "16:35 / 17:05",
         "duration": "10:00"
-    },
-    {
-        "flight_number": "WZ3098",
-        "airline_name": "Red Wings",
-        "destination_iata": "DME",
-        "destination_airport_name": "Moscow Domodedovo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "11:00",
-        "local_arrival_time": "17:05",
-        "duration": "10:05"
-    },
-    {
-        "flight_number": "6E1072",
-        "airline_name": "IndiGo",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "11:05",
-        "local_arrival_time": "14:15",
-        "duration": "04:40"
     },
     {
         "flight_number": "AK833",
@@ -363,6 +374,28 @@
         "duration": "03:40"
     },
     {
+        "flight_number": "KC164",
+        "airline_name": "Air Astana",
+        "destination_iata": "NQZ",
+        "destination_airport_name": "Astana Nursultan Nazarbayev International Airport",
+        "destination_city": "Astana",
+        "destination_country": "Kazakhstan",
+        "local_departure_time": "11:30",
+        "local_arrival_time": "18:20",
+        "duration": "08:50"
+    },
+    {
+        "flight_number": "6E1072",
+        "airline_name": "IndiGo",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "11:30",
+        "local_arrival_time": "14:15",
+        "duration": "04:15"
+    },
+    {
         "flight_number": "DD523",
         "airline_name": "Nok Air",
         "destination_iata": "DMK",
@@ -374,26 +407,15 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "FD9161",
-        "airline_name": "AirAsia",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "11:40",
-        "local_arrival_time": "13:05",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "SQ727",
-        "airline_name": "Singapore Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "11:40",
-        "local_arrival_time": "14:55",
-        "duration": "02:15"
+        "flight_number": "N43434",
+        "airline_name": "Nordwind Airlines",
+        "destination_iata": "SVX",
+        "destination_airport_name": "Yekaterinburg Koltsovo International Airport",
+        "destination_city": "Yekaterinburg",
+        "destination_country": "Russia",
+        "local_departure_time": "11:35",
+        "local_arrival_time": "18:20",
+        "duration": "08:45"
     },
     {
         "flight_number": "TG206",
@@ -407,6 +429,28 @@
         "duration": "01:35"
     },
     {
+        "flight_number": "SQ727",
+        "airline_name": "Singapore Airlines",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "11:40",
+        "local_arrival_time": "14:55",
+        "duration": "02:15"
+    },
+    {
+        "flight_number": "SU275",
+        "airline_name": "Aeroflot",
+        "destination_iata": "SVO",
+        "destination_airport_name": "Moscow Sheremetyevo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "11:45 / 12:25",
+        "local_arrival_time": "18:00 / 18:30",
+        "duration": "10:15"
+    },
+    {
         "flight_number": "CX770",
         "airline_name": "Cathay Pacific",
         "destination_iata": "HKG",
@@ -418,17 +462,6 @@
         "duration": "04:00"
     },
     {
-        "flight_number": "SU627",
-        "airline_name": "Aeroflot",
-        "destination_iata": "SVX",
-        "destination_airport_name": "Yekaterinburg Koltsovo International Airport",
-        "destination_city": "Yekaterinburg",
-        "destination_country": "Russia",
-        "local_departure_time": "11:55",
-        "local_arrival_time": "19:10",
-        "duration": "09:15"
-    },
-    {
         "flight_number": "VJ808",
         "airline_name": "VietJet Air",
         "destination_iata": "SGN",
@@ -438,6 +471,17 @@
         "local_departure_time": "11:55",
         "local_arrival_time": "13:50",
         "duration": "01:55"
+    },
+    {
+        "flight_number": "SU627",
+        "airline_name": "Aeroflot",
+        "destination_iata": "SVX",
+        "destination_airport_name": "Yekaterinburg Koltsovo International Airport",
+        "destination_city": "Yekaterinburg",
+        "destination_country": "Russia",
+        "local_departure_time": "11:55",
+        "local_arrival_time": "19:10",
+        "duration": "09:15"
     },
     {
         "flight_number": "SL755",
@@ -473,6 +517,28 @@
         "duration": "01:40"
     },
     {
+        "flight_number": "FD9161",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "12:25",
+        "local_arrival_time": "13:55",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "WZ3098",
+        "airline_name": "Red Wings",
+        "destination_iata": "DME",
+        "destination_airport_name": "Moscow Domodedovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "12:25",
+        "local_arrival_time": "18:30",
+        "duration": "10:05"
+    },
+    {
         "flight_number": "IX109",
         "airline_name": "Air India Express",
         "destination_iata": "HYD",
@@ -480,8 +546,8 @@
         "destination_city": "Hyderabad",
         "destination_country": "India",
         "local_departure_time": "12:40",
-        "local_arrival_time": "15:00",
-        "duration": "03:50"
+        "local_arrival_time": "15:05",
+        "duration": "03:55"
     },
     {
         "flight_number": "6E1754",
@@ -518,7 +584,7 @@
     },
     {
         "flight_number": "FD3026",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -561,17 +627,6 @@
         "duration": "04:40"
     },
     {
-        "flight_number": "VZ2303",
-        "airline_name": "Thai VietJet Air",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "13:35",
-        "local_arrival_time": "15:00",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "AK825",
         "airline_name": "AirAsia",
         "destination_iata": "KUL",
@@ -583,15 +638,26 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "CA414",
-        "airline_name": "Air China",
-        "destination_iata": "TFU",
-        "destination_airport_name": "Chengdu Tianfu International Airport",
-        "destination_city": "Chengdu",
-        "destination_country": "China",
+        "flight_number": "VZ2303",
+        "airline_name": "Thai VietJet Air",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "13:35",
+        "local_arrival_time": "15:00",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "SU629",
+        "airline_name": "Aeroflot",
+        "destination_iata": "LED",
+        "destination_airport_name": "St. Petersburg Pulkovo Airport",
+        "destination_city": "St. Petersburg",
+        "destination_country": "Russia",
         "local_departure_time": "14:00",
-        "local_arrival_time": "19:05",
-        "duration": "04:05"
+        "local_arrival_time": "21:05",
+        "duration": "11:05"
     },
     {
         "flight_number": "MH795",
@@ -605,17 +671,6 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "SU629",
-        "airline_name": "Aeroflot",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "21:10",
-        "duration": "11:00"
-    },
-    {
         "flight_number": "FD4111",
         "airline_name": "Thai AirAsia",
         "destination_iata": "BKK",
@@ -625,6 +680,17 @@
         "local_departure_time": "14:25",
         "local_arrival_time": "16:05",
         "duration": "01:40"
+    },
+    {
+        "flight_number": "JQ72",
+        "airline_name": "Jetstar",
+        "destination_iata": "PER",
+        "destination_airport_name": "Perth Airport",
+        "destination_city": "Perth",
+        "destination_country": "Australia",
+        "local_departure_time": "14:25",
+        "local_arrival_time": "21:45",
+        "duration": "06:20"
     },
     {
         "flight_number": "SL757",
@@ -649,6 +715,39 @@
         "duration": "01:35"
     },
     {
+        "flight_number": "FD4123",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "14:50",
+        "local_arrival_time": "16:20",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "SU277",
+        "airline_name": "Aeroflot",
+        "destination_iata": "SVO",
+        "destination_airport_name": "Moscow Sheremetyevo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "15:00",
+        "local_arrival_time": "21:25",
+        "duration": "10:25"
+    },
+    {
+        "flight_number": "WZ3050",
+        "airline_name": "Red Wings",
+        "destination_iata": "AER",
+        "destination_airport_name": "Sochi International Airport",
+        "destination_city": "Sochi",
+        "destination_country": "Russia",
+        "local_departure_time": "15:05",
+        "local_arrival_time": "19:50",
+        "duration": "08:45"
+    },
+    {
         "flight_number": "SQ731",
         "airline_name": "Singapore Airlines",
         "destination_iata": "SIN",
@@ -661,7 +760,7 @@
     },
     {
         "flight_number": "FD3092",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -693,6 +792,17 @@
         "duration": "01:35"
     },
     {
+        "flight_number": "QP619",
+        "airline_name": "Akasa Air",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "15:35",
+        "local_arrival_time": "18:35",
+        "duration": "04:30"
+    },
+    {
         "flight_number": "VZ2301",
         "airline_name": "Thai VietJet Air",
         "destination_iata": "BKK",
@@ -704,8 +814,19 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "LY88",
+        "airline_name": "El Al",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
+        "local_departure_time": "15:50",
+        "local_arrival_time": "22:30",
+        "duration": "10:40"
+    },
+    {
         "flight_number": "FD3024",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -726,17 +847,6 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "TR655",
-        "airline_name": "Scoot",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "19:30",
-        "duration": "02:00"
-    },
-    {
         "flight_number": "CZ6064",
         "airline_name": "China Southern Airlines",
         "destination_iata": "CAN",
@@ -746,17 +856,6 @@
         "local_departure_time": "16:40",
         "local_arrival_time": "21:20",
         "duration": "03:40"
-    },
-    {
-        "flight_number": "FD3008",
-        "airline_name": "Thai AirAsia",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "16:45",
-        "local_arrival_time": "18:15",
-        "duration": "01:30"
     },
     {
         "flight_number": "6E1082",
@@ -792,6 +891,17 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "FD3008",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "DMK",
+        "destination_airport_name": "Bangkok Don Mueang International Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "17:00",
+        "local_arrival_time": "18:25",
+        "duration": "01:25"
+    },
+    {
         "flight_number": "FD4113",
         "airline_name": "Thai AirAsia",
         "destination_iata": "BKK",
@@ -825,15 +935,26 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "MU574",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "TFU",
-        "destination_airport_name": "Chengdu Tianfu International Airport",
-        "destination_city": "Chengdu",
-        "destination_country": "China",
-        "local_departure_time": "17:35",
-        "local_arrival_time": "23:05",
-        "duration": "04:30"
+        "flight_number": "FD3018",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "DMK",
+        "destination_airport_name": "Bangkok Don Mueang International Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "17:25",
+        "local_arrival_time": "18:55",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "PG284",
+        "airline_name": "Bangkok Airways",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "17:30",
+        "local_arrival_time": "19:00",
+        "duration": "01:30"
     },
     {
         "flight_number": "SQ735",
@@ -847,15 +968,37 @@
         "duration": "02:05"
     },
     {
-        "flight_number": "CX778",
-        "airline_name": "Cathay Pacific",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
+        "flight_number": "MH791",
+        "airline_name": "Malaysia Airlines",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
         "local_departure_time": "18:20",
-        "local_arrival_time": "23:15",
-        "duration": "03:55"
+        "local_arrival_time": "21:00",
+        "duration": "01:40"
+    },
+    {
+        "flight_number": "DD529",
+        "airline_name": "Nok Air",
+        "destination_iata": "DMK",
+        "destination_airport_name": "Bangkok Don Mueang International Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "18:40",
+        "local_arrival_time": "20:15",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "G9715",
+        "airline_name": "Air Arabia",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "18:40",
+        "local_arrival_time": "22:10",
+        "duration": "06:30"
     },
     {
         "flight_number": "SL761",
@@ -869,19 +1012,8 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "DD529",
-        "airline_name": "Nok Air",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "18:50",
-        "local_arrival_time": "20:25",
-        "duration": "01:35"
-    },
-    {
         "flight_number": "MU5094",
-        "airline_name": "China Eastern",
+        "airline_name": "China Eastern Airlines",
         "destination_iata": "KMG",
         "destination_airport_name": "Kunming Changshui International Airport",
         "destination_city": "Kunming",
@@ -889,17 +1021,6 @@
         "local_departure_time": "18:55",
         "local_arrival_time": "23:15",
         "duration": "03:20"
-    },
-    {
-        "flight_number": "SU637",
-        "airline_name": "Aeroflot",
-        "destination_iata": "OVB",
-        "destination_airport_name": "Novosibirsk Tolmachevo Airport",
-        "destination_city": "Novosibirsk",
-        "destination_country": "Russia",
-        "local_departure_time": "19:00",
-        "local_arrival_time": "03:20 (+1)",
-        "duration": "08:20"
     },
     {
         "flight_number": "3U3932",
@@ -924,17 +1045,6 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "AK821",
-        "airline_name": "AirAsia",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "19:20",
-        "local_arrival_time": "22:00",
-        "duration": "01:40"
-    },
-    {
         "flight_number": "CA822",
         "airline_name": "Air China",
         "destination_iata": "PEK",
@@ -957,19 +1067,8 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "MH791",
-        "airline_name": "Malaysia Airlines",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "19:40",
-        "local_arrival_time": "22:20",
-        "duration": "01:40"
-    },
-    {
         "flight_number": "FD3028",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -1002,7 +1101,7 @@
     },
     {
         "flight_number": "QZ247",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "DPS",
         "destination_airport_name": "Denpasar Ngurah Rai International Airport",
         "destination_city": "Denpasar",
@@ -1023,6 +1122,17 @@
         "duration": "02:05"
     },
     {
+        "flight_number": "FD4115",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "20:20",
+        "local_arrival_time": "21:45",
+        "duration": "01:25"
+    },
+    {
         "flight_number": "QR847",
         "airline_name": "Qatar Airways",
         "destination_iata": "DOH",
@@ -1041,8 +1151,19 @@
         "destination_city": "Delhi",
         "destination_country": "India",
         "local_departure_time": "20:25",
-        "local_arrival_time": "23:40",
-        "duration": "04:45"
+        "local_arrival_time": "23:25",
+        "duration": "04:30"
+    },
+    {
+        "flight_number": "FD3010",
+        "airline_name": "Thai AirAsia",
+        "destination_iata": "DMK",
+        "destination_airport_name": "Bangkok Don Mueang International Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "20:30",
+        "local_arrival_time": "21:55",
+        "duration": "01:25"
     },
     {
         "flight_number": "TR653",
@@ -1054,17 +1175,6 @@
         "local_departure_time": "20:35",
         "local_arrival_time": "23:50",
         "duration": "02:15"
-    },
-    {
-        "flight_number": "9C8772",
-        "airline_name": "Spring Airlines",
-        "destination_iata": "CAN",
-        "destination_airport_name": "Guangzhou Baiyun International Airport",
-        "destination_city": "Guangzhou",
-        "destination_country": "China",
-        "local_departure_time": "20:45",
-        "local_arrival_time": "01:45 (+1)",
-        "duration": "04:00"
     },
     {
         "flight_number": "WY832",
@@ -1118,8 +1228,8 @@
         "destination_city": "Seoul",
         "destination_country": "South Korea",
         "local_departure_time": "21:45",
-        "local_arrival_time": "06:05 (+1)",
-        "duration": "06:20"
+        "local_arrival_time": "05:55 (+1)",
+        "duration": "06:10"
     },
     {
         "flight_number": "PG280",
@@ -1144,30 +1254,30 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "SL765",
-        "airline_name": "Thai Lion Air",
+        "flight_number": "FD3032",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
         "destination_country": "Thailand",
-        "local_departure_time": "22:05",
-        "local_arrival_time": "23:30",
-        "duration": "01:25"
+        "local_departure_time": "22:10",
+        "local_arrival_time": "23:40",
+        "duration": "01:30"
     },
     {
-        "flight_number": "FD3032",
-        "airline_name": "AirAsia",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "22:05",
-        "local_arrival_time": "23:40",
-        "duration": "01:35"
+        "flight_number": "VZ762",
+        "airline_name": "Thai VietJet Air",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "22:10",
+        "local_arrival_time": "01:05 (+1)",
+        "duration": "04:25"
     },
     {
         "flight_number": "FD4420",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "BKK",
         "destination_airport_name": "Bangkok Suvarnabhumi Airport",
         "destination_city": "Bangkok",
@@ -1188,17 +1298,6 @@
         "duration": "07:15"
     },
     {
-        "flight_number": "TK173",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "22:15",
-        "local_arrival_time": "05:00 (+1)",
-        "duration": "10:45"
-    },
-    {
         "flight_number": "JQ18",
         "airline_name": "Jetstar",
         "destination_iata": "MEL",
@@ -1206,19 +1305,8 @@
         "destination_city": "Melbourne",
         "destination_country": "Australia",
         "local_departure_time": "22:25",
-        "local_arrival_time": "09:45 (+1)",
+        "local_arrival_time": "10:45 (+1)",
         "duration": "08:20"
-    },
-    {
-        "flight_number": "LJ6",
-        "airline_name": "Jin Air",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "22:50",
-        "local_arrival_time": "07:00 (+1)",
-        "duration": "06:10"
     },
     {
         "flight_number": "6E1090",
@@ -1243,17 +1331,6 @@
         "duration": "05:15"
     },
     {
-        "flight_number": "9C8522",
-        "airline_name": "Spring Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "23:20",
-        "local_arrival_time": "05:40 (+1)",
-        "duration": "05:20"
-    },
-    {
         "flight_number": "KE664",
         "airline_name": "Korean Air",
         "destination_iata": "ICN",
@@ -1263,28 +1340,6 @@
         "local_departure_time": "23:25",
         "local_arrival_time": "07:35 (+1)",
         "duration": "06:10"
-    },
-    {
-        "flight_number": "CZ6058",
-        "airline_name": "China Southern Airlines",
-        "destination_iata": "CAN",
-        "destination_airport_name": "Guangzhou Baiyun International Airport",
-        "destination_city": "Guangzhou",
-        "destination_country": "China",
-        "local_departure_time": "23:30",
-        "local_arrival_time": "04:15 (+1)",
-        "duration": "03:45"
-    },
-    {
-        "flight_number": "UO765",
-        "airline_name": "HK express",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "23:35",
-        "local_arrival_time": "04:20 (+1)",
-        "duration": "03:45"
     },
     {
         "flight_number": "OZ748",
@@ -1298,19 +1353,8 @@
         "duration": "06:20"
     },
     {
-        "flight_number": "FD196",
-        "airline_name": "Thai AirAsia",
-        "destination_iata": "COK",
-        "destination_airport_name": "Cochin International Airport",
-        "destination_city": "Cochin",
-        "destination_country": "India",
-        "local_departure_time": "23:45",
-        "local_arrival_time": "01:50 (+1)",
-        "duration": "03:35"
-    },
-    {
         "flight_number": "FD192",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "MAA",
         "destination_airport_name": "Chennai International Airport",
         "destination_city": "Chennai",
@@ -1329,16 +1373,5 @@
         "local_departure_time": "23:55",
         "local_arrival_time": "03:10 (+1)",
         "duration": "06:15"
-    },
-    {
-        "flight_number": "3U3706",
-        "airline_name": "Sichuan Airlines",
-        "destination_iata": "CKG",
-        "destination_airport_name": "Chongqing Jiangbei International Airport",
-        "destination_city": "Chongqing",
-        "destination_country": "China",
-        "local_departure_time": "23:55",
-        "local_arrival_time": "05:00 (+1)",
-        "duration": "04:05"
     }
 ]

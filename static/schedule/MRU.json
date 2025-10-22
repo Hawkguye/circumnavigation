@@ -11,26 +11,37 @@
         "duration": "04:15"
     },
     {
+        "flight_number": "MK48",
+        "airline_name": "Air Mauritius",
+        "destination_iata": "GVA",
+        "destination_airport_name": "Geneva International Airport",
+        "destination_city": "Geneva",
+        "destination_country": "Switzerland",
+        "local_departure_time": "08:35",
+        "local_arrival_time": "18:00",
+        "duration": "11:25"
+    },
+    {
         "flight_number": "MK851",
         "airline_name": "Air Mauritius",
         "destination_iata": "JNB",
         "destination_airport_name": "Johannesburg OR Tambo International Airport",
         "destination_city": "Johannesburg",
         "destination_country": "South Africa",
-        "local_departure_time": "08:50",
-        "local_arrival_time": "11:25",
+        "local_departure_time": "08:50 / 09:25",
+        "local_arrival_time": "11:25 / 12:00",
         "duration": "04:35"
     },
     {
-        "flight_number": "MK16",
-        "airline_name": "Air Mauritius",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "08:55",
-        "local_arrival_time": "18:50",
-        "duration": "11:55"
+        "flight_number": "WK71",
+        "airline_name": "Edelweiss Air",
+        "destination_iata": "ZRH",
+        "destination_airport_name": "Zurich Airport",
+        "destination_city": "Zurich",
+        "destination_country": "Switzerland",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "18:30",
+        "duration": "11:30"
     },
     {
         "flight_number": "AF473",
@@ -44,6 +55,17 @@
         "duration": "11:40"
     },
     {
+        "flight_number": "6E1862",
+        "airline_name": "IndiGo",
+        "destination_iata": "BLR",
+        "destination_airport_name": "Bengaluru Kempegowda International Airport",
+        "destination_city": "Bengaluru",
+        "destination_country": "India",
+        "local_departure_time": "09:45",
+        "local_arrival_time": "17:30",
+        "duration": "06:15"
+    },
+    {
         "flight_number": "AI2242",
         "airline_name": "Air India",
         "destination_iata": "BOM",
@@ -55,15 +77,15 @@
         "duration": "06:20"
     },
     {
-        "flight_number": "KQ271",
+        "flight_number": "KQ2271",
         "airline_name": "Kenya Airways",
         "destination_iata": "NBO",
         "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
         "destination_city": "Nairobi",
         "destination_country": "Kenya",
-        "local_departure_time": "13:50",
-        "local_arrival_time": "17:10",
-        "duration": "04:20"
+        "local_departure_time": "12:15",
+        "local_arrival_time": "16:10",
+        "duration": "04:55"
     },
     {
         "flight_number": "FA851",
@@ -105,8 +127,8 @@
         "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
         "destination_city": "Mumbai",
         "destination_country": "India",
-        "local_departure_time": "17:05 / 17:35",
-        "local_arrival_time": "01:00 (+1) / 01:30 (+1)",
+        "local_departure_time": "17:05",
+        "local_arrival_time": "01:00 (+1)",
         "duration": "06:25"
     },
     {
@@ -132,17 +154,6 @@
         "duration": "11:55"
     },
     {
-        "flight_number": "SV482",
-        "airline_name": "Saudia",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "20:00",
-        "local_arrival_time": "02:15 (+1)",
-        "duration": "07:15"
-    },
-    {
         "flight_number": "TK161",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
@@ -154,37 +165,26 @@
         "duration": "09:25"
     },
     {
-        "flight_number": "TK177",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "20:05",
-        "local_arrival_time": "04:30 (+1)",
-        "duration": "09:25"
-    },
-    {
-        "flight_number": "BA2064",
-        "airline_name": "British Airways",
-        "destination_iata": "LGW",
-        "destination_airport_name": "London Gatwick Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "20:45",
-        "local_arrival_time": "06:20 (+1)",
-        "duration": "12:35"
-    },
-    {
         "flight_number": "MK42",
         "airline_name": "Air Mauritius",
         "destination_iata": "LGW",
         "destination_airport_name": "London Gatwick Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "21:30",
+        "local_departure_time": "21:35",
         "local_arrival_time": "06:50 (+1)",
-        "duration": "12:20"
+        "duration": "12:15"
+    },
+    {
+        "flight_number": "SS959",
+        "airline_name": "Corsair",
+        "destination_iata": "ORY",
+        "destination_airport_name": "Paris Orly Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "21:45",
+        "local_arrival_time": "07:45 (+1)",
+        "duration": "12:00"
     },
     {
         "flight_number": "EK704",
@@ -204,9 +204,9 @@
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "22:45",
+        "local_departure_time": "22:40 / 22:45",
         "local_arrival_time": "08:35 (+1)",
-        "duration": "11:50"
+        "duration": "11:55"
     },
     {
         "flight_number": "MK646",

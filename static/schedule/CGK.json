@@ -29,7 +29,7 @@
         "destination_city": "Shenzhen",
         "destination_country": "China",
         "local_departure_time": "00:20",
-        "local_arrival_time": "06:55 / 07:00",
+        "local_arrival_time": "06:55",
         "duration": "05:35"
     },
     {
@@ -51,7 +51,7 @@
         "destination_city": "Nanning",
         "destination_country": "China",
         "local_departure_time": "00:30",
-        "local_arrival_time": "05:30 / 05:50",
+        "local_arrival_time": "05:50",
         "duration": "04:20"
     },
     {
@@ -66,17 +66,6 @@
         "duration": "09:35"
     },
     {
-        "flight_number": "EK359",
-        "airline_name": "Emirates",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "00:45",
-        "local_arrival_time": "05:35",
-        "duration": "07:50"
-    },
-    {
         "flight_number": "EY473",
         "airline_name": "Etihad Airways",
         "destination_iata": "AUH",
@@ -88,15 +77,26 @@
         "duration": "08:05"
     },
     {
-        "flight_number": "PR536",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "MNL",
-        "destination_airport_name": "Manila Ninoy Aquino International Airport",
-        "destination_city": "Manila",
-        "destination_country": "Philippines",
-        "local_departure_time": "00:55",
-        "local_arrival_time": "06:20",
-        "duration": "04:25"
+        "flight_number": "EK359",
+        "airline_name": "Emirates",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "00:45",
+        "local_arrival_time": "05:35",
+        "duration": "07:50"
+    },
+    {
+        "flight_number": "MS978",
+        "airline_name": "Egyptair",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "00:50",
+        "local_arrival_time": "07:30",
+        "duration": "10:40"
     },
     {
         "flight_number": "QR955",
@@ -110,15 +110,26 @@
         "duration": "08:25"
     },
     {
-        "flight_number": "GA950",
+        "flight_number": "PR536",
+        "airline_name": "Philippine Airlines",
+        "destination_iata": "MNL",
+        "destination_airport_name": "Manila Ninoy Aquino International Airport",
+        "destination_city": "Manila",
+        "destination_country": "Philippines",
+        "local_departure_time": "00:55",
+        "local_arrival_time": "06:20",
+        "duration": "04:25"
+    },
+    {
+        "flight_number": "GA716",
         "airline_name": "Garuda Indonesia",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "01:05",
-        "local_arrival_time": "06:50",
-        "duration": "09:45"
+        "destination_iata": "MEL",
+        "destination_airport_name": "Melbourne Airport",
+        "destination_city": "Melbourne",
+        "destination_country": "Australia",
+        "local_departure_time": "00:55",
+        "local_arrival_time": "11:15",
+        "duration": "06:20"
     },
     {
         "flight_number": "CI764",
@@ -143,17 +154,6 @@
         "duration": "07:25"
     },
     {
-        "flight_number": "GA716",
-        "airline_name": "Garuda Indonesia",
-        "destination_iata": "MEL",
-        "destination_airport_name": "Melbourne Airport",
-        "destination_city": "Melbourne",
-        "destination_country": "Australia",
-        "local_departure_time": "01:55",
-        "local_arrival_time": "11:15",
-        "duration": "06:20"
-    },
-    {
         "flight_number": "GJ8852",
         "airline_name": "Loong Air",
         "destination_iata": "HAK",
@@ -176,19 +176,30 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "IU730",
-        "airline_name": "Super Air Jet",
+        "flight_number": "JT20",
+        "airline_name": "Lion Air",
         "destination_iata": "DPS",
         "destination_airport_name": "Denpasar Ngurah Rai International Airport",
         "destination_city": "Denpasar",
         "destination_country": "Indonesia",
         "local_departure_time": "04:30",
-        "local_arrival_time": "07:20",
-        "duration": "01:50"
+        "local_arrival_time": "07:25",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "SV823",
+        "airline_name": "Saudia",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "04:55",
+        "local_arrival_time": "10:30",
+        "duration": "09:35"
     },
     {
         "flight_number": "QZ200",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "KUL",
         "destination_airport_name": "Kuala Lumpur International Airport",
         "destination_city": "Kuala Lumpur",
@@ -205,8 +216,8 @@
         "destination_city": "Denpasar",
         "destination_country": "Indonesia",
         "local_departure_time": "05:05",
-        "local_arrival_time": "08:00",
-        "duration": "01:55"
+        "local_arrival_time": "08:01",
+        "duration": "01:56"
     },
     {
         "flight_number": "OD329",
@@ -264,6 +275,28 @@
         "duration": "01:50"
     },
     {
+        "flight_number": "JT30",
+        "airline_name": "Lion Air",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "06:00",
+        "local_arrival_time": "08:55",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "QG682",
+        "airline_name": "Citilink",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "06:05",
+        "local_arrival_time": "09:00",
+        "duration": "01:55"
+    },
+    {
         "flight_number": "NH836",
         "airline_name": "All Nippon Airways",
         "destination_iata": "NRT",
@@ -287,7 +320,7 @@
     },
     {
         "flight_number": "QZ802",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "DPS",
         "destination_airport_name": "Denpasar Ngurah Rai International Airport",
         "destination_city": "Denpasar",
@@ -298,7 +331,7 @@
     },
     {
         "flight_number": "QZ202",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "KUL",
         "destination_airport_name": "Kuala Lumpur International Airport",
         "destination_city": "Kuala Lumpur",
@@ -306,17 +339,6 @@
         "local_departure_time": "06:25",
         "local_arrival_time": "09:35",
         "duration": "02:10"
-    },
-    {
-        "flight_number": "IU756",
-        "airline_name": "Super Air Jet",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "06:30",
-        "local_arrival_time": "09:20",
-        "duration": "01:50"
     },
     {
         "flight_number": "SL117",
@@ -352,28 +374,6 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "ID6050",
-        "airline_name": "Batik Air",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "06:45",
-        "local_arrival_time": "09:35",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "NH872",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "16:30",
-        "duration": "07:30"
-    },
-    {
         "flight_number": "NX909",
         "airline_name": "Air Macau",
         "destination_iata": "MFM",
@@ -385,15 +385,26 @@
         "duration": "04:50"
     },
     {
-        "flight_number": "QZ290",
-        "airline_name": "AirAsia",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "12:55",
-        "duration": "04:55"
+        "flight_number": "JT32",
+        "airline_name": "Lion Air",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "07:00 / 07:01",
+        "local_arrival_time": "09:55",
+        "duration": "01:54"
+    },
+    {
+        "flight_number": "NH872",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "07:00 / 07:01",
+        "local_arrival_time": "16:30",
+        "duration": "07:29"
     },
     {
         "flight_number": "GA402",
@@ -414,34 +425,23 @@
         "destination_city": "Fuzhou",
         "destination_country": "China",
         "local_departure_time": "07:05",
-        "local_arrival_time": "13:55",
-        "duration": "05:50"
+        "local_arrival_time": "13:55 / 14:00",
+        "duration": "05:55"
     },
     {
-        "flight_number": "QZ262",
-        "airline_name": "Indonesia AirAsia",
+        "flight_number": "IP88",
+        "airline_name": "Pelita Air",
         "destination_iata": "SIN",
         "destination_airport_name": "Singapore Changi Airport",
         "destination_city": "Singapore",
         "destination_country": "Singapore",
-        "local_departure_time": "07:05",
-        "local_arrival_time": "09:50",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "ID7633",
-        "airline_name": "Batik Air",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
         "local_departure_time": "07:10",
-        "local_arrival_time": "10:45",
-        "duration": "03:35"
+        "local_arrival_time": "10:00",
+        "duration": "01:50"
     },
     {
         "flight_number": "QZ250",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -449,17 +449,6 @@
         "local_departure_time": "07:15",
         "local_arrival_time": "10:50",
         "duration": "03:35"
-    },
-    {
-        "flight_number": "IU740",
-        "airline_name": "Super Air Jet",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "07:40",
-        "local_arrival_time": "10:30",
-        "duration": "01:50"
     },
     {
         "flight_number": "ID7153",
@@ -482,17 +471,6 @@
         "local_departure_time": "07:55",
         "local_arrival_time": "10:45",
         "duration": "01:50"
-    },
-    {
-        "flight_number": "QG682",
-        "airline_name": "Citilink",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "10:55",
-        "duration": "01:55"
     },
     {
         "flight_number": "SQ953",
@@ -540,7 +518,7 @@
     },
     {
         "flight_number": "QZ266",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "SIN",
         "destination_airport_name": "Singapore Changi Airport",
         "destination_city": "Singapore",
@@ -594,6 +572,17 @@
         "duration": "01:45"
     },
     {
+        "flight_number": "GA968",
+        "airline_name": "Garuda Indonesia",
+        "destination_iata": "MED",
+        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
+        "destination_city": "Medina",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "14:35",
+        "duration": "09:35"
+    },
+    {
         "flight_number": "QR959",
         "airline_name": "Qatar Airways",
         "destination_iata": "DOH",
@@ -603,17 +592,6 @@
         "local_departure_time": "09:00",
         "local_arrival_time": "13:25",
         "duration": "08:25"
-    },
-    {
-        "flight_number": "MH712",
-        "airline_name": "Malaysia Airlines",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "12:25",
-        "duration": "02:15"
     },
     {
         "flight_number": "SV817",
@@ -647,6 +625,17 @@
         "local_departure_time": "09:10",
         "local_arrival_time": "12:00",
         "duration": "01:50"
+    },
+    {
+        "flight_number": "MH712",
+        "airline_name": "Malaysia Airlines",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "09:10",
+        "local_arrival_time": "12:25",
+        "duration": "02:15"
     },
     {
         "flight_number": "OD319",
@@ -726,15 +715,26 @@
         "duration": "03:30"
     },
     {
-        "flight_number": "IU752",
-        "airline_name": "Super Air Jet",
+        "flight_number": "JT34",
+        "airline_name": "Lion Air",
         "destination_iata": "DPS",
         "destination_airport_name": "Denpasar Ngurah Rai International Airport",
         "destination_city": "Denpasar",
         "destination_country": "Indonesia",
         "local_departure_time": "09:40",
-        "local_arrival_time": "12:30",
-        "duration": "01:50"
+        "local_arrival_time": "12:35",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "QG686",
+        "airline_name": "Citilink",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "09:50",
+        "local_arrival_time": "12:45",
+        "duration": "01:55"
     },
     {
         "flight_number": "ID7282",
@@ -749,7 +749,7 @@
     },
     {
         "flight_number": "QZ204",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "KUL",
         "destination_airport_name": "Kuala Lumpur International Airport",
         "destination_city": "Kuala Lumpur",
@@ -757,6 +757,17 @@
         "local_departure_time": "10:05",
         "local_arrival_time": "13:15",
         "duration": "02:10"
+    },
+    {
+        "flight_number": "JT24",
+        "airline_name": "Lion Air",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "10:25",
+        "local_arrival_time": "13:20",
+        "duration": "01:55"
     },
     {
         "flight_number": "8B5106",
@@ -770,26 +781,26 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "QG686",
-        "airline_name": "Citilink",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "10:30",
-        "local_arrival_time": "13:25",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "IU734",
-        "airline_name": "Super Air Jet",
+        "flight_number": "ID8050",
+        "airline_name": "Batik Air",
         "destination_iata": "DPS",
         "destination_airport_name": "Denpasar Ngurah Rai International Airport",
         "destination_city": "Denpasar",
         "destination_country": "Indonesia",
         "local_departure_time": "10:40",
-        "local_arrival_time": "13:30",
-        "duration": "01:50"
+        "local_arrival_time": "13:35",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "ID6050",
+        "airline_name": "Batik Air",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "10:40",
+        "local_arrival_time": "13:35",
+        "duration": "01:55"
     },
     {
         "flight_number": "ID7155",
@@ -814,6 +825,17 @@
         "duration": "02:10"
     },
     {
+        "flight_number": "JT22",
+        "airline_name": "Lion Air",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "11:10",
+        "local_arrival_time": "14:05",
+        "duration": "01:55"
+    },
+    {
         "flight_number": "MH710",
         "airline_name": "Malaysia Airlines",
         "destination_iata": "KUL",
@@ -826,7 +848,7 @@
     },
     {
         "flight_number": "QZ264",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "SIN",
         "destination_airport_name": "Singapore Changi Airport",
         "destination_city": "Singapore",
@@ -844,39 +866,6 @@
         "destination_country": "Singapore",
         "local_departure_time": "11:15",
         "local_arrival_time": "14:05",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "JT22",
-        "airline_name": "Lion Air",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "11:20",
-        "local_arrival_time": "14:10",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "QG502",
-        "airline_name": "Citilink",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "11:30",
-        "local_arrival_time": "14:45",
-        "duration": "02:15"
-    },
-    {
-        "flight_number": "IU758",
-        "airline_name": "Super Air Jet",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "11:40",
-        "local_arrival_time": "14:30",
         "duration": "01:50"
     },
     {
@@ -913,6 +902,17 @@
         "duration": "01:45"
     },
     {
+        "flight_number": "GA980",
+        "airline_name": "Garuda Indonesia",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "11:50",
+        "local_arrival_time": "17:40",
+        "duration": "09:50"
+    },
+    {
         "flight_number": "QZ814",
         "airline_name": "Indonesia AirAsia",
         "destination_iata": "DPS",
@@ -922,28 +922,6 @@
         "local_departure_time": "11:55",
         "local_arrival_time": "14:50",
         "duration": "01:55"
-    },
-    {
-        "flight_number": "GA990",
-        "airline_name": "Garuda Indonesia",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "17:50",
-        "duration": "09:50"
-    },
-    {
-        "flight_number": "SV865",
-        "airline_name": "Saudia",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "17:00",
-        "duration": "09:00"
     },
     {
         "flight_number": "IP108",
@@ -958,7 +936,7 @@
     },
     {
         "flight_number": "QZ254",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -979,15 +957,15 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "JX762",
-        "airline_name": "Starlux",
-        "destination_iata": "TPE",
-        "destination_airport_name": "Taipei Taoyuan International Airport",
-        "destination_city": "Taipei",
-        "destination_country": "Taiwan",
-        "local_departure_time": "12:15",
-        "local_arrival_time": "18:55",
-        "duration": "05:40"
+        "flight_number": "JT110",
+        "airline_name": "Lion Air",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "12:10",
+        "local_arrival_time": "18:20",
+        "duration": "10:10"
     },
     {
         "flight_number": "MH716",
@@ -999,6 +977,17 @@
         "local_departure_time": "12:15",
         "local_arrival_time": "15:25",
         "duration": "02:10"
+    },
+    {
+        "flight_number": "JX762",
+        "airline_name": "Starlux",
+        "destination_iata": "TPE",
+        "destination_airport_name": "Taipei Taoyuan International Airport",
+        "destination_city": "Taipei",
+        "destination_country": "Taiwan",
+        "local_departure_time": "12:15",
+        "local_arrival_time": "18:55",
+        "duration": "05:40"
     },
     {
         "flight_number": "TR269",
@@ -1023,6 +1012,17 @@
         "duration": "01:45"
     },
     {
+        "flight_number": "OD315",
+        "airline_name": "Batik Air Malaysia",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "12:30",
+        "local_arrival_time": "15:45",
+        "duration": "02:15"
+    },
+    {
         "flight_number": "TG434",
         "airline_name": "Thai Airways",
         "destination_iata": "BKK",
@@ -1032,17 +1032,6 @@
         "local_departure_time": "12:35",
         "local_arrival_time": "16:05",
         "duration": "03:30"
-    },
-    {
-        "flight_number": "QG682",
-        "airline_name": "Citilink",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "12:40",
-        "local_arrival_time": "15:40",
-        "duration": "02:00"
     },
     {
         "flight_number": "AK352",
@@ -1056,19 +1045,8 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "IU742",
-        "airline_name": "Super Air Jet",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "12:40",
-        "local_arrival_time": "15:30",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "QZ806",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "DPS",
         "destination_airport_name": "Denpasar Ngurah Rai International Airport",
         "destination_city": "Denpasar",
@@ -1076,6 +1054,17 @@
         "local_departure_time": "12:45",
         "local_arrival_time": "15:45",
         "duration": "02:00"
+    },
+    {
+        "flight_number": "IU742",
+        "airline_name": "Super Air Jet",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "13:00",
+        "local_arrival_time": "15:55",
+        "duration": "01:55"
     },
     {
         "flight_number": "BI736",
@@ -1122,6 +1111,17 @@
         "duration": "03:10"
     },
     {
+        "flight_number": "MF868",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "XMN",
+        "destination_airport_name": "Xiamen Gaoqi International Airport",
+        "destination_city": "Xiamen",
+        "destination_country": "China",
+        "local_departure_time": "13:35",
+        "local_arrival_time": "20:05",
+        "duration": "05:30"
+    },
+    {
         "flight_number": "SV821",
         "airline_name": "Saudia",
         "destination_iata": "MED",
@@ -1155,15 +1155,26 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "QZ256",
-        "airline_name": "AirAsia",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "14:15",
-        "local_arrival_time": "17:50",
-        "duration": "03:35"
+        "flight_number": "IU758",
+        "airline_name": "Super Air Jet",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "14:05",
+        "local_arrival_time": "17:00",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "MF858",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "FOC",
+        "destination_airport_name": "Fuzhou Changle International Airport",
+        "destination_city": "Fuzhou",
+        "destination_country": "China",
+        "local_departure_time": "14:10",
+        "local_arrival_time": "20:05",
+        "duration": "04:55"
     },
     {
         "flight_number": "CX776",
@@ -1210,6 +1221,17 @@
         "duration": "05:25"
     },
     {
+        "flight_number": "CI5870",
+        "airline_name": "China Airlines",
+        "destination_iata": "HAN",
+        "destination_airport_name": "Hanoi Noi Bai International Airport",
+        "destination_city": "Hanoi",
+        "destination_country": "Vietnam",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "18:45",
+        "duration": "04:15"
+    },
+    {
         "flight_number": "SQ959",
         "airline_name": "Singapore Airlines",
         "destination_iata": "SIN",
@@ -1219,17 +1241,6 @@
         "local_departure_time": "14:30",
         "local_arrival_time": "17:25",
         "duration": "01:55"
-    },
-    {
-        "flight_number": "GA4004",
-        "airline_name": "Garuda Indonesia",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "17:30",
-        "duration": "02:00"
     },
     {
         "flight_number": "AK385",
@@ -1254,17 +1265,6 @@
         "duration": "05:30"
     },
     {
-        "flight_number": "IU736",
-        "airline_name": "Super Air Jet",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "14:50",
-        "local_arrival_time": "17:40",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "WY850",
         "airline_name": "Oman Air",
         "destination_iata": "MCT",
@@ -1287,30 +1287,8 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "QG688",
-        "airline_name": "Citilink",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "15:20",
-        "local_arrival_time": "18:15",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "GA414",
-        "airline_name": "Garuda Indonesia",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "18:25",
-        "duration": "01:55"
-    },
-    {
         "flight_number": "QZ808",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "DPS",
         "destination_airport_name": "Denpasar Ngurah Rai International Airport",
         "destination_city": "Denpasar",
@@ -1331,6 +1309,17 @@
         "duration": "01:45"
     },
     {
+        "flight_number": "JT26",
+        "airline_name": "Lion Air",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "15:40",
+        "local_arrival_time": "18:35",
+        "duration": "01:55"
+    },
+    {
         "flight_number": "6E1602",
         "airline_name": "IndiGo",
         "destination_iata": "BOM",
@@ -1342,26 +1331,37 @@
         "duration": "06:20"
     },
     {
-        "flight_number": "IU754",
-        "airline_name": "Super Air Jet",
+        "flight_number": "GA982",
+        "airline_name": "Garuda Indonesia",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "15:55",
+        "local_arrival_time": "21:45",
+        "duration": "09:50"
+    },
+    {
+        "flight_number": "GA414",
+        "airline_name": "Garuda Indonesia",
         "destination_iata": "DPS",
         "destination_airport_name": "Denpasar Ngurah Rai International Airport",
         "destination_city": "Denpasar",
         "destination_country": "Indonesia",
-        "local_departure_time": "15:50",
-        "local_arrival_time": "18:40",
-        "duration": "01:50"
+        "local_departure_time": "16:00",
+        "local_arrival_time": "18:55",
+        "duration": "01:55"
     },
     {
-        "flight_number": "GA868",
-        "airline_name": "Garuda Indonesia",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "15:55",
-        "local_arrival_time": "19:30",
-        "duration": "03:35"
+        "flight_number": "JT10",
+        "airline_name": "Lion Air",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "16:00",
+        "local_arrival_time": "18:55",
+        "duration": "01:55"
     },
     {
         "flight_number": "MH720",
@@ -1376,7 +1376,7 @@
     },
     {
         "flight_number": "QZ260",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "SIN",
         "destination_airport_name": "Singapore Changi Airport",
         "destination_city": "Singapore",
@@ -1384,6 +1384,28 @@
         "local_departure_time": "16:10",
         "local_arrival_time": "19:00",
         "duration": "01:50"
+    },
+    {
+        "flight_number": "QG688",
+        "airline_name": "Citilink",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "16:20",
+        "local_arrival_time": "19:15",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "OD349",
+        "airline_name": "Batik Air Malaysia",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "16:30",
+        "local_arrival_time": "19:45",
+        "duration": "02:15"
     },
     {
         "flight_number": "QG502",
@@ -1397,15 +1419,15 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "QZ252",
-        "airline_name": "AirAsia",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "16:35",
-        "local_arrival_time": "20:10",
-        "duration": "03:35"
+        "flight_number": "OD311",
+        "airline_name": "Batik Air Malaysia",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "16:45",
+        "local_arrival_time": "20:00",
+        "duration": "02:15"
     },
     {
         "flight_number": "GA420",
@@ -1452,15 +1474,15 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "QZ528",
-        "airline_name": "AirAsia",
-        "destination_iata": "BWN",
-        "destination_airport_name": "Brunei International Airport",
-        "destination_city": "Brunei",
-        "destination_country": "Brunei",
-        "local_departure_time": "17:25",
-        "local_arrival_time": "21:00",
-        "duration": "02:35"
+        "flight_number": "JT2781",
+        "airline_name": "Lion Air",
+        "destination_iata": "SYX",
+        "destination_airport_name": "Sanya Phoenix International Airport",
+        "destination_city": "Sanya",
+        "destination_country": "China",
+        "local_departure_time": "17:15",
+        "local_arrival_time": "22:20",
+        "duration": "04:05"
     },
     {
         "flight_number": "SV819",
@@ -1508,7 +1530,7 @@
     },
     {
         "flight_number": "QZ210",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "KUL",
         "destination_airport_name": "Kuala Lumpur International Airport",
         "destination_city": "Kuala Lumpur",
@@ -1516,28 +1538,6 @@
         "local_departure_time": "17:50",
         "local_arrival_time": "21:00",
         "duration": "02:10"
-    },
-    {
-        "flight_number": "IU744",
-        "airline_name": "Super Air Jet",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "17:55",
-        "local_arrival_time": "20:45",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "TR271",
-        "airline_name": "Scoot",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "17:55",
-        "local_arrival_time": "20:45",
-        "duration": "01:50"
     },
     {
         "flight_number": "IP104",
@@ -1551,15 +1551,15 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "QG8850",
-        "airline_name": "Citilink",
-        "destination_iata": "CKG",
-        "destination_airport_name": "Chongqing Jiangbei International Airport",
-        "destination_city": "Chongqing",
-        "destination_country": "China",
-        "local_departure_time": "18:05",
-        "local_arrival_time": "01:00 (+1)",
-        "duration": "05:55"
+        "flight_number": "SJ272",
+        "airline_name": "SkyJet",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "18:00",
+        "local_arrival_time": "20:50",
+        "duration": "01:50"
     },
     {
         "flight_number": "SQ963",
@@ -1574,7 +1574,7 @@
     },
     {
         "flight_number": "QZ818",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "DPS",
         "destination_airport_name": "Denpasar Ngurah Rai International Airport",
         "destination_city": "Denpasar",
@@ -1628,17 +1628,6 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "QZ258",
-        "airline_name": "AirAsia",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "22:05",
-        "duration": "03:35"
-    },
-    {
         "flight_number": "GA900",
         "airline_name": "Garuda Indonesia",
         "destination_iata": "DOH",
@@ -1661,15 +1650,15 @@
         "duration": "04:35"
     },
     {
-        "flight_number": "GA822",
-        "airline_name": "Garuda Indonesia",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
+        "flight_number": "JT12",
+        "airline_name": "Lion Air",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
         "local_departure_time": "19:00",
-        "local_arrival_time": "22:15",
-        "duration": "02:15"
+        "local_arrival_time": "21:55",
+        "duration": "01:55"
     },
     {
         "flight_number": "TG436",
@@ -1681,28 +1670,6 @@
         "local_departure_time": "19:00",
         "local_arrival_time": "22:30",
         "duration": "03:30"
-    },
-    {
-        "flight_number": "QG660",
-        "airline_name": "Citilink",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "19:00",
-        "local_arrival_time": "21:55",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "GA418",
-        "airline_name": "Garuda Indonesia",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "19:00",
-        "local_arrival_time": "21:55",
-        "duration": "01:55"
     },
     {
         "flight_number": "EY475",
@@ -1725,6 +1692,17 @@
         "local_departure_time": "19:10",
         "local_arrival_time": "01:25 (+1)",
         "duration": "05:15"
+    },
+    {
+        "flight_number": "HU702",
+        "airline_name": "Hainan Airlines",
+        "destination_iata": "HAK",
+        "destination_airport_name": "Haikou Meilan International Airport",
+        "destination_city": "Haikou",
+        "destination_country": "China",
+        "local_departure_time": "19:15",
+        "local_arrival_time": "00:35 (+1)",
+        "duration": "04:20"
     },
     {
         "flight_number": "SQ965",
@@ -1761,7 +1739,7 @@
     },
     {
         "flight_number": "QZ810",
-        "airline_name": "AirAsia",
+        "airline_name": "Indonesia AirAsia",
         "destination_iata": "DPS",
         "destination_airport_name": "Denpasar Ngurah Rai International Airport",
         "destination_city": "Denpasar",
@@ -1793,6 +1771,17 @@
         "duration": "01:50"
     },
     {
+        "flight_number": "OD313",
+        "airline_name": "Batik Air Malaysia",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "23:25",
+        "duration": "02:15"
+    },
+    {
         "flight_number": "8B5110",
         "airline_name": "TransNusa",
         "destination_iata": "DPS",
@@ -1802,17 +1791,6 @@
         "local_departure_time": "20:10",
         "local_arrival_time": "23:00",
         "duration": "01:50"
-    },
-    {
-        "flight_number": "OD313",
-        "airline_name": "Batik Air Malaysia",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "20:10 / 20:50",
-        "local_arrival_time": "00:05 (+1) / 23:25",
-        "duration": "02:15"
     },
     {
         "flight_number": "SQ967",
@@ -1837,15 +1815,15 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "SL119",
-        "airline_name": "Thai Lion Air",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
+        "flight_number": "ET629",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
         "destination_city": "Bangkok",
         "destination_country": "Thailand",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "23:55",
-        "duration": "03:25"
+        "local_departure_time": "20:35",
+        "local_arrival_time": "00:20 (+1)",
+        "duration": "03:45"
     },
     {
         "flight_number": "3U9016",
@@ -1877,7 +1855,7 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "20:45",
-        "local_arrival_time": "06:30 (+1)",
+        "local_arrival_time": "07:30 (+1)",
         "duration": "06:45"
     },
     {
@@ -1890,17 +1868,6 @@
         "local_departure_time": "21:00",
         "local_arrival_time": "04:55 (+1)",
         "duration": "11:55"
-    },
-    {
-        "flight_number": "QF40",
-        "airline_name": "Qantas",
-        "destination_iata": "MEL",
-        "destination_airport_name": "Melbourne Airport",
-        "destination_city": "Melbourne",
-        "destination_country": "Australia",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "06:25 (+1)",
-        "duration": "06:25"
     },
     {
         "flight_number": "AK354",
@@ -1943,8 +1910,8 @@
         "destination_city": "Seoul",
         "destination_country": "South Korea",
         "local_departure_time": "21:50",
-        "local_arrival_time": "07:15 (+1)",
-        "duration": "07:25"
+        "local_arrival_time": "07:05 (+1)",
+        "duration": "07:15"
     },
     {
         "flight_number": "JL726",
@@ -1958,17 +1925,6 @@
         "duration": "07:30"
     },
     {
-        "flight_number": "ET629",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "22:00",
-        "local_arrival_time": "00:50 (+1)",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "GA88",
         "airline_name": "Garuda Indonesia",
         "destination_iata": "AMS",
@@ -1978,17 +1934,6 @@
         "local_departure_time": "22:00",
         "local_arrival_time": "07:50 (+1)",
         "duration": "14:50"
-    },
-    {
-        "flight_number": "TR273",
-        "airline_name": "Scoot",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "22:25",
-        "local_arrival_time": "01:15 (+1)",
-        "duration": "01:50"
     },
     {
         "flight_number": "CA476",
@@ -2086,12 +2031,12 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "23:55",
-        "local_arrival_time": "09:45 (+1)",
+        "local_arrival_time": "10:45 (+1)",
         "duration": "06:50"
     },
     {
         "flight_number": "8K801",
-        "airline_name": "K-Mile Air",
+        "airline_name": "Exploits Valley Air Services",
         "destination_iata": "SIN",
         "destination_airport_name": "Singapore Changi Airport",
         "destination_city": "Singapore",

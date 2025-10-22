@@ -1,5 +1,16 @@
 [
     {
+        "flight_number": "EK313",
+        "airline_name": "Emirates",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "00:05",
+        "local_arrival_time": "06:20",
+        "duration": "11:15"
+    },
+    {
         "flight_number": "HO1386",
         "airline_name": "Juneyao Air",
         "destination_iata": "PVG",
@@ -11,19 +22,8 @@
         "duration": "03:10"
     },
     {
-        "flight_number": "EK313",
-        "airline_name": "Emirates",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "00:05",
-        "local_arrival_time": "05:45",
-        "duration": "10:40"
-    },
-    {
         "flight_number": "JL35",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "SIN",
         "destination_airport_name": "Singapore Changi Airport",
         "destination_city": "Singapore",
@@ -44,17 +44,6 @@
         "duration": "06:30"
     },
     {
-        "flight_number": "JL41",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "LHR",
-        "destination_airport_name": "London Heathrow Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "00:20",
-        "local_arrival_time": "06:25",
-        "duration": "14:05"
-    },
-    {
         "flight_number": "TG661",
         "airline_name": "Thai Airways",
         "destination_iata": "BKK",
@@ -66,6 +55,17 @@
         "duration": "06:30"
     },
     {
+        "flight_number": "JL41",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "00:20",
+        "local_arrival_time": "06:25",
+        "duration": "14:05"
+    },
+    {
         "flight_number": "NH106",
         "airline_name": "All Nippon Airways",
         "destination_iata": "LAX",
@@ -73,8 +73,8 @@
         "destination_city": "Los Angeles",
         "destination_country": "United States",
         "local_departure_time": "00:30",
-        "local_arrival_time": "19:10 (-1)",
-        "duration": "10:40"
+        "local_arrival_time": "18:45 (-1)",
+        "duration": "10:15"
     },
     {
         "flight_number": "NH843",
@@ -99,37 +99,15 @@
         "duration": "04:40"
     },
     {
-        "flight_number": "9C8516",
-        "airline_name": "Spring Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "01:05",
-        "local_arrival_time": "03:10",
-        "duration": "03:05"
-    },
-    {
-        "flight_number": "GS7990",
-        "airline_name": "Tianjin Airlines",
-        "destination_iata": "TSN",
-        "destination_airport_name": "Tianjin Binhai International Airport",
-        "destination_city": "Tianjin",
-        "destination_country": "China",
-        "local_departure_time": "01:30",
-        "local_arrival_time": "03:55",
-        "duration": "03:25"
-    },
-    {
         "flight_number": "JL33",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "BKK",
         "destination_airport_name": "Bangkok Suvarnabhumi Airport",
         "destination_city": "Bangkok",
         "destination_country": "Thailand",
-        "local_departure_time": "01:30",
+        "local_departure_time": "01:20",
         "local_arrival_time": "05:50",
-        "duration": "06:20"
+        "duration": "06:30"
     },
     {
         "flight_number": "OZ177",
@@ -143,6 +121,17 @@
         "duration": "02:40"
     },
     {
+        "flight_number": "JL79",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "SGN",
+        "destination_airport_name": "Ho Chi Minh City International Airport",
+        "destination_city": "Ho Chi Minh City",
+        "destination_country": "Vietnam",
+        "local_departure_time": "01:30",
+        "local_arrival_time": "05:25",
+        "duration": "05:55"
+    },
+    {
         "flight_number": "NH877",
         "airline_name": "All Nippon Airways",
         "destination_iata": "BKK",
@@ -154,37 +143,15 @@
         "duration": "06:30"
     },
     {
-        "flight_number": "JL79",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "SGN",
-        "destination_airport_name": "Ho Chi Minh City International Airport",
-        "destination_city": "Ho Chi Minh City",
-        "destination_country": "Vietnam",
-        "local_departure_time": "01:50",
-        "local_arrival_time": "05:25",
-        "duration": "05:35"
-    },
-    {
-        "flight_number": "PR423",
-        "airline_name": "Philippine Airlines",
+        "flight_number": "JL77",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "MNL",
         "destination_airport_name": "Manila Ninoy Aquino International Airport",
         "destination_city": "Manila",
         "destination_country": "Philippines",
         "local_departure_time": "01:55",
-        "local_arrival_time": "05:40",
-        "duration": "04:45"
-    },
-    {
-        "flight_number": "JL77",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "MNL",
-        "destination_airport_name": "Manila Ninoy Aquino International Airport",
-        "destination_city": "Manila",
-        "destination_country": "Philippines",
-        "local_departure_time": "02:00",
         "local_arrival_time": "05:35",
-        "duration": "04:35"
+        "duration": "04:40"
     },
     {
         "flight_number": "KE720",
@@ -221,7 +188,7 @@
     },
     {
         "flight_number": "UO629",
-        "airline_name": "Hong Kong Express",
+        "airline_name": "HK express",
         "destination_iata": "HKG",
         "destination_airport_name": "Hong Kong International Airport",
         "destination_city": "Hong Kong",
@@ -229,17 +196,6 @@
         "local_departure_time": "02:30",
         "local_arrival_time": "06:10",
         "duration": "04:40"
-    },
-    {
-        "flight_number": "MF8710",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "TSN",
-        "destination_airport_name": "Tianjin Binhai International Airport",
-        "destination_city": "Tianjin",
-        "destination_country": "China",
-        "local_departure_time": "02:30",
-        "local_arrival_time": "05:00",
-        "duration": "03:30"
     },
     {
         "flight_number": "MM877",
@@ -282,8 +238,8 @@
         "destination_city": "Taipei",
         "destination_country": "Taiwan",
         "local_departure_time": "05:25",
-        "local_arrival_time": "08:00",
-        "duration": "03:35"
+        "local_arrival_time": "08:01",
+        "duration": "03:36"
     },
     {
         "flight_number": "MM859",
@@ -308,17 +264,6 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "HD139",
-        "airline_name": "Air Do",
-        "destination_iata": "CTS",
-        "destination_airport_name": "Sapporo New Chitose Airport",
-        "destination_city": "Sapporo",
-        "destination_country": "Japan",
-        "local_departure_time": "06:20",
-        "local_arrival_time": "07:55",
-        "duration": "01:35"
-    },
-    {
         "flight_number": "NH239",
         "airline_name": "All Nippon Airways",
         "destination_iata": "FUK",
@@ -326,8 +271,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "06:20",
-        "local_arrival_time": "08:05",
-        "duration": "01:45"
+        "local_arrival_time": "08:10",
+        "duration": "01:50"
     },
     {
         "flight_number": "NH987",
@@ -342,18 +287,18 @@
     },
     {
         "flight_number": "JL303",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "FUK",
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "06:25",
-        "local_arrival_time": "08:10",
-        "duration": "01:45"
+        "local_arrival_time": "08:15",
+        "duration": "01:50"
     },
     {
         "flight_number": "JL501",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
@@ -403,8 +348,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "06:50",
-        "local_arrival_time": "08:35",
-        "duration": "01:45"
+        "local_arrival_time": "08:40",
+        "duration": "01:50"
     },
     {
         "flight_number": "HD11",
@@ -425,8 +370,19 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "06:55",
-        "local_arrival_time": "18:00",
+        "local_arrival_time": "19:00",
         "duration": "10:05"
+    },
+    {
+        "flight_number": "NH4711",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "06:55",
+        "local_arrival_time": "08:25",
+        "duration": "01:30"
     },
     {
         "flight_number": "NH51",
@@ -446,9 +402,20 @@
         "destination_airport_name": "Osaka Kansai International Airport",
         "destination_city": "Osaka",
         "destination_country": "Japan",
-        "local_departure_time": "07:10",
-        "local_arrival_time": "08:25",
+        "local_departure_time": "07:05",
+        "local_arrival_time": "08:20",
         "duration": "01:15"
+    },
+    {
+        "flight_number": "JL305",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "07:10",
+        "local_arrival_time": "08:59 / 09:01",
+        "duration": "01:51"
     },
     {
         "flight_number": "NH93",
@@ -462,17 +429,6 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "JL305",
-        "airline_name": "Jet Linx Aviation",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "07:20",
-        "local_arrival_time": "09:00",
-        "duration": "01:40"
-    },
-    {
         "flight_number": "JL503",
         "airline_name": "Jet Linx Aviation",
         "destination_iata": "CTS",
@@ -480,8 +436,8 @@
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "07:20",
-        "local_arrival_time": "08:55",
-        "duration": "01:35"
+        "local_arrival_time": "08:50",
+        "duration": "01:30"
     },
     {
         "flight_number": "NH241",
@@ -491,8 +447,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "07:30",
-        "local_arrival_time": "09:20",
-        "duration": "01:50"
+        "local_arrival_time": "09:25",
+        "duration": "01:55"
     },
     {
         "flight_number": "BC3",
@@ -524,8 +480,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "08:00",
-        "local_arrival_time": "09:50",
-        "duration": "01:50"
+        "local_arrival_time": "09:55",
+        "duration": "01:55"
     },
     {
         "flight_number": "NH53",
@@ -546,8 +502,8 @@
         "destination_city": "Nagoya",
         "destination_country": "Japan",
         "local_departure_time": "08:05",
-        "local_arrival_time": "09:00",
-        "duration": "00:55"
+        "local_arrival_time": "09:05",
+        "duration": "01:00"
     },
     {
         "flight_number": "JL505",
@@ -572,15 +528,15 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "NH219",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
+        "flight_number": "7G57",
+        "airline_name": "Starflyer",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
         "local_departure_time": "08:15",
-        "local_arrival_time": "15:25",
-        "duration": "13:10"
+        "local_arrival_time": "10:10",
+        "duration": "01:55"
     },
     {
         "flight_number": "BC705",
@@ -594,17 +550,6 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "CA184",
-        "airline_name": "Air China",
-        "destination_iata": "PEK",
-        "destination_airport_name": "Beijing Capital International Airport",
-        "destination_city": "Beijing",
-        "destination_country": "China",
-        "local_departure_time": "08:30",
-        "local_arrival_time": "11:15",
-        "duration": "03:45"
-    },
-    {
         "flight_number": "NH243",
         "airline_name": "All Nippon Airways",
         "destination_iata": "FUK",
@@ -612,8 +557,19 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "08:30",
-        "local_arrival_time": "10:15",
-        "duration": "01:45"
+        "local_arrival_time": "10:20",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "CA184",
+        "airline_name": "Air China",
+        "destination_iata": "PEK",
+        "destination_airport_name": "Beijing Capital International Airport",
+        "destination_city": "Beijing",
+        "destination_country": "China",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "11:00",
+        "duration": "03:30"
     },
     {
         "flight_number": "NH889",
@@ -623,7 +579,7 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "08:35",
-        "local_arrival_time": "19:15",
+        "local_arrival_time": "20:15",
         "duration": "09:40"
     },
     {
@@ -732,9 +688,9 @@
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
         "destination_country": "Japan",
-        "local_departure_time": "09:00",
+        "local_departure_time": "09:00 / 09:01",
         "local_arrival_time": "10:35",
-        "duration": "01:35"
+        "duration": "01:34"
     },
     {
         "flight_number": "NH245",
@@ -743,9 +699,31 @@
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "10:45",
-        "duration": "01:45"
+        "local_departure_time": "09:00 / 09:01",
+        "local_arrival_time": "10:50",
+        "duration": "01:49"
+    },
+    {
+        "flight_number": "JL309",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "09:05",
+        "local_arrival_time": "11:00",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "JL311",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "09:10",
+        "local_arrival_time": "11:05",
+        "duration": "01:55"
     },
     {
         "flight_number": "NH923",
@@ -757,28 +735,6 @@
         "local_departure_time": "09:10",
         "local_arrival_time": "13:05",
         "duration": "04:55"
-    },
-    {
-        "flight_number": "JL309",
-        "airline_name": "Jet Linx Aviation",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "11:00",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "JL311",
-        "airline_name": "Jet Linx Aviation",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "09:15",
-        "local_arrival_time": "11:05",
-        "duration": "01:50"
     },
     {
         "flight_number": "SQ631",
@@ -793,7 +749,7 @@
     },
     {
         "flight_number": "JL81",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "SHA",
         "destination_airport_name": "Shanghai Hongqiao International Airport",
         "destination_city": "Shanghai",
@@ -815,7 +771,7 @@
     },
     {
         "flight_number": "JL23",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "DLC",
         "destination_airport_name": "Dalian Zhoushuizi International Airport",
         "destination_city": "Dalian",
@@ -880,19 +836,8 @@
         "duration": "14:45"
     },
     {
-        "flight_number": "NH949",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "TAO",
-        "destination_airport_name": "Qingdao Jiaodong International Airport",
-        "destination_city": "Qingdao",
-        "destination_country": "China",
-        "local_departure_time": "09:45",
-        "local_arrival_time": "12:30",
-        "duration": "03:45"
-    },
-    {
         "flight_number": "JL43",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "LHR",
         "destination_airport_name": "London Heathrow Airport",
         "destination_city": "London",
@@ -909,8 +854,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "09:45",
-        "local_arrival_time": "11:30",
-        "duration": "01:45"
+        "local_arrival_time": "11:35",
+        "duration": "01:50"
     },
     {
         "flight_number": "NH869",
@@ -924,8 +869,19 @@
         "duration": "04:45"
     },
     {
+        "flight_number": "NH949",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "TAO",
+        "destination_airport_name": "Qingdao Jiaodong International Airport",
+        "destination_city": "Qingdao",
+        "destination_country": "China",
+        "local_departure_time": "09:45",
+        "local_arrival_time": "12:30",
+        "duration": "03:45"
+    },
+    {
         "flight_number": "JL509",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
@@ -936,7 +892,7 @@
     },
     {
         "flight_number": "JL29",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "HKG",
         "destination_airport_name": "Hong Kong International Airport",
         "destination_city": "Hong Kong",
@@ -957,17 +913,6 @@
         "duration": "14:25"
     },
     {
-        "flight_number": "JL313",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "10:00",
-        "local_arrival_time": "11:50",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "NH59",
         "airline_name": "All Nippon Airways",
         "destination_iata": "CTS",
@@ -977,6 +922,17 @@
         "local_departure_time": "10:00",
         "local_arrival_time": "11:35",
         "duration": "01:35"
+    },
+    {
+        "flight_number": "JL313",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "11:55",
+        "duration": "01:55"
     },
     {
         "flight_number": "CX543",
@@ -1034,8 +990,19 @@
         "duration": "01:55"
     },
     {
+        "flight_number": "NH4719",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "10:15",
+        "local_arrival_time": "11:45",
+        "duration": "01:30"
+    },
+    {
         "flight_number": "JL45",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "CDG",
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
@@ -1068,14 +1035,14 @@
     },
     {
         "flight_number": "JL511",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "10:30",
-        "local_arrival_time": "12:05",
-        "duration": "01:35"
+        "local_arrival_time": "12:00",
+        "duration": "01:30"
     },
     {
         "flight_number": "NH249",
@@ -1085,8 +1052,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "10:30",
-        "local_arrival_time": "12:20",
-        "duration": "01:50"
+        "local_arrival_time": "12:25",
+        "duration": "01:55"
     },
     {
         "flight_number": "TG683",
@@ -1101,7 +1068,7 @@
     },
     {
         "flight_number": "JL31",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "BKK",
         "destination_airport_name": "Bangkok Suvarnabhumi Airport",
         "destination_city": "Bangkok",
@@ -1156,25 +1123,25 @@
     },
     {
         "flight_number": "JL12",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "DFW",
         "destination_airport_name": "Dallas Fort Worth International Airport",
         "destination_city": "Dallas",
         "destination_country": "United States",
         "local_departure_time": "10:55",
-        "local_arrival_time": "08:35",
-        "duration": "11:40"
+        "local_arrival_time": "08:30",
+        "duration": "11:35"
     },
     {
         "flight_number": "JL39",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "DEL",
         "destination_airport_name": "Delhi Indira Gandhi International Airport",
         "destination_city": "Delhi",
         "destination_country": "India",
         "local_departure_time": "10:55",
-        "local_arrival_time": "16:00",
-        "duration": "08:35"
+        "local_arrival_time": "16:45",
+        "duration": "09:20"
     },
     {
         "flight_number": "NH841",
@@ -1186,6 +1153,17 @@
         "local_departure_time": "10:55",
         "local_arrival_time": "17:15",
         "duration": "07:20"
+    },
+    {
+        "flight_number": "JL315",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "11:00",
+        "local_arrival_time": "12:55",
+        "duration": "01:55"
     },
     {
         "flight_number": "BC711",
@@ -1210,26 +1188,26 @@
         "duration": "01:35"
     },
     {
+        "flight_number": "NH837",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "11:00",
+        "local_arrival_time": "16:30",
+        "duration": "09:00"
+    },
+    {
         "flight_number": "JL6",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "JFK",
         "destination_airport_name": "New York John F. Kennedy International Airport",
         "destination_city": "New York",
         "destination_country": "United States",
         "local_departure_time": "11:05",
-        "local_arrival_time": "11:05",
-        "duration": "13:00"
-    },
-    {
-        "flight_number": "JL315",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "11:05",
-        "local_arrival_time": "12:50",
-        "duration": "01:45"
+        "local_arrival_time": "11:00",
+        "duration": "12:55"
     },
     {
         "flight_number": "NH965",
@@ -1241,17 +1219,6 @@
         "local_departure_time": "11:10",
         "local_arrival_time": "15:10",
         "duration": "05:00"
-    },
-    {
-        "flight_number": "NH837",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
-        "destination_country": "India",
-        "local_departure_time": "11:10",
-        "local_arrival_time": "16:30",
-        "duration": "08:50"
     },
     {
         "flight_number": "BC9",
@@ -1276,19 +1243,30 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "NH4721",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "11:15",
+        "local_arrival_time": "12:45",
+        "duration": "01:30"
+    },
+    {
         "flight_number": "JL513",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "11:20",
-        "local_arrival_time": "13:00",
-        "duration": "01:40"
+        "local_arrival_time": "12:55",
+        "duration": "01:35"
     },
     {
         "flight_number": "JL37",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "SIN",
         "destination_airport_name": "Singapore Changi Airport",
         "destination_city": "Singapore",
@@ -1299,14 +1277,14 @@
     },
     {
         "flight_number": "JL10",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "ORD",
         "destination_airport_name": "Chicago O'Hare International Airport",
         "destination_city": "Chicago",
         "destination_country": "United States",
         "local_departure_time": "11:30",
-        "local_arrival_time": "09:15",
-        "duration": "11:45"
+        "local_arrival_time": "09:05",
+        "duration": "11:35"
     },
     {
         "flight_number": "SK984",
@@ -1320,17 +1298,6 @@
         "duration": "13:35"
     },
     {
-        "flight_number": "JL85",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "11:40",
-        "local_arrival_time": "14:00",
-        "duration": "03:20"
-    },
-    {
         "flight_number": "NH251",
         "airline_name": "All Nippon Airways",
         "destination_iata": "FUK",
@@ -1338,8 +1305,19 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "11:40",
-        "local_arrival_time": "13:25",
-        "duration": "01:45"
+        "local_arrival_time": "13:30",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "JL85",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
+        "local_departure_time": "11:40",
+        "local_arrival_time": "14:00",
+        "duration": "03:20"
     },
     {
         "flight_number": "GA875",
@@ -1382,8 +1360,8 @@
         "destination_city": "Delhi",
         "destination_country": "India",
         "local_departure_time": "11:50",
-        "local_arrival_time": "16:55",
-        "duration": "08:35"
+        "local_arrival_time": "17:25",
+        "duration": "09:05"
     },
     {
         "flight_number": "AA170",
@@ -1398,14 +1376,14 @@
     },
     {
         "flight_number": "JL317",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "FUK",
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "12:00",
-        "local_arrival_time": "13:45",
-        "duration": "01:45"
+        "local_arrival_time": "13:55",
+        "duration": "01:55"
     },
     {
         "flight_number": "NH63",
@@ -1459,8 +1437,19 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "12:30",
-        "local_arrival_time": "14:15",
-        "duration": "01:45"
+        "local_arrival_time": "14:25",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "JL515",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "12:35",
+        "local_arrival_time": "14:10",
+        "duration": "01:35"
     },
     {
         "flight_number": "BC13",
@@ -1472,17 +1461,6 @@
         "local_departure_time": "12:35",
         "local_arrival_time": "14:30",
         "duration": "01:55"
-    },
-    {
-        "flight_number": "JL515",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "CTS",
-        "destination_airport_name": "Sapporo New Chitose Airport",
-        "destination_city": "Sapporo",
-        "destination_country": "Japan",
-        "local_departure_time": "12:40",
-        "local_arrival_time": "14:15",
-        "duration": "01:35"
     },
     {
         "flight_number": "AZ793",
@@ -1536,8 +1514,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "13:00",
-        "local_arrival_time": "14:45",
-        "duration": "01:45"
+        "local_arrival_time": "14:55",
+        "duration": "01:55"
     },
     {
         "flight_number": "BA6",
@@ -1569,8 +1547,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "13:25",
-        "local_arrival_time": "15:10",
-        "duration": "01:45"
+        "local_arrival_time": "15:15",
+        "duration": "01:50"
     },
     {
         "flight_number": "JL517",
@@ -1580,8 +1558,8 @@
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "13:30",
-        "local_arrival_time": "15:05",
-        "duration": "01:35"
+        "local_arrival_time": "15:00",
+        "duration": "01:30"
     },
     {
         "flight_number": "FM816",
@@ -1608,6 +1586,17 @@
     {
         "flight_number": "HD25",
         "airline_name": "Air Do",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "13:50",
+        "local_arrival_time": "15:25",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "NH4725",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
@@ -1646,8 +1635,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "14:00",
-        "local_arrival_time": "15:45",
-        "duration": "01:45"
+        "local_arrival_time": "15:50",
+        "duration": "01:50"
     },
     {
         "flight_number": "NH67",
@@ -1679,8 +1668,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "14:20",
-        "local_arrival_time": "16:05",
-        "duration": "01:45"
+        "local_arrival_time": "16:10",
+        "duration": "01:50"
     },
     {
         "flight_number": "JL519",
@@ -1716,6 +1705,17 @@
         "duration": "01:35"
     },
     {
+        "flight_number": "NH259",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "15:00",
+        "local_arrival_time": "16:55",
+        "duration": "01:55"
+    },
+    {
         "flight_number": "NH69",
         "airline_name": "All Nippon Airways",
         "destination_iata": "CTS",
@@ -1725,28 +1725,6 @@
         "local_departure_time": "15:00",
         "local_arrival_time": "16:30",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "NH259",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "15:00",
-        "local_arrival_time": "16:50",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "BC19",
-        "airline_name": "Skymark Airlines",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "15:05",
-        "local_arrival_time": "17:00",
-        "duration": "01:55"
     },
     {
         "flight_number": "PR421",
@@ -1760,15 +1738,15 @@
         "duration": "04:40"
     },
     {
-        "flight_number": "DL274",
-        "airline_name": "Delta Air Lines",
-        "destination_iata": "DTW",
-        "destination_airport_name": "Detroit Metropolitan Wayne County Airport",
-        "destination_city": "Detroit",
-        "destination_country": "United States",
-        "local_departure_time": "15:15",
-        "local_arrival_time": "14:25",
-        "duration": "12:10"
+        "flight_number": "BC19",
+        "airline_name": "Skymark Airlines",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "15:05",
+        "local_arrival_time": "17:00",
+        "duration": "01:55"
     },
     {
         "flight_number": "JL323",
@@ -1777,9 +1755,20 @@
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
-        "local_departure_time": "15:15",
-        "local_arrival_time": "17:05",
+        "local_departure_time": "15:10",
+        "local_arrival_time": "17:00",
         "duration": "01:50"
+    },
+    {
+        "flight_number": "DL274",
+        "airline_name": "Delta Air Lines",
+        "destination_iata": "DTW",
+        "destination_airport_name": "Detroit Metropolitan Wayne County Airport",
+        "destination_city": "Detroit",
+        "destination_country": "United States",
+        "local_departure_time": "15:15",
+        "local_arrival_time": "14:15",
+        "duration": "12:00"
     },
     {
         "flight_number": "7G25",
@@ -1794,14 +1783,14 @@
     },
     {
         "flight_number": "JL521",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
         "destination_country": "Japan",
-        "local_departure_time": "15:35",
-        "local_arrival_time": "17:10",
-        "duration": "01:35"
+        "local_departure_time": "15:30",
+        "local_arrival_time": "17:00",
+        "duration": "01:30"
     },
     {
         "flight_number": "CZ386",
@@ -1815,6 +1804,17 @@
         "duration": "04:35"
     },
     {
+        "flight_number": "NH261",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "15:45",
+        "local_arrival_time": "17:40",
+        "duration": "01:55"
+    },
+    {
         "flight_number": "CZ648",
         "airline_name": "China Southern Airlines",
         "destination_iata": "PKX",
@@ -1826,17 +1826,6 @@
         "duration": "04:00"
     },
     {
-        "flight_number": "NH261",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "15:45",
-        "local_arrival_time": "17:35",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "UA804",
         "airline_name": "United Airlines",
         "destination_iata": "IAD",
@@ -1844,12 +1833,23 @@
         "destination_city": "Washington",
         "destination_country": "United States",
         "local_departure_time": "15:45",
-        "local_arrival_time": "15:45",
-        "duration": "13:00"
+        "local_arrival_time": "15:35",
+        "duration": "12:50"
     },
     {
         "flight_number": "HD29",
         "airline_name": "Air Do",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "15:50",
+        "local_arrival_time": "17:20",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "NH4729",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
@@ -1866,8 +1866,8 @@
         "destination_city": "San Francisco",
         "destination_country": "United States",
         "local_departure_time": "15:50",
-        "local_arrival_time": "09:45",
-        "duration": "09:55"
+        "local_arrival_time": "09:30",
+        "duration": "09:40"
     },
     {
         "flight_number": "7G51",
@@ -1881,17 +1881,6 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "JL325",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "17:50",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "CA134",
         "airline_name": "Air China",
         "destination_iata": "PEK",
@@ -1899,8 +1888,19 @@
         "destination_city": "Beijing",
         "destination_country": "China",
         "local_departure_time": "16:00",
-        "local_arrival_time": "19:00",
-        "duration": "04:00"
+        "local_arrival_time": "18:45",
+        "duration": "03:45"
+    },
+    {
+        "flight_number": "JL325",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "16:00",
+        "local_arrival_time": "17:55",
+        "duration": "01:55"
     },
     {
         "flight_number": "NH71",
@@ -1921,8 +1921,8 @@
         "destination_city": "Seattle",
         "destination_country": "United States",
         "local_departure_time": "16:05",
-        "local_arrival_time": "09:45",
-        "duration": "09:40"
+        "local_arrival_time": "09:10",
+        "duration": "09:05"
     },
     {
         "flight_number": "BC21",
@@ -1936,17 +1936,6 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "DL120",
-        "airline_name": "Delta Air Lines",
-        "destination_iata": "MSP",
-        "destination_airport_name": "Minneapolis Saint Paul International Airport",
-        "destination_city": "Minneapolis",
-        "destination_country": "United States",
-        "local_departure_time": "16:20",
-        "local_arrival_time": "13:58",
-        "duration": "11:38"
-    },
-    {
         "flight_number": "NH263",
         "airline_name": "All Nippon Airways",
         "destination_iata": "FUK",
@@ -1954,8 +1943,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "16:20",
-        "local_arrival_time": "18:15",
-        "duration": "01:55"
+        "local_arrival_time": "18:20",
+        "duration": "02:00"
     },
     {
         "flight_number": "CX549",
@@ -1969,15 +1958,26 @@
         "duration": "04:40"
     },
     {
+        "flight_number": "DL120",
+        "airline_name": "Delta Air Lines",
+        "destination_iata": "MSP",
+        "destination_airport_name": "Minneapolis Saint Paul International Airport",
+        "destination_city": "Minneapolis",
+        "destination_country": "United States",
+        "local_departure_time": "16:20",
+        "local_arrival_time": "13:40",
+        "duration": "11:20"
+    },
+    {
         "flight_number": "JL2",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "SFO",
         "destination_airport_name": "San Francisco International Airport",
         "destination_city": "San Francisco",
         "destination_country": "United States",
         "local_departure_time": "16:25",
-        "local_arrival_time": "10:05",
-        "duration": "09:40"
+        "local_arrival_time": "09:45",
+        "duration": "09:20"
     },
     {
         "flight_number": "7G27",
@@ -1991,17 +1991,6 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "JL523",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "CTS",
-        "destination_airport_name": "Sapporo New Chitose Airport",
-        "destination_city": "Sapporo",
-        "destination_country": "Japan",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "18:10",
-        "duration": "01:40"
-    },
-    {
         "flight_number": "AA176",
         "airline_name": "American Airlines",
         "destination_iata": "DFW",
@@ -2009,8 +1998,19 @@
         "destination_city": "Dallas",
         "destination_country": "United States",
         "local_departure_time": "16:30",
-        "local_arrival_time": "14:40",
-        "duration": "12:10"
+        "local_arrival_time": "14:20",
+        "duration": "11:50"
+    },
+    {
+        "flight_number": "JL523",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "16:30",
+        "local_arrival_time": "18:05",
+        "duration": "01:35"
     },
     {
         "flight_number": "DL294",
@@ -2020,8 +2020,8 @@
         "destination_city": "Atlanta",
         "destination_country": "United States",
         "local_departure_time": "16:35",
-        "local_arrival_time": "16:30",
-        "duration": "12:55"
+        "local_arrival_time": "16:10",
+        "duration": "12:35"
     },
     {
         "flight_number": "VN385",
@@ -2031,8 +2031,8 @@
         "destination_city": "Hanoi",
         "destination_country": "Vietnam",
         "local_departure_time": "16:35",
-        "local_arrival_time": "20:00",
-        "duration": "05:25"
+        "local_arrival_time": "20:05",
+        "duration": "05:30"
     },
     {
         "flight_number": "JL25",
@@ -2057,17 +2057,6 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "JL16",
-        "airline_name": "Jet Linx Aviation",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "17:00",
-        "local_arrival_time": "11:20",
-        "duration": "10:20"
-    },
-    {
         "flight_number": "NH73",
         "airline_name": "All Nippon Airways",
         "destination_iata": "CTS",
@@ -2079,6 +2068,17 @@
         "duration": "01:40"
     },
     {
+        "flight_number": "JL16",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "LAX",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States",
+        "local_departure_time": "17:00",
+        "local_arrival_time": "10:55",
+        "duration": "09:55"
+    },
+    {
         "flight_number": "NH265",
         "airline_name": "All Nippon Airways",
         "destination_iata": "FUK",
@@ -2086,8 +2086,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "17:00",
-        "local_arrival_time": "19:00",
-        "duration": "02:00"
+        "local_arrival_time": "19:05",
+        "duration": "02:05"
     },
     {
         "flight_number": "JL327",
@@ -2097,8 +2097,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "17:05",
-        "local_arrival_time": "19:00",
-        "duration": "01:55"
+        "local_arrival_time": "19:05",
+        "duration": "02:00"
     },
     {
         "flight_number": "SQ633",
@@ -2119,8 +2119,8 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "17:10",
-        "local_arrival_time": "19:25",
-        "duration": "03:15"
+        "local_arrival_time": "19:20",
+        "duration": "03:10"
     },
     {
         "flight_number": "UA882",
@@ -2130,8 +2130,8 @@
         "destination_city": "Chicago",
         "destination_country": "United States",
         "local_departure_time": "17:15",
-        "local_arrival_time": "15:20",
-        "duration": "12:05"
+        "local_arrival_time": "15:10",
+        "duration": "11:55"
     },
     {
         "flight_number": "NH963",
@@ -2145,17 +2145,6 @@
         "duration": "03:55"
     },
     {
-        "flight_number": "JL89",
-        "airline_name": "Jet Linx Aviation",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "17:25",
-        "local_arrival_time": "19:45",
-        "duration": "03:20"
-    },
-    {
         "flight_number": "BC23",
         "airline_name": "Skymark Airlines",
         "destination_iata": "FUK",
@@ -2167,6 +2156,17 @@
         "duration": "02:00"
     },
     {
+        "flight_number": "JL89",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
+        "local_departure_time": "17:25",
+        "local_arrival_time": "19:45",
+        "duration": "03:20"
+    },
+    {
         "flight_number": "JL525",
         "airline_name": "Jet Linx Aviation",
         "destination_iata": "CTS",
@@ -2174,8 +2174,8 @@
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "17:30",
-        "local_arrival_time": "19:10",
-        "duration": "01:40"
+        "local_arrival_time": "19:05",
+        "duration": "01:35"
     },
     {
         "flight_number": "MU790",
@@ -2200,6 +2200,17 @@
         "duration": "13:25"
     },
     {
+        "flight_number": "UA130",
+        "airline_name": "United Airlines",
+        "destination_iata": "EWR",
+        "destination_airport_name": "New York Newark Liberty International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States",
+        "local_departure_time": "17:45",
+        "local_arrival_time": "17:55",
+        "duration": "13:10"
+    },
+    {
         "flight_number": "NH891",
         "airline_name": "All Nippon Airways",
         "destination_iata": "SGN",
@@ -2209,17 +2220,6 @@
         "local_departure_time": "17:45",
         "local_arrival_time": "21:55",
         "duration": "06:10"
-    },
-    {
-        "flight_number": "UA130",
-        "airline_name": "United Airlines",
-        "destination_iata": "EWR",
-        "destination_airport_name": "New York Newark Liberty International Airport",
-        "destination_city": "New York",
-        "destination_country": "United States",
-        "local_departure_time": "17:45",
-        "local_arrival_time": "17:50",
-        "duration": "13:05"
     },
     {
         "flight_number": "HD31",
@@ -2234,7 +2234,7 @@
     },
     {
         "flight_number": "JL329",
-        "airline_name": "Jet Linx Aviation",
+        "airline_name": "Japan Airlines",
         "destination_iata": "FUK",
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
@@ -2306,8 +2306,8 @@
         "destination_city": "Los Angeles",
         "destination_country": "United States",
         "local_departure_time": "18:25",
-        "local_arrival_time": "13:00",
-        "duration": "10:35"
+        "local_arrival_time": "12:35",
+        "duration": "10:10"
     },
     {
         "flight_number": "UA38",
@@ -2317,19 +2317,19 @@
         "destination_city": "Los Angeles",
         "destination_country": "United States",
         "local_departure_time": "18:25",
-        "local_arrival_time": "12:45",
-        "duration": "10:20"
+        "local_arrival_time": "12:40",
+        "duration": "10:15"
     },
     {
         "flight_number": "JL4",
-        "airline_name": "Jet Linx Aviation",
+        "airline_name": "Japan Airlines",
         "destination_iata": "JFK",
         "destination_airport_name": "New York John F. Kennedy International Airport",
         "destination_city": "New York",
         "destination_country": "United States",
         "local_departure_time": "18:30",
-        "local_arrival_time": "18:30",
-        "duration": "13:00"
+        "local_arrival_time": "18:25",
+        "duration": "12:55"
     },
     {
         "flight_number": "7G53",
@@ -2355,14 +2355,14 @@
     },
     {
         "flight_number": "JL527",
-        "airline_name": "Jet Linx Aviation",
+        "airline_name": "Japan Airlines",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "18:40",
-        "local_arrival_time": "20:15",
-        "duration": "01:35"
+        "local_arrival_time": "20:10",
+        "duration": "01:30"
     },
     {
         "flight_number": "BC25",
@@ -2377,7 +2377,7 @@
     },
     {
         "flight_number": "JL331",
-        "airline_name": "Jet Linx Aviation",
+        "airline_name": "Japan Airlines",
         "destination_iata": "FUK",
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
@@ -2389,6 +2389,17 @@
     {
         "flight_number": "HD35",
         "airline_name": "Air Do",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "18:50",
+        "local_arrival_time": "20:20",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "NH4735",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
@@ -2416,8 +2427,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "19:00",
-        "local_arrival_time": "20:45",
-        "duration": "01:45"
+        "local_arrival_time": "20:50",
+        "duration": "01:50"
     },
     {
         "flight_number": "JL333",
@@ -2426,9 +2437,9 @@
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "21:00",
-        "duration": "01:50"
+        "local_departure_time": "19:15",
+        "local_arrival_time": "21:10",
+        "duration": "01:55"
     },
     {
         "flight_number": "CA168",
@@ -2460,8 +2471,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "19:20",
-        "local_arrival_time": "21:10",
-        "duration": "01:50"
+        "local_arrival_time": "21:15",
+        "duration": "01:55"
     },
     {
         "flight_number": "JL335",
@@ -2470,9 +2481,9 @@
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
-        "local_departure_time": "19:35",
+        "local_departure_time": "19:30",
         "local_arrival_time": "21:30",
-        "duration": "01:55"
+        "duration": "02:00"
     },
     {
         "flight_number": "NH273",
@@ -2493,7 +2504,7 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "19:40",
-        "local_arrival_time": "06:20 (+1)",
+        "local_arrival_time": "07:20 (+1)",
         "duration": "09:40"
     },
     {
@@ -2515,8 +2526,8 @@
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "19:50",
-        "local_arrival_time": "21:25",
-        "duration": "01:35"
+        "local_arrival_time": "21:20",
+        "duration": "01:30"
     },
     {
         "flight_number": "JL209",
@@ -2581,12 +2592,23 @@
         "destination_city": "Honolulu",
         "destination_country": "United States",
         "local_departure_time": "20:15",
-        "local_arrival_time": "09:05",
-        "duration": "07:50"
+        "local_arrival_time": "09:00",
+        "duration": "07:45"
     },
     {
         "flight_number": "HD37",
         "airline_name": "Air Do",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "20:15",
+        "local_arrival_time": "21:50",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "NH4737",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
@@ -2608,25 +2630,14 @@
     },
     {
         "flight_number": "JL599",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "20:30",
-        "local_arrival_time": "22:05",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "NH81",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "CTS",
-        "destination_airport_name": "Sapporo New Chitose Airport",
-        "destination_city": "Sapporo",
-        "destination_country": "Japan",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "22:05",
-        "duration": "01:35"
+        "local_arrival_time": "22:00",
+        "duration": "01:30"
     },
     {
         "flight_number": "NH97",
@@ -2641,14 +2652,14 @@
     },
     {
         "flight_number": "JL531",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "20:40",
-        "local_arrival_time": "22:15",
-        "duration": "01:35"
+        "local_arrival_time": "22:10",
+        "duration": "01:30"
     },
     {
         "flight_number": "HD39",
@@ -2662,15 +2673,26 @@
         "duration": "01:35"
     },
     {
+        "flight_number": "NH4739",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "20:50",
+        "local_arrival_time": "22:25",
+        "duration": "01:35"
+    },
+    {
         "flight_number": "JL229",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "KIX",
         "destination_airport_name": "Osaka Kansai International Airport",
         "destination_city": "Osaka",
         "destination_country": "Japan",
         "local_departure_time": "20:55",
-        "local_arrival_time": "22:15",
-        "duration": "01:20"
+        "local_arrival_time": "22:20",
+        "duration": "01:25"
     },
     {
         "flight_number": "NH99",
@@ -2685,14 +2707,14 @@
     },
     {
         "flight_number": "JL74",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "HNL",
         "destination_airport_name": "Honolulu International Airport",
         "destination_city": "Honolulu",
         "destination_country": "United States",
         "local_departure_time": "21:05",
-        "local_arrival_time": "09:45",
-        "duration": "07:40"
+        "local_arrival_time": "09:30",
+        "duration": "07:25"
     },
     {
         "flight_number": "NH126",
@@ -2702,8 +2724,8 @@
         "destination_city": "Los Angeles",
         "destination_country": "United States",
         "local_departure_time": "21:05",
-        "local_arrival_time": "15:35",
-        "duration": "10:30"
+        "local_arrival_time": "15:10",
+        "duration": "10:05"
     },
     {
         "flight_number": "CA422",
@@ -2735,12 +2757,23 @@
         "destination_city": "Honolulu",
         "destination_country": "United States",
         "local_departure_time": "21:20",
-        "local_arrival_time": "10:10",
-        "duration": "07:50"
+        "local_arrival_time": "10:05",
+        "duration": "07:45"
     },
     {
         "flight_number": "HD43",
         "airline_name": "Air Do",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "21:30",
+        "local_arrival_time": "23:05",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "NH4743",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
@@ -2783,17 +2816,6 @@
         "duration": "12:50"
     },
     {
-        "flight_number": "AF279",
-        "airline_name": "Air France",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "21:50 / 22:05",
-        "local_arrival_time": "05:45 (+1) / 06:00 (+1)",
-        "duration": "14:55"
-    },
-    {
         "flight_number": "DL180",
         "airline_name": "Delta Air Lines",
         "destination_iata": "HNL",
@@ -2801,19 +2823,19 @@
         "destination_city": "Honolulu",
         "destination_country": "United States",
         "local_departure_time": "21:55",
-        "local_arrival_time": "11:00",
-        "duration": "08:05"
+        "local_arrival_time": "10:50",
+        "duration": "07:55"
     },
     {
         "flight_number": "JL72",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "HNL",
         "destination_airport_name": "Honolulu International Airport",
         "destination_city": "Honolulu",
         "destination_country": "United States",
         "local_departure_time": "21:55",
-        "local_arrival_time": "10:35",
-        "duration": "07:40"
+        "local_arrival_time": "10:20",
+        "duration": "07:25"
     },
     {
         "flight_number": "NH116",
@@ -2845,8 +2867,19 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "22:00",
-        "local_arrival_time": "09:00 (+1)",
+        "local_arrival_time": "10:00 (+1)",
         "duration": "10:00"
+    },
+    {
+        "flight_number": "AF279",
+        "airline_name": "Air France",
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "22:05",
+        "local_arrival_time": "06:00 (+1)",
+        "duration": "14:55"
     },
     {
         "flight_number": "NH967",
@@ -2889,19 +2922,19 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "22:45",
-        "local_arrival_time": "09:25 (+1)",
+        "local_arrival_time": "10:25 (+1)",
         "duration": "09:40"
     },
     {
         "flight_number": "JL59",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "DOH",
         "destination_airport_name": "Doha Hamad International Airport",
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "22:50",
-        "local_arrival_time": "03:40 (+1)",
-        "duration": "10:50"
+        "local_arrival_time": "04:55 (+1)",
+        "duration": "12:05"
     },
     {
         "flight_number": "NH108",
@@ -2911,8 +2944,8 @@
         "destination_city": "San Francisco",
         "destination_country": "United States",
         "local_departure_time": "22:55",
-        "local_arrival_time": "16:55",
-        "duration": "10:00"
+        "local_arrival_time": "16:30",
+        "duration": "09:35"
     },
     {
         "flight_number": "NH217",

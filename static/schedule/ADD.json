@@ -44,17 +44,6 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "ET728",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "GVA",
-        "destination_airport_name": "Geneva International Airport",
-        "destination_city": "Geneva",
-        "destination_country": "Switzerland",
-        "local_departure_time": "00:10",
-        "local_arrival_time": "06:30",
-        "duration": "07:20"
-    },
-    {
         "flight_number": "ET738",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "GVA",
@@ -66,15 +55,15 @@
         "duration": "07:20"
     },
     {
-        "flight_number": "ET712",
+        "flight_number": "ET728",
         "airline_name": "Ethiopian Airlines",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "00:15",
-        "local_arrival_time": "05:45",
-        "duration": "06:30"
+        "destination_iata": "GVA",
+        "destination_airport_name": "Geneva International Airport",
+        "destination_city": "Geneva",
+        "destination_country": "Switzerland",
+        "local_departure_time": "00:10",
+        "local_arrival_time": "06:30",
+        "duration": "07:20"
     },
     {
         "flight_number": "ET736",
@@ -86,6 +75,17 @@
         "local_departure_time": "00:15",
         "local_arrival_time": "05:50",
         "duration": "06:35"
+    },
+    {
+        "flight_number": "ET712",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "FCO",
+        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
+        "destination_city": "Rome",
+        "destination_country": "Italy",
+        "local_departure_time": "00:15",
+        "local_arrival_time": "05:45",
+        "duration": "06:30"
     },
     {
         "flight_number": "ET3612",
@@ -110,6 +110,17 @@
         "duration": "05:40"
     },
     {
+        "flight_number": "ET718",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "LGW",
+        "destination_airport_name": "London Gatwick Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "00:25",
+        "local_arrival_time": "06:25",
+        "duration": "08:00"
+    },
+    {
         "flight_number": "ET827",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "DAR",
@@ -128,19 +139,19 @@
         "destination_city": "Chengdu",
         "destination_country": "China",
         "local_departure_time": "00:25",
-        "local_arrival_time": "14:40",
-        "duration": "09:15"
+        "local_arrival_time": "15:00",
+        "duration": "09:35"
     },
     {
-        "flight_number": "ET3622",
+        "flight_number": "ET730",
         "airline_name": "Ethiopian Airlines",
-        "destination_iata": "SHJ",
-        "destination_airport_name": "Sharjah International Airport",
-        "destination_city": "Sharjah",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "00:30",
-        "local_arrival_time": "05:30",
-        "duration": "04:00"
+        "destination_iata": "VIE",
+        "destination_airport_name": "Vienna International Airport",
+        "destination_city": "Vienna",
+        "destination_country": "Austria",
+        "local_departure_time": "00:35",
+        "local_arrival_time": "05:55",
+        "duration": "06:20"
     },
     {
         "flight_number": "ET724",
@@ -171,9 +182,9 @@
         "destination_airport_name": "Istanbul Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "00:45",
-        "local_arrival_time": "06:30",
-        "duration": "05:45"
+        "local_departure_time": "00:45 / 01:30",
+        "local_arrival_time": "06:30 / 07:00",
+        "duration": "05:30"
     },
     {
         "flight_number": "ET604",
@@ -209,18 +220,7 @@
         "duration": "04:20"
     },
     {
-        "flight_number": "ET3714",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
-        "local_departure_time": "01:30",
-        "local_arrival_time": "07:00",
-        "duration": "06:30"
-    },
-    {
-        "flight_number": "ET3704",
+        "flight_number": "ET3702",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "BRU",
         "destination_airport_name": "Brussels Airport",
@@ -237,9 +237,42 @@
         "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
         "destination_city": "Tel Aviv",
         "destination_country": "Israel",
-        "local_departure_time": "01:40",
-        "local_arrival_time": "05:40",
-        "duration": "04:00"
+        "local_departure_time": "01:30",
+        "local_arrival_time": "06:00",
+        "duration": "04:30"
+    },
+    {
+        "flight_number": "ET3714",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "BRU",
+        "destination_airport_name": "Brussels Airport",
+        "destination_city": "Brussels",
+        "destination_country": "Belgium",
+        "local_departure_time": "01:30",
+        "local_arrival_time": "07:00",
+        "duration": "06:30"
+    },
+    {
+        "flight_number": "QR1428",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "01:50",
+        "local_arrival_time": "05:55",
+        "duration": "04:05"
+    },
+    {
+        "flight_number": "ET3612",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "02:00",
+        "local_arrival_time": "07:15",
+        "duration": "04:15"
     },
     {
         "flight_number": "ET927",
@@ -251,6 +284,17 @@
         "local_departure_time": "02:15",
         "local_arrival_time": "05:15",
         "duration": "06:00"
+    },
+    {
+        "flight_number": "ET700",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "02:50",
+        "local_arrival_time": "09:05",
+        "duration": "08:15"
     },
     {
         "flight_number": "ET3402",
@@ -286,26 +330,48 @@
         "duration": "04:25"
     },
     {
-        "flight_number": "XY348",
-        "airline_name": "flynas",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "05:10",
-        "local_arrival_time": "08:25",
-        "duration": "03:15"
+        "flight_number": "ET845",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "CPT",
+        "destination_airport_name": "Cape Town International Airport",
+        "destination_city": "Cape Town",
+        "destination_country": "South Africa",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "13:00",
+        "duration": "06:30"
     },
     {
-        "flight_number": "XY686",
-        "airline_name": "flynas",
+        "flight_number": "SV420",
+        "airline_name": "Saudia",
         "destination_iata": "JED",
         "destination_airport_name": "Jeddah King Abdulaziz International Airport",
         "destination_city": "Jeddah",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "05:35",
-        "local_arrival_time": "07:55",
-        "duration": "02:20"
+        "local_departure_time": "08:10",
+        "local_arrival_time": "10:45",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "SV424",
+        "airline_name": "Saudia",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "08:10",
+        "local_arrival_time": "10:40",
+        "duration": "02:30"
+    },
+    {
+        "flight_number": "SV3450",
+        "airline_name": "Saudia",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "08:10",
+        "local_arrival_time": "10:45",
+        "duration": "02:35"
     },
     {
         "flight_number": "ET813",
@@ -325,8 +391,8 @@
         "destination_airport_name": "Cape Town International Airport",
         "destination_city": "Cape Town",
         "destination_country": "South Africa",
-        "local_departure_time": "08:15",
-        "local_arrival_time": "13:45",
+        "local_departure_time": "08:15 / 09:05",
+        "local_arrival_time": "13:45 / 14:35",
         "duration": "06:30"
     },
     {
@@ -396,17 +462,6 @@
         "duration": "02:05"
     },
     {
-        "flight_number": "ET694",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "KHI",
-        "destination_airport_name": "Karachi Jinnah International Airport",
-        "destination_city": "Karachi",
-        "destination_country": "Pakistan",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "16:25",
-        "duration": "05:15"
-    },
-    {
         "flight_number": "ET322",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "MBA",
@@ -416,6 +471,17 @@
         "local_departure_time": "09:20",
         "local_arrival_time": "11:40",
         "duration": "02:20"
+    },
+    {
+        "flight_number": "ET3610",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "09:30",
+        "local_arrival_time": "17:40",
+        "duration": "05:40"
     },
     {
         "flight_number": "ET851",
@@ -440,37 +506,48 @@
         "duration": "12:30"
     },
     {
-        "flight_number": "ET430",
+        "flight_number": "ET3692",
         "airline_name": "Ethiopian Airlines",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "10:15",
-        "local_arrival_time": "14:05",
-        "duration": "03:50"
+        "destination_iata": "MAA",
+        "destination_airport_name": "Chennai International Airport",
+        "destination_city": "Chennai",
+        "destination_country": "India",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "18:30",
+        "duration": "06:00"
     },
     {
-        "flight_number": "KQ401",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "NBO",
-        "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
-        "destination_city": "Nairobi",
-        "destination_country": "Kenya",
+        "flight_number": "ET336",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "EBB",
+        "destination_airport_name": "Entebbe International Airport",
+        "destination_city": "Entebbe",
+        "destination_country": "Uganda",
         "local_departure_time": "10:20",
-        "local_arrival_time": "12:30",
-        "duration": "02:10"
+        "local_arrival_time": "12:25",
+        "duration": "02:05"
     },
     {
-        "flight_number": "ET462",
+        "flight_number": "ET813",
         "airline_name": "Ethiopian Airlines",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "10:30",
-        "local_arrival_time": "13:00",
-        "duration": "02:30"
+        "destination_iata": "ZNZ",
+        "destination_airport_name": "Zanzibar Abeid Amani Karume International Airport",
+        "destination_city": "Zanzibar",
+        "destination_country": "Tanzania",
+        "local_departure_time": "10:20",
+        "local_arrival_time": "12:55",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "ET418",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
+        "local_departure_time": "10:25",
+        "local_arrival_time": "14:55",
+        "duration": "04:30"
     },
     {
         "flight_number": "ET602",
@@ -495,48 +572,48 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "ET3750",
+        "flight_number": "ET462",
         "airline_name": "Ethiopian Airlines",
-        "destination_iata": "CAN",
-        "destination_airport_name": "Guangzhou Baiyun International Airport",
-        "destination_city": "Guangzhou",
-        "destination_country": "China",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
         "local_departure_time": "11:00",
-        "local_arrival_time": "02:10 (+1)",
-        "duration": "10:10"
+        "local_arrival_time": "13:30",
+        "duration": "02:30"
     },
     {
-        "flight_number": "ET616",
+        "flight_number": "ET3620",
         "airline_name": "Ethiopian Airlines",
-        "destination_iata": "CAN",
-        "destination_airport_name": "Guangzhou Baiyun International Airport",
-        "destination_city": "Guangzhou",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "11:00",
+        "local_arrival_time": "15:00",
+        "duration": "04:00"
+    },
+    {
+        "flight_number": "ET3004",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "CTU",
+        "destination_airport_name": "Chengdu Shuangliu International Airport",
+        "destination_city": "Chengdu",
         "destination_country": "China",
-        "local_departure_time": "11:35",
-        "local_arrival_time": "03:05 (+1)",
-        "duration": "10:30"
+        "local_departure_time": "11:05",
+        "local_arrival_time": "02:00 (+1)",
+        "duration": "09:55"
     },
     {
-        "flight_number": "ET3312",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "BAH",
-        "destination_airport_name": "Bahrain International Airport",
-        "destination_city": "Bahrain",
-        "destination_country": "Bahrain",
-        "local_departure_time": "13:00",
-        "local_arrival_time": "17:10",
-        "duration": "04:10"
-    },
-    {
-        "flight_number": "ET3610",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "13:30",
-        "local_arrival_time": "21:35",
-        "duration": "05:35"
+        "flight_number": "EY728",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "13:55",
+        "local_arrival_time": "19:15",
+        "duration": "04:20"
     },
     {
         "flight_number": "ET803",
@@ -548,17 +625,6 @@
         "local_departure_time": "15:05",
         "local_arrival_time": "17:55",
         "duration": "02:50"
-    },
-    {
-        "flight_number": "ET3859",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "JNB",
-        "destination_airport_name": "Johannesburg OR Tambo International Airport",
-        "destination_city": "Johannesburg",
-        "destination_country": "South Africa",
-        "local_departure_time": "15:10",
-        "local_arrival_time": "19:40",
-        "duration": "05:30"
     },
     {
         "flight_number": "ET817",
@@ -616,17 +682,6 @@
         "duration": "05:35"
     },
     {
-        "flight_number": "ET801",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "ZNZ",
-        "destination_airport_name": "Zanzibar Abeid Amani Karume International Airport",
-        "destination_city": "Zanzibar",
-        "destination_country": "Tanzania",
-        "local_departure_time": "15:40",
-        "local_arrival_time": "18:15",
-        "duration": "02:35"
-    },
-    {
         "flight_number": "ET334",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "EBB",
@@ -647,50 +702,6 @@
         "local_departure_time": "16:00",
         "local_arrival_time": "21:10",
         "duration": "04:10"
-    },
-    {
-        "flight_number": "ET696",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "MAA",
-        "destination_airport_name": "Chennai International Airport",
-        "destination_city": "Chennai",
-        "destination_country": "India",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "01:10 (+1)",
-        "duration": "06:40"
-    },
-    {
-        "flight_number": "ET716",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "21:30",
-        "duration": "06:30"
-    },
-    {
-        "flight_number": "ET929",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "ACC",
-        "destination_airport_name": "Accra Kotoka International Airport",
-        "destination_city": "Accra",
-        "destination_country": "Ghana",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "19:00",
-        "duration": "06:00"
-    },
-    {
-        "flight_number": "ET682",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "HYD",
-        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
-        "destination_city": "Hyderabad",
-        "destination_country": "India",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "00:45 (+1)",
-        "duration": "06:15"
     },
     {
         "flight_number": "ET688",
@@ -715,37 +726,15 @@
         "duration": "05:20"
     },
     {
-        "flight_number": "ET762",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "21:45",
-        "duration": "05:15"
-    },
-    {
         "flight_number": "ET414",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "TLV",
         "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
         "destination_city": "Tel Aviv",
         "destination_country": "Israel",
-        "local_departure_time": "16:35",
+        "local_departure_time": "16:40",
         "local_arrival_time": "21:10",
-        "duration": "04:35"
-    },
-    {
-        "flight_number": "ET3304",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "NBO",
-        "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
-        "destination_city": "Nairobi",
-        "destination_country": "Kenya",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "20:00",
-        "duration": "02:00"
+        "duration": "04:30"
     },
     {
         "flight_number": "ET640",
@@ -757,28 +746,6 @@
         "local_departure_time": "18:20",
         "local_arrival_time": "02:05 (+1)",
         "duration": "05:15"
-    },
-    {
-        "flight_number": "ET3849",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "JNB",
-        "destination_airport_name": "Johannesburg OR Tambo International Airport",
-        "destination_city": "Johannesburg",
-        "destination_country": "South Africa",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "23:00",
-        "duration": "05:30"
-    },
-    {
-        "flight_number": "ET3915",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "LOS",
-        "destination_airport_name": "Lagos Murtala Mohammed Airport",
-        "destination_city": "Lagos",
-        "destination_country": "Nigeria",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "22:10",
-        "duration": "05:00"
     },
     {
         "flight_number": "KQ403",
@@ -803,50 +770,6 @@
         "duration": "04:25"
     },
     {
-        "flight_number": "ET3412",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "23:45",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "ET3402",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "00:30 (+1)",
-        "duration": "03:20"
-    },
-    {
-        "flight_number": "ET3632",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "SHJ",
-        "destination_airport_name": "Sharjah International Airport",
-        "destination_city": "Sharjah",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "21:15",
-        "local_arrival_time": "02:30 (+1)",
-        "duration": "04:15"
-    },
-    {
-        "flight_number": "ET3807",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "LOS",
-        "destination_airport_name": "Lagos Murtala Mohammed Airport",
-        "destination_city": "Lagos",
-        "destination_country": "Nigeria",
-        "local_departure_time": "21:15",
-        "local_arrival_time": "00:25 (+1)",
-        "duration": "05:10"
-    },
-    {
         "flight_number": "ET406",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "BEY",
@@ -869,17 +792,6 @@
         "duration": "04:10"
     },
     {
-        "flight_number": "ET432",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "21:50",
-        "local_arrival_time": "02:05 (+1)",
-        "duration": "04:15"
-    },
-    {
         "flight_number": "ET614",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "AUH",
@@ -889,6 +801,17 @@
         "local_departure_time": "21:50",
         "local_arrival_time": "03:10 (+1)",
         "duration": "04:20"
+    },
+    {
+        "flight_number": "ET432",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "21:50",
+        "local_arrival_time": "02:05 (+1)",
+        "duration": "04:15"
     },
     {
         "flight_number": "ET422",
@@ -963,9 +886,9 @@
         "destination_airport_name": "Muscat International Airport",
         "destination_city": "Muscat",
         "destination_country": "Oman",
-        "local_departure_time": "22:20",
+        "local_departure_time": "22:15",
         "local_arrival_time": "03:25 (+1)",
-        "duration": "04:05"
+        "duration": "04:10"
     },
     {
         "flight_number": "ET416",
@@ -975,8 +898,8 @@
         "destination_city": "Beirut",
         "destination_country": "Lebanon",
         "local_departure_time": "22:25",
-        "local_arrival_time": "03:00 (+1)",
-        "duration": "04:35"
+        "local_arrival_time": "02:59 (+1) / 03:01 (+1)",
+        "duration": "04:36"
     },
     {
         "flight_number": "ET428",
@@ -999,17 +922,6 @@
         "local_departure_time": "22:30",
         "local_arrival_time": "09:05 (+1)",
         "duration": "07:35"
-    },
-    {
-        "flight_number": "ET3632",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "SHJ",
-        "destination_airport_name": "Sharjah International Airport",
-        "destination_city": "Sharjah",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "22:30",
-        "local_arrival_time": "03:45 (+1)",
-        "duration": "04:15"
     },
     {
         "flight_number": "ET412",
@@ -1067,28 +979,6 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "ET2338",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "KGL",
-        "destination_airport_name": "Kigali Airport",
-        "destination_city": "Kigali",
-        "destination_country": "Rwanda",
-        "local_departure_time": "22:45",
-        "local_arrival_time": "00:45 (+1)",
-        "duration": "03:00"
-    },
-    {
-        "flight_number": "ET508",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "22:50",
-        "local_arrival_time": "04:25 (+1)",
-        "duration": "06:35"
-    },
-    {
         "flight_number": "ET500",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "FCO",
@@ -1118,8 +1008,8 @@
         "destination_city": "Hong Kong",
         "destination_country": "Hong Kong",
         "local_departure_time": "22:55",
-        "local_arrival_time": "14:55 (+1)",
-        "duration": "11:00"
+        "local_arrival_time": "14:45 (+1)",
+        "duration": "10:50"
     },
     {
         "flight_number": "ET552",
@@ -1131,6 +1021,17 @@
         "local_departure_time": "23:00",
         "local_arrival_time": "04:30 (+1)",
         "duration": "06:30"
+    },
+    {
+        "flight_number": "ET692",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "MAA",
+        "destination_airport_name": "Chennai International Airport",
+        "destination_city": "Chennai",
+        "destination_country": "India",
+        "local_departure_time": "23:05",
+        "local_arrival_time": "08:15 (+1)",
+        "duration": "06:40"
     },
     {
         "flight_number": "ET821",
@@ -1166,17 +1067,6 @@
         "duration": "06:45"
     },
     {
-        "flight_number": "ET720",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "23:10",
-        "local_arrival_time": "04:45 (+1)",
-        "duration": "05:35"
-    },
-    {
         "flight_number": "ET740",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "MAD",
@@ -1186,6 +1076,17 @@
         "local_departure_time": "23:10",
         "local_arrival_time": "05:55 (+1)",
         "duration": "07:45"
+    },
+    {
+        "flight_number": "ET720",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "23:10",
+        "local_arrival_time": "04:45 (+1)",
+        "duration": "05:35"
     },
     {
         "flight_number": "ET764",
@@ -1205,9 +1106,9 @@
         "destination_airport_name": "Guangzhou Baiyun International Airport",
         "destination_city": "Guangzhou",
         "destination_country": "China",
-        "local_departure_time": "23:25 / 23:45",
+        "local_departure_time": "23:25",
         "local_arrival_time": "14:55 (+1)",
-        "duration": "10:10"
+        "duration": "10:30"
     },
     {
         "flight_number": "ET684",
@@ -1221,17 +1122,6 @@
         "duration": "11:15"
     },
     {
-        "flight_number": "ET760",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "DME",
-        "destination_airport_name": "Moscow Domodedovo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "23:30",
-        "local_arrival_time": "07:40 (+1)",
-        "duration": "08:10"
-    },
-    {
         "flight_number": "ET859",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "JNB",
@@ -1241,6 +1131,17 @@
         "local_departure_time": "23:30",
         "local_arrival_time": "03:55 (+1)",
         "duration": "05:25"
+    },
+    {
+        "flight_number": "ET760",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "DME",
+        "destination_airport_name": "Moscow Domodedovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "23:30",
+        "local_arrival_time": "07:40 (+1)",
+        "duration": "08:10"
     },
     {
         "flight_number": "ET3412",
@@ -1276,17 +1177,6 @@
         "duration": "08:00"
     },
     {
-        "flight_number": "ET404",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "TLV",
-        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
-        "destination_city": "Tel Aviv",
-        "destination_country": "Israel",
-        "local_departure_time": "23:50",
-        "local_arrival_time": "04:00 (+1)",
-        "duration": "04:10"
-    },
-    {
         "flight_number": "ET638",
         "airline_name": "Ethiopian Airlines",
         "destination_iata": "SIN",
@@ -1296,6 +1186,17 @@
         "local_departure_time": "23:50",
         "local_arrival_time": "14:50 (+1)",
         "duration": "10:00"
+    },
+    {
+        "flight_number": "ET404",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "TLV",
+        "destination_airport_name": "Tel Aviv Ben Gurion International Airport",
+        "destination_city": "Tel Aviv",
+        "destination_country": "Israel",
+        "local_departure_time": "23:50",
+        "local_arrival_time": "04:20 (+1)",
+        "duration": "04:30"
     },
     {
         "flight_number": "ET442",

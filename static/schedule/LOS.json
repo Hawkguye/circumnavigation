@@ -1,5 +1,16 @@
 [
     {
+        "flight_number": "TC227",
+        "airline_name": "Air Tanzania",
+        "destination_iata": "DAR",
+        "destination_airport_name": "Dar-es-Salaam Julius Nyerere International Airport",
+        "destination_city": "Dar-es-Salaam",
+        "destination_country": "Tanzania",
+        "local_departure_time": "01:30",
+        "local_arrival_time": "09:00",
+        "duration": "05:30"
+    },
+    {
         "flight_number": "EK9913",
         "airline_name": "Emirates",
         "destination_iata": "GRU",
@@ -9,6 +20,17 @@
         "local_departure_time": "04:10",
         "local_arrival_time": "08:05",
         "duration": "07:55"
+    },
+    {
+        "flight_number": "ET904",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "ADD",
+        "destination_airport_name": "Addis Ababa Bole Airport",
+        "destination_city": "Addis Ababa",
+        "destination_country": "Ethiopia",
+        "local_departure_time": "05:40",
+        "local_arrival_time": "13:00",
+        "duration": "05:20"
     },
     {
         "flight_number": "AT554",
@@ -40,8 +62,19 @@
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "08:55",
-        "local_arrival_time": "18:15",
-        "duration": "07:20"
+        "local_arrival_time": "17:50",
+        "duration": "06:55"
+    },
+    {
+        "flight_number": "VS412",
+        "airline_name": "Virgin Atlantic",
+        "destination_iata": "LHR",
+        "destination_airport_name": "London Heathrow Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "16:05",
+        "duration": "07:05"
     },
     {
         "flight_number": "AW211",
@@ -55,70 +88,26 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "VS412",
-        "airline_name": "Virgin Atlantic",
-        "destination_iata": "LHR",
-        "destination_airport_name": "London Heathrow Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "10:05",
-        "local_arrival_time": "17:10",
-        "duration": "07:05"
-    },
-    {
         "flight_number": "DL55",
         "airline_name": "Delta Air Lines",
         "destination_iata": "ATL",
         "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
         "destination_city": "Atlanta",
         "destination_country": "United States",
-        "local_departure_time": "11:55",
+        "local_departure_time": "11:15",
         "local_arrival_time": "18:45",
-        "duration": "11:50"
+        "duration": "12:30"
     },
     {
-        "flight_number": "KQ2535",
+        "flight_number": "KQ533",
         "airline_name": "Kenya Airways",
         "destination_iata": "NBO",
         "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
         "destination_city": "Nairobi",
         "destination_country": "Kenya",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "18:20",
-        "duration": "04:20"
-    },
-    {
-        "flight_number": "ET3910",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "EBB",
-        "destination_airport_name": "Entebbe International Airport",
-        "destination_city": "Entebbe",
-        "destination_country": "Uganda",
-        "local_departure_time": "12:45",
-        "local_arrival_time": "19:30",
-        "duration": "04:45"
-    },
-    {
-        "flight_number": "ME572",
-        "airline_name": "MEA",
-        "destination_iata": "BEY",
-        "destination_airport_name": "Beirut Rafic Hariri International Airport",
-        "destination_city": "Beirut",
-        "destination_country": "Lebanon",
-        "local_departure_time": "13:00",
-        "local_arrival_time": "21:00",
-        "duration": "06:00"
-    },
-    {
-        "flight_number": "AW215",
-        "airline_name": "Africa World Airlines",
-        "destination_iata": "ACC",
-        "destination_airport_name": "Accra Kotoka International Airport",
-        "destination_city": "Accra",
-        "destination_country": "Ghana",
-        "local_departure_time": "13:40",
-        "local_arrival_time": "13:40",
-        "duration": "01:00"
+        "local_departure_time": "12:35",
+        "local_arrival_time": "19:45",
+        "duration": "05:10"
     },
     {
         "flight_number": "ET900",
@@ -130,6 +119,17 @@
         "local_departure_time": "13:40",
         "local_arrival_time": "21:00",
         "duration": "05:20"
+    },
+    {
+        "flight_number": "AW215",
+        "airline_name": "Africa World Airlines",
+        "destination_iata": "ACC",
+        "destination_airport_name": "Accra Kotoka International Airport",
+        "destination_city": "Accra",
+        "destination_country": "Ghana",
+        "local_departure_time": "13:40",
+        "local_arrival_time": "13:40",
+        "duration": "01:00"
     },
     {
         "flight_number": "MS876",
@@ -165,15 +165,26 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "QR1406",
+        "flight_number": "QR8704",
         "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "15:05",
-        "local_arrival_time": "00:25 (+1)",
-        "duration": "07:20"
+        "destination_iata": "NBO",
+        "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
+        "destination_city": "Nairobi",
+        "destination_country": "Kenya",
+        "local_departure_time": "15:00",
+        "local_arrival_time": "22:00",
+        "duration": "05:00"
+    },
+    {
+        "flight_number": "GO111",
+        "airline_name": "Air Ghana",
+        "destination_iata": "ACC",
+        "destination_airport_name": "Accra Kotoka International Airport",
+        "destination_city": "Accra",
+        "destination_country": "Ghana",
+        "local_departure_time": "16:00",
+        "local_arrival_time": "17:00",
+        "duration": "02:00"
     },
     {
         "flight_number": "QI602",
@@ -187,48 +198,15 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "GO111",
-        "airline_name": "Air Ghana",
-        "destination_iata": "ACC",
-        "destination_airport_name": "Accra Kotoka International Airport",
-        "destination_city": "Accra",
-        "destination_country": "Ghana",
-        "local_departure_time": "17:15",
-        "local_arrival_time": "17:20",
-        "duration": "01:05"
-    },
-    {
         "flight_number": "EK784",
         "airline_name": "Emirates",
         "destination_iata": "DXB",
         "destination_airport_name": "Dubai International Airport",
         "destination_city": "Dubai",
         "destination_country": "United Arab Emirates",
-        "local_departure_time": "17:40",
-        "local_arrival_time": "04:25 (+1)",
-        "duration": "07:45"
-    },
-    {
-        "flight_number": "P47762",
-        "airline_name": "Air Peace",
-        "destination_iata": "ACC",
-        "destination_airport_name": "Accra Kotoka International Airport",
-        "destination_city": "Accra",
-        "destination_country": "Ghana",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "18:35",
-        "duration": "01:05"
-    },
-    {
-        "flight_number": "AT556",
-        "airline_name": "Royal Air Maroc",
-        "destination_iata": "CMN",
-        "destination_airport_name": "Casablanca Mohammed V International Airport",
-        "destination_city": "Casablanca",
-        "destination_country": "Morocco",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "23:50",
-        "duration": "04:35"
+        "local_departure_time": "17:45",
+        "local_arrival_time": "04:15 (+1)",
+        "duration": "07:30"
     },
     {
         "flight_number": "AW223",
@@ -237,8 +215,8 @@
         "destination_airport_name": "Accra Kotoka International Airport",
         "destination_city": "Accra",
         "destination_country": "Ghana",
-        "local_departure_time": "20:10",
-        "local_arrival_time": "20:10",
+        "local_departure_time": "20:10 / 21:10",
+        "local_arrival_time": "20:10 / 21:10",
         "duration": "01:00"
     },
     {
@@ -264,8 +242,19 @@
         "duration": "06:40"
     },
     {
+        "flight_number": "ET3908",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "ADD",
+        "destination_airport_name": "Addis Ababa Bole Airport",
+        "destination_city": "Addis Ababa",
+        "destination_country": "Ethiopia",
+        "local_departure_time": "21:55",
+        "local_arrival_time": "04:55 (+1)",
+        "duration": "05:00"
+    },
+    {
         "flight_number": "SA61",
-        "airline_name": "South African Airways",
+        "airline_name": "Hi Fly",
         "destination_iata": "JNB",
         "destination_airport_name": "Johannesburg OR Tambo International Airport",
         "destination_city": "Johannesburg",
@@ -297,28 +286,6 @@
         "duration": "06:35"
     },
     {
-        "flight_number": "ET3651",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "GRU",
-        "destination_airport_name": "Sao Paulo Guarulhos International Airport",
-        "destination_city": "Sao Paulo",
-        "destination_country": "Brazil",
-        "local_departure_time": "22:35",
-        "local_arrival_time": "02:05 (+1)",
-        "duration": "07:30"
-    },
-    {
-        "flight_number": "KQ535",
-        "airline_name": "Kenya Airways",
-        "destination_iata": "NBO",
-        "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
-        "destination_city": "Nairobi",
-        "destination_country": "Kenya",
-        "local_departure_time": "22:45",
-        "local_arrival_time": "06:05 (+1)",
-        "duration": "05:20"
-    },
-    {
         "flight_number": "BA74",
         "airline_name": "British Airways",
         "destination_iata": "LHR",
@@ -341,6 +308,17 @@
         "duration": "06:30"
     },
     {
+        "flight_number": "TK6327",
+        "airline_name": "Turkish Airlines",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "23:15",
+        "local_arrival_time": "12:20 (+1)",
+        "duration": "11:05"
+    },
+    {
         "flight_number": "P47578",
         "airline_name": "Air Peace",
         "destination_iata": "LGW",
@@ -350,17 +328,6 @@
         "local_departure_time": "23:40",
         "local_arrival_time": "06:20 (+1)",
         "duration": "06:40"
-    },
-    {
-        "flight_number": "ET3914",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "ADD",
-        "destination_airport_name": "Addis Ababa Bole Airport",
-        "destination_city": "Addis Ababa",
-        "destination_country": "Ethiopia",
-        "local_departure_time": "23:40",
-        "local_arrival_time": "06:55 (+1)",
-        "duration": "05:15"
     },
     {
         "flight_number": "AF149",
@@ -381,7 +348,7 @@
         "destination_city": "Washington",
         "destination_country": "United States",
         "local_departure_time": "23:55",
-        "local_arrival_time": "06:05 (+1)",
-        "duration": "11:10"
+        "local_arrival_time": "06:10 (+1)",
+        "duration": "11:15"
     }
 ]

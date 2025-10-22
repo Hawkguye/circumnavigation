@@ -1,16 +1,5 @@
 [
     {
-        "flight_number": "KL1162",
-        "airline_name": "KLM",
-        "destination_iata": "AMS",
-        "destination_airport_name": "Amsterdam Schiphol Airport",
-        "destination_city": "Amsterdam",
-        "destination_country": "Netherlands",
-        "local_departure_time": "06:00",
-        "local_arrival_time": "07:45",
-        "duration": "01:45"
-    },
-    {
         "flight_number": "SK2861",
         "airline_name": "SAS",
         "destination_iata": "CPH",
@@ -22,15 +11,15 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "SK4729",
-        "airline_name": "SAS",
-        "destination_iata": "ALC",
-        "destination_airport_name": "Alicante Airport",
-        "destination_city": "Alicante",
-        "destination_country": "Spain",
+        "flight_number": "KL1162",
+        "airline_name": "KLM",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
         "local_departure_time": "06:00",
-        "local_arrival_time": "09:40",
-        "duration": "03:40"
+        "local_arrival_time": "07:45",
+        "duration": "01:45"
     },
     {
         "flight_number": "LH877",
@@ -44,7 +33,7 @@
         "duration": "02:10"
     },
     {
-        "flight_number": "SK238",
+        "flight_number": "SK236",
         "airline_name": "SAS",
         "destination_iata": "OSL",
         "destination_airport_name": "Oslo Gardermoen Airport",
@@ -66,26 +55,70 @@
         "duration": "00:55"
     },
     {
-        "flight_number": "DY1030",
+        "flight_number": "DY1316",
         "airline_name": "Norwegian",
-        "destination_iata": "GDN",
-        "destination_airport_name": "Gdansk Lech Walesa Airport",
-        "destination_city": "Gdansk",
-        "destination_country": "Poland",
+        "destination_iata": "LGW",
+        "destination_airport_name": "London Gatwick Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
         "local_departure_time": "07:00",
-        "local_arrival_time": "08:45",
-        "duration": "01:45"
+        "local_arrival_time": "08:05",
+        "duration": "02:05"
     },
     {
-        "flight_number": "DY1848",
+        "flight_number": "DY1858",
         "airline_name": "Norwegian",
-        "destination_iata": "BGY",
-        "destination_airport_name": "Milan Bergamo Orio al Serio International Airport",
-        "destination_city": "Milan",
+        "destination_iata": "FCO",
+        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
+        "destination_city": "Rome",
         "destination_country": "Italy",
         "local_departure_time": "07:00",
-        "local_arrival_time": "09:30",
-        "duration": "02:30"
+        "local_arrival_time": "10:10",
+        "duration": "03:10"
+    },
+    {
+        "flight_number": "SK4133",
+        "airline_name": "SAS",
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "07:00",
+        "local_arrival_time": "07:40",
+        "duration": "00:40"
+    },
+    {
+        "flight_number": "DY164",
+        "airline_name": "Norwegian",
+        "destination_iata": "TRD",
+        "destination_airport_name": "Trondheim Vaernes Airport",
+        "destination_city": "Trondheim",
+        "destination_country": "Norway",
+        "local_departure_time": "07:00",
+        "local_arrival_time": "08:00",
+        "duration": "01:00"
+    },
+    {
+        "flight_number": "SK238",
+        "airline_name": "SAS",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "07:10",
+        "local_arrival_time": "08:00",
+        "duration": "00:50"
+    },
+    {
+        "flight_number": "DY605",
+        "airline_name": "Norwegian",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "08:25",
+        "duration": "00:55"
     },
     {
         "flight_number": "WF1303",
@@ -99,6 +132,28 @@
         "duration": "01:10"
     },
     {
+        "flight_number": "SK244",
+        "airline_name": "SAS",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "07:40",
+        "local_arrival_time": "08:30",
+        "duration": "00:50"
+    },
+    {
+        "flight_number": "SK4139",
+        "airline_name": "SAS",
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "07:40",
+        "local_arrival_time": "08:20",
+        "duration": "00:40"
+    },
+    {
         "flight_number": "WF523",
         "airline_name": "Wideroe",
         "destination_iata": "SVG",
@@ -108,17 +163,6 @@
         "local_departure_time": "07:45",
         "local_arrival_time": "08:25",
         "duration": "00:40"
-    },
-    {
-        "flight_number": "DY1316",
-        "airline_name": "Norwegian",
-        "destination_iata": "LGW",
-        "destination_airport_name": "London Gatwick Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "07:50",
-        "local_arrival_time": "08:55",
-        "duration": "02:05"
     },
     {
         "flight_number": "WF622",
@@ -132,14 +176,69 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "W61978",
+        "flight_number": "DY607",
+        "airline_name": "Norwegian",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "08:55",
+        "duration": "00:55"
+    },
+    {
+        "flight_number": null,
+        "airline_name": "Lufttransport",
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "09:17",
+        "duration": "01:17"
+    },
+    {
+        "flight_number": "SK4135",
+        "airline_name": "SAS",
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "08:10",
+        "local_arrival_time": "08:50",
+        "duration": "00:40"
+    },
+    {
+        "flight_number": "DY609",
+        "airline_name": "Norwegian",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "09:25",
+        "duration": "00:55"
+    },
+    {
+        "flight_number": "SK4154",
+        "airline_name": "CityJet",
+        "destination_iata": "TRD",
+        "destination_airport_name": "Trondheim Vaernes Airport",
+        "destination_city": "Trondheim",
+        "destination_country": "Norway",
+        "local_departure_time": "08:35",
+        "local_arrival_time": "09:35",
+        "duration": "01:00"
+    },
+    {
+        "flight_number": "W62036",
         "airline_name": "Wizz Air",
-        "destination_iata": "VNO",
-        "destination_airport_name": "Vilnius International Airport",
-        "destination_city": "Vilnius",
-        "destination_country": "Lithuania",
-        "local_departure_time": "08:05",
-        "local_arrival_time": "11:20",
+        "destination_iata": "KRK",
+        "destination_airport_name": "Krakow John Paul II International Airport",
+        "destination_city": "Krakow",
+        "destination_country": "Poland",
+        "local_departure_time": "09:15",
+        "local_arrival_time": "11:30",
         "duration": "02:15"
     },
     {
@@ -154,37 +253,26 @@
         "duration": "00:55"
     },
     {
-        "flight_number": "LM382",
-        "airline_name": "Loganair",
-        "destination_iata": "EDI",
-        "destination_airport_name": "Edinburgh Airport",
-        "destination_city": "Edinburgh",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "09:35",
-        "local_arrival_time": "10:10",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "SK260",
+        "flight_number": "SK252",
         "airline_name": "SAS",
         "destination_iata": "OSL",
         "destination_airport_name": "Oslo Gardermoen Airport",
         "destination_city": "Oslo",
         "destination_country": "Norway",
-        "local_departure_time": "09:55",
-        "local_arrival_time": "10:45",
+        "local_departure_time": "09:25",
+        "local_arrival_time": "10:15",
         "duration": "00:50"
     },
     {
-        "flight_number": "SK898",
+        "flight_number": "SK4139",
         "airline_name": "SAS",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "10:00",
-        "local_arrival_time": "11:20",
-        "duration": "01:20"
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "09:40",
+        "local_arrival_time": "10:15",
+        "duration": "00:35"
     },
     {
         "flight_number": "SK2865",
@@ -209,6 +297,28 @@
         "duration": "01:10"
     },
     {
+        "flight_number": "DY1122",
+        "airline_name": "Norwegian",
+        "destination_iata": "BER",
+        "destination_airport_name": "Berlin Brandenburg Airport",
+        "destination_city": "Berlin",
+        "destination_country": "Germany",
+        "local_departure_time": "10:25",
+        "local_arrival_time": "12:10",
+        "duration": "01:45"
+    },
+    {
+        "flight_number": "SK260",
+        "airline_name": "SAS",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "10:30",
+        "local_arrival_time": "11:20",
+        "duration": "00:50"
+    },
+    {
         "flight_number": "KL1164",
         "airline_name": "KLM",
         "destination_iata": "AMS",
@@ -216,8 +326,8 @@
         "destination_city": "Amsterdam",
         "destination_country": "Netherlands",
         "local_departure_time": "10:45",
-        "local_arrival_time": "12:35",
-        "duration": "01:50"
+        "local_arrival_time": "12:30",
+        "duration": "01:45"
     },
     {
         "flight_number": "AY804",
@@ -231,15 +341,15 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "SK4143",
-        "airline_name": "SAS",
+        "flight_number": "WF527",
+        "airline_name": "Wideroe",
         "destination_iata": "SVG",
         "destination_airport_name": "Stavanger Sola Airport",
         "destination_city": "Stavanger",
         "destination_country": "Norway",
-        "local_departure_time": "11:10",
-        "local_arrival_time": "11:45",
-        "duration": "00:35"
+        "local_departure_time": "10:50",
+        "local_arrival_time": "11:30",
+        "duration": "00:40"
     },
     {
         "flight_number": "D85333",
@@ -248,34 +358,34 @@
         "destination_airport_name": "Alicante Airport",
         "destination_city": "Alicante",
         "destination_country": "Spain",
-        "local_departure_time": "11:15",
-        "local_arrival_time": "14:55",
+        "local_departure_time": "11:00",
+        "local_arrival_time": "14:40",
         "duration": "03:40"
     },
     {
-        "flight_number": "WF1890",
+        "flight_number": "WF372",
         "airline_name": "Wideroe",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
-        "local_departure_time": "11:15",
-        "local_arrival_time": "13:15",
+        "destination_iata": "DUB",
+        "destination_airport_name": "Dublin Airport",
+        "destination_city": "Dublin",
+        "destination_country": "Ireland",
+        "local_departure_time": "11:05",
+        "local_arrival_time": "12:05",
         "duration": "02:00"
     },
     {
-        "flight_number": "DY966",
-        "airline_name": "Norwegian",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "11:50",
-        "local_arrival_time": "13:10",
-        "duration": "01:20"
+        "flight_number": "D85035",
+        "airline_name": "Norwegian Air Sweden",
+        "destination_iata": "AGP",
+        "destination_airport_name": "Malaga Costa Del Sol Airport",
+        "destination_city": "Malaga",
+        "destination_country": "Spain",
+        "local_departure_time": "11:30",
+        "local_arrival_time": "15:30",
+        "duration": "04:00"
     },
     {
-        "flight_number": "WF529",
+        "flight_number": "WF531",
         "airline_name": "Wideroe",
         "destination_iata": "SVG",
         "destination_airport_name": "Stavanger Sola Airport",
@@ -284,6 +394,17 @@
         "local_departure_time": "11:50",
         "local_arrival_time": "12:30",
         "duration": "00:40"
+    },
+    {
+        "flight_number": "D85527",
+        "airline_name": "Norwegian Air Sweden",
+        "destination_iata": "BCN",
+        "destination_airport_name": "Barcelona El Prat Airport",
+        "destination_city": "Barcelona",
+        "destination_country": "Spain",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "15:15",
+        "duration": "03:15"
     },
     {
         "flight_number": "DY617",
@@ -308,59 +429,70 @@
         "duration": "02:20"
     },
     {
+        "flight_number": "WF678",
+        "airline_name": "Wideroe",
+        "destination_iata": "TRD",
+        "destination_airport_name": "Trondheim Vaernes Airport",
+        "destination_city": "Trondheim",
+        "destination_country": "Norway",
+        "local_departure_time": "12:10",
+        "local_arrival_time": "13:20",
+        "duration": "01:10"
+    },
+    {
+        "flight_number": "SK262",
+        "airline_name": "SAS",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "12:40",
+        "local_arrival_time": "13:30",
+        "duration": "00:50"
+    },
+    {
+        "flight_number": "DY1028",
+        "airline_name": "Norwegian",
+        "destination_iata": "KRK",
+        "destination_airport_name": "Krakow John Paul II International Airport",
+        "destination_city": "Krakow",
+        "destination_country": "Poland",
+        "local_departure_time": "13:00",
+        "local_arrival_time": "15:20",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "SK4159",
+        "airline_name": "SAS",
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "13:05",
+        "local_arrival_time": "13:40",
+        "duration": "00:35"
+    },
+    {
+        "flight_number": "SK4162",
+        "airline_name": "CityJet",
+        "destination_iata": "TRD",
+        "destination_airport_name": "Trondheim Vaernes Airport",
+        "destination_city": "Trondheim",
+        "destination_country": "Norway",
+        "local_departure_time": "13:15",
+        "local_arrival_time": "14:15",
+        "duration": "01:00"
+    },
+    {
         "flight_number": "LH873",
         "airline_name": "Lufthansa",
         "destination_iata": "FRA",
         "destination_airport_name": "Frankfurt Airport",
         "destination_city": "Frankfurt",
         "destination_country": "Germany",
-        "local_departure_time": "13:00 / 13:30",
-        "local_arrival_time": "15:10 / 15:40",
-        "duration": "02:10"
-    },
-    {
-        "flight_number": "SK268",
-        "airline_name": "SAS",
-        "destination_iata": "OSL",
-        "destination_airport_name": "Oslo Gardermoen Airport",
-        "destination_city": "Oslo",
-        "destination_country": "Norway",
-        "local_departure_time": "13:10",
-        "local_arrival_time": "14:00",
-        "duration": "00:50"
-    },
-    {
-        "flight_number": "DY842",
-        "airline_name": "Norwegian",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "13:20",
-        "local_arrival_time": "14:40",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "SK4170",
-        "airline_name": "SAS",
-        "destination_iata": "TRD",
-        "destination_airport_name": "Trondheim Vaernes Airport",
-        "destination_city": "Trondheim",
-        "destination_country": "Norway",
         "local_departure_time": "13:30",
-        "local_arrival_time": "14:30",
-        "duration": "01:00"
-    },
-    {
-        "flight_number": "SK2875",
-        "airline_name": "SAS",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "13:35",
-        "local_arrival_time": "14:55",
-        "duration": "01:20"
+        "local_arrival_time": "15:40",
+        "duration": "02:10"
     },
     {
         "flight_number": "WF1311",
@@ -382,28 +514,6 @@
         "destination_country": "Poland",
         "local_departure_time": "13:45",
         "local_arrival_time": "15:30",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "WF282",
-        "airline_name": "Wideroe",
-        "destination_iata": "BLL",
-        "destination_airport_name": "Billund Airport",
-        "destination_city": "Billund",
-        "destination_country": "Denmark",
-        "local_departure_time": "13:55",
-        "local_arrival_time": "15:20",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "DY1122",
-        "airline_name": "Norwegian",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "15:45",
         "duration": "01:45"
     },
     {
@@ -429,6 +539,28 @@
         "duration": "01:45"
     },
     {
+        "flight_number": "LM382",
+        "airline_name": "Loganair",
+        "destination_iata": "EDI",
+        "destination_airport_name": "Edinburgh Airport",
+        "destination_city": "Edinburgh",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "14:15",
+        "local_arrival_time": "14:55",
+        "duration": "01:40"
+    },
+    {
+        "flight_number": "SK4167",
+        "airline_name": "SAS",
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "14:25",
+        "local_arrival_time": "15:00",
+        "duration": "00:35"
+    },
+    {
         "flight_number": "WF626",
         "airline_name": "Wideroe",
         "destination_iata": "TOS",
@@ -440,37 +572,37 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "GAF850",
-        "airline_name": "Germany - Air Force",
-        "destination_iata": "HAM",
-        "destination_airport_name": "Hamburg Airport",
-        "destination_city": "Hamburg",
-        "destination_country": "Germany",
-        "local_departure_time": "14:25",
-        "local_arrival_time": "15:44",
-        "duration": "01:19"
-    },
-    {
-        "flight_number": "DY968",
-        "airline_name": "Norwegian",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "14:50",
-        "local_arrival_time": "16:10",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "SK2867",
+        "flight_number": "SK2875",
         "airline_name": "SAS",
         "destination_iata": "CPH",
         "destination_airport_name": "Copenhagen Airport",
         "destination_city": "Copenhagen",
         "destination_country": "Denmark",
-        "local_departure_time": "14:50",
-        "local_arrival_time": "16:10",
+        "local_departure_time": "14:35",
+        "local_arrival_time": "15:55",
         "duration": "01:20"
+    },
+    {
+        "flight_number": "SK272",
+        "airline_name": "SAS",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "14:50",
+        "local_arrival_time": "15:40",
+        "duration": "00:50"
+    },
+    {
+        "flight_number": "DY164",
+        "airline_name": "Norwegian",
+        "destination_iata": "TRD",
+        "destination_airport_name": "Trondheim Vaernes Airport",
+        "destination_city": "Trondheim",
+        "destination_country": "Norway",
+        "local_departure_time": "14:55",
+        "local_arrival_time": "15:55",
+        "duration": "01:00"
     },
     {
         "flight_number": "DY623",
@@ -484,70 +616,59 @@
         "duration": "00:55"
     },
     {
-        "flight_number": "DY170",
+        "flight_number": "DY625",
         "airline_name": "Norwegian",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "15:30",
+        "local_arrival_time": "16:25",
+        "duration": "00:55"
+    },
+    {
+        "flight_number": "DY968",
+        "airline_name": "Norwegian",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "15:30",
+        "local_arrival_time": "16:50",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "WF680",
+        "airline_name": "Wideroe",
         "destination_iata": "TRD",
         "destination_airport_name": "Trondheim Vaernes Airport",
         "destination_city": "Trondheim",
         "destination_country": "Norway",
-        "local_departure_time": "15:00",
-        "local_arrival_time": "16:00",
-        "duration": "01:00"
+        "local_departure_time": "15:30",
+        "local_arrival_time": "16:40",
+        "duration": "01:10"
     },
     {
-        "flight_number": "FI335",
-        "airline_name": "Icelandair",
-        "destination_iata": "KEF",
-        "destination_airport_name": "Keflavik International Airport",
-        "destination_city": "Reykjavik",
-        "destination_country": "Iceland",
-        "local_departure_time": "15:20",
-        "local_arrival_time": "15:50",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "SK4651",
+        "flight_number": "SK4163",
         "airline_name": "SAS",
-        "destination_iata": "AGP",
-        "destination_airport_name": "Malaga Costa Del Sol Airport",
-        "destination_city": "Malaga",
-        "destination_country": "Spain",
-        "local_departure_time": "15:40",
-        "local_arrival_time": "19:40",
-        "duration": "04:00"
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "15:35",
+        "local_arrival_time": "16:10",
+        "duration": "00:35"
     },
     {
-        "flight_number": "WF206",
+        "flight_number": "WF537",
         "airline_name": "Wideroe",
-        "destination_iata": "GOT",
-        "destination_airport_name": "Gothenburg Landvetter Airport",
-        "destination_city": "Gothenburg",
-        "destination_country": "Sweden",
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
         "local_departure_time": "15:45",
-        "local_arrival_time": "17:05",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "DY627",
-        "airline_name": "Norwegian",
-        "destination_iata": "OSL",
-        "destination_airport_name": "Oslo Gardermoen Airport",
-        "destination_city": "Oslo",
-        "destination_country": "Norway",
-        "local_departure_time": "15:45 / 16:20",
-        "local_arrival_time": "16:40 / 17:15",
-        "duration": "00:55"
-    },
-    {
-        "flight_number": "SK274",
-        "airline_name": "SAS",
-        "destination_iata": "OSL",
-        "destination_airport_name": "Oslo Gardermoen Airport",
-        "destination_city": "Oslo",
-        "destination_country": "Norway",
-        "local_departure_time": "15:55",
-        "local_arrival_time": "16:45",
-        "duration": "00:50"
+        "local_arrival_time": "16:25",
+        "duration": "00:40"
     },
     {
         "flight_number": "SK2873",
@@ -561,59 +682,81 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "SK4175",
-        "airline_name": "SAS",
-        "destination_iata": "SVG",
-        "destination_airport_name": "Stavanger Sola Airport",
-        "destination_city": "Stavanger",
-        "destination_country": "Norway",
-        "local_departure_time": "17:00",
-        "local_arrival_time": "17:35",
-        "duration": "00:35"
-    },
-    {
-        "flight_number": "SK2871",
-        "airline_name": "SAS",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "17:00",
-        "local_arrival_time": "18:20",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "WF628",
-        "airline_name": "Wideroe",
-        "destination_iata": "TOS",
-        "destination_airport_name": "Tromso Airport",
-        "destination_city": "Tromso",
-        "destination_country": "Norway",
-        "local_departure_time": "17:10",
-        "local_arrival_time": "19:30",
-        "duration": "02:20"
-    },
-    {
-        "flight_number": "DY1810",
-        "airline_name": "Norwegian",
-        "destination_iata": "ALC",
-        "destination_airport_name": "Alicante Airport",
-        "destination_city": "Alicante",
-        "destination_country": "Spain",
-        "local_departure_time": "17:20",
-        "local_arrival_time": "21:00",
-        "duration": "03:40"
-    },
-    {
         "flight_number": "SK274",
         "airline_name": "SAS",
         "destination_iata": "OSL",
         "destination_airport_name": "Oslo Gardermoen Airport",
         "destination_city": "Oslo",
         "destination_country": "Norway",
-        "local_departure_time": "17:25",
-        "local_arrival_time": "18:15",
+        "local_departure_time": "16:05",
+        "local_arrival_time": "16:55",
         "duration": "00:50"
+    },
+    {
+        "flight_number": "DY627",
+        "airline_name": "Norwegian",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "16:20",
+        "local_arrival_time": "17:15",
+        "duration": "00:55"
+    },
+    {
+        "flight_number": "SK4173",
+        "airline_name": "SAS",
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "16:45",
+        "local_arrival_time": "17:20",
+        "duration": "00:35"
+    },
+    {
+        "flight_number": "SK4176",
+        "airline_name": "SAS",
+        "destination_iata": "TRD",
+        "destination_airport_name": "Trondheim Vaernes Airport",
+        "destination_city": "Trondheim",
+        "destination_country": "Norway",
+        "local_departure_time": "16:50",
+        "local_arrival_time": "17:50",
+        "duration": "01:00"
+    },
+    {
+        "flight_number": "DY629",
+        "airline_name": "Norwegian",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "17:00",
+        "local_arrival_time": "17:55",
+        "duration": "00:55"
+    },
+    {
+        "flight_number": "SK278",
+        "airline_name": "SAS",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "17:00",
+        "local_arrival_time": "17:50",
+        "duration": "00:50"
+    },
+    {
+        "flight_number": "WF1315",
+        "airline_name": "Wideroe",
+        "destination_iata": "TRD",
+        "destination_airport_name": "Trondheim Vaernes Airport",
+        "destination_city": "Trondheim",
+        "destination_country": "Norway",
+        "local_departure_time": "17:00",
+        "local_arrival_time": "18:10",
+        "duration": "01:10"
     },
     {
         "flight_number": "WF539",
@@ -627,26 +770,26 @@
         "duration": "00:40"
     },
     {
+        "flight_number": "SK280",
+        "airline_name": "SAS",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "17:35",
+        "local_arrival_time": "18:25",
+        "duration": "00:50"
+    },
+    {
         "flight_number": "DY633",
         "airline_name": "Norwegian",
         "destination_iata": "OSL",
         "destination_airport_name": "Oslo Gardermoen Airport",
         "destination_city": "Oslo",
         "destination_country": "Norway",
-        "local_departure_time": "17:40 / 17:45",
-        "local_arrival_time": "18:35 / 18:40",
+        "local_departure_time": "17:40",
+        "local_arrival_time": "18:35",
         "duration": "00:55"
-    },
-    {
-        "flight_number": "SK4184",
-        "airline_name": "SAS",
-        "destination_iata": "TRD",
-        "destination_airport_name": "Trondheim Vaernes Airport",
-        "destination_city": "Trondheim",
-        "destination_country": "Norway",
-        "local_departure_time": "17:45",
-        "local_arrival_time": "18:45",
-        "duration": "01:00"
     },
     {
         "flight_number": "KL1170",
@@ -660,59 +803,37 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "AF1353",
-        "airline_name": "Air France",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "18:25",
-        "local_arrival_time": "20:45",
-        "duration": "02:20"
-    },
-    {
-        "flight_number": "LH2451",
-        "airline_name": "Air Baltic",
-        "destination_iata": "MUC",
-        "destination_airport_name": "Munich Airport",
-        "destination_city": "Munich",
-        "destination_country": "Germany",
-        "local_departure_time": "18:25",
-        "local_arrival_time": "20:45",
-        "duration": "02:20"
-    },
-    {
         "flight_number": "DY1476",
         "airline_name": "Norwegian",
         "destination_iata": "CDG",
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "18:35",
-        "local_arrival_time": "20:50",
+        "local_departure_time": "18:00",
+        "local_arrival_time": "20:15",
         "duration": "02:15"
     },
     {
-        "flight_number": "SK1482",
+        "flight_number": "SK4177",
         "airline_name": "SAS",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "18:45",
-        "local_arrival_time": "20:05",
-        "duration": "01:20"
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "18:00",
+        "local_arrival_time": "18:35",
+        "duration": "00:35"
     },
     {
-        "flight_number": "DY1028",
+        "flight_number": "DY641",
         "airline_name": "Norwegian",
-        "destination_iata": "KRK",
-        "destination_airport_name": "Krakow John Paul II International Airport",
-        "destination_city": "Krakow",
-        "destination_country": "Poland",
-        "local_departure_time": "18:45",
-        "local_arrival_time": "21:05",
-        "duration": "02:20"
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "18:20",
+        "local_arrival_time": "19:15",
+        "duration": "00:55"
     },
     {
         "flight_number": "SK284",
@@ -721,9 +842,31 @@
         "destination_airport_name": "Oslo Gardermoen Airport",
         "destination_city": "Oslo",
         "destination_country": "Norway",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "19:45",
+        "local_departure_time": "18:25",
+        "local_arrival_time": "19:15",
         "duration": "00:50"
+    },
+    {
+        "flight_number": "WF541",
+        "airline_name": "Wideroe",
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "18:50",
+        "local_arrival_time": "19:30",
+        "duration": "00:40"
+    },
+    {
+        "flight_number": "DY643",
+        "airline_name": "Norwegian",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "19:00",
+        "local_arrival_time": "19:55",
+        "duration": "00:55"
     },
     {
         "flight_number": "DY1318",
@@ -743,41 +886,41 @@
         "destination_airport_name": "Helsinki Vantaa Airport",
         "destination_city": "Helsinki",
         "destination_country": "Finland",
-        "local_departure_time": "19:05 / 19:30",
-        "local_arrival_time": "22:35 / 23:00",
+        "local_departure_time": "19:05",
+        "local_arrival_time": "22:35",
         "duration": "02:30"
     },
     {
-        "flight_number": "DY643",
-        "airline_name": "Norwegian",
-        "destination_iata": "OSL",
-        "destination_airport_name": "Oslo Gardermoen Airport",
-        "destination_city": "Oslo",
-        "destination_country": "Norway",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "20:05",
-        "duration": "00:55"
+        "flight_number": "SK4898",
+        "airline_name": "SAS",
+        "destination_iata": "ARN",
+        "destination_airport_name": "Stockholm Arlanda Airport",
+        "destination_city": "Stockholm",
+        "destination_country": "Sweden",
+        "local_departure_time": "19:05",
+        "local_arrival_time": "20:25",
+        "duration": "01:20"
     },
     {
-        "flight_number": "SK4189",
-        "airline_name": "SAS",
-        "destination_iata": "SVG",
-        "destination_airport_name": "Stavanger Sola Airport",
-        "destination_city": "Stavanger",
-        "destination_country": "Norway",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "19:50",
-        "duration": "00:35"
+        "flight_number": "DY842",
+        "airline_name": "Norwegian",
+        "destination_iata": "ARN",
+        "destination_airport_name": "Stockholm Arlanda Airport",
+        "destination_city": "Stockholm",
+        "destination_country": "Sweden",
+        "local_departure_time": "19:10",
+        "local_arrival_time": "20:30",
+        "duration": "01:20"
     },
     {
         "flight_number": "SK2869",
-        "airline_name": "CityJet",
+        "airline_name": "SAS",
         "destination_iata": "CPH",
         "destination_airport_name": "Copenhagen Airport",
         "destination_city": "Copenhagen",
         "destination_country": "Denmark",
-        "local_departure_time": "19:25",
-        "local_arrival_time": "20:45",
+        "local_departure_time": "19:30",
+        "local_arrival_time": "20:50",
         "duration": "01:20"
     },
     {
@@ -788,8 +931,19 @@
         "destination_city": "Trondheim",
         "destination_country": "Norway",
         "local_departure_time": "19:45",
-        "local_arrival_time": "20:55",
-        "duration": "01:10"
+        "local_arrival_time": "20:50",
+        "duration": "01:05"
+    },
+    {
+        "flight_number": "SK286",
+        "airline_name": "SAS",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "19:45",
+        "local_arrival_time": "20:35",
+        "duration": "00:50"
     },
     {
         "flight_number": "WF545",
@@ -803,15 +957,37 @@
         "duration": "00:40"
     },
     {
-        "flight_number": "DK1018",
-        "airline_name": "Sunclass Airlines",
-        "destination_iata": "PMI",
-        "destination_airport_name": "Palma de Mallorca Airport",
-        "destination_city": "Palma de Mallorca",
-        "destination_country": "Spain",
-        "local_departure_time": "20:05",
-        "local_arrival_time": "23:40",
-        "duration": "03:35"
+        "flight_number": "SK4196",
+        "airline_name": "SAS",
+        "destination_iata": "TRD",
+        "destination_airport_name": "Trondheim Vaernes Airport",
+        "destination_city": "Trondheim",
+        "destination_country": "Norway",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "21:10",
+        "duration": "01:00"
+    },
+    {
+        "flight_number": "WF208",
+        "airline_name": "Wideroe",
+        "destination_iata": "GOT",
+        "destination_airport_name": "Gothenburg Landvetter Airport",
+        "destination_city": "Gothenburg",
+        "destination_country": "Sweden",
+        "local_departure_time": "20:15",
+        "local_arrival_time": "21:35",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "WF630",
+        "airline_name": "Wideroe",
+        "destination_iata": "TOS",
+        "destination_airport_name": "Tromso Airport",
+        "destination_city": "Tromso",
+        "destination_country": "Norway",
+        "local_departure_time": "20:15",
+        "local_arrival_time": "22:15",
+        "duration": "02:00"
     },
     {
         "flight_number": "DY653",
@@ -820,42 +996,53 @@
         "destination_airport_name": "Oslo Gardermoen Airport",
         "destination_city": "Oslo",
         "destination_country": "Norway",
-        "local_departure_time": "20:30 / 20:35",
-        "local_arrival_time": "21:25 / 21:30",
+        "local_departure_time": "20:30",
+        "local_arrival_time": "21:25",
         "duration": "00:55"
     },
     {
-        "flight_number": "SK4192",
+        "flight_number": "SK2290",
         "airline_name": "SAS",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
+        "local_departure_time": "20:35",
+        "local_arrival_time": "21:25",
+        "duration": "00:50"
+    },
+    {
+        "flight_number": "SK4189",
+        "airline_name": "SAS",
+        "destination_iata": "SVG",
+        "destination_airport_name": "Stavanger Sola Airport",
+        "destination_city": "Stavanger",
+        "destination_country": "Norway",
+        "local_departure_time": "21:05",
+        "local_arrival_time": "21:40",
+        "duration": "00:35"
+    },
+    {
+        "flight_number": "AKK2",
+        "airline_name": "Sundt Air",
         "destination_iata": "TRD",
         "destination_airport_name": "Trondheim Vaernes Airport",
         "destination_city": "Trondheim",
         "destination_country": "Norway",
-        "local_departure_time": "20:50",
-        "local_arrival_time": "21:50",
-        "duration": "01:00"
+        "local_departure_time": "21:30",
+        "local_arrival_time": "23:40",
+        "duration": "02:10"
     },
     {
-        "flight_number": "W61758",
-        "airline_name": "Wizz Air",
-        "destination_iata": "GDN",
-        "destination_airport_name": "Gdansk Lech Walesa Airport",
-        "destination_city": "Gdansk",
-        "destination_country": "Poland",
-        "local_departure_time": "20:50",
-        "local_arrival_time": "22:35",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "W62036",
-        "airline_name": "Wizz Air",
-        "destination_iata": "KRK",
-        "destination_airport_name": "Krakow John Paul II International Airport",
-        "destination_city": "Krakow",
-        "destination_country": "Poland",
-        "local_departure_time": "21:35",
-        "local_arrival_time": "23:55",
-        "duration": "02:20"
+        "flight_number": "CAT522",
+        "airline_name": "Airseven",
+        "destination_iata": "GLA",
+        "destination_airport_name": "Glasgow International Airport",
+        "destination_city": "Glasgow",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "23:00",
+        "local_arrival_time": "23:18",
+        "duration": "01:18"
     },
     {
         "flight_number": "WF549",
@@ -864,8 +1051,8 @@
         "destination_airport_name": "Stavanger Sola Airport",
         "destination_city": "Stavanger",
         "destination_country": "Norway",
-        "local_departure_time": "23:25",
-        "local_arrival_time": "00:05 (+1)",
+        "local_departure_time": "23:20",
+        "local_arrival_time": "00:00 (+1)",
         "duration": "00:40"
     }
 ]

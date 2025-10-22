@@ -28,13 +28,35 @@
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "07:35",
+        "local_departure_time": "07:30",
         "local_arrival_time": "09:10",
-        "duration": "01:35"
+        "duration": "01:40"
     },
     {
         "flight_number": "HD112",
         "airline_name": "Air Do",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "07:55",
+        "local_arrival_time": "10:20",
+        "duration": "02:25"
+    },
+    {
+        "flight_number": "JL500",
+        "airline_name": "Japan Airlines",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "07:55",
+        "local_arrival_time": "09:35",
+        "duration": "01:40"
+    },
+    {
+        "flight_number": "NH4812",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "FUK",
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
@@ -55,8 +77,8 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "JL500",
-        "airline_name": "Japan Airlines",
+        "flight_number": "NH4712",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
@@ -77,17 +99,6 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "GK102",
-        "airline_name": "Jetstar Japan",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "08:30",
-        "local_arrival_time": "10:10",
-        "duration": "01:40"
-    },
-    {
         "flight_number": "NH52",
         "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
@@ -105,9 +116,9 @@
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "08:50",
+        "local_departure_time": "08:45",
         "local_arrival_time": "10:25",
-        "duration": "01:35"
+        "duration": "01:40"
     },
     {
         "flight_number": "HD130",
@@ -121,15 +132,26 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "JL3106",
-        "airline_name": "Japan Airlines",
+        "flight_number": "NH4830",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "NGO",
         "destination_airport_name": "Nagoya Chubu Centrair International Airport",
         "destination_city": "Nagoya",
         "destination_country": "Japan",
         "local_departure_time": "08:55",
+        "local_arrival_time": "10:40",
+        "duration": "01:45"
+    },
+    {
+        "flight_number": "NH4714",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "09:00",
         "local_arrival_time": "10:35",
-        "duration": "01:40"
+        "duration": "01:35"
     },
     {
         "flight_number": "HD14",
@@ -138,9 +160,9 @@
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "09:00",
+        "local_departure_time": "09:00 / 09:01",
         "local_arrival_time": "10:35",
-        "duration": "01:35"
+        "duration": "01:34"
     },
     {
         "flight_number": "MM568",
@@ -160,8 +182,8 @@
         "destination_airport_name": "Osaka Kansai International Airport",
         "destination_city": "Osaka",
         "destination_country": "Japan",
-        "local_departure_time": "09:25",
-        "local_arrival_time": "11:45",
+        "local_departure_time": "09:30",
+        "local_arrival_time": "11:50",
         "duration": "02:20"
     },
     {
@@ -187,15 +209,37 @@
         "duration": "04:25"
     },
     {
+        "flight_number": "IJ832",
+        "airline_name": "Spring Japan",
+        "destination_iata": "NRT",
+        "destination_airport_name": "Tokyo Narita International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "09:40",
+        "local_arrival_time": "11:25",
+        "duration": "01:45"
+    },
+    {
         "flight_number": "JL504",
         "airline_name": "Japan Airlines",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "09:55",
+        "local_departure_time": "09:50",
         "local_arrival_time": "11:30",
-        "duration": "01:35"
+        "duration": "01:40"
+    },
+    {
+        "flight_number": "D7551",
+        "airline_name": "AirAsia X",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "09:50",
+        "local_arrival_time": "17:40",
+        "duration": "08:50"
     },
     {
         "flight_number": "BC762",
@@ -275,6 +319,17 @@
         "duration": "01:50"
     },
     {
+        "flight_number": "JL3106",
+        "airline_name": "Japan Airlines",
+        "destination_iata": "NGO",
+        "destination_airport_name": "Nagoya Chubu Centrair International Airport",
+        "destination_city": "Nagoya",
+        "destination_country": "Japan",
+        "local_departure_time": "10:35",
+        "local_arrival_time": "12:25",
+        "duration": "01:50"
+    },
+    {
         "flight_number": "BC710",
         "airline_name": "Skymark Airlines",
         "destination_iata": "HND",
@@ -297,26 +352,15 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "NH1108",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "NGO",
-        "destination_airport_name": "Nagoya Chubu Centrair International Airport",
-        "destination_city": "Nagoya",
-        "destination_country": "Japan",
-        "local_departure_time": "10:45",
-        "local_arrival_time": "12:25",
-        "duration": "01:40"
-    },
-    {
         "flight_number": "JL506",
         "airline_name": "Japan Airlines",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "10:50",
+        "local_departure_time": "10:45",
         "local_arrival_time": "12:30",
-        "duration": "01:40"
+        "duration": "01:45"
     },
     {
         "flight_number": "BC772",
@@ -337,8 +381,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "11:00",
-        "local_arrival_time": "13:20",
-        "duration": "02:20"
+        "local_arrival_time": "13:35",
+        "duration": "02:35"
     },
     {
         "flight_number": "7C1502",
@@ -369,9 +413,9 @@
         "destination_airport_name": "Nagoya Chubu Centrair International Airport",
         "destination_city": "Nagoya",
         "destination_country": "Japan",
-        "local_departure_time": "11:15",
+        "local_departure_time": "11:10",
         "local_arrival_time": "12:55",
-        "duration": "01:40"
+        "duration": "01:45"
     },
     {
         "flight_number": "HD18",
@@ -396,6 +440,17 @@
         "duration": "02:50"
     },
     {
+        "flight_number": "NH4718",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "11:20",
+        "local_arrival_time": "13:00",
+        "duration": "01:40"
+    },
+    {
         "flight_number": "NH58",
         "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
@@ -405,17 +460,6 @@
         "local_departure_time": "11:30",
         "local_arrival_time": "13:05",
         "duration": "01:35"
-    },
-    {
-        "flight_number": "TW266",
-        "airline_name": "T'way Air",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "11:30",
-        "local_arrival_time": "14:45",
-        "duration": "03:15"
     },
     {
         "flight_number": "BC712",
@@ -440,6 +484,17 @@
         "duration": "01:40"
     },
     {
+        "flight_number": "JL2504",
+        "airline_name": "Japan Airlines",
+        "destination_iata": "KIX",
+        "destination_airport_name": "Osaka Kansai International Airport",
+        "destination_city": "Osaka",
+        "destination_country": "Japan",
+        "local_departure_time": "11:50",
+        "local_arrival_time": "14:05",
+        "duration": "02:15"
+    },
+    {
         "flight_number": "MM104",
         "airline_name": "Peach",
         "destination_iata": "KIX",
@@ -451,15 +506,26 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "JL2504",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "KIX",
-        "destination_airport_name": "Osaka Kansai International Airport",
-        "destination_city": "Osaka",
+        "flight_number": "XJ621",
+        "airline_name": "Thai AirAsia X",
+        "destination_iata": "DMK",
+        "destination_airport_name": "Bangkok Don Mueang International Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "11:55",
+        "local_arrival_time": "18:05",
+        "duration": "08:10"
+    },
+    {
+        "flight_number": "NH60",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "11:50",
-        "local_arrival_time": "14:00",
-        "duration": "02:10"
+        "local_departure_time": "12:00",
+        "local_arrival_time": "13:35",
+        "duration": "01:35"
     },
     {
         "flight_number": "IT235",
@@ -471,17 +537,6 @@
         "local_departure_time": "12:05",
         "local_arrival_time": "15:20",
         "duration": "04:15"
-    },
-    {
-        "flight_number": "NH60",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "12:05",
-        "local_arrival_time": "13:40",
-        "duration": "01:35"
     },
     {
         "flight_number": "LJ302",
@@ -497,6 +552,17 @@
     {
         "flight_number": "HD20",
         "airline_name": "Air Do",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "12:20",
+        "local_arrival_time": "14:00",
+        "duration": "01:40"
+    },
+    {
+        "flight_number": "NH4720",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
@@ -539,15 +605,15 @@
         "duration": "02:50"
     },
     {
-        "flight_number": "OZ173",
-        "airline_name": "Asiana Airlines",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "13:00",
-        "local_arrival_time": "16:00",
-        "duration": "03:00"
+        "flight_number": "IT261",
+        "airline_name": "Tigerair Taiwan",
+        "destination_iata": "KHH",
+        "destination_airport_name": "Kaohsiung International Airport",
+        "destination_city": "Kaohsiung",
+        "destination_country": "Taiwan",
+        "local_departure_time": "12:55",
+        "local_arrival_time": "16:30",
+        "duration": "04:35"
     },
     {
         "flight_number": "BR165",
@@ -559,6 +625,17 @@
         "local_departure_time": "13:00",
         "local_arrival_time": "16:20",
         "duration": "04:20"
+    },
+    {
+        "flight_number": "OZ173",
+        "airline_name": "Asiana Airlines",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
+        "local_departure_time": "13:00 / 13:20",
+        "local_arrival_time": "16:00 / 16:20",
+        "duration": "03:00"
     },
     {
         "flight_number": "JL510",
@@ -601,8 +678,8 @@
         "destination_city": "Nagoya",
         "destination_country": "Japan",
         "local_departure_time": "13:20",
-        "local_arrival_time": "15:00",
-        "duration": "01:40"
+        "local_arrival_time": "15:05",
+        "duration": "01:45"
     },
     {
         "flight_number": "HD24",
@@ -628,6 +705,17 @@
     },
     {
         "flight_number": "NH64",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "13:30",
+        "local_arrival_time": "15:10",
+        "duration": "01:40"
+    },
+    {
+        "flight_number": "NH4724",
         "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
@@ -667,8 +755,8 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "13:50",
-        "local_arrival_time": "16:55",
-        "duration": "04:05"
+        "local_arrival_time": "17:00",
+        "duration": "04:10"
     },
     {
         "flight_number": "CA170",
@@ -682,6 +770,17 @@
         "duration": "04:40"
     },
     {
+        "flight_number": "JL512",
+        "airline_name": "Japan Airlines",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "13:55",
+        "local_arrival_time": "15:35",
+        "duration": "01:40"
+    },
+    {
         "flight_number": "MM106",
         "airline_name": "Peach",
         "destination_iata": "KIX",
@@ -693,37 +792,15 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "JL512",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "15:35",
-        "duration": "01:35"
-    },
-    {
         "flight_number": "JL3512",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "FUK",
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "14:00",
-        "local_arrival_time": "16:25",
-        "duration": "02:25"
-    },
-    {
-        "flight_number": "KE766",
-        "airline_name": "Korean Air",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "14:05",
-        "local_arrival_time": "17:05",
-        "duration": "03:00"
+        "local_arrival_time": "16:35",
+        "duration": "02:35"
     },
     {
         "flight_number": "MM466",
@@ -737,48 +814,15 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "GK110",
-        "airline_name": "Jetstar Japan",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
+        "flight_number": "JL3114",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "NGO",
+        "destination_airport_name": "Nagoya Chubu Centrair International Airport",
+        "destination_city": "Nagoya",
         "destination_country": "Japan",
-        "local_departure_time": "14:25",
-        "local_arrival_time": "16:05",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "MM576",
-        "airline_name": "Peach",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "14:25",
+        "local_departure_time": "14:20",
         "local_arrival_time": "16:10",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "HD114",
-        "airline_name": "Air Do",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "16:55",
-        "duration": "02:25"
-    },
-    {
-        "flight_number": "NH66",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "16:05",
-        "duration": "01:35"
+        "duration": "01:50"
     },
     {
         "flight_number": "NH290",
@@ -787,9 +831,9 @@
         "destination_airport_name": "Fukuoka Airport",
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
-        "local_departure_time": "14:30",
+        "local_departure_time": "14:20",
         "local_arrival_time": "16:50",
-        "duration": "02:20"
+        "duration": "02:30"
     },
     {
         "flight_number": "TW264",
@@ -801,6 +845,17 @@
         "local_departure_time": "14:30",
         "local_arrival_time": "17:40",
         "duration": "03:10"
+    },
+    {
+        "flight_number": "NH66",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "16:05",
+        "duration": "01:35"
     },
     {
         "flight_number": "7C1552",
@@ -836,6 +891,17 @@
         "duration": "04:20"
     },
     {
+        "flight_number": "IJ838",
+        "airline_name": "Spring Japan",
+        "destination_iata": "NRT",
+        "destination_airport_name": "Tokyo Narita International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "14:45",
+        "local_arrival_time": "16:30",
+        "duration": "01:45"
+    },
+    {
         "flight_number": "CI131",
         "airline_name": "China Airlines",
         "destination_iata": "TPE",
@@ -858,6 +924,17 @@
         "duration": "01:40"
     },
     {
+        "flight_number": "JL514",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "15:05",
+        "local_arrival_time": "16:50",
+        "duration": "01:45"
+    },
+    {
         "flight_number": "BC718",
         "airline_name": "Skymark Airlines",
         "destination_iata": "HND",
@@ -869,15 +946,15 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "JL514",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
+        "flight_number": "MM110",
+        "airline_name": "Peach",
+        "destination_iata": "KIX",
+        "destination_airport_name": "Osaka Kansai International Airport",
+        "destination_city": "Osaka",
         "destination_country": "Japan",
         "local_departure_time": "15:10",
-        "local_arrival_time": "16:50",
-        "duration": "01:40"
+        "local_arrival_time": "17:30",
+        "duration": "02:20"
     },
     {
         "flight_number": "NH68",
@@ -913,19 +990,30 @@
         "duration": "05:50"
     },
     {
-        "flight_number": "9C6220",
-        "airline_name": "Spring Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "18:50",
-        "duration": "03:50"
+        "flight_number": "MM112",
+        "airline_name": "Peach",
+        "destination_iata": "KIX",
+        "destination_airport_name": "Osaka Kansai International Airport",
+        "destination_city": "Osaka",
+        "destination_country": "Japan",
+        "local_departure_time": "15:50",
+        "local_arrival_time": "18:10",
+        "duration": "02:20"
     },
     {
         "flight_number": "JL516",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "16:00",
+        "local_arrival_time": "17:45",
+        "duration": "01:45"
+    },
+    {
+        "flight_number": "HD28",
+        "airline_name": "Air Do",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
@@ -935,8 +1023,8 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "HD28",
-        "airline_name": "Air Do",
+        "flight_number": "NH4728",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
@@ -1024,7 +1112,7 @@
     },
     {
         "flight_number": "JL518",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
@@ -1041,8 +1129,8 @@
         "destination_city": "Fukuoka",
         "destination_country": "Japan",
         "local_departure_time": "17:00",
-        "local_arrival_time": "19:30",
-        "duration": "02:30"
+        "local_arrival_time": "19:40",
+        "duration": "02:40"
     },
     {
         "flight_number": "NH712",
@@ -1051,9 +1139,9 @@
         "destination_airport_name": "Nagoya Chubu Centrair International Airport",
         "destination_city": "Nagoya",
         "destination_country": "Japan",
-        "local_departure_time": "17:05",
+        "local_departure_time": "17:00",
         "local_arrival_time": "18:45",
-        "duration": "01:40"
+        "duration": "01:45"
     },
     {
         "flight_number": "LJ312",
@@ -1090,14 +1178,14 @@
     },
     {
         "flight_number": "JL520",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "17:30",
+        "local_departure_time": "17:25",
         "local_arrival_time": "19:10",
-        "duration": "01:40"
+        "duration": "01:45"
     },
     {
         "flight_number": "NH74",
@@ -1112,18 +1200,51 @@
     },
     {
         "flight_number": "JL2506",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "KIX",
         "destination_airport_name": "Osaka Kansai International Airport",
         "destination_city": "Osaka",
         "destination_country": "Japan",
         "local_departure_time": "17:55",
-        "local_arrival_time": "20:05",
-        "duration": "02:10"
+        "local_arrival_time": "20:10",
+        "duration": "02:15"
+    },
+    {
+        "flight_number": "NH1718",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "KIX",
+        "destination_airport_name": "Osaka Kansai International Airport",
+        "destination_city": "Osaka",
+        "destination_country": "Japan",
+        "local_departure_time": "18:00",
+        "local_arrival_time": "20:15",
+        "duration": "02:15"
     },
     {
         "flight_number": "HD32",
         "airline_name": "Air Do",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "18:00",
+        "local_arrival_time": "19:35",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "JL522",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "18:00",
+        "local_arrival_time": "19:40",
+        "duration": "01:40"
+    },
+    {
+        "flight_number": "NH4732",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
@@ -1142,28 +1263,6 @@
         "local_departure_time": "18:00",
         "local_arrival_time": "20:55",
         "duration": "02:55"
-    },
-    {
-        "flight_number": "JL522",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "18:05",
-        "local_arrival_time": "19:45",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "JL3116",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "NGO",
-        "destination_airport_name": "Nagoya Chubu Centrair International Airport",
-        "destination_city": "Nagoya",
-        "destination_country": "Japan",
-        "local_departure_time": "18:05",
-        "local_arrival_time": "19:45",
-        "duration": "01:40"
     },
     {
         "flight_number": "GK156",
@@ -1188,17 +1287,6 @@
         "duration": "02:55"
     },
     {
-        "flight_number": "NH1718",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "KIX",
-        "destination_airport_name": "Osaka Kansai International Airport",
-        "destination_city": "Osaka",
-        "destination_country": "Japan",
-        "local_departure_time": "18:05",
-        "local_arrival_time": "20:15",
-        "duration": "02:10"
-    },
-    {
         "flight_number": "MM114",
         "airline_name": "Peach",
         "destination_iata": "KIX",
@@ -1210,15 +1298,26 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "GK114",
-        "airline_name": "Jetstar Japan",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
+        "flight_number": "NH1280",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "18:25",
+        "local_arrival_time": "21:00",
+        "duration": "02:35"
+    },
+    {
+        "flight_number": "MM116",
+        "airline_name": "Peach",
+        "destination_iata": "KIX",
+        "destination_airport_name": "Osaka Kansai International Airport",
+        "destination_city": "Osaka",
         "destination_country": "Japan",
         "local_departure_time": "18:30",
-        "local_arrival_time": "20:05",
-        "duration": "01:35"
+        "local_arrival_time": "20:50",
+        "duration": "02:20"
     },
     {
         "flight_number": "NH76",
@@ -1232,37 +1331,15 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "MU274",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "18:35",
-        "local_arrival_time": "21:25",
-        "duration": "03:50"
-    },
-    {
-        "flight_number": "NH1280",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "18:35",
-        "local_arrival_time": "21:00",
-        "duration": "02:25"
-    },
-    {
-        "flight_number": "NH1110",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "NGO",
-        "destination_airport_name": "Nagoya Chubu Centrair International Airport",
-        "destination_city": "Nagoya",
-        "destination_country": "Japan",
-        "local_departure_time": "18:40",
-        "local_arrival_time": "20:20",
-        "duration": "01:40"
+        "flight_number": "5J5129",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "MNL",
+        "destination_airport_name": "Manila Ninoy Aquino International Airport",
+        "destination_city": "Manila",
+        "destination_country": "Philippines",
+        "local_departure_time": "18:45",
+        "local_arrival_time": "23:20",
+        "duration": "05:35"
     },
     {
         "flight_number": "MM582",
@@ -1276,8 +1353,19 @@
         "duration": "01:45"
     },
     {
+        "flight_number": "TR893",
+        "airline_name": "Scoot",
+        "destination_iata": "TPE",
+        "destination_airport_name": "Taipei Taoyuan International Airport",
+        "destination_city": "Taipei",
+        "destination_country": "Taiwan",
+        "local_departure_time": "19:00",
+        "local_arrival_time": "22:30",
+        "duration": "04:30"
+    },
+    {
         "flight_number": "JL524",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
@@ -1285,17 +1373,6 @@
         "local_departure_time": "19:10",
         "local_arrival_time": "20:50",
         "duration": "01:40"
-    },
-    {
-        "flight_number": "LJ304",
-        "airline_name": "Jin Air",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "22:05",
-        "duration": "02:55"
     },
     {
         "flight_number": "BC726",
@@ -1309,26 +1386,15 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "MM116",
-        "airline_name": "Peach",
-        "destination_iata": "KIX",
-        "destination_airport_name": "Osaka Kansai International Airport",
-        "destination_city": "Osaka",
-        "destination_country": "Japan",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "21:35",
-        "duration": "02:20"
-    },
-    {
-        "flight_number": "BC766",
-        "airline_name": "Skymark Airlines",
+        "flight_number": "JL3118",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "NGO",
         "destination_airport_name": "Nagoya Chubu Centrair International Airport",
         "destination_city": "Nagoya",
         "destination_country": "Japan",
-        "local_departure_time": "19:30",
-        "local_arrival_time": "21:15",
-        "duration": "01:45"
+        "local_departure_time": "19:20",
+        "local_arrival_time": "21:10",
+        "duration": "01:50"
     },
     {
         "flight_number": "NH78",
@@ -1342,15 +1408,15 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "KE9762",
-        "airline_name": "Korean Air",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "19:40",
-        "local_arrival_time": "22:40",
-        "duration": "03:00"
+        "flight_number": "BC766",
+        "airline_name": "Skymark Airlines",
+        "destination_iata": "NGO",
+        "destination_airport_name": "Nagoya Chubu Centrair International Airport",
+        "destination_city": "Nagoya",
+        "destination_country": "Japan",
+        "local_departure_time": "19:30",
+        "local_arrival_time": "21:15",
+        "duration": "01:45"
     },
     {
         "flight_number": "GK118",
@@ -1375,30 +1441,19 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "JL3118",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "NGO",
-        "destination_airport_name": "Nagoya Chubu Centrair International Airport",
-        "destination_city": "Nagoya",
-        "destination_country": "Japan",
-        "local_departure_time": "19:50",
-        "local_arrival_time": "21:30",
-        "duration": "01:40"
-    },
-    {
         "flight_number": "NH714",
         "airline_name": "All Nippon Airways",
         "destination_iata": "NGO",
         "destination_airport_name": "Nagoya Chubu Centrair International Airport",
         "destination_city": "Nagoya",
         "destination_country": "Japan",
-        "local_departure_time": "19:55",
+        "local_departure_time": "19:50",
         "local_arrival_time": "21:35",
-        "duration": "01:40"
+        "duration": "01:45"
     },
     {
         "flight_number": "JL526",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
@@ -1414,20 +1469,9 @@
         "destination_airport_name": "Osaka Kansai International Airport",
         "destination_city": "Osaka",
         "destination_country": "Japan",
-        "local_departure_time": "20:10",
-        "local_arrival_time": "22:30",
+        "local_departure_time": "20:20",
+        "local_arrival_time": "22:40",
         "duration": "02:20"
-    },
-    {
-        "flight_number": "GK132",
-        "airline_name": "Jetstar Japan",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "20:15",
-        "local_arrival_time": "21:50",
-        "duration": "01:35"
     },
     {
         "flight_number": "NH1720",
@@ -1436,9 +1480,9 @@
         "destination_airport_name": "Osaka Kansai International Airport",
         "destination_city": "Osaka",
         "destination_country": "Japan",
-        "local_departure_time": "20:25",
+        "local_departure_time": "20:20",
         "local_arrival_time": "22:30",
-        "duration": "02:05"
+        "duration": "02:10"
     },
     {
         "flight_number": "NH82",
@@ -1496,17 +1540,6 @@
         "duration": "01:35"
     },
     {
-        "flight_number": "HD40",
-        "airline_name": "Air Do",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "20:55",
-        "local_arrival_time": "22:35",
-        "duration": "01:40"
-    },
-    {
         "flight_number": "BC730",
         "airline_name": "Skymark Airlines",
         "destination_iata": "HND",
@@ -1520,6 +1553,17 @@
     {
         "flight_number": "HD38",
         "airline_name": "Air Do",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "21:00",
+        "local_arrival_time": "22:40",
+        "duration": "01:40"
+    },
+    {
+        "flight_number": "NH4738",
+        "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
@@ -1551,7 +1595,7 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "NH84",
+        "flight_number": "NH4744",
         "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
@@ -1573,25 +1617,14 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "HD140",
-        "airline_name": "Air Do",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "21:40",
-        "local_arrival_time": "23:25",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "NH988",
+        "flight_number": "NH84",
         "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "21:45",
-        "local_arrival_time": "23:30",
-        "duration": "01:45"
+        "local_departure_time": "21:30",
+        "local_arrival_time": "23:10",
+        "duration": "01:40"
     }
 ]

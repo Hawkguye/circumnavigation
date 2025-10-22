@@ -1,27 +1,5 @@
 [
     {
-        "flight_number": "SU6390",
-        "airline_name": "Aeroflot",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "00:20",
-        "local_arrival_time": "01:15",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "5N1582",
-        "airline_name": "Smartavia",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
-        "local_departure_time": "00:25",
-        "local_arrival_time": "01:45",
-        "duration": "02:20"
-    },
-    {
         "flight_number": "G9923",
         "airline_name": "Air Arabia",
         "destination_iata": "SHJ",
@@ -31,6 +9,17 @@
         "local_departure_time": "00:25",
         "local_arrival_time": "05:00",
         "duration": "04:35"
+    },
+    {
+        "flight_number": "B28742",
+        "airline_name": "Belavia",
+        "destination_iata": "MSQ",
+        "destination_airport_name": "Minsk National Airport",
+        "destination_city": "Minsk",
+        "destination_country": "Belarus",
+        "local_departure_time": "01:00",
+        "local_arrival_time": "02:25",
+        "duration": "02:25"
     },
     {
         "flight_number": "ZF3025",
@@ -51,8 +40,19 @@
         "destination_city": "St. Petersburg",
         "destination_country": "Russia",
         "local_departure_time": "01:30",
-        "local_arrival_time": "02:50",
-        "duration": "02:20"
+        "local_arrival_time": "02:55",
+        "duration": "02:25"
+    },
+    {
+        "flight_number": "ZF1025",
+        "airline_name": "Azur Air",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "02:30",
+        "local_arrival_time": "06:05",
+        "duration": "04:35"
     },
     {
         "flight_number": "2S372",
@@ -66,28 +66,6 @@
         "duration": "04:25"
     },
     {
-        "flight_number": "ZF1025",
-        "airline_name": "Azur Air",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "02:50",
-        "local_arrival_time": "06:25",
-        "duration": "04:35"
-    },
-    {
-        "flight_number": "SU1607",
-        "airline_name": "Aeroflot",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "03:20",
-        "local_arrival_time": "04:10",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "FZ996",
         "airline_name": "flydubai",
         "destination_iata": "DXB",
@@ -96,6 +74,17 @@
         "destination_country": "United Arab Emirates",
         "local_departure_time": "03:45",
         "local_arrival_time": "08:30",
+        "duration": "04:45"
+    },
+    {
+        "flight_number": "XC8044",
+        "airline_name": "Corendon Airlines",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "04:30",
+        "local_arrival_time": "08:15",
         "duration": "04:45"
     },
     {
@@ -121,70 +110,59 @@
         "duration": "02:30"
     },
     {
+        "flight_number": "WZ1369",
+        "airline_name": "Red Wings",
+        "destination_iata": "TBS",
+        "destination_airport_name": "Tbilisi International Airport",
+        "destination_city": "Tbilisi",
+        "destination_country": "Georgia",
+        "local_departure_time": "06:10",
+        "local_arrival_time": "08:55",
+        "duration": "02:45"
+    },
+    {
+        "flight_number": "SM906",
+        "airline_name": "Air Cairo",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "06:25",
+        "local_arrival_time": "10:45",
+        "duration": "05:20"
+    },
+    {
         "flight_number": "SU1217",
         "airline_name": "Aeroflot",
         "destination_iata": "SVO",
         "destination_airport_name": "Moscow Sheremetyevo International Airport",
         "destination_city": "Moscow",
         "destination_country": "Russia",
-        "local_departure_time": "06:55",
-        "local_arrival_time": "07:40",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "SU796",
-        "airline_name": "Aeroflot",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "08:20",
-        "local_arrival_time": "11:55",
-        "duration": "04:35"
-    },
-    {
-        "flight_number": "5N901",
-        "airline_name": "Smartavia",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "08:25",
-        "local_arrival_time": "09:10",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "SU1603",
-        "airline_name": "Aeroflot",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "10:00",
-        "local_arrival_time": "10:50",
+        "local_departure_time": "06:35",
+        "local_arrival_time": "07:25",
         "duration": "01:50"
     },
     {
-        "flight_number": "WZ1034",
-        "airline_name": "Red Wings",
-        "destination_iata": "SVX",
-        "destination_airport_name": "Yekaterinburg Koltsovo International Airport",
-        "destination_city": "Yekaterinburg",
-        "destination_country": "Russia",
-        "local_departure_time": "10:30",
-        "local_arrival_time": "13:10",
-        "duration": "01:40"
-    },
-    {
-        "flight_number": "DP332",
-        "airline_name": "Pobeda",
+        "flight_number": "U6145",
+        "airline_name": "Ural Airlines",
         "destination_iata": "AER",
         "destination_airport_name": "Sochi International Airport",
         "destination_city": "Sochi",
         "destination_country": "Russia",
-        "local_departure_time": "11:20",
-        "local_arrival_time": "13:20",
-        "duration": "03:00"
+        "local_departure_time": "09:45",
+        "local_arrival_time": "11:55",
+        "duration": "03:10"
+    },
+    {
+        "flight_number": "SU5563",
+        "airline_name": "Aeroflot",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "11:55",
+        "local_arrival_time": "16:45",
+        "duration": "05:50"
     },
     {
         "flight_number": "SU1211",
@@ -220,37 +198,26 @@
         "duration": "01:50"
     },
     {
+        "flight_number": "WZ1355",
+        "airline_name": "Red Wings",
+        "destination_iata": "EVN",
+        "destination_airport_name": "Yerevan Zvartnots International Airport",
+        "destination_city": "Yerevan",
+        "destination_country": "Armenia",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "17:25",
+        "duration": "02:55"
+    },
+    {
         "flight_number": "UT282",
         "airline_name": "Utair",
         "destination_iata": "SVX",
         "destination_airport_name": "Yekaterinburg Koltsovo International Airport",
         "destination_city": "Yekaterinburg",
         "destination_country": "Russia",
-        "local_departure_time": "13:55",
-        "local_arrival_time": "17:00",
-        "duration": "02:05"
-    },
-    {
-        "flight_number": "5N903",
-        "airline_name": "Smartavia",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
         "local_departure_time": "14:40",
-        "local_arrival_time": "16:00",
-        "duration": "02:20"
-    },
-    {
-        "flight_number": "SU6392",
-        "airline_name": "Aeroflot",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "15:20",
-        "local_arrival_time": "16:10",
-        "duration": "01:50"
+        "local_arrival_time": "17:45",
+        "duration": "02:05"
     },
     {
         "flight_number": "N4422",
@@ -259,9 +226,20 @@
         "destination_airport_name": "Sochi International Airport",
         "destination_city": "Sochi",
         "destination_country": "Russia",
-        "local_departure_time": "15:25",
-        "local_arrival_time": "17:40",
+        "local_departure_time": "14:55",
+        "local_arrival_time": "17:10",
         "duration": "03:15"
+    },
+    {
+        "flight_number": "SU796",
+        "airline_name": "Aeroflot",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "15:00",
+        "local_arrival_time": "18:35",
+        "duration": "04:35"
     },
     {
         "flight_number": "S75032",
@@ -270,53 +248,20 @@
         "destination_airport_name": "Novosibirsk Tolmachevo Airport",
         "destination_city": "Novosibirsk",
         "destination_country": "Russia",
-        "local_departure_time": "15:45",
-        "local_arrival_time": "21:45",
+        "local_departure_time": "15:15",
+        "local_arrival_time": "21:15",
         "duration": "03:00"
     },
     {
-        "flight_number": "SU6204",
+        "flight_number": "SU6234",
         "airline_name": "Aeroflot",
-        "destination_iata": "AER",
-        "destination_airport_name": "Sochi International Airport",
-        "destination_city": "Sochi",
+        "destination_iata": "LED",
+        "destination_airport_name": "St. Petersburg Pulkovo Airport",
+        "destination_city": "St. Petersburg",
         "destination_country": "Russia",
-        "local_departure_time": "16:45",
-        "local_arrival_time": "19:00",
-        "duration": "03:15"
-    },
-    {
-        "flight_number": "SU2965",
-        "airline_name": "Aeroflot",
-        "destination_iata": "AER",
-        "destination_airport_name": "Sochi International Airport",
-        "destination_city": "Sochi",
-        "destination_country": "Russia",
-        "local_departure_time": "17:00",
-        "local_arrival_time": "19:20",
-        "duration": "03:20"
-    },
-    {
-        "flight_number": "U6145",
-        "airline_name": "Ural Airlines",
-        "destination_iata": "AER",
-        "destination_airport_name": "Sochi International Airport",
-        "destination_city": "Sochi",
-        "destination_country": "Russia",
-        "local_departure_time": "17:00",
-        "local_arrival_time": "19:05",
-        "duration": "03:05"
-    },
-    {
-        "flight_number": "SU6949",
-        "airline_name": "Aeroflot",
-        "destination_iata": "EVN",
-        "destination_airport_name": "Yerevan Zvartnots International Airport",
-        "destination_city": "Yerevan",
-        "destination_country": "Armenia",
-        "local_departure_time": "17:10",
-        "local_arrival_time": "19:55",
-        "duration": "02:45"
+        "local_departure_time": "17:05",
+        "local_arrival_time": "18:35",
+        "duration": "02:30"
     },
     {
         "flight_number": "SU6228",
@@ -341,39 +286,6 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "RT586",
-        "airline_name": "UVT Aero",
-        "destination_iata": "KZN",
-        "destination_airport_name": "Kazan International Airport",
-        "destination_city": "Kazan",
-        "destination_country": "Russia",
-        "local_departure_time": "18:10",
-        "local_arrival_time": "18:10",
-        "duration": "01:00"
-    },
-    {
-        "flight_number": "DP424",
-        "airline_name": "Pobeda",
-        "destination_iata": "VKO",
-        "destination_airport_name": "Moscow Vnukovo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "18:25",
-        "local_arrival_time": "19:15",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "SU6234",
-        "airline_name": "Rossiya",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
-        "local_departure_time": "18:50",
-        "local_arrival_time": "20:10",
-        "duration": "02:20"
-    },
-    {
         "flight_number": "5N903",
         "airline_name": "Smartavia",
         "destination_iata": "LED",
@@ -391,9 +303,20 @@
         "destination_airport_name": "Moscow Sheremetyevo International Airport",
         "destination_city": "Moscow",
         "destination_country": "Russia",
-        "local_departure_time": "19:15 / 19:20",
+        "local_departure_time": "19:15",
         "local_arrival_time": "20:15",
         "duration": "02:00"
+    },
+    {
+        "flight_number": "5N582",
+        "airline_name": "Smartavia",
+        "destination_iata": "LED",
+        "destination_airport_name": "St. Petersburg Pulkovo Airport",
+        "destination_city": "St. Petersburg",
+        "destination_country": "Russia",
+        "local_departure_time": "19:15",
+        "local_arrival_time": "20:35",
+        "duration": "02:20"
     },
     {
         "flight_number": "SU1215",
@@ -407,39 +330,6 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "DP572",
-        "airline_name": "Pobeda",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
-        "local_departure_time": "21:25",
-        "local_arrival_time": "22:50",
-        "duration": "02:25"
-    },
-    {
-        "flight_number": "SU1687",
-        "airline_name": "Aeroflot",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "22:20",
-        "local_arrival_time": "23:10",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "DP422",
-        "airline_name": "Pobeda",
-        "destination_iata": "VKO",
-        "destination_airport_name": "Moscow Vnukovo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "22:30",
-        "local_arrival_time": "23:20",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "SU1605",
         "airline_name": "Aeroflot",
         "destination_iata": "SVO",
@@ -448,17 +338,6 @@
         "destination_country": "Russia",
         "local_departure_time": "23:05",
         "local_arrival_time": "00:05 (+1)",
-        "duration": "02:00"
-    },
-    {
-        "flight_number": "UT358",
-        "airline_name": "Utair",
-        "destination_iata": "VKO",
-        "destination_airport_name": "Moscow Vnukovo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "23:10",
-        "local_arrival_time": "00:10 (+1)",
         "duration": "02:00"
     },
     {
@@ -473,7 +352,7 @@
         "duration": "04:50"
     },
     {
-        "flight_number": "S75034",
+        "flight_number": "S75044",
         "airline_name": "S7 Airlines",
         "destination_iata": "OVB",
         "destination_airport_name": "Novosibirsk Tolmachevo Airport",
@@ -482,27 +361,5 @@
         "local_departure_time": "23:20",
         "local_arrival_time": "05:20 (+1)",
         "duration": "03:00"
-    },
-    {
-        "flight_number": "5N1280",
-        "airline_name": "Smartavia",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "23:25",
-        "local_arrival_time": "00:15 (+1)",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "WZ1311",
-        "airline_name": "Red Wings",
-        "destination_iata": "TAS",
-        "destination_airport_name": "Tashkent International Airport",
-        "destination_city": "Tashkent",
-        "destination_country": "Uzbekistan",
-        "local_departure_time": "23:35",
-        "local_arrival_time": "03:40 (+1)",
-        "duration": "03:05"
     }
 ]

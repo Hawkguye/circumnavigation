@@ -1,16 +1,5 @@
 [
     {
-        "flight_number": "MU6593",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "KMG",
-        "destination_airport_name": "Kunming Changshui International Airport",
-        "destination_city": "Kunming",
-        "destination_country": "China",
-        "local_departure_time": "06:55",
-        "local_arrival_time": "09:55",
-        "duration": "03:00"
-    },
-    {
         "flight_number": "CA1822",
         "airline_name": "Air China",
         "destination_iata": "PEK",
@@ -18,8 +7,8 @@
         "destination_city": "Beijing",
         "destination_country": "China",
         "local_departure_time": "07:00",
-        "local_arrival_time": "09:35",
-        "duration": "02:35"
+        "local_arrival_time": "09:50",
+        "duration": "02:50"
     },
     {
         "flight_number": "MF8033",
@@ -28,31 +17,9 @@
         "destination_airport_name": "Tianjin Binhai International Airport",
         "destination_city": "Tianjin",
         "destination_country": "China",
-        "local_departure_time": "07:05",
-        "local_arrival_time": "09:35",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "FU6509",
-        "airline_name": "Fuzhou Airlines",
-        "destination_iata": "KMG",
-        "destination_airport_name": "Kunming Changshui International Airport",
-        "destination_city": "Kunming",
-        "destination_country": "China",
-        "local_departure_time": "07:05",
-        "local_arrival_time": "10:00",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "MF8527",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "07:15 / 07:30",
-        "local_arrival_time": "08:50 / 09:10",
-        "duration": "01:40"
+        "local_departure_time": "07:05 / 07:20",
+        "local_arrival_time": "09:35 / 09:55",
+        "duration": "02:35"
     },
     {
         "flight_number": "EU2237",
@@ -62,19 +29,52 @@
         "destination_city": "Zhengzhou",
         "destination_country": "China",
         "local_departure_time": "07:20",
-        "local_arrival_time": "09:35",
-        "duration": "02:15"
+        "local_arrival_time": "09:55",
+        "duration": "02:35"
     },
     {
-        "flight_number": "EU2297",
+        "flight_number": "FU6507",
+        "airline_name": "Fuzhou Airlines",
+        "destination_iata": "CKG",
+        "destination_airport_name": "Chongqing Jiangbei International Airport",
+        "destination_city": "Chongqing",
+        "destination_country": "China",
+        "local_departure_time": "07:25",
+        "local_arrival_time": "10:15",
+        "duration": "02:50"
+    },
+    {
+        "flight_number": "EU2410",
         "airline_name": "Chengdu Airlines",
+        "destination_iata": "CGO",
+        "destination_airport_name": "Zhengzhou Xinzheng International Airport",
+        "destination_city": "Zhengzhou",
+        "destination_country": "China",
+        "local_departure_time": "07:25",
+        "local_arrival_time": "09:55",
+        "duration": "02:30"
+    },
+    {
+        "flight_number": "MF8391",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "KWL",
+        "destination_airport_name": "Guilin Liangjiang International Airport",
+        "destination_city": "Guilin",
+        "destination_country": "China",
+        "local_departure_time": "07:25",
+        "local_arrival_time": "09:20",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "MF8773",
+        "airline_name": "Xiamen Air",
         "destination_iata": "CSX",
         "destination_airport_name": "Changsha Huanghua International Airport",
         "destination_city": "Changsha",
         "destination_country": "China",
-        "local_departure_time": "07:20",
-        "local_arrival_time": "08:55",
-        "duration": "01:35"
+        "local_departure_time": "07:30",
+        "local_arrival_time": "09:25",
+        "duration": "01:55"
     },
     {
         "flight_number": "MF8617",
@@ -88,29 +88,29 @@
         "duration": "01:55"
     },
     {
+        "flight_number": "EU1961",
+        "airline_name": "Chengdu Airlines",
+        "destination_iata": "WUH",
+        "destination_airport_name": "Wuhan Tianhe International Airport",
+        "destination_city": "Wuhan",
+        "destination_country": "China",
+        "local_departure_time": "07:30 / 07:35",
+        "local_arrival_time": "09:10 / 09:15",
+        "duration": "01:40"
+    },
+    {
         "flight_number": "MU6234",
         "airline_name": "China Eastern Airlines",
         "destination_iata": "SHA",
         "destination_airport_name": "Shanghai Hongqiao International Airport",
         "destination_city": "Shanghai",
         "destination_country": "China",
-        "local_departure_time": "07:30",
-        "local_arrival_time": "08:45",
+        "local_departure_time": "07:30 / 07:45",
+        "local_arrival_time": "08:45 / 09:00",
         "duration": "01:15"
     },
     {
-        "flight_number": "MF8269",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "XIY",
-        "destination_airport_name": "Xi'an Xianyang International Airport",
-        "destination_city": "Xi'an",
-        "destination_country": "China",
-        "local_departure_time": "07:35",
-        "local_arrival_time": "10:15",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "MF8411",
+        "flight_number": "MF8795",
         "airline_name": "Xiamen Air",
         "destination_iata": "CKG",
         "destination_airport_name": "Chongqing Jiangbei International Airport",
@@ -121,7 +121,29 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "MF8439",
+        "flight_number": "MF8269",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "XIY",
+        "destination_airport_name": "Xi'an Xianyang International Airport",
+        "destination_city": "Xi'an",
+        "destination_country": "China",
+        "local_departure_time": "07:35 / 07:45",
+        "local_arrival_time": "10:15",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "MF8189",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "NKG",
+        "destination_airport_name": "Nanjing Lukou International Airport",
+        "destination_city": "Nanjing",
+        "destination_country": "China",
+        "local_departure_time": "07:40",
+        "local_arrival_time": "09:30",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "MF8449",
         "airline_name": "Xiamen Air",
         "destination_iata": "KWE",
         "destination_airport_name": "Guiyang Longdongbao International Airport",
@@ -132,7 +154,7 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "MF8121",
+        "flight_number": "MF8437",
         "airline_name": "Xiamen Air",
         "destination_iata": "WUH",
         "destination_airport_name": "Wuhan Tianhe International Airport",
@@ -143,15 +165,15 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "EU1961",
-        "airline_name": "Chengdu Airlines",
+        "flight_number": "MF8845",
+        "airline_name": "Xiamen Air",
         "destination_iata": "WUH",
         "destination_airport_name": "Wuhan Tianhe International Airport",
         "destination_city": "Wuhan",
         "destination_country": "China",
         "local_departure_time": "07:45",
-        "local_arrival_time": "09:25",
-        "duration": "01:40"
+        "local_arrival_time": "09:45",
+        "duration": "02:00"
     },
     {
         "flight_number": "MF8435",
@@ -176,6 +198,17 @@
         "duration": "03:30"
     },
     {
+        "flight_number": "MF8429",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "KMG",
+        "destination_airport_name": "Kunming Changshui International Airport",
+        "destination_city": "Kunming",
+        "destination_country": "China",
+        "local_departure_time": "07:55",
+        "local_arrival_time": "10:50 / 10:55",
+        "duration": "03:00"
+    },
+    {
         "flight_number": "MU6470",
         "airline_name": "China Eastern Airlines",
         "destination_iata": "PVG",
@@ -193,42 +226,31 @@
         "destination_airport_name": "Beijing Daxing International Airport",
         "destination_city": "Beijing",
         "destination_country": "China",
-        "local_departure_time": "08:00",
+        "local_departure_time": "08:01",
         "local_arrival_time": "10:50",
-        "duration": "02:50"
+        "duration": "02:49"
     },
     {
-        "flight_number": "MF8323",
+        "flight_number": "MF2922",
         "airline_name": "Xiamen Air",
-        "destination_iata": "CAN",
-        "destination_airport_name": "Guangzhou Baiyun International Airport",
-        "destination_city": "Guangzhou",
+        "destination_iata": "PKX",
+        "destination_airport_name": "Beijing Daxing International Airport",
+        "destination_city": "Beijing",
         "destination_country": "China",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "09:55",
-        "duration": "01:55"
+        "local_departure_time": "08:01",
+        "local_arrival_time": "10:00",
+        "duration": "01:59"
     },
     {
-        "flight_number": "MF8429",
+        "flight_number": "MF8527",
         "airline_name": "Xiamen Air",
-        "destination_iata": "KMG",
-        "destination_airport_name": "Kunming Changshui International Airport",
-        "destination_city": "Kunming",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
         "destination_country": "China",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "10:55",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "MF8189",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "NKG",
-        "destination_airport_name": "Nanjing Lukou International Airport",
-        "destination_city": "Nanjing",
-        "destination_country": "China",
-        "local_departure_time": "08:05",
-        "local_arrival_time": "09:30",
-        "duration": "01:25"
+        "local_departure_time": "08:01",
+        "local_arrival_time": "09:40",
+        "duration": "01:39"
     },
     {
         "flight_number": "MF8251",
@@ -242,6 +264,17 @@
         "duration": "02:10"
     },
     {
+        "flight_number": "MF8071",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "TAO",
+        "destination_airport_name": "Qingdao Jiaodong International Airport",
+        "destination_city": "Qingdao",
+        "destination_country": "China",
+        "local_departure_time": "08:10",
+        "local_arrival_time": "10:50",
+        "duration": "02:40"
+    },
+    {
         "flight_number": "MF8161",
         "airline_name": "Xiamen Air",
         "destination_iata": "TYN",
@@ -251,17 +284,6 @@
         "local_departure_time": "08:10",
         "local_arrival_time": "10:40",
         "duration": "02:30"
-    },
-    {
-        "flight_number": "MF8057",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "TNA",
-        "destination_airport_name": "Jinan Yaoqiang International Airport",
-        "destination_city": "Jinan",
-        "destination_country": "China",
-        "local_departure_time": "08:15",
-        "local_arrival_time": "10:50",
-        "duration": "02:35"
     },
     {
         "flight_number": "EU2242",
@@ -275,6 +297,17 @@
         "duration": "03:05"
     },
     {
+        "flight_number": "FU6551",
+        "airline_name": "Fuzhou Airlines",
+        "destination_iata": "CGO",
+        "destination_airport_name": "Zhengzhou Xinzheng International Airport",
+        "destination_city": "Zhengzhou",
+        "destination_country": "China",
+        "local_departure_time": "08:20",
+        "local_arrival_time": "10:40",
+        "duration": "02:20"
+    },
+    {
         "flight_number": "FU6563",
         "airline_name": "Fuzhou Airlines",
         "destination_iata": "TAO",
@@ -286,15 +319,15 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "FU6551",
-        "airline_name": "Fuzhou Airlines",
-        "destination_iata": "CGO",
-        "destination_airport_name": "Zhengzhou Xinzheng International Airport",
-        "destination_city": "Zhengzhou",
-        "destination_country": "China",
-        "local_departure_time": "08:20",
-        "local_arrival_time": "10:40",
-        "duration": "02:20"
+        "flight_number": "MF8697",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "HAN",
+        "destination_airport_name": "Hanoi Noi Bai International Airport",
+        "destination_city": "Hanoi",
+        "destination_country": "Vietnam",
+        "local_departure_time": "08:25",
+        "local_arrival_time": "10:10",
+        "duration": "02:45"
     },
     {
         "flight_number": "FU6511",
@@ -308,17 +341,6 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "MF8071",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "TAO",
-        "destination_airport_name": "Qingdao Jiaodong International Airport",
-        "destination_city": "Qingdao",
-        "destination_country": "China",
-        "local_departure_time": "08:30",
-        "local_arrival_time": "11:10",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "CA1808",
         "airline_name": "Air China",
         "destination_iata": "PEK",
@@ -326,8 +348,8 @@
         "destination_city": "Beijing",
         "destination_country": "China",
         "local_departure_time": "08:35",
-        "local_arrival_time": "11:15",
-        "duration": "02:40"
+        "local_arrival_time": "11:10 / 11:15",
+        "duration": "02:35"
     },
     {
         "flight_number": "MF835",
@@ -341,15 +363,26 @@
         "duration": "02:45"
     },
     {
-        "flight_number": "CZ8954",
-        "airline_name": "China Southern Airlines",
-        "destination_iata": "PKX",
-        "destination_airport_name": "Beijing Daxing International Airport",
-        "destination_city": "Beijing",
+        "flight_number": "FU6721",
+        "airline_name": "Fuzhou Airlines",
+        "destination_iata": "TFU",
+        "destination_airport_name": "Chengdu Tianfu International Airport",
+        "destination_city": "Chengdu",
         "destination_country": "China",
-        "local_departure_time": "08:45",
-        "local_arrival_time": "11:40",
-        "duration": "02:55"
+        "local_departure_time": "08:40",
+        "local_arrival_time": "12:00",
+        "duration": "03:20"
+    },
+    {
+        "flight_number": "FU6517",
+        "airline_name": "Fuzhou Airlines",
+        "destination_iata": "TYN",
+        "destination_airport_name": "Taiyuan Wusu International Airport",
+        "destination_city": "Taiyuan",
+        "destination_country": "China",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "11:45",
+        "duration": "03:05"
     },
     {
         "flight_number": "MF879",
@@ -363,6 +396,17 @@
         "duration": "01:40"
     },
     {
+        "flight_number": "FU6719",
+        "airline_name": "Fuzhou Airlines",
+        "destination_iata": "CGQ",
+        "destination_airport_name": "Changchun Longjia International Airport",
+        "destination_city": "Changchun",
+        "destination_country": "China",
+        "local_departure_time": "08:45",
+        "local_arrival_time": "12:25",
+        "duration": "03:40"
+    },
+    {
         "flight_number": "MF849",
         "airline_name": "Xiamen Air",
         "destination_iata": "JFK",
@@ -374,25 +418,14 @@
         "duration": "14:55"
     },
     {
-        "flight_number": "MF8727",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "PNH",
-        "destination_airport_name": "Phnom Penh International Airport",
-        "destination_city": "Phnom Penh",
-        "destination_country": "Cambodia",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "11:20",
-        "duration": "03:20"
-    },
-    {
-        "flight_number": "FU6517",
-        "airline_name": "Fuzhou Airlines",
-        "destination_iata": "TYN",
-        "destination_airport_name": "Taiyuan Wusu International Airport",
-        "destination_city": "Taiyuan",
+        "flight_number": "CZ8954",
+        "airline_name": "China Southern Airlines",
+        "destination_iata": "PKX",
+        "destination_airport_name": "Beijing Daxing International Airport",
+        "destination_city": "Beijing",
         "destination_country": "China",
-        "local_departure_time": "09:20",
-        "local_arrival_time": "11:55",
+        "local_departure_time": "09:05",
+        "local_arrival_time": "11:40",
         "duration": "02:35"
     },
     {
@@ -414,8 +447,8 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "09:25",
-        "local_arrival_time": "11:00",
-        "duration": "01:35"
+        "local_arrival_time": "10:50 / 11:00",
+        "duration": "01:25"
     },
     {
         "flight_number": "MF809",
@@ -429,6 +462,17 @@
         "duration": "03:10"
     },
     {
+        "flight_number": "MF857",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "CGK",
+        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
+        "destination_city": "Jakarta",
+        "destination_country": "Indonesia",
+        "local_departure_time": "09:35",
+        "local_arrival_time": "13:10",
+        "duration": "04:35"
+    },
+    {
         "flight_number": "MF8485",
         "airline_name": "Xiamen Air",
         "destination_iata": "CKG",
@@ -438,17 +482,6 @@
         "local_departure_time": "09:40",
         "local_arrival_time": "12:40",
         "duration": "03:00"
-    },
-    {
-        "flight_number": "HO2155",
-        "airline_name": "Juneyao Air",
-        "destination_iata": "WUH",
-        "destination_airport_name": "Wuhan Tianhe International Airport",
-        "destination_city": "Wuhan",
-        "destination_country": "China",
-        "local_departure_time": "09:50",
-        "local_arrival_time": "11:40",
-        "duration": "01:50"
     },
     {
         "flight_number": "MF8165",
@@ -473,6 +506,28 @@
         "duration": "01:55"
     },
     {
+        "flight_number": "CZ8290",
+        "airline_name": "China Southern Airlines",
+        "destination_iata": "CGO",
+        "destination_airport_name": "Zhengzhou Xinzheng International Airport",
+        "destination_city": "Zhengzhou",
+        "destination_country": "China",
+        "local_departure_time": "10:05",
+        "local_arrival_time": "12:15",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "HO2155",
+        "airline_name": "Juneyao Air",
+        "destination_iata": "WUH",
+        "destination_airport_name": "Wuhan Tianhe International Airport",
+        "destination_city": "Wuhan",
+        "destination_country": "China",
+        "local_departure_time": "10:05",
+        "local_arrival_time": "11:55",
+        "duration": "01:50"
+    },
+    {
         "flight_number": "3U8104",
         "airline_name": "Sichuan Airlines",
         "destination_iata": "CKG",
@@ -484,6 +539,17 @@
         "duration": "02:40"
     },
     {
+        "flight_number": "FU6531",
+        "airline_name": "Fuzhou Airlines",
+        "destination_iata": "HAK",
+        "destination_airport_name": "Haikou Meilan International Airport",
+        "destination_city": "Haikou",
+        "destination_country": "China",
+        "local_departure_time": "10:10",
+        "local_arrival_time": "12:20",
+        "duration": "02:10"
+    },
+    {
         "flight_number": "ZH9366",
         "airline_name": "Shenzhen Airlines",
         "destination_iata": "NNG",
@@ -491,19 +557,19 @@
         "destination_city": "Nanning",
         "destination_country": "China",
         "local_departure_time": "10:20",
-        "local_arrival_time": "12:50",
-        "duration": "02:30"
+        "local_arrival_time": "12:50 / 13:00",
+        "duration": "02:40"
     },
     {
-        "flight_number": "MF8449",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "KWE",
-        "destination_airport_name": "Guiyang Longdongbao International Airport",
-        "destination_city": "Guiyang",
+        "flight_number": "FU6591",
+        "airline_name": "Fuzhou Airlines",
+        "destination_iata": "NNG",
+        "destination_airport_name": "Nanning Wuxu International Airport",
+        "destination_city": "Nanning",
         "destination_country": "China",
-        "local_departure_time": "10:25",
-        "local_arrival_time": "12:55",
-        "duration": "02:30"
+        "local_departure_time": "10:25 / 11:00",
+        "local_arrival_time": "12:50 / 13:20",
+        "duration": "02:25"
     },
     {
         "flight_number": "MU9782",
@@ -517,15 +583,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "FU6591",
-        "airline_name": "Fuzhou Airlines",
-        "destination_iata": "NNG",
-        "destination_airport_name": "Nanning Wuxu International Airport",
-        "destination_city": "Nanning",
+        "flight_number": "MF8965",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "SZX",
+        "destination_airport_name": "Shenzhen Bao'an International Airport",
+        "destination_city": "Shenzhen",
         "destination_country": "China",
-        "local_departure_time": "10:50",
-        "local_arrival_time": "13:20",
-        "duration": "02:30"
+        "local_departure_time": "10:35",
+        "local_arrival_time": "12:25",
+        "duration": "01:50"
     },
     {
         "flight_number": "HU7076",
@@ -550,6 +616,28 @@
         "duration": "02:35"
     },
     {
+        "flight_number": "DR6578",
+        "airline_name": "Ruili Airlines",
+        "destination_iata": "KMG",
+        "destination_airport_name": "Kunming Changshui International Airport",
+        "destination_city": "Kunming",
+        "destination_country": "China",
+        "local_departure_time": "11:00",
+        "local_arrival_time": "14:15",
+        "duration": "03:15"
+    },
+    {
+        "flight_number": "AQ1324",
+        "airline_name": "9 Air",
+        "destination_iata": "KWE",
+        "destination_airport_name": "Guiyang Longdongbao International Airport",
+        "destination_city": "Guiyang",
+        "destination_country": "China",
+        "local_departure_time": "11:05",
+        "local_arrival_time": "13:30",
+        "duration": "02:25"
+    },
+    {
         "flight_number": "MF897",
         "airline_name": "Xiamen Air",
         "destination_iata": "KUL",
@@ -572,6 +660,17 @@
         "duration": "01:45"
     },
     {
+        "flight_number": "9C7301",
+        "airline_name": "Spring Airlines",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "11:25",
+        "local_arrival_time": "14:15",
+        "duration": "03:50"
+    },
+    {
         "flight_number": "CX995",
         "airline_name": "Cathay Pacific",
         "destination_iata": "HKG",
@@ -583,17 +682,6 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "PN6556",
-        "airline_name": "West Air",
-        "destination_iata": "CKG",
-        "destination_airport_name": "Chongqing Jiangbei International Airport",
-        "destination_city": "Chongqing",
-        "destination_country": "China",
-        "local_departure_time": "11:35",
-        "local_arrival_time": "14:20",
-        "duration": "02:45"
-    },
-    {
         "flight_number": "MU5505",
         "airline_name": "China Eastern Airlines",
         "destination_iata": "KMG",
@@ -601,8 +689,8 @@
         "destination_city": "Kunming",
         "destination_country": "China",
         "local_departure_time": "11:40",
-        "local_arrival_time": "15:05",
-        "duration": "03:25"
+        "local_arrival_time": "14:50",
+        "duration": "03:10"
     },
     {
         "flight_number": "9C6698",
@@ -616,6 +704,17 @@
         "duration": "03:35"
     },
     {
+        "flight_number": "KE128",
+        "airline_name": "Korean Air",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
+        "local_departure_time": "11:50",
+        "local_arrival_time": "15:40",
+        "duration": "02:50"
+    },
+    {
         "flight_number": "3U8906",
         "airline_name": "Sichuan Airlines",
         "destination_iata": "CTU",
@@ -623,8 +722,19 @@
         "destination_city": "Chengdu",
         "destination_country": "China",
         "local_departure_time": "11:55",
-        "local_arrival_time": "14:40",
-        "duration": "02:45"
+        "local_arrival_time": "14:40 / 14:55",
+        "duration": "03:00"
+    },
+    {
+        "flight_number": "MF8273",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "WUH",
+        "destination_airport_name": "Wuhan Tianhe International Airport",
+        "destination_city": "Wuhan",
+        "destination_country": "China",
+        "local_departure_time": "11:55 / 12:10",
+        "local_arrival_time": "13:50",
+        "duration": "01:40"
     },
     {
         "flight_number": "MF8107",
@@ -638,6 +748,17 @@
         "duration": "02:45"
     },
     {
+        "flight_number": "MU2230",
+        "airline_name": "China Eastern Airlines",
+        "destination_iata": "XIY",
+        "destination_airport_name": "Xi'an Xianyang International Airport",
+        "destination_city": "Xi'an",
+        "destination_country": "China",
+        "local_departure_time": "12:05",
+        "local_arrival_time": "14:45",
+        "duration": "02:40"
+    },
+    {
         "flight_number": "JD5617",
         "airline_name": "Capital Airlines",
         "destination_iata": "SHE",
@@ -649,26 +770,15 @@
         "duration": "03:05"
     },
     {
-        "flight_number": "MU2230",
-        "airline_name": "China Eastern (SkyTeam Livery",
-        "destination_iata": "XIY",
-        "destination_airport_name": "Xi'an Xianyang International Airport",
-        "destination_city": "Xi'an",
+        "flight_number": "NS3246",
+        "airline_name": "Hebei Airlines",
+        "destination_iata": "NKG",
+        "destination_airport_name": "Nanjing Lukou International Airport",
+        "destination_city": "Nanjing",
         "destination_country": "China",
-        "local_departure_time": "12:05",
-        "local_arrival_time": "14:45",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "MF8273",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "WUH",
-        "destination_airport_name": "Wuhan Tianhe International Airport",
-        "destination_city": "Wuhan",
-        "destination_country": "China",
-        "local_departure_time": "12:10",
-        "local_arrival_time": "13:50",
-        "duration": "01:40"
+        "local_departure_time": "12:30",
+        "local_arrival_time": "14:00",
+        "duration": "01:30"
     },
     {
         "flight_number": "MF8541",
@@ -677,9 +787,31 @@
         "destination_airport_name": "Shanghai Hongqiao International Airport",
         "destination_city": "Shanghai",
         "destination_country": "China",
-        "local_departure_time": "12:40",
+        "local_departure_time": "12:30 / 12:50",
         "local_arrival_time": "14:05",
-        "duration": "01:25"
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "8L9880",
+        "airline_name": "Lucky Air",
+        "destination_iata": "KMG",
+        "destination_airport_name": "Kunming Changshui International Airport",
+        "destination_city": "Kunming",
+        "destination_country": "China",
+        "local_departure_time": "12:40",
+        "local_arrival_time": "15:55",
+        "duration": "03:15"
+    },
+    {
+        "flight_number": "MF8041",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "TNA",
+        "destination_airport_name": "Jinan Yaoqiang International Airport",
+        "destination_city": "Jinan",
+        "destination_country": "China",
+        "local_departure_time": "12:45",
+        "local_arrival_time": "14:55 / 15:00",
+        "duration": "02:15"
     },
     {
         "flight_number": "TR175",
@@ -704,37 +836,15 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "MF8138",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "TSN",
-        "destination_airport_name": "Tianjin Binhai International Airport",
-        "destination_city": "Tianjin",
-        "destination_country": "China",
-        "local_departure_time": "12:50",
-        "local_arrival_time": "15:20",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "8L9880",
-        "airline_name": "Lucky Air",
-        "destination_iata": "KMG",
-        "destination_airport_name": "Kunming Changshui International Airport",
-        "destination_city": "Kunming",
-        "destination_country": "China",
-        "local_departure_time": "12:55",
-        "local_arrival_time": "16:05",
-        "duration": "03:10"
-    },
-    {
         "flight_number": "CA1506",
         "airline_name": "Air China",
         "destination_iata": "PEK",
         "destination_airport_name": "Beijing Capital International Airport",
         "destination_city": "Beijing",
         "destination_country": "China",
-        "local_departure_time": "12:55",
+        "local_departure_time": "12:50 / 12:55",
         "local_arrival_time": "15:40",
-        "duration": "02:45"
+        "duration": "02:50"
     },
     {
         "flight_number": "HU7196",
@@ -759,17 +869,6 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "MF8215",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "XIY",
-        "destination_airport_name": "Xi'an Xianyang International Airport",
-        "destination_city": "Xi'an",
-        "destination_country": "China",
-        "local_departure_time": "13:10",
-        "local_arrival_time": "15:45",
-        "duration": "02:35"
-    },
-    {
         "flight_number": "KN5926",
         "airline_name": "China United Airlines",
         "destination_iata": "PKX",
@@ -777,30 +876,8 @@
         "destination_city": "Beijing",
         "destination_country": "China",
         "local_departure_time": "13:10",
-        "local_arrival_time": "15:55",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "9C6284",
-        "airline_name": "Spring Airlines",
-        "destination_iata": "SHE",
-        "destination_airport_name": "Shenyang Taoxian International Airport",
-        "destination_city": "Shenyang",
-        "destination_country": "China",
-        "local_departure_time": "13:15",
-        "local_arrival_time": "16:20",
-        "duration": "03:05"
-    },
-    {
-        "flight_number": "MU5400",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "WUH",
-        "destination_airport_name": "Wuhan Tianhe International Airport",
-        "destination_city": "Wuhan",
-        "destination_country": "China",
-        "local_departure_time": "13:20",
-        "local_arrival_time": "15:00",
-        "duration": "01:40"
+        "local_arrival_time": "15:55 / 16:00",
+        "duration": "02:50"
     },
     {
         "flight_number": "MU5600",
@@ -809,20 +886,53 @@
         "destination_airport_name": "Shanghai Pudong International Airport",
         "destination_city": "Shanghai",
         "destination_country": "China",
-        "local_departure_time": "13:25",
-        "local_arrival_time": "15:05",
-        "duration": "01:40"
+        "local_departure_time": "13:15 / 13:25",
+        "local_arrival_time": "14:45 / 15:00",
+        "duration": "01:35"
     },
     {
-        "flight_number": "MU5596",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "TYN",
-        "destination_airport_name": "Taiyuan Wusu International Airport",
-        "destination_city": "Taiyuan",
+        "flight_number": "MF8215",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "XIY",
+        "destination_airport_name": "Xi'an Xianyang International Airport",
+        "destination_city": "Xi'an",
         "destination_country": "China",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "16:40",
-        "duration": "02:30"
+        "local_departure_time": "13:25",
+        "local_arrival_time": "15:45",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "9C6284",
+        "airline_name": "Spring Airlines",
+        "destination_iata": "SHE",
+        "destination_airport_name": "Shenyang Taoxian International Airport",
+        "destination_city": "Shenyang",
+        "destination_country": "China",
+        "local_departure_time": "13:25",
+        "local_arrival_time": "16:30",
+        "duration": "03:05"
+    },
+    {
+        "flight_number": "MF8157",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "CGO",
+        "destination_airport_name": "Zhengzhou Xinzheng International Airport",
+        "destination_city": "Zhengzhou",
+        "destination_country": "China",
+        "local_departure_time": "13:50",
+        "local_arrival_time": "15:50",
+        "duration": "02:00"
+    },
+    {
+        "flight_number": "MF8445",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "TFU",
+        "destination_airport_name": "Chengdu Tianfu International Airport",
+        "destination_city": "Chengdu",
+        "destination_country": "China",
+        "local_departure_time": "13:50",
+        "local_arrival_time": "16:50",
+        "duration": "03:00"
     },
     {
         "flight_number": "SC2210",
@@ -836,6 +946,17 @@
         "duration": "03:15"
     },
     {
+        "flight_number": "MF8605",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "NNG",
+        "destination_airport_name": "Nanning Wuxu International Airport",
+        "destination_city": "Nanning",
+        "destination_country": "China",
+        "local_departure_time": "14:20",
+        "local_arrival_time": "16:40",
+        "duration": "02:20"
+    },
+    {
         "flight_number": "HU7264",
         "airline_name": "Hainan Airlines",
         "destination_iata": "CKG",
@@ -847,26 +968,15 @@
         "duration": "02:40"
     },
     {
-        "flight_number": "MF8671",
+        "flight_number": "MF8489",
         "airline_name": "Xiamen Air",
-        "destination_iata": "MFM",
-        "destination_airport_name": "Macau International Airport",
-        "destination_city": "Macau",
-        "destination_country": "Macao",
-        "local_departure_time": "14:45",
-        "local_arrival_time": "16:30",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "MF8291",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "LHW",
-        "destination_airport_name": "Lanzhou Zhongchuan International Airport",
-        "destination_city": "Lanzhou",
+        "destination_iata": "CKG",
+        "destination_airport_name": "Chongqing Jiangbei International Airport",
+        "destination_city": "Chongqing",
         "destination_country": "China",
-        "local_departure_time": "14:55",
-        "local_arrival_time": "18:00",
-        "duration": "03:05"
+        "local_departure_time": "14:50",
+        "local_arrival_time": "17:25",
+        "duration": "02:35"
     },
     {
         "flight_number": "MF8347",
@@ -880,6 +990,28 @@
         "duration": "02:00"
     },
     {
+        "flight_number": "MU5596",
+        "airline_name": "China Eastern Airlines",
+        "destination_iata": "TYN",
+        "destination_airport_name": "Taiyuan Wusu International Airport",
+        "destination_city": "Taiyuan",
+        "destination_country": "China",
+        "local_departure_time": "15:05",
+        "local_arrival_time": "17:30",
+        "duration": "02:25"
+    },
+    {
+        "flight_number": "MU2500",
+        "airline_name": "China Eastern Airlines",
+        "destination_iata": "WUH",
+        "destination_airport_name": "Wuhan Tianhe International Airport",
+        "destination_city": "Wuhan",
+        "destination_country": "China",
+        "local_departure_time": "15:10",
+        "local_arrival_time": "16:55",
+        "duration": "01:45"
+    },
+    {
         "flight_number": "MF8271",
         "airline_name": "Xiamen Air",
         "destination_iata": "XIY",
@@ -887,8 +1019,8 @@
         "destination_city": "Xi'an",
         "destination_country": "China",
         "local_departure_time": "15:15",
-        "local_arrival_time": "17:45",
-        "duration": "02:30"
+        "local_arrival_time": "17:50",
+        "duration": "02:35"
     },
     {
         "flight_number": "MF877",
@@ -902,6 +1034,17 @@
         "duration": "02:35"
     },
     {
+        "flight_number": "MF8547",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "SHA",
+        "destination_airport_name": "Shanghai Hongqiao International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
+        "local_departure_time": "15:30",
+        "local_arrival_time": "17:05",
+        "duration": "01:35"
+    },
+    {
         "flight_number": "SC8713",
         "airline_name": "Shandong Airlines",
         "destination_iata": "TNA",
@@ -909,8 +1052,8 @@
         "destination_city": "Jinan",
         "destination_country": "China",
         "local_departure_time": "15:30",
-        "local_arrival_time": "17:40",
-        "duration": "02:10"
+        "local_arrival_time": "17:45",
+        "duration": "02:15"
     },
     {
         "flight_number": "FU6575",
@@ -919,41 +1062,30 @@
         "destination_airport_name": "Zhengzhou Xinzheng International Airport",
         "destination_city": "Zhengzhou",
         "destination_country": "China",
-        "local_departure_time": "15:35",
+        "local_departure_time": "15:40",
         "local_arrival_time": "18:00",
-        "duration": "02:25"
+        "duration": "02:20"
     },
     {
-        "flight_number": "ZH9704",
-        "airline_name": "Shenzhen Airlines",
-        "destination_iata": "NKG",
-        "destination_airport_name": "Nanjing Lukou International Airport",
-        "destination_city": "Nanjing",
-        "destination_country": "China",
-        "local_departure_time": "15:35",
-        "local_arrival_time": "17:10",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "MF8547",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "SHA",
-        "destination_airport_name": "Shanghai Hongqiao International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "15:45",
-        "local_arrival_time": "17:05",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "FU6507",
+        "flight_number": "FU6511",
         "airline_name": "Fuzhou Airlines",
-        "destination_iata": "CKG",
-        "destination_airport_name": "Chongqing Jiangbei International Airport",
-        "destination_city": "Chongqing",
+        "destination_iata": "KWE",
+        "destination_airport_name": "Guiyang Longdongbao International Airport",
+        "destination_city": "Guiyang",
         "destination_country": "China",
         "local_departure_time": "15:50",
-        "local_arrival_time": "18:30",
+        "local_arrival_time": "18:40",
+        "duration": "02:50"
+    },
+    {
+        "flight_number": "MU2138",
+        "airline_name": "China Eastern Airlines",
+        "destination_iata": "XIY",
+        "destination_airport_name": "Xi'an Xianyang International Airport",
+        "destination_city": "Xi'an",
+        "destination_country": "China",
+        "local_departure_time": "15:55",
+        "local_arrival_time": "18:35",
         "duration": "02:40"
     },
     {
@@ -964,19 +1096,8 @@
         "destination_city": "Beijing",
         "destination_country": "China",
         "local_departure_time": "16:00",
-        "local_arrival_time": "19:00",
-        "duration": "03:00"
-    },
-    {
-        "flight_number": "MU2138",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "XIY",
-        "destination_airport_name": "Xi'an Xianyang International Airport",
-        "destination_city": "Xi'an",
-        "destination_country": "China",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "18:25",
-        "duration": "02:25"
+        "local_arrival_time": "18:50",
+        "duration": "02:50"
     },
     {
         "flight_number": "MF8155",
@@ -1001,70 +1122,48 @@
         "duration": "02:55"
     },
     {
-        "flight_number": "MU6240",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "YNT",
-        "destination_airport_name": "Yantai Penglai International Airport",
-        "destination_city": "Yantai",
-        "destination_country": "China",
-        "local_departure_time": "16:15",
-        "local_arrival_time": "18:35",
-        "duration": "02:20"
-    },
-    {
         "flight_number": "SC2208",
         "airline_name": "Shandong Airlines",
         "destination_iata": "PEK",
         "destination_airport_name": "Beijing Capital International Airport",
         "destination_city": "Beijing",
         "destination_country": "China",
-        "local_departure_time": "16:15",
+        "local_departure_time": "16:10",
         "local_arrival_time": "19:15",
-        "duration": "03:00"
+        "duration": "03:05"
     },
     {
-        "flight_number": "FU6721",
-        "airline_name": "Fuzhou Airlines",
-        "destination_iata": "TFU",
-        "destination_airport_name": "Chengdu Tianfu International Airport",
-        "destination_city": "Chengdu",
+        "flight_number": "QW6098",
+        "airline_name": "Qingdao Airlines",
+        "destination_iata": "YNT",
+        "destination_airport_name": "Yantai Penglai International Airport",
+        "destination_city": "Yantai",
         "destination_country": "China",
         "local_departure_time": "16:20",
-        "local_arrival_time": "19:15",
-        "duration": "02:55"
+        "local_arrival_time": "18:45",
+        "duration": "02:25"
     },
     {
-        "flight_number": "FU6609",
+        "flight_number": "FU6569",
         "airline_name": "Fuzhou Airlines",
-        "destination_iata": "KWE",
-        "destination_airport_name": "Guiyang Longdongbao International Airport",
-        "destination_city": "Guiyang",
+        "destination_iata": "TAO",
+        "destination_airport_name": "Qingdao Jiaodong International Airport",
+        "destination_city": "Qingdao",
         "destination_country": "China",
-        "local_departure_time": "16:25",
-        "local_arrival_time": "19:00",
-        "duration": "02:35"
+        "local_departure_time": "16:40",
+        "local_arrival_time": "18:55",
+        "duration": "02:15"
     },
     {
-        "flight_number": "AQ1328",
-        "airline_name": "9 Air",
-        "destination_iata": "KWE",
-        "destination_airport_name": "Guiyang Longdongbao International Airport",
-        "destination_city": "Guiyang",
+        "flight_number": "FU6509",
+        "airline_name": "Fuzhou Airlines",
+        "destination_iata": "KMG",
+        "destination_airport_name": "Kunming Changshui International Airport",
+        "destination_city": "Kunming",
         "destination_country": "China",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "19:05",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "SC2264",
-        "airline_name": "Shandong Airlines",
-        "destination_iata": "KWL",
-        "destination_airport_name": "Guilin Liangjiang International Airport",
-        "destination_city": "Guilin",
-        "destination_country": "China",
-        "local_departure_time": "17:05",
-        "local_arrival_time": "19:00",
-        "duration": "01:55"
+        "local_departure_time": "17:00",
+        "local_arrival_time": "20:00",
+        "duration": "03:00"
     },
     {
         "flight_number": "MF8455",
@@ -1073,31 +1172,31 @@
         "destination_airport_name": "Chengdu Tianfu International Airport",
         "destination_city": "Chengdu",
         "destination_country": "China",
-        "local_departure_time": "17:10",
+        "local_departure_time": "17:05",
         "local_arrival_time": "20:00",
+        "duration": "02:55"
+    },
+    {
+        "flight_number": "MF8729",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "NGO",
+        "destination_airport_name": "Nagoya Chubu Centrair International Airport",
+        "destination_city": "Nagoya",
+        "destination_country": "Japan",
+        "local_departure_time": "17:10",
+        "local_arrival_time": "21:00",
         "duration": "02:50"
     },
     {
-        "flight_number": "MF8487",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "CKG",
-        "destination_airport_name": "Chongqing Jiangbei International Airport",
-        "destination_city": "Chongqing",
+        "flight_number": "3U6910",
+        "airline_name": "Sichuan Airlines",
+        "destination_iata": "TFU",
+        "destination_airport_name": "Chengdu Tianfu International Airport",
+        "destination_city": "Chengdu",
         "destination_country": "China",
-        "local_departure_time": "17:10",
-        "local_arrival_time": "19:50",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "MF8679",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "KHH",
-        "destination_airport_name": "Kaohsiung International Airport",
-        "destination_city": "Kaohsiung",
-        "destination_country": "Taiwan",
         "local_departure_time": "17:15",
-        "local_arrival_time": "18:50",
-        "duration": "01:35"
+        "local_arrival_time": "20:15",
+        "duration": "03:00"
     },
     {
         "flight_number": "MF8459",
@@ -1107,8 +1206,30 @@
         "destination_city": "Guiyang",
         "destination_country": "China",
         "local_departure_time": "17:20",
-        "local_arrival_time": "19:55",
-        "duration": "02:35"
+        "local_arrival_time": "19:50",
+        "duration": "02:30"
+    },
+    {
+        "flight_number": "ZH9368",
+        "airline_name": "Shenzhen Airlines",
+        "destination_iata": "NNG",
+        "destination_airport_name": "Nanning Wuxu International Airport",
+        "destination_city": "Nanning",
+        "destination_country": "China",
+        "local_departure_time": "17:20",
+        "local_arrival_time": "20:05",
+        "duration": "02:45"
+    },
+    {
+        "flight_number": "EU1872",
+        "airline_name": "Chengdu Airlines",
+        "destination_iata": "TFU",
+        "destination_airport_name": "Chengdu Tianfu International Airport",
+        "destination_city": "Chengdu",
+        "destination_country": "China",
+        "local_departure_time": "17:25",
+        "local_arrival_time": "20:10",
+        "duration": "02:45"
     },
     {
         "flight_number": "CZ3878",
@@ -1122,17 +1243,6 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "EU1872",
-        "airline_name": "Chengdu Airlines",
-        "destination_iata": "TFU",
-        "destination_airport_name": "Chengdu Tianfu International Airport",
-        "destination_city": "Chengdu",
-        "destination_country": "China",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "20:10",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "CZ6918",
         "airline_name": "China Southern Airlines",
         "destination_iata": "CGO",
@@ -1144,6 +1254,17 @@
         "duration": "02:20"
     },
     {
+        "flight_number": "MF8585",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "SHA",
+        "destination_airport_name": "Shanghai Hongqiao International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
+        "local_departure_time": "17:30",
+        "local_arrival_time": "19:00",
+        "duration": "01:30"
+    },
+    {
         "flight_number": "FU6665",
         "airline_name": "Fuzhou Airlines",
         "destination_iata": "PEK",
@@ -1151,19 +1272,8 @@
         "destination_city": "Beijing",
         "destination_country": "China",
         "local_departure_time": "17:35",
-        "local_arrival_time": "20:50",
-        "duration": "03:15"
-    },
-    {
-        "flight_number": "MF8391",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "KWL",
-        "destination_airport_name": "Guilin Liangjiang International Airport",
-        "destination_city": "Guilin",
-        "destination_country": "China",
-        "local_departure_time": "17:40",
-        "local_arrival_time": "19:35",
-        "duration": "01:55"
+        "local_arrival_time": "21:00",
+        "duration": "03:25"
     },
     {
         "flight_number": "SC2204",
@@ -1183,20 +1293,9 @@
         "destination_airport_name": "Haikou Meilan International Airport",
         "destination_city": "Haikou",
         "destination_country": "China",
-        "local_departure_time": "18:00",
+        "local_departure_time": "17:55",
         "local_arrival_time": "20:10",
-        "duration": "02:10"
-    },
-    {
-        "flight_number": "EU2295",
-        "airline_name": "Chengdu Airlines",
-        "destination_iata": "KMG",
-        "destination_airport_name": "Kunming Changshui International Airport",
-        "destination_city": "Kunming",
-        "destination_country": "China",
-        "local_departure_time": "18:05",
-        "local_arrival_time": "21:15",
-        "duration": "03:10"
+        "duration": "02:15"
     },
     {
         "flight_number": "MF8776",
@@ -1210,25 +1309,25 @@
         "duration": "03:25"
     },
     {
-        "flight_number": "MF8111",
+        "flight_number": "MF8083",
         "airline_name": "Xiamen Air",
         "destination_iata": "TSN",
         "destination_airport_name": "Tianjin Binhai International Airport",
         "destination_city": "Tianjin",
         "destination_country": "China",
-        "local_departure_time": "18:20",
-        "local_arrival_time": "20:50",
-        "duration": "02:30"
+        "local_departure_time": "18:10",
+        "local_arrival_time": "20:45",
+        "duration": "02:35"
     },
     {
-        "flight_number": "MF8585",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "SHA",
-        "destination_airport_name": "Shanghai Hongqiao International Airport",
-        "destination_city": "Shanghai",
+        "flight_number": "MU2198",
+        "airline_name": "China Eastern Airlines",
+        "destination_iata": "CSX",
+        "destination_airport_name": "Changsha Huanghua International Airport",
+        "destination_city": "Changsha",
         "destination_country": "China",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "20:00",
+        "local_departure_time": "18:20",
+        "local_arrival_time": "19:50",
         "duration": "01:30"
     },
     {
@@ -1238,20 +1337,31 @@
         "destination_airport_name": "Qingdao Jiaodong International Airport",
         "destination_city": "Qingdao",
         "destination_country": "China",
-        "local_departure_time": "18:40",
-        "local_arrival_time": "20:50",
+        "local_departure_time": "18:30",
+        "local_arrival_time": "20:40",
         "duration": "02:10"
     },
     {
-        "flight_number": "MF8085",
+        "flight_number": "MF8235",
         "airline_name": "Xiamen Air",
-        "destination_iata": "NKG",
-        "destination_airport_name": "Nanjing Lukou International Airport",
-        "destination_city": "Nanjing",
+        "destination_iata": "CSX",
+        "destination_airport_name": "Changsha Huanghua International Airport",
+        "destination_city": "Changsha",
+        "destination_country": "China",
+        "local_departure_time": "18:35",
+        "local_arrival_time": "20:25",
+        "duration": "01:50"
+    },
+    {
+        "flight_number": "MF8221",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "URC",
+        "destination_airport_name": "Urumqi Diwopu International Airport",
+        "destination_city": "Urumqi",
         "destination_country": "China",
         "local_departure_time": "18:45",
-        "local_arrival_time": "19:55",
-        "duration": "01:10"
+        "local_arrival_time": "00:10 (+1)",
+        "duration": "05:25"
     },
     {
         "flight_number": "SC2206",
@@ -1276,6 +1386,17 @@
         "duration": "01:50"
     },
     {
+        "flight_number": "HU7590",
+        "airline_name": "Hainan Airlines",
+        "destination_iata": "XIY",
+        "destination_airport_name": "Xi'an Xianyang International Airport",
+        "destination_city": "Xi'an",
+        "destination_country": "China",
+        "local_departure_time": "19:15",
+        "local_arrival_time": "22:10",
+        "duration": "02:55"
+    },
+    {
         "flight_number": "HU6396",
         "airline_name": "Hainan Airlines",
         "destination_iata": "CKG",
@@ -1285,6 +1406,17 @@
         "local_departure_time": "19:20",
         "local_arrival_time": "22:15",
         "duration": "02:55"
+    },
+    {
+        "flight_number": "MF8584",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "XMN",
+        "destination_airport_name": "Xiamen Gaoqi International Airport",
+        "destination_city": "Xiamen",
+        "destination_country": "China",
+        "local_departure_time": "19:25",
+        "local_arrival_time": "20:25",
+        "duration": "01:00"
     },
     {
         "flight_number": "MU5661",
@@ -1298,37 +1430,15 @@
         "duration": "01:40"
     },
     {
-        "flight_number": "MF8605",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "NNG",
-        "destination_airport_name": "Nanning Wuxu International Airport",
-        "destination_city": "Nanning",
-        "destination_country": "China",
-        "local_departure_time": "19:30",
-        "local_arrival_time": "21:45",
-        "duration": "02:15"
-    },
-    {
-        "flight_number": "HU7590",
-        "airline_name": "Hainan Airlines",
-        "destination_iata": "XIY",
-        "destination_airport_name": "Xi'an Xianyang International Airport",
-        "destination_city": "Xi'an",
-        "destination_country": "China",
-        "local_departure_time": "19:35",
-        "local_arrival_time": "22:35",
-        "duration": "03:00"
-    },
-    {
         "flight_number": "MF855",
         "airline_name": "Xiamen Air",
         "destination_iata": "CGK",
         "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
         "destination_city": "Jakarta",
         "destination_country": "Indonesia",
-        "local_departure_time": "19:35 / 19:50",
+        "local_departure_time": "19:30",
         "local_arrival_time": "23:50",
-        "duration": "05:15"
+        "duration": "05:20"
     },
     {
         "flight_number": "CA4230",
@@ -1353,48 +1463,26 @@
         "duration": "02:45"
     },
     {
-        "flight_number": "HU7624",
-        "airline_name": "Hainan Airlines",
-        "destination_iata": "WUH",
-        "destination_airport_name": "Wuhan Tianhe International Airport",
-        "destination_city": "Wuhan",
-        "destination_country": "China",
-        "local_departure_time": "20:00",
-        "local_arrival_time": "21:50",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "JD5618",
-        "airline_name": "Capital Airlines",
-        "destination_iata": "SYX",
-        "destination_airport_name": "Sanya Phoenix International Airport",
-        "destination_city": "Sanya",
-        "destination_country": "China",
-        "local_departure_time": "20:10 / 21:00",
-        "local_arrival_time": "22:25 / 23:35",
-        "duration": "02:15"
-    },
-    {
         "flight_number": "MF8109",
         "airline_name": "Xiamen Air",
         "destination_iata": "PKX",
         "destination_airport_name": "Beijing Daxing International Airport",
         "destination_city": "Beijing",
         "destination_country": "China",
-        "local_departure_time": "20:20",
+        "local_departure_time": "20:00",
         "local_arrival_time": "22:55",
-        "duration": "02:35"
+        "duration": "02:55"
     },
     {
-        "flight_number": "AQ1324",
-        "airline_name": "9 Air",
-        "destination_iata": "KWE",
-        "destination_airport_name": "Guiyang Longdongbao International Airport",
-        "destination_city": "Guiyang",
+        "flight_number": "CZ3648",
+        "airline_name": "China Southern Airlines",
+        "destination_iata": "CAN",
+        "destination_airport_name": "Guangzhou Baiyun International Airport",
+        "destination_city": "Guangzhou",
         "destination_country": "China",
-        "local_departure_time": "20:20 / 21:20",
-        "local_arrival_time": "22:45 / 23:50",
-        "duration": "02:25"
+        "local_departure_time": "20:15",
+        "local_arrival_time": "22:05",
+        "duration": "01:50"
     },
     {
         "flight_number": "MU5588",
@@ -1404,7 +1492,7 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "20:25",
-        "local_arrival_time": "22:00 / 22:10",
+        "local_arrival_time": "22:10",
         "duration": "01:45"
     },
     {
@@ -1419,17 +1507,6 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "DR6578",
-        "airline_name": "Ruili Airlines",
-        "destination_iata": "KMG",
-        "destination_airport_name": "Kunming Changshui International Airport",
-        "destination_city": "Kunming",
-        "destination_country": "China",
-        "local_departure_time": "20:50",
-        "local_arrival_time": "23:55",
-        "duration": "03:05"
-    },
-    {
         "flight_number": "HU7296",
         "airline_name": "Hainan Airlines",
         "destination_iata": "PEK",
@@ -1441,17 +1518,6 @@
         "duration": "02:45"
     },
     {
-        "flight_number": "CA4570",
-        "airline_name": "Air China",
-        "destination_iata": "CKG",
-        "destination_airport_name": "Chongqing Jiangbei International Airport",
-        "destination_city": "Chongqing",
-        "destination_country": "China",
-        "local_departure_time": "21:15",
-        "local_arrival_time": "23:55",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "MU2330",
         "airline_name": "China Eastern Airlines",
         "destination_iata": "XIY",
@@ -1459,8 +1525,8 @@
         "destination_city": "Xi'an",
         "destination_country": "China",
         "local_departure_time": "21:20",
-        "local_arrival_time": "00:10 (+1)",
-        "duration": "02:50"
+        "local_arrival_time": "00:25 (+1)",
+        "duration": "03:05"
     },
     {
         "flight_number": "SC4912",
@@ -1480,31 +1546,9 @@
         "destination_airport_name": "Dalian Zhoushuizi International Airport",
         "destination_city": "Dalian",
         "destination_country": "China",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "23:55",
-        "duration": "02:25"
-    },
-    {
-        "flight_number": "MU5580",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "SHA",
-        "destination_airport_name": "Shanghai Hongqiao International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "22:50",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "MF8111",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "TSN",
-        "destination_airport_name": "Tianjin Binhai International Airport",
-        "destination_city": "Tianjin",
-        "destination_country": "China",
         "local_departure_time": "21:35",
-        "local_arrival_time": "00:10 (+1)",
-        "duration": "02:35"
+        "local_arrival_time": "23:55",
+        "duration": "02:20"
     },
     {
         "flight_number": "HO1280",
@@ -1516,71 +1560,5 @@
         "local_departure_time": "21:55",
         "local_arrival_time": "23:30",
         "duration": "01:35"
-    },
-    {
-        "flight_number": "CA1860",
-        "airline_name": "Air China",
-        "destination_iata": "PEK",
-        "destination_airport_name": "Beijing Capital International Airport",
-        "destination_city": "Beijing",
-        "destination_country": "China",
-        "local_departure_time": "22:05",
-        "local_arrival_time": "00:50 (+1)",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "MF8329",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "CSX",
-        "destination_airport_name": "Changsha Huanghua International Airport",
-        "destination_city": "Changsha",
-        "destination_country": "China",
-        "local_departure_time": "22:20",
-        "local_arrival_time": "00:05 (+1) / 00:10 (+1)",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "CZ3648",
-        "airline_name": "China Southern Airlines",
-        "destination_iata": "CAN",
-        "destination_airport_name": "Guangzhou Baiyun International Airport",
-        "destination_city": "Guangzhou",
-        "destination_country": "China",
-        "local_departure_time": "22:30",
-        "local_arrival_time": "00:25 (+1)",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "FU6537",
-        "airline_name": "Fuzhou Airlines",
-        "destination_iata": "KMG",
-        "destination_airport_name": "Kunming Changshui International Airport",
-        "destination_city": "Kunming",
-        "destination_country": "China",
-        "local_departure_time": "22:30",
-        "local_arrival_time": "01:25 (+1)",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "FU6531",
-        "airline_name": "Fuzhou Airlines",
-        "destination_iata": "HAK",
-        "destination_airport_name": "Haikou Meilan International Airport",
-        "destination_city": "Haikou",
-        "destination_country": "China",
-        "local_departure_time": "22:50 / 23:15",
-        "local_arrival_time": "01:20 (+1)",
-        "duration": "02:05"
-    },
-    {
-        "flight_number": "FU6515",
-        "airline_name": "Fuzhou Airlines",
-        "destination_iata": "TSN",
-        "destination_airport_name": "Tianjin Binhai International Airport",
-        "destination_city": "Tianjin",
-        "destination_country": "China",
-        "local_departure_time": "23:15",
-        "local_arrival_time": "01:50 (+1)",
-        "duration": "02:35"
     }
 ]

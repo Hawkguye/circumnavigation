@@ -1,16 +1,5 @@
 [
     {
-        "flight_number": "PC1827",
-        "airline_name": "Pegasus",
-        "destination_iata": "DLM",
-        "destination_airport_name": "Dalaman Airport",
-        "destination_city": "Dalaman",
-        "destination_country": "Turkey",
-        "local_departure_time": "01:00",
-        "local_arrival_time": "02:30",
-        "duration": "01:30"
-    },
-    {
         "flight_number": "QR419",
         "airline_name": "Qatar Airways",
         "destination_iata": "DOH",
@@ -20,28 +9,6 @@
         "local_departure_time": "01:40",
         "local_arrival_time": "04:45",
         "duration": "03:05"
-    },
-    {
-        "flight_number": "KU504",
-        "airline_name": "Kuwait Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "01:45",
-        "local_arrival_time": "05:05",
-        "duration": "03:20"
-    },
-    {
-        "flight_number": "A92704",
-        "airline_name": "Georgian Airways",
-        "destination_iata": "TBS",
-        "destination_airport_name": "Tbilisi International Airport",
-        "destination_city": "Tbilisi",
-        "destination_country": "Georgia",
-        "local_departure_time": "01:45",
-        "local_arrival_time": "04:45",
-        "duration": "02:00"
     },
     {
         "flight_number": "LH1309",
@@ -66,28 +33,6 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "SR1595",
-        "airline_name": "Sundair",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "02:00",
-        "local_arrival_time": "05:40",
-        "duration": "04:40"
-    },
-    {
-        "flight_number": "SR1599",
-        "airline_name": "Sundair",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "02:00",
-        "local_arrival_time": "05:40",
-        "duration": "04:40"
-    },
-    {
         "flight_number": "ME571",
         "airline_name": "MEA",
         "destination_iata": "LOS",
@@ -97,17 +42,6 @@
         "local_departure_time": "02:05",
         "local_arrival_time": "06:20",
         "duration": "06:15"
-    },
-    {
-        "flight_number": "ME575",
-        "airline_name": "MEA",
-        "destination_iata": "ACC",
-        "destination_airport_name": "Accra Kotoka International Airport",
-        "destination_city": "Accra",
-        "destination_country": "Ghana",
-        "local_departure_time": "02:05",
-        "local_arrival_time": "05:30",
-        "duration": "06:25"
     },
     {
         "flight_number": "ET407",
@@ -187,26 +121,48 @@
         "duration": "01:55"
     },
     {
+        "flight_number": "LO146",
+        "airline_name": "LOT",
+        "destination_iata": "WAW",
+        "destination_airport_name": "Warsaw Chopin Airport",
+        "destination_city": "Warsaw",
+        "destination_country": "Poland",
+        "local_departure_time": "04:40",
+        "local_arrival_time": "07:30",
+        "duration": "03:50"
+    },
+    {
         "flight_number": "MS714",
         "airline_name": "Egyptair",
         "destination_iata": "CAI",
         "destination_airport_name": "Cairo International Airport",
         "destination_city": "Cairo",
         "destination_country": "Egypt",
-        "local_departure_time": "05:00",
-        "local_arrival_time": "06:35",
+        "local_departure_time": "04:50 / 05:00",
+        "local_arrival_time": "06:15 / 06:35",
         "duration": "01:35"
     },
     {
-        "flight_number": "PC1829",
+        "flight_number": "ME275",
+        "airline_name": "MEA",
+        "destination_iata": "EVN",
+        "destination_airport_name": "Yerevan Zvartnots International Airport",
+        "destination_city": "Yerevan",
+        "destination_country": "Armenia",
+        "local_departure_time": "06:00",
+        "local_arrival_time": "09:10",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "PC755",
         "airline_name": "Pegasus",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
+        "destination_iata": "SAW",
+        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
+        "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "05:30",
-        "local_arrival_time": "07:00",
-        "duration": "01:30"
+        "local_departure_time": "06:25",
+        "local_arrival_time": "08:20",
+        "duration": "01:55"
     },
     {
         "flight_number": "ME235",
@@ -215,31 +171,42 @@
         "destination_airport_name": "Milan Malpensa Airport",
         "destination_city": "Milan",
         "destination_country": "Italy",
-        "local_departure_time": "05:55",
-        "local_arrival_time": "08:50",
+        "local_departure_time": "06:40",
+        "local_arrival_time": "09:35",
         "duration": "03:55"
     },
     {
-        "flight_number": "ME225",
-        "airline_name": "MEA",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "06:30",
-        "local_arrival_time": "09:45",
-        "duration": "04:15"
-    },
-    {
         "flight_number": "ME247",
-        "airline_name": "GetJet Airlines",
+        "airline_name": "MEA",
         "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
+        "destination_airport_name": "Dusseldorf Airport",
         "destination_city": "Dusseldorf",
         "destination_country": "Germany",
         "local_departure_time": "07:00",
         "local_arrival_time": "10:15",
         "duration": "04:15"
+    },
+    {
+        "flight_number": "EY584",
+        "airline_name": "Airhub Airlines",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "07:05",
+        "local_arrival_time": "11:25",
+        "duration": "03:20"
+    },
+    {
+        "flight_number": "ME265",
+        "airline_name": "MEA",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "07:05",
+        "local_arrival_time": "09:00",
+        "duration": "01:55"
     },
     {
         "flight_number": "ME217",
@@ -251,28 +218,6 @@
         "local_departure_time": "07:20",
         "local_arrival_time": "10:35",
         "duration": "04:15"
-    },
-    {
-        "flight_number": "ME231",
-        "airline_name": "MEA",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "07:20",
-        "local_arrival_time": "09:55",
-        "duration": "03:35"
-    },
-    {
-        "flight_number": "ME271",
-        "airline_name": "MEA",
-        "destination_iata": "LCA",
-        "destination_airport_name": "Larnaca International Airport",
-        "destination_city": "Larnaca",
-        "destination_country": "Cyprus",
-        "local_departure_time": "07:25",
-        "local_arrival_time": "08:10",
-        "duration": "00:45"
     },
     {
         "flight_number": "ME213",
@@ -315,11 +260,11 @@
         "destination_city": "Amman",
         "destination_country": "Jordan",
         "local_departure_time": "07:40",
-        "local_arrival_time": "08:50",
-        "duration": "01:10"
+        "local_arrival_time": "08:40",
+        "duration": "01:00"
     },
     {
-        "flight_number": "ME304",
+        "flight_number": "ME302",
         "airline_name": "MEA",
         "destination_iata": "CAI",
         "destination_airport_name": "Cairo International Airport",
@@ -352,17 +297,6 @@
         "duration": "05:05"
     },
     {
-        "flight_number": "ME265",
-        "airline_name": "MEA",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "08:25",
-        "local_arrival_time": "10:20",
-        "duration": "01:55"
-    },
-    {
         "flight_number": "ME424",
         "airline_name": "MEA",
         "destination_iata": "RUH",
@@ -385,17 +319,6 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "ME364",
-        "airline_name": "MEA",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "08:55",
-        "local_arrival_time": "11:25",
-        "duration": "02:30"
-    },
-    {
         "flight_number": "ME251",
         "airline_name": "MEA",
         "destination_iata": "ATH",
@@ -407,15 +330,15 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "ME241",
-        "airline_name": "MEA",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "09:15",
-        "local_arrival_time": "13:15",
-        "duration": "05:00"
+        "flight_number": "MS5047",
+        "airline_name": "Egyptair",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "09:45",
+        "local_arrival_time": "11:10",
+        "duration": "01:25"
     },
     {
         "flight_number": "TK831",
@@ -424,31 +347,9 @@
         "destination_airport_name": "Istanbul Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "10:10",
-        "local_arrival_time": "12:15",
+        "local_departure_time": "10:05",
+        "local_arrival_time": "12:10",
         "duration": "02:05"
-    },
-    {
-        "flight_number": "XQ203",
-        "airline_name": "SunExpress",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "10:20",
-        "local_arrival_time": "11:40",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "ME1275",
-        "airline_name": "MEA",
-        "destination_iata": "EVN",
-        "destination_airport_name": "Yerevan Zvartnots International Airport",
-        "destination_city": "Yerevan",
-        "destination_country": "Armenia",
-        "local_departure_time": "10:25",
-        "local_arrival_time": "13:35",
-        "duration": "02:10"
     },
     {
         "flight_number": "FZ158",
@@ -462,17 +363,6 @@
         "duration": "03:15"
     },
     {
-        "flight_number": "XQ807",
-        "airline_name": "SunExpress",
-        "destination_iata": "ADB",
-        "destination_airport_name": "Izmir Adnan Menderes International Airport",
-        "destination_city": "Izmir",
-        "destination_country": "Turkey",
-        "local_departure_time": "10:45",
-        "local_arrival_time": "12:30",
-        "duration": "01:45"
-    },
-    {
         "flight_number": "MS710",
         "airline_name": "Egyptair",
         "destination_iata": "CAI",
@@ -482,6 +372,17 @@
         "local_departure_time": "11:30",
         "local_arrival_time": "12:50",
         "duration": "01:20"
+    },
+    {
+        "flight_number": "CY121",
+        "airline_name": "Cyprus Airways",
+        "destination_iata": "LCA",
+        "destination_airport_name": "Larnaca International Airport",
+        "destination_city": "Larnaca",
+        "destination_country": "Cyprus",
+        "local_departure_time": "11:50",
+        "local_arrival_time": "12:30",
+        "duration": "00:40"
     },
     {
         "flight_number": "ME320",
@@ -506,18 +407,7 @@
         "duration": "03:15"
     },
     {
-        "flight_number": "DE869",
-        "airline_name": "Condor",
-        "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
-        "destination_city": "Dusseldorf",
-        "destination_country": "Germany",
-        "local_departure_time": "12:15",
-        "local_arrival_time": "15:35",
-        "duration": "04:20"
-    },
-    {
-        "flight_number": "ME308",
+        "flight_number": "ME304",
         "airline_name": "MEA",
         "destination_iata": "CAI",
         "destination_airport_name": "Cairo International Airport",
@@ -561,37 +451,15 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "5W7114",
-        "airline_name": "Wizz Air Abu Dhabi",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "12:30",
-        "local_arrival_time": "16:55",
-        "duration": "03:25"
-    },
-    {
-        "flight_number": "3L451",
-        "airline_name": "Air Arabia Abu Dhabi",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "12:50",
-        "local_arrival_time": "17:15",
-        "duration": "03:25"
-    },
-    {
-        "flight_number": "ME229",
-        "airline_name": "MEA",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "flight_number": "TO4251",
+        "airline_name": "Transavia France",
+        "destination_iata": "ORY",
+        "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "13:00",
-        "local_arrival_time": "16:40",
-        "duration": "04:40"
+        "local_departure_time": "12:55",
+        "local_arrival_time": "16:55",
+        "duration": "05:00"
     },
     {
         "flight_number": "QR417",
@@ -605,59 +473,26 @@
         "duration": "03:05"
     },
     {
-        "flight_number": "EY582",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "18:55",
-        "duration": "03:55"
-    },
-    {
-        "flight_number": "TO4281",
-        "airline_name": "Transavia",
-        "destination_iata": "MRS",
-        "destination_airport_name": "Marseille Provence Airport",
-        "destination_city": "Marseille",
-        "destination_country": "France",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "17:35",
-        "duration": "04:25"
-    },
-    {
-        "flight_number": "TO4251",
-        "airline_name": "Transavia France",
-        "destination_iata": "ORY",
-        "destination_airport_name": "Paris Orly Airport",
+        "flight_number": "ME229",
+        "airline_name": "MEA",
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "18:10",
-        "duration": "05:00"
+        "local_departure_time": "13:30",
+        "local_arrival_time": "17:10",
+        "duration": "04:40"
     },
     {
-        "flight_number": "ME1426",
-        "airline_name": "MEA",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "14:20",
-        "local_arrival_time": "18:35",
-        "duration": "03:15"
-    },
-    {
-        "flight_number": "ME223",
-        "airline_name": "MEA",
-        "destination_iata": "NCE",
-        "destination_airport_name": "Nice Cote d'Azur Airport",
-        "destination_city": "Nice",
-        "destination_country": "France",
-        "local_departure_time": "15:00",
-        "local_arrival_time": "18:00",
-        "duration": "04:00"
+        "flight_number": "4S5112",
+        "airline_name": "Red Sea Airlines",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "14:15",
+        "local_arrival_time": "16:00",
+        "duration": "01:45"
     },
     {
         "flight_number": "ME436",
@@ -671,6 +506,17 @@
         "duration": "02:45"
     },
     {
+        "flight_number": "AH4017",
+        "airline_name": "Air Algerie",
+        "destination_iata": "ALG",
+        "destination_airport_name": "Algiers Houari Boumediene Airport",
+        "destination_city": "Algiers",
+        "destination_country": "Algeria",
+        "local_departure_time": "15:20",
+        "local_arrival_time": "17:50",
+        "duration": "04:30"
+    },
+    {
         "flight_number": "ME418",
         "airline_name": "MEA",
         "destination_iata": "AUH",
@@ -682,47 +528,14 @@
         "duration": "03:10"
     },
     {
-        "flight_number": "UD106",
-        "airline_name": "UR Airlines",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "17:00",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "TK3444",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "DLM",
-        "destination_airport_name": "Dalaman Airport",
-        "destination_city": "Dalaman",
-        "destination_country": "Turkey",
-        "local_departure_time": "15:35",
-        "local_arrival_time": "16:46",
-        "duration": "01:11"
-    },
-    {
-        "flight_number": "ME322",
-        "airline_name": "MEA",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "15:55",
-        "local_arrival_time": "17:25",
-        "duration": "01:30"
-    },
-    {
         "flight_number": "TK825",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
         "destination_airport_name": "Istanbul Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "15:55",
-        "local_arrival_time": "18:00",
+        "local_departure_time": "15:35",
+        "local_arrival_time": "17:40",
         "duration": "02:05"
     },
     {
@@ -748,15 +561,15 @@
         "duration": "03:15"
     },
     {
-        "flight_number": "ME312",
-        "airline_name": "MEA",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "16:40",
-        "local_arrival_time": "17:50",
-        "duration": "01:10"
+        "flight_number": "UF2",
+        "airline_name": "Petroleum Air Services",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "16:30",
+        "local_arrival_time": "17:58",
+        "duration": "01:28"
     },
     {
         "flight_number": "LH1307",
@@ -770,37 +583,26 @@
         "duration": "04:25"
     },
     {
-        "flight_number": "XC1476",
-        "airline_name": "Corendon Airlines",
-        "destination_iata": "DLM",
-        "destination_airport_name": "Dalaman Airport",
-        "destination_city": "Dalaman",
-        "destination_country": "Turkey",
+        "flight_number": "ME312",
+        "airline_name": "MEA",
+        "destination_iata": "AMM",
+        "destination_airport_name": "Amman Queen Alia International Airport",
+        "destination_city": "Amman",
+        "destination_country": "Jordan",
         "local_departure_time": "16:50",
-        "local_arrival_time": "18:30",
-        "duration": "01:40"
+        "local_arrival_time": "17:50",
+        "duration": "01:00"
     },
     {
-        "flight_number": "ME263",
+        "flight_number": "ME322",
         "airline_name": "MEA",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "16:50 / 17:25",
-        "local_arrival_time": "18:45 / 19:20",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "ME203",
-        "airline_name": "MEA",
-        "destination_iata": "LHR",
-        "destination_airport_name": "London Heathrow Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "17:25",
-        "local_arrival_time": "20:35",
-        "duration": "05:10"
+        "destination_iata": "BGW",
+        "destination_airport_name": "Baghdad International Airport",
+        "destination_city": "Baghdad",
+        "destination_country": "Iraq",
+        "local_departure_time": "16:55",
+        "local_arrival_time": "18:25",
+        "duration": "01:30"
     },
     {
         "flight_number": "IA1302",
@@ -814,28 +616,6 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "UF4",
-        "airline_name": "Petroleum Air Services",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "18:55",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "ME267",
-        "airline_name": "GetJet Airlines",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "17:35",
-        "local_arrival_time": "19:30",
-        "duration": "01:55"
-    },
-    {
         "flight_number": "ME442",
         "airline_name": "MEA",
         "destination_iata": "DMM",
@@ -845,6 +625,17 @@
         "local_departure_time": "17:35",
         "local_arrival_time": "20:05",
         "duration": "02:30"
+    },
+    {
+        "flight_number": "ME267",
+        "airline_name": "MEA",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "17:35",
+        "local_arrival_time": "19:30",
+        "duration": "01:55"
     },
     {
         "flight_number": "ME368",
@@ -880,28 +671,6 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "ME253",
-        "airline_name": "MEA",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
-        "local_departure_time": "18:05",
-        "local_arrival_time": "20:00",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "RJ406",
-        "airline_name": "Royal Jordanian",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "18:05",
-        "local_arrival_time": "19:20",
-        "duration": "01:15"
-    },
-    {
         "flight_number": "ME306",
         "airline_name": "MEA",
         "destination_iata": "CAI",
@@ -911,50 +680,6 @@
         "local_departure_time": "18:15",
         "local_arrival_time": "19:35",
         "duration": "01:20"
-    },
-    {
-        "flight_number": "UD106",
-        "airline_name": "UR Airlines",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "00:30 (+1)",
-        "duration": "06:00"
-    },
-    {
-        "flight_number": "SM3702",
-        "airline_name": "Air Cairo",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "18:35",
-        "local_arrival_time": "19:56",
-        "duration": "01:21"
-    },
-    {
-        "flight_number": "SR151",
-        "airline_name": "Sundair",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "22:15",
-        "duration": "04:20"
-    },
-    {
-        "flight_number": "EY584",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "00:10 (+1)",
-        "duration": "03:55"
     },
     {
         "flight_number": "EK954",
@@ -990,28 +715,6 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "IAM1435",
-        "airline_name": "Italy - Air Force",
-        "destination_iata": "VRN",
-        "destination_airport_name": "Verona Airport",
-        "destination_city": "Verona",
-        "destination_country": "Italy",
-        "local_departure_time": "20:15",
-        "local_arrival_time": "22:53",
-        "duration": "03:38"
-    },
-    {
-        "flight_number": "ME267",
-        "airline_name": "MEA",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "20:35",
-        "local_arrival_time": "22:30",
-        "duration": "01:55"
-    },
-    {
         "flight_number": "PC1825",
         "airline_name": "Pegasus",
         "destination_iata": "AYT",
@@ -1020,28 +723,6 @@
         "destination_country": "Turkey",
         "local_departure_time": "20:45",
         "local_arrival_time": "22:10",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "RJ404",
-        "airline_name": "Royal Jordanian",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "20:45 / 21:30",
-        "local_arrival_time": "22:05 / 22:50",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "XQ203",
-        "airline_name": "SunExpress",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "20:55",
-        "local_arrival_time": "22:20",
         "duration": "01:25"
     },
     {
@@ -1056,28 +737,6 @@
         "duration": "00:45"
     },
     {
-        "flight_number": "ME430",
-        "airline_name": "MEA",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "01:15 (+1)",
-        "duration": "03:15"
-    },
-    {
-        "flight_number": "G9409",
-        "airline_name": "Air Arabia",
-        "destination_iata": "SHJ",
-        "destination_airport_name": "Sharjah International Airport",
-        "destination_city": "Sharjah",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "21:10",
-        "local_arrival_time": "01:35 (+1)",
-        "duration": "03:25"
-    },
-    {
         "flight_number": "J9262",
         "airline_name": "Jazeera Airways",
         "destination_iata": "KWI",
@@ -1089,15 +748,15 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "3L453",
-        "airline_name": "Air Arabia Abu Dhabi",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "21:50",
-        "local_arrival_time": "02:15 (+1)",
-        "duration": "03:25"
+        "flight_number": "RJ404",
+        "airline_name": "Royal Jordanian",
+        "destination_iata": "AMM",
+        "destination_airport_name": "Amman Queen Alia International Airport",
+        "destination_city": "Amman",
+        "destination_country": "Jordan",
+        "local_departure_time": "21:30",
+        "local_arrival_time": "22:50",
+        "duration": "01:20"
     },
     {
         "flight_number": "CY121",
@@ -1111,26 +770,26 @@
         "duration": "00:40"
     },
     {
+        "flight_number": "3L453",
+        "airline_name": "Air Arabia Abu Dhabi",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "21:50",
+        "local_arrival_time": "02:15 (+1)",
+        "duration": "03:25"
+    },
+    {
         "flight_number": "TK827",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
         "destination_airport_name": "Istanbul Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "21:55",
-        "local_arrival_time": "23:55",
+        "local_departure_time": "22:25",
+        "local_arrival_time": "00:25 (+1)",
         "duration": "02:00"
-    },
-    {
-        "flight_number": "XC1478",
-        "airline_name": "Corendon Airlines",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "22:00",
-        "local_arrival_time": "23:35",
-        "duration": "01:35"
     },
     {
         "flight_number": "TK833",
@@ -1151,8 +810,8 @@
         "destination_city": "Dubai",
         "destination_country": "United Arab Emirates",
         "local_departure_time": "22:40",
-        "local_arrival_time": "03:00 (+1)",
-        "duration": "03:20"
+        "local_arrival_time": "02:55 (+1) / 03:00 (+1)",
+        "duration": "03:15"
     },
     {
         "flight_number": "KU504",
@@ -1161,20 +820,9 @@
         "destination_airport_name": "Kuwait International Airport",
         "destination_city": "Kuwait City",
         "destination_country": "Kuwait",
-        "local_departure_time": "22:45",
-        "local_arrival_time": "01:20 (+1)",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "UD106",
-        "airline_name": "UR Airlines",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "23:00",
-        "local_arrival_time": "00:30 (+1)",
-        "duration": "01:30"
+        "local_departure_time": "22:50",
+        "local_arrival_time": "02:10 (+1)",
+        "duration": "03:20"
     },
     {
         "flight_number": "G9388",
@@ -1186,49 +834,5 @@
         "local_departure_time": "23:00",
         "local_arrival_time": "03:25 (+1)",
         "duration": "03:25"
-    },
-    {
-        "flight_number": "SK2828",
-        "airline_name": "SAS",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "23:00",
-        "local_arrival_time": "02:25 (+1)",
-        "duration": "04:25"
-    },
-    {
-        "flight_number": "ME434",
-        "airline_name": "MEA",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "23:05",
-        "local_arrival_time": "01:50 (+1)",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "J9264",
-        "airline_name": "Jazeera Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "23:25",
-        "local_arrival_time": "01:45 (+1)",
-        "duration": "02:20"
-    },
-    {
-        "flight_number": "FZ8240",
-        "airline_name": "flydubai",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "23:35",
-        "local_arrival_time": "03:35 (+1) / 03:45 (+1)",
-        "duration": "03:10"
     }
 ]

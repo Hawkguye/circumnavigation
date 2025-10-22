@@ -426,7 +426,7 @@ const challengeCards = [
             <p class="card-text">
                 You have just entered <b>The SNACK ZONE</b> BABYYYY!!!
                 <br>
-                Takes 10 mins of game time. You get no reward, only aura.
+                Takes 10 mins of game time. You get no reward.
             </p>
         </div>
         <div class="card-body border-top d-flex text-center">
@@ -508,8 +508,8 @@ async function drawNewChallenges(){
     
     if (cursed_challenges) {
         await delay(1000);
-        $("#challenge-card-2").html(createChallengeCard(cards, 1));
-        bindChallengeButton(2, cards[0]);
+        $("#challenge-card-2").html(createChallengeCard(cards, 2));
+        bindChallengeButton(2, cards);
     } else {
         for (let i = 1; i <= 3; i++) {
             await delay(1000);

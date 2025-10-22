@@ -1,12 +1,67 @@
 [
     {
+        "flight_number": "MH128",
+        "airline_name": "Malaysia Airlines",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "00:30",
+        "local_arrival_time": "06:00",
+        "duration": "08:30"
+    },
+    {
+        "flight_number": "TG462",
+        "airline_name": "Thai Airways",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "00:30",
+        "local_arrival_time": "06:00",
+        "duration": "09:30"
+    },
+    {
+        "flight_number": "VJ82",
+        "airline_name": "VietJet Air",
+        "destination_iata": "SGN",
+        "destination_airport_name": "Ho Chi Minh City International Airport",
+        "destination_city": "Ho Chi Minh City",
+        "destination_country": "Vietnam",
+        "local_departure_time": "00:30",
+        "local_arrival_time": "05:05",
+        "duration": "08:35"
+    },
+    {
+        "flight_number": "SQ218",
+        "airline_name": "Singapore Airlines",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "00:35",
+        "local_arrival_time": "05:30",
+        "duration": "07:55"
+    },
+    {
+        "flight_number": "CX178",
+        "airline_name": "Cathay Pacific",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "00:45",
+        "local_arrival_time": "06:55",
+        "duration": "09:10"
+    },
+    {
         "flight_number": "5J50",
         "airline_name": "Cebu Pacific",
         "destination_iata": "MNL",
         "destination_airport_name": "Manila Ninoy Aquino International Airport",
         "destination_city": "Manila",
         "destination_country": "Philippines",
-        "local_departure_time": "00:25",
+        "local_departure_time": "01:25",
         "local_arrival_time": "07:00",
         "duration": "08:35"
     },
@@ -17,31 +72,9 @@
         "destination_airport_name": "Hanoi Noi Bai International Airport",
         "destination_city": "Hanoi",
         "destination_country": "Vietnam",
-        "local_departure_time": "00:30",
+        "local_departure_time": "01:30",
         "local_arrival_time": "07:10",
         "duration": "09:40"
-    },
-    {
-        "flight_number": "VJ82",
-        "airline_name": "VietJet Air",
-        "destination_iata": "SGN",
-        "destination_airport_name": "Ho Chi Minh City International Airport",
-        "destination_city": "Ho Chi Minh City",
-        "destination_country": "Vietnam",
-        "local_departure_time": "00:30",
-        "local_arrival_time": "06:05",
-        "duration": "08:35"
-    },
-    {
-        "flight_number": "TFX23",
-        "airline_name": "Texel Air",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
-        "destination_country": "Australia",
-        "local_departure_time": "01:00",
-        "local_arrival_time": "02:59",
-        "duration": "01:59"
     },
     {
         "flight_number": "QF7359",
@@ -51,7 +84,7 @@
         "destination_city": "Perth",
         "destination_country": "Australia",
         "local_departure_time": "01:30",
-        "local_arrival_time": "03:45",
+        "local_arrival_time": "02:45",
         "duration": "04:15"
     },
     {
@@ -61,7 +94,7 @@
         "destination_airport_name": "Brisbane Airport",
         "destination_city": "Brisbane",
         "destination_country": "Australia",
-        "local_departure_time": "01:40",
+        "local_departure_time": "02:40",
         "local_arrival_time": "03:50",
         "duration": "02:10"
     },
@@ -72,20 +105,9 @@
         "destination_airport_name": "Sydney Kingsford Smith Airport",
         "destination_city": "Sydney",
         "destination_country": "Australia",
-        "local_departure_time": "01:45",
-        "local_arrival_time": "03:10",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "WO7454",
-        "airline_name": "StarTrack",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
-        "local_departure_time": "01:45",
-        "local_arrival_time": "02:52",
-        "duration": "01:07"
+        "local_departure_time": "02:40",
+        "local_arrival_time": "04:10",
+        "duration": "01:30"
     },
     {
         "flight_number": "QF7489",
@@ -99,129 +121,41 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "WO7489",
-        "airline_name": "StarTrack",
-        "destination_iata": "ADL",
-        "destination_airport_name": "Adelaide Airport",
-        "destination_city": "Adelaide",
-        "destination_country": "Australia",
-        "local_departure_time": "02:50",
-        "local_arrival_time": "03:25",
-        "duration": "01:05"
-    },
-    {
-        "flight_number": "QF7390",
-        "airline_name": "Qantas",
-        "destination_iata": "PER",
-        "destination_airport_name": "Perth Airport",
-        "destination_city": "Perth",
-        "destination_country": "Australia",
-        "local_departure_time": "03:50",
-        "local_arrival_time": "06:05",
-        "duration": "04:15"
-    },
-    {
-        "flight_number": "TFX36",
-        "airline_name": "Team Global Express",
-        "destination_iata": "ADL",
-        "destination_airport_name": "Adelaide Airport",
-        "destination_city": "Adelaide",
-        "destination_country": "Australia",
-        "local_departure_time": "04:10",
-        "local_arrival_time": "04:42",
-        "duration": "01:02"
-    },
-    {
-        "flight_number": "TFX12",
-        "airline_name": "Team Global Express",
-        "destination_iata": "PER",
-        "destination_airport_name": "Perth Airport",
-        "destination_city": "Perth",
-        "destination_country": "Australia",
-        "local_departure_time": "04:15",
-        "local_arrival_time": "06:10",
-        "duration": "03:55"
-    },
-    {
-        "flight_number": "EY463",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "05:00",
-        "local_arrival_time": "12:50",
-        "duration": "13:50"
-    },
-    {
-        "flight_number": "EK409",
-        "airline_name": "Emirates",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "05:15",
-        "local_arrival_time": "13:05",
-        "duration": "13:50"
-    },
-    {
-        "flight_number": "QR988",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "ADL",
-        "destination_airport_name": "Adelaide Airport",
-        "destination_city": "Adelaide",
-        "destination_country": "Australia",
-        "local_departure_time": "05:40",
-        "local_arrival_time": "06:40",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "SQ248",
-        "airline_name": "Singapore Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "05:55",
-        "local_arrival_time": "11:45",
-        "duration": "07:50"
-    },
-    {
-        "flight_number": "VA303",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
-        "destination_country": "Australia",
-        "local_departure_time": "06:00",
-        "local_arrival_time": "08:10",
-        "duration": "02:10"
-    },
-    {
         "flight_number": "VA803",
         "airline_name": "Virgin Australia",
         "destination_iata": "SYD",
         "destination_airport_name": "Sydney Kingsford Smith Airport",
         "destination_city": "Sydney",
         "destination_country": "Australia",
-        "local_departure_time": "06:00",
-        "local_arrival_time": "07:25",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "JQ500",
-        "airline_name": "Jetstar",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
-        "local_departure_time": "06:00",
-        "local_arrival_time": "07:25",
+        "local_departure_time": "05:45 / 06:00",
+        "local_arrival_time": "07:10 / 07:25",
         "duration": "01:25"
     },
     {
         "flight_number": "QF402",
         "airline_name": "Qantas",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "05:45 / 06:00",
+        "local_arrival_time": "07:10 / 07:25",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "QF1250",
+        "airline_name": "QantasLink",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "06:00",
+        "local_arrival_time": "07:20",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "JQ500",
+        "airline_name": "Jetstar",
         "destination_iata": "SYD",
         "destination_airport_name": "Sydney Kingsford Smith Airport",
         "destination_city": "Sydney",
@@ -238,8 +172,30 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "06:00",
-        "local_arrival_time": "08:15",
+        "local_arrival_time": "07:15",
         "duration": "02:15"
+    },
+    {
+        "flight_number": "VA807",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "06:00 / 06:30",
+        "local_arrival_time": "07:25 / 07:55",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "VA303",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "06:05",
+        "local_arrival_time": "07:15",
+        "duration": "02:10"
     },
     {
         "flight_number": "JQ560",
@@ -249,8 +205,19 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "06:10",
-        "local_arrival_time": "08:20",
+        "local_arrival_time": "07:20",
         "duration": "02:10"
+    },
+    {
+        "flight_number": "EK409",
+        "airline_name": "Emirates",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "06:15",
+        "local_arrival_time": "13:05",
+        "duration": "13:50"
     },
     {
         "flight_number": "QF404",
@@ -271,19 +238,8 @@
         "destination_city": "Perth",
         "destination_country": "Australia",
         "local_departure_time": "06:20",
-        "local_arrival_time": "08:30",
+        "local_arrival_time": "07:30",
         "duration": "04:10"
-    },
-    {
-        "flight_number": "JQ31",
-        "airline_name": "Jetstar",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "06:25",
-        "local_arrival_time": "10:35",
-        "duration": "06:10"
     },
     {
         "flight_number": "QF673",
@@ -297,17 +253,6 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "VA807",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
-        "local_departure_time": "06:30",
-        "local_arrival_time": "07:55",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "QF406",
         "airline_name": "Qantas",
         "destination_iata": "SYD",
@@ -319,15 +264,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "PR210",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "MNL",
-        "destination_airport_name": "Manila Ninoy Aquino International Airport",
-        "destination_city": "Manila",
-        "destination_country": "Philippines",
-        "local_departure_time": "06:30",
-        "local_arrival_time": "13:05",
-        "duration": "08:35"
+        "flight_number": "QR988",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "ADL",
+        "destination_airport_name": "Adelaide Airport",
+        "destination_city": "Adelaide",
+        "destination_country": "Australia",
+        "local_departure_time": "06:40",
+        "local_arrival_time": "07:40",
+        "duration": "01:30"
     },
     {
         "flight_number": "QF767",
@@ -337,7 +282,7 @@
         "destination_city": "Perth",
         "destination_country": "Australia",
         "local_departure_time": "06:40",
-        "local_arrival_time": "08:50",
+        "local_arrival_time": "07:50",
         "duration": "04:10"
     },
     {
@@ -349,7 +294,7 @@
         "destination_country": "Australia",
         "local_departure_time": "06:45",
         "local_arrival_time": "08:05 / 08:15",
-        "duration": "01:20"
+        "duration": "01:30"
     },
     {
         "flight_number": "QF408",
@@ -363,37 +308,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "D7219",
-        "airline_name": "AirAsia X",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "13:40",
-        "duration": "08:40"
-    },
-    {
-        "flight_number": "GA719",
-        "airline_name": "Garuda Indonesia",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "11:05",
-        "duration": "06:05"
-    },
-    {
-        "flight_number": "OD178",
-        "airline_name": "Batik Air Malaysia",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "11:25",
-        "duration": "06:25"
+        "flight_number": "SQ248",
+        "airline_name": "Singapore Airlines",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "06:55",
+        "local_arrival_time": "11:45",
+        "duration": "07:50"
     },
     {
         "flight_number": "VA811",
@@ -447,30 +370,19 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "07:00",
-        "local_arrival_time": "09:15",
+        "local_arrival_time": "08:15",
         "duration": "02:15"
     },
     {
-        "flight_number": "JD386",
-        "airline_name": "Capital Airlines",
-        "destination_iata": "HGH",
-        "destination_airport_name": "Hangzhou Xiaoshan International Airport",
-        "destination_city": "Hangzhou",
-        "destination_country": "China",
+        "flight_number": "D7219",
+        "airline_name": "AirAsia X",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
         "local_departure_time": "07:00",
-        "local_arrival_time": "16:15",
-        "duration": "11:15"
-    },
-    {
-        "flight_number": "QF1252",
-        "airline_name": "Qantas",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
-        "destination_country": "Australia",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "09:20",
-        "duration": "02:20"
+        "local_arrival_time": "12:40",
+        "duration": "08:40"
     },
     {
         "flight_number": "VA211",
@@ -491,7 +403,7 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "07:10",
-        "local_arrival_time": "09:20",
+        "local_arrival_time": "08:20",
         "duration": "02:10"
     },
     {
@@ -502,7 +414,7 @@
         "destination_city": "Perth",
         "destination_country": "Australia",
         "local_departure_time": "07:15",
-        "local_arrival_time": "09:40",
+        "local_arrival_time": "08:40",
         "duration": "04:25"
     },
     {
@@ -517,48 +429,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "QF412",
-        "airline_name": "Qantas",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
-        "local_departure_time": "07:15 / 07:20",
-        "local_arrival_time": "08:40 / 08:45",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "CX134",
-        "airline_name": "Cathay Pacific",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
+        "flight_number": "JQ31",
+        "airline_name": "Jetstar",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
         "local_departure_time": "07:25",
-        "local_arrival_time": "14:55",
-        "duration": "09:30"
-    },
-    {
-        "flight_number": "JL774",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "07:25",
-        "local_arrival_time": "16:20",
-        "duration": "09:55"
-    },
-    {
-        "flight_number": "VA815",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
-        "local_departure_time": "07:30",
-        "local_arrival_time": "08:55",
-        "duration": "01:25"
+        "local_arrival_time": "10:35",
+        "duration": "06:10"
     },
     {
         "flight_number": "JQ502",
@@ -572,6 +451,17 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "VA815",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "08:55",
+        "duration": "01:25"
+    },
+    {
         "flight_number": "QF414",
         "airline_name": "Qantas",
         "destination_iata": "SYD",
@@ -583,15 +473,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "VJ94",
-        "airline_name": "VietJet Air",
-        "destination_iata": "HAN",
-        "destination_airport_name": "Hanoi Noi Bai International Airport",
-        "destination_city": "Hanoi",
-        "destination_country": "Vietnam",
-        "local_departure_time": "07:30",
-        "local_arrival_time": "14:40",
-        "duration": "10:10"
+        "flight_number": "QF412",
+        "airline_name": "Qantas",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "07:35",
+        "local_arrival_time": "09:00",
+        "duration": "01:25"
     },
     {
         "flight_number": "VA817",
@@ -605,15 +495,37 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "PR210",
-        "airline_name": "Philippine Airlines",
-        "destination_iata": "MNL",
-        "destination_airport_name": "Manila Ninoy Aquino International Airport",
-        "destination_city": "Manila",
-        "destination_country": "Philippines",
+        "flight_number": "GA719",
+        "airline_name": "Garuda Indonesia",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
         "local_departure_time": "08:00",
-        "local_arrival_time": "14:50",
-        "duration": "08:50"
+        "local_arrival_time": "11:05",
+        "duration": "06:05"
+    },
+    {
+        "flight_number": "JD386",
+        "airline_name": "Capital Airlines",
+        "destination_iata": "HGH",
+        "destination_airport_name": "Hangzhou Xiaoshan International Airport",
+        "destination_city": "Hangzhou",
+        "destination_country": "China",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "16:00",
+        "duration": "11:00"
+    },
+    {
+        "flight_number": "OD178",
+        "airline_name": "Batik Air",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "08:00",
+        "local_arrival_time": "11:25",
+        "duration": "06:25"
     },
     {
         "flight_number": "VA819",
@@ -625,17 +537,6 @@
         "local_departure_time": "08:00",
         "local_arrival_time": "09:25",
         "duration": "01:25"
-    },
-    {
-        "flight_number": "HO1656",
-        "airline_name": "Juneyao Air",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "08:00",
-        "local_arrival_time": "16:20",
-        "duration": "10:20"
     },
     {
         "flight_number": "QF418",
@@ -656,7 +557,7 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "08:10",
-        "local_arrival_time": "10:20",
+        "local_arrival_time": "09:20",
         "duration": "02:10"
     },
     {
@@ -689,8 +590,19 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "08:20",
-        "local_arrival_time": "10:35",
+        "local_arrival_time": "09:35",
         "duration": "02:15"
+    },
+    {
+        "flight_number": "CX134",
+        "airline_name": "Cathay Pacific",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "08:25",
+        "local_arrival_time": "14:55",
+        "duration": "09:30"
     },
     {
         "flight_number": "VA823",
@@ -726,25 +638,25 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "VA825",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
-        "local_departure_time": "08:50",
-        "local_arrival_time": "10:15",
-        "duration": "01:25"
+        "flight_number": "MH146",
+        "airline_name": "Malaysia Airlines",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "08:45",
+        "local_arrival_time": "14:30",
+        "duration": "08:45"
     },
     {
-        "flight_number": "VA827",
-        "airline_name": "Virgin Australia",
+        "flight_number": "QF422",
+        "airline_name": "Qantas",
         "destination_iata": "SYD",
         "destination_airport_name": "Sydney Kingsford Smith Airport",
         "destination_city": "Sydney",
         "destination_country": "Australia",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "10:25",
+        "local_departure_time": "08:45",
+        "local_arrival_time": "10:10",
         "duration": "01:25"
     },
     {
@@ -759,26 +671,48 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "QF1258",
-        "airline_name": "Qantas",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
+        "flight_number": "VA827",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
         "destination_country": "Australia",
-        "local_departure_time": "09:00 / 09:15",
-        "local_arrival_time": "11:20 / 11:35",
-        "duration": "02:20"
+        "local_departure_time": "09:00",
+        "local_arrival_time": "10:25",
+        "duration": "01:25"
     },
     {
-        "flight_number": "QF769",
-        "airline_name": "Qantas",
-        "destination_iata": "PER",
-        "destination_airport_name": "Perth Airport",
-        "destination_city": "Perth",
+        "flight_number": "PR210",
+        "airline_name": "Philippine Airlines",
+        "destination_iata": "MNL",
+        "destination_airport_name": "Manila Ninoy Aquino International Airport",
+        "destination_city": "Manila",
+        "destination_country": "Philippines",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "14:50",
+        "duration": "08:50"
+    },
+    {
+        "flight_number": "HO1656",
+        "airline_name": "Juneyao Air",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "16:20",
+        "duration": "10:20"
+    },
+    {
+        "flight_number": "JQ508",
+        "airline_name": "Jetstar",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
         "destination_country": "Australia",
-        "local_departure_time": "09:05",
-        "local_arrival_time": "11:15",
-        "duration": "04:10"
+        "local_departure_time": "09:05 / 09:25",
+        "local_arrival_time": "10:30 / 10:55",
+        "duration": "01:25"
     },
     {
         "flight_number": "VA217",
@@ -799,8 +733,19 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "09:10",
-        "local_arrival_time": "11:20",
+        "local_arrival_time": "10:20",
         "duration": "02:10"
+    },
+    {
+        "flight_number": "QF428",
+        "airline_name": "Qantas",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "09:15",
+        "local_arrival_time": "10:40",
+        "duration": "01:25"
     },
     {
         "flight_number": "VA679",
@@ -810,41 +755,19 @@
         "destination_city": "Perth",
         "destination_country": "Australia",
         "local_departure_time": "09:15",
-        "local_arrival_time": "11:40",
+        "local_arrival_time": "10:40",
         "duration": "04:25"
     },
     {
-        "flight_number": "JQ43",
-        "airline_name": "Jetstar",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "09:15",
-        "local_arrival_time": "13:25",
-        "duration": "06:10"
-    },
-    {
-        "flight_number": "SQ238",
-        "airline_name": "Singapore Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "09:15",
-        "local_arrival_time": "15:15",
-        "duration": "08:00"
-    },
-    {
-        "flight_number": "JQ508",
-        "airline_name": "Jetstar",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
+        "flight_number": "QF1258",
+        "airline_name": "Qantas",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
         "destination_country": "Australia",
-        "local_departure_time": "09:25",
-        "local_arrival_time": "10:55",
-        "duration": "01:30"
+        "local_departure_time": "09:15",
+        "local_arrival_time": "10:35",
+        "duration": "02:20"
     },
     {
         "flight_number": "QF153",
@@ -869,48 +792,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "JQ562",
-        "airline_name": "Jetstar",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
-        "destination_country": "Australia",
-        "local_departure_time": "09:30",
-        "local_arrival_time": "11:40",
-        "duration": "02:10"
-    },
-    {
-        "flight_number": "UA99",
-        "airline_name": "United Airlines",
-        "destination_iata": "LAX",
-        "destination_airport_name": "Los Angeles International Airport",
-        "destination_city": "Los Angeles",
-        "destination_country": "United States",
-        "local_departure_time": "09:30",
-        "local_arrival_time": "06:45",
-        "duration": "14:15"
-    },
-    {
-        "flight_number": "QF79",
+        "flight_number": "QF769",
         "airline_name": "Qantas",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "09:35",
-        "local_arrival_time": "19:00",
-        "duration": "10:25"
-    },
-    {
-        "flight_number": "QF430",
-        "airline_name": "Qantas",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
+        "destination_iata": "PER",
+        "destination_airport_name": "Perth Airport",
+        "destination_city": "Perth",
         "destination_country": "Australia",
         "local_departure_time": "09:35",
-        "local_arrival_time": "11:00",
-        "duration": "01:25"
+        "local_arrival_time": "10:45",
+        "duration": "04:10"
     },
     {
         "flight_number": "JQ774",
@@ -931,7 +821,7 @@
         "destination_city": "Los Angeles",
         "destination_country": "United States",
         "local_departure_time": "09:45",
-        "local_arrival_time": "07:00",
+        "local_arrival_time": "06:00",
         "duration": "14:15"
     },
     {
@@ -975,7 +865,7 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "10:10",
-        "local_arrival_time": "12:20",
+        "local_arrival_time": "11:20",
         "duration": "02:10"
     },
     {
@@ -985,31 +875,42 @@
         "destination_airport_name": "Perth Airport",
         "destination_city": "Perth",
         "destination_country": "Australia",
-        "local_departure_time": "10:10",
-        "local_arrival_time": "12:20",
+        "local_departure_time": "10:10 / 11:05",
+        "local_arrival_time": "11:20 / 12:15",
         "duration": "04:10"
     },
     {
-        "flight_number": "CZ322",
-        "airline_name": "China Southern Airlines",
-        "destination_iata": "CAN",
-        "destination_airport_name": "Guangzhou Baiyun International Airport",
-        "destination_city": "Guangzhou",
-        "destination_country": "China",
-        "local_departure_time": "10:20",
-        "local_arrival_time": "18:10",
-        "duration": "09:50"
+        "flight_number": "JQ43",
+        "airline_name": "Jetstar",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "10:15",
+        "local_arrival_time": "13:25",
+        "duration": "06:10"
     },
     {
-        "flight_number": "QF29",
+        "flight_number": "QF476",
         "airline_name": "Qantas",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "10:20",
-        "local_arrival_time": "17:55",
-        "duration": "09:35"
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "10:15",
+        "local_arrival_time": "11:40",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "SQ238",
+        "airline_name": "Singapore Airlines",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "10:15",
+        "local_arrival_time": "15:15",
+        "duration": "08:00"
     },
     {
         "flight_number": "QF1254",
@@ -1019,19 +920,8 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "10:20",
-        "local_arrival_time": "12:40",
+        "local_arrival_time": "11:40",
         "duration": "02:20"
-    },
-    {
-        "flight_number": "VA91",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "10:20",
-        "local_arrival_time": "14:45",
-        "duration": "06:25"
     },
     {
         "flight_number": "QF434",
@@ -1045,15 +935,37 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "VN780",
-        "airline_name": "Vietnam Airlines",
-        "destination_iata": "SGN",
-        "destination_airport_name": "Ho Chi Minh City International Airport",
-        "destination_city": "Ho Chi Minh City",
-        "destination_country": "Vietnam",
+        "flight_number": "JQ562",
+        "airline_name": "Jetstar",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "10:30",
+        "local_arrival_time": "11:40",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "UA99",
+        "airline_name": "United Airlines",
+        "destination_iata": "LAX",
+        "destination_airport_name": "Los Angeles International Airport",
+        "destination_city": "Los Angeles",
+        "destination_country": "United States",
+        "local_departure_time": "10:30",
+        "local_arrival_time": "06:40",
+        "duration": "14:10"
+    },
+    {
+        "flight_number": "QF79",
+        "airline_name": "Qantas",
+        "destination_iata": "NRT",
+        "destination_airport_name": "Tokyo Narita International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
         "local_departure_time": "10:35",
-        "local_arrival_time": "16:15",
-        "duration": "08:40"
+        "local_arrival_time": "19:00",
+        "duration": "10:25"
     },
     {
         "flight_number": "JQ772",
@@ -1078,15 +990,15 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "UA61",
-        "airline_name": "United Airlines",
-        "destination_iata": "SFO",
-        "destination_airport_name": "San Francisco International Airport",
-        "destination_city": "San Francisco",
-        "destination_country": "United States",
-        "local_departure_time": "10:55",
-        "local_arrival_time": "08:10",
-        "duration": "14:15"
+        "flight_number": "VA835",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "10:45",
+        "local_arrival_time": "12:10",
+        "duration": "01:25"
     },
     {
         "flight_number": "QF436",
@@ -1095,31 +1007,9 @@
         "destination_airport_name": "Sydney Kingsford Smith Airport",
         "destination_city": "Sydney",
         "destination_country": "Australia",
-        "local_departure_time": "11:00",
+        "local_departure_time": "11:00 / 11:01",
         "local_arrival_time": "12:25",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "VA837",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
-        "local_departure_time": "11:00",
-        "local_arrival_time": "12:25",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "MU738",
-        "airline_name": "Shanghai Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "11:00",
-        "local_arrival_time": "19:50",
-        "duration": "10:50"
+        "duration": "01:24"
     },
     {
         "flight_number": "VA323",
@@ -1129,8 +1019,19 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "11:10",
-        "local_arrival_time": "13:20",
+        "local_arrival_time": "12:20",
         "duration": "02:10"
+    },
+    {
+        "flight_number": "QF606",
+        "airline_name": "Qantas",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "11:15",
+        "local_arrival_time": "12:30",
+        "duration": "02:15"
     },
     {
         "flight_number": "QF1266",
@@ -1140,30 +1041,74 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "11:15",
-        "local_arrival_time": "13:35",
+        "local_arrival_time": "12:35",
         "duration": "02:20"
     },
     {
-        "flight_number": "MF804",
-        "airline_name": "Xiamen Air",
-        "destination_iata": "XMN",
-        "destination_airport_name": "Xiamen Gaoqi International Airport",
-        "destination_city": "Xiamen",
-        "destination_country": "China",
-        "local_departure_time": "11:35",
-        "local_arrival_time": "18:55",
-        "duration": "09:20"
+        "flight_number": "QF29",
+        "airline_name": "Qantas",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "11:20",
+        "local_arrival_time": "17:55",
+        "duration": "09:35"
     },
     {
-        "flight_number": "VA841",
+        "flight_number": "VA91",
         "airline_name": "Virgin Australia",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "11:20",
+        "local_arrival_time": "14:45",
+        "duration": "06:25"
+    },
+    {
+        "flight_number": "QF438",
+        "airline_name": "Qantas",
         "destination_iata": "SYD",
         "destination_airport_name": "Sydney Kingsford Smith Airport",
         "destination_city": "Sydney",
         "destination_country": "Australia",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "13:25",
+        "local_departure_time": "11:25",
+        "local_arrival_time": "12:50",
         "duration": "01:25"
+    },
+    {
+        "flight_number": "VN780",
+        "airline_name": "Vietnam Airlines",
+        "destination_iata": "SGN",
+        "destination_airport_name": "Ho Chi Minh City International Airport",
+        "destination_city": "Ho Chi Minh City",
+        "destination_country": "Vietnam",
+        "local_departure_time": "11:35",
+        "local_arrival_time": "16:15",
+        "duration": "08:40"
+    },
+    {
+        "flight_number": "CZ322",
+        "airline_name": "China Southern Airlines",
+        "destination_iata": "CAN",
+        "destination_airport_name": "Guangzhou Baiyun International Airport",
+        "destination_city": "Guangzhou",
+        "destination_country": "China",
+        "local_departure_time": "11:40",
+        "local_arrival_time": "18:30",
+        "duration": "09:50"
+    },
+    {
+        "flight_number": "UA61",
+        "airline_name": "United Airlines",
+        "destination_iata": "SFO",
+        "destination_airport_name": "San Francisco International Airport",
+        "destination_city": "San Francisco",
+        "destination_country": "United States",
+        "local_departure_time": "11:55",
+        "local_arrival_time": "08:15",
+        "duration": "14:20"
     },
     {
         "flight_number": "QF440",
@@ -1177,26 +1122,26 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "QF35",
-        "airline_name": "Qantas",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "12:05",
-        "local_arrival_time": "18:15",
-        "duration": "08:10"
+        "flight_number": "MU738",
+        "airline_name": "Shanghai Airlines",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "19:50",
+        "duration": "10:50"
     },
     {
-        "flight_number": "JQ7",
-        "airline_name": "Jetstar",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "12:05",
-        "local_arrival_time": "18:00",
-        "duration": "07:55"
+        "flight_number": "VA841",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "13:25",
+        "duration": "01:25"
     },
     {
         "flight_number": "NZ124",
@@ -1217,30 +1162,19 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "12:10",
-        "local_arrival_time": "14:20",
+        "local_arrival_time": "13:20",
         "duration": "02:10"
     },
     {
-        "flight_number": "VA223",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "ADL",
-        "destination_airport_name": "Adelaide Airport",
-        "destination_city": "Adelaide",
+        "flight_number": "QF1256",
+        "airline_name": "Qantas",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "12:15",
-        "local_arrival_time": "13:10",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "VA683",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "PER",
-        "destination_airport_name": "Perth Airport",
-        "destination_city": "Perth",
-        "destination_country": "Australia",
-        "local_departure_time": "12:15",
-        "local_arrival_time": "14:40",
-        "duration": "04:25"
+        "local_arrival_time": "13:35",
+        "duration": "02:20"
     },
     {
         "flight_number": "QF616",
@@ -1250,8 +1184,19 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "12:15",
-        "local_arrival_time": "14:30",
+        "local_arrival_time": "13:30",
         "duration": "02:15"
+    },
+    {
+        "flight_number": "VA223",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "ADL",
+        "destination_airport_name": "Adelaide Airport",
+        "destination_city": "Adelaide",
+        "destination_country": "Australia",
+        "local_departure_time": "12:20",
+        "local_arrival_time": "13:15",
+        "duration": "01:25"
     },
     {
         "flight_number": "JQ512",
@@ -1276,26 +1221,26 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "BI6",
-        "airline_name": "Royal Brunei Airlines",
-        "destination_iata": "BWN",
-        "destination_airport_name": "Brunei International Airport",
-        "destination_city": "Brunei",
-        "destination_country": "Brunei",
-        "local_departure_time": "12:30",
-        "local_arrival_time": "17:40",
-        "duration": "07:10"
-    },
-    {
         "flight_number": "JQ970",
         "airline_name": "Jetstar",
         "destination_iata": "PER",
         "destination_airport_name": "Perth Airport",
         "destination_city": "Perth",
         "destination_country": "Australia",
-        "local_departure_time": "12:30",
-        "local_arrival_time": "14:40",
-        "duration": "04:10"
+        "local_departure_time": "12:30 / 13:15",
+        "local_arrival_time": "13:40 / 14:30",
+        "duration": "04:15"
+    },
+    {
+        "flight_number": "MF804",
+        "airline_name": "Xiamen Air",
+        "destination_iata": "XMN",
+        "destination_airport_name": "Xiamen Gaoqi International Airport",
+        "destination_city": "Xiamen",
+        "destination_country": "China",
+        "local_departure_time": "12:35",
+        "local_arrival_time": "18:55",
+        "duration": "09:20"
     },
     {
         "flight_number": "QF683",
@@ -1320,15 +1265,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "TR19",
-        "airline_name": "Scoot",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
+        "flight_number": "MU852",
+        "airline_name": "China Eastern Airlines",
+        "destination_iata": "NKG",
+        "destination_airport_name": "Nanjing Lukou International Airport",
+        "destination_city": "Nanjing",
+        "destination_country": "China",
         "local_departure_time": "13:00",
-        "local_arrival_time": "18:55",
-        "duration": "07:55"
+        "local_arrival_time": "21:10",
+        "duration": "11:10"
     },
     {
         "flight_number": "VA845",
@@ -1340,6 +1285,39 @@
         "local_departure_time": "13:00",
         "local_arrival_time": "14:25",
         "duration": "01:25"
+    },
+    {
+        "flight_number": "JQ7",
+        "airline_name": "Jetstar",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "13:05",
+        "local_arrival_time": "18:00",
+        "duration": "07:55"
+    },
+    {
+        "flight_number": "QF35",
+        "airline_name": "Qantas",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "13:05",
+        "local_arrival_time": "18:15",
+        "duration": "08:10"
+    },
+    {
+        "flight_number": "VA329",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "13:10",
+        "local_arrival_time": "14:20",
+        "duration": "02:10"
     },
     {
         "flight_number": "JQ536",
@@ -1360,19 +1338,19 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "13:20",
-        "local_arrival_time": "15:35",
+        "local_arrival_time": "14:35",
         "duration": "02:15"
     },
     {
-        "flight_number": "MH148",
-        "airline_name": "Malaysia Airlines",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "13:25",
-        "local_arrival_time": "20:10",
-        "duration": "08:45"
+        "flight_number": "VA685",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "PER",
+        "destination_airport_name": "Perth Airport",
+        "destination_city": "Perth",
+        "destination_country": "Australia",
+        "local_departure_time": "13:20",
+        "local_arrival_time": "14:45",
+        "duration": "04:25"
     },
     {
         "flight_number": "QF775",
@@ -1381,9 +1359,20 @@
         "destination_airport_name": "Perth Airport",
         "destination_city": "Perth",
         "destination_country": "Australia",
-        "local_departure_time": "13:25",
-        "local_arrival_time": "15:35",
+        "local_departure_time": "13:25 / 14:05",
+        "local_arrival_time": "14:35 / 15:15",
         "duration": "04:10"
+    },
+    {
+        "flight_number": "BI6",
+        "airline_name": "Royal Brunei Airlines",
+        "destination_iata": "BWN",
+        "destination_airport_name": "Brunei International Airport",
+        "destination_city": "Brunei",
+        "destination_country": "Brunei",
+        "local_departure_time": "13:30",
+        "local_arrival_time": "17:40",
+        "duration": "07:10"
     },
     {
         "flight_number": "QF446",
@@ -1406,17 +1395,6 @@
         "local_departure_time": "13:30",
         "local_arrival_time": "14:55",
         "duration": "01:25"
-    },
-    {
-        "flight_number": "TG466",
-        "airline_name": "Thai Airways",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "13:30",
-        "local_arrival_time": "20:00",
-        "duration": "09:30"
     },
     {
         "flight_number": "JQ516",
@@ -1463,6 +1441,17 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "TR19",
+        "airline_name": "Scoot",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "18:55",
+        "duration": "07:55"
+    },
+    {
         "flight_number": "VA331",
         "airline_name": "Virgin Australia",
         "destination_iata": "BNE",
@@ -1470,19 +1459,30 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "14:10",
-        "local_arrival_time": "16:20",
+        "local_arrival_time": "15:20",
         "duration": "02:10"
     },
     {
-        "flight_number": "CX104",
-        "airline_name": "Cathay Pacific",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "14:25",
-        "local_arrival_time": "21:45",
+        "flight_number": "JQ29",
+        "airline_name": "Jetstar",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "14:20",
+        "local_arrival_time": "19:40",
         "duration": "09:20"
+    },
+    {
+        "flight_number": "MH148",
+        "airline_name": "Malaysia Airlines",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "14:25",
+        "local_arrival_time": "20:10",
+        "duration": "08:45"
     },
     {
         "flight_number": "JQ518",
@@ -1503,12 +1503,34 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "14:25",
-        "local_arrival_time": "16:40",
+        "local_arrival_time": "15:40",
         "duration": "02:15"
+    },
+    {
+        "flight_number": "TG466",
+        "airline_name": "Thai Airways",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "20:00",
+        "duration": "09:30"
     },
     {
         "flight_number": "QF450",
         "airline_name": "Qantas",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "15:55",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "VA851",
+        "airline_name": "Virgin Australia",
         "destination_iata": "SYD",
         "destination_airport_name": "Sydney Kingsford Smith Airport",
         "destination_city": "Sydney",
@@ -1536,7 +1558,7 @@
         "destination_city": "Perth",
         "destination_country": "Australia",
         "local_departure_time": "14:45",
-        "local_arrival_time": "17:10",
+        "local_arrival_time": "16:10",
         "duration": "04:25"
     },
     {
@@ -1551,37 +1573,15 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "QF39",
+        "flight_number": "QF454",
         "airline_name": "Qantas",
-        "destination_iata": "CGK",
-        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
-        "destination_city": "Jakarta",
-        "destination_country": "Indonesia",
-        "local_departure_time": "14:50",
-        "local_arrival_time": "19:15",
-        "duration": "07:25"
-    },
-    {
-        "flight_number": "VA231",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "ADL",
-        "destination_airport_name": "Adelaide Airport",
-        "destination_city": "Adelaide",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
         "destination_country": "Australia",
-        "local_departure_time": "14:50",
-        "local_arrival_time": "15:45",
+        "local_departure_time": "15:00",
+        "local_arrival_time": "16:25",
         "duration": "01:25"
-    },
-    {
-        "flight_number": "JQ17",
-        "airline_name": "Jetstar",
-        "destination_iata": "HKT",
-        "destination_airport_name": "Phuket International Airport",
-        "destination_city": "Phuket",
-        "destination_country": "Thailand",
-        "local_departure_time": "14:50",
-        "local_arrival_time": "20:40",
-        "duration": "08:50"
     },
     {
         "flight_number": "VA853",
@@ -1606,37 +1606,26 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "QF454",
-        "airline_name": "Qantas",
+        "flight_number": "ZL9982",
+        "airline_name": "Rex",
         "destination_iata": "SYD",
         "destination_airport_name": "Sydney Kingsford Smith Airport",
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "15:00",
-        "local_arrival_time": "16:25",
-        "duration": "01:25"
+        "local_arrival_time": "16:29",
+        "duration": "01:29"
     },
     {
-        "flight_number": "QF21",
-        "airline_name": "Qantas",
-        "destination_iata": "DFW",
-        "destination_airport_name": "Dallas Fort Worth International Airport",
-        "destination_city": "Dallas",
-        "destination_country": "United States",
-        "local_departure_time": "15:05",
-        "local_arrival_time": "16:00",
-        "duration": "15:55"
-    },
-    {
-        "flight_number": "JQ566",
-        "airline_name": "Jetstar",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
-        "destination_country": "Australia",
-        "local_departure_time": "15:05",
-        "local_arrival_time": "17:10",
-        "duration": "02:05"
+        "flight_number": "NZ128",
+        "airline_name": "Air New Zealand",
+        "destination_iata": "AKL",
+        "destination_airport_name": "Auckland Airport",
+        "destination_city": "Auckland",
+        "destination_country": "New Zealand",
+        "local_departure_time": "15:00",
+        "local_arrival_time": "20:35",
+        "duration": "03:35"
     },
     {
         "flight_number": "VA333",
@@ -1646,52 +1635,30 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "15:10",
-        "local_arrival_time": "17:20",
+        "local_arrival_time": "16:20",
         "duration": "02:10"
     },
     {
-        "flight_number": "QF1268",
-        "airline_name": "Qantas",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
+        "flight_number": "VA231",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "ADL",
+        "destination_airport_name": "Adelaide Airport",
+        "destination_city": "Adelaide",
         "destination_country": "Australia",
-        "local_departure_time": "15:10",
-        "local_arrival_time": "17:30",
-        "duration": "02:20"
+        "local_departure_time": "15:20",
+        "local_arrival_time": "16:15",
+        "duration": "01:25"
     },
     {
-        "flight_number": "QR989",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "15:15",
-        "local_arrival_time": "22:15",
-        "duration": "14:00"
-    },
-    {
-        "flight_number": "JQ63",
-        "airline_name": "Jetstar",
-        "destination_iata": "SGN",
-        "destination_airport_name": "Ho Chi Minh City International Airport",
-        "destination_city": "Ho Chi Minh City",
-        "destination_country": "Vietnam",
+        "flight_number": "CX104",
+        "airline_name": "Cathay Pacific",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
         "local_departure_time": "15:25",
-        "local_arrival_time": "21:00",
-        "duration": "08:35"
-    },
-    {
-        "flight_number": "GA717",
-        "airline_name": "Garuda Indonesia",
-        "destination_iata": "CGK",
-        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
-        "destination_city": "Jakarta",
-        "destination_country": "Indonesia",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "19:45",
-        "duration": "07:15"
+        "local_arrival_time": "21:45",
+        "duration": "09:20"
     },
     {
         "flight_number": "VA855",
@@ -1705,6 +1672,17 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "JQ564",
+        "airline_name": "Jetstar",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "15:30",
+        "local_arrival_time": "16:35",
+        "duration": "02:05"
+    },
+    {
         "flight_number": "QF458",
         "airline_name": "Qantas",
         "destination_iata": "SYD",
@@ -1716,15 +1694,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "SQ228",
-        "airline_name": "Singapore Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "15:40",
-        "local_arrival_time": "21:30",
-        "duration": "07:50"
+        "flight_number": "GA717",
+        "airline_name": "Garuda Indonesia",
+        "destination_iata": "CGK",
+        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
+        "destination_city": "Jakarta",
+        "destination_country": "Indonesia",
+        "local_departure_time": "15:30",
+        "local_arrival_time": "18:45",
+        "duration": "07:15"
     },
     {
         "flight_number": "QF460",
@@ -1738,6 +1716,17 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "JQ17",
+        "airline_name": "Jetstar",
+        "destination_iata": "HKT",
+        "destination_airport_name": "Phuket International Airport",
+        "destination_city": "Phuket",
+        "destination_country": "Thailand",
+        "local_departure_time": "15:50",
+        "local_arrival_time": "20:40",
+        "duration": "08:50"
+    },
+    {
         "flight_number": "JQ33",
         "airline_name": "Jetstar",
         "destination_iata": "DPS",
@@ -1745,19 +1734,30 @@
         "destination_city": "Denpasar",
         "destination_country": "Indonesia",
         "local_departure_time": "15:50",
-        "local_arrival_time": "20:00",
+        "local_arrival_time": "19:00",
         "duration": "06:10"
     },
     {
-        "flight_number": "QF37",
+        "flight_number": "QF1268",
         "airline_name": "Qantas",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "15:55",
-        "local_arrival_time": "22:05",
-        "duration": "08:10"
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "15:50",
+        "local_arrival_time": "17:10",
+        "duration": "02:20"
+    },
+    {
+        "flight_number": "QF39",
+        "airline_name": "Qantas",
+        "destination_iata": "CGK",
+        "destination_airport_name": "Jakarta Soekarno Hatta International Airport",
+        "destination_city": "Jakarta",
+        "destination_country": "Indonesia",
+        "local_departure_time": "15:50",
+        "local_arrival_time": "19:15",
+        "duration": "07:25"
     },
     {
         "flight_number": "VA859",
@@ -1780,6 +1780,28 @@
         "local_departure_time": "16:00",
         "local_arrival_time": "17:25",
         "duration": "01:25"
+    },
+    {
+        "flight_number": "JQ566",
+        "airline_name": "Jetstar",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "16:05",
+        "local_arrival_time": "17:10",
+        "duration": "02:05"
+    },
+    {
+        "flight_number": "QF21",
+        "airline_name": "Qantas",
+        "destination_iata": "DFW",
+        "destination_airport_name": "Dallas Fort Worth International Airport",
+        "destination_city": "Dallas",
+        "destination_country": "United States",
+        "local_departure_time": "16:05",
+        "local_arrival_time": "16:00",
+        "duration": "15:55"
     },
     {
         "flight_number": "JQ522",
@@ -1811,19 +1833,19 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "16:10",
-        "local_arrival_time": "18:20",
+        "local_arrival_time": "17:20",
         "duration": "02:10"
     },
     {
-        "flight_number": "JQ974",
-        "airline_name": "Jetstar",
-        "destination_iata": "PER",
-        "destination_airport_name": "Perth Airport",
-        "destination_city": "Perth",
-        "destination_country": "Australia",
+        "flight_number": "QR989",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
         "local_departure_time": "16:15",
-        "local_arrival_time": "18:30",
-        "duration": "04:15"
+        "local_arrival_time": "22:30",
+        "duration": "14:15"
     },
     {
         "flight_number": "QF464",
@@ -1837,6 +1859,17 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "JQ974",
+        "airline_name": "Jetstar",
+        "destination_iata": "PER",
+        "destination_airport_name": "Perth Airport",
+        "destination_city": "Perth",
+        "destination_country": "Australia",
+        "local_departure_time": "16:15",
+        "local_arrival_time": "17:30",
+        "duration": "04:15"
+    },
+    {
         "flight_number": "JQ778",
         "airline_name": "Jetstar",
         "destination_iata": "ADL",
@@ -1848,15 +1881,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "UL605",
-        "airline_name": "SriLankan Airlines",
-        "destination_iata": "CMB",
-        "destination_airport_name": "Colombo Bandaranaike International Airport",
-        "destination_city": "Colombo",
-        "destination_country": "Sri Lanka",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "22:45",
-        "duration": "10:45"
+        "flight_number": "JQ63",
+        "airline_name": "Jetstar",
+        "destination_iata": "SGN",
+        "destination_airport_name": "Ho Chi Minh City International Airport",
+        "destination_city": "Ho Chi Minh City",
+        "destination_country": "Vietnam",
+        "local_departure_time": "16:25",
+        "local_arrival_time": "21:00",
+        "duration": "08:35"
     },
     {
         "flight_number": "VA863",
@@ -1877,7 +1910,7 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "16:40",
-        "local_arrival_time": "18:55",
+        "local_arrival_time": "17:55",
         "duration": "02:15"
     },
     {
@@ -1892,6 +1925,17 @@
         "duration": "01:20"
     },
     {
+        "flight_number": "SQ228",
+        "airline_name": "Singapore Airlines",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "16:40",
+        "local_arrival_time": "21:30",
+        "duration": "07:50"
+    },
+    {
         "flight_number": "QF468",
         "airline_name": "Qantas",
         "destination_iata": "SYD",
@@ -1901,6 +1945,17 @@
         "local_departure_time": "16:45",
         "local_arrival_time": "18:10",
         "duration": "01:25"
+    },
+    {
+        "flight_number": "QF37",
+        "airline_name": "Qantas",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "16:55",
+        "local_arrival_time": "22:05",
+        "duration": "08:10"
     },
     {
         "flight_number": "QF470",
@@ -1925,6 +1980,17 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "QF105",
+        "airline_name": "Qantas",
+        "destination_iata": "HNL",
+        "destination_airport_name": "Honolulu International Airport",
+        "destination_city": "Honolulu",
+        "destination_country": "United States",
+        "local_departure_time": "17:05",
+        "local_arrival_time": "06:35",
+        "duration": "10:30"
+    },
+    {
         "flight_number": "VA341",
         "airline_name": "Virgin Australia",
         "destination_iata": "BNE",
@@ -1932,19 +1998,19 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "17:10",
-        "local_arrival_time": "19:20",
+        "local_arrival_time": "18:20",
         "duration": "02:10"
     },
     {
-        "flight_number": "QF765",
+        "flight_number": "QF472",
         "airline_name": "Qantas",
-        "destination_iata": "PER",
-        "destination_airport_name": "Perth Airport",
-        "destination_city": "Perth",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "17:15",
-        "local_arrival_time": "19:25",
-        "duration": "04:10"
+        "local_arrival_time": "18:40",
+        "duration": "01:25"
     },
     {
         "flight_number": "VA237",
@@ -1969,15 +2035,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "QF1500",
+        "flight_number": "QF628",
         "airline_name": "Qantas",
         "destination_iata": "BNE",
         "destination_airport_name": "Brisbane Airport",
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "17:25",
-        "local_arrival_time": "19:45",
-        "duration": "02:20"
+        "local_arrival_time": "18:40",
+        "duration": "02:15"
     },
     {
         "flight_number": "JQ524",
@@ -1987,8 +2053,30 @@
         "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "17:30",
-        "local_arrival_time": "19:00",
-        "duration": "01:30"
+        "local_arrival_time": "19:05",
+        "duration": "01:35"
+    },
+    {
+        "flight_number": "UL605",
+        "airline_name": "SriLankan Airlines",
+        "destination_iata": "CMB",
+        "destination_airport_name": "Colombo Bandaranaike International Airport",
+        "destination_city": "Colombo",
+        "destination_country": "Sri Lanka",
+        "local_departure_time": "17:30",
+        "local_arrival_time": "22:45",
+        "duration": "10:45"
+    },
+    {
+        "flight_number": "VA871",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "17:30",
+        "local_arrival_time": "18:55",
+        "duration": "01:25"
     },
     {
         "flight_number": "QF474",
@@ -2013,59 +2101,15 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "VA871",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "18:55",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "VA95",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "17:35",
-        "local_arrival_time": "22:00",
-        "duration": "06:25"
-    },
-    {
-        "flight_number": "JQ35",
+        "flight_number": "JQ974",
         "airline_name": "Jetstar",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
-        "local_departure_time": "17:40",
-        "local_arrival_time": "21:50",
-        "duration": "06:10"
-    },
-    {
-        "flight_number": "VA691",
-        "airline_name": "Virgin Australia",
         "destination_iata": "PER",
         "destination_airport_name": "Perth Airport",
         "destination_city": "Perth",
         "destination_country": "Australia",
-        "local_departure_time": "17:45",
-        "local_arrival_time": "20:10",
-        "duration": "04:25"
-    },
-    {
-        "flight_number": "QF45",
-        "airline_name": "Qantas",
-        "destination_iata": "DPS",
-        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
-        "destination_city": "Denpasar",
-        "destination_country": "Indonesia",
         "local_departure_time": "17:50",
-        "local_arrival_time": "22:00",
-        "duration": "06:10"
+        "local_arrival_time": "19:00",
+        "duration": "04:10"
     },
     {
         "flight_number": "VA875",
@@ -2090,15 +2134,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "VA241",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "ADL",
-        "destination_airport_name": "Adelaide Airport",
-        "destination_city": "Adelaide",
-        "destination_country": "Australia",
-        "local_departure_time": "18:15",
-        "local_arrival_time": "19:10",
-        "duration": "01:25"
+        "flight_number": "EY461",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "18:10",
+        "local_arrival_time": "01:05 (+1)",
+        "duration": "13:55"
     },
     {
         "flight_number": "QF480",
@@ -2112,6 +2156,17 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "QF765",
+        "airline_name": "Qantas",
+        "destination_iata": "PER",
+        "destination_airport_name": "Perth Airport",
+        "destination_city": "Perth",
+        "destination_country": "Australia",
+        "local_departure_time": "18:20",
+        "local_arrival_time": "19:30",
+        "duration": "04:10"
+    },
+    {
         "flight_number": "JQ568",
         "airline_name": "Jetstar",
         "destination_iata": "BNE",
@@ -2119,19 +2174,19 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "18:25",
-        "local_arrival_time": "20:30",
+        "local_arrival_time": "19:30",
         "duration": "02:05"
     },
     {
-        "flight_number": "SQ208",
-        "airline_name": "Singapore Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "18:25",
-        "local_arrival_time": "00:15 (+1)",
-        "duration": "07:50"
+        "flight_number": "QF1262",
+        "airline_name": "Qantas",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "18:30",
+        "local_arrival_time": "19:50",
+        "duration": "02:20"
     },
     {
         "flight_number": "VA879",
@@ -2156,26 +2211,37 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "QF630",
-        "airline_name": "Qantas",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
-        "destination_country": "Australia",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "20:45",
-        "duration": "02:15"
+        "flight_number": "VA95",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
+        "local_departure_time": "18:35",
+        "local_arrival_time": "22:00",
+        "duration": "06:25"
     },
     {
-        "flight_number": "VA347",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
-        "destination_country": "Australia",
+        "flight_number": "JQ35",
+        "airline_name": "Jetstar",
+        "destination_iata": "DPS",
+        "destination_airport_name": "Denpasar Ngurah Rai International Airport",
+        "destination_city": "Denpasar",
+        "destination_country": "Indonesia",
         "local_departure_time": "18:40",
-        "local_arrival_time": "20:50",
-        "duration": "02:10"
+        "local_arrival_time": "21:50",
+        "duration": "06:10"
+    },
+    {
+        "flight_number": "VA693",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "PER",
+        "destination_airport_name": "Perth Airport",
+        "destination_city": "Perth",
+        "destination_country": "Australia",
+        "local_departure_time": "18:45",
+        "local_arrival_time": "20:10",
+        "duration": "04:25"
     },
     {
         "flight_number": "QF484",
@@ -2189,6 +2255,28 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "VA243",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "ADL",
+        "destination_airport_name": "Adelaide Airport",
+        "destination_city": "Adelaide",
+        "destination_country": "Australia",
+        "local_departure_time": "18:50",
+        "local_arrival_time": "19:45",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "VA347",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "18:50",
+        "local_arrival_time": "20:00",
+        "duration": "02:10"
+    },
+    {
         "flight_number": "QF1793",
         "airline_name": "Qantas",
         "destination_iata": "ADL",
@@ -2198,17 +2286,6 @@
         "local_departure_time": "18:50",
         "local_arrival_time": "19:40",
         "duration": "01:20"
-    },
-    {
-        "flight_number": "JQ526",
-        "airline_name": "Jetstar",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "20:20",
-        "duration": "01:25"
     },
     {
         "flight_number": "NZ126",
@@ -2222,15 +2299,15 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "QF777",
-        "airline_name": "Qantas",
-        "destination_iata": "PER",
-        "destination_airport_name": "Perth Airport",
-        "destination_city": "Perth",
+        "flight_number": "JQ526",
+        "airline_name": "Jetstar",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
         "destination_country": "Australia",
         "local_departure_time": "18:55",
-        "local_arrival_time": "21:05",
-        "duration": "04:10"
+        "local_arrival_time": "20:20",
+        "duration": "01:25"
     },
     {
         "flight_number": "VA883",
@@ -2244,17 +2321,6 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "VA243",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "ADL",
-        "destination_airport_name": "Adelaide Airport",
-        "destination_city": "Adelaide",
-        "destination_country": "Australia",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "20:10",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "JQ528",
         "airline_name": "Jetstar",
         "destination_iata": "SYD",
@@ -2264,6 +2330,17 @@
         "local_departure_time": "19:15",
         "local_arrival_time": "20:40",
         "duration": "01:25"
+    },
+    {
+        "flight_number": "SQ208",
+        "airline_name": "Singapore Airlines",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "19:15",
+        "local_arrival_time": "00:05 (+1)",
+        "duration": "07:50"
     },
     {
         "flight_number": "VA887",
@@ -2288,39 +2365,6 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "JQ570",
-        "airline_name": "Jetstar",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
-        "destination_country": "Australia",
-        "local_departure_time": "19:35",
-        "local_arrival_time": "21:45",
-        "duration": "02:10"
-    },
-    {
-        "flight_number": "VA349",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
-        "destination_country": "Australia",
-        "local_departure_time": "19:40",
-        "local_arrival_time": "21:50",
-        "duration": "02:10"
-    },
-    {
-        "flight_number": "HU484",
-        "airline_name": "Hainan Airlines",
-        "destination_iata": "HAK",
-        "destination_airport_name": "Haikou Meilan International Airport",
-        "destination_city": "Haikou",
-        "destination_country": "China",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "03:45 (+1)",
-        "duration": "10:00"
-    },
-    {
         "flight_number": "QF492",
         "airline_name": "Qantas",
         "destination_iata": "SYD",
@@ -2339,8 +2383,30 @@
         "destination_city": "Brisbane",
         "destination_country": "Australia",
         "local_departure_time": "19:45",
-        "local_arrival_time": "22:05",
+        "local_arrival_time": "21:05",
         "duration": "02:20"
+    },
+    {
+        "flight_number": "VA349",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "19:50",
+        "local_arrival_time": "21:00",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "QF777",
+        "airline_name": "Qantas",
+        "destination_iata": "PER",
+        "destination_airport_name": "Perth Airport",
+        "destination_city": "Perth",
+        "destination_country": "Australia",
+        "local_departure_time": "19:50",
+        "local_arrival_time": "21:00",
+        "duration": "04:10"
     },
     {
         "flight_number": "QF781",
@@ -2350,19 +2416,8 @@
         "destination_city": "Perth",
         "destination_country": "Australia",
         "local_departure_time": "19:55",
-        "local_arrival_time": "22:05",
+        "local_arrival_time": "21:05",
         "duration": "04:10"
-    },
-    {
-        "flight_number": "CA166",
-        "airline_name": "Air China",
-        "destination_iata": "PEK",
-        "destination_airport_name": "Beijing Capital International Airport",
-        "destination_city": "Beijing",
-        "destination_country": "China",
-        "local_departure_time": "20:00",
-        "local_arrival_time": "05:40 (+1)",
-        "duration": "11:40"
     },
     {
         "flight_number": "VA891",
@@ -2376,36 +2431,36 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "AI309",
-        "airline_name": "Air India",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
-        "destination_country": "India",
-        "local_departure_time": "20:05",
-        "local_arrival_time": "04:20 (+1)",
-        "duration": "12:45"
-    },
-    {
-        "flight_number": "VA247",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "ADL",
-        "destination_airport_name": "Adelaide Airport",
-        "destination_city": "Adelaide",
-        "destination_country": "Australia",
-        "local_departure_time": "20:15",
-        "local_arrival_time": "21:10",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "VA893",
-        "airline_name": "Virgin Australia",
+        "flight_number": "QF494",
+        "airline_name": "Qantas",
         "destination_iata": "SYD",
         "destination_airport_name": "Sydney Kingsford Smith Airport",
         "destination_city": "Sydney",
         "destination_country": "Australia",
-        "local_departure_time": "20:15",
-        "local_arrival_time": "21:40",
+        "local_departure_time": "20:00",
+        "local_arrival_time": "21:25",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "QF7354",
+        "airline_name": "Qantas",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "20:05",
+        "local_arrival_time": "21:25",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "JQ780",
+        "airline_name": "Jetstar",
+        "destination_iata": "ADL",
+        "destination_airport_name": "Adelaide Airport",
+        "destination_city": "Adelaide",
+        "destination_country": "Australia",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "21:05",
         "duration": "01:25"
     },
     {
@@ -2420,15 +2475,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "3U3886",
-        "airline_name": "Sichuan Airlines",
-        "destination_iata": "TFU",
-        "destination_airport_name": "Chengdu Tianfu International Airport",
-        "destination_city": "Chengdu",
-        "destination_country": "China",
-        "local_departure_time": "20:20",
-        "local_arrival_time": "05:20 (+1)",
-        "duration": "11:00"
+        "flight_number": "VA893",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "20:15",
+        "local_arrival_time": "21:40",
+        "duration": "01:25"
     },
     {
         "flight_number": "VA895",
@@ -2453,14 +2508,25 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "VA353",
-        "airline_name": "Virgin Australia",
+        "flight_number": "AI309",
+        "airline_name": "Air India",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "20:35",
+        "local_arrival_time": "03:50 (+1)",
+        "duration": "12:45"
+    },
+    {
+        "flight_number": "JQ570",
+        "airline_name": "Jetstar",
         "destination_iata": "BNE",
         "destination_airport_name": "Brisbane Airport",
         "destination_city": "Brisbane",
         "destination_country": "Australia",
-        "local_departure_time": "20:40",
-        "local_arrival_time": "22:50",
+        "local_departure_time": "20:35",
+        "local_arrival_time": "21:45",
         "duration": "02:10"
     },
     {
@@ -2471,8 +2537,19 @@
         "destination_city": "Perth",
         "destination_country": "Australia",
         "local_departure_time": "20:45",
-        "local_arrival_time": "23:10",
+        "local_arrival_time": "22:10",
         "duration": "04:25"
+    },
+    {
+        "flight_number": "VA353",
+        "airline_name": "Virgin Australia",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
+        "destination_country": "Australia",
+        "local_departure_time": "20:50",
+        "local_arrival_time": "22:00",
+        "duration": "02:10"
     },
     {
         "flight_number": "JQ532",
@@ -2484,17 +2561,6 @@
         "local_departure_time": "20:50",
         "local_arrival_time": "22:15",
         "duration": "01:25"
-    },
-    {
-        "flight_number": "CZ344",
-        "airline_name": "China Southern Airlines",
-        "destination_iata": "CAN",
-        "destination_airport_name": "Guangzhou Baiyun International Airport",
-        "destination_city": "Guangzhou",
-        "destination_country": "China",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "05:00 (+1)",
-        "duration": "10:00"
     },
     {
         "flight_number": "QF498",
@@ -2519,15 +2585,26 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "EK407",
-        "airline_name": "Emirates",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "21:15",
-        "local_arrival_time": "05:15 (+1)",
-        "duration": "14:00"
+        "flight_number": "3U3886",
+        "airline_name": "Sichuan Airlines",
+        "destination_iata": "TFU",
+        "destination_airport_name": "Chengdu Tianfu International Airport",
+        "destination_city": "Chengdu",
+        "destination_country": "China",
+        "local_departure_time": "21:20",
+        "local_arrival_time": "05:20 (+1)",
+        "duration": "11:00"
+    },
+    {
+        "flight_number": "QF7411",
+        "airline_name": "Qantas",
+        "destination_iata": "SYD",
+        "destination_airport_name": "Sydney Kingsford Smith Airport",
+        "destination_city": "Sydney",
+        "destination_country": "Australia",
+        "local_departure_time": "21:25",
+        "local_arrival_time": "22:55",
+        "duration": "01:30"
     },
     {
         "flight_number": "QF1264",
@@ -2536,42 +2613,31 @@
         "destination_airport_name": "Brisbane Airport",
         "destination_city": "Brisbane",
         "destination_country": "Australia",
-        "local_departure_time": "21:20",
-        "local_arrival_time": "23:40",
+        "local_departure_time": "22:00",
+        "local_arrival_time": "23:20",
         "duration": "02:20"
     },
     {
-        "flight_number": "TR25",
-        "airline_name": "Scoot",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "03:30 (+1)",
-        "duration": "08:00"
-    },
-    {
-        "flight_number": "VA359",
-        "airline_name": "Virgin Australia",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
-        "destination_country": "Australia",
-        "local_departure_time": "21:40",
-        "local_arrival_time": "23:50",
-        "duration": "02:10"
-    },
-    {
-        "flight_number": "CI58",
-        "airline_name": "China Airlines",
-        "destination_iata": "TPE",
-        "destination_airport_name": "Taipei Taoyuan International Airport",
-        "destination_city": "Taipei",
-        "destination_country": "Taiwan",
-        "local_departure_time": "21:50",
+        "flight_number": "EK407",
+        "airline_name": "Emirates",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "22:15",
         "local_arrival_time": "05:15 (+1)",
-        "duration": "09:25"
+        "duration": "14:00"
+    },
+    {
+        "flight_number": "MU740",
+        "airline_name": "Shanghai Airlines",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
+        "local_departure_time": "22:30",
+        "local_arrival_time": "06:00 (+1)",
+        "duration": "10:30"
     },
     {
         "flight_number": "QF7487",
@@ -2585,15 +2651,26 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "WO7487",
-        "airline_name": "StarTrack",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
+        "flight_number": "D7213",
+        "airline_name": "AirAsia X",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "22:45",
+        "local_arrival_time": "04:15 (+1)",
+        "duration": "08:30"
+    },
+    {
+        "flight_number": "QF7350",
+        "airline_name": "Qantas",
+        "destination_iata": "BNE",
+        "destination_airport_name": "Brisbane Airport",
+        "destination_city": "Brisbane",
         "destination_country": "Australia",
-        "local_departure_time": "22:35",
-        "local_arrival_time": "23:41",
-        "duration": "01:06"
+        "local_departure_time": "22:55",
+        "local_arrival_time": "00:00 (+1)",
+        "duration": "02:05"
     },
     {
         "flight_number": "QR905",
@@ -2602,7 +2679,7 @@
         "destination_airport_name": "Doha Hamad International Airport",
         "destination_city": "Doha",
         "destination_country": "Qatar",
-        "local_departure_time": "22:45",
+        "local_departure_time": "23:45",
         "local_arrival_time": "06:00 (+1)",
         "duration": "14:15"
     },
@@ -2613,64 +2690,9 @@
         "destination_airport_name": "Dubai International Airport",
         "destination_city": "Dubai",
         "destination_country": "United Arab Emirates",
-        "local_departure_time": "22:55",
+        "local_departure_time": "23:55",
         "local_arrival_time": "06:55 (+1)",
         "duration": "14:00"
-    },
-    {
-        "flight_number": "MH128",
-        "airline_name": "Malaysia Airlines",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "23:30",
-        "local_arrival_time": "06:00 (+1)",
-        "duration": "08:30"
-    },
-    {
-        "flight_number": "TG462",
-        "airline_name": "Thai Airways",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "23:30",
-        "local_arrival_time": "06:00 (+1)",
-        "duration": "09:30"
-    },
-    {
-        "flight_number": "SQ218",
-        "airline_name": "Singapore Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "23:35",
-        "local_arrival_time": "05:30 (+1)",
-        "duration": "07:55"
-    },
-    {
-        "flight_number": "AWK5",
-        "airline_name": "Parcelair",
-        "destination_iata": "AKL",
-        "destination_airport_name": "Auckland Airport",
-        "destination_city": "Auckland",
-        "destination_country": "New Zealand",
-        "local_departure_time": "23:35",
-        "local_arrival_time": "04:48 (+1)",
-        "duration": "03:13"
-    },
-    {
-        "flight_number": "CX178",
-        "airline_name": "Cathay Pacific",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "23:45",
-        "local_arrival_time": "06:55 (+1)",
-        "duration": "09:10"
     },
     {
         "flight_number": "JQ217",

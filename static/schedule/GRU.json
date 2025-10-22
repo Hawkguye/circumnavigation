@@ -17,31 +17,9 @@
         "destination_airport_name": "Lisbon Humberto Delgado Airport",
         "destination_city": "Lisbon",
         "destination_country": "Portugal",
-        "local_departure_time": "00:40",
-        "local_arrival_time": "14:30",
+        "local_departure_time": "00:40 / 00:45",
+        "local_arrival_time": "14:30 / 14:35",
         "duration": "09:50"
-    },
-    {
-        "flight_number": "LA761",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "SCL",
-        "destination_airport_name": "Santiago International Airport",
-        "destination_city": "Santiago",
-        "destination_country": "Chile",
-        "local_departure_time": "00:55",
-        "local_arrival_time": "04:35",
-        "duration": "04:40"
-    },
-    {
-        "flight_number": "EK262",
-        "airline_name": "Emirates",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "01:05",
-        "local_arrival_time": "23:00",
-        "duration": "14:55"
     },
     {
         "flight_number": "ET3651",
@@ -52,7 +30,7 @@
         "destination_country": "Chile",
         "local_departure_time": "01:05",
         "local_arrival_time": "04:25",
-        "duration": "04:20"
+        "duration": "03:20"
     },
     {
         "flight_number": "CM841",
@@ -66,6 +44,17 @@
         "duration": "07:00"
     },
     {
+        "flight_number": "EK262",
+        "airline_name": "Emirates",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "01:35",
+        "local_arrival_time": "23:00",
+        "duration": "14:25"
+    },
+    {
         "flight_number": "CM758",
         "airline_name": "Copa Airlines",
         "destination_iata": "PTY",
@@ -73,8 +62,8 @@
         "destination_city": "Panama City",
         "destination_country": "Panama",
         "local_departure_time": "01:40",
-        "local_arrival_time": "06:40",
-        "duration": "07:00"
+        "local_arrival_time": "06:39",
+        "duration": "06:59"
     },
     {
         "flight_number": "AV248",
@@ -106,19 +95,8 @@
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "01:55",
-        "local_arrival_time": "22:10",
-        "duration": "14:15"
-    },
-    {
-        "flight_number": "FO5801",
-        "airline_name": "Flybondi",
-        "destination_iata": "EZE",
-        "destination_airport_name": "Buenos Aires Ministro Pistarini International Airport",
-        "destination_city": "Buenos Aires",
-        "destination_country": "Argentina",
-        "local_departure_time": "02:15",
-        "local_arrival_time": "05:20",
-        "duration": "03:05"
+        "local_arrival_time": "21:35",
+        "duration": "13:40"
     },
     {
         "flight_number": "CM702",
@@ -130,17 +108,6 @@
         "local_departure_time": "03:10",
         "local_arrival_time": "08:06",
         "duration": "06:56"
-    },
-    {
-        "flight_number": "ET3651",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "UIO",
-        "destination_airport_name": "Quito Mariscal Sucre International Airport",
-        "destination_city": "Quito",
-        "destination_country": "Ecuador",
-        "local_departure_time": "03:35",
-        "local_arrival_time": "07:45",
-        "duration": "06:10"
     },
     {
         "flight_number": "LA8004",
@@ -176,17 +143,6 @@
         "duration": "12:45"
     },
     {
-        "flight_number": "DM6087",
-        "airline_name": "Arajet",
-        "destination_iata": "PUJ",
-        "destination_airport_name": "Punta Cana International Airport",
-        "destination_city": "Punta Cana",
-        "destination_country": "Dominican Republic",
-        "local_departure_time": "04:33",
-        "local_arrival_time": "10:43",
-        "duration": "07:10"
-    },
-    {
         "flight_number": "TK215",
         "airline_name": "Turkish Airlines",
         "destination_iata": "SCL",
@@ -194,19 +150,8 @@
         "destination_city": "Santiago",
         "destination_country": "Chile",
         "local_departure_time": "04:35",
-        "local_arrival_time": "07:50",
+        "local_arrival_time": "08:50",
         "duration": "04:15"
-    },
-    {
-        "flight_number": "H25565",
-        "airline_name": "SKY Airline",
-        "destination_iata": "LIM",
-        "destination_airport_name": "Lima Jorge Chavez International Airport",
-        "destination_city": "Lima",
-        "destination_country": "Peru",
-        "local_departure_time": "04:50",
-        "local_arrival_time": "08:15",
-        "duration": "05:25"
     },
     {
         "flight_number": "CM744",
@@ -220,15 +165,15 @@
         "duration": "07:03"
     },
     {
-        "flight_number": "AD4522",
-        "airline_name": "Azul",
-        "destination_iata": "CNF",
-        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
-        "destination_city": "Belo Horizonte",
-        "destination_country": "Brazil",
-        "local_departure_time": "06:00",
-        "local_arrival_time": "07:10",
-        "duration": "01:10"
+        "flight_number": "H25565",
+        "airline_name": "SKY Airline",
+        "destination_iata": "LIM",
+        "destination_airport_name": "Lima Jorge Chavez International Airport",
+        "destination_city": "Lima",
+        "destination_country": "Peru",
+        "local_departure_time": "05:55",
+        "local_arrival_time": "09:25",
+        "duration": "05:30"
     },
     {
         "flight_number": "G31492",
@@ -242,6 +187,17 @@
         "duration": "01:45"
     },
     {
+        "flight_number": "AD4522",
+        "airline_name": "Azul",
+        "destination_iata": "CNF",
+        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
+        "destination_city": "Belo Horizonte",
+        "destination_country": "Brazil",
+        "local_departure_time": "06:05",
+        "local_arrival_time": "07:10",
+        "duration": "01:05"
+    },
+    {
         "flight_number": "G32044",
         "airline_name": "GOL Linhas Aereas",
         "destination_iata": "GIG",
@@ -251,17 +207,6 @@
         "local_departure_time": "06:05",
         "local_arrival_time": "07:10",
         "duration": "01:05"
-    },
-    {
-        "flight_number": "QR8159",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "BOG",
-        "destination_airport_name": "Bogota El Dorado International Airport",
-        "destination_city": "Bogota",
-        "destination_country": "Colombia",
-        "local_departure_time": "06:15",
-        "local_arrival_time": "10:05",
-        "duration": "05:50"
     },
     {
         "flight_number": "LA3340",
@@ -282,7 +227,7 @@
         "destination_city": "Santiago",
         "destination_country": "Chile",
         "local_departure_time": "07:10",
-        "local_arrival_time": "10:30",
+        "local_arrival_time": "11:30",
         "duration": "04:20"
     },
     {
@@ -341,6 +286,17 @@
         "duration": "06:00"
     },
     {
+        "flight_number": "LA3552",
+        "airline_name": "LATAM Airlines",
+        "destination_iata": "CNF",
+        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
+        "destination_city": "Belo Horizonte",
+        "destination_country": "Brazil",
+        "local_departure_time": "08:20",
+        "local_arrival_time": "09:30",
+        "duration": "01:10"
+    },
+    {
         "flight_number": "LA605",
         "airline_name": "LATAM Airlines",
         "destination_iata": "SCL",
@@ -348,7 +304,7 @@
         "destination_city": "Santiago",
         "destination_country": "Chile",
         "local_departure_time": "08:35",
-        "local_arrival_time": "11:55",
+        "local_arrival_time": "12:55",
         "duration": "04:20"
     },
     {
@@ -363,15 +319,15 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "LA3552",
+        "flight_number": "LA8112",
         "airline_name": "LATAM Airlines",
-        "destination_iata": "CNF",
-        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
-        "destination_city": "Belo Horizonte",
-        "destination_country": "Brazil",
-        "local_departure_time": "08:50",
-        "local_arrival_time": "10:00",
-        "duration": "01:10"
+        "destination_iata": "MEX",
+        "destination_airport_name": "Mexico City International Airport",
+        "destination_city": "Mexico City",
+        "destination_country": "Mexico",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "14:55",
+        "duration": "09:15"
     },
     {
         "flight_number": "G31412",
@@ -407,28 +363,6 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "LA8112",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "MEX",
-        "destination_airport_name": "Mexico City International Airport",
-        "destination_city": "Mexico City",
-        "destination_country": "Mexico",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "15:35",
-        "duration": "09:25"
-    },
-    {
-        "flight_number": "CA898",
-        "airline_name": "Air China",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "09:25",
-        "local_arrival_time": "00:55 (+1)",
-        "duration": "10:30"
-    },
-    {
         "flight_number": "LA3344",
         "airline_name": "LATAM Airlines",
         "destination_iata": "CNF",
@@ -447,8 +381,8 @@
         "destination_city": "Mexico City",
         "destination_country": "Mexico",
         "local_departure_time": "09:40",
-        "local_arrival_time": "16:10 / 16:20",
-        "duration": "09:40"
+        "local_arrival_time": "16:10",
+        "duration": "09:30"
     },
     {
         "flight_number": "LA3698",
@@ -457,8 +391,8 @@
         "destination_airport_name": "Rio de Janeiro Galeao International Airport",
         "destination_city": "Rio de Janeiro",
         "destination_country": "Brazil",
-        "local_departure_time": "09:40 / 09:45",
-        "local_arrival_time": "10:40 / 10:45",
+        "local_departure_time": "09:45",
+        "local_arrival_time": "10:45",
         "duration": "01:00"
     },
     {
@@ -484,102 +418,25 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "H2605",
-        "airline_name": "SKY Airline",
-        "destination_iata": "SCL",
-        "destination_airport_name": "Santiago International Airport",
-        "destination_city": "Santiago",
-        "destination_country": "Chile",
-        "local_departure_time": "10:00",
-        "local_arrival_time": "13:25",
-        "duration": "04:25"
-    },
-    {
-        "flight_number": "DL268",
-        "airline_name": "Delta Air Lines",
-        "destination_iata": "ATL",
-        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
-        "destination_city": "Atlanta",
-        "destination_country": "United States",
-        "local_departure_time": "10:05",
-        "local_arrival_time": "18:50",
-        "duration": "09:45"
-    },
-    {
-        "flight_number": "EK9913",
-        "airline_name": "Emirates",
-        "destination_iata": "UIO",
-        "destination_airport_name": "Quito Mariscal Sucre International Airport",
-        "destination_city": "Quito",
-        "destination_country": "Ecuador",
-        "local_departure_time": "10:05",
-        "local_arrival_time": "14:15",
-        "duration": "06:10"
-    },
-    {
-        "flight_number": "QR786",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "10:15",
-        "local_arrival_time": "06:30 (+1)",
-        "duration": "14:15"
-    },
-    {
-        "flight_number": "H2651",
-        "airline_name": "SKY Airline",
-        "destination_iata": "SCL",
-        "destination_airport_name": "Santiago International Airport",
-        "destination_city": "Santiago",
-        "destination_country": "Chile",
-        "local_departure_time": "10:25",
-        "local_arrival_time": "13:50",
-        "duration": "04:25"
-    },
-    {
-        "flight_number": "JA775",
-        "airline_name": "JetSMART",
-        "destination_iata": "SCL",
-        "destination_airport_name": "Santiago International Airport",
-        "destination_city": "Santiago",
-        "destination_country": "Chile",
-        "local_departure_time": "10:25",
-        "local_arrival_time": "13:55",
-        "duration": "04:30"
-    },
-    {
         "flight_number": "LA8194",
         "airline_name": "LATAM Airlines",
         "destination_iata": "MIA",
         "destination_airport_name": "Miami International Airport",
         "destination_city": "Miami",
         "destination_country": "United States",
-        "local_departure_time": "10:35",
-        "local_arrival_time": "17:55",
-        "duration": "08:20"
+        "local_departure_time": "10:25",
+        "local_arrival_time": "17:50",
+        "duration": "08:25"
     },
     {
-        "flight_number": "LA8104",
+        "flight_number": "LA756",
         "airline_name": "LATAM Airlines",
         "destination_iata": "SCL",
         "destination_airport_name": "Santiago International Airport",
         "destination_city": "Santiago",
         "destination_country": "Chile",
-        "local_departure_time": "10:50",
-        "local_arrival_time": "14:15",
-        "duration": "04:25"
-    },
-    {
-        "flight_number": "LA759",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "SCL",
-        "destination_airport_name": "Santiago International Airport",
-        "destination_city": "Santiago",
-        "destination_country": "Chile",
-        "local_departure_time": "10:50",
-        "local_arrival_time": "14:10",
+        "local_departure_time": "10:55",
+        "local_arrival_time": "15:15",
         "duration": "04:20"
     },
     {
@@ -590,19 +447,8 @@
         "destination_city": "Panama City",
         "destination_country": "Panama",
         "local_departure_time": "11:10",
-        "local_arrival_time": "16:12",
-        "duration": "07:02"
-    },
-    {
-        "flight_number": "JA771",
-        "airline_name": "JetSMART",
-        "destination_iata": "SCL",
-        "destination_airport_name": "Santiago International Airport",
-        "destination_city": "Santiago",
-        "destination_country": "Chile",
-        "local_departure_time": "11:20",
-        "local_arrival_time": "14:50",
-        "duration": "04:30"
+        "local_arrival_time": "16:14",
+        "duration": "07:04"
     },
     {
         "flight_number": "AC90",
@@ -616,15 +462,15 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "H2601",
-        "airline_name": "SKY Airline",
-        "destination_iata": "SCL",
-        "destination_airport_name": "Santiago International Airport",
-        "destination_city": "Santiago",
-        "destination_country": "Chile",
-        "local_departure_time": "11:35",
-        "local_arrival_time": "15:00",
-        "duration": "04:25"
+        "flight_number": "DM6089",
+        "airline_name": "Arajet",
+        "destination_iata": "PUJ",
+        "destination_airport_name": "Punta Cana International Airport",
+        "destination_city": "Punta Cana",
+        "destination_country": "Dominican Republic",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "18:10",
+        "duration": "07:10"
     },
     {
         "flight_number": "LA8126",
@@ -633,31 +479,9 @@
         "destination_airport_name": "Orlando International Airport",
         "destination_city": "Orlando",
         "destination_country": "United States",
-        "local_departure_time": "11:55",
-        "local_arrival_time": "20:00",
-        "duration": "09:05"
-    },
-    {
-        "flight_number": "LA747",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "SCL",
-        "destination_airport_name": "Santiago International Airport",
-        "destination_city": "Santiago",
-        "destination_country": "Chile",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "15:20",
-        "duration": "04:20"
-    },
-    {
-        "flight_number": "JA773",
-        "airline_name": "JetSMART",
-        "destination_iata": "SCL",
-        "destination_airport_name": "Santiago International Airport",
-        "destination_city": "Santiago",
-        "destination_country": "Chile",
         "local_departure_time": "12:05",
-        "local_arrival_time": "15:35",
-        "duration": "04:30"
+        "local_arrival_time": "19:59",
+        "duration": "08:54"
     },
     {
         "flight_number": "LA4672",
@@ -671,17 +495,6 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "LA3554",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "CNF",
-        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
-        "destination_city": "Belo Horizonte",
-        "destination_country": "Brazil",
-        "local_departure_time": "12:20 / 12:25",
-        "local_arrival_time": "13:30 / 13:35",
-        "duration": "01:10"
-    },
-    {
         "flight_number": "LA3265",
         "airline_name": "LATAM Airlines",
         "destination_iata": "BSB",
@@ -693,14 +506,25 @@
         "duration": "01:40"
     },
     {
+        "flight_number": "LA3554",
+        "airline_name": "LATAM Airlines",
+        "destination_iata": "CNF",
+        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
+        "destination_city": "Belo Horizonte",
+        "destination_country": "Brazil",
+        "local_departure_time": "12:25",
+        "local_arrival_time": "13:35",
+        "duration": "01:10"
+    },
+    {
         "flight_number": "G39123",
         "airline_name": "GOL Linhas Aereas",
         "destination_iata": "GIG",
         "destination_airport_name": "Rio de Janeiro Galeao International Airport",
         "destination_city": "Rio de Janeiro",
         "destination_country": "Brazil",
-        "local_departure_time": "13:00",
-        "local_arrival_time": "14:05",
+        "local_departure_time": "12:50",
+        "local_arrival_time": "13:55",
         "duration": "01:05"
     },
     {
@@ -715,26 +539,15 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "LA606",
+        "flight_number": "LA8036",
         "airline_name": "LATAM Airlines",
         "destination_iata": "SCL",
         "destination_airport_name": "Santiago International Airport",
         "destination_city": "Santiago",
         "destination_country": "Chile",
-        "local_departure_time": "13:25",
-        "local_arrival_time": "16:45",
-        "duration": "04:20"
-    },
-    {
-        "flight_number": "LA4672",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "GIG",
-        "destination_airport_name": "Rio de Janeiro Galeao International Airport",
-        "destination_city": "Rio de Janeiro",
-        "destination_country": "Brazil",
-        "local_departure_time": "13:30",
-        "local_arrival_time": "14:30",
-        "duration": "01:00"
+        "local_departure_time": "13:15",
+        "local_arrival_time": "17:40",
+        "duration": "04:25"
     },
     {
         "flight_number": "UX58",
@@ -748,15 +561,15 @@
         "duration": "10:10"
     },
     {
-        "flight_number": "LA3366",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "GIG",
-        "destination_airport_name": "Rio de Janeiro Galeao International Airport",
-        "destination_city": "Rio de Janeiro",
-        "destination_country": "Brazil",
-        "local_departure_time": "13:50",
-        "local_arrival_time": "14:50",
-        "duration": "01:00"
+        "flight_number": "QR8174",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "BOG",
+        "destination_airport_name": "Bogota El Dorado International Airport",
+        "destination_city": "Bogota",
+        "destination_country": "Colombia",
+        "local_departure_time": "13:55",
+        "local_arrival_time": "17:45",
+        "duration": "05:50"
     },
     {
         "flight_number": "AD5031",
@@ -788,7 +601,7 @@
         "destination_city": "Rome",
         "destination_country": "Italy",
         "local_departure_time": "14:10",
-        "local_arrival_time": "06:20 (+1) / 06:50 (+1)",
+        "local_arrival_time": "06:20 (+1)",
         "duration": "11:10"
     },
     {
@@ -810,7 +623,7 @@
         "destination_city": "Santiago",
         "destination_country": "Chile",
         "local_departure_time": "14:30",
-        "local_arrival_time": "17:50",
+        "local_arrival_time": "18:50",
         "duration": "04:20"
     },
     {
@@ -858,15 +671,15 @@
         "duration": "07:15"
     },
     {
-        "flight_number": "LA3556",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "CNF",
-        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
-        "destination_city": "Belo Horizonte",
-        "destination_country": "Brazil",
-        "local_departure_time": "16:10",
-        "local_arrival_time": "17:20",
-        "duration": "01:10"
+        "flight_number": "G37716",
+        "airline_name": "GOL Linhas Aereas",
+        "destination_iata": "AUA",
+        "destination_airport_name": "Oranjestad Queen Beatrix International Airport",
+        "destination_city": "Oranjestad",
+        "destination_country": "Aruba",
+        "local_departure_time": "16:00",
+        "local_arrival_time": "21:30",
+        "duration": "06:30"
     },
     {
         "flight_number": "TK216",
@@ -880,26 +693,48 @@
         "duration": "12:45"
     },
     {
+        "flight_number": "LA3556",
+        "airline_name": "LATAM Airlines",
+        "destination_iata": "CNF",
+        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
+        "destination_city": "Belo Horizonte",
+        "destination_country": "Brazil",
+        "local_departure_time": "16:10 / 16:25",
+        "local_arrival_time": "17:20 / 17:35",
+        "duration": "01:10"
+    },
+    {
         "flight_number": "LA3257",
         "airline_name": "LATAM Airlines",
         "destination_iata": "BSB",
         "destination_airport_name": "Brasilia International Airport",
         "destination_city": "Brasilia",
         "destination_country": "Brazil",
-        "local_departure_time": "16:25 / 16:40",
-        "local_arrival_time": "18:05 / 18:20",
+        "local_departure_time": "16:25",
+        "local_arrival_time": "18:05",
         "duration": "01:40"
     },
     {
-        "flight_number": "LA8096",
+        "flight_number": "LA758",
         "airline_name": "LATAM Airlines",
         "destination_iata": "SCL",
         "destination_airport_name": "Santiago International Airport",
         "destination_city": "Santiago",
         "destination_country": "Chile",
-        "local_departure_time": "16:40",
-        "local_arrival_time": "20:00",
+        "local_departure_time": "16:30 / 16:35",
+        "local_arrival_time": "20:50 / 20:55",
         "duration": "04:20"
+    },
+    {
+        "flight_number": "LA4548",
+        "airline_name": "LATAM Airlines",
+        "destination_iata": "GIG",
+        "destination_airport_name": "Rio de Janeiro Galeao International Airport",
+        "destination_city": "Rio de Janeiro",
+        "destination_country": "Brazil",
+        "local_departure_time": "16:40",
+        "local_arrival_time": "17:40",
+        "duration": "01:00"
     },
     {
         "flight_number": "G31446",
@@ -911,17 +746,6 @@
         "local_departure_time": "16:45",
         "local_arrival_time": "18:35",
         "duration": "01:50"
-    },
-    {
-        "flight_number": "LA4548",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "GIG",
-        "destination_airport_name": "Rio de Janeiro Galeao International Airport",
-        "destination_city": "Rio de Janeiro",
-        "destination_country": "Brazil",
-        "local_departure_time": "16:45 / 16:55",
-        "local_arrival_time": "17:45 / 17:55",
-        "duration": "01:00"
     },
     {
         "flight_number": "AV184",
@@ -941,20 +765,9 @@
         "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
         "destination_city": "Belo Horizonte",
         "destination_country": "Brazil",
-        "local_departure_time": "16:55 / 17:40",
-        "local_arrival_time": "18:15 / 18:50",
+        "local_departure_time": "16:55",
+        "local_arrival_time": "18:15",
         "duration": "01:20"
-    },
-    {
-        "flight_number": "G39510",
-        "airline_name": "GOL Linhas Aereas",
-        "destination_iata": "CCS",
-        "destination_airport_name": "Caracas Simon Bolivar International Airport",
-        "destination_city": "Caracas",
-        "destination_country": "Venezuela",
-        "local_departure_time": "17:00",
-        "local_arrival_time": "22:10",
-        "duration": "06:10"
     },
     {
         "flight_number": "SA223",
@@ -968,15 +781,15 @@
         "duration": "08:55"
     },
     {
-        "flight_number": "LA8146",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "LIS",
-        "destination_airport_name": "Lisbon Humberto Delgado Airport",
-        "destination_city": "Lisbon",
-        "destination_country": "Portugal",
-        "local_departure_time": "17:05 / 17:25",
-        "local_arrival_time": "06:35 (+1) / 06:55 (+1)",
-        "duration": "09:30"
+        "flight_number": "G37210",
+        "airline_name": "GOL Linhas Aereas",
+        "destination_iata": "CCS",
+        "destination_airport_name": "Caracas Simon Bolivar International Airport",
+        "destination_city": "Caracas",
+        "destination_country": "Venezuela",
+        "local_departure_time": "17:10",
+        "local_arrival_time": "22:10",
+        "duration": "06:00"
     },
     {
         "flight_number": "ET506",
@@ -990,6 +803,28 @@
         "duration": "02:55"
     },
     {
+        "flight_number": "LA8146",
+        "airline_name": "LATAM Airlines",
+        "destination_iata": "LIS",
+        "destination_airport_name": "Lisbon Humberto Delgado Airport",
+        "destination_city": "Lisbon",
+        "destination_country": "Portugal",
+        "local_departure_time": "17:40",
+        "local_arrival_time": "07:10 (+1)",
+        "duration": "09:30"
+    },
+    {
+        "flight_number": "LA3529",
+        "airline_name": "LATAM Airlines",
+        "destination_iata": "BSB",
+        "destination_airport_name": "Brasilia International Airport",
+        "destination_city": "Brasilia",
+        "destination_country": "Brazil",
+        "local_departure_time": "17:45",
+        "local_arrival_time": "19:25",
+        "duration": "01:40"
+    },
+    {
         "flight_number": "LA3874",
         "airline_name": "LATAM Airlines",
         "destination_iata": "GIG",
@@ -999,17 +834,6 @@
         "local_departure_time": "17:45",
         "local_arrival_time": "18:45",
         "duration": "01:00"
-    },
-    {
-        "flight_number": "LA3529",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "BSB",
-        "destination_airport_name": "Brasilia International Airport",
-        "destination_city": "Brasilia",
-        "destination_country": "Brazil",
-        "local_departure_time": "17:45 / 18:10",
-        "local_arrival_time": "19:25 / 19:50",
-        "duration": "01:40"
     },
     {
         "flight_number": "LA8120",
@@ -1056,28 +880,6 @@
         "duration": "11:15"
     },
     {
-        "flight_number": "DT748",
-        "airline_name": "TAAG Angola Airlines",
-        "destination_iata": "LAD",
-        "destination_airport_name": "Luanda Quatro de Fevereiro Airport",
-        "destination_city": "Luanda",
-        "destination_country": "Angola",
-        "local_departure_time": "18:05",
-        "local_arrival_time": "06:40 (+1)",
-        "duration": "08:35"
-    },
-    {
-        "flight_number": "JA775",
-        "airline_name": "JetSMART",
-        "destination_iata": "SCL",
-        "destination_airport_name": "Santiago International Airport",
-        "destination_city": "Santiago",
-        "destination_country": "Chile",
-        "local_departure_time": "18:10",
-        "local_arrival_time": "21:40",
-        "duration": "04:30"
-    },
-    {
         "flight_number": "LA8068",
         "airline_name": "LATAM Airlines",
         "destination_iata": "CDG",
@@ -1107,8 +909,8 @@
         "destination_city": "Zurich",
         "destination_country": "Switzerland",
         "local_departure_time": "18:30",
-        "local_arrival_time": "10:45 (+1) / 10:50 (+1)",
-        "duration": "11:15"
+        "local_arrival_time": "10:40 (+1) / 10:45 (+1)",
+        "duration": "11:10"
     },
     {
         "flight_number": "LA753",
@@ -1118,7 +920,7 @@
         "destination_city": "Santiago",
         "destination_country": "Chile",
         "local_departure_time": "18:35",
-        "local_arrival_time": "21:55",
+        "local_arrival_time": "22:55",
         "duration": "04:20"
     },
     {
@@ -1128,8 +930,8 @@
         "destination_airport_name": "Rio de Janeiro Galeao International Airport",
         "destination_city": "Rio de Janeiro",
         "destination_country": "Brazil",
-        "local_departure_time": "18:40",
-        "local_arrival_time": "19:45",
+        "local_departure_time": "18:35 / 18:45",
+        "local_arrival_time": "19:40 / 19:50",
         "duration": "01:05"
     },
     {
@@ -1142,17 +944,6 @@
         "local_departure_time": "18:50",
         "local_arrival_time": "11:30 (+1)",
         "duration": "11:40"
-    },
-    {
-        "flight_number": "LA4685",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "BSB",
-        "destination_airport_name": "Brasilia International Airport",
-        "destination_city": "Brasilia",
-        "destination_country": "Brazil",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "20:50",
-        "duration": "01:40"
     },
     {
         "flight_number": "LA8039",
@@ -1188,14 +979,14 @@
         "duration": "09:55"
     },
     {
-        "flight_number": "H2603",
+        "flight_number": "H2611",
         "airline_name": "SKY Airline",
         "destination_iata": "SCL",
         "destination_airport_name": "Santiago International Airport",
         "destination_city": "Santiago",
         "destination_country": "Chile",
         "local_departure_time": "19:15",
-        "local_arrival_time": "22:40",
+        "local_arrival_time": "23:40",
         "duration": "04:25"
     },
     {
@@ -1221,48 +1012,15 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "G31260",
-        "airline_name": "GOL Linhas Aereas",
-        "destination_iata": "GIG",
-        "destination_airport_name": "Rio de Janeiro Galeao International Airport",
-        "destination_city": "Rio de Janeiro",
-        "destination_country": "Brazil",
-        "local_departure_time": "20:00",
-        "local_arrival_time": "21:10",
-        "duration": "01:10"
-    },
-    {
-        "flight_number": "LA755",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "SCL",
-        "destination_airport_name": "Santiago International Airport",
-        "destination_city": "Santiago",
-        "destination_country": "Chile",
-        "local_departure_time": "20:05",
-        "local_arrival_time": "23:25",
-        "duration": "04:20"
-    },
-    {
         "flight_number": "LA3368",
         "airline_name": "LATAM Airlines",
         "destination_iata": "GIG",
         "destination_airport_name": "Rio de Janeiro Galeao International Airport",
         "destination_city": "Rio de Janeiro",
         "destination_country": "Brazil",
-        "local_departure_time": "20:15",
-        "local_arrival_time": "21:15",
+        "local_departure_time": "20:15 / 20:30",
+        "local_arrival_time": "21:15 / 21:30",
         "duration": "01:00"
-    },
-    {
-        "flight_number": "LA4768",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "CNF",
-        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
-        "destination_city": "Belo Horizonte",
-        "destination_country": "Brazil",
-        "local_departure_time": "20:15",
-        "local_arrival_time": "21:25",
-        "duration": "01:10"
     },
     {
         "flight_number": "QR780",
@@ -1272,8 +1030,8 @@
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "20:20",
-        "local_arrival_time": "16:35 (+1)",
-        "duration": "14:15"
+        "local_arrival_time": "16:00 (+1)",
+        "duration": "13:40"
     },
     {
         "flight_number": "DL226",
@@ -1283,8 +1041,19 @@
         "destination_city": "New York",
         "destination_country": "United States",
         "local_departure_time": "20:30",
-        "local_arrival_time": "05:20 (+1)",
-        "duration": "09:50"
+        "local_arrival_time": "05:25 (+1)",
+        "duration": "09:55"
+    },
+    {
+        "flight_number": "ET3739",
+        "airline_name": "Ethiopian Airlines",
+        "destination_iata": "SCL",
+        "destination_airport_name": "Santiago International Airport",
+        "destination_city": "Santiago",
+        "destination_country": "Chile",
+        "local_departure_time": "20:35",
+        "local_arrival_time": "23:55",
+        "duration": "03:20"
     },
     {
         "flight_number": "TP88",
@@ -1293,9 +1062,20 @@
         "destination_airport_name": "Lisbon Humberto Delgado Airport",
         "destination_city": "Lisbon",
         "destination_country": "Portugal",
-        "local_departure_time": "20:50",
+        "local_departure_time": "20:45 / 20:50",
         "local_arrival_time": "10:35 (+1)",
-        "duration": "09:45"
+        "duration": "09:50"
+    },
+    {
+        "flight_number": "LA3259",
+        "airline_name": "LATAM Airlines",
+        "destination_iata": "BSB",
+        "destination_airport_name": "Brasilia International Airport",
+        "destination_city": "Brasilia",
+        "destination_country": "Brazil",
+        "local_departure_time": "20:55",
+        "local_arrival_time": "22:35",
+        "duration": "01:40"
     },
     {
         "flight_number": "TP94",
@@ -1315,9 +1095,9 @@
         "destination_airport_name": "Madrid Barajas Airport",
         "destination_city": "Madrid",
         "destination_country": "Spain",
-        "local_departure_time": "21:00",
+        "local_departure_time": "20:59",
         "local_arrival_time": "12:00 (+1)",
-        "duration": "10:00"
+        "duration": "10:01"
     },
     {
         "flight_number": "AC97",
@@ -1326,9 +1106,9 @@
         "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
         "destination_city": "Montreal",
         "destination_country": "Canada",
-        "local_departure_time": "21:00",
+        "local_departure_time": "20:59",
         "local_arrival_time": "06:15 (+1)",
-        "duration": "10:15"
+        "duration": "10:16"
     },
     {
         "flight_number": "UA148",
@@ -1337,20 +1117,20 @@
         "destination_airport_name": "New York Newark Liberty International Airport",
         "destination_city": "New York",
         "destination_country": "United States",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "05:35 (+1)",
-        "duration": "09:35"
+        "local_departure_time": "20:59",
+        "local_arrival_time": "05:40 (+1)",
+        "duration": "09:41"
     },
     {
-        "flight_number": "AD2881",
-        "airline_name": "Azul",
+        "flight_number": "G31920",
+        "airline_name": "GOL Linhas Aereas",
         "destination_iata": "CNF",
         "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
         "destination_city": "Belo Horizonte",
         "destination_country": "Brazil",
-        "local_departure_time": "21:05",
-        "local_arrival_time": "22:15",
-        "duration": "01:10"
+        "local_departure_time": "21:10",
+        "local_arrival_time": "22:30",
+        "duration": "01:20"
     },
     {
         "flight_number": "LA3360",
@@ -1364,6 +1144,17 @@
         "duration": "01:00"
     },
     {
+        "flight_number": "AD2881",
+        "airline_name": "Azul",
+        "destination_iata": "CNF",
+        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
+        "destination_city": "Belo Horizonte",
+        "destination_country": "Brazil",
+        "local_departure_time": "21:15",
+        "local_arrival_time": "22:25",
+        "duration": "01:10"
+    },
+    {
         "flight_number": "AA930",
         "airline_name": "American Airlines",
         "destination_iata": "MIA",
@@ -1371,18 +1162,18 @@
         "destination_city": "Miami",
         "destination_country": "United States",
         "local_departure_time": "21:25",
-        "local_arrival_time": "04:45 (+1)",
-        "duration": "08:20"
+        "local_arrival_time": "04:50 (+1)",
+        "duration": "08:25"
     },
     {
-        "flight_number": "LA751",
+        "flight_number": "LA8231",
         "airline_name": "LATAM Airlines",
         "destination_iata": "SCL",
         "destination_airport_name": "Santiago International Airport",
         "destination_city": "Santiago",
         "destination_country": "Chile",
         "local_departure_time": "21:25",
-        "local_arrival_time": "00:45 (+1)",
+        "local_arrival_time": "01:45 (+1)",
         "duration": "04:20"
     },
     {
@@ -1431,7 +1222,7 @@
     },
     {
         "flight_number": "KL792",
-        "airline_name": "KLM Asia",
+        "airline_name": "KLM",
         "destination_iata": "AMS",
         "destination_airport_name": "Amsterdam Schiphol Airport",
         "destination_city": "Amsterdam",
@@ -1459,8 +1250,8 @@
         "destination_city": "Houston",
         "destination_country": "United States",
         "local_departure_time": "21:50",
-        "local_arrival_time": "05:40 (+1)",
-        "duration": "09:50"
+        "local_arrival_time": "05:50 (+1)",
+        "duration": "10:00"
     },
     {
         "flight_number": "AA962",
@@ -1470,11 +1261,11 @@
         "destination_city": "Dallas",
         "destination_country": "United States",
         "local_departure_time": "22:00",
-        "local_arrival_time": "06:20 (+1)",
-        "duration": "10:20"
+        "local_arrival_time": "06:30 (+1)",
+        "duration": "10:30"
     },
     {
-        "flight_number": "LA3259",
+        "flight_number": "LA3719",
         "airline_name": "LATAM Airlines",
         "destination_iata": "BSB",
         "destination_airport_name": "Brasilia International Airport",
@@ -1518,15 +1309,59 @@
         "duration": "09:35"
     },
     {
+        "flight_number": "G32062",
+        "airline_name": "GOL Linhas Aereas",
+        "destination_iata": "CNF",
+        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
+        "destination_city": "Belo Horizonte",
+        "destination_country": "Brazil",
+        "local_departure_time": "22:45",
+        "local_arrival_time": "00:05 (+1)",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "LA751",
+        "airline_name": "LATAM Airlines",
+        "destination_iata": "SCL",
+        "destination_airport_name": "Santiago International Airport",
+        "destination_city": "Santiago",
+        "destination_country": "Chile",
+        "local_departure_time": "22:45",
+        "local_arrival_time": "03:05 (+1)",
+        "duration": "04:20"
+    },
+    {
+        "flight_number": "LA8164",
+        "airline_name": "LATAM Airlines",
+        "destination_iata": "BOS",
+        "destination_airport_name": "Boston Logan International Airport",
+        "destination_city": "Boston",
+        "destination_country": "United States",
+        "local_departure_time": "22:45",
+        "local_arrival_time": "07:35 (+1)",
+        "duration": "09:50"
+    },
+    {
         "flight_number": "LA8058",
         "airline_name": "LATAM Airlines",
         "destination_iata": "JNB",
         "destination_airport_name": "Johannesburg OR Tambo International Airport",
         "destination_city": "Johannesburg",
         "destination_country": "South Africa",
-        "local_departure_time": "22:45",
+        "local_departure_time": "22:45 / 22:55",
         "local_arrival_time": "12:15 (+1)",
-        "duration": "08:30"
+        "duration": "08:20"
+    },
+    {
+        "flight_number": "DL104",
+        "airline_name": "Delta Air Lines",
+        "destination_iata": "ATL",
+        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "United States",
+        "local_departure_time": "22:50",
+        "local_arrival_time": "07:35 (+1)",
+        "duration": "09:45"
     },
     {
         "flight_number": "LA8180",
@@ -1540,17 +1375,6 @@
         "duration": "09:45"
     },
     {
-        "flight_number": "DL104",
-        "airline_name": "Delta Air Lines",
-        "destination_iata": "ATL",
-        "destination_airport_name": "Atlanta Hartsfield-Jackson International Airport",
-        "destination_city": "Atlanta",
-        "destination_country": "United States",
-        "local_departure_time": "22:50",
-        "local_arrival_time": "07:30 (+1)",
-        "duration": "09:40"
-    },
-    {
         "flight_number": "LA8086",
         "airline_name": "LATAM Airlines",
         "destination_iata": "LAX",
@@ -1560,6 +1384,17 @@
         "local_departure_time": "22:50",
         "local_arrival_time": "07:00 (+1)",
         "duration": "12:10"
+    },
+    {
+        "flight_number": "LA3656",
+        "airline_name": "LATAM Airlines",
+        "destination_iata": "BSB",
+        "destination_airport_name": "Brasilia International Airport",
+        "destination_city": "Brasilia",
+        "destination_country": "Brazil",
+        "local_departure_time": "22:50 / 22:55",
+        "local_arrival_time": "00:30 (+1)",
+        "duration": "01:40"
     },
     {
         "flight_number": "LA714",
@@ -1579,31 +1414,9 @@
         "destination_airport_name": "Rio de Janeiro Galeao International Airport",
         "destination_city": "Rio de Janeiro",
         "destination_country": "Brazil",
-        "local_departure_time": "23:05",
-        "local_arrival_time": "00:05 (+1)",
-        "duration": "01:00"
-    },
-    {
-        "flight_number": "G32062",
-        "airline_name": "GOL Linhas Aereas",
-        "destination_iata": "CNF",
-        "destination_airport_name": "Belo Horizonte Tancredo Neves International Airport",
-        "destination_city": "Belo Horizonte",
-        "destination_country": "Brazil",
-        "local_departure_time": "23:05",
-        "local_arrival_time": "00:25 (+1)",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "LA8190",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "MIA",
-        "destination_airport_name": "Miami International Airport",
-        "destination_city": "Miami",
-        "destination_country": "United States",
-        "local_departure_time": "23:05",
-        "local_arrival_time": "06:20 (+1)",
-        "duration": "08:15"
+        "local_departure_time": "23:00 / 23:50",
+        "local_arrival_time": "00:05 (+1) / 00:50 (+1)",
+        "duration": "01:05"
     },
     {
         "flight_number": "AA906",
@@ -1617,25 +1430,36 @@
         "duration": "08:20"
     },
     {
-        "flight_number": "LA3656",
+        "flight_number": "LA8190",
         "airline_name": "LATAM Airlines",
-        "destination_iata": "BSB",
-        "destination_airport_name": "Brasilia International Airport",
-        "destination_city": "Brasilia",
-        "destination_country": "Brazil",
+        "destination_iata": "MIA",
+        "destination_airport_name": "Miami International Airport",
+        "destination_city": "Miami",
+        "destination_country": "United States",
         "local_departure_time": "23:25",
-        "local_arrival_time": "01:05 (+1)",
-        "duration": "01:40"
+        "local_arrival_time": "06:40 (+1)",
+        "duration": "08:15"
     },
     {
-        "flight_number": "LA8030",
+        "flight_number": "LA8070",
+        "airline_name": "LATAM Airlines",
+        "destination_iata": "FRA",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany",
+        "local_departure_time": "23:35 / 23:45",
+        "local_arrival_time": "16:25 (+1)",
+        "duration": "11:50"
+    },
+    {
+        "flight_number": "LA788",
         "airline_name": "LATAM Airlines",
         "destination_iata": "SCL",
         "destination_airport_name": "Santiago International Airport",
         "destination_city": "Santiago",
         "destination_country": "Chile",
         "local_departure_time": "23:40",
-        "local_arrival_time": "03:00 (+1)",
+        "local_arrival_time": "04:00 (+1)",
         "duration": "04:20"
     },
     {
@@ -1648,17 +1472,6 @@
         "local_departure_time": "23:45",
         "local_arrival_time": "03:50 (+1)",
         "duration": "06:05"
-    },
-    {
-        "flight_number": "LA8070",
-        "airline_name": "LATAM Airlines",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "23:45",
-        "local_arrival_time": "16:25 (+1)",
-        "duration": "11:40"
     },
     {
         "flight_number": "LA8084",

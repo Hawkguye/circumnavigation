@@ -12,7 +12,7 @@
     },
     {
         "flight_number": "GI4370",
-        "airline_name": "Air Central",
+        "airline_name": "Gridiron Air",
         "destination_iata": "NNG",
         "destination_airport_name": "Nanning Wuxu International Airport",
         "destination_city": "Nanning",
@@ -22,26 +22,37 @@
         "duration": "02:20"
     },
     {
+        "flight_number": "8M358",
+        "airline_name": "Myanmar Airways International",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "05:30 / 05:45",
+        "local_arrival_time": "07:20 / 07:35",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "8M354",
+        "airline_name": "Myanmar Airways International",
+        "destination_iata": "HKT",
+        "destination_airport_name": "Phuket International Airport",
+        "destination_city": "Phuket",
+        "destination_country": "Thailand",
+        "local_departure_time": "05:50",
+        "local_arrival_time": "08:05",
+        "duration": "01:45"
+    },
+    {
         "flight_number": "8M364",
         "airline_name": "Myanmar Airways International",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
         "destination_country": "Thailand",
-        "local_departure_time": "05:30 / 06:00",
+        "local_departure_time": "06:00",
         "local_arrival_time": "07:50",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "8M630",
-        "airline_name": "Myanmar Airways International",
-        "destination_iata": "MAA",
-        "destination_airport_name": "Chennai International Airport",
-        "destination_city": "Chennai",
-        "destination_country": "India",
-        "local_departure_time": "06:30",
-        "local_arrival_time": "08:45",
-        "duration": "03:15"
+        "duration": "01:20"
     },
     {
         "flight_number": "UB19",
@@ -77,17 +88,6 @@
         "duration": "05:45"
     },
     {
-        "flight_number": "8M507",
-        "airline_name": "Myanmar Airways International",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "07:00",
-        "local_arrival_time": "11:15",
-        "duration": "02:45"
-    },
-    {
         "flight_number": "8M620",
         "airline_name": "Myanmar Airways International",
         "destination_iata": "DEL",
@@ -97,17 +97,6 @@
         "local_departure_time": "07:20",
         "local_arrival_time": "10:00",
         "duration": "03:40"
-    },
-    {
-        "flight_number": "UB1",
-        "airline_name": "Myanmar National Airlines",
-        "destination_iata": "SIN",
-        "destination_airport_name": "Singapore Changi Airport",
-        "destination_city": "Singapore",
-        "destination_country": "Singapore",
-        "local_departure_time": "07:30",
-        "local_arrival_time": "12:00",
-        "duration": "03:00"
     },
     {
         "flight_number": "8M335",
@@ -133,7 +122,7 @@
     },
     {
         "flight_number": "FD252",
-        "airline_name": "AirAsia",
+        "airline_name": "Thai AirAsia",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -141,6 +130,17 @@
         "local_departure_time": "08:30",
         "local_arrival_time": "10:15",
         "duration": "01:15"
+    },
+    {
+        "flight_number": "8M711",
+        "airline_name": "Myanmar Airways International",
+        "destination_iata": "CAN",
+        "destination_airport_name": "Guangzhou Baiyun International Airport",
+        "destination_city": "Guangzhou",
+        "destination_country": "China",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "13:15",
+        "duration": "03:05"
     },
     {
         "flight_number": "8M100",
@@ -165,6 +165,28 @@
         "duration": "03:15"
     },
     {
+        "flight_number": "8M360",
+        "airline_name": "Myanmar Airways International",
+        "destination_iata": "DMK",
+        "destination_airport_name": "Bangkok Don Mueang International Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "10:30",
+        "local_arrival_time": "12:20",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "UB1",
+        "airline_name": "Myanmar National Airlines",
+        "destination_iata": "SIN",
+        "destination_airport_name": "Singapore Changi Airport",
+        "destination_city": "Singapore",
+        "destination_country": "Singapore",
+        "local_departure_time": "11:00",
+        "local_arrival_time": "15:30",
+        "duration": "03:00"
+    },
+    {
         "flight_number": "MH741",
         "airline_name": "Malaysia Airlines",
         "destination_iata": "KUL",
@@ -174,17 +196,6 @@
         "local_departure_time": "11:25",
         "local_arrival_time": "15:45",
         "duration": "02:50"
-    },
-    {
-        "flight_number": "TG302",
-        "airline_name": "Thai Airways",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "11:25",
-        "local_arrival_time": "13:25",
-        "duration": "01:30"
     },
     {
         "flight_number": "CZ3056",
@@ -198,6 +209,17 @@
         "duration": "03:20"
     },
     {
+        "flight_number": "TG302",
+        "airline_name": "Thai Airways",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "11:25",
+        "local_arrival_time": "13:25",
+        "duration": "01:30"
+    },
+    {
         "flight_number": "8M333",
         "airline_name": "Myanmar Airways International",
         "destination_iata": "BKK",
@@ -206,28 +228,6 @@
         "destination_country": "Thailand",
         "local_departure_time": "12:40",
         "local_arrival_time": "14:30",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "8M360",
-        "airline_name": "Myanmar Airways International",
-        "destination_iata": "DMK",
-        "destination_airport_name": "Bangkok Don Mueang International Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "15:50",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "8M352",
-        "airline_name": "Myanmar Airways International",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "14:40",
-        "local_arrival_time": "16:30",
         "duration": "01:20"
     },
     {
@@ -275,6 +275,17 @@
         "duration": "02:00"
     },
     {
+        "flight_number": "8M607",
+        "airline_name": "Myanmar Airways International",
+        "destination_iata": "CCU",
+        "destination_airport_name": "Kolkata Subhas Chandra Bose International Airport",
+        "destination_city": "Kolkata",
+        "destination_country": "India",
+        "local_departure_time": "16:45",
+        "local_arrival_time": "17:35",
+        "duration": "01:50"
+    },
+    {
         "flight_number": "8M350",
         "airline_name": "Myanmar Airways International",
         "destination_iata": "BKK",
@@ -284,6 +295,28 @@
         "local_departure_time": "18:00",
         "local_arrival_time": "19:50",
         "duration": "01:20"
+    },
+    {
+        "flight_number": "8M452",
+        "airline_name": "Myanmar Airways International",
+        "destination_iata": "SGN",
+        "destination_airport_name": "Ho Chi Minh City International Airport",
+        "destination_city": "Ho Chi Minh City",
+        "destination_country": "Vietnam",
+        "local_departure_time": "18:00",
+        "local_arrival_time": "21:00",
+        "duration": "02:30"
+    },
+    {
+        "flight_number": "UB17",
+        "airline_name": "Myanmar National Airlines",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "18:45",
+        "local_arrival_time": "20:40",
+        "duration": "01:25"
     },
     {
         "flight_number": "TG304",
@@ -308,25 +341,14 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "8M770",
-        "airline_name": "Myanmar Airways International",
-        "destination_iata": "KMG",
-        "destination_airport_name": "Kunming Changshui International Airport",
-        "destination_city": "Kunming",
-        "destination_country": "China",
-        "local_departure_time": "22:30",
-        "local_arrival_time": "02:05 (+1)",
-        "duration": "02:05"
-    },
-    {
         "flight_number": "8M390",
         "airline_name": "Myanmar Airways International",
         "destination_iata": "BKK",
         "destination_airport_name": "Bangkok Suvarnabhumi Airport",
         "destination_city": "Bangkok",
         "destination_country": "Thailand",
-        "local_departure_time": "23:30",
-        "local_arrival_time": "01:20 (+1)",
+        "local_departure_time": "23:35",
+        "local_arrival_time": "01:25 (+1)",
         "duration": "01:20"
     }
 ]

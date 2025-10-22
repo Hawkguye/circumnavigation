@@ -22,17 +22,6 @@
         "duration": "05:00"
     },
     {
-        "flight_number": "AI2288",
-        "airline_name": "Air India",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "00:30",
-        "local_arrival_time": "06:45",
-        "duration": "03:45"
-    },
-    {
         "flight_number": "J28206",
         "airline_name": "Azerbaijan Airlines",
         "destination_iata": "GYD",
@@ -42,17 +31,6 @@
         "local_departure_time": "00:30",
         "local_arrival_time": "04:25",
         "duration": "02:55"
-    },
-    {
-        "flight_number": "XY407",
-        "airline_name": "flynas",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "00:40",
-        "local_arrival_time": "02:50",
-        "duration": "02:10"
     },
     {
         "flight_number": "6E82",
@@ -77,14 +55,25 @@
         "duration": "02:15"
     },
     {
+        "flight_number": "XY407",
+        "airline_name": "flynas",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "01:00",
+        "local_arrival_time": "03:10",
+        "duration": "02:10"
+    },
+    {
         "flight_number": "SV1161",
         "airline_name": "Saudia",
         "destination_iata": "RUH",
         "destination_airport_name": "Riyadh King Khalid International Airport",
         "destination_city": "Riyadh",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "01:00",
-        "local_arrival_time": "02:15",
+        "local_departure_time": "01:00 / 01:40",
+        "local_arrival_time": "02:15 / 02:55",
         "duration": "01:15"
     },
     {
@@ -94,20 +83,9 @@
         "destination_airport_name": "Delhi Indira Gandhi International Airport",
         "destination_city": "Delhi",
         "destination_country": "India",
-        "local_departure_time": "01:05",
+        "local_departure_time": "01:20",
         "local_arrival_time": "07:55",
-        "duration": "04:20"
-    },
-    {
-        "flight_number": "PK242",
-        "airline_name": "Pakistan International Airlines",
-        "destination_iata": "KHI",
-        "destination_airport_name": "Karachi Jinnah International Airport",
-        "destination_city": "Karachi",
-        "destination_country": "Pakistan",
-        "local_departure_time": "01:15",
-        "local_arrival_time": "06:10",
-        "duration": "02:55"
+        "duration": "04:05"
     },
     {
         "flight_number": "SM434",
@@ -154,15 +132,15 @@
         "duration": "04:35"
     },
     {
-        "flight_number": "PF743",
-        "airline_name": "AirSial",
+        "flight_number": "PK248",
+        "airline_name": "Pakistan International Airlines",
         "destination_iata": "LHE",
         "destination_airport_name": "Lahore Allama Iqbal International Airport",
         "destination_city": "Lahore",
         "destination_country": "Pakistan",
-        "local_departure_time": "01:50",
-        "local_arrival_time": "07:30",
-        "duration": "03:40"
+        "local_departure_time": "01:45",
+        "local_arrival_time": "07:10",
+        "duration": "03:25"
     },
     {
         "flight_number": "PF747",
@@ -176,15 +154,26 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "XY413",
-        "airline_name": "flynas",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "01:55",
-        "local_arrival_time": "04:05",
-        "duration": "02:10"
+        "flight_number": "PF743",
+        "airline_name": "AirSial",
+        "destination_iata": "LHE",
+        "destination_airport_name": "Lahore Allama Iqbal International Airport",
+        "destination_city": "Lahore",
+        "destination_country": "Pakistan",
+        "local_departure_time": "01:50",
+        "local_arrival_time": "07:30",
+        "duration": "03:40"
+    },
+    {
+        "flight_number": "RA242",
+        "airline_name": "Nepal Airlines",
+        "destination_iata": "KTM",
+        "destination_airport_name": "Kathmandu Tribhuvan International Airport",
+        "destination_city": "Kathmandu",
+        "destination_country": "Nepal",
+        "local_departure_time": "02:00",
+        "local_arrival_time": "09:35",
+        "duration": "04:50"
     },
     {
         "flight_number": "F3324",
@@ -198,6 +187,28 @@
         "duration": "02:10"
     },
     {
+        "flight_number": "XY413",
+        "airline_name": "flynas",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "02:15",
+        "local_arrival_time": "04:25",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "KL423",
+        "airline_name": "KLM",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "02:25",
+        "local_arrival_time": "08:05",
+        "duration": "06:40"
+    },
+    {
         "flight_number": "KL425",
         "airline_name": "KLM",
         "destination_iata": "AMS",
@@ -207,6 +218,17 @@
         "local_departure_time": "02:25",
         "local_arrival_time": "08:05",
         "duration": "06:40"
+    },
+    {
+        "flight_number": "QR8721",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "02:35",
+        "local_arrival_time": "03:35",
+        "duration": "01:00"
     },
     {
         "flight_number": "ET423",
@@ -220,17 +242,6 @@
         "duration": "04:10"
     },
     {
-        "flight_number": "F3322",
-        "airline_name": "flyadeal",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "02:55",
-        "local_arrival_time": "05:05",
-        "duration": "02:10"
-    },
-    {
         "flight_number": "VF138",
         "airline_name": "AJet",
         "destination_iata": "SAW",
@@ -240,6 +251,17 @@
         "local_departure_time": "02:55",
         "local_arrival_time": "07:00",
         "duration": "04:05"
+    },
+    {
+        "flight_number": "F3322",
+        "airline_name": "flyadeal",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "02:55",
+        "local_arrival_time": "05:05",
+        "duration": "02:10"
     },
     {
         "flight_number": "PC613",
@@ -275,15 +297,15 @@
         "duration": "09:15"
     },
     {
-        "flight_number": "SV976",
-        "airline_name": "Saudia",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "03:45",
-        "local_arrival_time": "16:40",
-        "duration": "07:55"
+        "flight_number": "AI2288",
+        "airline_name": "Air India",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "03:50",
+        "local_arrival_time": "10:05",
+        "duration": "03:45"
     },
     {
         "flight_number": "SV1127",
@@ -317,6 +339,17 @@
         "local_departure_time": "04:15",
         "local_arrival_time": "06:40",
         "duration": "01:25"
+    },
+    {
+        "flight_number": "EY576",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "04:15",
+        "local_arrival_time": "06:35",
+        "duration": "01:20"
     },
     {
         "flight_number": "G9168",
@@ -392,19 +425,8 @@
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
         "local_departure_time": "06:10",
-        "local_arrival_time": "10:30",
-        "duration": "04:20"
-    },
-    {
-        "flight_number": "MS698",
-        "airline_name": "Egyptair",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "06:55",
-        "local_arrival_time": "09:50",
-        "duration": "02:55"
+        "local_arrival_time": "10:20",
+        "duration": "04:10"
     },
     {
         "flight_number": "SV1133",
@@ -414,8 +436,8 @@
         "destination_city": "Riyadh",
         "destination_country": "Saudi Arabia",
         "local_departure_time": "07:00",
-        "local_arrival_time": "08:10",
-        "duration": "01:10"
+        "local_arrival_time": "08:15",
+        "duration": "01:15"
     },
     {
         "flight_number": "F3172",
@@ -440,15 +462,15 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "F3308",
-        "airline_name": "flyadeal",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "07:10",
-        "local_arrival_time": "09:20",
-        "duration": "02:10"
+        "flight_number": "XY854",
+        "airline_name": "flynas",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "10:30",
+        "duration": "03:00"
     },
     {
         "flight_number": "GF102",
@@ -460,17 +482,6 @@
         "local_departure_time": "07:40",
         "local_arrival_time": "08:20",
         "duration": "00:40"
-    },
-    {
-        "flight_number": "XY889",
-        "airline_name": "flynas",
-        "destination_iata": "GYD",
-        "destination_airport_name": "Baku Heydar Aliyev International Airport",
-        "destination_city": "Baku",
-        "destination_country": "Azerbaijan",
-        "local_departure_time": "07:45",
-        "local_arrival_time": "11:35",
-        "duration": "02:50"
     },
     {
         "flight_number": "6E54",
@@ -495,6 +506,17 @@
         "duration": "02:05"
     },
     {
+        "flight_number": "FZ884",
+        "airline_name": "flydubai",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "09:00",
+        "local_arrival_time": "11:25",
+        "duration": "01:25"
+    },
+    {
         "flight_number": "SV1139",
         "airline_name": "Saudia",
         "destination_iata": "RUH",
@@ -503,17 +525,6 @@
         "destination_country": "Saudi Arabia",
         "local_departure_time": "09:00",
         "local_arrival_time": "10:15",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "FZ884",
-        "airline_name": "flydubai",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "11:15",
         "duration": "01:15"
     },
     {
@@ -550,14 +561,25 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "9P571",
+        "airline_name": "Fly Jinnah",
+        "destination_iata": "LHE",
+        "destination_airport_name": "Lahore Allama Iqbal International Airport",
+        "destination_city": "Lahore",
+        "destination_country": "Pakistan",
+        "local_departure_time": "09:40",
+        "local_arrival_time": "15:15",
+        "duration": "03:35"
+    },
+    {
         "flight_number": "XY403",
         "airline_name": "flynas",
         "destination_iata": "JED",
         "destination_airport_name": "Jeddah King Abdulaziz International Airport",
         "destination_city": "Jeddah",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "09:35",
-        "local_arrival_time": "11:45",
+        "local_departure_time": "09:50",
+        "local_arrival_time": "12:00",
         "duration": "02:10"
     },
     {
@@ -572,17 +594,6 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "QR8721",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "10:25",
-        "local_arrival_time": "11:25",
-        "duration": "01:00"
-    },
-    {
         "flight_number": "EY578",
         "airline_name": "Etihad Airways",
         "destination_iata": "AUH",
@@ -592,28 +603,6 @@
         "local_departure_time": "10:35",
         "local_arrival_time": "12:55",
         "duration": "01:20"
-    },
-    {
-        "flight_number": "SM440",
-        "airline_name": "Air Cairo",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "10:35",
-        "local_arrival_time": "13:35",
-        "duration": "03:00"
-    },
-    {
-        "flight_number": "6E56",
-        "airline_name": "IndiGo",
-        "destination_iata": "COK",
-        "destination_airport_name": "Cochin International Airport",
-        "destination_city": "Cochin",
-        "destination_country": "India",
-        "local_departure_time": "10:35",
-        "local_arrival_time": "17:50",
-        "duration": "04:45"
     },
     {
         "flight_number": "F3304",
@@ -649,6 +638,17 @@
         "duration": "01:15"
     },
     {
+        "flight_number": "OV212",
+        "airline_name": "SalamAir",
+        "destination_iata": "MCT",
+        "destination_airport_name": "Muscat International Airport",
+        "destination_city": "Muscat",
+        "destination_country": "Oman",
+        "local_departure_time": "11:10",
+        "local_arrival_time": "13:55",
+        "duration": "01:45"
+    },
+    {
         "flight_number": "GF104",
         "airline_name": "Gulf Air",
         "destination_iata": "BAH",
@@ -658,28 +658,6 @@
         "local_departure_time": "11:15",
         "local_arrival_time": "11:55",
         "duration": "00:40"
-    },
-    {
-        "flight_number": "IX482",
-        "airline_name": "Air India Express",
-        "destination_iata": "COK",
-        "destination_airport_name": "Cochin International Airport",
-        "destination_city": "Cochin",
-        "destination_country": "India",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "19:05",
-        "duration": "04:35"
-    },
-    {
-        "flight_number": "SV1109",
-        "airline_name": "Saudia",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "14:15",
-        "duration": "02:15"
     },
     {
         "flight_number": "PF747",
@@ -693,15 +671,26 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "IX572",
-        "airline_name": "Air India Express",
-        "destination_iata": "TRV",
-        "destination_airport_name": "Thiruvananthapuram International Airport",
-        "destination_city": "Thiruvananthapuram",
-        "destination_country": "India",
-        "local_departure_time": "12:35",
-        "local_arrival_time": "20:05",
-        "duration": "05:00"
+        "flight_number": "SV1109",
+        "airline_name": "Saudia",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "14:15",
+        "duration": "02:15"
+    },
+    {
+        "flight_number": "F3308",
+        "airline_name": "flyadeal",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "12:15",
+        "local_arrival_time": "14:25",
+        "duration": "02:10"
     },
     {
         "flight_number": "MS682",
@@ -715,6 +704,17 @@
         "duration": "02:55"
     },
     {
+        "flight_number": "XY71",
+        "airline_name": "flynas",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "12:45",
+        "local_arrival_time": "13:50",
+        "duration": "01:05"
+    },
+    {
         "flight_number": "XY419",
         "airline_name": "flynas",
         "destination_iata": "JED",
@@ -724,17 +724,6 @@
         "local_departure_time": "12:45",
         "local_arrival_time": "14:55",
         "duration": "02:10"
-    },
-    {
-        "flight_number": "F3463",
-        "airline_name": "flyadeal",
-        "destination_iata": "MED",
-        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
-        "destination_city": "Medina",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "12:55",
-        "local_arrival_time": "14:55",
-        "duration": "02:00"
     },
     {
         "flight_number": "SV1143",
@@ -757,6 +746,17 @@
         "local_departure_time": "13:00",
         "local_arrival_time": "15:20",
         "duration": "01:20"
+    },
+    {
+        "flight_number": "KU744",
+        "airline_name": "Kuwait Airways",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "13:55",
+        "local_arrival_time": "15:00",
+        "duration": "01:05"
     },
     {
         "flight_number": "SV1113",
@@ -792,6 +792,17 @@
         "duration": "01:15"
     },
     {
+        "flight_number": "F3463",
+        "airline_name": "flyadeal",
+        "destination_iata": "MED",
+        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
+        "destination_city": "Medina",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "15:15",
+        "local_arrival_time": "17:15",
+        "duration": "02:00"
+    },
+    {
         "flight_number": "FZ864",
         "airline_name": "flydubai",
         "destination_iata": "DXB",
@@ -803,14 +814,25 @@
         "duration": "01:20"
     },
     {
+        "flight_number": "XY705",
+        "airline_name": "flynas",
+        "destination_iata": "MED",
+        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
+        "destination_city": "Medina",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "15:25",
+        "local_arrival_time": "17:25",
+        "duration": "02:00"
+    },
+    {
         "flight_number": "XY405",
         "airline_name": "flynas",
         "destination_iata": "JED",
         "destination_airport_name": "Jeddah King Abdulaziz International Airport",
         "destination_city": "Jeddah",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "15:30 / 15:35",
-        "local_arrival_time": "17:40 / 17:45",
+        "local_departure_time": "15:35",
+        "local_arrival_time": "17:45",
         "duration": "02:10"
     },
     {
@@ -836,26 +858,15 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "WY694",
-        "airline_name": "Oman Air",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "16:05",
-        "local_arrival_time": "18:50",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "XY877",
-        "airline_name": "flynas",
-        "destination_iata": "TBS",
-        "destination_airport_name": "Tbilisi International Airport",
-        "destination_city": "Tbilisi",
-        "destination_country": "Georgia",
-        "local_departure_time": "16:45",
-        "local_arrival_time": "20:55",
-        "duration": "03:10"
+        "flight_number": "EY572",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "16:35",
+        "local_arrival_time": "18:55",
+        "duration": "01:20"
     },
     {
         "flight_number": "QR1153",
@@ -924,25 +935,14 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "OV214",
-        "airline_name": "SalamAir",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "20:45",
-        "duration": "01:45"
-    },
-    {
         "flight_number": "GF110",
         "airline_name": "Gulf Air",
         "destination_iata": "BAH",
         "destination_airport_name": "Bahrain International Airport",
         "destination_city": "Bahrain",
         "destination_country": "Bahrain",
-        "local_departure_time": "18:55 / 19:15",
-        "local_arrival_time": "19:30 / 19:50",
+        "local_departure_time": "18:55",
+        "local_arrival_time": "19:30",
         "duration": "00:35"
     },
     {
@@ -990,17 +990,6 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "F3463",
-        "airline_name": "flyadeal",
-        "destination_iata": "MED",
-        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
-        "destination_city": "Medina",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "19:35",
-        "local_arrival_time": "21:35",
-        "duration": "02:00"
-    },
-    {
         "flight_number": "XY75",
         "airline_name": "flynas",
         "destination_iata": "RUH",
@@ -1034,17 +1023,6 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "IX696",
-        "airline_name": "Air India Express",
-        "destination_iata": "MAA",
-        "destination_airport_name": "Chennai International Airport",
-        "destination_city": "Chennai",
-        "destination_country": "India",
-        "local_departure_time": "20:20",
-        "local_arrival_time": "03:50 (+1)",
-        "duration": "05:00"
-    },
-    {
         "flight_number": "IX484",
         "airline_name": "Air India Express",
         "destination_iata": "BLR",
@@ -1067,15 +1045,15 @@
         "duration": "02:40"
     },
     {
-        "flight_number": "XY883",
-        "airline_name": "flynas",
-        "destination_iata": "LHE",
-        "destination_airport_name": "Lahore Allama Iqbal International Airport",
-        "destination_city": "Lahore",
-        "destination_country": "Pakistan",
-        "local_departure_time": "20:40",
-        "local_arrival_time": "02:20 (+1)",
-        "duration": "03:40"
+        "flight_number": "MS688",
+        "airline_name": "Egyptair",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "20:50",
+        "local_arrival_time": "23:45",
+        "duration": "02:55"
     },
     {
         "flight_number": "F3465",
@@ -1087,17 +1065,6 @@
         "local_departure_time": "20:50",
         "local_arrival_time": "22:55",
         "duration": "02:05"
-    },
-    {
-        "flight_number": "MS688",
-        "airline_name": "Egyptair",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "20:50 / 20:55",
-        "local_arrival_time": "23:45 / 23:50",
-        "duration": "02:55"
     },
     {
         "flight_number": "ME443",
@@ -1133,6 +1100,17 @@
         "duration": "02:35"
     },
     {
+        "flight_number": "XY701",
+        "airline_name": "flynas",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "21:00",
+        "local_arrival_time": "22:05",
+        "duration": "01:05"
+    },
+    {
         "flight_number": "XY411",
         "airline_name": "flynas",
         "destination_iata": "JED",
@@ -1155,6 +1133,17 @@
         "duration": "02:10"
     },
     {
+        "flight_number": "IX572",
+        "airline_name": "Air India Express",
+        "destination_iata": "TRV",
+        "destination_airport_name": "Thiruvananthapuram International Airport",
+        "destination_city": "Thiruvananthapuram",
+        "destination_country": "India",
+        "local_departure_time": "21:35",
+        "local_arrival_time": "05:05 (+1)",
+        "duration": "05:00"
+    },
+    {
         "flight_number": "WY696",
         "airline_name": "Oman Air",
         "destination_iata": "MCT",
@@ -1164,17 +1153,6 @@
         "local_departure_time": "21:35",
         "local_arrival_time": "00:20 (+1)",
         "duration": "01:45"
-    },
-    {
-        "flight_number": "IX576",
-        "airline_name": "Air India Express",
-        "destination_iata": "TRV",
-        "destination_airport_name": "Thiruvananthapuram International Airport",
-        "destination_city": "Thiruvananthapuram",
-        "destination_country": "India",
-        "local_departure_time": "21:35",
-        "local_arrival_time": "05:05 (+1)",
-        "duration": "05:00"
     },
     {
         "flight_number": "SV1129",
@@ -1210,6 +1188,17 @@
         "duration": "05:10"
     },
     {
+        "flight_number": "PK248",
+        "airline_name": "Pakistan International Airlines",
+        "destination_iata": "LHE",
+        "destination_airport_name": "Lahore Allama Iqbal International Airport",
+        "destination_city": "Lahore",
+        "destination_country": "Pakistan",
+        "local_departure_time": "22:15",
+        "local_arrival_time": "03:40 (+1)",
+        "duration": "03:25"
+    },
+    {
         "flight_number": "QR1155",
         "airline_name": "Qatar Airways",
         "destination_iata": "DOH",
@@ -1243,6 +1232,17 @@
         "duration": "01:15"
     },
     {
+        "flight_number": "XY422",
+        "airline_name": "flynas",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "22:45 / 23:05",
+        "local_arrival_time": "00:55 (+1) / 01:15 (+1)",
+        "duration": "02:10"
+    },
+    {
         "flight_number": "NP132",
         "airline_name": "Nile Air",
         "destination_iata": "CAI",
@@ -1254,17 +1254,6 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "PK248",
-        "airline_name": "Pakistan International Airlines",
-        "destination_iata": "LHE",
-        "destination_airport_name": "Lahore Allama Iqbal International Airport",
-        "destination_city": "Lahore",
-        "destination_country": "Pakistan",
-        "local_departure_time": "23:00",
-        "local_arrival_time": "04:35 (+1)",
-        "duration": "03:35"
-    },
-    {
         "flight_number": "SV1169",
         "airline_name": "Saudia",
         "destination_iata": "RUH",
@@ -1274,17 +1263,6 @@
         "local_departure_time": "23:00",
         "local_arrival_time": "00:15 (+1)",
         "duration": "01:15"
-    },
-    {
-        "flight_number": "NP232",
-        "airline_name": "Nile Air",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "23:00",
-        "local_arrival_time": "02:00 (+1)",
-        "duration": "03:00"
     },
     {
         "flight_number": "XY703",
@@ -1331,15 +1309,26 @@
         "duration": "00:40"
     },
     {
-        "flight_number": "5W7034",
-        "airline_name": "Wizz Air Abu Dhabi",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "23:50",
-        "local_arrival_time": "02:15 (+1)",
-        "duration": "01:25"
+        "flight_number": "NP232",
+        "airline_name": "Nile Air",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "23:40",
+        "local_arrival_time": "02:40 (+1)",
+        "duration": "03:00"
+    },
+    {
+        "flight_number": "PK246",
+        "airline_name": "Pakistan International Airlines",
+        "destination_iata": "ISB",
+        "destination_airport_name": "Islamabad International Airport",
+        "destination_city": "Islamabad",
+        "destination_country": "Pakistan",
+        "local_departure_time": "23:45",
+        "local_arrival_time": "05:10 (+1)",
+        "duration": "03:25"
     },
     {
         "flight_number": "LH623",

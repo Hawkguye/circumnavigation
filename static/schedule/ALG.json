@@ -1,5 +1,16 @@
 [
     {
+        "flight_number": "MS892",
+        "airline_name": "Egyptair",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "00:20",
+        "local_arrival_time": "06:00",
+        "duration": "03:40"
+    },
+    {
         "flight_number": "TK656",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
@@ -9,17 +20,6 @@
         "local_departure_time": "00:30",
         "local_arrival_time": "05:55",
         "duration": "03:25"
-    },
-    {
-        "flight_number": "MS892",
-        "airline_name": "Egyptair",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "00:45",
-        "local_arrival_time": "06:25",
-        "duration": "03:40"
     },
     {
         "flight_number": "AH4078",
@@ -44,30 +44,19 @@
         "duration": "02:40"
     },
     {
-        "flight_number": "TK6333",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "ZRH",
-        "destination_airport_name": "Zurich Airport",
-        "destination_city": "Zurich",
-        "destination_country": "Switzerland",
-        "local_departure_time": "03:45",
-        "local_arrival_time": "07:15",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "AZ803",
-        "airline_name": "ITA Airways",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "04:25",
-        "local_arrival_time": "07:10",
-        "duration": "01:45"
+        "flight_number": "RJ518",
+        "airline_name": "Royal Jordanian",
+        "destination_iata": "AMM",
+        "destination_airport_name": "Amman Queen Alia International Airport",
+        "destination_city": "Amman",
+        "destination_country": "Jordan",
+        "local_departure_time": "05:40",
+        "local_arrival_time": "12:30",
+        "duration": "04:50"
     },
     {
         "flight_number": "TO7271",
-        "airline_name": "Transavia France",
+        "airline_name": "Transavia",
         "destination_iata": "ORY",
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
@@ -100,7 +89,7 @@
     },
     {
         "flight_number": "AH1002",
-        "airline_name": "Air Algerie",
+        "airline_name": "Amelia",
         "destination_iata": "CDG",
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
@@ -108,28 +97,6 @@
         "local_departure_time": "07:15",
         "local_arrival_time": "10:45",
         "duration": "02:30"
-    },
-    {
-        "flight_number": "AH3000",
-        "airline_name": "Air Algerie",
-        "destination_iata": "SVO",
-        "destination_airport_name": "Moscow Sheremetyevo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "07:25",
-        "local_arrival_time": "14:35",
-        "duration": "05:10"
-    },
-    {
-        "flight_number": "TO7323",
-        "airline_name": "Transavia France",
-        "destination_iata": "MRS",
-        "destination_airport_name": "Marseille Provence Airport",
-        "destination_city": "Marseille",
-        "destination_country": "France",
-        "local_departure_time": "07:40",
-        "local_arrival_time": "10:10",
-        "duration": "01:30"
     },
     {
         "flight_number": "AH1022",
@@ -144,7 +111,7 @@
     },
     {
         "flight_number": "SF3000",
-        "airline_name": "Tassili Airlines",
+        "airline_name": "Domestic Airlines",
         "destination_iata": "CDG",
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
@@ -154,15 +121,26 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "VY3751",
-        "airline_name": "Vueling",
-        "destination_iata": "ALC",
-        "destination_airport_name": "Alicante Airport",
-        "destination_city": "Alicante",
-        "destination_country": "Spain",
+        "flight_number": "V72439",
+        "airline_name": "Volotea",
+        "destination_iata": "BOD",
+        "destination_airport_name": "Bordeaux Merignac Airport",
+        "destination_city": "Bordeaux",
+        "destination_country": "France",
         "local_departure_time": "08:10",
-        "local_arrival_time": "10:15",
-        "duration": "01:05"
+        "local_arrival_time": "11:05",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "AH4016",
+        "airline_name": "Air Algerie",
+        "destination_iata": "BEY",
+        "destination_airport_name": "Beirut Rafic Hariri International Airport",
+        "destination_city": "Beirut",
+        "destination_country": "Lebanon",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "14:20",
+        "duration": "03:50"
     },
     {
         "flight_number": "AH4038",
@@ -176,19 +154,30 @@
         "duration": "03:45"
     },
     {
-        "flight_number": "AH2200",
+        "flight_number": "TO7261",
+        "airline_name": "Transavia France",
+        "destination_iata": "ORY",
+        "destination_airport_name": "Paris Orly Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "08:35",
+        "local_arrival_time": "12:05",
+        "duration": "02:30"
+    },
+    {
+        "flight_number": "AH1040",
         "airline_name": "Air Algerie",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
+        "destination_iata": "NCE",
+        "destination_airport_name": "Nice Cote d'Azur Airport",
+        "destination_city": "Nice",
+        "destination_country": "France",
         "local_departure_time": "09:00",
         "local_arrival_time": "11:40",
         "duration": "01:40"
     },
     {
         "flight_number": "AH1010",
-        "airline_name": "Air Algerie",
+        "airline_name": "Fly2Sky",
         "destination_iata": "ORY",
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
@@ -198,26 +187,15 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "TO7339",
-        "airline_name": "Transavia France",
-        "destination_iata": "TLS",
-        "destination_airport_name": "Toulouse Blagnac Airport",
-        "destination_city": "Toulouse",
-        "destination_country": "France",
-        "local_departure_time": "09:15",
-        "local_arrival_time": "11:50",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "TO7261",
-        "airline_name": "Transavia France",
-        "destination_iata": "ORY",
-        "destination_airport_name": "Paris Orly Airport",
+        "flight_number": "AF1555",
+        "airline_name": "Air France",
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "09:25",
-        "local_arrival_time": "12:55",
-        "duration": "02:30"
+        "local_departure_time": "09:30",
+        "local_arrival_time": "13:05",
+        "duration": "02:35"
     },
     {
         "flight_number": "AH1036",
@@ -242,26 +220,37 @@
         "duration": "03:35"
     },
     {
-        "flight_number": "AH2062",
-        "airline_name": "Air Algerie",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
-        "local_departure_time": "10:05",
-        "local_arrival_time": "13:50",
-        "duration": "02:45"
+        "flight_number": "TO7323",
+        "airline_name": "Transavia France",
+        "destination_iata": "MRS",
+        "destination_airport_name": "Marseille Provence Airport",
+        "destination_city": "Marseille",
+        "destination_country": "France",
+        "local_departure_time": "09:40",
+        "local_arrival_time": "12:10",
+        "duration": "01:30"
     },
     {
-        "flight_number": "AH2070",
+        "flight_number": "AH2006",
         "airline_name": "Air Algerie",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "10:15",
-        "local_arrival_time": "14:15",
-        "duration": "03:00"
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
+        "local_departure_time": "09:45",
+        "local_arrival_time": "12:30",
+        "duration": "01:45"
+    },
+    {
+        "flight_number": "VY6153",
+        "airline_name": "Vueling",
+        "destination_iata": "BCN",
+        "destination_airport_name": "Barcelona El Prat Airport",
+        "destination_city": "Barcelona",
+        "destination_country": "Spain",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "12:20",
+        "duration": "01:20"
     },
     {
         "flight_number": "AH2700",
@@ -275,10 +264,10 @@
         "duration": "08:55"
     },
     {
-        "flight_number": "AH2054",
+        "flight_number": "AH2056",
         "airline_name": "Air Algerie",
-        "destination_iata": "LHR",
-        "destination_airport_name": "London Heathrow Airport",
+        "destination_iata": "STN",
+        "destination_airport_name": "London Stansted Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
         "local_departure_time": "10:20",
@@ -297,36 +286,14 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "AH2026",
+        "flight_number": "AH2024",
         "airline_name": "Air Algerie",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
+        "destination_iata": "FCO",
+        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
+        "destination_city": "Rome",
         "destination_country": "Italy",
         "local_departure_time": "10:30",
         "local_arrival_time": "13:30",
-        "duration": "02:00"
-    },
-    {
-        "flight_number": "AF1555",
-        "airline_name": "Air France",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "10:45",
-        "local_arrival_time": "14:20",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "SF3010",
-        "airline_name": "Tassili Airlines",
-        "destination_iata": "LYS",
-        "destination_airport_name": "Lyon Saint Exupery Airport",
-        "destination_city": "Lyon",
-        "destination_country": "France",
-        "local_departure_time": "11:00",
-        "local_arrival_time": "14:00",
         "duration": "02:00"
     },
     {
@@ -347,20 +314,20 @@
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "11:40",
-        "local_arrival_time": "15:10",
+        "local_departure_time": "11:35",
+        "local_arrival_time": "15:05",
         "duration": "02:30"
     },
     {
-        "flight_number": "AH2004",
+        "flight_number": "AH2046",
         "airline_name": "Air Algerie",
-        "destination_iata": "ALC",
-        "destination_airport_name": "Alicante Airport",
-        "destination_city": "Alicante",
-        "destination_country": "Spain",
+        "destination_iata": "GVA",
+        "destination_airport_name": "Geneva International Airport",
+        "destination_city": "Geneva",
+        "destination_country": "Switzerland",
         "local_departure_time": "11:45",
-        "local_arrival_time": "13:45",
-        "duration": "01:00"
+        "local_arrival_time": "14:45",
+        "duration": "02:00"
     },
     {
         "flight_number": "AH1004",
@@ -374,26 +341,15 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "AH1304",
+        "flight_number": "AH2004",
         "airline_name": "Air Algerie",
-        "destination_iata": "ORY",
-        "destination_airport_name": "Paris Orly Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "12:10",
-        "local_arrival_time": "15:16",
-        "duration": "02:06"
-    },
-    {
-        "flight_number": "VF274",
-        "airline_name": "AJet",
-        "destination_iata": "SAW",
-        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "12:20",
-        "local_arrival_time": "17:40",
-        "duration": "03:20"
+        "destination_iata": "ALC",
+        "destination_airport_name": "Alicante Airport",
+        "destination_city": "Alicante",
+        "destination_country": "Spain",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "14:00",
+        "duration": "01:00"
     },
     {
         "flight_number": "AH3060",
@@ -407,17 +363,6 @@
         "duration": "11:45"
     },
     {
-        "flight_number": "LH1317",
-        "airline_name": "Lufthansa",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "12:25",
-        "local_arrival_time": "16:05",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "MS846",
         "airline_name": "Egyptair",
         "destination_iata": "CAI",
@@ -429,7 +374,7 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "AH1232",
+        "flight_number": "AH1214",
         "airline_name": "Air Algerie",
         "destination_iata": "CDG",
         "destination_airport_name": "Paris Charles de Gaulle Airport",
@@ -440,59 +385,15 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "AH1214",
-        "airline_name": "Air Algerie",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "13:15 / 14:15",
-        "local_arrival_time": "16:45 / 17:45",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "AH2000",
-        "airline_name": "Air Algerie",
-        "destination_iata": "PMI",
-        "destination_airport_name": "Palma de Mallorca Airport",
-        "destination_city": "Palma de Mallorca",
-        "destination_country": "Spain",
-        "local_departure_time": "13:20",
-        "local_arrival_time": "15:05",
-        "duration": "00:45"
-    },
-    {
         "flight_number": "AH1020",
         "airline_name": "Air Algerie",
         "destination_iata": "MRS",
         "destination_airport_name": "Marseille Provence Airport",
         "destination_city": "Marseille",
         "destination_country": "France",
-        "local_departure_time": "13:25",
-        "local_arrival_time": "15:55",
+        "local_departure_time": "13:20",
+        "local_arrival_time": "15:50",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "AH3012",
-        "airline_name": "Air Algerie",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "13:45",
-        "local_arrival_time": "19:20",
-        "duration": "03:35"
-    },
-    {
-        "flight_number": "TO7309",
-        "airline_name": "Transavia",
-        "destination_iata": "LYS",
-        "destination_airport_name": "Lyon Saint Exupery Airport",
-        "destination_city": "Lyon",
-        "destination_country": "France",
-        "local_departure_time": "13:45 / 14:15",
-        "local_arrival_time": "16:40 / 17:10",
-        "duration": "01:55"
     },
     {
         "flight_number": "AF1855",
@@ -506,70 +407,37 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "PC751",
-        "airline_name": "Pegasus",
-        "destination_iata": "SAW",
-        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "14:05",
-        "local_arrival_time": "19:45",
-        "duration": "03:40"
-    },
-    {
         "flight_number": "AH1044",
         "airline_name": "Air Algerie",
         "destination_iata": "TLS",
         "destination_airport_name": "Toulouse Blagnac Airport",
         "destination_city": "Toulouse",
         "destination_country": "France",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "17:10",
+        "local_departure_time": "14:15",
+        "local_arrival_time": "16:55",
         "duration": "01:40"
     },
     {
-        "flight_number": "AC71",
-        "airline_name": "Air Canada",
-        "destination_iata": "YUL",
-        "destination_airport_name": "Montreal Pierre Elliott Trudeau Airport",
-        "destination_city": "Montreal",
-        "destination_country": "Canada",
-        "local_departure_time": "14:50",
-        "local_arrival_time": "18:50",
-        "duration": "09:00"
-    },
-    {
-        "flight_number": "TU375",
-        "airline_name": "Tunisair",
+        "flight_number": "BJ131",
+        "airline_name": "Nouvelair",
         "destination_iata": "TUN",
         "destination_airport_name": "Tunis Carthage International Airport",
         "destination_city": "Tunis",
         "destination_country": "Tunisia",
+        "local_departure_time": "14:55",
+        "local_arrival_time": "16:20",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "TO7339",
+        "airline_name": "Transavia France",
+        "destination_iata": "TLS",
+        "destination_airport_name": "Toulouse Blagnac Airport",
+        "destination_city": "Toulouse",
+        "destination_country": "France",
         "local_departure_time": "15:00",
-        "local_arrival_time": "16:10",
-        "duration": "01:10"
-    },
-    {
-        "flight_number": "VY6151",
-        "airline_name": "Vueling",
-        "destination_iata": "BCN",
-        "destination_airport_name": "Barcelona El Prat Airport",
-        "destination_city": "Barcelona",
-        "destination_country": "Spain",
-        "local_departure_time": "15:10",
-        "local_arrival_time": "17:30",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "AH3004",
-        "airline_name": "Air Algerie",
-        "destination_iata": "LIS",
-        "destination_airport_name": "Lisbon Humberto Delgado Airport",
-        "destination_city": "Lisbon",
-        "destination_country": "Portugal",
-        "local_departure_time": "15:10",
-        "local_arrival_time": "17:15",
-        "duration": "02:05"
+        "local_arrival_time": "17:35",
+        "duration": "01:35"
     },
     {
         "flight_number": "QR1380",
@@ -579,23 +447,12 @@
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "15:15",
-        "local_arrival_time": "23:25",
-        "duration": "06:10"
-    },
-    {
-        "flight_number": "AH1040",
-        "airline_name": "Air Algerie",
-        "destination_iata": "NCE",
-        "destination_airport_name": "Nice Cote d'Azur Airport",
-        "destination_city": "Nice",
-        "destination_country": "France",
-        "local_departure_time": "15:15",
-        "local_arrival_time": "17:55",
-        "duration": "01:40"
+        "local_arrival_time": "23:15",
+        "duration": "06:00"
     },
     {
         "flight_number": "AH1006",
-        "airline_name": "Legend Airlines",
+        "airline_name": "Air Algerie",
         "destination_iata": "ORY",
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
@@ -603,39 +460,6 @@
         "local_departure_time": "15:20",
         "local_arrival_time": "18:40",
         "duration": "02:20"
-    },
-    {
-        "flight_number": "AF1255",
-        "airline_name": "Air France",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "19:05",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "AH1234",
-        "airline_name": "Air Algerie",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "19:00",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "AH2046",
-        "airline_name": "Air Algerie",
-        "destination_iata": "GVA",
-        "destination_airport_name": "Geneva International Airport",
-        "destination_city": "Geneva",
-        "destination_country": "Switzerland",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "18:30",
-        "duration": "02:00"
     },
     {
         "flight_number": "SV340",
@@ -649,17 +473,6 @@
         "duration": "05:00"
     },
     {
-        "flight_number": "TO7269",
-        "airline_name": "Transavia France",
-        "destination_iata": "ORY",
-        "destination_airport_name": "Paris Orly Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "15:40",
-        "local_arrival_time": "19:10",
-        "duration": "02:30"
-    },
-    {
         "flight_number": "EK758",
         "airline_name": "Emirates",
         "destination_iata": "DXB",
@@ -671,30 +484,30 @@
         "duration": "06:20"
     },
     {
+        "flight_number": "AH2000",
+        "airline_name": "Air Algerie",
+        "destination_iata": "PMI",
+        "destination_airport_name": "Palma de Mallorca Airport",
+        "destination_city": "Palma de Mallorca",
+        "destination_country": "Spain",
+        "local_departure_time": "16:15",
+        "local_arrival_time": "18:30",
+        "duration": "01:15"
+    },
+    {
         "flight_number": "AH1032",
-        "airline_name": "Fly2Sky",
+        "airline_name": "Air Algerie",
         "destination_iata": "LYS",
         "destination_airport_name": "Lyon Saint Exupery Airport",
         "destination_city": "Lyon",
         "destination_country": "France",
-        "local_departure_time": "16:00 / 16:30",
-        "local_arrival_time": "18:50 / 19:20",
+        "local_departure_time": "16:20",
+        "local_arrival_time": "19:10",
         "duration": "01:50"
     },
     {
-        "flight_number": "BJ131",
-        "airline_name": "Nouvelair",
-        "destination_iata": "TUN",
-        "destination_airport_name": "Tunis Carthage International Airport",
-        "destination_city": "Tunis",
-        "destination_country": "Tunisia",
-        "local_departure_time": "16:25",
-        "local_arrival_time": "17:50",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "AH1012",
-        "airline_name": "Amelia",
+        "airline_name": "Air Algerie",
         "destination_iata": "CDG",
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
@@ -726,15 +539,15 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "AH1190",
+        "flight_number": "AH4002",
         "airline_name": "Air Algerie",
-        "destination_iata": "BOD",
-        "destination_airport_name": "Bordeaux Merignac Airport",
-        "destination_city": "Bordeaux",
-        "destination_country": "France",
-        "local_departure_time": "16:45",
-        "local_arrival_time": "19:35",
-        "duration": "01:50"
+        "destination_iata": "TUN",
+        "destination_airport_name": "Tunis Carthage International Airport",
+        "destination_city": "Tunis",
+        "destination_country": "Tunisia",
+        "local_departure_time": "16:50",
+        "local_arrival_time": "18:10",
+        "duration": "01:20"
     },
     {
         "flight_number": "AZ801",
@@ -748,17 +561,6 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "AH4002",
-        "airline_name": "Air Algerie",
-        "destination_iata": "TUN",
-        "destination_airport_name": "Tunis Carthage International Airport",
-        "destination_city": "Tunis",
-        "destination_country": "Tunisia",
-        "local_departure_time": "17:00 / 17:35",
-        "local_arrival_time": "18:20 / 18:55",
-        "duration": "01:20"
-    },
-    {
         "flight_number": "WT151",
         "airline_name": "Swiftair",
         "destination_iata": "MRS",
@@ -768,94 +570,6 @@
         "local_departure_time": "17:10",
         "local_arrival_time": "19:20",
         "duration": "01:10"
-    },
-    {
-        "flight_number": "5O756",
-        "airline_name": "ASL Airlines",
-        "destination_iata": "MRS",
-        "destination_airport_name": "Marseille Provence Airport",
-        "destination_city": "Marseille",
-        "destination_country": "France",
-        "local_departure_time": "17:10",
-        "local_arrival_time": "20:20",
-        "duration": "02:10"
-    },
-    {
-        "flight_number": "AF1755",
-        "airline_name": "Air France",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "17:20",
-        "local_arrival_time": "20:55",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "5O272",
-        "airline_name": "ASL Airlines",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "21:05",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "SF3002",
-        "airline_name": "Tassili Airlines",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "21:00",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "AH2004",
-        "airline_name": "Air Algerie",
-        "destination_iata": "ALC",
-        "destination_airport_name": "Alicante Airport",
-        "destination_city": "Alicante",
-        "destination_country": "Spain",
-        "local_departure_time": "17:40",
-        "local_arrival_time": "19:35",
-        "duration": "00:55"
-    },
-    {
-        "flight_number": "AH1024",
-        "airline_name": "Air Algerie",
-        "destination_iata": "MRS",
-        "destination_airport_name": "Marseille Provence Airport",
-        "destination_city": "Marseille",
-        "destination_country": "France",
-        "local_departure_time": "17:50",
-        "local_arrival_time": "20:20",
-        "duration": "01:30"
-    },
-    {
-        "flight_number": "AH1234",
-        "airline_name": "Air Algerie",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "21:30",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "AH1230",
-        "airline_name": "Air Algerie",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "21:30",
-        "duration": "02:30"
     },
     {
         "flight_number": "TK654",
@@ -869,8 +583,19 @@
         "duration": "03:40"
     },
     {
+        "flight_number": "AF1755",
+        "airline_name": "Air France",
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "18:10",
+        "local_arrival_time": "21:45",
+        "duration": "02:35"
+    },
+    {
         "flight_number": "IB1378",
-        "airline_name": "Iberia Regional",
+        "airline_name": "Iberia",
         "destination_iata": "MAD",
         "destination_airport_name": "Madrid Barajas Airport",
         "destination_city": "Madrid",
@@ -891,41 +616,41 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "AH3014",
+        "flight_number": "AH1230",
         "airline_name": "Air Algerie",
-        "destination_iata": "IST",
-        "destination_airport_name": "Istanbul Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "18:45",
-        "local_arrival_time": "00:20 (+1)",
-        "duration": "03:35"
-    },
-    {
-        "flight_number": "AH2206",
-        "airline_name": "Air Algerie",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "18:50",
-        "local_arrival_time": "20:30",
-        "duration": "00:40"
-    },
-    {
-        "flight_number": "AF1455",
-        "airline_name": "Air France",
         "destination_iata": "CDG",
         "destination_airport_name": "Paris Charles de Gaulle Airport",
         "destination_city": "Paris",
         "destination_country": "France",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "22:45",
-        "duration": "02:35"
+        "local_departure_time": "18:45",
+        "local_arrival_time": "22:15",
+        "duration": "02:30"
+    },
+    {
+        "flight_number": "BA2817",
+        "airline_name": "British Airways",
+        "destination_iata": "LGW",
+        "destination_airport_name": "London Gatwick Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "19:00",
+        "local_arrival_time": "21:50",
+        "duration": "02:50"
+    },
+    {
+        "flight_number": "AH3014",
+        "airline_name": "Amelia",
+        "destination_iata": "IST",
+        "destination_airport_name": "Istanbul Airport",
+        "destination_city": "Istanbul",
+        "destination_country": "Turkey",
+        "local_departure_time": "19:05",
+        "local_arrival_time": "00:40 (+1)",
+        "duration": "03:35"
     },
     {
         "flight_number": "TO7269",
-        "airline_name": "Transavia",
+        "airline_name": "Transavia France",
         "destination_iata": "ORY",
         "destination_airport_name": "Paris Orly Airport",
         "destination_city": "Paris",
@@ -935,15 +660,15 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "TB3408",
-        "airline_name": "TUI",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
-        "local_departure_time": "19:40",
-        "local_arrival_time": "23:35",
-        "duration": "02:55"
+        "flight_number": "AH3004",
+        "airline_name": "Air Algerie",
+        "destination_iata": "LIS",
+        "destination_airport_name": "Lisbon Humberto Delgado Airport",
+        "destination_city": "Lisbon",
+        "destination_country": "Portugal",
+        "local_departure_time": "19:25",
+        "local_arrival_time": "21:30",
+        "duration": "02:05"
     },
     {
         "flight_number": "VY7990",
@@ -952,9 +677,31 @@
         "destination_airport_name": "Marseille Provence Airport",
         "destination_city": "Marseille",
         "destination_country": "France",
-        "local_departure_time": "19:50 / 20:45",
-        "local_arrival_time": "22:25 / 23:20",
+        "local_departure_time": "20:00",
+        "local_arrival_time": "22:35",
         "duration": "01:35"
+    },
+    {
+        "flight_number": "TO7309",
+        "airline_name": "Transavia France",
+        "destination_iata": "LYS",
+        "destination_airport_name": "Lyon Saint Exupery Airport",
+        "destination_city": "Lyon",
+        "destination_country": "France",
+        "local_departure_time": "20:05",
+        "local_arrival_time": "23:00",
+        "duration": "01:55"
+    },
+    {
+        "flight_number": "TU339",
+        "airline_name": "Tunisair",
+        "destination_iata": "TUN",
+        "destination_airport_name": "Tunis Carthage International Airport",
+        "destination_city": "Tunis",
+        "destination_country": "Tunisia",
+        "local_departure_time": "20:05",
+        "local_arrival_time": "21:15",
+        "duration": "01:10"
     },
     {
         "flight_number": "AH5010",
@@ -968,26 +715,15 @@
         "duration": "04:55"
     },
     {
-        "flight_number": "TU339",
-        "airline_name": "Tunisair",
-        "destination_iata": "TUN",
-        "destination_airport_name": "Tunis Carthage International Airport",
-        "destination_city": "Tunis",
-        "destination_country": "Tunisia",
+        "flight_number": "AH4036",
+        "airline_name": "Air Algerie",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
         "local_departure_time": "20:30",
-        "local_arrival_time": "21:40",
-        "duration": "01:10"
-    },
-    {
-        "flight_number": "AH3030",
-        "airline_name": "Ascend Airways",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "01:55 (+1)",
-        "duration": "03:25"
+        "local_arrival_time": "02:15 (+1)",
+        "duration": "03:45"
     },
     {
         "flight_number": "BA2817",
@@ -999,39 +735,6 @@
         "local_departure_time": "20:40",
         "local_arrival_time": "23:30",
         "duration": "02:50"
-    },
-    {
-        "flight_number": "IB1378",
-        "airline_name": "Iberia",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "21:15",
-        "local_arrival_time": "23:50",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "AH4682",
-        "airline_name": "Air Algerie",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
-        "local_departure_time": "21:25",
-        "local_arrival_time": "03:50 (+1)",
-        "duration": "04:25"
-    },
-    {
-        "flight_number": "AH4624",
-        "airline_name": "Air Algerie",
-        "destination_iata": "HRG",
-        "destination_airport_name": "Hurghada International Airport",
-        "destination_city": "Hurghada",
-        "destination_country": "Egypt",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "04:00 (+1)",
-        "duration": "04:30"
     },
     {
         "flight_number": "AH4062",
@@ -1046,7 +749,7 @@
     },
     {
         "flight_number": "AH3018",
-        "airline_name": "Air Algerie",
+        "airline_name": "Fly2Sky",
         "destination_iata": "IST",
         "destination_airport_name": "Istanbul Airport",
         "destination_city": "Istanbul",
@@ -1056,15 +759,37 @@
         "duration": "03:35"
     },
     {
+        "flight_number": "AH300",
+        "airline_name": "Air Algerie",
+        "destination_iata": "MED",
+        "destination_airport_name": "Medina Prince Mohammad bin Abdulaziz Airport",
+        "destination_city": "Medina",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "22:20",
+        "local_arrival_time": "05:00 (+1)",
+        "duration": "04:40"
+    },
+    {
         "flight_number": "TK852",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
         "destination_airport_name": "Istanbul Airport",
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
-        "local_departure_time": "22:25",
+        "local_departure_time": "22:40",
         "local_arrival_time": "04:05 (+1)",
-        "duration": "03:40"
+        "duration": "03:25"
+    },
+    {
+        "flight_number": "SV342",
+        "airline_name": "Saudia",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "23:20",
+        "local_arrival_time": "06:20 (+1)",
+        "duration": "05:00"
     },
     {
         "flight_number": "VY6151",
@@ -1073,8 +798,8 @@
         "destination_airport_name": "Barcelona El Prat Airport",
         "destination_city": "Barcelona",
         "destination_country": "Spain",
-        "local_departure_time": "23:59",
-        "local_arrival_time": "02:20 (+1)",
-        "duration": "01:21"
+        "local_departure_time": "23:55",
+        "local_arrival_time": "02:15 (+1)",
+        "duration": "01:20"
     }
 ]

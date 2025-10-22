@@ -11,17 +11,6 @@
         "duration": "04:20"
     },
     {
-        "flight_number": "MS921",
-        "airline_name": "Egyptair",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "00:40",
-        "local_arrival_time": "03:40",
-        "duration": "03:00"
-    },
-    {
         "flight_number": "GF250",
         "airline_name": "Gulf Air",
         "destination_iata": "DAC",
@@ -31,6 +20,17 @@
         "local_departure_time": "00:40",
         "local_arrival_time": "08:55",
         "duration": "05:15"
+    },
+    {
+        "flight_number": "MS921",
+        "airline_name": "Egyptair",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "00:40",
+        "local_arrival_time": "03:40",
+        "duration": "03:00"
     },
     {
         "flight_number": "GF964",
@@ -44,17 +44,6 @@
         "duration": "02:30"
     },
     {
-        "flight_number": "GF500",
-        "airline_name": "Gulf Air",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "01:10",
-        "local_arrival_time": "03:30",
-        "duration": "01:20"
-    },
-    {
         "flight_number": "GF79",
         "airline_name": "Gulf Air",
         "destination_iata": "CAI",
@@ -64,6 +53,17 @@
         "local_departure_time": "01:10",
         "local_arrival_time": "04:30",
         "duration": "03:20"
+    },
+    {
+        "flight_number": "GF500",
+        "airline_name": "Gulf Air",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "01:10",
+        "local_arrival_time": "03:30",
+        "duration": "01:20"
     },
     {
         "flight_number": "GF752",
@@ -88,17 +88,6 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "GF560",
-        "airline_name": "Gulf Air",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "01:20",
-        "local_arrival_time": "03:50",
-        "duration": "01:30"
-    },
-    {
         "flight_number": "TK779",
         "airline_name": "Turkish Airlines",
         "destination_iata": "IST",
@@ -110,15 +99,15 @@
         "duration": "04:25"
     },
     {
-        "flight_number": "GF17",
+        "flight_number": "GF560",
         "airline_name": "Gulf Air",
-        "destination_iata": "FRA",
-        "destination_airport_name": "Frankfurt Airport",
-        "destination_city": "Frankfurt",
-        "destination_country": "Germany",
-        "local_departure_time": "01:30",
-        "local_arrival_time": "06:55",
-        "duration": "06:25"
+        "destination_iata": "MCT",
+        "destination_airport_name": "Muscat International Airport",
+        "destination_city": "Muscat",
+        "destination_country": "Oman",
+        "local_departure_time": "01:20",
+        "local_arrival_time": "03:50",
+        "duration": "01:30"
     },
     {
         "flight_number": "GF181",
@@ -130,6 +119,28 @@
         "local_departure_time": "01:30",
         "local_arrival_time": "03:55",
         "duration": "02:25"
+    },
+    {
+        "flight_number": "GF47",
+        "airline_name": "Gulf Air",
+        "destination_iata": "ATH",
+        "destination_airport_name": "Athens Eleftherios Venizelos",
+        "destination_city": "Athens",
+        "destination_country": "Greece",
+        "local_departure_time": "01:30",
+        "local_arrival_time": "06:00",
+        "duration": "04:30"
+    },
+    {
+        "flight_number": "GF17",
+        "airline_name": "Gulf Air",
+        "destination_iata": "FRA",
+        "destination_airport_name": "Frankfurt Airport",
+        "destination_city": "Frankfurt",
+        "destination_country": "Germany",
+        "local_departure_time": "01:30",
+        "local_arrival_time": "06:55",
+        "duration": "06:25"
     },
     {
         "flight_number": "GF19",
@@ -154,17 +165,6 @@
         "duration": "00:45"
     },
     {
-        "flight_number": "GF87",
-        "airline_name": "Gulf Air",
-        "destination_iata": "MUC",
-        "destination_airport_name": "Munich Airport",
-        "destination_city": "Munich",
-        "destination_country": "Germany",
-        "local_departure_time": "01:35",
-        "local_arrival_time": "06:35",
-        "duration": "06:00"
-    },
-    {
         "flight_number": "GF143",
         "airline_name": "Gulf Air",
         "destination_iata": "CMN",
@@ -174,6 +174,17 @@
         "local_departure_time": "01:35",
         "local_arrival_time": "07:20",
         "duration": "07:45"
+    },
+    {
+        "flight_number": "GF87",
+        "airline_name": "Gulf Air",
+        "destination_iata": "MUC",
+        "destination_airport_name": "Munich Airport",
+        "destination_city": "Munich",
+        "destination_country": "Germany",
+        "local_departure_time": "01:35",
+        "local_arrival_time": "06:35",
+        "duration": "06:00"
     },
     {
         "flight_number": "FZ30",
@@ -187,7 +198,7 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "GF29",
+        "flight_number": "GF23",
         "airline_name": "Gulf Air",
         "destination_iata": "MXP",
         "destination_airport_name": "Milan Malpensa Airport",
@@ -220,26 +231,15 @@
         "duration": "05:25"
     },
     {
-        "flight_number": "GF23",
-        "airline_name": "Gulf Air",
-        "destination_iata": "MXP",
-        "destination_airport_name": "Milan Malpensa Airport",
-        "destination_city": "Milan",
-        "destination_country": "Italy",
-        "local_departure_time": "01:40",
-        "local_arrival_time": "06:55",
-        "duration": "06:15"
-    },
-    {
-        "flight_number": "GF27",
-        "airline_name": "Gulf Air",
-        "destination_iata": "FCO",
-        "destination_airport_name": "Rome Leonardo da Vinci Fiumicino Airport",
-        "destination_city": "Rome",
-        "destination_country": "Italy",
-        "local_departure_time": "01:40",
-        "local_arrival_time": "06:35",
-        "duration": "05:55"
+        "flight_number": "9P531",
+        "airline_name": "Fly Jinnah",
+        "destination_iata": "LHE",
+        "destination_airport_name": "Lahore Allama Iqbal International Airport",
+        "destination_city": "Lahore",
+        "destination_country": "Pakistan",
+        "local_departure_time": "01:45",
+        "local_arrival_time": "07:20",
+        "duration": "03:35"
     },
     {
         "flight_number": "GF9",
@@ -251,17 +251,6 @@
         "local_departure_time": "01:45",
         "local_arrival_time": "06:55",
         "duration": "07:10"
-    },
-    {
-        "flight_number": "VF126",
-        "airline_name": "AJet",
-        "destination_iata": "SAW",
-        "destination_airport_name": "Istanbul Sabiha Gokcen International Airport",
-        "destination_city": "Istanbul",
-        "destination_country": "Turkey",
-        "local_departure_time": "01:50",
-        "local_arrival_time": "06:00",
-        "duration": "04:10"
     },
     {
         "flight_number": "GF7",
@@ -293,8 +282,52 @@
         "destination_city": "Lahore",
         "destination_country": "Pakistan",
         "local_departure_time": "02:30",
-        "local_arrival_time": "08:10",
-        "duration": "03:40"
+        "local_arrival_time": "07:55",
+        "duration": "03:25"
+    },
+    {
+        "flight_number": "EY648",
+        "airline_name": "Etihad Airways",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "03:10",
+        "local_arrival_time": "05:20",
+        "duration": "01:10"
+    },
+    {
+        "flight_number": "G9108",
+        "airline_name": "Air Arabia",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "03:20",
+        "local_arrival_time": "05:35",
+        "duration": "01:15"
+    },
+    {
+        "flight_number": "QR1117",
+        "airline_name": "Qatar Airways",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "03:20",
+        "local_arrival_time": "04:15",
+        "duration": "00:55"
+    },
+    {
+        "flight_number": "EK836",
+        "airline_name": "Emirates",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "03:25 / 03:40",
+        "local_arrival_time": "05:50 / 06:05",
+        "duration": "01:25"
     },
     {
         "flight_number": "ET425",
@@ -308,48 +341,26 @@
         "duration": "03:50"
     },
     {
-        "flight_number": "EK836",
-        "airline_name": "Emirates",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "03:40",
-        "local_arrival_time": "06:05",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "GF161",
         "airline_name": "Gulf Air",
         "destination_iata": "RUH",
         "destination_airport_name": "Riyadh King Khalid International Airport",
         "destination_city": "Riyadh",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "03:45",
-        "local_arrival_time": "05:00",
+        "local_departure_time": "03:35",
+        "local_arrival_time": "04:50",
         "duration": "01:15"
     },
     {
-        "flight_number": "QR1117",
-        "airline_name": "Qatar Airways",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "04:20",
-        "local_arrival_time": "05:15",
-        "duration": "00:55"
-    },
-    {
-        "flight_number": "WZ584",
-        "airline_name": "Red Wings",
-        "destination_iata": "AER",
-        "destination_airport_name": "Sochi International Airport",
-        "destination_city": "Sochi",
-        "destination_country": "Russia",
-        "local_departure_time": "04:35",
-        "local_arrival_time": "08:05",
-        "duration": "03:30"
+        "flight_number": "GF91",
+        "airline_name": "Gulf Air",
+        "destination_iata": "JFK",
+        "destination_airport_name": "New York John F. Kennedy International Airport",
+        "destination_city": "New York",
+        "destination_country": "United States",
+        "local_departure_time": "04:00",
+        "local_arrival_time": "10:55",
+        "duration": "13:55"
     },
     {
         "flight_number": "G9108",
@@ -363,17 +374,6 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "GF201",
-        "airline_name": "Gulf Air",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "07:10",
-        "local_arrival_time": "08:55",
-        "duration": "01:45"
-    },
-    {
         "flight_number": "GF502",
         "airline_name": "Gulf Air",
         "destination_iata": "DXB",
@@ -385,15 +385,15 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "GF237",
-        "airline_name": "Gulf Air",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "08:10",
-        "local_arrival_time": "09:55",
-        "duration": "01:45"
+        "flight_number": "WZ584",
+        "airline_name": "Red Wings",
+        "destination_iata": "AER",
+        "destination_airport_name": "Sochi International Airport",
+        "destination_city": "Sochi",
+        "destination_country": "Russia",
+        "local_departure_time": "07:30",
+        "local_arrival_time": "11:15",
+        "duration": "03:45"
     },
     {
         "flight_number": "FZ24",
@@ -407,17 +407,6 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "GF764",
-        "airline_name": "Gulf Air",
-        "destination_iata": "LHE",
-        "destination_airport_name": "Lahore Allama Iqbal International Airport",
-        "destination_city": "Lahore",
-        "destination_country": "Pakistan",
-        "local_departure_time": "08:35",
-        "local_arrival_time": "14:10",
-        "duration": "03:35"
-    },
-    {
         "flight_number": "G9102",
         "airline_name": "Air Arabia",
         "destination_iata": "SHJ",
@@ -427,28 +416,6 @@
         "local_departure_time": "08:55",
         "local_arrival_time": "11:10",
         "duration": "01:15"
-    },
-    {
-        "flight_number": "BA124",
-        "airline_name": "British Airways",
-        "destination_iata": "LHR",
-        "destination_airport_name": "London Heathrow Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "13:55",
-        "duration": "06:55"
-    },
-    {
-        "flight_number": "GF770",
-        "airline_name": "Gulf Air",
-        "destination_iata": "ISB",
-        "destination_airport_name": "Islamabad International Airport",
-        "destination_city": "Islamabad",
-        "destination_country": "Pakistan",
-        "local_departure_time": "09:00",
-        "local_arrival_time": "14:30",
-        "duration": "03:30"
     },
     {
         "flight_number": "GF14",
@@ -462,37 +429,26 @@
         "duration": "06:25"
     },
     {
-        "flight_number": "GF707",
+        "flight_number": "GF770",
         "airline_name": "Gulf Air",
-        "destination_iata": "NBO",
-        "destination_airport_name": "Nairobi Jomo Kenyatta International Airport",
-        "destination_city": "Nairobi",
-        "destination_country": "Kenya",
+        "destination_iata": "ISB",
+        "destination_airport_name": "Islamabad International Airport",
+        "destination_city": "Islamabad",
+        "destination_country": "Pakistan",
         "local_departure_time": "09:00",
-        "local_arrival_time": "14:25",
-        "duration": "05:25"
+        "local_arrival_time": "14:30",
+        "duration": "03:30"
     },
     {
-        "flight_number": "J9102",
-        "airline_name": "Jazeera Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "09:05",
+        "flight_number": "XY238",
+        "airline_name": "flynas",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "09:00",
         "local_arrival_time": "10:10",
-        "duration": "01:05"
-    },
-    {
-        "flight_number": "IX472",
-        "airline_name": "Air India Express",
-        "destination_iata": "COK",
-        "destination_airport_name": "Cochin International Airport",
-        "destination_city": "Cochin",
-        "destination_country": "India",
-        "local_departure_time": "09:10",
-        "local_arrival_time": "16:25",
-        "duration": "04:45"
+        "duration": "01:10"
     },
     {
         "flight_number": "GF524",
@@ -506,26 +462,15 @@
         "duration": "00:55"
     },
     {
-        "flight_number": "GF41",
+        "flight_number": "GF81",
         "airline_name": "Gulf Air",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
+        "destination_iata": "GYD",
+        "destination_airport_name": "Baku Heydar Aliyev International Airport",
+        "destination_city": "Baku",
+        "destination_country": "Azerbaijan",
         "local_departure_time": "09:40",
-        "local_arrival_time": "14:10",
-        "duration": "04:30"
-    },
-    {
-        "flight_number": "GF504",
-        "airline_name": "Gulf Air",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "09:40",
-        "local_arrival_time": "12:05",
-        "duration": "01:25"
+        "local_arrival_time": "14:35",
+        "duration": "03:55"
     },
     {
         "flight_number": "GF163",
@@ -550,6 +495,28 @@
         "duration": "01:05"
     },
     {
+        "flight_number": "GF504",
+        "airline_name": "Gulf Air",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "09:40",
+        "local_arrival_time": "12:05",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "GF201",
+        "airline_name": "Gulf Air",
+        "destination_iata": "BGW",
+        "destination_airport_name": "Baghdad International Airport",
+        "destination_city": "Baghdad",
+        "destination_country": "Iraq",
+        "local_departure_time": "09:40",
+        "local_arrival_time": "11:25",
+        "duration": "01:45"
+    },
+    {
         "flight_number": "GF103",
         "airline_name": "Gulf Air",
         "destination_iata": "DMM",
@@ -559,17 +526,6 @@
         "local_departure_time": "09:45",
         "local_arrival_time": "10:30",
         "duration": "00:45"
-    },
-    {
-        "flight_number": "GF235",
-        "airline_name": "Gulf Air",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "09:55",
-        "local_arrival_time": "11:40",
-        "duration": "01:45"
     },
     {
         "flight_number": "3L16",
@@ -616,26 +572,15 @@
         "duration": "06:55"
     },
     {
-        "flight_number": "EY642",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
+        "flight_number": "IX458",
+        "airline_name": "Air India Express",
+        "destination_iata": "COK",
+        "destination_airport_name": "Cochin International Airport",
+        "destination_city": "Cochin",
+        "destination_country": "India",
         "local_departure_time": "10:40",
-        "local_arrival_time": "12:50",
-        "duration": "01:10"
-    },
-    {
-        "flight_number": "GF248",
-        "airline_name": "Gulf Air",
-        "destination_iata": "DAC",
-        "destination_airport_name": "Dhaka Shahjalal International Airport",
-        "destination_city": "Dhaka",
-        "destination_country": "Bangladesh",
-        "local_departure_time": "10:45",
-        "local_arrival_time": "19:00",
-        "duration": "05:15"
+        "local_arrival_time": "17:55",
+        "duration": "04:45"
     },
     {
         "flight_number": "GF43",
@@ -660,17 +605,6 @@
         "duration": "00:55"
     },
     {
-        "flight_number": "GF944",
-        "airline_name": "Gulf Air",
-        "destination_iata": "LCA",
-        "destination_airport_name": "Larnaca International Airport",
-        "destination_city": "Larnaca",
-        "destination_country": "Cyprus",
-        "local_departure_time": "12:10",
-        "local_arrival_time": "15:45",
-        "duration": "03:35"
-    },
-    {
         "flight_number": "GF71",
         "airline_name": "Gulf Air",
         "destination_iata": "CAI",
@@ -682,15 +616,15 @@
         "duration": "03:20"
     },
     {
-        "flight_number": "KU614",
-        "airline_name": "Kuwait Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "12:35",
-        "local_arrival_time": "13:50",
-        "duration": "01:15"
+        "flight_number": "SV529",
+        "airline_name": "Saudia",
+        "destination_iata": "JED",
+        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
+        "destination_city": "Jeddah",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "12:25",
+        "local_arrival_time": "14:45",
+        "duration": "02:20"
     },
     {
         "flight_number": "GF183",
@@ -702,17 +636,6 @@
         "local_departure_time": "13:25",
         "local_arrival_time": "15:40",
         "duration": "02:15"
-    },
-    {
-        "flight_number": "GF52",
-        "airline_name": "Gulf Air",
-        "destination_iata": "MAA",
-        "destination_airport_name": "Chennai International Airport",
-        "destination_city": "Chennai",
-        "destination_country": "India",
-        "local_departure_time": "13:30",
-        "local_arrival_time": "20:50",
-        "duration": "04:50"
     },
     {
         "flight_number": "GF506",
@@ -737,6 +660,17 @@
         "duration": "01:15"
     },
     {
+        "flight_number": "J9102",
+        "airline_name": "Jazeera Airways",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "13:55",
+        "local_arrival_time": "15:00",
+        "duration": "01:05"
+    },
+    {
         "flight_number": "GF280",
         "airline_name": "Gulf Air",
         "destination_iata": "BLR",
@@ -757,17 +691,6 @@
         "local_departure_time": "14:10",
         "local_arrival_time": "16:50",
         "duration": "02:40"
-    },
-    {
-        "flight_number": "GF203",
-        "airline_name": "Gulf Air",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "14:10",
-        "local_arrival_time": "15:55",
-        "duration": "01:45"
     },
     {
         "flight_number": "GF134",
@@ -858,17 +781,6 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "GF286",
-        "airline_name": "Gulf Air",
-        "destination_iata": "GOI",
-        "destination_airport_name": "Goa Dabolim Airport",
-        "destination_city": "Goa",
-        "destination_country": "India",
-        "local_departure_time": "15:50",
-        "local_arrival_time": "22:05",
-        "duration": "03:45"
-    },
-    {
         "flight_number": "GF177",
         "airline_name": "Gulf Air",
         "destination_iata": "MED",
@@ -935,17 +847,6 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "GF526",
-        "airline_name": "Gulf Air",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
-        "local_departure_time": "17:35",
-        "local_arrival_time": "18:30",
-        "duration": "00:55"
-    },
-    {
         "flight_number": "SV521",
         "airline_name": "Saudia",
         "destination_iata": "RUH",
@@ -957,14 +858,25 @@
         "duration": "01:20"
     },
     {
+        "flight_number": "GF526",
+        "airline_name": "Gulf Air",
+        "destination_iata": "DOH",
+        "destination_airport_name": "Doha Hamad International Airport",
+        "destination_city": "Doha",
+        "destination_country": "Qatar",
+        "local_departure_time": "17:35",
+        "local_arrival_time": "18:30",
+        "duration": "00:55"
+    },
+    {
         "flight_number": "GF109",
         "airline_name": "Gulf Air",
         "destination_iata": "DMM",
         "destination_airport_name": "Dammam King Fahd International Airport",
         "destination_city": "Dammam",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "17:45 / 18:05",
-        "local_arrival_time": "18:20 / 18:40",
+        "local_departure_time": "17:45",
+        "local_arrival_time": "18:20",
         "duration": "00:35"
     },
     {
@@ -1012,17 +924,6 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "ET3313",
-        "airline_name": "Ethiopian Airlines",
-        "destination_iata": "ADD",
-        "destination_airport_name": "Addis Ababa Bole Airport",
-        "destination_city": "Addis Ababa",
-        "destination_country": "Ethiopia",
-        "local_departure_time": "18:10",
-        "local_arrival_time": "22:20",
-        "duration": "04:10"
-    },
-    {
         "flight_number": "FZ28",
         "airline_name": "flydubai",
         "destination_iata": "DXB",
@@ -1032,17 +933,6 @@
         "local_departure_time": "18:30",
         "local_arrival_time": "20:45",
         "duration": "01:15"
-    },
-    {
-        "flight_number": "J9102",
-        "airline_name": "Jazeera Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "19:10",
-        "local_arrival_time": "20:15",
-        "duration": "01:05"
     },
     {
         "flight_number": "3L18",
@@ -1056,26 +946,26 @@
         "duration": "01:10"
     },
     {
+        "flight_number": "J9104",
+        "airline_name": "Jazeera Airways",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "19:40",
+        "local_arrival_time": "20:45",
+        "duration": "01:05"
+    },
+    {
         "flight_number": "XY528",
         "airline_name": "flynas",
         "destination_iata": "JED",
         "destination_airport_name": "Jeddah King Abdulaziz International Airport",
         "destination_city": "Jeddah",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "22:10",
+        "local_departure_time": "19:50",
+        "local_arrival_time": "22:15",
         "duration": "02:25"
-    },
-    {
-        "flight_number": "XY234",
-        "airline_name": "flynas",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "20:05",
-        "local_arrival_time": "21:15",
-        "duration": "01:10"
     },
     {
         "flight_number": "GF512",
@@ -1089,6 +979,17 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "XY234",
+        "airline_name": "flynas",
+        "destination_iata": "RUH",
+        "destination_airport_name": "Riyadh King Khalid International Airport",
+        "destination_city": "Riyadh",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "20:05",
+        "local_arrival_time": "21:15",
+        "duration": "01:10"
+    },
+    {
         "flight_number": "G9106",
         "airline_name": "Air Arabia",
         "destination_iata": "SHJ",
@@ -1100,28 +1001,6 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "6E1208",
-        "airline_name": "IndiGo",
-        "destination_iata": "HYD",
-        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
-        "destination_city": "Hyderabad",
-        "destination_country": "India",
-        "local_departure_time": "20:10",
-        "local_arrival_time": "03:10 (+1)",
-        "duration": "04:30"
-    },
-    {
-        "flight_number": "SV523",
-        "airline_name": "Saudia",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "20:35",
-        "local_arrival_time": "21:55",
-        "duration": "01:20"
-    },
-    {
         "flight_number": "GF566",
         "airline_name": "Gulf Air",
         "destination_iata": "MCT",
@@ -1129,30 +1008,8 @@
         "destination_city": "Muscat",
         "destination_country": "Oman",
         "local_departure_time": "20:40",
-        "local_arrival_time": "23:05 / 23:10",
+        "local_arrival_time": "23:10",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "RJ671",
-        "airline_name": "Royal Jordanian",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "20:45",
-        "local_arrival_time": "23:35",
-        "duration": "02:50"
-    },
-    {
-        "flight_number": "WY654",
-        "airline_name": "Oman Air",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "20:45 / 21:25",
-        "local_arrival_time": "00:10 (+1) / 23:30",
-        "duration": "01:45"
     },
     {
         "flight_number": "GF154",
@@ -1177,17 +1034,6 @@
         "duration": "00:45"
     },
     {
-        "flight_number": "GF219",
-        "airline_name": "Gulf Air",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "22:05",
-        "duration": "01:05"
-    },
-    {
         "flight_number": "GF169",
         "airline_name": "Gulf Air",
         "destination_iata": "RUH",
@@ -1197,6 +1043,17 @@
         "local_departure_time": "21:00",
         "local_arrival_time": "22:20",
         "duration": "01:20"
+    },
+    {
+        "flight_number": "GF219",
+        "airline_name": "Gulf Air",
+        "destination_iata": "KWI",
+        "destination_airport_name": "Kuwait International Airport",
+        "destination_city": "Kuwait City",
+        "destination_country": "Kuwait",
+        "local_departure_time": "21:00",
+        "local_arrival_time": "22:05",
+        "duration": "01:05"
     },
     {
         "flight_number": "GF546",
@@ -1276,28 +1133,6 @@
         "duration": "04:00"
     },
     {
-        "flight_number": "GF60",
-        "airline_name": "Gulf Air",
-        "destination_iata": "TRV",
-        "destination_airport_name": "Thiruvananthapuram International Airport",
-        "destination_city": "Thiruvananthapuram",
-        "destination_country": "India",
-        "local_departure_time": "21:55",
-        "local_arrival_time": "05:15 (+1)",
-        "duration": "04:50"
-    },
-    {
-        "flight_number": "FZ26",
-        "airline_name": "flydubai",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "22:00",
-        "local_arrival_time": "00:20 (+1) / 00:30 (+1)",
-        "duration": "01:20"
-    },
-    {
         "flight_number": "GF68",
         "airline_name": "Gulf Air",
         "destination_iata": "MAA",
@@ -1318,6 +1153,17 @@
         "local_departure_time": "22:00",
         "local_arrival_time": "00:30 (+1)",
         "duration": "01:30"
+    },
+    {
+        "flight_number": "FZ26",
+        "airline_name": "flydubai",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "22:00",
+        "local_arrival_time": "00:20 (+1)",
+        "duration": "01:20"
     },
     {
         "flight_number": "9P765",
@@ -1342,28 +1188,6 @@
         "duration": "00:55"
     },
     {
-        "flight_number": "6E1206",
-        "airline_name": "IndiGo",
-        "destination_iata": "COK",
-        "destination_airport_name": "Cochin International Airport",
-        "destination_city": "Cochin",
-        "destination_country": "India",
-        "local_departure_time": "22:20",
-        "local_arrival_time": "05:30 (+1)",
-        "duration": "04:40"
-    },
-    {
-        "flight_number": "GF274",
-        "airline_name": "Gulf Air",
-        "destination_iata": "HYD",
-        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
-        "destination_city": "Hyderabad",
-        "destination_country": "India",
-        "local_departure_time": "22:20",
-        "local_arrival_time": "05:15 (+1)",
-        "duration": "04:25"
-    },
-    {
         "flight_number": "GF56",
         "airline_name": "Gulf Air",
         "destination_iata": "BOM",
@@ -1386,17 +1210,6 @@
         "duration": "07:10"
     },
     {
-        "flight_number": "EK834",
-        "airline_name": "Emirates",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "22:50",
-        "local_arrival_time": "01:15 (+1)",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "EY646",
         "airline_name": "Etihad Airways",
         "destination_iata": "AUH",
@@ -1406,6 +1219,17 @@
         "local_departure_time": "22:50",
         "local_arrival_time": "01:00 (+1)",
         "duration": "01:10"
+    },
+    {
+        "flight_number": "EK834",
+        "airline_name": "Emirates",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "22:50",
+        "local_arrival_time": "01:15 (+1)",
+        "duration": "01:25"
     },
     {
         "flight_number": "GF122",
@@ -1450,5 +1274,16 @@
         "local_departure_time": "23:45",
         "local_arrival_time": "06:05 (+1)",
         "duration": "03:50"
+    },
+    {
+        "flight_number": "GF764",
+        "airline_name": "Gulf Air",
+        "destination_iata": "LHE",
+        "destination_airport_name": "Lahore Allama Iqbal International Airport",
+        "destination_city": "Lahore",
+        "destination_country": "Pakistan",
+        "local_departure_time": "23:55",
+        "local_arrival_time": "05:30 (+1)",
+        "duration": "03:35"
     }
 ]

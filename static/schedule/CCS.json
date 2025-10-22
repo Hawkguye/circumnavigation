@@ -1,16 +1,5 @@
 [
     {
-        "flight_number": "QL2980",
-        "airline_name": "Laser Airlines",
-        "destination_iata": "BOG",
-        "destination_airport_name": "Bogota El Dorado International Airport",
-        "destination_city": "Bogota",
-        "destination_country": "Colombia",
-        "local_departure_time": "08:30",
-        "local_arrival_time": "09:10",
-        "duration": "01:40"
-    },
-    {
         "flight_number": "P57007",
         "airline_name": "Wingo",
         "destination_iata": "BOG",
@@ -44,30 +33,8 @@
         "duration": "01:00"
     },
     {
-        "flight_number": "5R1700",
-        "airline_name": "Rutaca Airlines",
-        "destination_iata": "PUJ",
-        "destination_airport_name": "Punta Cana International Airport",
-        "destination_city": "Punta Cana",
-        "destination_country": "Dominican Republic",
-        "local_departure_time": "10:00",
-        "local_arrival_time": "11:20",
-        "duration": "01:20"
-    },
-    {
         "flight_number": "WW402",
         "airline_name": "Venezolana",
-        "destination_iata": "PTY",
-        "destination_airport_name": "Panama City Tocumen International Airport",
-        "destination_city": "Panama City",
-        "destination_country": "Panama",
-        "local_departure_time": "11:00",
-        "local_arrival_time": "12:00",
-        "duration": "02:00"
-    },
-    {
-        "flight_number": "ES8402",
-        "airline_name": "Estelar",
         "destination_iata": "PTY",
         "destination_airport_name": "Panama City Tocumen International Airport",
         "destination_city": "Panama City",
@@ -88,28 +55,6 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "QL2932",
-        "airline_name": "Laser Airlines",
-        "destination_iata": "CUR",
-        "destination_airport_name": "Willemstad Curacao Hato International Airport",
-        "destination_city": "Willemstad",
-        "destination_country": "Curacao",
-        "local_departure_time": "11:45",
-        "local_arrival_time": "12:30",
-        "duration": "00:45"
-    },
-    {
-        "flight_number": "P57009",
-        "airline_name": "Wingo",
-        "destination_iata": "BOG",
-        "destination_airport_name": "Bogota El Dorado International Airport",
-        "destination_city": "Bogota",
-        "destination_country": "Colombia",
-        "local_departure_time": "12:03",
-        "local_arrival_time": "12:58",
-        "duration": "01:55"
-    },
-    {
         "flight_number": "CM222",
         "airline_name": "Copa Airlines",
         "destination_iata": "PTY",
@@ -117,8 +62,8 @@
         "destination_city": "Panama City",
         "destination_country": "Panama",
         "local_departure_time": "13:32",
-        "local_arrival_time": "15:00",
-        "duration": "02:28"
+        "local_arrival_time": "15:01",
+        "duration": "02:29"
     },
     {
         "flight_number": "TK183",
@@ -128,8 +73,19 @@
         "destination_city": "Istanbul",
         "destination_country": "Turkey",
         "local_departure_time": "14:05",
-        "local_arrival_time": "08:55 (+1)",
-        "duration": "11:50"
+        "local_arrival_time": "08:45 (+1)",
+        "duration": "11:40"
+    },
+    {
+        "flight_number": "V03492",
+        "airline_name": "Conviasa",
+        "destination_iata": "HAV",
+        "destination_airport_name": "Havana Jose Marti International Airport",
+        "destination_city": "Havana",
+        "destination_country": "Cuba",
+        "local_departure_time": "15:00",
+        "local_arrival_time": "18:00",
+        "duration": "03:00"
     },
     {
         "flight_number": "V03496",
@@ -150,8 +106,8 @@
         "destination_city": "Panama City",
         "destination_country": "Panama",
         "local_departure_time": "16:11",
-        "local_arrival_time": "17:34",
-        "duration": "02:23"
+        "local_arrival_time": "17:40",
+        "duration": "02:29"
     },
     {
         "flight_number": "LA4405",
@@ -161,8 +117,8 @@
         "destination_city": "Bogota",
         "destination_country": "Colombia",
         "local_departure_time": "16:26",
-        "local_arrival_time": "17:24",
-        "duration": "01:58"
+        "local_arrival_time": "17:16",
+        "duration": "01:50"
     },
     {
         "flight_number": "IB192",
@@ -174,28 +130,6 @@
         "local_departure_time": "17:10",
         "local_arrival_time": "07:50 (+1)",
         "duration": "08:40"
-    },
-    {
-        "flight_number": "QL2932",
-        "airline_name": "Laser Airlines",
-        "destination_iata": "CUR",
-        "destination_airport_name": "Willemstad Curacao Hato International Airport",
-        "destination_city": "Willemstad",
-        "destination_country": "Curacao",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "18:45",
-        "duration": "00:45"
-    },
-    {
-        "flight_number": "9V1420",
-        "airline_name": "Avior Airlines",
-        "destination_iata": "BOG",
-        "destination_airport_name": "Bogota El Dorado International Airport",
-        "destination_city": "Bogota",
-        "destination_country": "Colombia",
-        "local_departure_time": "18:30",
-        "local_arrival_time": "19:00",
-        "duration": "01:30"
     },
     {
         "flight_number": "QL2920",
@@ -220,6 +154,28 @@
         "duration": "08:55"
     },
     {
+        "flight_number": "ES895",
+        "airline_name": "Estelar",
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "11:05 (+1)",
+        "duration": "08:55"
+    },
+    {
+        "flight_number": "Q48895",
+        "airline_name": "euroairlines",
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "11:05 (+1)",
+        "duration": "08:55"
+    },
+    {
         "flight_number": "UX72",
         "airline_name": "Air Europa",
         "destination_iata": "MAD",
@@ -231,25 +187,14 @@
         "duration": "08:30"
     },
     {
-        "flight_number": "OB1756",
-        "airline_name": "Boliviana de Aviacion",
-        "destination_iata": "HAV",
-        "destination_airport_name": "Havana Jose Marti International Airport",
-        "destination_city": "Havana",
-        "destination_country": "Cuba",
-        "local_departure_time": "23:30",
-        "local_arrival_time": "02:30 (+1)",
-        "duration": "03:00"
-    },
-    {
-        "flight_number": "G39511",
+        "flight_number": "G37211",
         "airline_name": "GOL Linhas Aereas",
         "destination_iata": "GRU",
         "destination_airport_name": "Sao Paulo Guarulhos International Airport",
         "destination_city": "Sao Paulo",
         "destination_country": "Brazil",
         "local_departure_time": "23:40",
-        "local_arrival_time": "06:50 (+1)",
-        "duration": "06:10"
+        "local_arrival_time": "06:55 (+1)",
+        "duration": "06:15"
     }
 ]

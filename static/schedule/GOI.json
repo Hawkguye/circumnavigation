@@ -28,8 +28,8 @@
         "destination_airport_name": "Bahrain International Airport",
         "destination_city": "Bahrain",
         "destination_country": "Bahrain",
-        "local_departure_time": "04:40",
-        "local_arrival_time": "06:10",
+        "local_departure_time": "04:50",
+        "local_arrival_time": "06:20",
         "duration": "04:00"
     },
     {
@@ -116,9 +116,20 @@
         "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
         "destination_city": "Mumbai",
         "destination_country": "India",
-        "local_departure_time": "13:55",
-        "local_arrival_time": "15:20",
-        "duration": "01:25"
+        "local_departure_time": "13:45",
+        "local_arrival_time": "15:15",
+        "duration": "01:30"
+    },
+    {
+        "flight_number": "6E6243",
+        "airline_name": "IndiGo",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "16:40",
+        "duration": "02:40"
     },
     {
         "flight_number": "AI2628",
@@ -154,6 +165,17 @@
         "duration": "01:30"
     },
     {
+        "flight_number": "AI884",
+        "airline_name": "Air India",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "14:55",
+        "local_arrival_time": "17:35",
+        "duration": "02:40"
+    },
+    {
         "flight_number": "6E162",
         "airline_name": "IndiGo",
         "destination_iata": "CCU",
@@ -174,6 +196,17 @@
         "local_departure_time": "15:20",
         "local_arrival_time": "18:00",
         "duration": "02:40"
+    },
+    {
+        "flight_number": "AI2735",
+        "airline_name": "Air India",
+        "destination_iata": "BOM",
+        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
+        "destination_city": "Mumbai",
+        "destination_country": "India",
+        "local_departure_time": "15:25",
+        "local_arrival_time": "16:55",
+        "duration": "01:30"
     },
     {
         "flight_number": "6E5231",
@@ -220,28 +253,6 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "AI2746",
-        "airline_name": "Air India",
-        "destination_iata": "BOM",
-        "destination_airport_name": "Mumbai Chhatrapati Shivaji International Airport",
-        "destination_city": "Mumbai",
-        "destination_country": "India",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "19:05",
-        "duration": "01:35"
-    },
-    {
-        "flight_number": "IX2703",
-        "airline_name": "Air India Express",
-        "destination_iata": "BLR",
-        "destination_airport_name": "Bengaluru Kempegowda International Airport",
-        "destination_city": "Bengaluru",
-        "destination_country": "India",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "18:55",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "6E328",
         "airline_name": "IndiGo",
         "destination_iata": "BOM",
@@ -264,17 +275,6 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "6E5008",
-        "airline_name": "IndiGo",
-        "destination_iata": "DEL",
-        "destination_airport_name": "Delhi Indira Gandhi International Airport",
-        "destination_city": "Delhi",
-        "destination_country": "India",
-        "local_departure_time": "19:25",
-        "local_arrival_time": "22:10",
-        "duration": "02:45"
-    },
-    {
         "flight_number": "6E589",
         "airline_name": "IndiGo",
         "destination_iata": "MAA",
@@ -284,6 +284,17 @@
         "local_departure_time": "19:45",
         "local_arrival_time": "21:30",
         "duration": "01:45"
+    },
+    {
+        "flight_number": "6E5008",
+        "airline_name": "IndiGo",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "19:55",
+        "local_arrival_time": "22:40",
+        "duration": "02:45"
     },
     {
         "flight_number": "6E6177",
@@ -341,15 +352,26 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "9I548",
-        "airline_name": "Alliance Air",
+        "flight_number": "AI2448",
+        "airline_name": "Air India",
+        "destination_iata": "DEL",
+        "destination_airport_name": "Delhi Indira Gandhi International Airport",
+        "destination_city": "Delhi",
+        "destination_country": "India",
+        "local_departure_time": "22:00",
+        "local_arrival_time": "00:40 (+1)",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "IX1607",
+        "airline_name": "Air India Express",
         "destination_iata": "BLR",
         "destination_airport_name": "Bengaluru Kempegowda International Airport",
         "destination_city": "Bengaluru",
         "destination_country": "India",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "23:05",
-        "duration": "01:35"
+        "local_departure_time": "22:35",
+        "local_arrival_time": "23:55",
+        "duration": "01:20"
     },
     {
         "flight_number": "AI2506",
@@ -374,14 +396,25 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "GF287",
-        "airline_name": "Gulf Air",
-        "destination_iata": "BAH",
-        "destination_airport_name": "Bahrain International Airport",
-        "destination_city": "Bahrain",
-        "destination_country": "Bahrain",
-        "local_departure_time": "23:05",
-        "local_arrival_time": "00:35 (+1)",
-        "duration": "04:00"
+        "flight_number": "6E901",
+        "airline_name": "IndiGo",
+        "destination_iata": "BLR",
+        "destination_airport_name": "Bengaluru Kempegowda International Airport",
+        "destination_city": "Bengaluru",
+        "destination_country": "India",
+        "local_departure_time": "23:35",
+        "local_arrival_time": "00:50 (+1)",
+        "duration": "01:15"
+    },
+    {
+        "flight_number": "6E985",
+        "airline_name": "IndiGo",
+        "destination_iata": "HYD",
+        "destination_airport_name": "Hyderabad Rajiv Gandhi International Airport",
+        "destination_city": "Hyderabad",
+        "destination_country": "India",
+        "local_departure_time": "23:45",
+        "local_arrival_time": "01:05 (+1)",
+        "duration": "01:20"
     }
 ]

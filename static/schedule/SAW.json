@@ -1,16 +1,5 @@
 [
     {
-        "flight_number": "PC622",
-        "airline_name": "Pegasus",
-        "destination_iata": "HRG",
-        "destination_airport_name": "Hurghada International Airport",
-        "destination_city": "Hurghada",
-        "destination_country": "Egypt",
-        "local_departure_time": "00:05",
-        "local_arrival_time": "02:45",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "PC690",
         "airline_name": "Pegasus",
         "destination_iata": "RUH",
@@ -22,15 +11,48 @@
         "duration": "04:00"
     },
     {
+        "flight_number": "PC49",
+        "airline_name": "Pegasus",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "00:05",
+        "local_arrival_time": "01:17",
+        "duration": "01:12"
+    },
+    {
         "flight_number": "PC283",
         "airline_name": "Pegasus",
         "destination_iata": "TIA",
         "destination_airport_name": "Tirana International Airport",
         "destination_city": "Tirana",
         "destination_country": "Albania",
-        "local_departure_time": "00:05 / 00:35",
-        "local_arrival_time": "00:50 / 01:20",
+        "local_departure_time": "00:05",
+        "local_arrival_time": "00:50",
         "duration": "01:45"
+    },
+    {
+        "flight_number": "PC622",
+        "airline_name": "Pegasus",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "00:05",
+        "local_arrival_time": "02:45",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "PC512",
+        "airline_name": "Pegasus",
+        "destination_iata": "IKA",
+        "destination_airport_name": "Tehran Imam Khomeini International Airport",
+        "destination_city": "Tehran",
+        "destination_country": "Iran",
+        "local_departure_time": "00:10",
+        "local_arrival_time": "03:45",
+        "duration": "03:05"
     },
     {
         "flight_number": "PC314",
@@ -44,26 +66,37 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "PC2028",
+        "flight_number": "PC1075",
         "airline_name": "Pegasus",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
         "local_departure_time": "00:10",
-        "local_arrival_time": "01:30",
-        "duration": "01:20"
+        "local_arrival_time": "02:30",
+        "duration": "03:20"
     },
     {
-        "flight_number": "PC2298",
-        "airline_name": "Pegasus",
-        "destination_iata": "DLM",
-        "destination_airport_name": "Dalaman Airport",
-        "destination_city": "Dalaman",
-        "destination_country": "Turkey",
+        "flight_number": "3L364",
+        "airline_name": "Air Arabia",
+        "destination_iata": "AUH",
+        "destination_airport_name": "Abu Dhabi Zayed International Airport",
+        "destination_city": "Abu Dhabi",
+        "destination_country": "United Arab Emirates",
         "local_departure_time": "00:10",
-        "local_arrival_time": "01:25",
-        "duration": "01:15"
+        "local_arrival_time": "05:35",
+        "duration": "04:25"
+    },
+    {
+        "flight_number": "3O438",
+        "airline_name": "Air Arabia",
+        "destination_iata": "CMN",
+        "destination_airport_name": "Casablanca Mohammed V International Airport",
+        "destination_city": "Casablanca",
+        "destination_country": "Morocco",
+        "local_departure_time": "00:10",
+        "local_arrival_time": "03:15",
+        "duration": "05:05"
     },
     {
         "flight_number": "PC698",
@@ -77,17 +110,6 @@
         "duration": "03:50"
     },
     {
-        "flight_number": "PC758",
-        "airline_name": "Pegasus",
-        "destination_iata": "BEY",
-        "destination_airport_name": "Beirut Rafic Hariri International Airport",
-        "destination_city": "Beirut",
-        "destination_country": "Lebanon",
-        "local_departure_time": "00:15",
-        "local_arrival_time": "02:00",
-        "duration": "01:45"
-    },
-    {
         "flight_number": "VF179",
         "airline_name": "AJet",
         "destination_iata": "GYD",
@@ -99,15 +121,70 @@
         "duration": "02:50"
     },
     {
-        "flight_number": "PC860",
+        "flight_number": "VF277",
+        "airline_name": "AJet",
+        "destination_iata": "VKO",
+        "destination_airport_name": "Moscow Vnukovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "00:15",
+        "local_arrival_time": "04:20",
+        "duration": "04:05"
+    },
+    {
+        "flight_number": "PC758",
         "airline_name": "Pegasus",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
+        "destination_iata": "BEY",
+        "destination_airport_name": "Beirut Rafic Hariri International Airport",
+        "destination_city": "Beirut",
+        "destination_country": "Lebanon",
+        "local_departure_time": "00:15",
+        "local_arrival_time": "02:00",
+        "duration": "01:45"
+    },
+    {
+        "flight_number": "VF227",
+        "airline_name": "SmartLynx",
+        "destination_iata": "TBS",
+        "destination_airport_name": "Tbilisi International Airport",
+        "destination_city": "Tbilisi",
+        "destination_country": "Georgia",
+        "local_departure_time": "00:15 / 00:35",
+        "local_arrival_time": "03:30 / 03:50",
+        "duration": "02:15"
+    },
+    {
+        "flight_number": "G9284",
+        "airline_name": "Air Arabia",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
         "local_departure_time": "00:20",
-        "local_arrival_time": "03:50",
-        "duration": "03:30"
+        "local_arrival_time": "05:35",
+        "duration": "04:15"
+    },
+    {
+        "flight_number": "PC4090",
+        "airline_name": "Pegasus",
+        "destination_iata": "ADB",
+        "destination_airport_name": "Izmir Adnan Menderes International Airport",
+        "destination_city": "Izmir",
+        "destination_country": "Turkey",
+        "local_departure_time": "00:20",
+        "local_arrival_time": "01:30",
+        "duration": "01:10"
+    },
+    {
+        "flight_number": "PC2028",
+        "airline_name": "Pegasus",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "00:25",
+        "local_arrival_time": "01:45",
+        "duration": "01:20"
     },
     {
         "flight_number": "VF3128",
@@ -116,8 +193,8 @@
         "destination_airport_name": "Dalaman Airport",
         "destination_city": "Dalaman",
         "destination_country": "Turkey",
-        "local_departure_time": "00:30 / 01:20",
-        "local_arrival_time": "01:50 / 02:40",
+        "local_departure_time": "00:30",
+        "local_arrival_time": "01:50",
         "duration": "01:20"
     },
     {
@@ -130,17 +207,6 @@
         "local_departure_time": "00:35",
         "local_arrival_time": "03:10",
         "duration": "02:35"
-    },
-    {
-        "flight_number": "VF227",
-        "airline_name": "AJet",
-        "destination_iata": "TBS",
-        "destination_airport_name": "Tbilisi International Airport",
-        "destination_city": "Tbilisi",
-        "destination_country": "Georgia",
-        "local_departure_time": "00:35",
-        "local_arrival_time": "03:50",
-        "duration": "02:15"
     },
     {
         "flight_number": "PC390",
@@ -165,37 +231,26 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "XY558",
-        "airline_name": "flynas",
-        "destination_iata": "JED",
-        "destination_airport_name": "Jeddah King Abdulaziz International Airport",
-        "destination_city": "Jeddah",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "00:40",
-        "local_arrival_time": "04:20",
-        "duration": "03:40"
-    },
-    {
-        "flight_number": "VF3014",
-        "airline_name": "AJet",
-        "destination_iata": "ESB",
-        "destination_airport_name": "Ankara Esenboga International Airport",
-        "destination_city": "Ankara",
-        "destination_country": "Turkey",
-        "local_departure_time": "00:45 / 01:10",
-        "local_arrival_time": "01:50 / 02:15",
-        "duration": "01:05"
-    },
-    {
         "flight_number": "VF187",
         "airline_name": "AJet",
         "destination_iata": "IKA",
         "destination_airport_name": "Tehran Imam Khomeini International Airport",
         "destination_city": "Tehran",
         "destination_country": "Iran",
-        "local_departure_time": "00:45 / 01:30",
-        "local_arrival_time": "04:20 / 05:05",
+        "local_departure_time": "00:45",
+        "local_arrival_time": "04:20",
         "duration": "03:05"
+    },
+    {
+        "flight_number": "PC7434",
+        "airline_name": "Pegasus",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "00:45",
+        "local_arrival_time": "03:25",
+        "duration": "02:40"
     },
     {
         "flight_number": "PC748",
@@ -221,7 +276,7 @@
     },
     {
         "flight_number": "VF3048",
-        "airline_name": "AJet",
+        "airline_name": "Turkish Airlines",
         "destination_iata": "AYT",
         "destination_airport_name": "Antalya Airport",
         "destination_city": "Antalya",
@@ -231,36 +286,36 @@
         "duration": "01:25"
     },
     {
-        "flight_number": "VF229",
+        "flight_number": "VF3014",
         "airline_name": "AJet",
-        "destination_iata": "TBS",
-        "destination_airport_name": "Tbilisi International Airport",
-        "destination_city": "Tbilisi",
-        "destination_country": "Georgia",
-        "local_departure_time": "01:05",
-        "local_arrival_time": "04:20",
-        "duration": "02:15"
-    },
-    {
-        "flight_number": "VF3102",
-        "airline_name": "AJet",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
+        "destination_iata": "ESB",
+        "destination_airport_name": "Ankara Esenboga International Airport",
+        "destination_city": "Ankara",
         "destination_country": "Turkey",
-        "local_departure_time": "01:05 / 01:30",
-        "local_arrival_time": "02:30 / 02:55",
-        "duration": "01:25"
+        "local_departure_time": "01:10",
+        "local_arrival_time": "02:15",
+        "duration": "01:05"
     },
     {
-        "flight_number": "XY260",
-        "airline_name": "flynas",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
+        "flight_number": "PC283",
+        "airline_name": "Pegasus",
+        "destination_iata": "TIA",
+        "destination_airport_name": "Tirana International Airport",
+        "destination_city": "Tirana",
+        "destination_country": "Albania",
         "local_departure_time": "01:10",
-        "local_arrival_time": "04:55",
+        "local_arrival_time": "01:55",
+        "duration": "01:45"
+    },
+    {
+        "flight_number": "VF293",
+        "airline_name": "AJet",
+        "destination_iata": "LED",
+        "destination_airport_name": "St. Petersburg Pulkovo Airport",
+        "destination_city": "St. Petersburg",
+        "destination_country": "Russia",
+        "local_departure_time": "01:15",
+        "local_arrival_time": "05:00",
         "duration": "03:45"
     },
     {
@@ -270,9 +325,31 @@
         "destination_airport_name": "Izmir Adnan Menderes International Airport",
         "destination_city": "Izmir",
         "destination_country": "Turkey",
-        "local_departure_time": "01:10 / 01:20",
-        "local_arrival_time": "02:25 / 02:35",
+        "local_departure_time": "01:20",
+        "local_arrival_time": "02:35",
         "duration": "01:15"
+    },
+    {
+        "flight_number": "PC7115",
+        "airline_name": "Pegasus",
+        "destination_iata": "CGN",
+        "destination_airport_name": "Cologne Bonn Airport",
+        "destination_city": "Cologne",
+        "destination_country": "Germany",
+        "local_departure_time": "01:20",
+        "local_arrival_time": "03:45",
+        "duration": "03:25"
+    },
+    {
+        "flight_number": null,
+        "airline_name": "Freebird Airlines",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "01:25",
+        "local_arrival_time": "02:38",
+        "duration": "01:13"
     },
     {
         "flight_number": "G9286",
@@ -286,15 +363,15 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "PC7244",
-        "airline_name": "Pegasus",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
-        "destination_country": "Egypt",
+        "flight_number": "3O438",
+        "airline_name": "Air Arabia Maroc",
+        "destination_iata": "CMN",
+        "destination_airport_name": "Casablanca Mohammed V International Airport",
+        "destination_city": "Casablanca",
+        "destination_country": "Morocco",
         "local_departure_time": "01:30",
-        "local_arrival_time": "04:05",
-        "duration": "02:35"
+        "local_arrival_time": "04:35",
+        "duration": "05:05"
     },
     {
         "flight_number": "PC756",
@@ -308,28 +385,6 @@
         "duration": "01:45"
     },
     {
-        "flight_number": "3O438",
-        "airline_name": "Air Arabia Maroc",
-        "destination_iata": "CMN",
-        "destination_airport_name": "Casablanca Mohammed V International Airport",
-        "destination_city": "Casablanca",
-        "destination_country": "Morocco",
-        "local_departure_time": "01:30",
-        "local_arrival_time": "04:35",
-        "duration": "05:05"
-    },
-    {
-        "flight_number": "PC2000",
-        "airline_name": "Pegasus",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "05:35",
-        "local_arrival_time": "06:55",
-        "duration": "01:20"
-    },
-    {
         "flight_number": "VF3030",
         "airline_name": "AJet",
         "destination_iata": "AYT",
@@ -341,14 +396,58 @@
         "duration": "01:25"
     },
     {
+        "flight_number": "PC2000",
+        "airline_name": "Pegasus",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "05:35 / 05:45",
+        "local_arrival_time": "06:55 / 07:05",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "VF3090",
+        "airline_name": "AJet",
+        "destination_iata": "BJV",
+        "destination_airport_name": "Bodrum Milas Airport",
+        "destination_city": "Bodrum",
+        "destination_country": "Turkey",
+        "local_departure_time": "05:45",
+        "local_arrival_time": "07:10",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "VF3120",
+        "airline_name": "AJet",
+        "destination_iata": "DLM",
+        "destination_airport_name": "Dalaman Airport",
+        "destination_city": "Dalaman",
+        "destination_country": "Turkey",
+        "local_departure_time": "05:45",
+        "local_arrival_time": "07:05",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "VF3064",
+        "airline_name": "AJet",
+        "destination_iata": "ADB",
+        "destination_airport_name": "Izmir Adnan Menderes International Airport",
+        "destination_city": "Izmir",
+        "destination_country": "Turkey",
+        "local_departure_time": "05:45",
+        "local_arrival_time": "07:00",
+        "duration": "01:15"
+    },
+    {
         "flight_number": "PC2180",
         "airline_name": "Pegasus",
         "destination_iata": "ADB",
         "destination_airport_name": "Izmir Adnan Menderes International Airport",
         "destination_city": "Izmir",
         "destination_country": "Turkey",
-        "local_departure_time": "05:45",
-        "local_arrival_time": "06:55",
+        "local_departure_time": "05:45 / 05:55",
+        "local_arrival_time": "06:55 / 07:05",
         "duration": "01:10"
     },
     {
@@ -358,9 +457,20 @@
         "destination_airport_name": "Tehran Imam Khomeini International Airport",
         "destination_city": "Tehran",
         "destination_country": "Iran",
-        "local_departure_time": "06:30",
-        "local_arrival_time": "10:05",
+        "local_departure_time": "06:15",
+        "local_arrival_time": "09:50",
         "duration": "03:05"
+    },
+    {
+        "flight_number": "PC2240",
+        "airline_name": "Pegasus",
+        "destination_iata": "BJV",
+        "destination_airport_name": "Bodrum Milas Airport",
+        "destination_city": "Bodrum",
+        "destination_country": "Turkey",
+        "local_departure_time": "06:15",
+        "local_arrival_time": "07:30",
+        "duration": "01:15"
     },
     {
         "flight_number": "PC2002",
@@ -391,9 +501,31 @@
         "destination_airport_name": "Bodrum Milas Airport",
         "destination_city": "Bodrum",
         "destination_country": "Turkey",
-        "local_departure_time": "06:40",
-        "local_arrival_time": "07:55",
+        "local_departure_time": "06:40 / 07:00",
+        "local_arrival_time": "07:55 / 08:15",
         "duration": "01:15"
+    },
+    {
+        "flight_number": "VF3064",
+        "airline_name": "AJet",
+        "destination_iata": "ADB",
+        "destination_airport_name": "Izmir Adnan Menderes International Airport",
+        "destination_city": "Izmir",
+        "destination_country": "Turkey",
+        "local_departure_time": "06:55",
+        "local_arrival_time": "08:10",
+        "duration": "01:15"
+    },
+    {
+        "flight_number": "PC2004",
+        "airline_name": "Pegasus",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "06:55 / 07:15",
+        "local_arrival_time": "08:15 / 08:35",
+        "duration": "01:20"
     },
     {
         "flight_number": "PC2662",
@@ -402,8 +534,8 @@
         "destination_airport_name": "Ankara Esenboga International Airport",
         "destination_city": "Ankara",
         "destination_country": "Turkey",
-        "local_departure_time": "06:55",
-        "local_arrival_time": "08:00",
+        "local_departure_time": "06:55 / 07:20",
+        "local_arrival_time": "08:00 / 08:25",
         "duration": "01:05"
     },
     {
@@ -421,23 +553,12 @@
         "flight_number": "PC1007",
         "airline_name": "Pegasus",
         "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
+        "destination_airport_name": "Dusseldorf Airport",
         "destination_city": "Dusseldorf",
         "destination_country": "Germany",
-        "local_departure_time": "07:10",
-        "local_arrival_time": "09:30",
+        "local_departure_time": "07:10 / 07:15",
+        "local_arrival_time": "09:30 / 09:35",
         "duration": "03:20"
-    },
-    {
-        "flight_number": "PC2004",
-        "airline_name": "Pegasus",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "07:15",
-        "local_arrival_time": "08:35",
-        "duration": "01:20"
     },
     {
         "flight_number": "PC1041",
@@ -462,6 +583,17 @@
         "duration": "01:20"
     },
     {
+        "flight_number": "VF3000",
+        "airline_name": "AJet",
+        "destination_iata": "ESB",
+        "destination_airport_name": "Ankara Esenboga International Airport",
+        "destination_city": "Ankara",
+        "destination_country": "Turkey",
+        "local_departure_time": "07:55",
+        "local_arrival_time": "09:00",
+        "duration": "01:05"
+    },
+    {
         "flight_number": "PC1191",
         "airline_name": "Pegasus",
         "destination_iata": "ATH",
@@ -484,28 +616,6 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "VF3000",
-        "airline_name": "AJet",
-        "destination_iata": "ESB",
-        "destination_airport_name": "Ankara Esenboga International Airport",
-        "destination_city": "Ankara",
-        "destination_country": "Turkey",
-        "local_departure_time": "07:55",
-        "local_arrival_time": "08:55",
-        "duration": "01:00"
-    },
-    {
-        "flight_number": "VF3090",
-        "airline_name": "AJet",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "07:55",
-        "local_arrival_time": "09:20",
-        "duration": "01:25"
-    },
-    {
         "flight_number": "PC2254",
         "airline_name": "Pegasus",
         "destination_iata": "BJV",
@@ -515,6 +625,28 @@
         "local_departure_time": "08:00",
         "local_arrival_time": "09:15",
         "duration": "01:15"
+    },
+    {
+        "flight_number": "PC2006",
+        "airline_name": "Pegasus",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "08:00 / 08:50",
+        "local_arrival_time": "09:20 / 10:10",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "VF3090",
+        "airline_name": "AJet",
+        "destination_iata": "BJV",
+        "destination_airport_name": "Bodrum Milas Airport",
+        "destination_city": "Bodrum",
+        "destination_country": "Turkey",
+        "local_departure_time": "08:05",
+        "local_arrival_time": "09:30",
+        "duration": "01:25"
     },
     {
         "flight_number": "PC905",
@@ -534,9 +666,31 @@
         "destination_airport_name": "Zurich Airport",
         "destination_city": "Zurich",
         "destination_country": "Switzerland",
-        "local_departure_time": "08:25",
-        "local_arrival_time": "10:35",
+        "local_departure_time": "08:15 / 08:25",
+        "local_arrival_time": "10:25 / 10:35",
         "duration": "03:10"
+    },
+    {
+        "flight_number": "PC967",
+        "airline_name": "Pegasus",
+        "destination_iata": "STR",
+        "destination_airport_name": "Stuttgart Airport",
+        "destination_city": "Stuttgart",
+        "destination_country": "Germany",
+        "local_departure_time": "08:25",
+        "local_arrival_time": "10:25",
+        "duration": "03:00"
+    },
+    {
+        "flight_number": "VF3032",
+        "airline_name": "AJet",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "08:25 / 08:45",
+        "local_arrival_time": "09:50 / 10:10",
+        "duration": "01:25"
     },
     {
         "flight_number": "PC1179",
@@ -561,28 +715,6 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "PC947",
-        "airline_name": "Pegasus",
-        "destination_iata": "ZRH",
-        "destination_airport_name": "Zurich Airport",
-        "destination_city": "Zurich",
-        "destination_country": "Switzerland",
-        "local_departure_time": "08:35",
-        "local_arrival_time": "10:35",
-        "duration": "03:00"
-    },
-    {
-        "flight_number": "VF11",
-        "airline_name": "AJet",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "08:35",
-        "local_arrival_time": "11:30",
-        "duration": "03:55"
-    },
-    {
         "flight_number": "VF89",
         "airline_name": "AJet",
         "destination_iata": "CGN",
@@ -594,37 +726,70 @@
         "duration": "03:25"
     },
     {
+        "flight_number": "PC947",
+        "airline_name": "Pegasus",
+        "destination_iata": "ZRH",
+        "destination_airport_name": "Zurich Airport",
+        "destination_city": "Zurich",
+        "destination_country": "Switzerland",
+        "local_departure_time": "08:35",
+        "local_arrival_time": "10:35",
+        "duration": "03:00"
+    },
+    {
         "flight_number": "VF65",
         "airline_name": "AJet",
         "destination_iata": "BRU",
         "destination_airport_name": "Brussels Airport",
         "destination_city": "Brussels",
         "destination_country": "Belgium",
-        "local_departure_time": "08:40",
-        "local_arrival_time": "11:10",
+        "local_departure_time": "08:35 / 08:40",
+        "local_arrival_time": "11:05 / 11:10",
         "duration": "03:30"
     },
     {
-        "flight_number": "VF1987",
+        "flight_number": "VF11",
         "airline_name": "AJet",
-        "destination_iata": "STN",
-        "destination_airport_name": "London Stansted Airport",
-        "destination_city": "London",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "08:45",
-        "local_arrival_time": "10:50",
-        "duration": "04:05"
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "08:35 / 08:45",
+        "local_arrival_time": "11:30 / 11:35",
+        "duration": "03:50"
     },
     {
-        "flight_number": "VF3032",
+        "flight_number": "VF265",
         "airline_name": "AJet",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
+        "destination_iata": "ARN",
+        "destination_airport_name": "Stockholm Arlanda Airport",
+        "destination_city": "Stockholm",
+        "destination_country": "Sweden",
+        "local_departure_time": "08:35 / 08:55",
+        "local_arrival_time": "11:15 / 11:35",
+        "duration": "03:40"
+    },
+    {
+        "flight_number": "PC7241",
+        "airline_name": "Pegasus",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "08:40",
+        "local_arrival_time": "11:20",
+        "duration": "03:40"
+    },
+    {
+        "flight_number": "PC1273",
+        "airline_name": "Pegasus",
+        "destination_iata": "OSL",
+        "destination_airport_name": "Oslo Gardermoen Airport",
+        "destination_city": "Oslo",
+        "destination_country": "Norway",
         "local_departure_time": "08:45",
-        "local_arrival_time": "10:10",
-        "duration": "01:25"
+        "local_arrival_time": "11:35",
+        "duration": "03:50"
     },
     {
         "flight_number": "VF1",
@@ -638,6 +803,39 @@
         "duration": "03:45"
     },
     {
+        "flight_number": "VF1987",
+        "airline_name": "AJet",
+        "destination_iata": "STN",
+        "destination_airport_name": "London Stansted Airport",
+        "destination_city": "London",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "08:45",
+        "local_arrival_time": "10:50",
+        "duration": "04:05"
+    },
+    {
+        "flight_number": "PC1251",
+        "airline_name": "Pegasus",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "08:45 / 08:50",
+        "local_arrival_time": "11:30",
+        "duration": "03:45"
+    },
+    {
+        "flight_number": "PC630",
+        "airline_name": "Pegasus",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "08:50",
+        "local_arrival_time": "11:25",
+        "duration": "02:35"
+    },
+    {
         "flight_number": "PC1211",
         "airline_name": "Pegasus",
         "destination_iata": "BGY",
@@ -647,17 +845,6 @@
         "local_departure_time": "08:50",
         "local_arrival_time": "10:40",
         "duration": "02:50"
-    },
-    {
-        "flight_number": "PC1251",
-        "airline_name": "Pegasus",
-        "destination_iata": "AMS",
-        "destination_airport_name": "Amsterdam Schiphol Airport",
-        "destination_city": "Amsterdam",
-        "destination_country": "Netherlands",
-        "local_departure_time": "08:50",
-        "local_arrival_time": "11:30",
-        "duration": "03:40"
     },
     {
         "flight_number": "VF85",
@@ -680,28 +867,6 @@
         "local_departure_time": "08:50",
         "local_arrival_time": "11:05",
         "duration": "03:15"
-    },
-    {
-        "flight_number": "PC2006",
-        "airline_name": "Pegasus",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "08:50",
-        "local_arrival_time": "10:10",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "VF265",
-        "airline_name": "AJet",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "08:55",
-        "local_arrival_time": "11:35",
-        "duration": "03:40"
     },
     {
         "flight_number": "PC1221",
@@ -737,17 +902,6 @@
         "duration": "03:25"
     },
     {
-        "flight_number": "VF69",
-        "airline_name": "AJet",
-        "destination_iata": "CPH",
-        "destination_airport_name": "Copenhagen Airport",
-        "destination_city": "Copenhagen",
-        "destination_country": "Denmark",
-        "local_departure_time": "09:20",
-        "local_arrival_time": "11:50",
-        "duration": "03:30"
-    },
-    {
         "flight_number": "PC2184",
         "airline_name": "Pegasus",
         "destination_iata": "ADB",
@@ -759,6 +913,39 @@
         "duration": "01:10"
     },
     {
+        "flight_number": "VF69",
+        "airline_name": "AJet",
+        "destination_iata": "CPH",
+        "destination_airport_name": "Copenhagen Airport",
+        "destination_city": "Copenhagen",
+        "destination_country": "Denmark",
+        "local_departure_time": "09:20",
+        "local_arrival_time": "11:50",
+        "duration": "03:30"
+    },
+    {
+        "flight_number": "PC303",
+        "airline_name": "Pegasus",
+        "destination_iata": "PRG",
+        "destination_airport_name": "Prague Vaclav Havel Airport",
+        "destination_city": "Prague",
+        "destination_country": "Czechia",
+        "local_departure_time": "09:20",
+        "local_arrival_time": "11:00",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "VF25",
+        "airline_name": "AJet",
+        "destination_iata": "DUS",
+        "destination_airport_name": "Dusseldorf Airport",
+        "destination_city": "Dusseldorf",
+        "destination_country": "Germany",
+        "local_departure_time": "09:25",
+        "local_arrival_time": "11:45",
+        "duration": "03:20"
+    },
+    {
         "flight_number": "VF57",
         "airline_name": "AJet",
         "destination_iata": "BER",
@@ -766,19 +953,8 @@
         "destination_city": "Berlin",
         "destination_country": "Germany",
         "local_departure_time": "09:25",
-        "local_arrival_time": "11:20",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "VF273",
-        "airline_name": "AJet",
-        "destination_iata": "ALG",
-        "destination_airport_name": "Algiers Houari Boumediene Airport",
-        "destination_city": "Algiers",
-        "destination_country": "Algeria",
-        "local_departure_time": "09:25",
-        "local_arrival_time": "11:15",
-        "duration": "03:50"
+        "local_arrival_time": "11:25",
+        "duration": "03:00"
     },
     {
         "flight_number": "VF81",
@@ -792,15 +968,15 @@
         "duration": "03:35"
     },
     {
-        "flight_number": "VF25",
-        "airline_name": "AJet",
-        "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
-        "destination_city": "Dusseldorf",
-        "destination_country": "Germany",
+        "flight_number": "PC2286",
+        "airline_name": "Pegasus",
+        "destination_iata": "DLM",
+        "destination_airport_name": "Dalaman Airport",
+        "destination_city": "Dalaman",
+        "destination_country": "Turkey",
         "local_departure_time": "09:35",
-        "local_arrival_time": "11:55",
-        "duration": "03:20"
+        "local_arrival_time": "10:50",
+        "duration": "01:15"
     },
     {
         "flight_number": "VF73",
@@ -814,33 +990,11 @@
         "duration": "02:55"
     },
     {
-        "flight_number": "VF277",
-        "airline_name": "AJet",
-        "destination_iata": "VKO",
-        "destination_airport_name": "Moscow Vnukovo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "09:35",
-        "local_arrival_time": "13:40",
-        "duration": "04:05"
-    },
-    {
         "flight_number": "VF3066",
         "airline_name": "AJet",
         "destination_iata": "ADB",
         "destination_airport_name": "Izmir Adnan Menderes International Airport",
         "destination_city": "Izmir",
-        "destination_country": "Turkey",
-        "local_departure_time": "09:35",
-        "local_arrival_time": "10:50",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "PC2286",
-        "airline_name": "Pegasus",
-        "destination_iata": "DLM",
-        "destination_airport_name": "Dalaman Airport",
-        "destination_city": "Dalaman",
         "destination_country": "Turkey",
         "local_departure_time": "09:35",
         "local_arrival_time": "10:50",
@@ -891,17 +1045,6 @@
         "duration": "04:10"
     },
     {
-        "flight_number": "PC1099",
-        "airline_name": "Pegasus",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "09:50",
-        "local_arrival_time": "13:25",
-        "duration": "04:35"
-    },
-    {
         "flight_number": "PC2664",
         "airline_name": "Pegasus",
         "destination_iata": "ESB",
@@ -924,15 +1067,26 @@
         "duration": "02:55"
     },
     {
-        "flight_number": "PC1001",
+        "flight_number": "PC1099",
         "airline_name": "Pegasus",
-        "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
-        "destination_city": "Dusseldorf",
-        "destination_country": "Germany",
+        "destination_iata": "MAD",
+        "destination_airport_name": "Madrid Barajas Airport",
+        "destination_city": "Madrid",
+        "destination_country": "Spain",
+        "local_departure_time": "09:50",
+        "local_arrival_time": "13:25",
+        "duration": "04:35"
+    },
+    {
+        "flight_number": "PC2244",
+        "airline_name": "Pegasus",
+        "destination_iata": "BJV",
+        "destination_airport_name": "Bodrum Milas Airport",
+        "destination_city": "Bodrum",
+        "destination_country": "Turkey",
         "local_departure_time": "10:00",
-        "local_arrival_time": "12:20",
-        "duration": "03:20"
+        "local_arrival_time": "11:15",
+        "duration": "01:15"
     },
     {
         "flight_number": "VF41",
@@ -968,15 +1122,15 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "PC2244",
+        "flight_number": "PC1001",
         "airline_name": "Pegasus",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
+        "destination_iata": "DUS",
+        "destination_airport_name": "Dusseldorf Airport",
+        "destination_city": "Dusseldorf",
+        "destination_country": "Germany",
         "local_departure_time": "10:00",
-        "local_arrival_time": "11:15",
-        "duration": "01:15"
+        "local_arrival_time": "12:20",
+        "duration": "03:20"
     },
     {
         "flight_number": "PC1091",
@@ -990,6 +1144,17 @@
         "duration": "03:40"
     },
     {
+        "flight_number": "PC939",
+        "airline_name": "Pegasus",
+        "destination_iata": "BSL",
+        "destination_airport_name": "Basel Mulhouse-Freiburg EuroAirport",
+        "destination_city": "Basel",
+        "destination_country": "France",
+        "local_departure_time": "10:10",
+        "local_arrival_time": "12:20",
+        "duration": "03:10"
+    },
+    {
         "flight_number": "PC396",
         "airline_name": "Pegasus",
         "destination_iata": "LED",
@@ -999,17 +1164,6 @@
         "local_departure_time": "10:10",
         "local_arrival_time": "13:55",
         "duration": "03:45"
-    },
-    {
-        "flight_number": "VF17",
-        "airline_name": "AJet",
-        "destination_iata": "VIE",
-        "destination_airport_name": "Vienna International Airport",
-        "destination_city": "Vienna",
-        "destination_country": "Austria",
-        "local_departure_time": "10:10",
-        "local_arrival_time": "11:35",
-        "duration": "02:25"
     },
     {
         "flight_number": "VF33",
@@ -1023,26 +1177,37 @@
         "duration": "03:25"
     },
     {
-        "flight_number": "PC939",
-        "airline_name": "Pegasus",
-        "destination_iata": "BSL",
-        "destination_airport_name": "Basel Mulhouse-Freiburg EuroAirport",
-        "destination_city": "Basel",
-        "destination_country": "France",
+        "flight_number": "VF17",
+        "airline_name": "AJet",
+        "destination_iata": "VIE",
+        "destination_airport_name": "Vienna International Airport",
+        "destination_city": "Vienna",
+        "destination_country": "Austria",
         "local_departure_time": "10:10",
-        "local_arrival_time": "12:20",
-        "duration": "03:10"
+        "local_arrival_time": "11:35",
+        "duration": "02:25"
     },
     {
-        "flight_number": "PC2008",
+        "flight_number": "PC979",
         "airline_name": "Pegasus",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "10:20",
-        "local_arrival_time": "11:40",
-        "duration": "01:20"
+        "destination_iata": "BER",
+        "destination_airport_name": "Berlin Brandenburg Airport",
+        "destination_city": "Berlin",
+        "destination_country": "Germany",
+        "local_departure_time": "10:15",
+        "local_arrival_time": "12:10",
+        "duration": "02:55"
+    },
+    {
+        "flight_number": "PC351",
+        "airline_name": "Pegasus",
+        "destination_iata": "SKP",
+        "destination_airport_name": "Skopje International Airport",
+        "destination_city": "Skopje",
+        "destination_country": "North Macedonia",
+        "local_departure_time": "10:25",
+        "local_arrival_time": "10:55",
+        "duration": "01:30"
     },
     {
         "flight_number": "PC1157",
@@ -1089,6 +1254,17 @@
         "duration": "03:15"
     },
     {
+        "flight_number": "PC1181",
+        "airline_name": "Pegasus",
+        "destination_iata": "MAN",
+        "destination_airport_name": "Manchester Airport",
+        "destination_city": "Manchester",
+        "destination_country": "United Kingdom",
+        "local_departure_time": "10:30",
+        "local_arrival_time": "12:50",
+        "duration": "04:20"
+    },
+    {
         "flight_number": "PC1133",
         "airline_name": "Pegasus",
         "destination_iata": "ORY",
@@ -1100,15 +1276,15 @@
         "duration": "03:45"
     },
     {
-        "flight_number": "PC1181",
+        "flight_number": "PC1265",
         "airline_name": "Pegasus",
-        "destination_iata": "MAN",
-        "destination_airport_name": "Manchester Airport",
-        "destination_city": "Manchester",
-        "destination_country": "United Kingdom",
-        "local_departure_time": "10:30",
-        "local_arrival_time": "12:50",
-        "duration": "04:20"
+        "destination_iata": "EIN",
+        "destination_airport_name": "Eindhoven Airport",
+        "destination_city": "Eindhoven",
+        "destination_country": "Netherlands",
+        "local_departure_time": "10:35",
+        "local_arrival_time": "13:10",
+        "duration": "03:35"
     },
     {
         "flight_number": "J28104",
@@ -1122,61 +1298,6 @@
         "duration": "02:50"
     },
     {
-        "flight_number": "PC261",
-        "airline_name": "Pegasus",
-        "destination_iata": "TGD",
-        "destination_airport_name": "Podgorica Airport",
-        "destination_city": "Podgorica",
-        "destination_country": "Montenegro",
-        "local_departure_time": "10:45",
-        "local_arrival_time": "11:35",
-        "duration": "01:50"
-    },
-    {
-        "flight_number": "PC1273",
-        "airline_name": "Pegasus",
-        "destination_iata": "OSL",
-        "destination_airport_name": "Oslo Gardermoen Airport",
-        "destination_city": "Oslo",
-        "destination_country": "Norway",
-        "local_departure_time": "10:45",
-        "local_arrival_time": "13:35",
-        "duration": "03:50"
-    },
-    {
-        "flight_number": "PC979",
-        "airline_name": "Pegasus",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "10:55",
-        "local_arrival_time": "12:50",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "PC2188",
-        "airline_name": "Pegasus",
-        "destination_iata": "ADB",
-        "destination_airport_name": "Izmir Adnan Menderes International Airport",
-        "destination_city": "Izmir",
-        "destination_country": "Turkey",
-        "local_departure_time": "10:55",
-        "local_arrival_time": "12:05",
-        "duration": "01:10"
-    },
-    {
-        "flight_number": "PC750",
-        "airline_name": "Pegasus",
-        "destination_iata": "ALG",
-        "destination_airport_name": "Algiers Houari Boumediene Airport",
-        "destination_city": "Algiers",
-        "destination_country": "Algeria",
-        "local_departure_time": "11:00",
-        "local_arrival_time": "12:45",
-        "duration": "03:45"
-    },
-    {
         "flight_number": "PC953",
         "airline_name": "Pegasus",
         "destination_iata": "GVA",
@@ -1188,6 +1309,17 @@
         "duration": "03:15"
     },
     {
+        "flight_number": "PC1125",
+        "airline_name": "Pegasus",
+        "destination_iata": "MRS",
+        "destination_airport_name": "Marseille Provence Airport",
+        "destination_city": "Marseille",
+        "destination_country": "France",
+        "local_departure_time": "11:00",
+        "local_arrival_time": "13:20",
+        "duration": "03:20"
+    },
+    {
         "flight_number": "PC1310",
         "airline_name": "Pegasus",
         "destination_iata": "HEL",
@@ -1197,6 +1329,17 @@
         "local_departure_time": "11:00",
         "local_arrival_time": "14:40",
         "duration": "03:40"
+    },
+    {
+        "flight_number": "PC2008",
+        "airline_name": "Pegasus",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "11:05",
+        "local_arrival_time": "12:25",
+        "duration": "01:20"
     },
     {
         "flight_number": "PC969",
@@ -1243,6 +1386,28 @@
         "duration": "03:15"
     },
     {
+        "flight_number": "PC1149",
+        "airline_name": "Pegasus",
+        "destination_iata": "NCE",
+        "destination_airport_name": "Nice Cote d'Azur Airport",
+        "destination_city": "Nice",
+        "destination_country": "France",
+        "local_departure_time": "11:25",
+        "local_arrival_time": "13:40",
+        "duration": "03:15"
+    },
+    {
+        "flight_number": "VF3034",
+        "airline_name": "AJet",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "11:25",
+        "local_arrival_time": "12:50",
+        "duration": "01:25"
+    },
+    {
         "flight_number": "PC1161",
         "airline_name": "Pegasus",
         "destination_iata": "STN",
@@ -1254,26 +1419,15 @@
         "duration": "04:00"
     },
     {
-        "flight_number": "VF3122",
+        "flight_number": "VF391",
         "airline_name": "AJet",
-        "destination_iata": "DLM",
-        "destination_airport_name": "Dalaman Airport",
-        "destination_city": "Dalaman",
-        "destination_country": "Turkey",
-        "local_departure_time": "11:35",
-        "local_arrival_time": "12:55",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "VF3034",
-        "airline_name": "AJet",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
         "local_departure_time": "11:40",
-        "local_arrival_time": "13:05",
-        "duration": "01:25"
+        "local_arrival_time": "14:00",
+        "duration": "02:20"
     },
     {
         "flight_number": "PC331",
@@ -1331,26 +1485,15 @@
         "duration": "03:15"
     },
     {
-        "flight_number": "PC1235",
+        "flight_number": "PC285",
         "airline_name": "Pegasus",
-        "destination_iata": "VCE",
-        "destination_airport_name": "Venice Marco Polo Airport",
-        "destination_city": "Venice",
-        "destination_country": "Italy",
-        "local_departure_time": "12:10",
-        "local_arrival_time": "13:50",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "PC1101",
-        "airline_name": "Pegasus",
-        "destination_iata": "MAD",
-        "destination_airport_name": "Madrid Barajas Airport",
-        "destination_city": "Madrid",
-        "destination_country": "Spain",
-        "local_departure_time": "12:20",
-        "local_arrival_time": "15:55",
-        "duration": "04:35"
+        "destination_iata": "TIA",
+        "destination_airport_name": "Tirana International Airport",
+        "destination_city": "Tirana",
+        "destination_country": "Albania",
+        "local_departure_time": "12:25",
+        "local_arrival_time": "13:10",
+        "duration": "01:45"
     },
     {
         "flight_number": "PC1027",
@@ -1375,6 +1518,17 @@
         "duration": "02:55"
     },
     {
+        "flight_number": "PC2248",
+        "airline_name": "Pegasus",
+        "destination_iata": "BJV",
+        "destination_airport_name": "Bodrum Milas Airport",
+        "destination_city": "Bodrum",
+        "destination_country": "Turkey",
+        "local_departure_time": "12:30",
+        "local_arrival_time": "13:45",
+        "duration": "01:15"
+    },
+    {
         "flight_number": "PC1073",
         "airline_name": "Pegasus",
         "destination_iata": "CPH",
@@ -1386,15 +1540,15 @@
         "duration": "03:20"
     },
     {
-        "flight_number": "PC2282",
-        "airline_name": "Pegasus",
-        "destination_iata": "DLM",
-        "destination_airport_name": "Dalaman Airport",
-        "destination_city": "Dalaman",
-        "destination_country": "Turkey",
+        "flight_number": "VF263",
+        "airline_name": "AJet",
+        "destination_iata": "SKP",
+        "destination_airport_name": "Skopje International Airport",
+        "destination_city": "Skopje",
+        "destination_country": "North Macedonia",
         "local_departure_time": "12:35",
-        "local_arrival_time": "13:50",
-        "duration": "01:15"
+        "local_arrival_time": "13:05",
+        "duration": "01:30"
     },
     {
         "flight_number": "VF1989",
@@ -1404,8 +1558,8 @@
         "destination_city": "London",
         "destination_country": "United Kingdom",
         "local_departure_time": "12:35",
-        "local_arrival_time": "14:40",
-        "duration": "04:05"
+        "local_arrival_time": "14:35",
+        "duration": "04:00"
     },
     {
         "flight_number": "PC1217",
@@ -1430,15 +1584,15 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "VF177",
+        "flight_number": "VF3068",
         "airline_name": "AJet",
-        "destination_iata": "GYD",
-        "destination_airport_name": "Baku Heydar Aliyev International Airport",
-        "destination_city": "Baku",
-        "destination_country": "Azerbaijan",
+        "destination_iata": "ADB",
+        "destination_airport_name": "Izmir Adnan Menderes International Airport",
+        "destination_city": "Izmir",
+        "destination_country": "Turkey",
         "local_departure_time": "12:45",
-        "local_arrival_time": "16:35",
-        "duration": "02:50"
+        "local_arrival_time": "14:00",
+        "duration": "01:15"
     },
     {
         "flight_number": "PC1281",
@@ -1452,37 +1606,15 @@
         "duration": "03:40"
     },
     {
-        "flight_number": "VF3036",
+        "flight_number": "VF3124",
         "airline_name": "AJet",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
+        "destination_iata": "DLM",
+        "destination_airport_name": "Dalaman Airport",
+        "destination_city": "Dalaman",
         "destination_country": "Turkey",
-        "local_departure_time": "12:50",
-        "local_arrival_time": "14:15",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "PC1125",
-        "airline_name": "Pegasus",
-        "destination_iata": "MRS",
-        "destination_airport_name": "Marseille Provence Airport",
-        "destination_city": "Marseille",
-        "destination_country": "France",
-        "local_departure_time": "12:55",
-        "local_arrival_time": "15:15",
-        "duration": "03:20"
-    },
-    {
-        "flight_number": "VF113",
-        "airline_name": "AJet",
-        "destination_iata": "BEG",
-        "destination_airport_name": "Belgrade Nikola Tesla Airport",
-        "destination_city": "Belgrade",
-        "destination_country": "Serbia",
-        "local_departure_time": "12:55",
-        "local_arrival_time": "13:35",
-        "duration": "01:40"
+        "local_departure_time": "13:00",
+        "local_arrival_time": "14:20",
+        "duration": "01:20"
     },
     {
         "flight_number": "PC949",
@@ -1507,17 +1639,6 @@
         "duration": "03:05"
     },
     {
-        "flight_number": "VF263",
-        "airline_name": "AJet",
-        "destination_iata": "SKP",
-        "destination_airport_name": "Skopje International Airport",
-        "destination_city": "Skopje",
-        "destination_country": "North Macedonia",
-        "local_departure_time": "13:05",
-        "local_arrival_time": "13:35",
-        "duration": "01:30"
-    },
-    {
         "flight_number": "PC301",
         "airline_name": "Pegasus",
         "destination_iata": "PRG",
@@ -1540,21 +1661,10 @@
         "duration": "02:05"
     },
     {
-        "flight_number": "PC351",
-        "airline_name": "Pegasus",
-        "destination_iata": "SKP",
-        "destination_airport_name": "Skopje International Airport",
-        "destination_city": "Skopje",
-        "destination_country": "North Macedonia",
-        "local_departure_time": "13:15",
-        "local_arrival_time": "13:45",
-        "duration": "01:30"
-    },
-    {
         "flight_number": "VF27",
         "airline_name": "AJet",
         "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
+        "destination_airport_name": "Dusseldorf Airport",
         "destination_city": "Dusseldorf",
         "destination_country": "Germany",
         "local_departure_time": "13:15",
@@ -1562,70 +1672,26 @@
         "duration": "03:20"
     },
     {
-        "flight_number": "VF9",
+        "flight_number": "VF3004",
         "airline_name": "AJet",
-        "destination_iata": "CDG",
-        "destination_airport_name": "Paris Charles de Gaulle Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "13:25",
-        "local_arrival_time": "16:25",
-        "duration": "04:00"
-    },
-    {
-        "flight_number": "PC518",
-        "airline_name": "Pegasus",
-        "destination_iata": "IKA",
-        "destination_airport_name": "Tehran Imam Khomeini International Airport",
-        "destination_city": "Tehran",
-        "destination_country": "Iran",
-        "local_departure_time": "13:30",
-        "local_arrival_time": "17:05",
-        "duration": "03:05"
-    },
-    {
-        "flight_number": "PC2248",
-        "airline_name": "Pegasus",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
+        "destination_iata": "ESB",
+        "destination_airport_name": "Ankara Esenboga International Airport",
+        "destination_city": "Ankara",
         "destination_country": "Turkey",
-        "local_departure_time": "13:30",
-        "local_arrival_time": "14:45",
-        "duration": "01:15"
+        "local_departure_time": "13:20",
+        "local_arrival_time": "14:25",
+        "duration": "01:05"
     },
     {
-        "flight_number": "PC1017",
-        "airline_name": "Pegasus",
-        "destination_iata": "CGN",
-        "destination_airport_name": "Cologne Bonn Airport",
-        "destination_city": "Cologne",
-        "destination_country": "Germany",
-        "local_departure_time": "13:35",
-        "local_arrival_time": "16:00",
-        "duration": "03:25"
-    },
-    {
-        "flight_number": "PC1135",
-        "airline_name": "Pegasus",
-        "destination_iata": "ORY",
-        "destination_airport_name": "Paris Orly Airport",
-        "destination_city": "Paris",
-        "destination_country": "France",
-        "local_departure_time": "13:35",
-        "local_arrival_time": "16:20",
-        "duration": "03:45"
-    },
-    {
-        "flight_number": "VF67",
+        "flight_number": "VF177",
         "airline_name": "AJet",
-        "destination_iata": "BRU",
-        "destination_airport_name": "Brussels Airport",
-        "destination_city": "Brussels",
-        "destination_country": "Belgium",
-        "local_departure_time": "13:35",
-        "local_arrival_time": "16:05",
-        "duration": "03:30"
+        "destination_iata": "GYD",
+        "destination_airport_name": "Baku Heydar Aliyev International Airport",
+        "destination_city": "Baku",
+        "destination_country": "Azerbaijan",
+        "local_departure_time": "13:25",
+        "local_arrival_time": "17:15",
+        "duration": "02:50"
     },
     {
         "flight_number": "QR242",
@@ -1639,15 +1705,15 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "PC1003",
+        "flight_number": "PC1135",
         "airline_name": "Pegasus",
-        "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
-        "destination_city": "Dusseldorf",
-        "destination_country": "Germany",
-        "local_departure_time": "13:40",
-        "local_arrival_time": "16:00",
-        "duration": "03:20"
+        "destination_iata": "ORY",
+        "destination_airport_name": "Paris Orly Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
+        "local_departure_time": "13:35",
+        "local_arrival_time": "16:20",
+        "duration": "03:45"
     },
     {
         "flight_number": "PC1165",
@@ -1661,15 +1727,15 @@
         "duration": "04:00"
     },
     {
-        "flight_number": "PC1021",
+        "flight_number": "PC1003",
         "airline_name": "Pegasus",
-        "destination_iata": "MUC",
-        "destination_airport_name": "Munich Airport",
-        "destination_city": "Munich",
+        "destination_iata": "DUS",
+        "destination_airport_name": "Dusseldorf Airport",
+        "destination_city": "Dusseldorf",
         "destination_country": "Germany",
-        "local_departure_time": "13:45",
-        "local_arrival_time": "15:30",
-        "duration": "02:45"
+        "local_departure_time": "13:40",
+        "local_arrival_time": "16:00",
+        "duration": "03:20"
     },
     {
         "flight_number": "PC316",
@@ -1683,6 +1749,17 @@
         "duration": "02:15"
     },
     {
+        "flight_number": "PC1021",
+        "airline_name": "Pegasus",
+        "destination_iata": "MUC",
+        "destination_airport_name": "Munich Airport",
+        "destination_city": "Munich",
+        "destination_country": "Germany",
+        "local_departure_time": "13:45",
+        "local_arrival_time": "15:30",
+        "duration": "02:45"
+    },
+    {
         "flight_number": "XY258",
         "airline_name": "flynas",
         "destination_iata": "RUH",
@@ -1694,26 +1771,48 @@
         "duration": "03:45"
     },
     {
-        "flight_number": "PC285",
+        "flight_number": "PC1017",
         "airline_name": "Pegasus",
-        "destination_iata": "TIA",
-        "destination_airport_name": "Tirana International Airport",
-        "destination_city": "Tirana",
-        "destination_country": "Albania",
-        "local_departure_time": "14:00",
-        "local_arrival_time": "14:45",
-        "duration": "01:45"
+        "destination_iata": "CGN",
+        "destination_airport_name": "Cologne Bonn Airport",
+        "destination_city": "Cologne",
+        "destination_country": "Germany",
+        "local_departure_time": "13:55",
+        "local_arrival_time": "16:20",
+        "duration": "03:25"
     },
     {
-        "flight_number": "FZ752",
-        "airline_name": "flydubai",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
+        "flight_number": "PC977",
+        "airline_name": "Pegasus",
+        "destination_iata": "BER",
+        "destination_airport_name": "Berlin Brandenburg Airport",
+        "destination_city": "Berlin",
+        "destination_country": "Germany",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "15:55",
+        "duration": "02:55"
+    },
+    {
+        "flight_number": "VF3036",
+        "airline_name": "AJet",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "15:25",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "PC955",
+        "airline_name": "Pegasus",
+        "destination_iata": "GVA",
+        "destination_airport_name": "Geneva International Airport",
+        "destination_city": "Geneva",
+        "destination_country": "Switzerland",
         "local_departure_time": "14:05",
-        "local_arrival_time": "19:35",
-        "duration": "04:30"
+        "local_arrival_time": "16:20",
+        "duration": "03:15"
     },
     {
         "flight_number": "VF3",
@@ -1727,6 +1826,17 @@
         "duration": "03:40"
     },
     {
+        "flight_number": "FZ752",
+        "airline_name": "flydubai",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "14:05",
+        "local_arrival_time": "19:35",
+        "duration": "04:30"
+    },
+    {
         "flight_number": "PC1045",
         "airline_name": "Pegasus",
         "destination_iata": "HAM",
@@ -1738,39 +1848,6 @@
         "duration": "03:15"
     },
     {
-        "flight_number": "PC2252",
-        "airline_name": "Pegasus",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "14:20",
-        "local_arrival_time": "15:35",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "PC2674",
-        "airline_name": "Pegasus",
-        "destination_iata": "ESB",
-        "destination_airport_name": "Ankara Esenboga International Airport",
-        "destination_city": "Ankara",
-        "destination_country": "Turkey",
-        "local_departure_time": "14:20",
-        "local_arrival_time": "15:25",
-        "duration": "01:05"
-    },
-    {
-        "flight_number": "PC2014",
-        "airline_name": "Pegasus",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "14:20",
-        "local_arrival_time": "15:40",
-        "duration": "01:20"
-    },
-    {
         "flight_number": "PC1213",
         "airline_name": "Pegasus",
         "destination_iata": "BGY",
@@ -1780,6 +1857,17 @@
         "local_departure_time": "14:20",
         "local_arrival_time": "16:10",
         "duration": "02:50"
+    },
+    {
+        "flight_number": "PC2010",
+        "airline_name": "Pegasus",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "14:20",
+        "local_arrival_time": "15:40",
+        "duration": "01:20"
     },
     {
         "flight_number": "PC995",
@@ -1804,17 +1892,6 @@
         "duration": "03:15"
     },
     {
-        "flight_number": "PC977",
-        "airline_name": "Pegasus",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "14:40",
-        "local_arrival_time": "16:35",
-        "duration": "02:55"
-    },
-    {
         "flight_number": "PC1257",
         "airline_name": "Pegasus",
         "destination_iata": "AMS",
@@ -1835,17 +1912,6 @@
         "local_departure_time": "14:45",
         "local_arrival_time": "17:30",
         "duration": "02:45"
-    },
-    {
-        "flight_number": "OV826",
-        "airline_name": "SalamAir",
-        "destination_iata": "MCT",
-        "destination_airport_name": "Muscat International Airport",
-        "destination_city": "Muscat",
-        "destination_country": "Oman",
-        "local_departure_time": "14:45",
-        "local_arrival_time": "20:40",
-        "duration": "04:55"
     },
     {
         "flight_number": "PC941",
@@ -1870,15 +1936,26 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "J9306",
-        "airline_name": "Jazeera Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "15:00",
-        "local_arrival_time": "18:20",
-        "duration": "03:20"
+        "flight_number": "SM304",
+        "airline_name": "Air Cairo",
+        "destination_iata": "CAI",
+        "destination_airport_name": "Cairo International Airport",
+        "destination_city": "Cairo",
+        "destination_country": "Egypt",
+        "local_departure_time": "14:55",
+        "local_arrival_time": "17:05",
+        "duration": "02:10"
+    },
+    {
+        "flight_number": "PC375",
+        "airline_name": "Pegasus",
+        "destination_iata": "ZAG",
+        "destination_airport_name": "Zagreb Franjo Tudman Airport",
+        "destination_city": "Zagreb",
+        "destination_country": "Croatia",
+        "local_departure_time": "15:05",
+        "local_arrival_time": "16:20",
+        "duration": "02:15"
     },
     {
         "flight_number": "PC373",
@@ -1904,7 +1981,7 @@
     },
     {
         "flight_number": "E5988",
-        "airline_name": "Air Arabia",
+        "airline_name": "Air Arabia Egypt",
         "destination_iata": "CAI",
         "destination_airport_name": "Cairo International Airport",
         "destination_city": "Cairo",
@@ -1914,47 +1991,14 @@
         "duration": "02:15"
     },
     {
-        "flight_number": "XY840",
-        "airline_name": "flynas",
-        "destination_iata": "DMM",
-        "destination_airport_name": "Dammam King Fahd International Airport",
-        "destination_city": "Dammam",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "15:35",
-        "local_arrival_time": "19:25",
-        "duration": "03:50"
-    },
-    {
-        "flight_number": "VF3094",
-        "airline_name": "AJet",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "15:35",
-        "local_arrival_time": "17:00",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "PC903",
-        "airline_name": "Pegasus",
-        "destination_iata": "VIE",
-        "destination_airport_name": "Vienna International Airport",
-        "destination_city": "Vienna",
-        "destination_country": "Austria",
-        "local_departure_time": "15:35 / 15:45",
-        "local_arrival_time": "16:55 / 17:05",
-        "duration": "02:20"
-    },
-    {
         "flight_number": "VF3038",
-        "airline_name": "Turkish Airlines",
+        "airline_name": "AJet",
         "destination_iata": "AYT",
         "destination_airport_name": "Antalya Airport",
         "destination_city": "Antalya",
         "destination_country": "Turkey",
-        "local_departure_time": "15:40 / 15:50",
-        "local_arrival_time": "17:05 / 17:15",
+        "local_departure_time": "15:40",
+        "local_arrival_time": "17:05",
         "duration": "01:25"
     },
     {
@@ -1964,53 +2008,20 @@
         "destination_airport_name": "London Stansted Airport",
         "destination_city": "London",
         "destination_country": "United Kingdom",
-        "local_departure_time": "15:40 / 15:55",
-        "local_arrival_time": "17:40 / 17:55",
+        "local_departure_time": "15:40",
+        "local_arrival_time": "17:40",
         "duration": "04:00"
     },
     {
-        "flight_number": "PC2194",
+        "flight_number": "PC903",
         "airline_name": "Pegasus",
-        "destination_iata": "ADB",
-        "destination_airport_name": "Izmir Adnan Menderes International Airport",
-        "destination_city": "Izmir",
-        "destination_country": "Turkey",
+        "destination_iata": "VIE",
+        "destination_airport_name": "Vienna International Airport",
+        "destination_city": "Vienna",
+        "destination_country": "Austria",
         "local_departure_time": "15:45",
-        "local_arrival_time": "16:55",
-        "duration": "01:10"
-    },
-    {
-        "flight_number": "PC1312",
-        "airline_name": "Pegasus",
-        "destination_iata": "HEL",
-        "destination_airport_name": "Helsinki Vantaa Airport",
-        "destination_city": "Helsinki",
-        "destination_country": "Finland",
-        "local_departure_time": "15:45",
-        "local_arrival_time": "19:25",
-        "duration": "03:40"
-    },
-    {
-        "flight_number": "F3572",
-        "airline_name": "flyadeal",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "15:55",
-        "local_arrival_time": "19:45",
-        "duration": "03:50"
-    },
-    {
-        "flight_number": "VF3006",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "ESB",
-        "destination_airport_name": "Ankara Esenboga International Airport",
-        "destination_city": "Ankara",
-        "destination_country": "Turkey",
-        "local_departure_time": "15:55 / 16:00",
-        "local_arrival_time": "17:00 / 17:05",
-        "duration": "01:05"
+        "local_arrival_time": "17:05",
+        "duration": "02:20"
     },
     {
         "flight_number": "J28106",
@@ -2019,42 +2030,20 @@
         "destination_airport_name": "Baku Heydar Aliyev International Airport",
         "destination_city": "Baku",
         "destination_country": "Azerbaijan",
-        "local_departure_time": "15:55 / 16:45",
-        "local_arrival_time": "19:45 / 20:35",
+        "local_departure_time": "15:55",
+        "local_arrival_time": "19:45",
         "duration": "02:50"
     },
     {
-        "flight_number": "PC2252",
-        "airline_name": "Pegasus",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
+        "flight_number": "VF3006",
+        "airline_name": "AJet",
+        "destination_iata": "ESB",
+        "destination_airport_name": "Ankara Esenboga International Airport",
+        "destination_city": "Ankara",
         "destination_country": "Turkey",
-        "local_departure_time": "16:05",
-        "local_arrival_time": "17:20",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "PC271",
-        "airline_name": "Pegasus",
-        "destination_iata": "SOF",
-        "destination_airport_name": "Sofia Vasil Levski Airport",
-        "destination_city": "Sofia",
-        "destination_country": "Bulgaria",
-        "local_departure_time": "16:05",
-        "local_arrival_time": "17:25",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "NP192",
-        "airline_name": "Nile Air",
-        "destination_iata": "CAI",
-        "destination_airport_name": "Cairo International Airport",
-        "destination_city": "Cairo",
-        "destination_country": "Egypt",
-        "local_departure_time": "16:05 / 16:20",
-        "local_arrival_time": "18:10 / 18:25",
-        "duration": "02:05"
+        "local_departure_time": "15:55",
+        "local_arrival_time": "17:00",
+        "duration": "01:05"
     },
     {
         "flight_number": "BA603",
@@ -2074,8 +2063,8 @@
         "destination_airport_name": "Izmir Adnan Menderes International Airport",
         "destination_city": "Izmir",
         "destination_country": "Turkey",
-        "local_departure_time": "16:10 / 16:15",
-        "local_arrival_time": "17:20 / 17:25",
+        "local_departure_time": "16:15",
+        "local_arrival_time": "17:25",
         "duration": "01:10"
     },
     {
@@ -2090,59 +2079,15 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "PC1283",
-        "airline_name": "Pegasus",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "16:15",
-        "local_arrival_time": "18:55",
-        "duration": "03:40"
-    },
-    {
-        "flight_number": "PC2250",
-        "airline_name": "Pegasus",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "16:15",
-        "local_arrival_time": "17:30",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "PC2290",
-        "airline_name": "Pegasus",
-        "destination_iata": "DLM",
-        "destination_airport_name": "Dalaman Airport",
-        "destination_city": "Dalaman",
-        "destination_country": "Turkey",
-        "local_departure_time": "16:15",
-        "local_arrival_time": "17:30",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": null,
-        "airline_name": "Freebird Airlines",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
+        "flight_number": "VF3070",
+        "airline_name": "AJet",
+        "destination_iata": "ADB",
+        "destination_airport_name": "Izmir Adnan Menderes International Airport",
+        "destination_city": "Izmir",
         "destination_country": "Turkey",
         "local_departure_time": "16:20",
-        "local_arrival_time": "17:36",
-        "duration": "01:16"
-    },
-    {
-        "flight_number": "VF19",
-        "airline_name": "AJet",
-        "destination_iata": "VIE",
-        "destination_airport_name": "Vienna International Airport",
-        "destination_city": "Vienna",
-        "destination_country": "Austria",
-        "local_departure_time": "16:25",
-        "local_arrival_time": "17:50",
-        "duration": "02:25"
+        "local_arrival_time": "17:35",
+        "duration": "01:15"
     },
     {
         "flight_number": "PC2018",
@@ -2151,42 +2096,9 @@
         "destination_airport_name": "Antalya Airport",
         "destination_city": "Antalya",
         "destination_country": "Turkey",
-        "local_departure_time": "16:25 / 17:20",
-        "local_arrival_time": "17:45 / 18:40",
+        "local_departure_time": "16:25",
+        "local_arrival_time": "17:45",
         "duration": "01:20"
-    },
-    {
-        "flight_number": "PC361",
-        "airline_name": "Pegasus",
-        "destination_iata": "OTP",
-        "destination_airport_name": "Bucharest Henri Coanda International Airport",
-        "destination_city": "Bucharest",
-        "destination_country": "Romania",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "17:50",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "PC983",
-        "airline_name": "Pegasus",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "16:40",
-        "local_arrival_time": "18:35",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "VF3070",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "ADB",
-        "destination_airport_name": "Izmir Adnan Menderes International Airport",
-        "destination_city": "Izmir",
-        "destination_country": "Turkey",
-        "local_departure_time": "16:45",
-        "local_arrival_time": "18:00",
-        "duration": "01:15"
     },
     {
         "flight_number": "PC1023",
@@ -2195,37 +2107,15 @@
         "destination_airport_name": "Munich Airport",
         "destination_city": "Munich",
         "destination_country": "Germany",
-        "local_departure_time": "16:45 / 17:00",
-        "local_arrival_time": "18:30 / 18:45",
+        "local_departure_time": "17:00",
+        "local_arrival_time": "18:45",
         "duration": "02:45"
-    },
-    {
-        "flight_number": "VF3096",
-        "airline_name": "AJet",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "16:55",
-        "local_arrival_time": "18:20",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "PC2010",
-        "airline_name": "Pegasus",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "16:55",
-        "local_arrival_time": "18:15",
-        "duration": "01:20"
     },
     {
         "flight_number": "PC1005",
         "airline_name": "Pegasus",
         "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
+        "destination_airport_name": "Dusseldorf Airport",
         "destination_city": "Dusseldorf",
         "destination_country": "Germany",
         "local_departure_time": "17:05",
@@ -2233,26 +2123,26 @@
         "duration": "03:20"
     },
     {
-        "flight_number": "VF29",
-        "airline_name": "Turkish Airlines",
-        "destination_iata": "DUS",
-        "destination_airport_name": "Dusseldorf International Airport",
-        "destination_city": "Dusseldorf",
+        "flight_number": "PC983",
+        "airline_name": "Pegasus",
+        "destination_iata": "BER",
+        "destination_airport_name": "Berlin Brandenburg Airport",
+        "destination_city": "Berlin",
         "destination_country": "Germany",
-        "local_departure_time": "17:05 / 17:15",
-        "local_arrival_time": "19:25 / 19:35",
-        "duration": "03:20"
+        "local_departure_time": "17:10",
+        "local_arrival_time": "19:05",
+        "duration": "02:55"
     },
     {
-        "flight_number": "VF3038",
+        "flight_number": "VF29",
         "airline_name": "AJet",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "17:20",
-        "local_arrival_time": "18:40",
-        "duration": "01:20"
+        "destination_iata": "DUS",
+        "destination_airport_name": "Dusseldorf Airport",
+        "destination_city": "Dusseldorf",
+        "destination_country": "Germany",
+        "local_departure_time": "17:15",
+        "local_arrival_time": "19:35",
+        "duration": "03:20"
     },
     {
         "flight_number": "PC2194",
@@ -2261,42 +2151,9 @@
         "destination_airport_name": "Izmir Adnan Menderes International Airport",
         "destination_city": "Izmir",
         "destination_country": "Turkey",
-        "local_departure_time": "17:25",
-        "local_arrival_time": "18:35",
+        "local_departure_time": "17:20",
+        "local_arrival_time": "18:30",
         "duration": "01:10"
-    },
-    {
-        "flight_number": null,
-        "airline_name": "Pegasus",
-        "destination_iata": "ADB",
-        "destination_airport_name": "Izmir Adnan Menderes International Airport",
-        "destination_city": "Izmir",
-        "destination_country": "Turkey",
-        "local_departure_time": "17:25 / 18:05",
-        "local_arrival_time": "18:24 / 19:13",
-        "duration": "00:59"
-    },
-    {
-        "flight_number": "PC2670",
-        "airline_name": "Pegasus",
-        "destination_iata": "ESB",
-        "destination_airport_name": "Ankara Esenboga International Airport",
-        "destination_city": "Ankara",
-        "destination_country": "Turkey",
-        "local_departure_time": "17:35",
-        "local_arrival_time": "18:40",
-        "duration": "01:05"
-    },
-    {
-        "flight_number": "PC303",
-        "airline_name": "Pegasus",
-        "destination_iata": "PRG",
-        "destination_airport_name": "Prague Vaclav Havel Airport",
-        "destination_city": "Prague",
-        "destination_country": "Czechia",
-        "local_departure_time": "17:35",
-        "local_arrival_time": "19:15",
-        "duration": "02:40"
     },
     {
         "flight_number": "VF3040",
@@ -2305,8 +2162,8 @@
         "destination_airport_name": "Antalya Airport",
         "destination_city": "Antalya",
         "destination_country": "Turkey",
-        "local_departure_time": "17:35 / 18:25",
-        "local_arrival_time": "19:00 / 19:50",
+        "local_departure_time": "17:35",
+        "local_arrival_time": "19:00",
         "duration": "01:25"
     },
     {
@@ -2332,48 +2189,26 @@
         "duration": "02:20"
     },
     {
-        "flight_number": "VF3124",
-        "airline_name": "AJet",
-        "destination_iata": "DLM",
-        "destination_airport_name": "Dalaman Airport",
-        "destination_city": "Dalaman",
-        "destination_country": "Turkey",
-        "local_departure_time": "17:45",
-        "local_arrival_time": "19:05",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "PC2204",
-        "airline_name": "Pegasus",
-        "destination_iata": "ADB",
-        "destination_airport_name": "Izmir Adnan Menderes International Airport",
-        "destination_city": "Izmir",
-        "destination_country": "Turkey",
-        "local_departure_time": "17:45 / 18:05",
-        "local_arrival_time": "18:55 / 19:15",
-        "duration": "01:10"
-    },
-    {
         "flight_number": "PC2016",
         "airline_name": "Pegasus",
         "destination_iata": "AYT",
         "destination_airport_name": "Antalya Airport",
         "destination_city": "Antalya",
         "destination_country": "Turkey",
-        "local_departure_time": "17:50 / 18:10",
-        "local_arrival_time": "19:10 / 19:30",
+        "local_departure_time": "17:50",
+        "local_arrival_time": "19:10",
         "duration": "01:20"
     },
     {
-        "flight_number": "PC1193",
+        "flight_number": "PC2670",
         "airline_name": "Pegasus",
-        "destination_iata": "ATH",
-        "destination_airport_name": "Athens Eleftherios Venizelos",
-        "destination_city": "Athens",
-        "destination_country": "Greece",
+        "destination_iata": "ESB",
+        "destination_airport_name": "Ankara Esenboga International Airport",
+        "destination_city": "Ankara",
+        "destination_country": "Turkey",
         "local_departure_time": "17:55",
-        "local_arrival_time": "19:25",
-        "duration": "01:30"
+        "local_arrival_time": "19:00",
+        "duration": "01:05"
     },
     {
         "flight_number": "PC271",
@@ -2387,36 +2222,14 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "KU158",
-        "airline_name": "Kuwait Airways",
-        "destination_iata": "KWI",
-        "destination_airport_name": "Kuwait International Airport",
-        "destination_city": "Kuwait City",
-        "destination_country": "Kuwait",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "21:30",
-        "duration": "03:30"
-    },
-    {
-        "flight_number": "PC2256",
+        "flight_number": "PC2204",
         "airline_name": "Pegasus",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "19:15",
-        "duration": "01:15"
-    },
-    {
-        "flight_number": "VF5249",
-        "airline_name": "AJet",
         "destination_iata": "ADB",
         "destination_airport_name": "Izmir Adnan Menderes International Airport",
         "destination_city": "Izmir",
         "destination_country": "Turkey",
-        "local_departure_time": "18:00",
-        "local_arrival_time": "19:10",
+        "local_departure_time": "18:05",
+        "local_arrival_time": "19:15",
         "duration": "01:10"
     },
     {
@@ -2453,37 +2266,15 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "PC2208",
-        "airline_name": "Pegasus",
-        "destination_iata": "ADB",
-        "destination_airport_name": "Izmir Adnan Menderes International Airport",
-        "destination_city": "Izmir",
-        "destination_country": "Turkey",
-        "local_departure_time": "18:35",
-        "local_arrival_time": "19:45",
-        "duration": "01:10"
-    },
-    {
         "flight_number": "PC353",
         "airline_name": "Pegasus",
         "destination_iata": "SKP",
         "destination_airport_name": "Skopje International Airport",
         "destination_city": "Skopje",
         "destination_country": "North Macedonia",
-        "local_departure_time": "18:35 / 19:25",
-        "local_arrival_time": "19:05 / 19:55",
+        "local_departure_time": "18:35",
+        "local_arrival_time": "19:05",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "PC2670",
-        "airline_name": "Pegasus",
-        "destination_iata": "ESB",
-        "destination_airport_name": "Ankara Esenboga International Airport",
-        "destination_city": "Ankara",
-        "destination_country": "Turkey",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "20:00",
-        "duration": "01:05"
     },
     {
         "flight_number": "PC2014",
@@ -2497,30 +2288,19 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "PC981",
-        "airline_name": "Pegasus",
-        "destination_iata": "BER",
-        "destination_airport_name": "Berlin Brandenburg Airport",
-        "destination_city": "Berlin",
-        "destination_country": "Germany",
-        "local_departure_time": "19:00",
-        "local_arrival_time": "20:55",
-        "duration": "02:55"
-    },
-    {
         "flight_number": "PC2218",
         "airline_name": "Pegasus",
         "destination_iata": "ADB",
         "destination_airport_name": "Izmir Adnan Menderes International Airport",
         "destination_city": "Izmir",
         "destination_country": "Turkey",
-        "local_departure_time": "19:00 / 19:35",
-        "local_arrival_time": "20:10 / 20:45",
+        "local_departure_time": "19:00",
+        "local_arrival_time": "20:10",
         "duration": "01:10"
     },
     {
         "flight_number": "VF3072",
-        "airline_name": "Turkish Airlines",
+        "airline_name": "AJet",
         "destination_iata": "ADB",
         "destination_airport_name": "Izmir Adnan Menderes International Airport",
         "destination_city": "Izmir",
@@ -2536,46 +2316,13 @@
         "destination_airport_name": "Dalaman Airport",
         "destination_city": "Dalaman",
         "destination_country": "Turkey",
-        "local_departure_time": "19:05 / 19:15",
-        "local_arrival_time": "20:25 / 20:35",
+        "local_departure_time": "19:15",
+        "local_arrival_time": "20:35",
         "duration": "01:20"
     },
     {
-        "flight_number": "VF3098",
-        "airline_name": "AJet",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "20:40",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "VF3100",
-        "airline_name": "AJet",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "20:40",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "VF279",
-        "airline_name": "AJet",
-        "destination_iata": "FRU",
-        "destination_airport_name": "Bishkek Manas International Airport",
-        "destination_city": "Bishkek",
-        "destination_country": "Kyrgyzstan",
-        "local_departure_time": "19:15",
-        "local_arrival_time": "03:30 (+1)",
-        "duration": "05:15"
-    },
-    {
         "flight_number": "VF225",
-        "airline_name": "SmartLynx",
+        "airline_name": "AJet",
         "destination_iata": "TBS",
         "destination_airport_name": "Tbilisi International Airport",
         "destination_city": "Tbilisi",
@@ -2618,39 +2365,6 @@
         "duration": "04:05"
     },
     {
-        "flight_number": "MB9409",
-        "airline_name": "Chrono Aviation",
-        "destination_iata": "LEJ",
-        "destination_airport_name": "Leipzig Halle Airport",
-        "destination_city": "Leipzig",
-        "destination_country": "Germany",
-        "local_departure_time": "19:30",
-        "local_arrival_time": "22:35",
-        "duration": "04:05"
-    },
-    {
-        "flight_number": "VF3042",
-        "airline_name": "AJet",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "19:35",
-        "local_arrival_time": "21:00",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "PC130",
-        "airline_name": "Pegasus",
-        "destination_iata": "KHI",
-        "destination_airport_name": "Karachi Jinnah International Airport",
-        "destination_city": "Karachi",
-        "destination_country": "Pakistan",
-        "local_departure_time": "19:35",
-        "local_arrival_time": "03:25 (+1)",
-        "duration": "05:50"
-    },
-    {
         "flight_number": "VF1991",
         "airline_name": "AJet",
         "destination_iata": "STN",
@@ -2673,17 +2387,6 @@
         "duration": "05:15"
     },
     {
-        "flight_number": "PC692",
-        "airline_name": "Pegasus",
-        "destination_iata": "RUH",
-        "destination_airport_name": "Riyadh King Khalid International Airport",
-        "destination_city": "Riyadh",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "19:50",
-        "local_arrival_time": "23:55",
-        "duration": "04:05"
-    },
-    {
         "flight_number": "VF185",
         "airline_name": "AJet",
         "destination_iata": "IKA",
@@ -2695,17 +2398,6 @@
         "duration": "03:05"
     },
     {
-        "flight_number": "PC2262",
-        "airline_name": "Pegasus",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "19:55 / 20:15",
-        "local_arrival_time": "21:10 / 21:30",
-        "duration": "01:15"
-    },
-    {
         "flight_number": "PC2022",
         "airline_name": "Pegasus",
         "destination_iata": "AYT",
@@ -2715,17 +2407,6 @@
         "local_departure_time": "20:00",
         "local_arrival_time": "21:20",
         "duration": "01:20"
-    },
-    {
-        "flight_number": "PC7281",
-        "airline_name": "Pegasus",
-        "destination_iata": "ARN",
-        "destination_airport_name": "Stockholm Arlanda Airport",
-        "destination_city": "Stockholm",
-        "destination_country": "Sweden",
-        "local_departure_time": "20:00",
-        "local_arrival_time": "22:40",
-        "duration": "03:40"
     },
     {
         "flight_number": "QR244",
@@ -2745,20 +2426,31 @@
         "destination_airport_name": "Ankara Esenboga International Airport",
         "destination_city": "Ankara",
         "destination_country": "Turkey",
-        "local_departure_time": "20:10 / 20:40",
-        "local_arrival_time": "21:15 / 21:45",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "21:15",
         "duration": "01:05"
     },
     {
-        "flight_number": "PC704",
+        "flight_number": "PC130",
         "airline_name": "Pegasus",
-        "destination_iata": "FRU",
-        "destination_airport_name": "Bishkek Manas International Airport",
-        "destination_city": "Bishkek",
-        "destination_country": "Kyrgyzstan",
+        "destination_iata": "KHI",
+        "destination_airport_name": "Karachi Jinnah International Airport",
+        "destination_city": "Karachi",
+        "destination_country": "Pakistan",
+        "local_departure_time": "20:10",
+        "local_arrival_time": "03:25 (+1)",
+        "duration": "05:15"
+    },
+    {
+        "flight_number": "PC2262",
+        "airline_name": "Pegasus",
+        "destination_iata": "BJV",
+        "destination_airport_name": "Bodrum Milas Airport",
+        "destination_city": "Bodrum",
+        "destination_country": "Turkey",
         "local_departure_time": "20:15",
-        "local_arrival_time": "04:15 (+1)",
-        "duration": "05:00"
+        "local_arrival_time": "21:30",
+        "duration": "01:15"
     },
     {
         "flight_number": "VF143",
@@ -2770,50 +2462,6 @@
         "local_departure_time": "20:20",
         "local_arrival_time": "02:00 (+1)",
         "duration": "04:40"
-    },
-    {
-        "flight_number": "VF221",
-        "airline_name": "AJet",
-        "destination_iata": "SHJ",
-        "destination_airport_name": "Sharjah International Airport",
-        "destination_city": "Sharjah",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "20:25",
-        "local_arrival_time": "01:55 (+1)",
-        "duration": "04:30"
-    },
-    {
-        "flight_number": "VF275",
-        "airline_name": "AJet",
-        "destination_iata": "VKO",
-        "destination_airport_name": "Moscow Vnukovo International Airport",
-        "destination_city": "Moscow",
-        "destination_country": "Russia",
-        "local_departure_time": "20:25 / 20:50",
-        "local_arrival_time": "00:30 (+1) / 00:55 (+1)",
-        "duration": "04:05"
-    },
-    {
-        "flight_number": "VF125",
-        "airline_name": "AJet",
-        "destination_iata": "BAH",
-        "destination_airport_name": "Bahrain International Airport",
-        "destination_city": "Bahrain",
-        "destination_country": "Bahrain",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "00:25 (+1)",
-        "duration": "03:55"
-    },
-    {
-        "flight_number": "VF3100",
-        "airline_name": "AJet",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "20:35",
-        "local_arrival_time": "22:00",
-        "duration": "01:25"
     },
     {
         "flight_number": "PC600",
@@ -2833,9 +2481,20 @@
         "destination_airport_name": "Dalaman Airport",
         "destination_city": "Dalaman",
         "destination_country": "Turkey",
-        "local_departure_time": "20:40 / 20:45",
-        "local_arrival_time": "21:55 / 22:00",
+        "local_departure_time": "20:45",
+        "local_arrival_time": "22:00",
         "duration": "01:15"
+    },
+    {
+        "flight_number": "VF275",
+        "airline_name": "AJet",
+        "destination_iata": "VKO",
+        "destination_airport_name": "Moscow Vnukovo International Airport",
+        "destination_city": "Moscow",
+        "destination_country": "Russia",
+        "local_departure_time": "20:50",
+        "local_arrival_time": "00:55 (+1)",
+        "duration": "04:05"
     },
     {
         "flight_number": "PC100",
@@ -2855,20 +2514,9 @@
         "destination_airport_name": "St. Petersburg Pulkovo Airport",
         "destination_city": "St. Petersburg",
         "destination_country": "Russia",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "00:45 (+1)",
+        "local_departure_time": "21:00 / 21:20",
+        "local_arrival_time": "00:45 (+1) / 01:05 (+1)",
         "duration": "03:45"
-    },
-    {
-        "flight_number": "PC2024",
-        "airline_name": "Pegasus",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "22:20",
-        "duration": "01:20"
     },
     {
         "flight_number": "PC1173",
@@ -2893,6 +2541,28 @@
         "duration": "01:10"
     },
     {
+        "flight_number": "PC518",
+        "airline_name": "Pegasus",
+        "destination_iata": "IKA",
+        "destination_airport_name": "Tehran Imam Khomeini International Airport",
+        "destination_city": "Tehran",
+        "destination_country": "Iran",
+        "local_departure_time": "21:15",
+        "local_arrival_time": "00:50 (+1)",
+        "duration": "03:05"
+    },
+    {
+        "flight_number": "VF221",
+        "airline_name": "AJet",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "21:15",
+        "local_arrival_time": "02:45 (+1)",
+        "duration": "04:30"
+    },
+    {
         "flight_number": "PC694",
         "airline_name": "Pegasus",
         "destination_iata": "JED",
@@ -2904,15 +2574,15 @@
         "duration": "03:50"
     },
     {
-        "flight_number": "PC2266",
-        "airline_name": "Pegasus",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "21:20 / 21:40",
-        "local_arrival_time": "22:35 / 22:55",
-        "duration": "01:15"
+        "flight_number": "VF137",
+        "airline_name": "AJet",
+        "destination_iata": "DMM",
+        "destination_airport_name": "Dammam King Fahd International Airport",
+        "destination_city": "Dammam",
+        "destination_country": "Saudi Arabia",
+        "local_departure_time": "21:30",
+        "local_arrival_time": "01:40 (+1)",
+        "duration": "04:10"
     },
     {
         "flight_number": "PC830",
@@ -2926,15 +2596,15 @@
         "duration": "05:00"
     },
     {
-        "flight_number": "VF137",
-        "airline_name": "AJet",
-        "destination_iata": "DMM",
-        "destination_airport_name": "Dammam King Fahd International Airport",
-        "destination_city": "Dammam",
-        "destination_country": "Saudi Arabia",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "01:40 (+1)",
-        "duration": "04:10"
+        "flight_number": "PC634",
+        "airline_name": "Pegasus",
+        "destination_iata": "SSH",
+        "destination_airport_name": "Sharm el-Sheikh International Airport",
+        "destination_city": "Sharm el-Sheikh",
+        "destination_country": "Egypt",
+        "local_departure_time": "21:35",
+        "local_arrival_time": "00:10 (+1)",
+        "duration": "02:35"
     },
     {
         "flight_number": "VF131",
@@ -2959,15 +2629,26 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "PC740",
+        "flight_number": "PC2266",
         "airline_name": "Pegasus",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
+        "destination_iata": "BJV",
+        "destination_airport_name": "Bodrum Milas Airport",
+        "destination_city": "Bodrum",
+        "destination_country": "Turkey",
+        "local_departure_time": "21:40",
+        "local_arrival_time": "22:55",
+        "duration": "01:15"
+    },
+    {
+        "flight_number": "PC754",
+        "airline_name": "Pegasus",
+        "destination_iata": "BEY",
+        "destination_airport_name": "Beirut Rafic Hariri International Airport",
+        "destination_city": "Beirut",
+        "destination_country": "Lebanon",
         "local_departure_time": "21:45",
-        "local_arrival_time": "03:15 (+1)",
-        "duration": "04:30"
+        "local_arrival_time": "23:30",
+        "duration": "01:45"
     },
     {
         "flight_number": "PC228",
@@ -2981,6 +2662,17 @@
         "duration": "05:00"
     },
     {
+        "flight_number": "PC740",
+        "airline_name": "Pegasus",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "21:45",
+        "local_arrival_time": "03:15 (+1)",
+        "duration": "04:30"
+    },
+    {
         "flight_number": "VF205",
         "airline_name": "AJet",
         "destination_iata": "MED",
@@ -2990,28 +2682,6 @@
         "local_departure_time": "21:55",
         "local_arrival_time": "01:35 (+1)",
         "duration": "03:40"
-    },
-    {
-        "flight_number": "PC2026",
-        "airline_name": "Pegasus",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
-        "destination_country": "Turkey",
-        "local_departure_time": "21:55 / 22:00",
-        "local_arrival_time": "23:15 / 23:20",
-        "duration": "01:20"
-    },
-    {
-        "flight_number": "PC398",
-        "airline_name": "Pegasus",
-        "destination_iata": "LED",
-        "destination_airport_name": "St. Petersburg Pulkovo Airport",
-        "destination_city": "St. Petersburg",
-        "destination_country": "Russia",
-        "local_departure_time": "22:00",
-        "local_arrival_time": "01:45 (+1)",
-        "duration": "03:45"
     },
     {
         "flight_number": "PC612",
@@ -3025,15 +2695,48 @@
         "duration": "04:00"
     },
     {
+        "flight_number": "PC398",
+        "airline_name": "Pegasus",
+        "destination_iata": "LED",
+        "destination_airport_name": "St. Petersburg Pulkovo Airport",
+        "destination_city": "St. Petersburg",
+        "destination_country": "Russia",
+        "local_departure_time": "22:00",
+        "local_arrival_time": "01:45 (+1)",
+        "duration": "03:45"
+    },
+    {
+        "flight_number": "PC2026",
+        "airline_name": "Pegasus",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "22:00",
+        "local_arrival_time": "23:20",
+        "duration": "01:20"
+    },
+    {
+        "flight_number": "PC1035",
+        "airline_name": "Pegasus",
+        "destination_iata": "HAJ",
+        "destination_airport_name": "Hannover Langenhagen Airport",
+        "destination_city": "Hannover",
+        "destination_country": "Germany",
+        "local_departure_time": "22:05 / 22:25",
+        "local_arrival_time": "00:20 (+1) / 00:40 (+1)",
+        "duration": "03:15"
+    },
+    {
         "flight_number": "VF189",
         "airline_name": "AJet",
         "destination_iata": "JED",
         "destination_airport_name": "Jeddah King Abdulaziz International Airport",
         "destination_city": "Jeddah",
         "destination_country": "Saudi Arabia",
-        "local_departure_time": "22:10",
-        "local_arrival_time": "02:10 (+1)",
-        "duration": "04:00"
+        "local_departure_time": "22:10 / 22:20",
+        "local_arrival_time": "02:10 (+1) / 02:25 (+1)",
+        "duration": "04:05"
     },
     {
         "flight_number": "PC746",
@@ -3070,25 +2773,14 @@
     },
     {
         "flight_number": "VF91",
-        "airline_name": "AJet",
+        "airline_name": "SmartLynx",
         "destination_iata": "CGN",
         "destination_airport_name": "Cologne Bonn Airport",
         "destination_city": "Cologne",
         "destination_country": "Germany",
         "local_departure_time": "22:20 / 22:25",
-        "local_arrival_time": "01:05 (+1)",
-        "duration": "03:45"
-    },
-    {
-        "flight_number": "FZ754",
-        "airline_name": "flydubai",
-        "destination_iata": "DXB",
-        "destination_airport_name": "Dubai International Airport",
-        "destination_city": "Dubai",
-        "destination_country": "United Arab Emirates",
-        "local_departure_time": "22:25",
-        "local_arrival_time": "03:55 (+1)",
-        "duration": "04:30"
+        "local_arrival_time": "01:00 (+1) / 01:05 (+1)",
+        "duration": "03:40"
     },
     {
         "flight_number": "PC858",
@@ -3102,26 +2794,37 @@
         "duration": "03:30"
     },
     {
-        "flight_number": "PC406",
-        "airline_name": "Pegasus",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
+        "flight_number": "FZ754",
+        "airline_name": "flydubai",
+        "destination_iata": "DXB",
+        "destination_airport_name": "Dubai International Airport",
+        "destination_city": "Dubai",
         "destination_country": "United Arab Emirates",
         "local_departure_time": "22:25",
         "local_arrival_time": "03:55 (+1)",
         "duration": "04:30"
     },
     {
-        "flight_number": "PC1035",
+        "flight_number": "PC544",
         "airline_name": "Pegasus",
-        "destination_iata": "HAJ",
-        "destination_airport_name": "Hannover Langenhagen Airport",
-        "destination_city": "Hannover",
-        "destination_country": "Germany",
-        "local_departure_time": "22:25 / 22:35",
-        "local_arrival_time": "00:40 (+1) / 00:50 (+1)",
-        "duration": "03:15"
+        "destination_iata": "AMM",
+        "destination_airport_name": "Amman Queen Alia International Airport",
+        "destination_city": "Amman",
+        "destination_country": "Jordan",
+        "local_departure_time": "22:35 / 23:35",
+        "local_arrival_time": "01:20 (+1) / 02:20 (+1)",
+        "duration": "02:45"
+    },
+    {
+        "flight_number": "PC7085",
+        "airline_name": "Pegasus",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "22:40",
+        "local_arrival_time": "01:20 (+1)",
+        "duration": "03:40"
     },
     {
         "flight_number": "PC2676",
@@ -3130,9 +2833,20 @@
         "destination_airport_name": "Ankara Esenboga International Airport",
         "destination_city": "Ankara",
         "destination_country": "Turkey",
-        "local_departure_time": "22:40 / 23:40",
-        "local_arrival_time": "00:45 (+1) / 23:45",
+        "local_departure_time": "22:40 / 23:30",
+        "local_arrival_time": "00:35 (+1) / 23:45",
         "duration": "01:05"
+    },
+    {
+        "flight_number": "VF3046",
+        "airline_name": "AJet",
+        "destination_iata": "AYT",
+        "destination_airport_name": "Antalya Airport",
+        "destination_city": "Antalya",
+        "destination_country": "Turkey",
+        "local_departure_time": "22:45",
+        "local_arrival_time": "00:10 (+1)",
+        "duration": "01:25"
     },
     {
         "flight_number": "PC386",
@@ -3141,17 +2855,6 @@
         "destination_airport_name": "Moscow Vnukovo International Airport",
         "destination_city": "Moscow",
         "destination_country": "Russia",
-        "local_departure_time": "22:45",
-        "local_arrival_time": "02:55 (+1)",
-        "duration": "04:10"
-    },
-    {
-        "flight_number": "PC604",
-        "airline_name": "Pegasus",
-        "destination_iata": "DOH",
-        "destination_airport_name": "Doha Hamad International Airport",
-        "destination_city": "Doha",
-        "destination_country": "Qatar",
         "local_departure_time": "22:45",
         "local_arrival_time": "02:55 (+1)",
         "duration": "04:10"
@@ -3179,26 +2882,15 @@
         "duration": "01:05"
     },
     {
-        "flight_number": "VF3046",
-        "airline_name": "AJet",
-        "destination_iata": "AYT",
-        "destination_airport_name": "Antalya Airport",
-        "destination_city": "Antalya",
+        "flight_number": null,
+        "airline_name": "Pegasus",
+        "destination_iata": "DLM",
+        "destination_airport_name": "Dalaman Airport",
+        "destination_city": "Dalaman",
         "destination_country": "Turkey",
-        "local_departure_time": "22:50",
-        "local_arrival_time": "00:15 (+1)",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "VF3078",
-        "airline_name": "AJet",
-        "destination_iata": "ADB",
-        "destination_airport_name": "Izmir Adnan Menderes International Airport",
-        "destination_city": "Izmir",
-        "destination_country": "Turkey",
-        "local_departure_time": "22:50",
-        "local_arrival_time": "00:05 (+1)",
-        "duration": "01:15"
+        "local_departure_time": "22:50 / 23:30",
+        "local_arrival_time": "00:31 (+1) / 23:53",
+        "duration": "01:03"
     },
     {
         "flight_number": "PC318",
@@ -3223,26 +2915,15 @@
         "duration": "01:15"
     },
     {
-        "flight_number": "PC702",
-        "airline_name": "Pegasus",
-        "destination_iata": "FRU",
-        "destination_airport_name": "Bishkek Manas International Airport",
-        "destination_city": "Bishkek",
-        "destination_country": "Kyrgyzstan",
+        "flight_number": "VF3078",
+        "airline_name": "AJet",
+        "destination_iata": "ADB",
+        "destination_airport_name": "Izmir Adnan Menderes International Airport",
+        "destination_city": "Izmir",
+        "destination_country": "Turkey",
         "local_departure_time": "23:00",
-        "local_arrival_time": "07:00 (+1)",
-        "duration": "05:00"
-    },
-    {
-        "flight_number": "PC620",
-        "airline_name": "Pegasus",
-        "destination_iata": "HRG",
-        "destination_airport_name": "Hurghada International Airport",
-        "destination_city": "Hurghada",
-        "destination_country": "Egypt",
-        "local_departure_time": "23:05",
-        "local_arrival_time": "01:45 (+1)",
-        "duration": "02:40"
+        "local_arrival_time": "00:15 (+1)",
+        "duration": "01:15"
     },
     {
         "flight_number": "PC644",
@@ -3256,15 +2937,37 @@
         "duration": "03:35"
     },
     {
-        "flight_number": "PC634",
+        "flight_number": "VF3012",
+        "airline_name": "AJet",
+        "destination_iata": "ESB",
+        "destination_airport_name": "Ankara Esenboga International Airport",
+        "destination_city": "Ankara",
+        "destination_country": "Turkey",
+        "local_departure_time": "23:05",
+        "local_arrival_time": "00:10 (+1)",
+        "duration": "01:05"
+    },
+    {
+        "flight_number": "PC620",
         "airline_name": "Pegasus",
-        "destination_iata": "SSH",
-        "destination_airport_name": "Sharm el-Sheikh International Airport",
-        "destination_city": "Sharm el-Sheikh",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
         "destination_country": "Egypt",
-        "local_departure_time": "23:15",
-        "local_arrival_time": "01:50 (+1)",
-        "duration": "02:35"
+        "local_departure_time": "23:05",
+        "local_arrival_time": "01:45 (+1)",
+        "duration": "02:40"
+    },
+    {
+        "flight_number": "PC7256",
+        "airline_name": "Pegasus",
+        "destination_iata": "SHJ",
+        "destination_airport_name": "Sharjah International Airport",
+        "destination_city": "Sharjah",
+        "destination_country": "United Arab Emirates",
+        "local_departure_time": "23:10",
+        "local_arrival_time": "04:35 (+1)",
+        "duration": "04:25"
     },
     {
         "flight_number": "PC854",
@@ -3276,28 +2979,6 @@
         "local_departure_time": "23:20",
         "local_arrival_time": "03:05 (+1)",
         "duration": "02:45"
-    },
-    {
-        "flight_number": "PC656",
-        "airline_name": "Pegasus",
-        "destination_iata": "BGW",
-        "destination_airport_name": "Baghdad International Airport",
-        "destination_city": "Baghdad",
-        "destination_country": "Iraq",
-        "local_departure_time": "23:25",
-        "local_arrival_time": "02:20 (+1)",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "VF251",
-        "airline_name": "AJet",
-        "destination_iata": "HRG",
-        "destination_airport_name": "Hurghada International Airport",
-        "destination_city": "Hurghada",
-        "destination_country": "Egypt",
-        "local_departure_time": "23:25 / 23:40",
-        "local_arrival_time": "02:15 (+1)",
-        "duration": "02:35"
     },
     {
         "flight_number": "PC550",
@@ -3328,31 +3009,20 @@
         "destination_airport_name": "Sharm el-Sheikh International Airport",
         "destination_city": "Sharm el-Sheikh",
         "destination_country": "Egypt",
-        "local_departure_time": "23:35",
-        "local_arrival_time": "02:00 (+1)",
+        "local_departure_time": "23:35 / 23:40",
+        "local_arrival_time": "02:00 (+1) / 02:05 (+1)",
         "duration": "02:25"
     },
     {
-        "flight_number": "PC720",
-        "airline_name": "Pegasus",
-        "destination_iata": "AMM",
-        "destination_airport_name": "Amman Queen Alia International Airport",
-        "destination_city": "Amman",
-        "destination_country": "Jordan",
-        "local_departure_time": "23:35 / 23:55",
-        "local_arrival_time": "02:20 (+1) / 02:40 (+1)",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "PC2264",
-        "airline_name": "Pegasus",
-        "destination_iata": "BJV",
-        "destination_airport_name": "Bodrum Milas Airport",
-        "destination_city": "Bodrum",
-        "destination_country": "Turkey",
-        "local_departure_time": "23:45",
-        "local_arrival_time": "01:00 (+1)",
-        "duration": "01:15"
+        "flight_number": "VF251",
+        "airline_name": "Turkish Airlines",
+        "destination_iata": "HRG",
+        "destination_airport_name": "Hurghada International Airport",
+        "destination_city": "Hurghada",
+        "destination_country": "Egypt",
+        "local_departure_time": "23:40",
+        "local_arrival_time": "02:15 (+1)",
+        "duration": "02:35"
     },
     {
         "flight_number": "PC2212",
@@ -3366,7 +3036,7 @@
         "duration": "01:10"
     },
     {
-        "flight_number": "PC4012",
+        "flight_number": "PC2264",
         "airline_name": "Pegasus",
         "destination_iata": "BJV",
         "destination_airport_name": "Bodrum Milas Airport",
@@ -3388,6 +3058,17 @@
         "duration": "01:20"
     },
     {
+        "flight_number": "PC656",
+        "airline_name": "Pegasus",
+        "destination_iata": "BGW",
+        "destination_airport_name": "Baghdad International Airport",
+        "destination_city": "Baghdad",
+        "destination_country": "Iraq",
+        "local_departure_time": "23:55",
+        "local_arrival_time": "02:50 (+1)",
+        "duration": "02:55"
+    },
+    {
         "flight_number": "VF247",
         "airline_name": "AJet",
         "destination_iata": "CAI",
@@ -3397,16 +3078,5 @@
         "local_departure_time": "23:55",
         "local_arrival_time": "02:10 (+1)",
         "duration": "02:15"
-    },
-    {
-        "flight_number": "PC824",
-        "airline_name": "Pegasus",
-        "destination_iata": "BAH",
-        "destination_airport_name": "Bahrain International Airport",
-        "destination_city": "Bahrain",
-        "destination_country": "Bahrain",
-        "local_departure_time": "23:55",
-        "local_arrival_time": "03:50 (+1)",
-        "duration": "03:55"
     }
 ]

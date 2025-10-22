@@ -1,7 +1,7 @@
 [
     {
         "flight_number": "JL727",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "BKK",
         "destination_airport_name": "Bangkok Suvarnabhumi Airport",
         "destination_city": "Bangkok",
@@ -11,7 +11,7 @@
         "duration": "05:45"
     },
     {
-        "flight_number": "CA1062",
+        "flight_number": "CA1064",
         "airline_name": "Air China",
         "destination_iata": "PVG",
         "destination_airport_name": "Shanghai Pudong International Airport",
@@ -33,28 +33,6 @@
         "duration": "05:05"
     },
     {
-        "flight_number": "CA1064",
-        "airline_name": "Air China",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "01:50",
-        "local_arrival_time": "03:10",
-        "duration": "02:20"
-    },
-    {
-        "flight_number": "GI4208",
-        "airline_name": "Air Central",
-        "destination_iata": "CGO",
-        "destination_airport_name": "Zhengzhou Xinzheng International Airport",
-        "destination_city": "Zhengzhou",
-        "destination_country": "China",
-        "local_departure_time": "02:30",
-        "local_arrival_time": "05:35",
-        "duration": "04:05"
-    },
-    {
         "flight_number": "SC2494",
         "airline_name": "Shandong Airlines",
         "destination_iata": "TAO",
@@ -66,15 +44,15 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "Y87952",
-        "airline_name": "Suparna Airlines",
-        "destination_iata": "NGB",
-        "destination_airport_name": "Ningbo Lishe International Airport",
-        "destination_city": "Ningbo",
+        "flight_number": "GI4208",
+        "airline_name": "Gridiron Air",
+        "destination_iata": "CGO",
+        "destination_airport_name": "Zhengzhou Xinzheng International Airport",
+        "destination_city": "Zhengzhou",
         "destination_country": "China",
-        "local_departure_time": "03:00",
-        "local_arrival_time": "04:35",
-        "duration": "02:35"
+        "local_departure_time": "03:05",
+        "local_arrival_time": "05:55",
+        "duration": "03:50"
     },
     {
         "flight_number": "SC2500",
@@ -100,7 +78,7 @@
     },
     {
         "flight_number": "GI4216",
-        "airline_name": "Air Central",
+        "airline_name": "Gridiron Air",
         "destination_iata": "YNT",
         "destination_airport_name": "Yantai Penglai International Airport",
         "destination_city": "Yantai",
@@ -111,7 +89,7 @@
     },
     {
         "flight_number": "GI4116",
-        "airline_name": "Air Central",
+        "airline_name": "Gridiron Air",
         "destination_iata": "NGB",
         "destination_airport_name": "Ningbo Lishe International Airport",
         "destination_city": "Ningbo",
@@ -119,6 +97,17 @@
         "local_departure_time": "04:10",
         "local_arrival_time": "05:50",
         "duration": "02:40"
+    },
+    {
+        "flight_number": "CX3037",
+        "airline_name": "Cathay Pacific",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "04:25",
+        "local_arrival_time": "07:20",
+        "duration": "03:55"
     },
     {
         "flight_number": "SC2470",
@@ -133,7 +122,7 @@
     },
     {
         "flight_number": "GI4116",
-        "airline_name": "Air Central",
+        "airline_name": "Gridiron Air",
         "destination_iata": "NGB",
         "destination_airport_name": "Ningbo Lishe International Airport",
         "destination_city": "Ningbo",
@@ -141,28 +130,6 @@
         "local_departure_time": "05:15",
         "local_arrival_time": "07:15",
         "duration": "03:00"
-    },
-    {
-        "flight_number": "Y87956",
-        "airline_name": "Suparna Airlines",
-        "destination_iata": "NGB",
-        "destination_airport_name": "Ningbo Lishe International Airport",
-        "destination_city": "Ningbo",
-        "destination_country": "China",
-        "local_departure_time": "05:50",
-        "local_arrival_time": "07:20",
-        "duration": "02:30"
-    },
-    {
-        "flight_number": "JL220",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "06:40",
-        "local_arrival_time": "07:50",
-        "duration": "01:10"
     },
     {
         "flight_number": "MM101",
@@ -174,6 +141,17 @@
         "local_departure_time": "06:40",
         "local_arrival_time": "08:40",
         "duration": "02:00"
+    },
+    {
+        "flight_number": "JL220",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "06:45",
+        "local_arrival_time": "07:50",
+        "duration": "01:05"
     },
     {
         "flight_number": "NH990",
@@ -260,8 +238,8 @@
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "08:15",
-        "local_arrival_time": "10:10",
-        "duration": "01:55"
+        "local_arrival_time": "10:05",
+        "duration": "01:50"
     },
     {
         "flight_number": "GK153",
@@ -275,25 +253,14 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "MM63",
-        "airline_name": "Peach",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "08:25",
-        "local_arrival_time": "11:40",
-        "duration": "04:15"
-    },
-    {
         "flight_number": "NH96",
         "airline_name": "All Nippon Airways",
         "destination_iata": "HND",
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "08:25",
-        "local_arrival_time": "09:40",
+        "local_departure_time": "08:30",
+        "local_arrival_time": "09:45",
         "duration": "01:15"
     },
     {
@@ -304,8 +271,8 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "08:30",
-        "local_arrival_time": "09:50 / 10:05",
-        "duration": "02:20"
+        "local_arrival_time": "09:55 / 10:05",
+        "duration": "02:25"
     },
     {
         "flight_number": "CZ394",
@@ -363,17 +330,6 @@
         "duration": "02:35"
     },
     {
-        "flight_number": "KE722",
-        "airline_name": "Korean Air",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "09:05",
-        "local_arrival_time": "10:55",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "CA162",
         "airline_name": "Air China",
         "destination_iata": "PEK",
@@ -383,6 +339,17 @@
         "local_departure_time": "09:05",
         "local_arrival_time": "11:20",
         "duration": "03:15"
+    },
+    {
+        "flight_number": "KE722",
+        "airline_name": "Korean Air",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
+        "local_departure_time": "09:05",
+        "local_arrival_time": "10:55",
+        "duration": "01:50"
     },
     {
         "flight_number": "CX597",
@@ -397,14 +364,14 @@
     },
     {
         "flight_number": "JL2501",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "CTS",
         "destination_airport_name": "Sapporo New Chitose Airport",
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "09:10",
-        "local_arrival_time": "11:10",
-        "duration": "02:00"
+        "local_arrival_time": "11:05",
+        "duration": "01:55"
     },
     {
         "flight_number": "OZ115",
@@ -429,17 +396,6 @@
         "duration": "05:00"
     },
     {
-        "flight_number": "LH743",
-        "airline_name": "Lufthansa",
-        "destination_iata": "MUC",
-        "destination_airport_name": "Munich Airport",
-        "destination_city": "Munich",
-        "destination_country": "Germany",
-        "local_departure_time": "09:30",
-        "local_arrival_time": "16:35",
-        "duration": "14:05"
-    },
-    {
         "flight_number": "MU730",
         "airline_name": "China Eastern Airlines",
         "destination_iata": "PVG",
@@ -451,6 +407,17 @@
         "duration": "02:20"
     },
     {
+        "flight_number": "NH979",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "PEK",
+        "destination_airport_name": "Beijing Capital International Airport",
+        "destination_city": "Beijing",
+        "destination_country": "China",
+        "local_departure_time": "09:30",
+        "local_arrival_time": "12:05",
+        "duration": "03:35"
+    },
+    {
         "flight_number": "VJ829",
         "airline_name": "VietJet Air",
         "destination_iata": "SGN",
@@ -460,6 +427,17 @@
         "local_departure_time": "09:30",
         "local_arrival_time": "13:00",
         "duration": "05:30"
+    },
+    {
+        "flight_number": "LH743",
+        "airline_name": "Lufthansa",
+        "destination_iata": "MUC",
+        "destination_airport_name": "Munich Airport",
+        "destination_city": "Munich",
+        "destination_country": "Germany",
+        "local_departure_time": "09:30",
+        "local_arrival_time": "16:35",
+        "duration": "14:05"
     },
     {
         "flight_number": "CA164",
@@ -484,15 +462,15 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "HX617",
-        "airline_name": "Hong Kong Airlines",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
+        "flight_number": "MH53",
+        "airline_name": "Malaysia Airlines",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
         "local_departure_time": "09:55",
-        "local_arrival_time": "13:10",
-        "duration": "04:15"
+        "local_arrival_time": "15:45",
+        "duration": "06:50"
     },
     {
         "flight_number": "XJ613",
@@ -506,17 +484,6 @@
         "duration": "06:30"
     },
     {
-        "flight_number": "MH53",
-        "airline_name": "Malaysia Airlines",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "09:55",
-        "local_arrival_time": "15:45",
-        "duration": "06:50"
-    },
-    {
         "flight_number": "RS712",
         "airline_name": "Air Seoul",
         "destination_iata": "ICN",
@@ -526,6 +493,50 @@
         "local_departure_time": "09:55",
         "local_arrival_time": "11:55",
         "duration": "02:00"
+    },
+    {
+        "flight_number": "HX617",
+        "airline_name": "Hong Kong Airlines",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "09:55",
+        "local_arrival_time": "13:10",
+        "duration": "04:15"
+    },
+    {
+        "flight_number": "VN321",
+        "airline_name": "Vietnam Airlines",
+        "destination_iata": "SGN",
+        "destination_airport_name": "Ho Chi Minh City International Airport",
+        "destination_city": "Ho Chi Minh City",
+        "destination_country": "Vietnam",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "13:15",
+        "duration": "05:15"
+    },
+    {
+        "flight_number": "VN335",
+        "airline_name": "Vietnam Airlines",
+        "destination_iata": "HAN",
+        "destination_airport_name": "Hanoi Noi Bai International Airport",
+        "destination_city": "Hanoi",
+        "destination_country": "Vietnam",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "13:00",
+        "duration": "05:00"
+    },
+    {
+        "flight_number": "CI5148",
+        "airline_name": "China Airlines",
+        "destination_iata": "ANC",
+        "destination_airport_name": "Anchorage Ted Stevens International Airport",
+        "destination_city": "Anchorage",
+        "destination_country": "United States",
+        "local_departure_time": "10:00",
+        "local_arrival_time": "07:30",
+        "duration": "14:30"
     },
     {
         "flight_number": "CX503",
@@ -550,39 +561,6 @@
         "duration": "01:20"
     },
     {
-        "flight_number": "VN321",
-        "airline_name": "Vietnam Airlines",
-        "destination_iata": "SGN",
-        "destination_airport_name": "Ho Chi Minh City International Airport",
-        "destination_city": "Ho Chi Minh City",
-        "destination_country": "Vietnam",
-        "local_departure_time": "10:00",
-        "local_arrival_time": "13:15",
-        "duration": "05:15"
-    },
-    {
-        "flight_number": "VN335",
-        "airline_name": "Vietnam Airlines",
-        "destination_iata": "HAN",
-        "destination_airport_name": "Hanoi Noi Bai International Airport",
-        "destination_city": "Hanoi",
-        "destination_country": "Vietnam",
-        "local_departure_time": "10:00",
-        "local_arrival_time": "12:40",
-        "duration": "04:40"
-    },
-    {
-        "flight_number": "CI5148",
-        "airline_name": "China Airlines",
-        "destination_iata": "ANC",
-        "destination_airport_name": "Anchorage Ted Stevens International Airport",
-        "destination_city": "Anchorage",
-        "destination_country": "United States",
-        "local_departure_time": "10:00",
-        "local_arrival_time": "07:30",
-        "duration": "14:30"
-    },
-    {
         "flight_number": "MU278",
         "airline_name": "China Eastern Airlines",
         "destination_iata": "PKX",
@@ -595,7 +573,7 @@
     },
     {
         "flight_number": "JL891",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "PVG",
         "destination_airport_name": "Shanghai Pudong International Airport",
         "destination_city": "Shanghai",
@@ -715,6 +693,17 @@
         "duration": "01:20"
     },
     {
+        "flight_number": "D7533",
+        "airline_name": "AirAsia X",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "11:05",
+        "local_arrival_time": "17:05",
+        "duration": "07:00"
+    },
+    {
         "flight_number": "BR177",
         "airline_name": "EVA Air",
         "destination_iata": "TPE",
@@ -737,15 +726,15 @@
         "duration": "02:55"
     },
     {
-        "flight_number": "9C6548",
-        "airline_name": "Spring Airlines",
-        "destination_iata": "XMN",
-        "destination_airport_name": "Xiamen Gaoqi International Airport",
-        "destination_city": "Xiamen",
-        "destination_country": "China",
+        "flight_number": "AF291",
+        "airline_name": "Air France",
+        "destination_iata": "CDG",
+        "destination_airport_name": "Paris Charles de Gaulle Airport",
+        "destination_city": "Paris",
+        "destination_country": "France",
         "local_departure_time": "11:20",
-        "local_arrival_time": "13:45",
-        "duration": "03:25"
+        "local_arrival_time": "18:55",
+        "duration": "14:35"
     },
     {
         "flight_number": "MM31",
@@ -781,6 +770,17 @@
         "duration": "05:50"
     },
     {
+        "flight_number": "IT285",
+        "airline_name": "Tigerair Taiwan",
+        "destination_iata": "KHH",
+        "destination_airport_name": "Kaohsiung International Airport",
+        "destination_city": "Kaohsiung",
+        "destination_country": "Taiwan",
+        "local_departure_time": "11:45 / 11:55",
+        "local_arrival_time": "13:40 / 14:00",
+        "duration": "02:55"
+    },
+    {
         "flight_number": "GK228",
         "airline_name": "Jetstar Japan",
         "destination_iata": "NRT",
@@ -803,26 +803,15 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "IT285",
-        "airline_name": "Tigerair Taiwan",
-        "destination_iata": "KHH",
-        "destination_airport_name": "Kaohsiung International Airport",
-        "destination_city": "Kaohsiung",
-        "destination_country": "Taiwan",
+        "flight_number": "CZ642",
+        "airline_name": "China Southern Airlines",
+        "destination_iata": "DLC",
+        "destination_airport_name": "Dalian Zhoushuizi International Airport",
+        "destination_city": "Dalian",
+        "destination_country": "China",
         "local_departure_time": "11:55",
-        "local_arrival_time": "14:00",
-        "duration": "03:05"
-    },
-    {
-        "flight_number": "CI167",
-        "airline_name": "China Airlines",
-        "destination_iata": "KHH",
-        "destination_airport_name": "Kaohsiung International Airport",
-        "destination_city": "Kaohsiung",
-        "destination_country": "Taiwan",
-        "local_departure_time": "12:00",
-        "local_arrival_time": "14:20",
-        "duration": "03:20"
+        "local_arrival_time": "13:25",
+        "duration": "02:30"
     },
     {
         "flight_number": "FM874",
@@ -834,6 +823,28 @@
         "local_departure_time": "12:00",
         "local_arrival_time": "13:35",
         "duration": "02:35"
+    },
+    {
+        "flight_number": "KL868",
+        "airline_name": "KLM",
+        "destination_iata": "AMS",
+        "destination_airport_name": "Amsterdam Schiphol Airport",
+        "destination_city": "Amsterdam",
+        "destination_country": "Netherlands",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "19:15",
+        "duration": "14:15"
+    },
+    {
+        "flight_number": "CI167",
+        "airline_name": "China Airlines",
+        "destination_iata": "KHH",
+        "destination_airport_name": "Kaohsiung International Airport",
+        "destination_city": "Kaohsiung",
+        "destination_country": "Taiwan",
+        "local_departure_time": "12:00",
+        "local_arrival_time": "14:20",
+        "duration": "03:20"
     },
     {
         "flight_number": "BR181",
@@ -858,17 +869,6 @@
         "duration": "01:50"
     },
     {
-        "flight_number": "HO1506",
-        "airline_name": "Juneyao Air",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "12:15",
-        "local_arrival_time": "13:40",
-        "duration": "02:25"
-    },
-    {
         "flight_number": "CA726",
         "airline_name": "Air China",
         "destination_iata": "HGH",
@@ -878,6 +878,17 @@
         "local_departure_time": "12:15",
         "local_arrival_time": "13:45",
         "duration": "02:30"
+    },
+    {
+        "flight_number": "HO1506",
+        "airline_name": "Juneyao Air",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
+        "local_departure_time": "12:15",
+        "local_arrival_time": "13:40",
+        "duration": "02:25"
     },
     {
         "flight_number": "9C6576",
@@ -902,6 +913,17 @@
         "duration": "03:00"
     },
     {
+        "flight_number": "MM109",
+        "airline_name": "Peach",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "12:25",
+        "local_arrival_time": "14:25",
+        "duration": "02:00"
+    },
+    {
         "flight_number": "MM705",
         "airline_name": "Peach",
         "destination_iata": "ICN",
@@ -911,6 +933,17 @@
         "local_departure_time": "12:25",
         "local_arrival_time": "14:20",
         "duration": "01:55"
+    },
+    {
+        "flight_number": "CZ3032",
+        "airline_name": "China Southern Airlines",
+        "destination_iata": "SHE",
+        "destination_airport_name": "Shenyang Taoxian International Airport",
+        "destination_city": "Shenyang",
+        "destination_country": "China",
+        "local_departure_time": "12:30",
+        "local_arrival_time": "15:00",
+        "duration": "03:30"
     },
     {
         "flight_number": "BX171",
@@ -957,6 +990,28 @@
         "duration": "04:10"
     },
     {
+        "flight_number": "CI5155",
+        "airline_name": "China Airlines",
+        "destination_iata": "TPE",
+        "destination_airport_name": "Taipei Taoyuan International Airport",
+        "destination_city": "Taipei",
+        "destination_country": "Taiwan",
+        "local_departure_time": "12:55",
+        "local_arrival_time": "16:00",
+        "duration": "04:05"
+    },
+    {
+        "flight_number": "9C6986",
+        "airline_name": "Spring Airlines",
+        "destination_iata": "XIY",
+        "destination_airport_name": "Xi'an Xianyang International Airport",
+        "destination_city": "Xi'an",
+        "destination_country": "China",
+        "local_departure_time": "12:55",
+        "local_arrival_time": "15:55",
+        "duration": "04:00"
+    },
+    {
         "flight_number": "9C6160",
         "airline_name": "Spring Airlines",
         "destination_iata": "CAN",
@@ -966,6 +1021,17 @@
         "local_departure_time": "12:55",
         "local_arrival_time": "15:50",
         "duration": "03:55"
+    },
+    {
+        "flight_number": "MM111",
+        "airline_name": "Peach",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "13:00",
+        "local_arrival_time": "15:00",
+        "duration": "02:00"
     },
     {
         "flight_number": "HO1624",
@@ -979,6 +1045,17 @@
         "duration": "03:15"
     },
     {
+        "flight_number": "BR131",
+        "airline_name": "EVA Air",
+        "destination_iata": "TPE",
+        "destination_airport_name": "Taipei Taoyuan International Airport",
+        "destination_city": "Taipei",
+        "destination_country": "Taiwan",
+        "local_departure_time": "13:10",
+        "local_arrival_time": "15:05",
+        "duration": "02:55"
+    },
+    {
         "flight_number": "CI157",
         "airline_name": "China Airlines",
         "destination_iata": "TPE",
@@ -988,28 +1065,6 @@
         "local_departure_time": "13:10",
         "local_arrival_time": "15:00",
         "duration": "02:50"
-    },
-    {
-        "flight_number": "CZ612",
-        "airline_name": "China Southern Airlines",
-        "destination_iata": "SHE",
-        "destination_airport_name": "Shenyang Taoxian International Airport",
-        "destination_city": "Shenyang",
-        "destination_country": "China",
-        "local_departure_time": "13:10",
-        "local_arrival_time": "15:30",
-        "duration": "03:20"
-    },
-    {
-        "flight_number": "GS7978",
-        "airline_name": "Tianjin Airlines",
-        "destination_iata": "TSN",
-        "destination_airport_name": "Tianjin Binhai International Airport",
-        "destination_city": "Tianjin",
-        "destination_country": "China",
-        "local_departure_time": "13:10",
-        "local_arrival_time": "14:55",
-        "duration": "02:45"
     },
     {
         "flight_number": "MU226",
@@ -1023,17 +1078,6 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "BR131",
-        "airline_name": "EVA Air",
-        "destination_iata": "TPE",
-        "destination_airport_name": "Taipei Taoyuan International Airport",
-        "destination_city": "Taipei",
-        "destination_country": "Taiwan",
-        "local_departure_time": "13:10",
-        "local_arrival_time": "15:05",
-        "duration": "02:55"
-    },
-    {
         "flight_number": "LJ234",
         "airline_name": "Jin Air",
         "destination_iata": "ICN",
@@ -1043,6 +1087,17 @@
         "local_departure_time": "13:10",
         "local_arrival_time": "15:00",
         "duration": "01:50"
+    },
+    {
+        "flight_number": "CZ612",
+        "airline_name": "China Southern Airlines",
+        "destination_iata": "SHE",
+        "destination_airport_name": "Shenyang Taoxian International Airport",
+        "destination_city": "Shenyang",
+        "destination_country": "China",
+        "local_departure_time": "13:10",
+        "local_arrival_time": "15:30",
+        "duration": "03:20"
     },
     {
         "flight_number": "MF836",
@@ -1085,8 +1140,8 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "13:30",
-        "local_arrival_time": "15:00",
-        "duration": "02:30"
+        "local_arrival_time": "14:55",
+        "duration": "02:25"
     },
     {
         "flight_number": "7C1374",
@@ -1111,6 +1166,17 @@
         "duration": "02:35"
     },
     {
+        "flight_number": "MU2038",
+        "airline_name": "China Eastern Airlines",
+        "destination_iata": "TAO",
+        "destination_airport_name": "Qingdao Jiaodong International Airport",
+        "destination_city": "Qingdao",
+        "destination_country": "China",
+        "local_departure_time": "13:50",
+        "local_arrival_time": "15:50",
+        "duration": "03:00"
+    },
+    {
         "flight_number": "MU2576",
         "airline_name": "China Eastern Airlines",
         "destination_iata": "WUH",
@@ -1131,6 +1197,17 @@
         "local_departure_time": "13:55",
         "local_arrival_time": "16:55",
         "duration": "04:00"
+    },
+    {
+        "flight_number": "D7533",
+        "airline_name": "AirAsia X",
+        "destination_iata": "KUL",
+        "destination_airport_name": "Kuala Lumpur International Airport",
+        "destination_city": "Kuala Lumpur",
+        "destination_country": "Malaysia",
+        "local_departure_time": "14:00",
+        "local_arrival_time": "20:00",
+        "duration": "07:00"
     },
     {
         "flight_number": "BX125",
@@ -1155,15 +1232,15 @@
         "duration": "02:55"
     },
     {
-        "flight_number": "MF8724",
+        "flight_number": "MF8654",
         "airline_name": "Xiamen Air",
-        "destination_iata": "HGH",
-        "destination_airport_name": "Hangzhou Xiaoshan International Airport",
-        "destination_city": "Hangzhou",
+        "destination_iata": "CKG",
+        "destination_airport_name": "Chongqing Jiangbei International Airport",
+        "destination_city": "Chongqing",
         "destination_country": "China",
         "local_departure_time": "14:00",
-        "local_arrival_time": "16:05",
-        "duration": "03:05"
+        "local_arrival_time": "17:25",
+        "duration": "04:25"
     },
     {
         "flight_number": "CA928",
@@ -1200,7 +1277,7 @@
     },
     {
         "flight_number": "Z2189",
-        "airline_name": "AirAsia",
+        "airline_name": "Philippines AirAsia",
         "destination_iata": "MNL",
         "destination_airport_name": "Manila Ninoy Aquino International Airport",
         "destination_city": "Manila",
@@ -1243,30 +1320,8 @@
         "duration": "02:45"
     },
     {
-        "flight_number": "D7533",
-        "airline_name": "AirAsia X",
-        "destination_iata": "KUL",
-        "destination_airport_name": "Kuala Lumpur International Airport",
-        "destination_city": "Kuala Lumpur",
-        "destination_country": "Malaysia",
-        "local_departure_time": "14:25",
-        "local_arrival_time": "20:25",
-        "duration": "07:00"
-    },
-    {
-        "flight_number": "GJ8250",
-        "airline_name": "Loong Air",
-        "destination_iata": "HGH",
-        "destination_airport_name": "Hangzhou Xiaoshan International Airport",
-        "destination_city": "Hangzhou",
-        "destination_country": "China",
-        "local_departure_time": "14:25",
-        "local_arrival_time": "16:10",
-        "duration": "02:45"
-    },
-    {
         "flight_number": "UO687",
-        "airline_name": "Hong Kong Express",
+        "airline_name": "HK express",
         "destination_iata": "HKG",
         "destination_airport_name": "Hong Kong International Airport",
         "destination_city": "Hong Kong",
@@ -1287,6 +1342,17 @@
         "duration": "04:05"
     },
     {
+        "flight_number": "HU772",
+        "airline_name": "Hainan Airlines",
+        "destination_iata": "HAK",
+        "destination_airport_name": "Haikou Meilan International Airport",
+        "destination_city": "Haikou",
+        "destination_country": "China",
+        "local_departure_time": "14:30",
+        "local_arrival_time": "18:20",
+        "duration": "04:50"
+    },
+    {
         "flight_number": "HU402",
         "airline_name": "Hainan Airlines",
         "destination_iata": "CKG",
@@ -1304,9 +1370,9 @@
         "destination_airport_name": "Seoul Incheon International Airport",
         "destination_city": "Seoul",
         "destination_country": "South Korea",
-        "local_departure_time": "14:30",
-        "local_arrival_time": "16:30",
-        "duration": "02:00"
+        "local_departure_time": "14:30 / 15:30",
+        "local_arrival_time": "16:30 / 17:35",
+        "duration": "02:05"
     },
     {
         "flight_number": "CZ390",
@@ -1316,8 +1382,8 @@
         "destination_city": "Guangzhou",
         "destination_country": "China",
         "local_departure_time": "14:40",
-        "local_arrival_time": "18:25",
-        "duration": "04:45"
+        "local_arrival_time": "18:15",
+        "duration": "04:35"
     },
     {
         "flight_number": "HX615",
@@ -1337,9 +1403,9 @@
         "destination_airport_name": "Tokyo Haneda International Airport",
         "destination_city": "Tokyo",
         "destination_country": "Japan",
-        "local_departure_time": "14:45",
+        "local_departure_time": "14:55",
         "local_arrival_time": "16:10",
-        "duration": "01:25"
+        "duration": "01:15"
     },
     {
         "flight_number": "MM155",
@@ -1364,6 +1430,17 @@
         "duration": "02:40"
     },
     {
+        "flight_number": "NH1715",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "15:00",
+        "local_arrival_time": "16:50",
+        "duration": "01:50"
+    },
+    {
         "flight_number": "ZH662",
         "airline_name": "Shenzhen Airlines",
         "destination_iata": "SZX",
@@ -1371,8 +1448,19 @@
         "destination_city": "Shenzhen",
         "destination_country": "China",
         "local_departure_time": "15:05",
-        "local_arrival_time": "18:20",
-        "duration": "04:15"
+        "local_arrival_time": "18:25",
+        "duration": "04:20"
+    },
+    {
+        "flight_number": "GK55",
+        "airline_name": "Jetstar Japan",
+        "destination_iata": "TPE",
+        "destination_airport_name": "Taipei Taoyuan International Airport",
+        "destination_city": "Taipei",
+        "destination_country": "Taiwan",
+        "local_departure_time": "15:10",
+        "local_arrival_time": "17:05",
+        "duration": "02:55"
     },
     {
         "flight_number": "JX823",
@@ -1404,8 +1492,8 @@
         "destination_city": "Sapporo",
         "destination_country": "Japan",
         "local_departure_time": "15:20",
-        "local_arrival_time": "17:15",
-        "duration": "01:55"
+        "local_arrival_time": "17:10",
+        "duration": "01:50"
     },
     {
         "flight_number": "PR411",
@@ -1430,15 +1518,15 @@
         "duration": "03:15"
     },
     {
-        "flight_number": "GK55",
-        "airline_name": "Jetstar Japan",
-        "destination_iata": "TPE",
-        "destination_airport_name": "Taipei Taoyuan International Airport",
-        "destination_city": "Taipei",
-        "destination_country": "Taiwan",
-        "local_departure_time": "15:25",
-        "local_arrival_time": "17:20",
-        "duration": "02:55"
+        "flight_number": "CZ6032",
+        "airline_name": "China Southern Airlines",
+        "destination_iata": "CSX",
+        "destination_airport_name": "Changsha Huanghua International Airport",
+        "destination_city": "Changsha",
+        "destination_country": "China",
+        "local_departure_time": "15:30",
+        "local_arrival_time": "18:05",
+        "duration": "03:35"
     },
     {
         "flight_number": "GK159",
@@ -1452,17 +1540,6 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "HO1620",
-        "airline_name": "Juneyao Air",
-        "destination_iata": "NKG",
-        "destination_airport_name": "Nanjing Lukou International Airport",
-        "destination_city": "Nanjing",
-        "destination_country": "China",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "17:15",
-        "duration": "02:45"
-    },
-    {
         "flight_number": "VJ931",
         "airline_name": "VietJet Air",
         "destination_iata": "HAN",
@@ -1474,26 +1551,26 @@
         "duration": "05:00"
     },
     {
-        "flight_number": "9C6590",
-        "airline_name": "Spring Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "15:30",
-        "local_arrival_time": "17:05",
-        "duration": "02:35"
-    },
-    {
         "flight_number": "MM27",
         "airline_name": "Peach",
         "destination_iata": "TPE",
         "destination_airport_name": "Taipei Taoyuan International Airport",
         "destination_city": "Taipei",
         "destination_country": "Taiwan",
-        "local_departure_time": "15:45",
+        "local_departure_time": "15:35",
         "local_arrival_time": "17:50",
-        "duration": "03:05"
+        "duration": "03:15"
+    },
+    {
+        "flight_number": "MM115",
+        "airline_name": "Peach",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "15:45",
+        "local_arrival_time": "17:45",
+        "duration": "02:00"
     },
     {
         "flight_number": "TR821",
@@ -1505,17 +1582,6 @@
         "local_departure_time": "15:50",
         "local_arrival_time": "21:20",
         "duration": "06:30"
-    },
-    {
-        "flight_number": "NH975",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "15:55",
-        "local_arrival_time": "17:20",
-        "duration": "02:25"
     },
     {
         "flight_number": "MU526",
@@ -1540,15 +1606,15 @@
         "duration": "03:10"
     },
     {
-        "flight_number": "BX173",
-        "airline_name": "Air Busan",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
+        "flight_number": "3U3964",
+        "airline_name": "Sichuan Airlines",
+        "destination_iata": "TFU",
+        "destination_airport_name": "Chengdu Tianfu International Airport",
+        "destination_city": "Chengdu",
+        "destination_country": "China",
         "local_departure_time": "16:00",
-        "local_arrival_time": "18:10",
-        "duration": "02:10"
+        "local_arrival_time": "19:35",
+        "duration": "04:35"
     },
     {
         "flight_number": "HO1572",
@@ -1562,37 +1628,15 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "NH1717",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "CTS",
-        "destination_airport_name": "Sapporo New Chitose Airport",
-        "destination_city": "Sapporo",
-        "destination_country": "Japan",
+        "flight_number": "BX173",
+        "airline_name": "Air Busan",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
         "local_departure_time": "16:00",
-        "local_arrival_time": "17:55",
-        "duration": "01:55"
-    },
-    {
-        "flight_number": "3U3964",
-        "airline_name": "Sichuan Airlines",
-        "destination_iata": "TFU",
-        "destination_airport_name": "Chengdu Tianfu International Airport",
-        "destination_city": "Chengdu",
-        "destination_country": "China",
-        "local_departure_time": "16:00",
-        "local_arrival_time": "19:35",
-        "duration": "04:35"
-    },
-    {
-        "flight_number": "NH992",
-        "airline_name": "All Nippon Airways",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "16:10",
-        "local_arrival_time": "17:35",
-        "duration": "01:25"
+        "local_arrival_time": "18:10",
+        "duration": "02:10"
     },
     {
         "flight_number": "LJ236",
@@ -1601,20 +1645,31 @@
         "destination_airport_name": "Seoul Incheon International Airport",
         "destination_city": "Seoul",
         "destination_country": "South Korea",
-        "local_departure_time": "16:15",
-        "local_arrival_time": "18:10",
-        "duration": "01:55"
+        "local_departure_time": "16:00",
+        "local_arrival_time": "18:00",
+        "duration": "02:00"
     },
     {
-        "flight_number": "RS714",
-        "airline_name": "Air Seoul",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "16:15",
-        "local_arrival_time": "18:25",
-        "duration": "02:10"
+        "flight_number": "NH992",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "16:05",
+        "local_arrival_time": "17:30",
+        "duration": "01:25"
+    },
+    {
+        "flight_number": "NH1717",
+        "airline_name": "All Nippon Airways",
+        "destination_iata": "CTS",
+        "destination_airport_name": "Sapporo New Chitose Airport",
+        "destination_city": "Sapporo",
+        "destination_country": "Japan",
+        "local_departure_time": "16:10",
+        "local_arrival_time": "18:00",
+        "duration": "01:50"
     },
     {
         "flight_number": "CX565",
@@ -1628,39 +1683,6 @@
         "duration": "02:55"
     },
     {
-        "flight_number": "MM115",
-        "airline_name": "Peach",
-        "destination_iata": "CTS",
-        "destination_airport_name": "Sapporo New Chitose Airport",
-        "destination_city": "Sapporo",
-        "destination_country": "Japan",
-        "local_departure_time": "16:20",
-        "local_arrival_time": "18:20",
-        "duration": "02:00"
-    },
-    {
-        "flight_number": "HO1520",
-        "airline_name": "Juneyao Air",
-        "destination_iata": "CSX",
-        "destination_airport_name": "Changsha Huanghua International Airport",
-        "destination_city": "Changsha",
-        "destination_country": "China",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "19:00",
-        "duration": "03:30"
-    },
-    {
-        "flight_number": "MU748",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "18:30",
-        "duration": "03:00"
-    },
-    {
         "flight_number": "9C6988",
         "airline_name": "Spring Airlines",
         "destination_iata": "DLC",
@@ -1670,17 +1692,6 @@
         "local_departure_time": "16:30",
         "local_arrival_time": "17:55",
         "duration": "02:25"
-    },
-    {
-        "flight_number": "7C1388",
-        "airline_name": "Jeju Air",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "16:30",
-        "local_arrival_time": "18:35",
-        "duration": "02:05"
     },
     {
         "flight_number": "CA128",
@@ -1712,8 +1723,19 @@
         "destination_city": "Jinan",
         "destination_country": "China",
         "local_departure_time": "16:50",
-        "local_arrival_time": "19:00",
-        "duration": "03:10"
+        "local_arrival_time": "18:50",
+        "duration": "03:00"
+    },
+    {
+        "flight_number": "UA34",
+        "airline_name": "United Airlines",
+        "destination_iata": "SFO",
+        "destination_airport_name": "San Francisco International Airport",
+        "destination_city": "San Francisco",
+        "destination_country": "United States",
+        "local_departure_time": "16:50",
+        "local_arrival_time": "11:00",
+        "duration": "10:10"
     },
     {
         "flight_number": "CZ8106",
@@ -1727,17 +1749,6 @@
         "duration": "02:40"
     },
     {
-        "flight_number": "UA34",
-        "airline_name": "United Airlines",
-        "destination_iata": "SFO",
-        "destination_airport_name": "San Francisco International Airport",
-        "destination_city": "San Francisco",
-        "destination_country": "United States",
-        "local_departure_time": "16:55",
-        "local_arrival_time": "11:00",
-        "duration": "10:05"
-    },
-    {
         "flight_number": "9C6574",
         "airline_name": "Spring Airlines",
         "destination_iata": "PVG",
@@ -1745,8 +1756,8 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "17:00",
-        "local_arrival_time": "19:00",
-        "duration": "03:00"
+        "local_arrival_time": "18:55",
+        "duration": "02:55"
     },
     {
         "flight_number": "OZ113",
@@ -1771,28 +1782,6 @@
         "duration": "04:10"
     },
     {
-        "flight_number": "7C1386",
-        "airline_name": "Jeju Air",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "17:05",
-        "local_arrival_time": "19:05",
-        "duration": "02:00"
-    },
-    {
-        "flight_number": "GS7984",
-        "airline_name": "Tianjin Airlines",
-        "destination_iata": "KWE",
-        "destination_airport_name": "Guiyang Longdongbao International Airport",
-        "destination_city": "Guiyang",
-        "destination_country": "China",
-        "local_departure_time": "17:10",
-        "local_arrival_time": "20:40",
-        "duration": "04:30"
-    },
-    {
         "flight_number": "ZH664",
         "airline_name": "Shenzhen Airlines",
         "destination_iata": "SZX",
@@ -1804,6 +1793,17 @@
         "duration": "04:15"
     },
     {
+        "flight_number": "HU426",
+        "airline_name": "Hainan Airlines",
+        "destination_iata": "XIY",
+        "destination_airport_name": "Xi'an Xianyang International Airport",
+        "destination_city": "Xi'an",
+        "destination_country": "China",
+        "local_departure_time": "17:15",
+        "local_arrival_time": "20:45",
+        "duration": "04:30"
+    },
+    {
         "flight_number": "HO1582",
         "airline_name": "Juneyao Air",
         "destination_iata": "PVG",
@@ -1811,19 +1811,8 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "17:20",
-        "local_arrival_time": "18:55",
-        "duration": "02:35"
-    },
-    {
-        "flight_number": "SC4094",
-        "airline_name": "Shandong Airlines",
-        "destination_iata": "TAO",
-        "destination_airport_name": "Qingdao Jiaodong International Airport",
-        "destination_city": "Qingdao",
-        "destination_country": "China",
-        "local_departure_time": "17:20",
-        "local_arrival_time": "19:05",
-        "duration": "02:45"
+        "local_arrival_time": "18:50",
+        "duration": "02:30"
     },
     {
         "flight_number": "SQ621",
@@ -1848,17 +1837,6 @@
         "duration": "04:15"
     },
     {
-        "flight_number": "LJ238",
-        "airline_name": "Jin Air",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "17:30",
-        "local_arrival_time": "19:20",
-        "duration": "01:50"
-    },
-    {
         "flight_number": "MU6052",
         "airline_name": "China Eastern Airlines",
         "destination_iata": "PVG",
@@ -1868,6 +1846,17 @@
         "local_departure_time": "17:30",
         "local_arrival_time": "19:30",
         "duration": "03:00"
+    },
+    {
+        "flight_number": "LJ238",
+        "airline_name": "Jin Air",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
+        "local_departure_time": "17:30",
+        "local_arrival_time": "19:20",
+        "duration": "01:50"
     },
     {
         "flight_number": "7G26",
@@ -1937,14 +1926,14 @@
     },
     {
         "flight_number": "JL60",
-        "airline_name": "Japan Airlines",
+        "airline_name": "Jet Linx Aviation",
         "destination_iata": "LAX",
         "destination_airport_name": "Los Angeles International Airport",
         "destination_city": "Los Angeles",
         "destination_country": "United States",
         "local_departure_time": "17:55",
-        "local_arrival_time": "12:35",
-        "duration": "10:40"
+        "local_arrival_time": "12:05",
+        "duration": "10:10"
     },
     {
         "flight_number": "9C6330",
@@ -1969,15 +1958,15 @@
         "duration": "03:00"
     },
     {
-        "flight_number": "GJ8078",
-        "airline_name": "Loong Air",
-        "destination_iata": "HGH",
-        "destination_airport_name": "Hangzhou Xiaoshan International Airport",
-        "destination_city": "Hangzhou",
-        "destination_country": "China",
+        "flight_number": "PR409",
+        "airline_name": "Philippine Airlines",
+        "destination_iata": "CEB",
+        "destination_airport_name": "Cebu Mactan International Airport",
+        "destination_city": "Cebu",
+        "destination_country": "Philippines",
         "local_departure_time": "18:00",
-        "local_arrival_time": "20:10",
-        "duration": "03:10"
+        "local_arrival_time": "21:35",
+        "duration": "04:35"
     },
     {
         "flight_number": "RS716",
@@ -2002,26 +1991,26 @@
         "duration": "01:55"
     },
     {
-        "flight_number": "AC60",
+        "flight_number": "AC24",
         "airline_name": "Air Canada",
-        "destination_iata": "YYZ",
-        "destination_airport_name": "Toronto Pearson International Airport",
-        "destination_city": "Toronto",
+        "destination_iata": "YVR",
+        "destination_airport_name": "Vancouver International Airport",
+        "destination_city": "Vancouver",
         "destination_country": "Canada",
         "local_departure_time": "18:05",
-        "local_arrival_time": "17:45",
-        "duration": "12:40"
+        "local_arrival_time": "11:20",
+        "duration": "09:15"
     },
     {
-        "flight_number": "EY815",
-        "airline_name": "Etihad Airways",
-        "destination_iata": "AUH",
-        "destination_airport_name": "Abu Dhabi Zayed International Airport",
-        "destination_city": "Abu Dhabi",
-        "destination_country": "United Arab Emirates",
+        "flight_number": "KE726",
+        "airline_name": "Korean Air",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
         "local_departure_time": "18:10",
-        "local_arrival_time": "00:15 (+1)",
-        "duration": "11:05"
+        "local_arrival_time": "20:10",
+        "duration": "02:00"
     },
     {
         "flight_number": "HO1574",
@@ -2044,17 +2033,6 @@
         "local_departure_time": "18:15",
         "local_arrival_time": "20:10",
         "duration": "01:55"
-    },
-    {
-        "flight_number": "KE726",
-        "airline_name": "Korean Air",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "18:20",
-        "local_arrival_time": "20:10",
-        "duration": "01:50"
     },
     {
         "flight_number": "BR129",
@@ -2130,19 +2108,8 @@
         "destination_city": "Doha",
         "destination_country": "Qatar",
         "local_departure_time": "18:55",
-        "local_arrival_time": "23:10",
-        "duration": "10:15"
-    },
-    {
-        "flight_number": "MM159",
-        "airline_name": "Peach",
-        "destination_iata": "FUK",
-        "destination_airport_name": "Fukuoka Airport",
-        "destination_city": "Fukuoka",
-        "destination_country": "Japan",
-        "local_departure_time": "18:55",
-        "local_arrival_time": "20:15",
-        "duration": "01:20"
+        "local_arrival_time": "00:05 (+1)",
+        "duration": "11:10"
     },
     {
         "flight_number": "TW320",
@@ -2156,6 +2123,17 @@
         "duration": "01:35"
     },
     {
+        "flight_number": "MM159",
+        "airline_name": "Peach",
+        "destination_iata": "FUK",
+        "destination_airport_name": "Fukuoka Airport",
+        "destination_city": "Fukuoka",
+        "destination_country": "Japan",
+        "local_departure_time": "18:55",
+        "local_arrival_time": "20:15",
+        "duration": "01:20"
+    },
+    {
         "flight_number": "FM822",
         "airline_name": "Shanghai Airlines",
         "destination_iata": "PVG",
@@ -2163,8 +2141,19 @@
         "destination_city": "Shanghai",
         "destination_country": "China",
         "local_departure_time": "19:00",
-        "local_arrival_time": "21:05",
-        "duration": "03:05"
+        "local_arrival_time": "21:15",
+        "duration": "03:15"
+    },
+    {
+        "flight_number": "MU242",
+        "airline_name": "China Eastern Airlines",
+        "destination_iata": "TFU",
+        "destination_airport_name": "Chengdu Tianfu International Airport",
+        "destination_city": "Chengdu",
+        "destination_country": "China",
+        "local_departure_time": "19:00",
+        "local_arrival_time": "23:15",
+        "duration": "05:15"
     },
     {
         "flight_number": "7C1354",
@@ -2176,17 +2165,6 @@
         "local_departure_time": "19:00",
         "local_arrival_time": "20:30",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "MU6062",
-        "airline_name": "China Eastern Airlines",
-        "destination_iata": "KHN",
-        "destination_airport_name": "Nanchang Changbei International Airport",
-        "destination_city": "Nanchang",
-        "destination_country": "China",
-        "local_departure_time": "19:00",
-        "local_arrival_time": "21:00",
-        "duration": "03:00"
     },
     {
         "flight_number": "CI173",
@@ -2233,6 +2211,17 @@
         "duration": "01:50"
     },
     {
+        "flight_number": "OZ117",
+        "airline_name": "Asiana Airlines",
+        "destination_iata": "ICN",
+        "destination_airport_name": "Seoul Incheon International Airport",
+        "destination_city": "Seoul",
+        "destination_country": "South Korea",
+        "local_departure_time": "19:10",
+        "local_arrival_time": "21:10",
+        "duration": "02:00"
+    },
+    {
         "flight_number": "KE554",
         "airline_name": "Korean Air",
         "destination_iata": "ICN",
@@ -2255,6 +2244,17 @@
         "duration": "02:35"
     },
     {
+        "flight_number": "MM91",
+        "airline_name": "Peach",
+        "destination_iata": "BKK",
+        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
+        "destination_city": "Bangkok",
+        "destination_country": "Thailand",
+        "local_departure_time": "19:30",
+        "local_arrival_time": "23:55",
+        "duration": "06:25"
+    },
+    {
         "flight_number": "MM319",
         "airline_name": "Peach",
         "destination_iata": "NRT",
@@ -2264,17 +2264,6 @@
         "local_departure_time": "19:30",
         "local_arrival_time": "21:00",
         "duration": "01:30"
-    },
-    {
-        "flight_number": "QW9904",
-        "airline_name": "Qingdao Airlines",
-        "destination_iata": "TAO",
-        "destination_airport_name": "Qingdao Jiaodong International Airport",
-        "destination_city": "Qingdao",
-        "destination_country": "China",
-        "local_departure_time": "19:30",
-        "local_arrival_time": "21:20",
-        "duration": "02:50"
     },
     {
         "flight_number": "9C6582",
@@ -2310,17 +2299,6 @@
         "duration": "02:00"
     },
     {
-        "flight_number": "MM91",
-        "airline_name": "Peach",
-        "destination_iata": "BKK",
-        "destination_airport_name": "Bangkok Suvarnabhumi Airport",
-        "destination_city": "Bangkok",
-        "destination_country": "Thailand",
-        "local_departure_time": "19:45",
-        "local_arrival_time": "23:55",
-        "duration": "06:10"
-    },
-    {
         "flight_number": "IT213",
         "airline_name": "Tigerair Taiwan",
         "destination_iata": "TPE",
@@ -2341,6 +2319,17 @@
         "local_departure_time": "19:55",
         "local_arrival_time": "21:50",
         "duration": "01:55"
+    },
+    {
+        "flight_number": "5J827",
+        "airline_name": "Cebu Pacific",
+        "destination_iata": "MNL",
+        "destination_airport_name": "Manila Ninoy Aquino International Airport",
+        "destination_city": "Manila",
+        "destination_country": "Philippines",
+        "local_departure_time": "19:55",
+        "local_arrival_time": "23:25",
+        "duration": "04:30"
     },
     {
         "flight_number": "GK226",
@@ -2365,17 +2354,6 @@
         "duration": "04:10"
     },
     {
-        "flight_number": "9C6592",
-        "airline_name": "Spring Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "20:30",
-        "local_arrival_time": "22:10",
-        "duration": "02:40"
-    },
-    {
         "flight_number": "HO1626",
         "airline_name": "Juneyao Air",
         "destination_iata": "PKX",
@@ -2387,15 +2365,26 @@
         "duration": "03:10"
     },
     {
-        "flight_number": "BR147",
-        "airline_name": "EVA Air",
-        "destination_iata": "KHH",
-        "destination_airport_name": "Kaohsiung International Airport",
-        "destination_city": "Kaohsiung",
-        "destination_country": "Taiwan",
-        "local_departure_time": "20:35",
-        "local_arrival_time": "22:55",
-        "duration": "03:20"
+        "flight_number": "MM67",
+        "airline_name": "Peach",
+        "destination_iata": "HKG",
+        "destination_airport_name": "Hong Kong International Airport",
+        "destination_city": "Hong Kong",
+        "destination_country": "Hong Kong",
+        "local_departure_time": "20:30",
+        "local_arrival_time": "23:55",
+        "duration": "04:25"
+    },
+    {
+        "flight_number": "9C6592",
+        "airline_name": "Spring Airlines",
+        "destination_iata": "PVG",
+        "destination_airport_name": "Shanghai Pudong International Airport",
+        "destination_city": "Shanghai",
+        "destination_country": "China",
+        "local_departure_time": "20:30",
+        "local_arrival_time": "21:55",
+        "duration": "02:25"
     },
     {
         "flight_number": "CI177",
@@ -2407,17 +2396,6 @@
         "local_departure_time": "20:35",
         "local_arrival_time": "22:50",
         "duration": "03:15"
-    },
-    {
-        "flight_number": "MM67",
-        "airline_name": "Peach",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "20:40",
-        "local_arrival_time": "23:55",
-        "duration": "04:15"
     },
     {
         "flight_number": "UO689",
@@ -2438,8 +2416,8 @@
         "destination_city": "Honolulu",
         "destination_country": "United States",
         "local_departure_time": "20:45",
-        "local_arrival_time": "10:10",
-        "duration": "08:25"
+        "local_arrival_time": "10:05",
+        "duration": "08:20"
     },
     {
         "flight_number": "HB345",
@@ -2464,19 +2442,8 @@
         "duration": "01:30"
     },
     {
-        "flight_number": "MM6323",
-        "airline_name": "Peach",
-        "destination_iata": "NRT",
-        "destination_airport_name": "Tokyo Narita International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "20:55",
-        "local_arrival_time": "22:25",
-        "duration": "01:30"
-    },
-    {
         "flight_number": "XJ611",
-        "airline_name": "AirAsia X",
+        "airline_name": "Thai AirAsia X",
         "destination_iata": "DMK",
         "destination_airport_name": "Bangkok Don Mueang International Airport",
         "destination_city": "Bangkok",
@@ -2484,28 +2451,6 @@
         "local_departure_time": "21:00",
         "local_arrival_time": "01:30 (+1)",
         "duration": "06:30"
-    },
-    {
-        "flight_number": "JL228",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "HND",
-        "destination_airport_name": "Tokyo Haneda International Airport",
-        "destination_city": "Tokyo",
-        "destination_country": "Japan",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "22:25",
-        "duration": "01:25"
-    },
-    {
-        "flight_number": "CI5147",
-        "airline_name": "China Airlines",
-        "destination_iata": "TPE",
-        "destination_airport_name": "Taipei Taoyuan International Airport",
-        "destination_city": "Taipei",
-        "destination_country": "Taiwan",
-        "local_departure_time": "21:00",
-        "local_arrival_time": "22:40",
-        "duration": "02:40"
     },
     {
         "flight_number": "D7379",
@@ -2517,6 +2462,17 @@
         "local_departure_time": "21:05",
         "local_arrival_time": "23:00",
         "duration": "02:55"
+    },
+    {
+        "flight_number": "JL228",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "HND",
+        "destination_airport_name": "Tokyo Haneda International Airport",
+        "destination_city": "Tokyo",
+        "destination_country": "Japan",
+        "local_departure_time": "21:10",
+        "local_arrival_time": "22:25",
+        "duration": "01:15"
     },
     {
         "flight_number": "NH98",
@@ -2541,28 +2497,6 @@
         "duration": "02:45"
     },
     {
-        "flight_number": "JQ14",
-        "airline_name": "Jetstar",
-        "destination_iata": "SYD",
-        "destination_airport_name": "Sydney Kingsford Smith Airport",
-        "destination_city": "Sydney",
-        "destination_country": "Australia",
-        "local_departure_time": "21:25",
-        "local_arrival_time": "08:10 (+1)",
-        "duration": "09:45"
-    },
-    {
-        "flight_number": "KN820",
-        "airline_name": "China United Airlines",
-        "destination_iata": "PKX",
-        "destination_airport_name": "Beijing Daxing International Airport",
-        "destination_city": "Beijing",
-        "destination_country": "China",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "23:45",
-        "duration": "03:15"
-    },
-    {
         "flight_number": "UO863",
         "airline_name": "HK express",
         "destination_iata": "HKG",
@@ -2574,70 +2508,15 @@
         "duration": "04:10"
     },
     {
-        "flight_number": "RF313",
-        "airline_name": "Aero K",
-        "destination_iata": "ICN",
-        "destination_airport_name": "Seoul Incheon International Airport",
-        "destination_city": "Seoul",
-        "destination_country": "South Korea",
-        "local_departure_time": "21:30",
-        "local_arrival_time": "23:15",
-        "duration": "01:45"
-    },
-    {
-        "flight_number": "SC8088",
-        "airline_name": "Shandong Airlines",
-        "destination_iata": "TNA",
-        "destination_airport_name": "Jinan Yaoqiang International Airport",
-        "destination_city": "Jinan",
-        "destination_country": "China",
-        "local_departure_time": "21:45",
-        "local_arrival_time": "23:40",
-        "duration": "02:55"
-    },
-    {
-        "flight_number": "Y87968",
-        "airline_name": "Suparna Airlines",
-        "destination_iata": "HGH",
-        "destination_airport_name": "Hangzhou Xiaoshan International Airport",
-        "destination_city": "Hangzhou",
-        "destination_country": "China",
-        "local_departure_time": "21:45",
-        "local_arrival_time": "23:25",
-        "duration": "02:40"
-    },
-    {
-        "flight_number": "JQ24",
-        "airline_name": "Jetstar",
-        "destination_iata": "BNE",
-        "destination_airport_name": "Brisbane Airport",
-        "destination_city": "Brisbane",
-        "destination_country": "Australia",
-        "local_departure_time": "21:45",
-        "local_arrival_time": "07:25 (+1)",
-        "duration": "08:40"
-    },
-    {
         "flight_number": "LD205",
         "airline_name": "Air Hong Kong",
         "destination_iata": "HKG",
         "destination_airport_name": "Hong Kong International Airport",
         "destination_city": "Hong Kong",
         "destination_country": "Hong Kong",
-        "local_departure_time": "21:50 / 22:45",
-        "local_arrival_time": "00:40 (+1) / 01:35 (+1)",
+        "local_departure_time": "21:50",
+        "local_arrival_time": "00:40 (+1)",
         "duration": "03:50"
-    },
-    {
-        "flight_number": "9C6586",
-        "airline_name": "Spring Airlines",
-        "destination_iata": "PVG",
-        "destination_airport_name": "Shanghai Pudong International Airport",
-        "destination_city": "Shanghai",
-        "destination_country": "China",
-        "local_departure_time": "21:55",
-        "local_arrival_time": "23:40",
-        "duration": "02:45"
     },
     {
         "flight_number": "SC4096",
@@ -2651,17 +2530,6 @@
         "duration": "02:25"
     },
     {
-        "flight_number": "JL792",
-        "airline_name": "Japan Airlines",
-        "destination_iata": "HNL",
-        "destination_airport_name": "Honolulu International Airport",
-        "destination_city": "Honolulu",
-        "destination_country": "United States",
-        "local_departure_time": "22:05",
-        "local_arrival_time": "11:00",
-        "duration": "07:55"
-    },
-    {
         "flight_number": "HO1338",
         "airline_name": "Juneyao Air",
         "destination_iata": "PVG",
@@ -2671,6 +2539,17 @@
         "local_departure_time": "22:10",
         "local_arrival_time": "23:30",
         "duration": "02:20"
+    },
+    {
+        "flight_number": "JL792",
+        "airline_name": "Jet Linx Aviation",
+        "destination_iata": "HNL",
+        "destination_airport_name": "Honolulu International Airport",
+        "destination_city": "Honolulu",
+        "destination_country": "United States",
+        "local_departure_time": "22:10",
+        "local_arrival_time": "10:45",
+        "duration": "07:35"
     },
     {
         "flight_number": "MM79",
@@ -2715,39 +2594,6 @@
         "local_departure_time": "22:30",
         "local_arrival_time": "02:00 (+1)",
         "duration": "04:30"
-    },
-    {
-        "flight_number": "BR667",
-        "airline_name": "EVA Air",
-        "destination_iata": "TPE",
-        "destination_airport_name": "Taipei Taoyuan International Airport",
-        "destination_city": "Taipei",
-        "destination_country": "Taiwan",
-        "local_departure_time": "22:30",
-        "local_arrival_time": "00:15 (+1)",
-        "duration": "02:45"
-    },
-    {
-        "flight_number": "MM69",
-        "airline_name": "Peach",
-        "destination_iata": "HKG",
-        "destination_airport_name": "Hong Kong International Airport",
-        "destination_city": "Hong Kong",
-        "destination_country": "Hong Kong",
-        "local_departure_time": "22:45",
-        "local_arrival_time": "02:00 (+1)",
-        "duration": "04:15"
-    },
-    {
-        "flight_number": "3U3880",
-        "airline_name": "Sichuan Airlines",
-        "destination_iata": "CTU",
-        "destination_airport_name": "Chengdu Shuangliu International Airport",
-        "destination_city": "Chengdu",
-        "destination_country": "China",
-        "local_departure_time": "22:45",
-        "local_arrival_time": "02:05 (+1)",
-        "duration": "04:20"
     },
     {
         "flight_number": "SC2488",
