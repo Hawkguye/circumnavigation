@@ -509,7 +509,7 @@ async function drawNewChallenges(){
     if (cursed_challenges) {
         await delay(1000);
         $("#challenge-card-2").html(createChallengeCard(cards, 1));
-        bindChallengeButton(1, cards[0]);
+        bindChallengeButton(2, cards[0]);
     } else {
         for (let i = 1; i <= 3; i++) {
             await delay(1000);
