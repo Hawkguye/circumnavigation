@@ -473,38 +473,24 @@ const planeMarker = L.icon({
 
 function recordRoute(){
     // Calculate the longitudes that the shortest line between origin and destination crosses
-    let [originLng, originLat] = origin_latlng;
-    let [destLng, destLat] = dest_latlng;
-
     if (originLng < -180) originLng = (originLng % 360) + 360;
     if (destLng < -180) destLng = (destLng % 360) + 360;
     if (originLng > 180) originLng = (originLng % 360) - 360;
     if (destLng > 180) destLng = (destLng % 360) - 360;
+
+    if (originLng < 0) originLng += 360;
+    if (destLng < 0) destLng += 360;
+    if (destLng < originLng) [originLng, destLng] = [destLng, originLng];
+    // now it's originlng < destlng in [0, 360]. if lng > 180, it should be lng - 360
+    // if destlng - originlng > 180, originlng += 360, because its traveling the other way around
+    if (destLng - originLng > 180) [originLng, destLng] = [destLng, originLng + 360];
     
-    // Handle cases where the route crosses the dateline
-    let lngDiff = destLng - originLng;
-    
-    // Normalize longitude difference for dateline crossing
-    if (lngDiff > 180) {
-        lngDiff -= 360;
-    } else if (lngDiff < -180) {
-        lngDiff += 360;
-    }
-    
-    // Calculate the number of longitude degrees to check
-    const numSteps = Math.max(Math.abs(lngDiff), 1);
-    const lngStep = lngDiff / numSteps;
-    
-    // Check each longitude along the route
-    for (let i = 0; i <= numSteps; i++) {
-        const currentLng = originLng + (lngStep * i);
-        const normalizedLng = ((currentLng + 180) % 360) - 180; // Normalize to [-180, 180]
-        
-        // Mark the longitude and adjacent longitudes as crossed
-        const floorLng = Math.floor(normalizedLng);
-        routeLngs[floorLng] = true;
-        routeLngs[floorLng + 1] = true;
-        routeLngs[floorLng - 1] = true;
+    for (let i = Math.floor(originLng); i <= Math.ceil(destLng); i++) {
+        let currentLng = i % 360;
+        currentLng = i > 180 ? i - 360 : i ;
+        routeLngs[currentLng] = true;
+        routeLngs[currentLng + 1] = true;
+        routeLngs[currentLng - 1] = true;
     }
 }
 
