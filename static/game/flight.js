@@ -473,6 +473,9 @@ const planeMarker = L.icon({
 
 function recordRoute(){
     // Calculate the longitudes that the shortest line between origin and destination crosses
+    let [originLng, originLat] = origin_latlng;
+    let [destLng, destLat] = dest_latlng;
+
     if (originLng < -180) originLng = (originLng % 360) + 360;
     if (destLng < -180) destLng = (destLng % 360) + 360;
     if (originLng > 180) originLng = (originLng % 360) - 360;
