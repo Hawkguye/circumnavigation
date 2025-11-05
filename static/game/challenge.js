@@ -826,7 +826,7 @@ function startRandomFlight(){
 }
 function finishRandomFlight(){
     randomFlightChallenge = false;
-    challangeFinished(`<h6>Welcome to ${findApData(dest_iata).municipality} (<b>${dest_iata}</b>)!<h6> You earned $1000!`, true)
+    challangeFinished(`<h6>Welcome to ${findApData(dest_iata).municipality} (<b>${dest_iata}</b>)!<h6> You earned $800!`, true)
     budget += 800;
     $("#money-left").text(`$${budget}`);
 }
